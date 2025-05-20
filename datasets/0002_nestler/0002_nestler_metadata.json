@@ -1,0 +1,111 @@
+{
+  "first_author": "Nestler",
+  "dataset": "0002",
+  "year": 2022,
+  "reference_a": "@article{nestler2022,\n  title = {A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation},\n  author = {Nestler, Steffen and Humberg, Sarah},\n  date = {2022-06-01},\n  journaltitle = {Psychometrika},\n  shortjournal = {Psychometrika},\n  volume = {87},\n  number = {2},\n  pages = {506--532},\n  doi = {10.1007/s11336-021-09787-w}\n}",
+  "reference_b": null,
+  "paper_doi": "https://doi.org/10.1007/s11336-021-09787-w",
+  "link_to_data": "https://osf.io/gmz7e",
+  "link_to_codebook": "https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699",
+  "link_to_code": "https://osf.io/53scf/",
+  "n_participants": 85,
+  "n_time_points": 100,
+  "n_beeps_per_day": 1,
+  "passive_data_available": "no",
+  "cross_sectional_available": "yes",
+  "topics": "personality, affect, motivation",
+  "implicit_missingness": "yes",
+  "raw_time_stamp": "no",
+  "sampling_scheme": "1x/day unclear schedule",
+  "participants": "unclear",
+  "coding_file": "0002_nestler_variables",
+  "additional_comments": null,
+  "coder_data": "Björn Siepe",
+  "coder_metadata": "Björn Siepe",
+  "features": [
+    {
+      "name": "id",
+      "description": "Participant ID",
+      "type": "categorical",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "day",
+      "description": "Day of study",
+      "type": "other",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "beep",
+      "description": "Beep of the day",
+      "type": "other",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "gm_sociable",
+      "description": "Unsociable (grand-mean centered)",
+      "type": "numeric",
+      "coding": "Today I was...\n\n1 (not at all) to 6 (extremely)",
+      "answer_categories": "6"
+    },
+    {
+      "name": "gm_creative",
+      "description": "Creative (grand-mean centered)",
+      "type": "numeric",
+      "coding": "Today I was...\n\n1 (not at all) to 6 (extremely)",
+      "answer_categories": "6"
+    },
+    {
+      "name": "gm_friendly",
+      "description": "Friendly (grand-mean centered)",
+      "type": "numeric",
+      "coding": "Today I was...\n\n1 (not at all) to 6 (extremely)",
+      "answer_categories": "6"
+    },
+    {
+      "name": "gm_organised",
+      "description": "Organised (grand-mean centered)",
+      "type": "numeric",
+      "coding": "Today I was...\n\n1 (not at all) to 6 (extremely)",
+      "answer_categories": "6"
+    },
+    {
+      "name": "gm_se",
+      "description": "Satisfied with myself (self-esteem, grand-mean centered)",
+      "type": "numeric",
+      "coding": "Today I was...\n\n1 (not at all) to 6 (extremely)",
+      "answer_categories": "6"
+    },
+    {
+      "name": "weekday",
+      "description": "Day of the week",
+      "type": "numeric",
+      "coding": "0-6",
+      "answer_categories": ""
+    },
+    {
+      "name": "temp",
+      "description": "Temperature",
+      "type": "numeric",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "rain",
+      "description": "Precipitation Rainfall",
+      "type": "numeric",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "nervous",
+      "description": "Nervous. (grand-mean centered)",
+      "type": "Likert",
+      "coding": "Today I was...\n\n1 (not at all) to 6 (extremely)\"",
+      "answer_categories": "6"
+    }
+  ]
+}

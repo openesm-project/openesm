@@ -1,0 +1,205 @@
+{
+  "first_author": "Fried",
+  "dataset": "0001",
+  "year": 2021,
+  "paper_doi": "https://doi.org/10.1177/21677026211017839",
+  "link_to_data": "https://osf.io/mvdpe/",
+  "link_to_code": "https://osf.io/mvdpe/",
+  "n_participants": 80,
+  "n_time_points": 56,
+  "n_beeps_per_day": 4,
+  "passive_data_available": "no",
+  "topics": "mental health, social contact, COVID",
+  "implicit_missingness": "no",
+  "raw_time_stamp": "yes",
+  "sampling_scheme": "4x/day",
+  "participants": "student sample",
+  "coding_file": "0001_fried_variables",
+  "additional_comments": null,
+  "coder_data": "Björn Siepe",
+  "coder_metadata": "Björn Siepe",
+  "features": [
+    {
+      "name": "id",
+      "description": "Participant ID",
+      "type": "categorical",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "scheduled",
+      "description": "Time of beep schedule",
+      "type": "PosixCt",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "issued",
+      "description": "Time of beep issue",
+      "type": "PosixCt",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "response",
+      "description": "Time of response",
+      "type": "PosixCt",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "duration",
+      "description": "Duration of response",
+      "type": "other",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "relax",
+      "description": "I found it difficult to relax.",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "irritable",
+      "description": "I felt (very) irritable",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "worry",
+      "description": "I was worried about different things",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "nervous",
+      "description": "I felt nervous, anxious or on edge",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "future",
+      "description": "I I felt that I had nothing to look forward",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "anhedonia",
+      "description": "I couldn't seem to experience any positive feeling at all",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "tired",
+      "description": "I felt tired",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "hungry",
+      "description": "In the past 3h, I was hungry",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "alone",
+      "description": "I felt like I lack companionship, or that I am not close to people.",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "angry",
+      "description": "I felt angry",
+      "type": "Likert",
+      "coding": "1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
+      "answer_categories": "5"
+    },
+    {
+      "name": "social_offline",
+      "description": "I spent ___ minutes on meaningful, offline, social interaction",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "social_online",
+      "description": "I spent __ minutes using social media to kill/pass the time",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "music",
+      "description": "I spent __ minutes listening to music",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "procrastinate",
+      "description": "To what degree did you postpone working on a task?",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "outdoors",
+      "description": "I spent __ minutes outside (outdoors) ?",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "c19_occupied",
+      "description": "I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it)",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "c19_worry",
+      "description": "I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "home",
+      "description": "I spent __ at home (including the home of parents/partner)",
+      "type": "Likert",
+      "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+      "answer_categories": "5"
+    },
+    {
+      "name": "day",
+      "description": "Day of study",
+      "type": "other",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "beep",
+      "description": "Beep of the day",
+      "type": "other",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "date",
+      "description": "Date",
+      "type": "Date",
+      "coding": "",
+      "answer_categories": ""
+    }
+  ]
+}

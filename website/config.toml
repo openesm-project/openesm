@@ -1,0 +1,89 @@
+baseURL = "https://bsiepe.github.io/openesm/"
+languageCode = "en-us"
+title = "OpenESM: Open Experience Sampling Method Database"
+theme = "PaperMod"
+
+# Enable search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Menu items
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "datasets"
+    name = "Datasets"
+    url = "/datasets/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+  [[menu.main]]
+    identifier = "documentation"
+    name = "Documentation"
+    url = "/docs/"
+    weight = 40
+  [[menu.main]]
+    identifier = "contribute"
+    name = "Contribute"
+    url = "/contribute/"
+    weight = 50
+
+# Enable HTML in Markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+# Parameters
+[params]
+  description = "Open Experience Sampling Method (ESM) Database"
+  
+  # Default theme (auto, light, dark)
+  defaultTheme = "auto"
+  
+  # Show code copy buttons
+  ShowCodeCopyButtons = true
+  
+  # Show post reading time
+  ShowReadingTime = false
+  
+  # Show table of contents
+  ShowToc = false
+  
+  # Open TOC by default
+  TocOpen = false
+
+  # Don't show posts on home page
+  mainSections = []
+
+  # Disable showing posts on home page
+  [params.homeInfoParams]
+    Title = "OpenESM"
+    Content = "Open Experience Sampling Method Database"
+  
+  
+  # Enable social icons  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/bsiepe/openesm"
+  
+  # Enable search
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+  
+  # Custom CSS
+  customCSS = ["css/custom.css"]

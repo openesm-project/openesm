@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/openesm/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=openesm/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Documentation | OpenESM: Open Experience Sampling Method Database</title>
+<meta name="keywords" content="">
+<meta name="description" content="OpenESM Documentation
+Welcome to the OpenESM documentation. Here you&rsquo;ll find information on how to use the OpenESM database and packages.
+Database Structure
+OpenESM contains a collection of experience sampling datasets, each with standardized metadata. The datasets are stored in TSV format, and each dataset has a corresponding JSON metadata file.
+Using the R Package
+# Install from GitHub
+devtools::install_github(&#34;yourusername/openesm-r&#34;)
+
+# Load the package
+library(openesm)
+
+# List available datasets
+list_datasets()
+
+# Download a dataset
+dataset &lt;- get_dataset(&#34;0001_fried&#34;)
+
+# Get metadata for a dataset
+metadata &lt;- get_metadata(&#34;0001_fried&#34;)
+Using the Python Package
+# Install from PyPI
+pip install openesm
+
+# Import the package
+import openesm
+
+# List available datasets
+openesm.list_datasets()
+
+# Download a dataset
+dataset = openesm.get_dataset(&#34;0001_fried&#34;)
+
+# Get metadata for a dataset
+metadata = openesm.get_metadata(&#34;0001_fried&#34;)
+">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/openesm/docs/">
+<link crossorigin="anonymous" href="/openesm/assets/css/stylesheet.1ed3c982f918e635b015fe55dfd09d90f73a62c857ed77906065055468a3cd32.css" integrity="sha256-HtPJgvkY5jWwFf5V39CdkPc6YshX7XeQYGUFVGijzTI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/openesm/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/openesm/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/openesm/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/openesm/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/openesm/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/openesm/docs/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/openesm/docs/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/openesm/" accesskey="h" title="OpenESM: Open Experience Sampling Method Database (Alt + H)">OpenESM: Open Experience Sampling Method Database</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/openesm/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/openesm/datasets/" title="Datasets">
+                    <span>Datasets</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/openesm/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/openesm/docs/" title="Documentation">
+                    <span class="active">Documentation</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/openesm/contribute/" title="Contribute">
+                    <span>Contribute</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Documentation
+  </h1>
+</header>
+<div class="post-content"><h1 id="openesm-documentation">OpenESM Documentation<a hidden class="anchor" aria-hidden="true" href="#openesm-documentation">#</a></h1>
+<p>Welcome to the OpenESM documentation. Here you&rsquo;ll find information on how to use the OpenESM database and packages.</p>
+<h2 id="database-structure">Database Structure<a hidden class="anchor" aria-hidden="true" href="#database-structure">#</a></h2>
+<p>OpenESM contains a collection of experience sampling datasets, each with standardized metadata. The datasets are stored in TSV format, and each dataset has a corresponding JSON metadata file.</p>
+<h2 id="using-the-r-package">Using the R Package<a hidden class="anchor" aria-hidden="true" href="#using-the-r-package">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Install from GitHub</span>
+</span></span><span style="display:flex;"><span>devtools<span style="color:#f92672">::</span><span style="color:#a6e22e">install_github</span>(<span style="color:#e6db74">&#34;yourusername/openesm-r&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Load the package</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(openesm)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># List available datasets</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">list_datasets</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Download a dataset</span>
+</span></span><span style="display:flex;"><span>dataset <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_dataset</span>(<span style="color:#e6db74">&#34;0001_fried&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get metadata for a dataset</span>
+</span></span><span style="display:flex;"><span>metadata <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_metadata</span>(<span style="color:#e6db74">&#34;0001_fried&#34;</span>)
+</span></span></code></pre></div><h2 id="using-the-python-package">Using the Python Package<a hidden class="anchor" aria-hidden="true" href="#using-the-python-package">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Install from PyPI</span>
+</span></span><span style="display:flex;"><span>pip install openesm
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Import the package</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> openesm
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># List available datasets</span>
+</span></span><span style="display:flex;"><span>openesm<span style="color:#f92672">.</span>list_datasets()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Download a dataset</span>
+</span></span><span style="display:flex;"><span>dataset <span style="color:#f92672">=</span> openesm<span style="color:#f92672">.</span>get_dataset(<span style="color:#e6db74">&#34;0001_fried&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get metadata for a dataset</span>
+</span></span><span style="display:flex;"><span>metadata <span style="color:#f92672">=</span> openesm<span style="color:#f92672">.</span>get_metadata(<span style="color:#e6db74">&#34;0001_fried&#34;</span>)
+</span></span></code></pre></div>
+
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/openesm/">OpenESM: Open Experience Sampling Method Database</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
