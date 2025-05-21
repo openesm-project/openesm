@@ -1,6 +1,5 @@
 ---
 title: "OpenESM: Open Experience Sampling Method Database"
-date: 2025-05-19
 # prevent showing posts
 hidemeta: true
 # Hide the default list of posts

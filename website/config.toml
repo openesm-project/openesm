@@ -1,6 +1,7 @@
 baseURL = "https://bsiepe.github.io/openesm/"
 languageCode = "en-us"
-title = "OpenESM: Open Experience Sampling Method Database"
+title = "openESM"
+description = "Open Experience Sampling Method (openESM) Database"
 theme = "PaperMod"
 
 # Enable search
@@ -64,16 +65,8 @@ theme = "PaperMod"
   # Don't show posts on home page
   mainSections = []
 
-  # Disable showing posts on home page
-  [params.homeInfoParams]
-    Title = "OpenESM"
-    Content = "Open Experience Sampling Method Database"
-  
-  
-  # Enable social icons  
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/bsiepe/openesm"
+  [params.footer]
+  text = "[Privacy](../privacy/) · [Source code](https://github.com/bsiepe/openesm)"
   
   # Enable search
   [params.fuseOpts]
@@ -87,3 +80,4 @@ theme = "PaperMod"
   
   # Custom CSS
   customCSS = ["css/custom.css"]
+
