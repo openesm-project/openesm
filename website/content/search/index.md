@@ -1,6 +1,5 @@
 ---
 title: "Search Datasets and Variables"
-date: 2025-05-19
 ---
 
 
