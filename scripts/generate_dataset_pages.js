@@ -12,6 +12,78 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
+// Function to format BibTeX as APA7 reference
+function formatAPAReference(bibtex) {
+  if (!bibtex) return '';
+  
+  try {
+    // Simple parser for the common fields - this is a basic implementation
+    // For a production system, you might want to use a proper BibTeX parser
+    const authorMatch = bibtex.match(/author\s*=\s*{([^}]+)}/);
+    const titleMatch = bibtex.match(/title\s*=\s*{([^}]+)}/);
+    const journalMatch = bibtex.match(/journaltitle\s*=\s*{([^}]+)}/);
+    const volumeMatch = bibtex.match(/volume\s*=\s*{([^}]+)}/);
+    const numberMatch = bibtex.match(/number\s*=\s*{([^}]+)}/);
+    const pagesMatch = bibtex.match(/pages\s*=\s*{([^}]+)}/);
+    const dateMatch = bibtex.match(/date\s*=\s*{([^}]+)}/);
+    const doiMatch = bibtex.match(/doi\s*=\s*{([^}]+)}/);
+    
+    let reference = '';
+    
+    if (authorMatch) {
+      // Simple author formatting 
+      let authors = authorMatch[1].replace(/\s+and\s+/g, ', ');
+      authors = authors.replace(/{{([^}]+)}}/g, '$1'); // Remove double braces
+      reference += authors;
+    }
+    
+    if (dateMatch) {
+      const year = dateMatch[1].substring(0, 4);
+      reference += ` (${year}).`;
+    }
+    
+    if (titleMatch) {
+      let title = titleMatch[1].replace(/{{([^}]+)}}/g, '$1');
+      reference += ` ${title}.`;
+    }
+    
+    if (journalMatch) {
+      let journal = journalMatch[1].replace(/{{([^}]+)}}/g, '$1');
+      reference += ` *${journal}*`;
+      
+      if (volumeMatch) {
+        reference += `, *${volumeMatch[1]}*`;
+        if (numberMatch) {
+          reference += `(${numberMatch[1]})`;
+        }
+      }
+      
+      if (pagesMatch) {
+        reference += `, ${pagesMatch[1]}`;
+      }
+      
+      reference += '.';
+    }
+    
+    if (doiMatch) {
+      reference += ` https://doi.org/${doiMatch[1]}`;
+    }
+    
+    return reference;
+  } catch (error) {
+    console.warn('Error formatting reference:', error);
+    return bibtex; // Fallback to raw BibTeX
+  }
+}
+
+// Function to format n_beeps_per_day
+function formatBeepsPerDay(beeps) {
+  if (Array.isArray(beeps)) {
+    return beeps.join(', ');
+  }
+  return beeps || '';
+}
+
 // Read and process all dataset folders
 const generateDatasetPages = () => {
   // Get all subdirectories in the datasets directory
@@ -26,6 +98,10 @@ const generateDatasetPages = () => {
     if (fs.existsSync(metadataPath)) {
       const data = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
       
+      // Format the reference
+      const apaReference = data.reference_a ? formatAPAReference(data.reference_a) : '';
+      const additionalReference = data.reference_b ? formatAPAReference(data.reference_b) : '';
+      
       // Create markdown content for the dataset page
       const content = `---
 title: "${data.first_author} (${data.year})"
@@ -35,31 +111,49 @@ draft: false
 
 # ${data.first_author} (${data.year})
 
-## Dataset Information
+## Study Information
 
 - **First Author:** ${data.first_author}
 - **Year:** ${data.year}
 - **DOI:** [${data.paper_doi}](${data.paper_doi})
 - **Topics:** ${data.topics || ''}
-- **Participants:** ${data.n_participants}
+
+## Data Characteristics
+
+- **Participants:** ${data.n_participants} (${data.participants || ''})
 - **Time Points:** ${data.n_time_points}
-- **Beeps per Day:** ${data.n_beeps_per_day || ''}
+- **Beeps per Day:** ${formatBeepsPerDay(data.n_beeps_per_day)}
 - **Sampling Scheme:** ${data.sampling_scheme || ''}
+- **Raw Timestamp:** ${data.raw_time_stamp || ''}
+- **Implicit Missingness:** ${data.implicit_missingness || ''}
+
+## Data Availability
+
+- **Cross-sectional Data:** ${data.cross_sectional_available || 'not specified'}
+- **Passive Sensor Data:** ${data.passive_data_available || 'not specified'}
 - **Link to Data:** [${data.link_to_data}](${data.link_to_data})
+- **Link to Codebook:** ${data.link_to_codebook ? `[${data.link_to_codebook}](${data.link_to_codebook})` : 'not available'}
 - **Link to Code:** [${data.link_to_code}](${data.link_to_code})
 
 ## Data Access
 
-TODO this needs to be updated with the correct links
 - **Zenodo:** [Download Dataset from Zenodo](https://zenodo.org/record/[RECORD_ID])
 - **R:** \`openesm::get_dataset("${folder}")\`
 - **Python:** \`openesm.get_dataset("${folder}")\`
 
+${data.additional_comments ? `## Additional Comments\n\n${data.additional_comments}\n` : ''}
+
+## Citation
+
+${apaReference}
+
+${additionalReference ? `\n### Additional Reference\n\n${additionalReference}\n` : ''}
+
 ## Variables
 
-| Name | Description | Type | Coding | Answer Categories |
+| Name | Description | Type | Answer Categories | Coding |
 |------|-------------|------|------------------|--------|
-${data.features.map(feature => `| ${feature.name} | ${feature.description} | ${feature.type} | ${feature.coding ? feature.coding.replace(/\r?\n/g, '<br>') : ''} |${feature.answer_categories || ''} | `).join('\n')}
+${data.features.map(feature => `| ${feature.name} | ${feature.description} | ${feature.type} | ${feature.answer_categories || ''} | ${feature.coding ? '```\n' + feature.coding + '\n```' : ''} |`).join('\n')}
 
 `;
       

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Search Datasets and Variables | OpenESM: Open Experience Sampling Method Database</title>
+<title>Search Datasets and Variables | openESM</title>
 <meta name="keywords" content="">
 <meta name="description" content="Use the search box below to find datasets and variables in the OpenESM database.
 
@@ -79,7 +79,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/openesm/" accesskey="h" title="OpenESM: Open Experience Sampling Method Database (Alt + H)">OpenESM: Open Experience Sampling Method Database</a>
+            <a href="http://localhost:1313/openesm/" accesskey="h" title="openESM (Alt + H)">openESM</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -140,7 +140,7 @@
     <h1 class="post-title entry-hint-parent">
       Search Datasets and Variables
     </h1>
-    <div class="post-meta"><span title='2025-05-19 00:00:00 +0000 UTC'>May 19, 2025</span>
+    <div class="post-meta">
 
 </div>
   </header> 
@@ -187,15 +187,14 @@ document.addEventListener('DOMContentLoaded', function() {
       idx = lunr(function() {
         log("Building Lunr index");
         this.ref('id');
-        this.field('first_author');
-        this.field('year');
-        this.field('topics');
-        this.field('variables');
-        
-        // Create a pipeline function to extract variable data
-        this.pipeline.add(function(token) {
-          return token.toString().toLowerCase();
-        });
+        this.field('first_author', { boost: 10 });
+        this.field('year', { boost: 5 });
+        this.field('topics', { boost: 8 });
+        this.field('participants', { boost: 6 });
+        this.field('sampling_scheme', { boost: 4 });
+        this.field('additional_comments', { boost: 3 });
+        this.field('reference_text', { boost: 7 });
+        this.field('variables', { boost: 5 });
         
         // Add each dataset to the index
         datasets.forEach(function(doc, index) {
@@ -203,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
           // Create searchable text from variables
           const variableText = doc.variables.map(v => 
-            `${v.name} ${v.description} ${v.type}`
+            `${v.name} ${v.description} ${v.type} ${v.coding || ''}`
           ).join(' ');
           
           const indexDoc = {
@@ -211,6 +210,10 @@ document.addEventListener('DOMContentLoaded', function() {
             first_author: doc.first_author || '',
             year: (doc.year || '').toString(),
             topics: doc.topics || '',
+            participants: doc.participants || '',
+            sampling_scheme: doc.sampling_scheme || '',
+            additional_comments: doc.additional_comments || '',
+            reference_text: doc.reference_text || '',
             variables: variableText
           };
           
@@ -287,7 +290,8 @@ document.addEventListener('DOMContentLoaded', function() {
         datasetEl.innerHTML = `
           <h3><a href="${url}">${dataset.first_author} (${dataset.year})</a></h3>
           <p><strong>Topics:</strong> ${dataset.topics || ''}</p>
-          <p><strong>Participants:</strong> ${dataset.n_participants} | <strong>Time points:</strong> ${dataset.n_time_points}</p>
+          <p><strong>Participants:</strong> ${dataset.n_participants} (${dataset.participants || ''}) | <strong>Time points:</strong> ${dataset.n_time_points}</p>
+          <p><strong>Data Availability:</strong> Cross-sectional: ${dataset.cross_sectional_available || 'not specified'}, Passive sensors: ${dataset.passive_data_available || 'not specified'}</p>
         `;
         
         // Add matching variables if any
@@ -395,7 +399,8 @@ document.addEventListener('DOMContentLoaded', function() {
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/openesm/">OpenESM: Open Experience Sampling Method Database</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/openesm/">openESM</a></span> · 
+        <a href="../privacy/">Privacy</a> · <a href="https://github.com/bsiepe/openesm">Source code</a> · 
 
     <span>
         Powered by

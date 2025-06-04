@@ -10,7 +10,9 @@
   "link_to_code": "https://osf.io/53scf/",
   "n_participants": 85,
   "n_time_points": 100,
-  "n_beeps_per_day": 1,
+  "n_beeps_per_day": [
+    1
+  ],
   "passive_data_available": "no",
   "cross_sectional_available": "yes",
   "topics": "personality, affect, motivation",

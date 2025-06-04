@@ -10,7 +10,9 @@
   "link_to_code": "https://github.com/zwihawks/PredictingMomentaryCog",
   "n_participants": 122,
   "n_time_points": 30,
-  "n_beeps_per_day": 3,
+  "n_beeps_per_day": [
+    3
+  ],
   "passive_data_available": "no",
   "cross_sectional_available": "unclear",
   "topics": "momentary cognition, context, stress",

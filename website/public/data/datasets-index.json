@@ -5,9 +5,15 @@
     "dataset": "0001",
     "year": 2021,
     "topics": "mental health, social contact, COVID",
+    "participants": "student sample",
+    "sampling_scheme": "4x/day fixed schedule",
+    "cross_sectional_available": "yes",
+    "passive_data_available": "no",
+    "additional_comments": "some individuals have more than the maximum number of observations due to some prompts being expired",
+    "reference_text": "Fried, Eiko I. Papanikolaou, Faidra Epskamp, Sacha Mental health social contact during the {{COVID-19 Clinical Psychological Science ",
     "n_participants": 80,
     "n_time_points": 56,
-    "n_beeps_per_day": 4,
+    "n_beeps_per_day": "4",
     "variables": [
       {
         "name": "id",
@@ -137,9 +143,9 @@
       },
       {
         "name": "procrastinate",
-        "description": "To what degree did you postpone working on a task?",
+        "description": "Procastination",
         "type": "Likert",
-        "coding": "1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
+        "coding": "To what degree did you postpone working on a task?\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5"
       },
       {
@@ -200,9 +206,15 @@
     "dataset": "0002",
     "year": 2022,
     "topics": "personality, affect, motivation",
+    "participants": "unclear",
+    "sampling_scheme": "1x/day unclear schedule",
+    "cross_sectional_available": "yes",
+    "passive_data_available": "no",
+    "additional_comments": null,
+    "reference_text": "Nestler, Steffen Humberg, Sarah A lasso a regression tree mixed-effect model with random effects for the level, the residual variance, the autocorrelation Psychometrika Psychometrika ",
     "n_participants": 85,
     "n_time_points": 100,
-    "n_beeps_per_day": 1,
+    "n_beeps_per_day": "1",
     "variables": [
       {
         "name": "id",
@@ -297,9 +309,15 @@
     "dataset": "0003",
     "year": 2023,
     "topics": "momentary cognition, context, stress",
+    "participants": "adults",
+    "sampling_scheme": "3x/day fixed time windows",
+    "cross_sectional_available": "unclear",
+    "passive_data_available": "no",
+    "additional_comments": null,
+    "reference_text": "Hawks, Zoë W. Strong, Roger Jung, Laneé Beck, Emorie D. Passell, Eliza J. Grinspoon, Elizabeth Singh, Shifali Frumkin, Madelyn R. Sliwinski, Martin Germine, Laura T. Accurate prediction of momentary cognition from intensive longitudinal data Biological Psychiatry: Cognitive Neuroscience Neuroimaging ",
     "n_participants": 122,
     "n_time_points": 30,
-    "n_beeps_per_day": 3,
+    "n_beeps_per_day": "3",
     "variables": [
       {
         "name": "id",

@@ -2,7 +2,6 @@
 title: "Search Datasets and Variables"
 ---
 
-
 Use the search box below to find datasets and variables in the OpenESM database.
 
 <div id="custom-search-container">
@@ -49,15 +48,14 @@ document.addEventListener('DOMContentLoaded', function() {
       idx = lunr(function() {
         log("Building Lunr index");
         this.ref('id');
-        this.field('first_author');
-        this.field('year');
-        this.field('topics');
-        this.field('variables');
-        
-        // Create a pipeline function to extract variable data
-        this.pipeline.add(function(token) {
-          return token.toString().toLowerCase();
-        });
+        this.field('first_author', { boost: 10 });
+        this.field('year', { boost: 5 });
+        this.field('topics', { boost: 8 });
+        this.field('participants', { boost: 6 });
+        this.field('sampling_scheme', { boost: 4 });
+        this.field('additional_comments', { boost: 3 });
+        this.field('reference_text', { boost: 7 });
+        this.field('variables', { boost: 5 });
         
         // Add each dataset to the index
         datasets.forEach(function(doc, index) {
@@ -65,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
           
           // Create searchable text from variables
           const variableText = doc.variables.map(v => 
-            `${v.name} ${v.description} ${v.type}`
+            `${v.name} ${v.description} ${v.type} ${v.coding || ''}`
           ).join(' ');
           
           const indexDoc = {
@@ -73,6 +71,10 @@ document.addEventListener('DOMContentLoaded', function() {
             first_author: doc.first_author || '',
             year: (doc.year || '').toString(),
             topics: doc.topics || '',
+            participants: doc.participants || '',
+            sampling_scheme: doc.sampling_scheme || '',
+            additional_comments: doc.additional_comments || '',
+            reference_text: doc.reference_text || '',
             variables: variableText
           };
           
@@ -149,7 +151,8 @@ document.addEventListener('DOMContentLoaded', function() {
         datasetEl.innerHTML = `
           <h3><a href="${url}">${dataset.first_author} (${dataset.year})</a></h3>
           <p><strong>Topics:</strong> ${dataset.topics || ''}</p>
-          <p><strong>Participants:</strong> ${dataset.n_participants} | <strong>Time points:</strong> ${dataset.n_time_points}</p>
+          <p><strong>Participants:</strong> ${dataset.n_participants} (${dataset.participants || ''}) | <strong>Time points:</strong> ${dataset.n_time_points}</p>
+          <p><strong>Data Availability:</strong> Cross-sectional: ${dataset.cross_sectional_available || 'not specified'}, Passive sensors: ${dataset.passive_data_available || 'not specified'}</p>
         `;
         
         // Add matching variables if any

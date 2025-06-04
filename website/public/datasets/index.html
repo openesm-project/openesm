@@ -5,25 +5,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Datasets | OpenESM: Open Experience Sampling Method Database</title>
+<title>Datasets | openESM</title>
 <meta name="keywords" content="">
-<meta name="description" content="Available Datasets
-Browse all available datasets in the OpenESM database.
+<meta name="description" content="Browse all available datasets in the OpenESM database.
 Dataset Overview
 
   
+  
     
-      
-        ID
-        Author
-        Year
-        Topics
-        Participants
-        Time Points
-        Beeps/Day
-        Variables
-      
+      ID
+      Author
+      Year
+      Topics
+      Participants
+      Time Points
+      Beeps/Day
+      Variables
+      Cross-sectional
+      Passive Sensor
     
+  
     
       
       
@@ -100,7 +101,7 @@ Dataset Overview
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/openesm/" accesskey="h" title="OpenESM: Open Experience Sampling Method Database (Alt + H)">OpenESM: Open Experience Sampling Method Database</a>
+            <a href="http://localhost:1313/openesm/" accesskey="h" title="openESM (Alt + H)">openESM</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -162,27 +163,28 @@ Dataset Overview
       Datasets
     </h1>
   </header> 
-  <div class="post-content"><h1 id="available-datasets">Available Datasets<a hidden class="anchor" aria-hidden="true" href="#available-datasets">#</a></h1>
-<p>Browse all available datasets in the OpenESM database.</p>
+  <div class="post-content"><p>Browse all available datasets in the OpenESM database.</p>
 <h2 id="dataset-overview">Dataset Overview<a hidden class="anchor" aria-hidden="true" href="#dataset-overview">#</a></h2>
 <div id="datasets-table-container">
   <table id="datasets-table">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Author</th>
-        <th>Year</th>
-        <th>Topics</th>
-        <th>Participants</th>
-        <th>Time Points</th>
-        <th>Beeps/Day</th>
-        <th>Variables</th>
-      </tr>
-    </thead>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Author</th>
+      <th>Year</th>
+      <th>Topics</th>
+      <th>Participants</th>
+      <th>Time Points</th>
+      <th>Beeps/Day</th>
+      <th>Variables</th>
+      <th>Cross-sectional</th>
+      <th>Passive Sensor</th>
+    </tr>
+  </thead>
     <tbody id="datasets-table-body">
       <!-- Loading message will be replaced by JavaScript -->
       <tr>
-        <td colspan="8">Loading datasets...</td>
+        <td colspan="10">Loading datasets...</td>
       </tr>
     </tbody>
   </table>
@@ -270,6 +272,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <td>${dataset.n_time_points}</td>
           <td>${dataset.n_beeps_per_day || ''}</td>
           <td>${dataset.n_variables}</td>
+          <td>${dataset.cross_sectional_available}</td>
+          <td>${dataset.passive_data_available}</td>
         `;
         
         tableBody.appendChild(row);
@@ -279,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Error loading datasets table:', error);
       tableBody.innerHTML = `
         <tr>
-          <td colspan="8" style="color: red; font-weight: bold;">
+          <td colspan="10" style="color: red; font-weight: bold;">
             Error loading datasets: ${error.message}<br>
             Please check the browser console for more details.
           </td>
@@ -299,7 +303,8 @@ document.addEventListener('DOMContentLoaded', function() {
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/openesm/">OpenESM: Open Experience Sampling Method Database</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/openesm/">openESM</a></span> · 
+        <a href="../privacy/">Privacy</a> · <a href="https://github.com/bsiepe/openesm">Source code</a> · 
 
     <span>
         Powered by

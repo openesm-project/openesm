@@ -1,54 +1,64 @@
-// Simple log to confirm script is loading
-console.log("Dataset table script has loaded");
+const fs = require('fs');
+const path = require('path');
 
-document.addEventListener('DOMContentLoaded', function() {
-  console.log("DOM content loaded event fired");
-  
-  // Find the table body element
-  const tableBody = document.getElementById('datasets-table-body');
-  if (tableBody) {
-    console.log("Found the table body element");
-  } else {
-    console.error("Could NOT find the table body element - check your HTML");
+// Directory containing the dataset folders
+const datasetsDir = path.join(__dirname, '../datasets');
+
+// Output file for the datasets table
+const outputFile = path.join(__dirname, '../website/data/datasets_table.json');
+
+// Ensure the output directory exists
+const outputDir = path.dirname(outputFile);
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// Function to format n_beeps_per_day for display
+function formatBeepsPerDay(beeps) {
+  if (Array.isArray(beeps)) {
+    return beeps.join(', ');
   }
+  return beeps || '';
+}
+
+// Read and process all dataset folders
+const processDatasets = () => {
+  // Get all subdirectories in the datasets directory
+  const datasetFolders = fs.readdirSync(datasetsDir, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name);
   
-  // Attempt to fetch data
-  console.log("About to fetch data from /data/datasets_table.json");
-  fetch('/data/datasets_table.json')
-    .then(response => {
-      console.log("Fetch response received:", response.status);
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then(datasets => {
-      console.log("Successfully parsed JSON data:", datasets);
+  const datasets = datasetFolders.map(folder => {
+    // Look for metadata file in the dataset folder
+    const metadataPath = path.join(datasetsDir, folder, `${folder}_metadata.json`);
+    
+    if (fs.existsSync(metadataPath)) {
+      const data = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
       
-      if (!tableBody) {
-        return; // Already logged error above
-      }
-      
-      // Generate table rows
-      datasets.forEach(dataset => {
-        console.log("Adding dataset to table:", dataset.id);
-        const row = document.createElement('tr');
-        
-        row.innerHTML = `
-          <td><a href="${dataset.url}">${dataset.id}</a></td>
-          <td>${dataset.first_author}</td>
-          <td>${dataset.year}</td>
-          <td>${dataset.topics || ''}</td>
-          <td>${dataset.n_participants}</td>
-          <td>${dataset.n_time_points}</td>
-          <td>${dataset.n_beeps_per_day || ''}</td>
-          <td>${dataset.n_variables}</td>
-        `;
-        
-        tableBody.appendChild(row);
-      });
-    })
-    .catch(error => {
-      console.error('Error loading datasets table:', error);
-    });
-});
+      // Create a table row representation of the dataset
+      return {
+        id: folder,
+        first_author: data.first_author,
+        year: data.year,
+        topics: data.topics,
+        n_participants: data.n_participants,
+        n_time_points: data.n_time_points,
+        n_beeps_per_day: formatBeepsPerDay(data.n_beeps_per_day),
+        n_variables: data.features.length,
+        cross_sectional_available: data.cross_sectional_available || '',
+        passive_data_available: data.passive_data_available || '',
+        url: `/datasets/${folder}/`
+      };
+    }
+    return null;
+  }).filter(Boolean);
+  
+  // Sort datasets by id
+  datasets.sort((a, b) => a.id.localeCompare(b.id));
+  
+  // Write the datasets table data
+  fs.writeFileSync(outputFile, JSON.stringify(datasets, null, 2));
+  console.log(`Generated datasets table with ${datasets.length} datasets`);
+};
+
+processDatasets();

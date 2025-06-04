@@ -5,25 +5,30 @@ const path = require('path');
 const datasetsDir = path.join(__dirname, '../datasets');
 
 // Output file for the datasets table
-// might need to change this to static/data/datasets_table.json if rendering fails
-const outputFile = path.join(__dirname, '../data/datasets_table.json');
+const outputFile = path.join(__dirname, '../website/data/datasets_table.json');
 
-// ensure output directory exists
+// Ensure the output directory exists
 const outputDir = path.dirname(outputFile);
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
+// Function to format n_beeps_per_day for display
+function formatBeepsPerDay(beeps) {
+  if (Array.isArray(beeps)) {
+    return beeps.join(', ');
+  }
+  return beeps || '';
+}
+
 // Read and process all dataset folders
 const processDatasets = () => {
-  // Get all subdirectories
+  // Get all subdirectories in the datasets directory
   const datasetFolders = fs.readdirSync(datasetsDir, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);
   
-  const datasets = [];
-  
-  datasetFolders.forEach(folder => {
+  const datasets = datasetFolders.map(folder => {
     // Look for metadata file in the dataset folder
     const metadataPath = path.join(datasetsDir, folder, `${folder}_metadata.json`);
     
@@ -31,20 +36,22 @@ const processDatasets = () => {
       const data = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
       
       // Create a table row representation of the dataset
-      datasets.push({
+      return {
         id: folder,
         first_author: data.first_author,
         year: data.year,
         topics: data.topics,
         n_participants: data.n_participants,
         n_time_points: data.n_time_points,
-        n_beeps_per_day: data.n_beeps_per_day,
+        n_beeps_per_day: formatBeepsPerDay(data.n_beeps_per_day),
         n_variables: data.features.length,
-        variable_types: [...new Set(data.features.map(f => f.type))].join(', '),
+        cross_sectional_available: data.cross_sectional_available || '',
+        passive_data_available: data.passive_data_available || '',
         url: `/datasets/${folder}/`
-      });
+      };
     }
-  });
+    return null;
+  }).filter(Boolean);
   
   // Sort datasets by id
   datasets.sort((a, b) => a.id.localeCompare(b.id));

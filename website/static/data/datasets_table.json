@@ -6,9 +6,10 @@
     "topics": "mental health, social contact, COVID",
     "n_participants": 80,
     "n_time_points": 56,
-    "n_beeps_per_day": 4,
+    "n_beeps_per_day": "4",
     "n_variables": 26,
-    "variable_types": "categorical, PosixCt, other, Likert, Date",
+    "cross_sectional_available": "yes",
+    "passive_data_available": "no",
     "url": "/datasets/0001_fried/"
   },
   {
@@ -18,9 +19,10 @@
     "topics": "personality, affect, motivation",
     "n_participants": 85,
     "n_time_points": 100,
-    "n_beeps_per_day": 1,
+    "n_beeps_per_day": "1",
     "n_variables": 12,
-    "variable_types": "categorical, other, numeric, Likert",
+    "cross_sectional_available": "yes",
+    "passive_data_available": "no",
     "url": "/datasets/0002_nestler/"
   },
   {
@@ -30,9 +32,10 @@
     "topics": "momentary cognition, context, stress",
     "n_participants": 122,
     "n_time_points": 30,
-    "n_beeps_per_day": 3,
+    "n_beeps_per_day": "3",
     "n_variables": 47,
-    "variable_types": "categorical, other, numeric, binary, Likert, ordinal",
+    "cross_sectional_available": "unclear",
+    "passive_data_available": "no",
     "url": "/datasets/0003_hawks/"
   }
 ]

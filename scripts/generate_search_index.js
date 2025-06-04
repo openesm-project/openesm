@@ -13,6 +13,36 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
+// Function to extract searchable text from BibTeX
+function extractReferenceText(bibtex) {
+  if (!bibtex) return '';
+  
+  // Extract key fields from BibTeX for searching
+  const fields = ['author', 'title', 'journaltitle', 'journal'];
+  let searchText = '';
+  
+  fields.forEach(field => {
+    const regex = new RegExp(`${field}\\s*=\\s*{([^}]+)}`, 'i');
+    const match = bibtex.match(regex);
+    if (match) {
+      // Clean up the text and remove special LaTeX formatting
+      let text = match[1].replace(/{{([^}]+)}}/g, '$1');
+      text = text.replace(/\s+and\s+/g, ' ');
+      searchText += ' ' + text;
+    }
+  });
+  
+  return searchText.trim();
+}
+
+// Function to format n_beeps_per_day for search
+function formatBeepsPerDay(beeps) {
+  if (Array.isArray(beeps)) {
+    return beeps.join(' ');
+  }
+  return beeps ? beeps.toString() : '';
+}
+
 // Read and process all dataset folders
 const processDatasets = () => {
   // Get all subdirectories in the datasets directory
@@ -36,9 +66,15 @@ const processDatasets = () => {
         dataset: data.dataset,
         year: data.year,
         topics: data.topics,
+        participants: data.participants,
+        sampling_scheme: data.sampling_scheme,
+        cross_sectional_available: data.cross_sectional_available,
+        passive_data_available: data.passive_data_available,
+        additional_comments: data.additional_comments,
+        reference_text: extractReferenceText(data.reference_a) + ' ' + extractReferenceText(data.reference_b),
         n_participants: data.n_participants,
         n_time_points: data.n_time_points,
-        n_beeps_per_day: data.n_beeps_per_day || null,
+        n_beeps_per_day: formatBeepsPerDay(data.n_beeps_per_day),
         variables: data.features.map(feature => ({
           name: feature.name,
           description: feature.description,

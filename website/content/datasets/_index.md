@@ -8,30 +8,30 @@ hidemeta: true
 hideposts: true
 ---
 
-# Available Datasets
-
 Browse all available datasets in the OpenESM database.
 
 ## Dataset Overview
 
 <div id="datasets-table-container">
   <table id="datasets-table">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Author</th>
-        <th>Year</th>
-        <th>Topics</th>
-        <th>Participants</th>
-        <th>Time Points</th>
-        <th>Beeps/Day</th>
-        <th>Variables</th>
-      </tr>
-    </thead>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Author</th>
+      <th>Year</th>
+      <th>Topics</th>
+      <th>Participants</th>
+      <th>Time Points</th>
+      <th>Beeps/Day</th>
+      <th>Variables</th>
+      <th>Cross-sectional</th>
+      <th>Passive Sensor</th>
+    </tr>
+  </thead>
     <tbody id="datasets-table-body">
       <!-- Loading message will be replaced by JavaScript -->
       <tr>
-        <td colspan="8">Loading datasets...</td>
+        <td colspan="10">Loading datasets...</td>
       </tr>
     </tbody>
   </table>
@@ -123,6 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <td>${dataset.n_time_points}</td>
           <td>${dataset.n_beeps_per_day || ''}</td>
           <td>${dataset.n_variables}</td>
+          <td>${dataset.cross_sectional_available}</td>
+          <td>${dataset.passive_data_available}</td>
         `;
         
         tableBody.appendChild(row);
@@ -132,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Error loading datasets table:', error);
       tableBody.innerHTML = `
         <tr>
-          <td colspan="8" style="color: red; font-weight: bold;">
+          <td colspan="10" style="color: red; font-weight: bold;">
             Error loading datasets: ${error.message}<br>
             Please check the browser console for more details.
           </td>
