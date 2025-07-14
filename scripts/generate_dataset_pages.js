@@ -1,5 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const { Cite } = require('@citation-js/core');
+require('@citation-js/plugin-bibtex');
+require('@citation-js/plugin-csl');
 
 // Directory containing the dataset folders
 const datasetsDir = path.join(__dirname, '../datasets');
@@ -12,67 +15,20 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// Function to format BibTeX as APA7 reference
+
+
 function formatAPAReference(bibtex) {
   if (!bibtex) return '';
-  
   try {
-    // Simple parser for the common fields - this is a basic implementation
-    // For a production system, you might want to use a proper BibTeX parser
-    const authorMatch = bibtex.match(/author\s*=\s*{([^}]+)}/);
-    const titleMatch = bibtex.match(/title\s*=\s*{([^}]+)}/);
-    const journalMatch = bibtex.match(/journaltitle\s*=\s*{([^}]+)}/);
-    const volumeMatch = bibtex.match(/volume\s*=\s*{([^}]+)}/);
-    const numberMatch = bibtex.match(/number\s*=\s*{([^}]+)}/);
-    const pagesMatch = bibtex.match(/pages\s*=\s*{([^}]+)}/);
-    const dateMatch = bibtex.match(/date\s*=\s*{([^}]+)}/);
-    const doiMatch = bibtex.match(/doi\s*=\s*{([^}]+)}/);
-    
-    let reference = '';
-    
-    if (authorMatch) {
-      // Simple author formatting 
-      let authors = authorMatch[1].replace(/\s+and\s+/g, ', ');
-      authors = authors.replace(/{{([^}]+)}}/g, '$1'); // Remove double braces
-      reference += authors;
-    }
-    
-    if (dateMatch) {
-      const year = dateMatch[1].substring(0, 4);
-      reference += ` (${year}).`;
-    }
-    
-    if (titleMatch) {
-      let title = titleMatch[1].replace(/{{([^}]+)}}/g, '$1');
-      reference += ` ${title}.`;
-    }
-    
-    if (journalMatch) {
-      let journal = journalMatch[1].replace(/{{([^}]+)}}/g, '$1');
-      reference += ` *${journal}*`;
-      
-      if (volumeMatch) {
-        reference += `, *${volumeMatch[1]}*`;
-        if (numberMatch) {
-          reference += `(${numberMatch[1]})`;
-        }
-      }
-      
-      if (pagesMatch) {
-        reference += `, ${pagesMatch[1]}`;
-      }
-      
-      reference += '.';
-    }
-    
-    if (doiMatch) {
-      reference += ` https://doi.org/${doiMatch[1]}`;
-    }
-    
-    return reference;
+    const cite = new Cite(bibtex);
+    return cite.format('bibliography', {
+      format: 'text',
+      template: 'apa',
+      lang: 'en-US'
+    });
   } catch (error) {
-    console.warn('Error formatting reference:', error);
-    return bibtex; // Fallback to raw BibTeX
+    console.warn('Citation.js error:', error);
+    return bibtex; // Fallback
   }
 }
 

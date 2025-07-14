@@ -82,7 +82,7 @@
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0003_hawks&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Hawks, Zoë W., Strong, Roger, Jung, Laneé, Beck, Emorie D., Passell, Eliza J., Grinspoon, Elizabeth, Singh, Shifali, Frumkin, Madelyn R., Sliwinski, Martin, Germine, Laura T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. &lt;em&gt;Biological Psychiatry: Cognitive Neuroscience and Neuroimaging&lt;/em&gt;, &lt;em&gt;8&lt;/em&gt;(8), 841&amp;ndash;851. &lt;a href=&#34;https://doi.org/10.1016/j.bpsc.2022.12.002&#34;&gt;https://doi.org/10.1016/j.bpsc.2022.12.002&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., &amp;amp; Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 8(8), 841–851. &lt;a href=&#34;https://doi.org/10.1016/j.bpsc.2022.12.002&#34;&gt;https://doi.org/10.1016/j.bpsc.2022.12.002&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nestler (2022)</title>
@@ -120,7 +120,7 @@
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0002_nestler&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Nestler, Steffen, Humberg, Sarah (2022). A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation. &lt;em&gt;Psychometrika&lt;/em&gt;, &lt;em&gt;87&lt;/em&gt;(2), 506&amp;ndash;532. &lt;a href=&#34;https://doi.org/10.1007/s11336-021-09787-w&#34;&gt;https://doi.org/10.1007/s11336-021-09787-w&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Nestler, S., &amp;amp; Humberg, S. (2022). A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation. Psychometrika, 87(2), 506–532. &lt;a href=&#34;https://doi.org/10.1007/s11336-021-09787-w&#34;&gt;https://doi.org/10.1007/s11336-021-09787-w&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

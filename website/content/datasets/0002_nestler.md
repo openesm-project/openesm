@@ -39,7 +39,8 @@ draft: false
 
 ## Citation
 
-Nestler, Steffen, Humberg, Sarah (2022). A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation. *Psychometrika*, *87*(2), 506--532. https://doi.org/10.1007/s11336-021-09787-w
+Nestler, S., & Humberg, S. (2022). A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation. Psychometrika, 87(2), 506–532. https://doi.org/10.1007/s11336-021-09787-w
+
 
 
 

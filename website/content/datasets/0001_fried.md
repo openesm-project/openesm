@@ -42,7 +42,8 @@ some individuals have more than the maximum number of observations due to some p
 
 ## Citation
 
-Fried, Eiko I., Papanikolaou, Faidra, Epskamp, Sacha (2022). Mental health and social contact during the {{COVID-19. *Clinical Psychological Science*, *10*(2), 340--354. https://doi.org/10.1177/21677026211017839
+Fried, E. I., Papanikolaou, F., & Epskamp, S. (2022). Mental health and social contact during the COVID-19 pandemic: an ecological momentary assessment study. Clinical Psychological Science, 10(2), 340–354. https://doi.org/10.1177/21677026211017839
+
 
 
 

@@ -1,50 +1,18 @@
 ---
 title: "Documentation"
-date: 2025-05-19
+# prevent showing posts
+type: "docs"
+layout: "single"
 ---
 
-# OpenESM Documentation
 
-Welcome to the OpenESM documentation. Here you'll find information on how to use the OpenESM database and packages.
+Welcome to the OpenESM documentation. Here you'll find comprehensive guides for using the database, contributing datasets, and understanding the technical infrastructure.
 
-## Database Structure
+## Quick Start
+- **Using the data?** Start with [Data Documentation](/docs/data/)
+- **Contributing datasets?** Check the [Contributing Guide](/docs/contributing/)
+- **Using R/Python packages?** See [Package Documentation](/docs/packages/)
+- **Want to understand the system?** Explore [Technical Documentation](/docs/technical/)
 
-OpenESM contains a collection of experience sampling datasets, each with standardized metadata. The datasets are stored in TSV format, and each dataset has a corresponding JSON metadata file.
-
-## Using the R Package
-
-```r
-# Install from GitHub
-devtools::install_github("yourusername/openesm-r")
-
-# Load the package
-library(openesm)
-
-# List available datasets
-list_datasets()
-
-# Download a dataset
-dataset <- get_dataset("0001_fried")
-
-# Get metadata for a dataset
-metadata <- get_metadata("0001_fried")
-```
-
-## Using the Python Package
-
-```python
-# Install from PyPI
-pip install openesm
-
-# Import the package
-import openesm
-
-# List available datasets
-openesm.list_datasets()
-
-# Download a dataset
-dataset = openesm.get_dataset("0001_fried")
-
-# Get metadata for a dataset
-metadata = openesm.get_metadata("0001_fried")
-``` 
+## About OpenESM
+OpenESM is an open database of experience sampling datasets primarily from psychological research. Our goal is to provide easy access to ESM datasets, standardize metadata across studies, and enable researchers to find relevant datasets through filtering and search.

@@ -20,5 +20,5 @@ This project aims to:
 
 - [Browse available datasets]({{< relref "/datasets/" >}})
 - [Search for specific variables or topics]({{< relref "/search/" >}})
-- [Learn how to use the R or Python packages]({{< relref "/docs/" >}})
-- [Contribute your own dataset]({{< relref "/contribute/" >}})
+- [Learn more about our data, software packages, and our technical setup]({{< relref "/docs/" >}})
+- [Contribute your own dataset]({{< relref "/docs/contributing" >}})

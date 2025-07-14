@@ -30,11 +30,29 @@ theme = "PaperMod"
     name = "Documentation"
     url = "/docs/"
     weight = 40
-  [[menu.main]]
-    identifier = "contribute"
-    name = "Contribute"
-    url = "/contribute/"
-    weight = 50
+
+  # Documentation submenu
+  [[menu.docs]]
+    identifier = "data"
+    name = "Data"
+    url = "/docs/data/"
+    weight = 10
+  [[menu.docs]]
+    identifier = "technical"
+    name = "Technical"
+    url = "/docs/technical/"
+    weight = 20
+  [[menu.docs]]
+    identifier = "packages"
+    name = "Packages"
+    url = "/docs/packages/"
+    weight = 30
+  [[menu.docs]]
+    identifier = "contributing"
+    name = "Contributing"
+    url = "/docs/contributing/"
+    weight = 40
+
 
 # Enable HTML in Markdown
 [markup]

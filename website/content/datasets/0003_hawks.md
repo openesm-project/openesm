@@ -39,7 +39,8 @@ draft: false
 
 ## Citation
 
-Hawks, Zoë W., Strong, Roger, Jung, Laneé, Beck, Emorie D., Passell, Eliza J., Grinspoon, Elizabeth, Singh, Shifali, Frumkin, Madelyn R., Sliwinski, Martin, Germine, Laura T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. *Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*, *8*(8), 841--851. https://doi.org/10.1016/j.bpsc.2022.12.002
+Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., & Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 8(8), 841–851. https://doi.org/10.1016/j.bpsc.2022.12.002
+
 
 
 
