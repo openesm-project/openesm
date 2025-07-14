@@ -7,40 +7,30 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Contribute | openESM</title>
 <meta name="keywords" content="">
-<meta name="description" content="Contribute to OpenESM
-We welcome contributions to the OpenESM database! Here&rsquo;s how you can contribute:
+<meta name="description" content="We welcome contributions to the OpenESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure.
+Here&rsquo;s how you can contribute:
 Adding a New Dataset
+If you have a dataset that you would like to add to the OpenESM database, you can simply contact us under the Contact section, or follow these steps to submit it yourself:
 
 Fork the OpenESM GitHub repository
-Prepare your dataset in TSV format
-Create a metadata file following our JSON schema
+Prepare your dataset in TSV format, following our formatting guidelines:
+
+Each dataset should be in a separate TSV file.
+The first row should contain the variable names.
+Each subsequent row should contain the data for each participant.
+Ensure that the dataset is anonymized and does not contain any personally identifiable information (PII).
+
+
+Create a dataset metadata file following our standard format. An example metadata file is provided below.
+
+Include all relevant information about the dataset, such as authors, year, number of participants, time points, and topics covered.
+
+
+Create a variable metadata file for each variable in the dataset, detailing the variable name, description, type, and coding information.
 Submit a pull request
 
 Metadata Schema
-Each dataset should have a metadata file in the following format:
-{
-  &#34;first_author&#34;: &#34;Author&#39;s last name&#34;,
-  &#34;dataset&#34;: &#34;Dataset ID&#34;,
-  &#34;year&#34;: 2021,
-  &#34;paper_doi&#34;: &#34;https://doi.org/...&#34;,
-  &#34;link_to_data&#34;: &#34;URL to original data&#34;,
-  &#34;link_to_code&#34;: &#34;URL to original code&#34;,
-  &#34;n_participants&#34;: 80,
-  &#34;n_time_points&#34;: 56,
-  &#34;n_beeps_per_day&#34;: 4,
-  &#34;passive_data_available&#34;: &#34;yes/no&#34;,
-  &#34;topics&#34;: &#34;comma-separated topics&#34;,
-  &#34;features&#34;: [
-    {
-      &#34;name&#34;: &#34;variable_name&#34;,
-      &#34;description&#34;: &#34;Variable description&#34;,
-      &#34;type&#34;: &#34;Variable type (e.g., Likert, categorical)&#34;,
-      &#34;coding&#34;: &#34;Coding information&#34;
-    },
-    ...
-  ]
-}
-">
+Each dataset should have a metadata file in the following format:">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/openesm/contribute/">
 <link crossorigin="anonymous" href="/openesm/assets/css/stylesheet.1ed3c982f918e635b015fe55dfd09d90f73a62c857ed77906065055468a3cd32.css" integrity="sha256-HtPJgvkY5jWwFf5V39CdkPc6YshX7XeQYGUFVGijzTI=" rel="preload stylesheet" as="style">
@@ -166,16 +156,29 @@ Each dataset should have a metadata file in the following format:
     Contribute
   </h1>
 </header>
-<div class="post-content"><h1 id="contribute-to-openesm">Contribute to OpenESM<a hidden class="anchor" aria-hidden="true" href="#contribute-to-openesm">#</a></h1>
-<p>We welcome contributions to the OpenESM database! Here&rsquo;s how you can contribute:</p>
+<div class="post-content"><p>We welcome contributions to the OpenESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure.</p>
+<p>Here&rsquo;s how you can contribute:</p>
 <h2 id="adding-a-new-dataset">Adding a New Dataset<a hidden class="anchor" aria-hidden="true" href="#adding-a-new-dataset">#</a></h2>
+<p>If you have a dataset that you would like to add to the OpenESM database, you can simply contact us under the <a href="https://openesm.org/contact">Contact</a> section, or follow these steps to submit it yourself:</p>
 <ol>
 <li>Fork the <a href="https://github.com/bsiepe/openesm">OpenESM GitHub repository</a></li>
-<li>Prepare your dataset in TSV format</li>
-<li>Create a metadata file following our JSON schema</li>
+<li>Prepare your dataset in TSV format, following our formatting guidelines:
+<ul>
+<li>Each dataset should be in a separate TSV file.</li>
+<li>The first row should contain the variable names.</li>
+<li>Each subsequent row should contain the data for each participant.</li>
+<li>Ensure that the dataset is anonymized and does not contain any personally identifiable information (PII).</li>
+</ul>
+</li>
+<li>Create a dataset metadata file following our standard format. An example metadata file is provided below.
+<ul>
+<li>Include all relevant information about the dataset, such as authors, year, number of participants, time points, and topics covered.</li>
+</ul>
+</li>
+<li>Create a variable metadata file for each variable in the dataset, detailing the variable name, description, type, and coding information.</li>
 <li>Submit a pull request</li>
 </ol>
-<h2 id="metadata-schema">Metadata Schema<a hidden class="anchor" aria-hidden="true" href="#metadata-schema">#</a></h2>
+<h3 id="metadata-schema">Metadata Schema<a hidden class="anchor" aria-hidden="true" href="#metadata-schema">#</a></h3>
 <p>Each dataset should have a metadata file in the following format:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;first_author&#34;</span>: <span style="color:#e6db74">&#34;Author&#39;s last name&#34;</span>,
@@ -199,7 +202,23 @@ Each dataset should have a metadata file in the following format:
 </span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">...</span>
 </span></span><span style="display:flex;"><span>  ]
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+</span></span></code></pre></div><h2 id="contributing-to-existing-datasets">Contributing to Existing Datasets<a hidden class="anchor" aria-hidden="true" href="#contributing-to-existing-datasets">#</a></h2>
+<p>If you find errors or have suggestions for existing datasets, please follow these steps:</p>
+<ol>
+<li>Open an issue on the <a href="https://github.com/bsiepe/openesm">GitHub repository</a> describing the problem or suggestion.</li>
+<li>If you can, fork the repository and make the changes directly.</li>
+<li>Submit a pull request with your changes.</li>
+</ol>
+<h2 id="improving-the-software-infrastructure">Improving the Software Infrastructure<a hidden class="anchor" aria-hidden="true" href="#improving-the-software-infrastructure">#</a></h2>
+<p>If you have ideas for improving the OpenESM software infrastructure, such as the website or data processing scripts, we welcome your contributions. Please follow these steps:</p>
+<ol>
+<li>Open an issue on the openESM GitHub repository for the website or metadata. Open an issue in the respective software package repositories to improve the software infrastructure.</li>
+<li>Fork the repository and make your changes.</li>
+<li>Submit a pull request with a clear description of your changes and their benefits.</li>
+</ol>
+<h2 id="contact">Contact<a hidden class="anchor" aria-hidden="true" href="#contact">#</a></h2>
+<p>If you have any questions or need help with contributions, feel free to reach out.</p>
+
 
 </div>
     </main>

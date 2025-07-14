@@ -6,15 +6,14 @@
     <description>Recent content in OpenESM: Open Experience Sampling Method Database on openESM</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/openesm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fried (2021)</title>
       <link>http://localhost:1313/openesm/datasets/0001_fried/</link>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0001_fried/</guid>
-      <description>&lt;h1 id=&#34;fried-2021&#34;&gt;Fried (2021)&lt;/h1&gt;
-&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Fried&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2021&lt;/li&gt;
@@ -34,13 +33,13 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mvdpe/&#34;&gt;https://osf.io/mvdpe/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mvdpe/&#34;&gt;https://osf.io/mvdpe/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mx87b&#34;&gt;https://osf.io/mx87b&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mvdpe/&#34;&gt;https://osf.io/mvdpe/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/record/%5BRECORD_ID%5D&#34;&gt;Download Dataset from Zenodo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo:&lt;/strong&gt; not available&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0001_fried&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0001_fried&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -50,10 +49,9 @@
     <item>
       <title>Hawks (2023)</title>
       <link>http://localhost:1313/openesm/datasets/0003_hawks/</link>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0003_hawks/</guid>
-      <description>&lt;h1 id=&#34;hawks-2023&#34;&gt;Hawks (2023)&lt;/h1&gt;
-&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Hawks&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
@@ -73,13 +71,13 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; unclear&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Data:&lt;/strong&gt; &lt;a href=&#34;https://github.com/zwihawks/PredictingMomentaryCog&#34;&gt;https://github.com/zwihawks/PredictingMomentaryCog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://github.com/zwihawks/PredictingMomentaryCog&#34;&gt;https://github.com/zwihawks/PredictingMomentaryCog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf&#34;&gt;https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/zwihawks/PredictingMomentaryCog&#34;&gt;https://github.com/zwihawks/PredictingMomentaryCog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/record/%5BRECORD_ID%5D&#34;&gt;Download Dataset from Zenodo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo:&lt;/strong&gt; not available&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0003_hawks&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0003_hawks&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -89,10 +87,9 @@
     <item>
       <title>Nestler (2022)</title>
       <link>http://localhost:1313/openesm/datasets/0002_nestler/</link>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0002_nestler/</guid>
-      <description>&lt;h1 id=&#34;nestler-2022&#34;&gt;Nestler (2022)&lt;/h1&gt;
-&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Nestler&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
@@ -112,13 +109,13 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gmz7e&#34;&gt;https://osf.io/gmz7e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gmz7e&#34;&gt;https://osf.io/gmz7e&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699&#34;&gt;https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/53scf/&#34;&gt;https://osf.io/53scf/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/record/%5BRECORD_ID%5D&#34;&gt;Download Dataset from Zenodo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo:&lt;/strong&gt; not available&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0002_nestler&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0002_nestler&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;

@@ -7,8 +7,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Nestler (2022) | openESM</title>
 <meta name="keywords" content="">
-<meta name="description" content="Nestler (2022)
-Study Information
+<meta name="description" content="Study Information
 
 First Author: Nestler
 Year: 2022
@@ -28,13 +27,13 @@ Data Availability
 
 Cross-sectional Data: yes
 Passive Sensor Data: no
-Link to Data: https://osf.io/gmz7e
+Link to Original Data: https://osf.io/gmz7e
 Link to Codebook: https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699
 Link to Code: https://osf.io/53scf/
 
 Data Access
 
-Zenodo: Download Dataset from Zenodo
+Zenodo: not available
 R: openesm::get_dataset(&quot;0002_nestler&quot;)
 Python: openesm.get_dataset(&quot;0002_nestler&quot;)
 
@@ -166,12 +165,11 @@ Nestler, Steffen, Humberg, Sarah (2022). A lasso and a regression tree mixed-eff
     <h1 class="post-title entry-hint-parent">
       Nestler (2022)
     </h1>
-    <div class="post-meta"><span title='2025-06-04 00:00:00 +0000 UTC'>June 4, 2025</span>
+    <div class="post-meta"><span title='2025-07-14 00:00:00 +0000 UTC'>July 14, 2025</span>
 
 </div>
   </header> 
-  <div class="post-content"><h1 id="nestler-2022">Nestler (2022)<a hidden class="anchor" aria-hidden="true" href="#nestler-2022">#</a></h1>
-<h2 id="study-information">Study Information<a hidden class="anchor" aria-hidden="true" href="#study-information">#</a></h2>
+  <div class="post-content"><h2 id="study-information">Study Information<a hidden class="anchor" aria-hidden="true" href="#study-information">#</a></h2>
 <ul>
 <li><strong>First Author:</strong> Nestler</li>
 <li><strong>Year:</strong> 2022</li>
@@ -191,13 +189,13 @@ Nestler, Steffen, Humberg, Sarah (2022). A lasso and a regression tree mixed-eff
 <ul>
 <li><strong>Cross-sectional Data:</strong> yes</li>
 <li><strong>Passive Sensor Data:</strong> no</li>
-<li><strong>Link to Data:</strong> <a href="https://osf.io/gmz7e">https://osf.io/gmz7e</a></li>
+<li><strong>Link to Original Data:</strong> <a href="https://osf.io/gmz7e">https://osf.io/gmz7e</a></li>
 <li><strong>Link to Codebook:</strong> <a href="https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699">https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699</a></li>
 <li><strong>Link to Code:</strong> <a href="https://osf.io/53scf/">https://osf.io/53scf/</a></li>
 </ul>
 <h2 id="data-access">Data Access<a hidden class="anchor" aria-hidden="true" href="#data-access">#</a></h2>
 <ul>
-<li><strong>Zenodo:</strong> <a href="https://zenodo.org/record/%5BRECORD_ID%5D">Download Dataset from Zenodo</a></li>
+<li><strong>Zenodo:</strong> not available</li>
 <li><strong>R:</strong> <code>openesm::get_dataset(&quot;0002_nestler&quot;)</code></li>
 <li><strong>Python:</strong> <code>openesm.get_dataset(&quot;0002_nestler&quot;)</code></li>
 </ul>
@@ -208,82 +206,165 @@ Nestler, Steffen, Humberg, Sarah (2022). A lasso and a regression tree mixed-eff
   <thead>
       <tr>
           <th>Name</th>
-          <th>Description</th>
           <th>Type</th>
           <th>Answer Categories</th>
-          <th>Coding</th>
+          <th>Wording</th>
+          <th>Labels</th>
+          <th>Transformation</th>
+          <th>Source</th>
+          <th>Assessment Type</th>
+          <th>Construct</th>
+          <th>Comments</th>
       </tr>
   </thead>
   <tbody>
       <tr>
           <td>id</td>
-          <td>Participant ID</td>
           <td>categorical</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Daily</td>
           <td></td>
           <td></td>
       </tr>
       <tr>
           <td>day</td>
-          <td>Day of study</td>
           <td>other</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Daily</td>
           <td></td>
           <td></td>
       </tr>
       <tr>
           <td>beep</td>
-          <td>Beep of the day</td>
           <td>other</td>
           <td></td>
           <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
       </tr>
       <tr>
-          <td>gm_sociable</td>
-          <td>Unsociable (grand-mean centered)</td>
+          <td>sociable</td>
           <td>numeric</td>
           <td>6</td>
-          <td>```</td>
+          <td>Today I was sociable</td>
+          <td>1 = not at all<br>6 = extremely</td>
+          <td>grand-mean centered</td>
+          <td></td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
       </tr>
       <tr>
-          <td>Today I was&hellip;</td>
+          <td>creative</td>
+          <td>numeric</td>
+          <td>6</td>
+          <td>Today I was creative</td>
+          <td>1 = not at all<br>6 = extremely</td>
+          <td>grand-mean centered</td>
+          <td></td>
+          <td>Daily</td>
           <td></td>
           <td></td>
+      </tr>
+      <tr>
+          <td>friendly</td>
+          <td>numeric</td>
+          <td>6</td>
+          <td>Today I was friendly</td>
+          <td>1 = not at all<br>6 = extremely</td>
+          <td>grand-mean centered</td>
+          <td></td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>organised</td>
+          <td>numeric</td>
+          <td>6</td>
+          <td>Today I was organised</td>
+          <td>1 = not at all<br>6 = extremely</td>
+          <td>grand-mean centered</td>
+          <td></td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>self_esteem</td>
+          <td>numeric</td>
+          <td>6</td>
+          <td>Today I was satisfied with myself</td>
+          <td>1 = not at all<br>6 = extremely</td>
+          <td>grand-mean centered</td>
+          <td>Rosenberg Self-Esteem Scale</td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>weekday</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>temp</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>rain</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Daily</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>nervous</td>
+          <td>Likert</td>
+          <td>6</td>
+          <td>Today I was nervous</td>
+          <td>1 = not at all<br>6 = extremely</td>
+          <td>grand-mean centered</td>
+          <td></td>
+          <td>Daily</td>
           <td></td>
           <td></td>
       </tr>
   </tbody>
 </table>
-<p>1 (not at all) to 6 (extremely)</p>
-<pre tabindex="0"><code class="language-|" data-lang="|">| gm_creative | Creative (grand-mean centered) | numeric | 6 | ```
-Today I was...
 
-1 (not at all) to 6 (extremely)
-``` |
-| gm_friendly | Friendly (grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| gm_organised | Organised (grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| gm_se | Satisfied with myself (self-esteem, grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| weekday | Day of the week | numeric |  | ```
-0-6
-``` |
-| temp | Temperature | numeric |  |  |
-| rain | Precipitation Rainfall | numeric |  |  |
-| nervous | Nervous. (grand-mean centered) | Likert | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)&#34;
-``` |
-</code></pre>
 
   </div>
 

@@ -1,7 +1,7 @@
 /* Increase content width */
 /* also encoded in assets/css/extended/theme-vars.css */
 .main {
-  max-width: 1200px !important;  /* Increase from default (usually around 720px) */
+  max-width: 1300px !important;  /* Increase from default (usually around 720px) */
   width: 95% !important;         /* Use most of the screen width */
 }
 

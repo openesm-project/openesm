@@ -76,12 +76,18 @@ const processDatasets = () => {
         n_time_points: data.n_time_points,
         n_beeps_per_day: formatBeepsPerDay(data.n_beeps_per_day),
         variables: data.features.map(feature => ({
-          name: feature.name,
-          description: feature.description,
-          type: feature.type,
-          coding: feature.coding,
-          answer_categories: feature.answer_categories
-        })),
+        name: feature.name,
+        type: feature.type,
+        coding: feature.coding,
+        answer_categories: feature.answer_categories,
+        wording: feature.wording,
+        labels: feature.labels,
+        transformation: feature.transformation,
+        source: feature.source,
+        assessment_type: feature.assessment_type,
+        construct: feature.construct,
+        comments: feature.comments
+      })),
         url: `/datasets/${folder}/`
       });
     }

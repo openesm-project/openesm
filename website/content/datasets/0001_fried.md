@@ -1,10 +1,9 @@
 ---
 title: "Fried (2021)"
-date: 2025-06-04
+date: 2025-07-14
 draft: false
 ---
 
-# Fried (2021)
 
 ## Study Information
 
@@ -26,13 +25,13 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Data:** [https://osf.io/mvdpe/](https://osf.io/mvdpe/)
+- **Link to Original Data:** [https://osf.io/mvdpe/](https://osf.io/mvdpe/)
 - **Link to Codebook:** [https://osf.io/mx87b](https://osf.io/mx87b)
 - **Link to Code:** [https://osf.io/mvdpe/](https://osf.io/mvdpe/)
 
 ## Data Access
 
-- **Zenodo:** [Download Dataset from Zenodo](https://zenodo.org/record/[RECORD_ID])
+- **Zenodo:** not available
 - **R:** `openesm::get_dataset("0001_fried")`
 - **Python:** `openesm.get_dataset("0001_fried")`
 
@@ -49,142 +48,31 @@ Fried, Eiko I., Papanikolaou, Faidra, Epskamp, Sacha (2022). Mental health and s
 
 ## Variables
 
-| Name | Description | Type | Answer Categories | Coding |
-|------|-------------|------|------------------|--------|
-| id | Participant ID | categorical |  |  |
-| scheduled | Time of beep schedule | PosixCt |  |  |
-| issued | Time of beep issue | PosixCt |  |  |
-| response | Time of response | PosixCt |  |  |
-| duration | Duration of response | other |  |  |
-| relax | I found it difficult to relax. | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| irritable | I felt (very) irritable | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| worry | I was worried about different things | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| nervous | I felt nervous, anxious or on edge | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| future | I I felt that I had nothing to look forward | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| anhedonia | I couldn't seem to experience any positive feeling at all | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| tired | I felt tired | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| hungry | In the past 3h, I was hungry | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| alone | I felt like I lack companionship, or that I am not close to people. | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| angry | I felt angry | Likert | 5 | ```
-1 = Not at all 
-2 = Slightly
-3 = Moderately
-4 = Very
-5 = Extremly
-``` |
-| social_offline | I spent ___ minutes on meaningful, offline, social interaction | Likert | 5 | ```
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| social_online | I spent __ minutes using social media to kill/pass the time | Likert | 5 | ```
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| music | I spent __ minutes listening to music | Likert | 5 | ```
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| procrastinate | Procastination | Likert | 5 | ```
-To what degree did you postpone working on a task?
-
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| outdoors | I spent __ minutes outside (outdoors) ? | Likert | 5 | ```
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| c19_occupied | I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it) | Likert | 5 | ```
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| c19_worry | I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus | Likert | 5 | ```
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| home | I spent __ at home (including the home of parents/partner) | Likert | 5 | ```
-1 = 0 minutes
-2 = 5-15 min
-3 = 15-60 min
-4 = 1-2 hours
-5 = > 2h
-``` |
-| day | Day of study | other |  |  |
-| beep | Beep of the day | other |  |  |
-| date | Date | Date |  |  |
-
+| Name | Type | Answer Categories | Wording | Labels | Transformation | Source | Assessment Type | Construct | Comments |
+|------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
+| id | categorical |  |  |  |  |  | ESM |  |  |
+| scheduled | PosixCt |  |  |  |  |  | ESM |  |  |
+| issued | PosixCt |  |  |  |  |  | ESM |  |  |
+| response | PosixCt |  |  |  |  |  | ESM |  |  |
+| duration | other |  |  |  |  |  | ESM |  |  |
+| relax | Likert | 5 | I found it difficult to relax. | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | negative affect |  |
+| irritable | Likert | 5 | I felt (very) irritable | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | negative affect |  |
+| worry | Likert | 5 | I was worried about different things | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | negative affect |  |
+| nervous | Likert | 5 | I felt nervous, anxious or on edge | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | negative affect |  |
+| future | Likert | 5 | I felt that I had nothing to look forward | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | depression |  |
+| anhedonia | Likert | 5 | I couldn't seem to experience any positive feeling at all | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | depression |  |
+| tired | Likert | 5 | I felt tired | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | sleep |  |
+| hungry | Likert | 5 | In the past 3h, I was hungry | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM |  |  |
+| alone | Likert | 5 | I felt like I lack companionship, or that I am not close to people. | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM |  |  |
+| angry | Likert | 5 | I felt angry | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM |  |  |
+| social_offline | Likert | 5 | I spent ___ minutes on meaningful, offline, social interaction | 1 = 0 minutes<br>2 = 5-15 min<br>3 = 15-60 min<br>4 = 1-2 hours<br>5 = > 2h |  |  | ESM |  |  |
+| social_online | Likert | 5 | I spent __ minutes using social media to kill/pass the time | 1 = 0 minutes<br>2 = 5-15 min<br>3 = 15-60 min<br>4 = 1-2 hours<br>5 = > 2h |  |  | ESM |  |  |
+| music | Likert | 5 | I spent __ minutes listening to music | 1 = 0 minutes<br>2 = 5-15 min<br>3 = 15-60 min<br>4 = 1-2 hours<br>5 = > 2h |  |  | ESM |  |  |
+| procrastinate | Likert | 5 | To what degree did you postpone working on a task? | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM |  |  |
+| outdoors | Likert | 5 | I spent __ minutes outside (outdoors)? | 1 = 0 minutes<br>2 = 5-15 min<br>3 = 15-60 min<br>4 = 1-2 hours<br>5 = > 2h |  |  | ESM |  |  |
+| c19_occupied | Likert | 5 | I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it) | 1 = 0 minutes<br>2 = 5-15 min<br>3 = 15-60 min<br>4 = 1-2 hours<br>5 = > 2h |  |  | ESM |  |  |
+| c19_worry | Likert | 5 | I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM |  |  |
+| home | Likert | 5 | I spent __ at home (including the home of parents/partner) | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM |  |  |
+| day | other |  |  |  |  |  | ESM |  |  |
+| beep | other |  |  |  |  |  | ESM |  |  |
+| date | Date |  |  |  |  |  | ESM |  |  |

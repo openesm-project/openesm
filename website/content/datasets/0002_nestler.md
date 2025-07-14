@@ -1,10 +1,9 @@
 ---
 title: "Nestler (2022)"
-date: 2025-06-04
+date: 2025-07-14
 draft: false
 ---
 
-# Nestler (2022)
 
 ## Study Information
 
@@ -26,13 +25,13 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Data:** [https://osf.io/gmz7e](https://osf.io/gmz7e)
+- **Link to Original Data:** [https://osf.io/gmz7e](https://osf.io/gmz7e)
 - **Link to Codebook:** [https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699](https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699)
 - **Link to Code:** [https://osf.io/53scf/](https://osf.io/53scf/)
 
 ## Data Access
 
-- **Zenodo:** [Download Dataset from Zenodo](https://zenodo.org/record/[RECORD_ID])
+- **Zenodo:** not available
 - **R:** `openesm::get_dataset("0002_nestler")`
 - **Python:** `openesm.get_dataset("0002_nestler")`
 
@@ -46,44 +45,17 @@ Nestler, Steffen, Humberg, Sarah (2022). A lasso and a regression tree mixed-eff
 
 ## Variables
 
-| Name | Description | Type | Answer Categories | Coding |
-|------|-------------|------|------------------|--------|
-| id | Participant ID | categorical |  |  |
-| day | Day of study | other |  |  |
-| beep | Beep of the day | other |  |  |
-| gm_sociable | Unsociable (grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| gm_creative | Creative (grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| gm_friendly | Friendly (grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| gm_organised | Organised (grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| gm_se | Satisfied with myself (self-esteem, grand-mean centered) | numeric | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)
-``` |
-| weekday | Day of the week | numeric |  | ```
-0-6
-``` |
-| temp | Temperature | numeric |  |  |
-| rain | Precipitation Rainfall | numeric |  |  |
-| nervous | Nervous. (grand-mean centered) | Likert | 6 | ```
-Today I was...
-
-1 (not at all) to 6 (extremely)"
-``` |
-
+| Name | Type | Answer Categories | Wording | Labels | Transformation | Source | Assessment Type | Construct | Comments |
+|------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
+| id | categorical |  |  |  |  |  | Daily |  |  |
+| day | other |  |  |  |  |  | Daily |  |  |
+| beep | other |  |  |  |  |  | Daily |  |  |
+| sociable | numeric | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
+| creative | numeric | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
+| friendly | numeric | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
+| organised | numeric | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
+| self_esteem | numeric | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily |  |  |
+| weekday | numeric |  |  |  |  |  | Daily |  |  |
+| temp | numeric |  |  |  |  |  | Daily |  |  |
+| rain | numeric |  |  |  |  |  | Daily |  |  |
+| nervous | Likert | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |

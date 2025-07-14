@@ -7,8 +7,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Hawks (2023) | openESM</title>
 <meta name="keywords" content="">
-<meta name="description" content="Hawks (2023)
-Study Information
+<meta name="description" content="Study Information
 
 First Author: Hawks
 Year: 2023
@@ -28,13 +27,13 @@ Data Availability
 
 Cross-sectional Data: unclear
 Passive Sensor Data: no
-Link to Data: https://github.com/zwihawks/PredictingMomentaryCog
+Link to Original Data: https://github.com/zwihawks/PredictingMomentaryCog
 Link to Codebook: https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf
 Link to Code: https://github.com/zwihawks/PredictingMomentaryCog
 
 Data Access
 
-Zenodo: Download Dataset from Zenodo
+Zenodo: not available
 R: openesm::get_dataset(&quot;0003_hawks&quot;)
 Python: openesm.get_dataset(&quot;0003_hawks&quot;)
 
@@ -166,12 +165,11 @@ Hawks, Zoë W., Strong, Roger, Jung, Laneé, Beck, Emorie D., Passell, Eliza J.,
     <h1 class="post-title entry-hint-parent">
       Hawks (2023)
     </h1>
-    <div class="post-meta"><span title='2025-06-04 00:00:00 +0000 UTC'>June 4, 2025</span>
+    <div class="post-meta"><span title='2025-07-14 00:00:00 +0000 UTC'>July 14, 2025</span>
 
 </div>
   </header> 
-  <div class="post-content"><h1 id="hawks-2023">Hawks (2023)<a hidden class="anchor" aria-hidden="true" href="#hawks-2023">#</a></h1>
-<h2 id="study-information">Study Information<a hidden class="anchor" aria-hidden="true" href="#study-information">#</a></h2>
+  <div class="post-content"><h2 id="study-information">Study Information<a hidden class="anchor" aria-hidden="true" href="#study-information">#</a></h2>
 <ul>
 <li><strong>First Author:</strong> Hawks</li>
 <li><strong>Year:</strong> 2023</li>
@@ -191,13 +189,13 @@ Hawks, Zoë W., Strong, Roger, Jung, Laneé, Beck, Emorie D., Passell, Eliza J.,
 <ul>
 <li><strong>Cross-sectional Data:</strong> unclear</li>
 <li><strong>Passive Sensor Data:</strong> no</li>
-<li><strong>Link to Data:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a></li>
+<li><strong>Link to Original Data:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a></li>
 <li><strong>Link to Codebook:</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf">https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf</a></li>
 <li><strong>Link to Code:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a></li>
 </ul>
 <h2 id="data-access">Data Access<a hidden class="anchor" aria-hidden="true" href="#data-access">#</a></h2>
 <ul>
-<li><strong>Zenodo:</strong> <a href="https://zenodo.org/record/%5BRECORD_ID%5D">Download Dataset from Zenodo</a></li>
+<li><strong>Zenodo:</strong> not available</li>
 <li><strong>R:</strong> <code>openesm::get_dataset(&quot;0003_hawks&quot;)</code></li>
 <li><strong>Python:</strong> <code>openesm.get_dataset(&quot;0003_hawks&quot;)</code></li>
 </ul>
@@ -208,29 +206,577 @@ Hawks, Zoë W., Strong, Roger, Jung, Laneé, Beck, Emorie D., Passell, Eliza J.,
   <thead>
       <tr>
           <th>Name</th>
-          <th>Description</th>
           <th>Type</th>
           <th>Answer Categories</th>
-          <th>Coding</th>
+          <th>Wording</th>
+          <th>Labels</th>
+          <th>Transformation</th>
+          <th>Source</th>
+          <th>Assessment Type</th>
+          <th>Construct</th>
+          <th>Comments</th>
       </tr>
   </thead>
   <tbody>
       <tr>
           <td>id</td>
-          <td>Participant ID</td>
           <td>categorical</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td></td>
           <td></td>
       </tr>
       <tr>
           <td>day</td>
-          <td>Day of study</td>
           <td>other</td>
           <td>10</td>
-          <td>```</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
       </tr>
       <tr>
-          <td>Days elapsed in study</td>
+          <td>beep</td>
+          <td>other</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>sitting_id</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>interruptions</td>
+          <td>binary</td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>nervous</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td>Indicate to what extent you felt this way right<br>before you started this survey: Nervous.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>afraid</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td>Indicate to what extent you felt this way right<br>before you started this survey: Afraid</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>enthusiastic</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td>Indicate to what extent you felt this way right<br>before you started this survey: Enthusiastic</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>distressed</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td>Indicate to what extent you felt this way right<br>before you started this survey: Distressed</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>excited</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>scared</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>upset</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>alert</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>determined</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>inspired</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>depressed</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>restless_or_fidgety</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>so_sad_that_nothing_could_cheer_you_up</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>worried</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>hopeless</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>irritated</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>that_everything_was_an_effort</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>argument_stress</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>let_pass_stress</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>friend_relative_stress</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>health_stress</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>other_stress</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>covid_stress</td>
+          <td>Likert</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>socialfunc_interactions</td>
+          <td>ordinal</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>alert_sleepiness</td>
+          <td>Likert</td>
+          <td>9</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>going_on</td>
+          <td>ordinal</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>concentrating</td>
+          <td>ordinal</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>noisy</td>
+          <td>ordinal</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>finish</td>
+          <td>ordinal</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>organization</td>
+          <td>ordinal</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>mentaleffort</td>
+          <td>ordinal</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>forgetful</td>
+          <td>ordinal</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>fidgeting</td>
+          <td>ordinal</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>motor</td>
+          <td>ordinal</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>study_time</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>sleep_dur</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>socialfunc_comp</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>ds_median_r_tc</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>test_position</td>
+          <td>ordinal</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>crt_median_r_tc</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>gcpt_dprime</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>mot_percent_correct</td>
+          <td>numeric</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -238,341 +784,7 @@ Hawks, Zoë W., Strong, Roger, Jung, Laneé, Beck, Emorie D., Passell, Eliza J.,
       </tr>
   </tbody>
 </table>
-<pre tabindex="0"><code class="language-|" data-lang="|">| beep | Beep of the day | other |  |  |
-| sitting_id | Study session id | numeric |  |  |
-| interruptions | Did anything interrupt
-you during this
-assessment? | binary | 2 | ```
-0 = no
-1 = yes
-``` |
-| nervous | Nervous | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
 
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| afraid | Afraid | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| enthusiastic | Enthusiastic | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| distressed | Distressed | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| excited | Excited | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| scared | Scared | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| upset | Upset | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| alert | Alert | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| determined | Determined | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| inspired | Inspired | Likert | 5 | ```
-Indicate to what extent you felt this way right
-before you started this survey.
-
-1 = very slightly or not at all
-2 = a little
-3 = moderately
-4 = quite a bit
-5 = extremely
-``` |
-| depressed | Depressed | Likert | 5 | ```
-Since the last survey, how often have you felt...
-
-1 = none of the time
-2 = a little of the time
-3 = some of the time
-4 = most of the time
-5 = all the time
-``` |
-| restless_or_fidgety | Restless or fidgety | Likert | 5 | ```
-Since the last survey, how often have you felt...
-
-1 = none of the time
-2 = a little of the time
-3 = some of the time
-4 = most of the time
-5 = all the time
-``` |
-| so_sad_that_nothing_could_cheer_you_up | So sad that nothing could cheer you up | Likert | 5 | ```
-Since the last survey, how often have you felt...
-
-1 = none of the time
-2 = a little of the time
-3 = some of the time
-4 = most of the time
-5 = all the time
-``` |
-| worried | Worried | Likert | 5 | ```
-&#34;Since the last survey, how often have you felt...
-
-1 = none of the time
-2 = a little of the time
-3 = some of the time
-4 = most of the time
-5 = all the time&#34;
-``` |
-| hopeless | Hopeless | Likert | 5 | ```
-Since the last survey, how often have you felt...
-
-1 = none of the time
-2 = a little of the time
-3 = some of the time
-4 = most of the time
-5 = all the time
-``` |
-| irritated | Irritated | Likert | 5 | ```
-Since the last survey, how often have you felt...
-
-1 = none of the time
-2 = a little of the time
-3 = some of the time
-4 = most of the time
-5 = all the time
-``` |
-| that_everything_was_an_effort | That everything was an effort | Likert | 5 | ```
-Since the last survey, how often have you felt...
-
-1 = none of the time
-2 = a little of the time
-3 = some of the time
-4 = most of the time
-5 = all the time
-``` |
-| argument_stress | Stressfulness of argument | Likert | 5 | ```
-Since the last survey, did you have an argument or disagreement with someone?
-If yes, how stressul was this experience?
-
-1 = not endorsed
-2 = not at all stressful
-3 = a little bit stressful
-4 = somewhat stressful
-5 = very stressful
-``` |
-| let_pass_stress | Stressfulness of letting something pass | Likert | 5 | ```
-Since the last survey, did anything else happen that you could have argued or disagreed about, but you let it pass?
-If yes, how stressul was this experience?
-
-1 = not endorsed
-2 = not at all stressful
-3 = a little bit stressful
-4 = somewhat stressful
-5 = very stressful
-``` |
-| friend_relative_stress | Stressfulness of something happening to a friend/relative | Likert | 5 | ```
-Since the last survey, did anything happen to a close friend or relative that turned out to be stressful for you?
-If yes, how stressul was this experience?
-
-1 = not endorsed
-2 = not at all stressful
-3 = a little bit stressful
-4 = somewhat stressful
-5 = very stressful
-``` |
-| health_stress | Stressfulness of personal health even | Likert | 5 | ```
-Since the last survey, did anything stressful happen regarding your personal health?
-If yes, how stressul was this experience?
-
-1 = not endorsed
-2 = not at all stressful
-3 = a little bit stressful
-4 = somewhat stressful
-5 = very stressful
-``` |
-| other_stress | Stressfulness of any other event | Likert | 5 | ```
-Since the last survey, did anything else happen that most people would consider stressful?
-If yes, how stressul was this experience?
-
-1 = not endorsed
-2 = not at all stressful
-3 = a little bit stressful
-4 = somewhat stressful
-5 = very stressful
-``` |
-| covid_stress | Stressfulness of thinking about COVID-19 | Likert | 5 | ```
-Since the last survey, how much time did you spend thinking about coronavirus/COVID-19?
-If yes, how stressul was this experience?
-
-1 = not endorsed
-2 = not at all stressful
-3 = a little bit stressful
-4 = somewhat stressful
-5 = very stressful
-``` |
-| socialfunc_interactions | Number of social interactions | ordinal | 4 | ```
-Since the last survey, about how many times did you talk or communicate with someone
-else?
-
-1 = 0 interactions
-2 = 1 interaction
-3 = 2 or 3 interactions
-4 = 4 or more interactions
-``` |
-| alert_sleepiness | Sleepiness | Likert | 9 | ```
-Please indicate your
-sleepiness during the 5
-minutes before this
-survey by choosing the
-appropriate description.
-
-1 = extemely alert
-9 = very sleepy, great effort to keep awake, fighting sleep
-``` |
-| going_on | A lot going on | ordinal | 4 | ```
-There is a lot going on
-around me right now
-
-1 = not at all true
-2 = a little bit true
-3 = somewhat true
-4 = very true
-``` |
-| concentrating | Troubles concentrating | ordinal | 4 | ```
-I am having trouble concentrating right now. 
-
-
-1 = not at all true
-2 = a little bit true
-3 = somewhat true
-4 = very true
-``` |
-| noisy | Noisy context | ordinal | 4 | ```
-I am in a very noisy place right now. 
-
-1 = not at all true
-2 = a little bit true
-3 = somewhat true
-4 = very true&#34;
-``` |
-| finish | Failing to finish things | ordinal | 5 | ```
-To what extent are you currently having difficulty with following through on instructions and failing to finish things?
-
-1 = not having difficulty at all
-5 = extreme difficulty
-``` |
-| organization | Difficulty with organization | ordinal | 5 | ```
-To what extent are you currently having difficulty with organization?
-
-1 = not having difficulty at all
-5 = extreme difficulty
-``` |
-| mentaleffort | Avoiding, disliking, reluctantly doing things that require a lot of mental effort | ordinal | 5 | ```
-To what extent are you currently having difficulty with avoiding, disliking, or reluctantly doing things that require a lot of mental effort?
-
-1 = not having difficulty at all
-5 = extreme difficulty
-``` |
-| forgetful | Forgetful | ordinal | 5 | ```
-To what extent are you currently having difficulty with being forgetful?
-
-1 = not having difficulty at all
-5 = extreme difficulty
-``` |
-| fidgeting | Fidgeting | ordinal | 5 | ```
-To what extent are you currently having difficulty fidgeting with your hands or feet or squirming in seat?
-
-1 = not having difficulty at all
-5 = extreme difficulty
-``` |
-| motor | Acting as if driven by a motor | ordinal | 5 | ```
-To what extent are you currently having difficulty with feeling “on the go” or acting as if you are “driven by a motor”?
-
-1 = not having difficulty at all
-5 = extreme difficulty
-``` |
-| study_time | Time assessment was completed | numeric |  | ```
-24 hour clock in local time zone
-``` |
-| sleep_dur | Typical sleep duration | numeric |  | ```
-Time between typical bed and wake up time
-``` |
-| socialfunc_comp | Social functioning composite score | numeric |  | ```
-Mean of three social functioning items on a 0-7 scale
-``` |
-| ds_median_r_tc | Digit-Symbol Matching (DS) | numeric |  | ```
-Median reaction time on correct responses
-``` |
-| test_position | Position of test within battery | ordinal | 4 |  |
-| crt_median_r_tc | Choice Reaction Time (CRT) | numeric |  | ```
-Median reaction time on correct responses
-``` |
-| gcpt_dprime | Gradual Onset Continuous Performance Test (GCPT) | numeric |  | ```
-Accuracy computed as d-prime
-``` |
-| mot_percent_correct | Multiple Object Tracking (MOT) | numeric |  | ```
-Proportion of correct targets
-``` |
-</code></pre>
 
   </div>
 

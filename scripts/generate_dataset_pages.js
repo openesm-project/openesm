@@ -84,6 +84,13 @@ function formatBeepsPerDay(beeps) {
   return beeps || '';
 }
 
+// Function to format text fields for markdown tables
+function formatForTable(text) {
+  if (!text) return '';
+  // Replace newlines with HTML line breaks for table cells
+  return text.replace(/\n/g, '<br>');
+}
+
 // Read and process all dataset folders
 const generateDatasetPages = () => {
   // Get all subdirectories in the datasets directory
@@ -109,7 +116,6 @@ date: ${new Date().toISOString().split('T')[0]}
 draft: false
 ---
 
-# ${data.first_author} (${data.year})
 
 ## Study Information
 
@@ -131,13 +137,13 @@ draft: false
 
 - **Cross-sectional Data:** ${data.cross_sectional_available || 'not specified'}
 - **Passive Sensor Data:** ${data.passive_data_available || 'not specified'}
-- **Link to Data:** [${data.link_to_data}](${data.link_to_data})
+- **Link to Original Data:** [${data.link_to_data}](${data.link_to_data})
 - **Link to Codebook:** ${data.link_to_codebook ? `[${data.link_to_codebook}](${data.link_to_codebook})` : 'not available'}
 - **Link to Code:** [${data.link_to_code}](${data.link_to_code})
 
 ## Data Access
 
-- **Zenodo:** [Download Dataset from Zenodo](https://zenodo.org/record/[RECORD_ID])
+- **Zenodo:** ${data.link_to_zenodo ? `[${data.link_to_zenodo}](${data.link_to_zenodo})` : 'not available'}
 - **R:** \`openesm::get_dataset("${folder}")\`
 - **Python:** \`openesm.get_dataset("${folder}")\`
 
@@ -151,10 +157,9 @@ ${additionalReference ? `\n### Additional Reference\n\n${additionalReference}\n`
 
 ## Variables
 
-| Name | Description | Type | Answer Categories | Coding |
-|------|-------------|------|------------------|--------|
-${data.features.map(feature => `| ${feature.name} | ${feature.description} | ${feature.type} | ${feature.answer_categories || ''} | ${feature.coding ? '```\n' + feature.coding + '\n```' : ''} |`).join('\n')}
-
+| Name | Type | Answer Categories | Wording | Labels | Transformation | Source | Assessment Type | Construct | Comments |
+|------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
+${data.features.map(feature => `| ${feature.name} | ${feature.type} | ${formatForTable(feature.answer_categories)} | ${formatForTable(feature.wording)} | ${formatForTable(feature.labels)} | ${formatForTable(feature.transformation)} | ${formatForTable(feature.source)} | ${formatForTable(feature.assessment_type)} | ${formatForTable(feature.construct)} | ${formatForTable(feature.comments)} |`).join('\n')}
 `;
       
       // Write the markdown file
