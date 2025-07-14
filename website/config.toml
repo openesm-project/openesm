@@ -66,7 +66,8 @@ theme = "PaperMod"
   description = "Open Experience Sampling Method (ESM) Database"
   
   # Default theme (auto, light, dark)
-  defaultTheme = "auto"
+  defaultTheme = "light"
+  disableThemeToggle = true
   
   # Show code copy buttons
   ShowCodeCopyButtons = true
@@ -97,5 +98,5 @@ theme = "PaperMod"
     keys = ["title", "permalink", "summary", "content"]
   
   # Custom CSS
-  customCSS = ["css/custom.css"]
+  customCSS = ["assets/css/custom.css"]
 

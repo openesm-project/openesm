@@ -16,17 +16,28 @@ body {
 }
 
 /* Header and Navigation */
-.header {
+.header,
+header.header {
   background-color: var(--primary-blue) !important;
-  border-bottom: 2px solid var(--accent-orange);
 }
 
+/* Header text */
 .header .logo,
-.header .menu a {
+.header .logo a,
+.header .menu a,
+.header nav a,
+header.header .logo,
+header.header .logo a,
+header.header .menu a,
+header.header nav a {
   color: var(--bg-offwhite) !important;
 }
 
-.header .menu a:hover {
+/* Header hover states */
+.header .menu a:hover,
+.header nav a:hover,
+header.header .menu a:hover,
+header.header nav a:hover {
   color: var(--accent-orange) !important;
   background-color: rgba(255, 255, 255, 0.1) !important;
   border-radius: 4px;
@@ -51,7 +62,6 @@ a {
 
 a:hover {
   color: var(--accent-orange);
-  text-decoration: underline;
 }
 
 /* Buttons and CTAs */
@@ -97,7 +107,6 @@ input[type="submit"]:hover {
 }
 
 /* Increase content width */
-/* also encoded in assets/css/extended/theme-vars.css */
 .main {
   max-width: 1300px !important;  /* Increase from default (usually around 720px) */
   width: 95% !important;         /* Use most of the screen width */
