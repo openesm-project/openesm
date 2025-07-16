@@ -128,93 +128,106 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/search/</guid>
       <description>&lt;p&gt;Use the search box below to find datasets and variables in the OpenESM database.&lt;/p&gt;
-&lt;div id=&#34;custom-search-container&#34;&gt;
-  &lt;input type=&#34;text&#34; id=&#34;custom-search-input&#34; placeholder=&#34;Search datasets and variables...&#34;&gt;
-  &lt;div id=&#34;custom-search-results&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;custom-search-container&#34; style=&#34;display: flex; gap: 20px;&#34;&gt;
+&lt;aside style=&#34;width: 250px; background-color: var(--code-bg); padding: 20px; border-radius: 8px; height: fit-content; flex-shrink: 0; border: 1px solid var(--border);&#34;&gt;
+&lt;h3 style=&#34;margin-top: 0; margin-bottom: 20px; font-size: 1.1rem; border-bottom: 1px solid var(--border); padding-bottom: 10px;&#34;&gt;Filters&lt;/h3&gt;
+&lt;div style=&#34;margin-bottom: 20px;&#34;&gt;
+&lt;h4 style=&#34;margin-bottom: 10px; font-size: 0.9rem; color: var(--secondary);&#34;&gt;Dataset Size&lt;/h4&gt;
+&lt;div style=&#34;margin-bottom: 15px;&#34;&gt;
+&lt;label for=&#34;min-participants&#34; style=&#34;display: block; font-weight: 500; margin-bottom: 5px; font-size: 0.875rem;&#34;&gt;Min Participants&lt;/label&gt;
+&lt;input type=&#34;number&#34; id=&#34;min-participants&#34; min=&#34;1&#34; value=&#34;1&#34; style=&#34;width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary);&#34;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;label for=&#34;min-observations&#34; style=&#34;display: block; font-weight: 500; margin-bottom: 5px; font-size: 0.875rem;&#34;&gt;Min Observations&lt;/label&gt;
+&lt;input type=&#34;number&#34; id=&#34;min-observations&#34; min=&#34;1&#34; value=&#34;1&#34; style=&#34;width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary);&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-bottom: 20px;&#34;&gt;
+&lt;h4 style=&#34;margin-bottom: 10px; font-size: 0.9rem; color: var(--secondary);&#34;&gt;Data Types&lt;/h4&gt;
+&lt;div style=&#34;margin-bottom: 8px; display: flex; align-items: center;&#34;&gt;
+&lt;input type=&#34;checkbox&#34; id=&#34;passive-data&#34; style=&#34;margin-right: 8px;&#34;&gt;
+&lt;label for=&#34;passive-data&#34; style=&#34;font-size: 0.875rem;&#34;&gt;Passive data&lt;/label&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-bottom: 8px; display: flex; align-items: center;&#34;&gt;
+&lt;input type=&#34;checkbox&#34; id=&#34;cross-sectional&#34; style=&#34;margin-right: 8px;&#34;&gt;
+&lt;label for=&#34;cross-sectional&#34; style=&#34;font-size: 0.875rem;&#34;&gt;Cross-sectional data&lt;/label&gt;
+&lt;/div&gt;
+&lt;div style=&#34;display: flex; align-items: center;&#34;&gt;
+&lt;input type=&#34;checkbox&#34; id=&#34;raw-timestamp&#34; style=&#34;margin-right: 8px;&#34;&gt;
+&lt;label for=&#34;raw-timestamp&#34; style=&#34;font-size: 0.875rem;&#34;&gt;Raw timestamp&lt;/label&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h4 style=&#34;margin-bottom: 10px; font-size: 0.9rem; color: var(--secondary);&#34;&gt;Constructs&lt;/h4&gt;
+&lt;div class=&#34;construct-dropdown&#34;&gt;
+&lt;button class=&#34;construct-button&#34; id=&#34;construct-button&#34;&gt;
+&lt;span id=&#34;construct-button-text&#34;&gt;All constructs&lt;/span&gt;
+&lt;span&gt;▼&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class=&#34;construct-dropdown-content&#34; id=&#34;construct-dropdown&#34;&gt;
+&lt;!-- Constructs will be populated dynamically --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/aside&gt;
+&lt;main style=&#34;flex: 1;&#34;&gt;
+&lt;input type=&#34;text&#34; id=&#34;custom-search-input&#34; placeholder=&#34;Search datasets and variables...&#34;&gt;
+&lt;div id=&#34;selected-datasets&#34; class=&#34;selected-datasets hidden&#34;&gt;
+&lt;div class=&#34;selected-header&#34;&gt;
+&lt;h3 id=&#34;selected-count&#34;&gt;0 datasets selected&lt;/h3&gt;
+&lt;span class=&#34;toggle-arrow&#34;&gt;▼&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&#34;selected-content&#34;&gt;
+&lt;button id=&#34;clear-selection-btn&#34; class=&#34;clear-btn&#34;&gt;Clear Selection&lt;/button&gt;
+&lt;div class=&#34;code-section&#34;&gt;
+&lt;div class=&#34;code-block&#34;&gt;
+&lt;div class=&#34;code-header&#34;&gt;R Code&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&#34;code-content&#34; id=&#34;r-code&#34;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;code-block&#34;&gt;
+&lt;div class=&#34;code-header&#34;&gt;Python Code&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&#34;code-content&#34; id=&#34;python-code&#34;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;custom-search-results&#34;&gt;&lt;/div&gt;
+&lt;/main&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://unpkg.com/lunr/lunr.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
 document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
-  let datasets = [];
-  let idx = null;
-  
-  // Debug flag to log more information
-  const debug = true;
-  
-  function log(message, data) {
-    if (debug) {
-      console.log(message, data);
+    let datasets = [];
+    let idx = null;
+    let selectedDatasets = new Set();
+    let selectedConstructs = new Set();
+    let constructCounts = {};
+    const debug = false;
+    function log(message, data) {
+        if (debug) {
+            console.log(message, data || &#39;&#39;);
+        }
     }
-  }
-  
-  // Determine path based on whether we&#39;re in development or production
-  const basePath = window.location.pathname.includes(&#39;/openesm/&#39;) ? &#39;/openesm&#39; : &#39;&#39;;
-  const jsonUrl = `${basePath}/data/datasets-index.json`;
-  
-  log(&#34;Will fetch search index from:&#34;, jsonUrl);
-  
-  // Load the dataset metadata
-  fetch(jsonUrl)
-    .then(response =&gt; {
-      log(&#34;Fetch response status:&#34;, response.status);
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then(data =&gt; {
-      log(&#34;Successfully loaded search index with datasets:&#34;, data.length);
-      datasets = data;
-      
-      // Build the search index
-      idx = lunr(function() {
-        log(&#34;Building Lunr index&#34;);
-        this.ref(&#39;id&#39;);
-        this.field(&#39;first_author&#39;, { boost: 10 });
-        this.field(&#39;year&#39;, { boost: 5 });
-        this.field(&#39;topics&#39;, { boost: 8 });
-        this.field(&#39;participants&#39;, { boost: 6 });
-        this.field(&#39;sampling_scheme&#39;, { boost: 4 });
-        this.field(&#39;additional_comments&#39;, { boost: 3 });
-        this.field(&#39;reference_text&#39;, { boost: 7 });
-        this.field(&#39;variables&#39;, { boost: 5 });
-        
-        // Add each dataset to the index
-        datasets.forEach(function(doc, index) {
-          log(`Indexing dataset ${index}: ${doc.id}`);
-          
-          // Create searchable text from variables
-          const variableText = doc.variables.map(v =&gt; 
-            `${v.name} ${v.description} ${v.type} ${v.coding || &#39;&#39;}`
-          ).join(&#39; &#39;);
-          
-          const indexDoc = {
-            id: doc.id,
-            first_author: doc.first_author || &#39;&#39;,
-            year: (doc.year || &#39;&#39;).toString(),
-            topics: doc.topics || &#39;&#39;,
-            participants: doc.participants || &#39;&#39;,
-            sampling_scheme: doc.sampling_scheme || &#39;&#39;,
-            additional_comments: doc.additional_comments || &#39;&#39;,
-            reference_text: doc.reference_text || &#39;&#39;,
-            variables: variableText
-          };
-          
-          this.add(indexDoc);
-        }, this);
-        
-        log(&#34;Finished building Lunr index&#34;);
-      });
-      
-      // Set up event listener
-      document.getElementById(&#39;custom-search-input&#39;).addEventListener(&#39;input&#39;, performSearch);
-      
-      log(&#34;Search setup complete&#34;);
-    })
-    .catch(error =&gt; {
-      console.error(&#39;Error loading search index:&#39;, error);
-      document.getElementById(&#39;custom-search-results&#39;).innerHTML = 
-        &#39;&lt;p&gt;Error loading search index: &#39; + error.message + &#39;&lt;/p&gt;</description>
+    const basePath = window.location.pathname.includes(&#39;/openesm/&#39;) ? &#39;/openesm&#39; : &#39;&#39;;
+    const jsonUrl = `${basePath}/data/datasets-index.json`;
+    fetch(jsonUrl)
+        .then(response =&gt; {
+            if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+            return response.json();
+        })
+        .then(data =&gt; {
+            datasets = data;
+            buildSearchIndex();
+            buildConstructCounts();
+            populateConstructDropdown();
+            setupEventListeners();
+            performSearch();
+        })
+        .catch(error =&gt; {
+            console.error(&#39;Error loading search index:&#39;, error);
+            const resultsContainer = document.getElementById(&#39;custom-search-results&#39;);
+            if (resultsContainer) {
+                resultsContainer.innerHTML = &#39;&lt;p&gt;Error loading search index. &#39; + error.message + &#39;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

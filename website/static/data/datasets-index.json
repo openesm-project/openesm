@@ -17,6 +17,7 @@
     "variables": [
       {
         "name": "id",
+        "description": "Participant ID",
         "type": "categorical",
         "coding": "",
         "answer_categories": "",
@@ -30,6 +31,7 @@
       },
       {
         "name": "scheduled",
+        "description": "Time of beep schedule",
         "type": "PosixCt",
         "coding": "",
         "answer_categories": "",
@@ -43,6 +45,7 @@
       },
       {
         "name": "issued",
+        "description": "Time of beep issue",
         "type": "PosixCt",
         "coding": "",
         "answer_categories": "",
@@ -56,6 +59,7 @@
       },
       {
         "name": "response",
+        "description": "Time of response",
         "type": "PosixCt",
         "coding": "",
         "answer_categories": "",
@@ -69,6 +73,7 @@
       },
       {
         "name": "duration",
+        "description": "Duration of response",
         "type": "other",
         "coding": "",
         "answer_categories": "",
@@ -82,6 +87,7 @@
       },
       {
         "name": "relax",
+        "description": "Difficulties relaxing",
         "type": "Likert",
         "coding": "I found it difficult to relax.\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -95,6 +101,7 @@
       },
       {
         "name": "irritable",
+        "description": "Irritable",
         "type": "Likert",
         "coding": "I felt (very) irritable\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -108,6 +115,7 @@
       },
       {
         "name": "worry",
+        "description": "Worried",
         "type": "Likert",
         "coding": "I was worried about different things\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -121,6 +129,7 @@
       },
       {
         "name": "nervous",
+        "description": "Nervous",
         "type": "Likert",
         "coding": "I felt nervous, anxious or on edge\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -134,6 +143,7 @@
       },
       {
         "name": "future",
+        "description": "Nothing to look forward to",
         "type": "Likert",
         "coding": "I felt that I had nothing to look forward\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -147,6 +157,7 @@
       },
       {
         "name": "anhedonia",
+        "description": "Anhedonia",
         "type": "Likert",
         "coding": "I couldn't seem to experience any positive feeling at all\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -160,6 +171,7 @@
       },
       {
         "name": "tired",
+        "description": "Tired",
         "type": "Likert",
         "coding": "I felt tired\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -173,6 +185,7 @@
       },
       {
         "name": "hungry",
+        "description": "Hungry",
         "type": "Likert",
         "coding": "In the past 3h, I was hungry\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -186,6 +199,7 @@
       },
       {
         "name": "alone",
+        "description": "Feeling alone",
         "type": "Likert",
         "coding": "I felt like I lack companionship, or that I am not close to people.\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -199,6 +213,7 @@
       },
       {
         "name": "angry",
+        "description": "Angry",
         "type": "Likert",
         "coding": "I felt angry\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -212,6 +227,7 @@
       },
       {
         "name": "social_offline",
+        "description": "Offline social contacts",
         "type": "Likert",
         "coding": "I spent ___ minutes on meaningful, offline, social interaction\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
@@ -225,6 +241,7 @@
       },
       {
         "name": "social_online",
+        "description": "Online social contacs",
         "type": "Likert",
         "coding": "I spent __ minutes using social media to kill/pass the time\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
@@ -238,6 +255,7 @@
       },
       {
         "name": "music",
+        "description": "Time spent listening to music",
         "type": "Likert",
         "coding": "I spent __ minutes listening to music\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
@@ -251,6 +269,7 @@
       },
       {
         "name": "procrastinate",
+        "description": "Procastination",
         "type": "Likert",
         "coding": "To what degree did you postpone working on a task?\n\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
@@ -264,6 +283,7 @@
       },
       {
         "name": "outdoors",
+        "description": "Time spent outdoors",
         "type": "Likert",
         "coding": "I spent __ minutes outside (outdoors)?\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
@@ -277,6 +297,7 @@
       },
       {
         "name": "c19_occupied",
+        "description": "Occupied with COVID",
         "type": "Likert",
         "coding": "I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it)\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
@@ -290,6 +311,7 @@
       },
       {
         "name": "c19_worry",
+        "description": "Worried about COVID",
         "type": "Likert",
         "coding": "I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
@@ -303,6 +325,7 @@
       },
       {
         "name": "home",
+        "description": "Time spent at home",
         "type": "Likert",
         "coding": "I spent __ at home (including the home of parents/partner)\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
@@ -316,6 +339,7 @@
       },
       {
         "name": "day",
+        "description": "Day of study",
         "type": "other",
         "coding": "",
         "answer_categories": "",
@@ -329,6 +353,7 @@
       },
       {
         "name": "beep",
+        "description": "Beep of the day",
         "type": "other",
         "coding": "",
         "answer_categories": "",
@@ -342,6 +367,7 @@
       },
       {
         "name": "date",
+        "description": "Date",
         "type": "Date",
         "coding": "",
         "answer_categories": "",
@@ -374,6 +400,7 @@
     "variables": [
       {
         "name": "id",
+        "description": "Participant ID",
         "type": "categorical",
         "coding": "",
         "answer_categories": "",
@@ -387,6 +414,7 @@
       },
       {
         "name": "day",
+        "description": "Day of study",
         "type": "other",
         "coding": "",
         "answer_categories": "",
@@ -400,6 +428,7 @@
       },
       {
         "name": "beep",
+        "description": "Beep of the day",
         "type": "other",
         "coding": "",
         "answer_categories": "",
@@ -413,6 +442,7 @@
       },
       {
         "name": "sociable",
+        "description": "Sociable",
         "type": "numeric",
         "coding": "Today I was sociable\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
         "answer_categories": "6",
@@ -426,6 +456,7 @@
       },
       {
         "name": "creative",
+        "description": "Creative",
         "type": "numeric",
         "coding": "Today I was creative\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
         "answer_categories": "6",
@@ -439,6 +470,7 @@
       },
       {
         "name": "friendly",
+        "description": "Friendly",
         "type": "numeric",
         "coding": "Today I was friendly\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
         "answer_categories": "6",
@@ -452,6 +484,7 @@
       },
       {
         "name": "organised",
+        "description": "Organised",
         "type": "numeric",
         "coding": "Today I was organised\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
         "answer_categories": "6",
@@ -465,6 +498,7 @@
       },
       {
         "name": "self_esteem",
+        "description": "Satisfied with myself",
         "type": "numeric",
         "coding": "Today I was satisfied with myself\n\n1 (not at all) to 6 (extremely)\n(self-esteem, grand-mean centered)",
         "answer_categories": "6",
@@ -478,6 +512,7 @@
       },
       {
         "name": "weekday",
+        "description": "Day of the week",
         "type": "numeric",
         "coding": "0-6",
         "answer_categories": "",
@@ -491,6 +526,7 @@
       },
       {
         "name": "temp",
+        "description": "Temperature",
         "type": "numeric",
         "coding": "",
         "answer_categories": "",
@@ -504,6 +540,7 @@
       },
       {
         "name": "rain",
+        "description": "Precipitation Rainfall",
         "type": "numeric",
         "coding": "",
         "answer_categories": "",
@@ -517,6 +554,7 @@
       },
       {
         "name": "nervous",
+        "description": "Nervous",
         "type": "Likert",
         "coding": "Today I was nervous\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
         "answer_categories": "6",
@@ -549,6 +587,7 @@
     "variables": [
       {
         "name": "id",
+        "description": "Participant ID",
         "type": "categorical",
         "coding": "",
         "answer_categories": "",
@@ -562,6 +601,7 @@
       },
       {
         "name": "day",
+        "description": "Day of study",
         "type": "other",
         "coding": "Days elapsed in study",
         "answer_categories": "10",
@@ -575,6 +615,7 @@
       },
       {
         "name": "beep",
+        "description": "Beep of the day",
         "type": "other",
         "coding": "",
         "answer_categories": "",
@@ -588,6 +629,7 @@
       },
       {
         "name": "sitting_id",
+        "description": "Study session id",
         "type": "numeric",
         "coding": "",
         "answer_categories": "",
@@ -601,6 +643,7 @@
       },
       {
         "name": "interruptions",
+        "description": "Did anything interrupt\nyou during this\nassessment?",
         "type": "binary",
         "coding": "0 = no\n1 = yes",
         "answer_categories": "2",
@@ -614,6 +657,7 @@
       },
       {
         "name": "nervous",
+        "description": "Nervous",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -627,6 +671,7 @@
       },
       {
         "name": "afraid",
+        "description": "Afraid",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -640,6 +685,7 @@
       },
       {
         "name": "enthusiastic",
+        "description": "Enthusiastic",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -653,6 +699,7 @@
       },
       {
         "name": "distressed",
+        "description": "Distressed",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -666,6 +713,7 @@
       },
       {
         "name": "excited",
+        "description": "Excited",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -679,6 +727,7 @@
       },
       {
         "name": "scared",
+        "description": "Scared",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -692,6 +741,7 @@
       },
       {
         "name": "upset",
+        "description": "Upset",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -705,6 +755,7 @@
       },
       {
         "name": "alert",
+        "description": "Alert",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -718,6 +769,7 @@
       },
       {
         "name": "determined",
+        "description": "Determined",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -731,6 +783,7 @@
       },
       {
         "name": "inspired",
+        "description": "Inspired",
         "type": "Likert",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
@@ -744,6 +797,7 @@
       },
       {
         "name": "depressed",
+        "description": "Depressed",
         "type": "Likert",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
@@ -757,6 +811,7 @@
       },
       {
         "name": "restless_or_fidgety",
+        "description": "Restless or fidgety",
         "type": "Likert",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
@@ -770,6 +825,7 @@
       },
       {
         "name": "so_sad_that_nothing_could_cheer_you_up",
+        "description": "So sad that nothing could cheer you up",
         "type": "Likert",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
@@ -783,6 +839,7 @@
       },
       {
         "name": "worried",
+        "description": "Worried",
         "type": "Likert",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
@@ -796,6 +853,7 @@
       },
       {
         "name": "hopeless",
+        "description": "Hopeless",
         "type": "Likert",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
@@ -809,6 +867,7 @@
       },
       {
         "name": "irritated",
+        "description": "Irritated",
         "type": "Likert",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
@@ -822,6 +881,7 @@
       },
       {
         "name": "that_everything_was_an_effort",
+        "description": "That everything was an effort",
         "type": "Likert",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
@@ -835,6 +895,7 @@
       },
       {
         "name": "argument_stress",
+        "description": "Stressfulness of argument",
         "type": "Likert",
         "coding": "Since the last survey, did you have an argument or disagreement with someone?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
@@ -848,6 +909,7 @@
       },
       {
         "name": "let_pass_stress",
+        "description": "Stressfulness of letting something pass",
         "type": "Likert",
         "coding": "Since the last survey, did anything else happen that you could have argued or disagreed about, but you let it pass?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
@@ -861,6 +923,7 @@
       },
       {
         "name": "friend_relative_stress",
+        "description": "Stressfulness of something happening to a friend/relative",
         "type": "Likert",
         "coding": "Since the last survey, did anything happen to a close friend or relative that turned out to be stressful for you?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
@@ -874,6 +937,7 @@
       },
       {
         "name": "health_stress",
+        "description": "Stressfulness of personal health even",
         "type": "Likert",
         "coding": "Since the last survey, did anything stressful happen regarding your personal health?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
@@ -887,6 +951,7 @@
       },
       {
         "name": "other_stress",
+        "description": "Stressfulness of any other event",
         "type": "Likert",
         "coding": "Since the last survey, did anything else happen that most people would consider stressful?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
@@ -900,6 +965,7 @@
       },
       {
         "name": "covid_stress",
+        "description": "Stressfulness of thinking about COVID-19",
         "type": "Likert",
         "coding": "Since the last survey, how much time did you spend thinking about coronavirus/COVID-19?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
@@ -913,6 +979,7 @@
       },
       {
         "name": "socialfunc_interactions",
+        "description": "Number of social interactions",
         "type": "ordinal",
         "coding": "Since the last survey, about how many times did you talk or communicate with someone\nelse?\n\n1 = 0 interactions\n2 = 1 interaction\n3 = 2 or 3 interactions\n4 = 4 or more interactions",
         "answer_categories": "4",
@@ -926,6 +993,7 @@
       },
       {
         "name": "alert_sleepiness",
+        "description": "Sleepiness",
         "type": "Likert",
         "coding": "Please indicate your sleepiness during the 5 minutes before this\nsurvey by choosing the appropriate description.\n\n1 = extemely alert\n9 = very sleepy, great effort to keep awake, fighting sleep",
         "answer_categories": "9",
@@ -939,6 +1007,7 @@
       },
       {
         "name": "going_on",
+        "description": "A lot going on",
         "type": "ordinal",
         "coding": "There is a lot going on\naround me right now\n\n1 = not at all true\n2 = a little bit true\n3 = somewhat true\n4 = very true",
         "answer_categories": "4",
@@ -952,6 +1021,7 @@
       },
       {
         "name": "concentrating",
+        "description": "Troubles concentrating",
         "type": "ordinal",
         "coding": "I am having trouble concentrating right now. \n\n\n1 = not at all true\n2 = a little bit true\n3 = somewhat true\n4 = very true",
         "answer_categories": "4",
@@ -965,6 +1035,7 @@
       },
       {
         "name": "noisy",
+        "description": "Noisy context",
         "type": "ordinal",
         "coding": "I am in a very noisy place right now. \n\n1 = not at all true\n2 = a little bit true\n3 = somewhat true\n4 = very true",
         "answer_categories": "4",
@@ -978,6 +1049,7 @@
       },
       {
         "name": "finish",
+        "description": "Failing to finish things",
         "type": "ordinal",
         "coding": "To what extent are you currently having difficulty with following through on instructions and failing to finish things?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
@@ -991,6 +1063,7 @@
       },
       {
         "name": "organization",
+        "description": "Difficulty with organization",
         "type": "ordinal",
         "coding": "To what extent are you currently having difficulty with organization?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
@@ -1004,6 +1077,7 @@
       },
       {
         "name": "mentaleffort",
+        "description": "Avoiding, disliking, reluctantly doing things that require a lot of mental effort",
         "type": "ordinal",
         "coding": "To what extent are you currently having difficulty with avoiding, disliking, or reluctantly doing things that require a lot of mental effort?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
@@ -1017,6 +1091,7 @@
       },
       {
         "name": "forgetful",
+        "description": "Forgetful",
         "type": "ordinal",
         "coding": "To what extent are you currently having difficulty with being forgetful?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
@@ -1030,6 +1105,7 @@
       },
       {
         "name": "fidgeting",
+        "description": "Fidgeting",
         "type": "ordinal",
         "coding": "To what extent are you currently having difficulty fidgeting with your hands or feet or squirming in seat?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
@@ -1043,6 +1119,7 @@
       },
       {
         "name": "motor",
+        "description": "Acting as if driven by a motor",
         "type": "ordinal",
         "coding": "To what extent are you currently having difficulty with feeling “on the go” or acting as if you are “driven by a motor”?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
@@ -1056,6 +1133,7 @@
       },
       {
         "name": "study_time",
+        "description": "Time assessment was completed",
         "type": "numeric",
         "coding": "24 hour clock in local time zone",
         "answer_categories": "",
@@ -1069,6 +1147,7 @@
       },
       {
         "name": "sleep_dur",
+        "description": "Typical sleep duration",
         "type": "numeric",
         "coding": "Time between typical bed and wake up time",
         "answer_categories": "",
@@ -1082,6 +1161,7 @@
       },
       {
         "name": "socialfunc_comp",
+        "description": "Social functioning composite score",
         "type": "numeric",
         "coding": "Mean of three social functioning items on a 0-7 scale",
         "answer_categories": "",
@@ -1095,6 +1175,7 @@
       },
       {
         "name": "ds_median_r_tc",
+        "description": "Digit-Symbol Matching (DS)",
         "type": "numeric",
         "coding": "Median reaction time on correct responses",
         "answer_categories": "",
@@ -1108,6 +1189,7 @@
       },
       {
         "name": "test_position",
+        "description": "Position of test within battery",
         "type": "ordinal",
         "coding": "",
         "answer_categories": "4",
@@ -1121,6 +1203,7 @@
       },
       {
         "name": "crt_median_r_tc",
+        "description": "Choice Reaction Time (CRT)",
         "type": "numeric",
         "coding": "Median reaction time on correct responses",
         "answer_categories": "",
@@ -1134,6 +1217,7 @@
       },
       {
         "name": "gcpt_dprime",
+        "description": "Gradual Onset Continuous Performance Test (GCPT)",
         "type": "numeric",
         "coding": "Accuracy computed as d-prime",
         "answer_categories": "",
@@ -1147,6 +1231,7 @@
       },
       {
         "name": "mot_percent_correct",
+        "description": "Multiple Object Tracking (MOT)",
         "type": "numeric",
         "coding": "Proportion of correct targets",
         "answer_categories": "",
