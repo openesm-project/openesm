@@ -20,14 +20,14 @@
   "sampling_scheme": "1x/day unclear schedule",
   "participants": "unclear",
   "coding_file": "0002_nestler_variables",
-  "additional_comments": null,
+  "additional_comments": "part of the FLIP study",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
   "features": [
     {
       "name": "id",
       "description": "Participant ID",
-      "type": "categorical",
+      "variable_type": "categorical",
       "coding": "",
       "answer_categories": "",
       "wording": "",
@@ -41,7 +41,7 @@
     {
       "name": "day",
       "description": "Day of study",
-      "type": "other",
+      "variable_type": "other",
       "coding": "",
       "answer_categories": "",
       "wording": "",
@@ -55,7 +55,7 @@
     {
       "name": "beep",
       "description": "Beep of the day",
-      "type": "other",
+      "variable_type": "other",
       "coding": "",
       "answer_categories": "",
       "wording": "",
@@ -69,7 +69,7 @@
     {
       "name": "sociable",
       "description": "Sociable",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "Today I was sociable\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
       "answer_categories": "6",
       "wording": "Today I was sociable",
@@ -77,13 +77,13 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "",
+      "construct": "social, personality, extraversion",
       "comments": ""
     },
     {
       "name": "creative",
       "description": "Creative",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "Today I was creative\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
       "answer_categories": "6",
       "wording": "Today I was creative",
@@ -91,13 +91,13 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "",
+      "construct": "personality, creativity, openness",
       "comments": ""
     },
     {
       "name": "friendly",
       "description": "Friendly",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "Today I was friendly\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
       "answer_categories": "6",
       "wording": "Today I was friendly",
@@ -105,13 +105,13 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "",
+      "construct": "personality, agreeableness",
       "comments": ""
     },
     {
       "name": "organised",
       "description": "Organised",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "Today I was organised\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
       "answer_categories": "6",
       "wording": "Today I was organised",
@@ -119,13 +119,13 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "",
+      "construct": "personality, conscientiousness",
       "comments": ""
     },
     {
       "name": "self_esteem",
       "description": "Satisfied with myself",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "Today I was satisfied with myself\n\n1 (not at all) to 6 (extremely)\n(self-esteem, grand-mean centered)",
       "answer_categories": "6",
       "wording": "Today I was satisfied with myself",
@@ -133,13 +133,13 @@
       "transformation": "grand-mean centered",
       "source": "Rosenberg Self-Esteem Scale",
       "assessment_type": "Daily",
-      "construct": "",
+      "construct": "self-esteem, well-being, positive affect",
       "comments": ""
     },
     {
       "name": "weekday",
       "description": "Day of the week",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "0-6",
       "answer_categories": "",
       "wording": "",
@@ -153,7 +153,7 @@
     {
       "name": "temp",
       "description": "Temperature",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "",
       "answer_categories": "",
       "wording": "",
@@ -167,7 +167,7 @@
     {
       "name": "rain",
       "description": "Precipitation Rainfall",
-      "type": "numeric",
+      "variable_type": "numeric",
       "coding": "",
       "answer_categories": "",
       "wording": "",
@@ -181,7 +181,7 @@
     {
       "name": "nervous",
       "description": "Nervous",
-      "type": "Likert",
+      "variable_type": "Likert",
       "coding": "Today I was nervous\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
       "answer_categories": "6",
       "wording": "Today I was nervous",
@@ -189,7 +189,7 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "",
+      "construct": "negative affect, neuroticism",
       "comments": ""
     }
   ]

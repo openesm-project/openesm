@@ -77,7 +77,7 @@ const processDatasets = () => {
         n_beeps_per_day: formatBeepsPerDay(data.n_beeps_per_day),
         variables: data.features.map(feature => ({
         name: feature.name,
-        type: feature.type,
+        type: feature.variable_type,
         coding: feature.coding,
         answer_categories: feature.answer_categories,
         wording: feature.wording,

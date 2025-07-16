@@ -1,6 +1,6 @@
 ---
 title: "Nestler (2022)"
-date: 2025-07-14
+date: 2025-07-16
 draft: false
 ---
 
@@ -35,6 +35,9 @@ draft: false
 - **R:** `openesm::get_dataset("0002_nestler")`
 - **Python:** `openesm.get_dataset("0002_nestler")`
 
+## Additional Comments
+
+part of the FLIP study
 
 
 ## Citation
@@ -51,12 +54,12 @@ Nestler, S., & Humberg, S. (2022). A lasso and a regression tree mixed-effect mo
 | id | categorical |  |  |  |  |  | Daily |  |  |
 | day | other |  |  |  |  |  | Daily |  |  |
 | beep | other |  |  |  |  |  | Daily |  |  |
-| sociable | numeric | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
-| creative | numeric | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
-| friendly | numeric | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
-| organised | numeric | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
-| self_esteem | numeric | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily |  |  |
+| sociable | numeric | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | social, personality, extraversion |  |
+| creative | numeric | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | personality, creativity, openness |  |
+| friendly | numeric | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | personality, agreeableness |  |
+| organised | numeric | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | personality, conscientiousness |  |
+| self_esteem | numeric | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily | self-esteem, well-being, positive affect |  |
 | weekday | numeric |  |  |  |  |  | Daily |  |  |
 | temp | numeric |  |  |  |  |  | Daily |  |  |
 | rain | numeric |  |  |  |  |  | Daily |  |  |
-| nervous | Likert | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily |  |  |
+| nervous | Likert | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | negative affect, neuroticism |  |

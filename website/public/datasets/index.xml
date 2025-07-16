@@ -6,12 +6,12 @@
     <description>Recent content in Datasets on openESM</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/openesm/datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fried (2021)</title>
       <link>http://localhost:1313/openesm/datasets/0001_fried/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0001_fried/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -49,7 +49,7 @@
     <item>
       <title>Hawks (2023)</title>
       <link>http://localhost:1313/openesm/datasets/0003_hawks/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0003_hawks/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -87,7 +87,7 @@
     <item>
       <title>Nestler (2022)</title>
       <link>http://localhost:1313/openesm/datasets/0002_nestler/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0002_nestler/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -119,8 +119,8 @@
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0002_nestler&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0002_nestler&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Nestler, S., &amp;amp; Humberg, S. (2022). A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation. Psychometrika, 87(2), 506–532. &lt;a href=&#34;https://doi.org/10.1007/s11336-021-09787-w&#34;&gt;https://doi.org/10.1007/s11336-021-09787-w&lt;/a&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;part of the FLIP study&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
