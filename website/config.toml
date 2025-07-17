@@ -16,20 +16,25 @@ theme = "PaperMod"
     url = "/"
     weight = 10
   [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20  
+  [[menu.main]]
     identifier = "datasets"
     name = "Datasets"
     url = "/datasets/"
-    weight = 20
+    weight = 30
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 30
+    weight = 40
   [[menu.main]]
     identifier = "documentation"
     name = "Documentation"
     url = "/docs/"
-    weight = 40
+    weight = 50
 
   # Documentation submenu
   [[menu.docs]]

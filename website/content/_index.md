@@ -76,7 +76,6 @@ hideposts: true
             justify-content: center;
             flex-wrap: wrap;
             padding: 60px 20px;
-            background-color: var(--bg-offwhite);
             gap: 40px; /* Space between stat boxes */
         }
         .stat-box {
@@ -179,6 +178,15 @@ hideposts: true
             background-color: #06458d; /* Manual darken for hover */
             transform: translateY(-2px);
         }
+        /* cards link styles */
+        .steps-container a.step-card {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .steps-container a.step-card:hover {
+            text-decoration: none;
+        }
         /* Responsive Adjustments */
         @media (max-width: 768px) {
             .hero-section h1 {
@@ -202,7 +210,7 @@ hideposts: true
 <body>
     <div class="hero-section">
         <h1>OpenESM: A database of open experience sampling datasets</h1>
-        <p>OpenESM provides researchers with centralized access to experience sampling method (ESM) datasets through a standardized, open database. The platform supports <strong>data discovery</strong>, <strong>exploration</strong>, and <strong>contribution</strong> while maintaining consistent metadata standards to facilitate reproducible research and cross-study comparisons in psychological science.</p>
+        <p>OpenESM is a database of harmonized openly available experience sampling datasets. The platform enables easy reuse of datasets with consistent and detailed metadata standards to facilitate reproducible research.</p>
         <a href="{{< relref "/datasets/" >}}" class="cta-button">Start Exploring Datasets</a>
     </div>
     <div class="stats-section">
@@ -225,27 +233,25 @@ hideposts: true
             <p>Dive into a diverse range of psychological variables.</p>
         </div>
     </div>
-    <div class="how-it-works-section">
-        <h2>Get Started in Three Simple Steps</h2>
-        <div class="steps-container">
-            <div class="step-card">
-                <div class="icon"><i class="fas fa-search"></i></div>
-                <h3>1. Discover Data</h3>
-                <p>Browse or search our comprehensive database to find datasets relevant to your research.</p>
-            </div>
-            <div class="step-card">
-                <div class="icon"><i class="fas fa-filter"></i></div>
-                <h3>2. Filter & Refine</h3>
-                <p>Utilize powerful search tools and filters to pinpoint specific variables or topics.</p>
-            </div>
-            <div class="step-card">
-                <div class="icon"><i class="fas fa-chart-line"></i></div>
-                <h3>3. Analyze & Publish</h3>
-                <p>Download standardized datasets ready for your analysis, supporting both R and Python.</p>
-            </div>
-        </div>
-        <a href="{{< relref "/datasets/" >}}" class="main-cta-button">Browse All Datasets</a>
-    </div>
+<div class="how-it-works-section">
+    <h2>Get Started in Three Simple Steps:</h2>
+<div class="steps-container">
+    <div class="steps-container">
+    <a href="{{< relref "/about/" >}}" class="step-card">
+        <div class="icon"><i class="fas fa-book-open"></i></div>
+        <h3>1. Learn</h3>
+        <p>Understand how you can use our database and get an overview of all datasets.</p>
+    </a>
+    <a href="{{< relref "/search/" >}}" class="step-card">
+        <div class="icon"><i class="fas fa-search"></i></div>
+        <h3>2. Filter & Find</h3>
+        <p>Utilize our search and filter tools to find datasets with a relevant structure and constructs.</p>
+    </a>
+    <a href="{{< relref "/docs/" >}}" class="step-card">
+        <div class="icon"><i class="fas fa-download"></i></div>
+        <h3>3. Reuse</h3>
+        <p>Download standardized datasets using an R or Python interface.</p>
+    </a>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const counters = document.querySelectorAll('.stat-box .number');
@@ -287,9 +293,3 @@ hideposts: true
 </body>
 </html>
 
-## Quick Start
-
-- [Browse available datasets]({{< relref "/datasets/" >}})
-- [Search for specific variables or topics]({{< relref "/search/" >}})
-- [Learn more about our data, software packages, and our technical setup]({{< relref "/docs/" >}})
-- [Contribute your own dataset]({{< relref "/docs/contributing" >}})
