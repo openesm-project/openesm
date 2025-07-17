@@ -46,11 +46,7 @@ header.header nav a:hover {
 }
 
 /* Headings */
-h1, h2 {
-  color: var(--primary-blue);
-}
-
-h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--text-charcoal);
 }
 
@@ -117,48 +113,97 @@ input[type="submit"]:hover {
   max-width: 100% !important;
 }
 
-/* Make tables use the full available width */
 table {
   width: 100%;
-  table-layout: auto;
-  margin: 1.5rem 0;
   border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style table headers and cells */
-th, td {
-  padding: 0.75rem;
-  border: 1px solid var(--border-gray);
-  text-align: left;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
+/* Enhanced table headers */
 th {
   background-color: var(--primary-blue);
   color: var(--bg-offwhite);
-  font-weight: bold;
+  font-weight: 600;
+  padding: 1rem 0.75rem;
+  text-align: left;
+  border: none;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-/* Add zebra striping for better readability */
-tr:nth-child(even) {
-  background-color: #f9f9f9;
+th:first-child {
+  border-top-left-radius: 8px;
 }
 
-/* Add hover effect on table rows */
+th:last-child {
+  border-top-right-radius: 8px;
+}
+
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+  color: var(--text-charcoal);
+  vertical-align: top;
+  border-left: none;
+  border-right: none;
+}
+
+tbody tr {
+  transition: background-color 0.2s ease;
+}
+
 tr:hover {
-  background-color: var(--hover-gray);
+  background-color: #f8f9fa;
 }
 
-/* Make code blocks in tables more readable */
-td pre {
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tr:nth-child(even):hover {
+  background-color: #f0f0f0;
+}
+
+/*  table links */
+table a {
+  color: var(--primary-blue);
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+table a:hover {
+  color: var(--accent-orange);
+  text-decoration: none !important;
+}
+
+/* container for datasets table */
+#datasets-table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: var(--bg-offwhite);
+}
+
+#datasets-table {
+  width: 100%;
+  border-collapse: collapse;
   margin: 0;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  font-size: 0.85em;
-  padding: 0.3rem;
-  background-color: #f8f8f8;
-  border-radius: 3px;
+  font-size: 0.9rem;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 /* Responsive adjustments */
@@ -168,14 +213,36 @@ td pre {
     padding: 0 1rem;
   }
  
-  /* Make tables scrollable on small screens */
   .post-content {
     overflow-x: auto;
   }
  
-  th, td {
-    padding: 0.5rem;
+  table {
+    font-size: 0.8rem;
   }
+  
+  th, td {
+    padding: 0.5rem 0.4rem;
+  }
+  
+  th {
+    font-size: 0.75rem;
+  }
+}
+
+/* Variables table specific styling*/
+.post-content table:last-of-type {
+  font-size: 0.8rem;
+}
+
+.post-content table:last-of-type th,
+.post-content table:last-of-type td {
+  padding: 0.5rem 0.4rem;
+}
+
+/* ADD: Handle line breaks in table cells */
+td br {
+  line-height: 1.4;
 }
 
 /* PaperMod specific overrides */
@@ -193,43 +260,7 @@ body .main {
   overflow-x: auto;
 }
 
-/* Datasets Table */
-.datasets-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-}
 
-.datasets-table th,
-.datasets-table td {
-  padding: 0.75rem;
-  border: 1px solid var(--border-gray);
-  text-align: left;
-}
-
-.datasets-table th {
-  background-color: var(--primary-blue);
-  color: var(--bg-offwhite);
-  font-weight: bold;
-}
-
-.datasets-table tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-.datasets-table tr:hover {
-  background-color: var(--hover-gray);
-}
-
-.datasets-table a {
-  color: var(--primary-blue);
-  text-decoration: none;
-}
-
-.datasets-table a:hover {
-  color: var(--accent-orange);
-  text-decoration: underline;
-}
 
 /* Tags and badges */
 .tag, .badge {

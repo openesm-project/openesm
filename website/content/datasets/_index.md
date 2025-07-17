@@ -8,7 +8,7 @@ hidemeta: true
 hideposts: true
 ---
 
-Browse all available datasets in the OpenESM database.
+Below, you will find the full list of all datasets available in the OpenESM database. Each dataset is linked to its detailed page where you can find more information, download options, and metadata. More information about the datasets and their metadata can be found in the [Data Documentation]({{< relref "docs/data/" >}}).
 
 ## Dataset Overview
 
@@ -17,7 +17,7 @@ Browse all available datasets in the OpenESM database.
   <thead>
     <tr>
       <th>ID</th>
-      <th>Author</th>
+      <th>First Author</th>
       <th>Year</th>
       <th>Topics</th>
       <th>Participants</th>
@@ -37,30 +37,133 @@ Browse all available datasets in the OpenESM database.
   </table>
 </div>
 
-
 <style>
+  #datasets-table-container {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: #FDFDFD;
+  }
+
   #datasets-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1rem 0;
-  }
-  
-  #datasets-table th, 
-  #datasets-table td {
-    padding: 0.5rem 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
+    margin: 0;
+    font-size: 0.9rem;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
   }
   
   #datasets-table th {
+    background: #085AB3;
+    color: white;
     font-weight: 600;
+    padding: 1rem 0.75rem;
+    text-align: left;
+    border: none;
+    font-size: 0.90rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  #datasets-table th:first-child {
+    border-top-left-radius: 8px;
+  }
+
+  #datasets-table th:last-child {
+    border-top-right-radius: 8px;
+  }
+  
+  #datasets-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+    color: #262626;
+    vertical-align: top;
+  }
+
+  #datasets-table tbody tr {
+    transition: background-color 0.2s ease;
   }
   
   #datasets-table tbody tr:hover {
-    background-color: var(--code-bg);
+    background-color: #f8f9fa;
+  }
+
+  #datasets-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+
+  #datasets-table tbody tr:nth-child(even):hover {
+    background-color: #f0f0f0;
+  }
+
+  /* Style links in the table */
+  #datasets-table a {
+    color: #085AB3;
+    text-decoration: none !important;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  #datasets-table a:hover {
+    color: #E78A00;
+    text-decoration: none !important;
+  }
+
+  /* Style boolean values */
+  #datasets-table .bool-yes {
+    color: #28a745;
+    font-weight: 600;
+  }
+
+  #datasets-table .bool-no {
+    color: #dc3545;
+    font-weight: 600;
+  }
+
+  /* Style numeric values */
+  #datasets-table .numeric {
+    text-align: right;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    #datasets-table {
+      font-size: 0.8rem;
+    }
+    
+    #datasets-table th,
+    #datasets-table td {
+      padding: 0.5rem 0.4rem;
+    }
+    
+    #datasets-table th {
+      font-size: 0.75rem;
+    }
+  }
+
+  /* Loading state styling */
+  .loading-cell {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    padding: 2rem;
+  }
+
+  /* Error state styling */
+  .error-cell {
+    text-align: center;
+    color: #dc3545;
+    font-weight: bold;
+    padding: 2rem;
   }
 </style>
-
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -75,6 +178,19 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Find the table body element
   const tableBody = document.getElementById('datasets-table-body');
+  
+  // Function to format boolean values
+  function formatBoolean(value) {
+    return value;
+  }
+  
+  // Function to format numeric values
+  function formatNumeric(value) {
+    if (!isNaN(value) && value !== '') {
+      return `<span class="numeric">${value}</span>`;
+    }
+    return value;
+  }
   
   // Attempt to fetch data with detailed logging
   console.log("Starting fetch request...");
@@ -117,14 +233,14 @@ document.addEventListener('DOMContentLoaded', function() {
         row.innerHTML = `
           <td><a href="${url}">${dataset.id}</a></td>
           <td>${dataset.first_author}</td>
-          <td>${dataset.year}</td>
+          <td>${formatNumeric(dataset.year)}</td>
           <td>${dataset.topics || ''}</td>
-          <td>${dataset.n_participants}</td>
-          <td>${dataset.n_time_points}</td>
-          <td>${dataset.n_beeps_per_day || ''}</td>
-          <td>${dataset.n_variables}</td>
-          <td>${dataset.cross_sectional_available}</td>
-          <td>${dataset.passive_data_available}</td>
+          <td>${formatNumeric(dataset.n_participants)}</td>
+          <td>${formatNumeric(dataset.n_time_points)}</td>
+          <td>${formatNumeric(dataset.n_beeps_per_day || '')}</td>
+          <td>${formatNumeric(dataset.n_variables)}</td>
+          <td>${formatBoolean(dataset.cross_sectional_available)}</td>
+          <td>${formatBoolean(dataset.passive_data_available)}</td>
         `;
         
         tableBody.appendChild(row);
@@ -134,7 +250,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Error loading datasets table:', error);
       tableBody.innerHTML = `
         <tr>
-          <td colspan="10" style="color: red; font-weight: bold;">
+          <td colspan="10" class="error-cell">
             Error loading datasets: ${error.message}<br>
             Please check the browser console for more details.
           </td>
