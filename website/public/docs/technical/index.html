@@ -81,7 +81,7 @@
 <div class="post-content"><h1 id="technical-documentation">Technical Documentation<a hidden class="anchor" aria-hidden="true" href="#technical-documentation">#</a></h1>
 <p>This section covers the technical aspects of how OpenESM works, including infrastructure, workflows, and system architecture.</p>
 <h2 id="system-architecture">System Architecture<a hidden class="anchor" aria-hidden="true" href="#system-architecture">#</a></h2>
-<p>OpenESM uses a <strong>static site generator</strong> approach with the following components:</p>
+<p>OpenESM uses a static site generator approach with the following components:</p>
 <ul>
 <li><strong>Hugo static site generator</strong> - Builds the website from markdown files</li>
 <li><strong>GitHub Pages</strong> - Hosts the static website</li>
@@ -89,6 +89,7 @@
 <li><strong>GitHub repository</strong> - Version control and metadata storage</li>
 <li><strong>Lunr.js</strong> - Client-side search functionality</li>
 </ul>
+<p>The website repository then pulls in the metadata from the metadata GitHub repository via GitHub actions upon change in the metadata repository. This allows us to keep the website and metadata in sync automatically.</p>
 
 
 </div>

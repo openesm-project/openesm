@@ -78,10 +78,97 @@
     Understanding OpenESM datasets and metadata
   </div>
 </header>
-<div class="post-content"><h1 id="data-documentation">Data Documentation<a hidden class="anchor" aria-hidden="true" href="#data-documentation">#</a></h1>
-<p>This section covers everything you need to know about the OpenESM datasets, their structure, and how to work with them effectively.</p>
+<div class="post-content"><p>This section covers everything you need to know about the OpenESM datasets, their structure, and how to work with them effectively.</p>
+<h2 id="initial-data-search-strategy">Initial Data Search Strategy<a hidden class="anchor" aria-hidden="true" href="#initial-data-search-strategy">#</a></h2>
+<p>Our inclusion criteria for datasets were the following:</p>
+<ul>
+<li>At least 20 individuals (to allow for group-based modeling later on)</li>
+<li>At least 20 time points possible (to estimate person-specific models)</li>
+<li>At least 2 self-report variables collected over time (to fit the overarching topic of the project, and to allow for multivariate modeling strategies)</li>
+<li>Not being synthetic data, in other words, not data simulated based on real data</li>
+</ul>
 <h2 id="dataset-structure">Dataset Structure<a hidden class="anchor" aria-hidden="true" href="#dataset-structure">#</a></h2>
-<p>All datasets are stored in <strong>TSV format</strong> with standardized metadata in <strong>JSON format</strong>. Each dataset has its own folder with the following structure.</p>
+<p>All datasets are stored in <strong>TSV format</strong> with standardized metadata in <strong>JSON format</strong>. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is <code>ID_datasetname_type.tsv</code> where <code>ID</code> is a unique identifier, <code>datasetname</code> is the name of the dataset, and <code>type</code> indicates the type of data. This type can be <code>ts</code> for time series data, <code>static</code> for cross-sectional/baseline data, or <code>sensor</code> for sensor data.</p>
+<h1 id="metadata">Metadata<a hidden class="anchor" aria-hidden="true" href="#metadata">#</a></h1>
+<h2 id="dataset-metadata">Dataset Metadata<a hidden class="anchor" aria-hidden="true" href="#dataset-metadata">#</a></h2>
+<p>The dataset metadata are stored in the metadata <code>.json</code> file of the dataset. It includes the following fields:</p>
+<h3 id="general-information">General Information<a hidden class="anchor" aria-hidden="true" href="#general-information">#</a></h3>
+<h4 id="author">Author<a hidden class="anchor" aria-hidden="true" href="#author">#</a></h4>
+<p>Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication.</p>
+<h4 id="id">ID<a hidden class="anchor" aria-hidden="true" href="#id">#</a></h4>
+<p>Unique dataset identifier used throughout the OpenESM database (e.g., &ldquo;0001&rdquo;, &ldquo;0002&rdquo;). This ID is used in folder names and file references.</p>
+<h4 id="year">Year<a hidden class="anchor" aria-hidden="true" href="#year">#</a></h4>
+<p>Year when the data collection took place. This may differ from the publication year.</p>
+<h4 id="reference-a">Reference A<a hidden class="anchor" aria-hidden="true" href="#reference-a">#</a></h4>
+<p>Primary publication reference associated with the dataset. This is typically the main paper that describes the study and findings.</p>
+<h4 id="reference-b">Reference B<a hidden class="anchor" aria-hidden="true" href="#reference-b">#</a></h4>
+<p>Secondary publication reference, if applicable. Some datasets may be associated with multiple publications or follow-up studies.</p>
+<h3 id="code--data-access">Code &amp; Data Access<a hidden class="anchor" aria-hidden="true" href="#code--data-access">#</a></h3>
+<h4 id="link-to-zenodo">Link to Zenodo<a hidden class="anchor" aria-hidden="true" href="#link-to-zenodo">#</a></h4>
+<p>DOI link to the dataset stored on Zenodo. This provides persistent access to the actual data files.</p>
+<h4 id="paper-doi">Paper DOI<a hidden class="anchor" aria-hidden="true" href="#paper-doi">#</a></h4>
+<p>Digital Object Identifier (DOI) of the associated publication, enabling direct access to the published research.</p>
+<h4 id="link-to-data">Link to Data<a hidden class="anchor" aria-hidden="true" href="#link-to-data">#</a></h4>
+<p>Direct URL to dataset files. This typically points to the TSV files containing the actual data.</p>
+<h4 id="link-to-code">Link to Code<a hidden class="anchor" aria-hidden="true" href="#link-to-code">#</a></h4>
+<p>URL to analysis code, when available. This may include preprocessing scripts, analysis code, or supplementary materials.</p>
+<h4 id="link-to-codebook">Link to Codebook<a hidden class="anchor" aria-hidden="true" href="#link-to-codebook">#</a></h4>
+<p>URL to variable documentation or codebook that provides detailed information about variables and their coding.</p>
+<h4 id="license">License<a hidden class="anchor" aria-hidden="true" href="#license">#</a></h4>
+<p>Data usage license specifying terms and conditions for using the dataset. Common licenses include Creative Commons variants and custom research licenses.</p>
+<h3 id="design--participants">Design &amp; Participants<a hidden class="anchor" aria-hidden="true" href="#design--participants">#</a></h3>
+<h4 id="n-participants">N Participants<a hidden class="anchor" aria-hidden="true" href="#n-participants">#</a></h4>
+<p>Total number of study participants who contributed data to the dataset.</p>
+<h4 id="n-time-points">N Time Points<a hidden class="anchor" aria-hidden="true" href="#n-time-points">#</a></h4>
+<p>Maximum number of possible ESM observations per participant. This represents the theoretical maximum if all prompts were answered. In some datasets, this may vary by participant.</p>
+<h4 id="n-beepsday">N Beeps/Day<a hidden class="anchor" aria-hidden="true" href="#n-beepsday">#</a></h4>
+<p>Maximum Number of ESM prompts sent to participants per day. This indicates the sampling frequency of the study. In some studies, this may vary by day or participant, so we provide the maximum observed value.</p>
+<h4 id="passive-data">Passive Data<a hidden class="anchor" aria-hidden="true" href="#passive-data">#</a></h4>
+<p>Indicates whether passive data (e.g., GPS, accelerometer, app usage) was collected and is available.</p>
+<h4 id="which-passive-data">Which Passive Data?<a hidden class="anchor" aria-hidden="true" href="#which-passive-data">#</a></h4>
+<p>Specifies the types of passive data collected, such as location data, physical activity, phone usage, or sensor data.</p>
+<h4 id="cross-sectional">Cross-sectional<a hidden class="anchor" aria-hidden="true" href="#cross-sectional">#</a></h4>
+<p>Indicates availability of baseline or trait measures collected at the beginning or end of the study period. These measures can be found in the <code>static</code> file for the dataset.</p>
+<h4 id="topics">Topics<a hidden class="anchor" aria-hidden="true" href="#topics">#</a></h4>
+<p>Primary research topics or psychological constructs examined in the study (e.g., mood, stress, social interactions). This helps categorize datasets based on their focus areas, but is not exhaustive.</p>
+<h4 id="implicit-missingness">Implicit Missingness<a hidden class="anchor" aria-hidden="true" href="#implicit-missingness">#</a></h4>
+<p>Specifies whether missing observations are implicitly missing (i.e., non-response can be inferred) or if only completed responses are included. In some datasets, this is unclear, as most individuals have the same number of responses (including missing ones), but some individuals differ.</p>
+<h4 id="raw-time-stamp">Raw Time Stamp<a hidden class="anchor" aria-hidden="true" href="#raw-time-stamp">#</a></h4>
+<p>Indicates availability of timestamp information for when responses were provided.</p>
+<h4 id="sampling-scheme">Sampling Scheme<a hidden class="anchor" aria-hidden="true" href="#sampling-scheme">#</a></h4>
+<p>Describes the ESM prompt schedule (e.g., fixed intervals, random within time windows, event-contingent).</p>
+<h4 id="participants">Participants<a hidden class="anchor" aria-hidden="true" href="#participants">#</a></h4>
+<p>Describes participant characteristics such as age range, demographic information, or clinical status. This is typically just a brief summary, and more detailed information can be found in the associated publication.</p>
+<h2 id="variable-level-metadata">Variable-Level Metadata<a hidden class="anchor" aria-hidden="true" href="#variable-level-metadata">#</a></h2>
+<p>Variable-level metadata provides detailed information about each variable in the dataset, enabling researchers to understand and appropriately use the data.</p>
+<h3 id="core-variable-information">Core Variable Information<a hidden class="anchor" aria-hidden="true" href="#core-variable-information">#</a></h3>
+<h4 id="name">Name<a hidden class="anchor" aria-hidden="true" href="#name">#</a></h4>
+<p>The exact variable name as it appears in the dataset files.</p>
+<h4 id="description">Description<a hidden class="anchor" aria-hidden="true" href="#description">#</a></h4>
+<p>Brief, clear description of what the variable measures or represents.</p>
+<h4 id="variable-type">Variable Type<a hidden class="anchor" aria-hidden="true" href="#variable-type">#</a></h4>
+<p>Data type specification (e.g., numeric, integer, character, date, logical) indicating how the variable should be interpreted.</p>
+<h4 id="details">Details<a hidden class="anchor" aria-hidden="true" href="#details">#</a></h4>
+<p>Comprehensive information including exact question wording or exact meaning of passive sensor variable.</p>
+<h4 id="labels">Labels<a hidden class="anchor" aria-hidden="true" href="#labels">#</a></h4>
+<p>Scale labels and response options. For scales, this typically includes anchor points (e.g., &ldquo;1 = Not at all, 7 = Extremely&rdquo;).</p>
+<h4 id="transformation">Transformation<a hidden class="anchor" aria-hidden="true" href="#transformation">#</a></h4>
+<p>Documents any data transformations applied to the original responses, such as reverse coding, standardization, or aggregation.</p>
+<h3 id="data-collection-context">Data Collection Context<a hidden class="anchor" aria-hidden="true" href="#data-collection-context">#</a></h3>
+<h4 id="source">Source<a hidden class="anchor" aria-hidden="true" href="#source">#</a></h4>
+<p>Origin of the variable, such as the specific questionnaire, scale, or measurement instrument used.</p>
+<h4 id="assessment-type">Assessment Type<a hidden class="anchor" aria-hidden="true" href="#assessment-type">#</a></h4>
+<p>Method of data collection, categorized as:</p>
+<ul>
+<li><strong>ESM</strong>: Experience Sampling Method (momentary assessments)</li>
+<li><strong>Daily</strong>: Daily assessments</li>
+<li><strong>Passive</strong>: Automatically collected sensor or behavioral data</li>
+<li><strong>Other</strong>: Any other type of assessment not fitting the above categories</li>
+</ul>
+<h4 id="construct">Construct<a hidden class="anchor" aria-hidden="true" href="#construct">#</a></h4>
+<p>The psychological or behavioral construct(s) that the variable is intended to measure (e.g., &ldquo;positive affect,&rdquo; &ldquo;relationship,&rdquo; &ldquo;context&rdquo;). Obviously, assigning a variable to a construct is subjective, so we try to be as consistent as possible, but this is not always possible. We mainly added this field to allow for easier filtering of variables, and thus sometimes used relatively broad constructs.</p>
+<h4 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h4>
+<p>Additional notes, caveats, or important information about the variable that doesn&rsquo;t fit in other categories.</p>
 
 
 </div>

@@ -8,29 +8,8 @@
 <title>Contribute | openESM</title>
 <meta name="keywords" content="">
 <meta name="description" content="We welcome contributions to the OpenESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure.
-Here&rsquo;s how you can contribute:
 Adding a New Dataset
-If you have a dataset that you would like to add to the OpenESM database, you can simply contact us under the Contact section, or follow these steps to submit it yourself:
-
-Fork the OpenESM GitHub repository
-Prepare your dataset in TSV format, following our formatting guidelines:
-
-Each dataset should be in a separate TSV file.
-The first row should contain the variable names.
-Each subsequent row should contain the data for each participant.
-Ensure that the dataset is anonymized and does not contain any personally identifiable information (PII).
-
-
-Create a dataset metadata file following our standard format. An example metadata file is provided below.
-
-Include all relevant information about the dataset, such as authors, year, number of participants, time points, and topics covered.
-
-
-Create a variable metadata file for each variable in the dataset, detailing the variable name, description, type, and coding information.
-Submit a pull request
-
-Metadata Schema
-Each dataset should have a metadata file in the following format:">
+If you have a dataset that you would like to add to the OpenESM database, you can simply contact us. In the early stages of the project, we are happy to add datasets that meet our inclusion criteria ourselves. We then aim to continuously improve the process of adding datasets to the OpenESM database, so that you can add datasets yourself in the future.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/openesm/docs/contributing/">
 <link crossorigin="anonymous" href="/openesm/assets/css/stylesheet.c797ca6c5dce2e649f27be586bb543ded898d94278feb2fc6ed4632d9db0a800.css" integrity="sha256-x5fKbF3OLmSfJ75Ya7VD3tiY2UJ4/rL8btRjLZ2wqAA=" rel="preload stylesheet" as="style">
@@ -99,66 +78,256 @@ Each dataset should have a metadata file in the following format:">
   </h1>
 </header>
 <div class="post-content"><p>We welcome contributions to the OpenESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure.</p>
-<p>Here&rsquo;s how you can contribute:</p>
-<h2 id="adding-a-new-dataset">Adding a New Dataset<a hidden class="anchor" aria-hidden="true" href="#adding-a-new-dataset">#</a></h2>
-<p>If you have a dataset that you would like to add to the OpenESM database, you can simply contact us under the <a href="https://openesm.org/contact">Contact</a> section, or follow these steps to submit it yourself:</p>
-<ol>
-<li>Fork the <a href="https://github.com/bsiepe/openesm">OpenESM GitHub repository</a></li>
-<li>Prepare your dataset in TSV format, following our formatting guidelines:
+<h1 id="adding-a-new-dataset">Adding a New Dataset<a hidden class="anchor" aria-hidden="true" href="#adding-a-new-dataset">#</a></h1>
+<p>If you have a dataset that you would like to add to the OpenESM database, you can simply contact us. In the early stages of the project, we are happy to add datasets that meet our inclusion criteria ourselves. We then aim to continuously improve the process of adding datasets to the OpenESM database, so that you can add datasets yourself in the future.</p>
+<p>Alternatively, you can follow these steps to add a new dataset:</p>
+<p>Before contributing, please ensure:</p>
 <ul>
-<li>Each dataset should be in a separate TSV file.</li>
-<li>The first row should contain the variable names.</li>
-<li>Each subsequent row should contain the data for each participant.</li>
-<li>Ensure that the dataset is anonymized and does not contain any personally identifiable information (PII).</li>
+<li>You have permission to share the data publicly</li>
+<li>Participants provided appropriate consent for data sharing</li>
+<li>The data has been de-identified and anonymized</li>
+<li>You can provide basic metadata about the study design and variables</li>
 </ul>
-</li>
+<ol>
+<li>Open an issue on the <a href="https://github.com/bsiepe/openesm-metadata">metadata GitHub repository</a> to discuss the dataset you want to add. Provide a brief description of the dataset, its relevance, and any preliminary metadata you have.</li>
+<li>If the dataset meets our inclusion criteria (see our <a href="/openesm/docs/data/">Data Documentation</a> for more information), we will guide you through the process of adding it to the OpenESM database.</li>
+<li>Prepare your dataset in TSV format, following our formatting guidelines (see below).</li>
 <li>Create a dataset metadata file following our standard format. An example metadata file is provided below.
 <ul>
 <li>Include all relevant information about the dataset, such as authors, year, number of participants, time points, and topics covered.</li>
 </ul>
 </li>
 <li>Create a variable metadata file for each variable in the dataset, detailing the variable name, description, type, and coding information.</li>
-<li>Submit a pull request</li>
+<li>Upload the dataset files to our <a href="https://zenodo.org/communities/openesm/">Zenodo community</a> and obtain a DOI for citation purposes.</li>
+<li>Add this information to the dataset metadata file.</li>
+<li>Submit a pull request to the <a href="https://github.com/bsiepe/openesm-metadata">metadata GitHub repository</a>.</li>
 </ol>
-<h3 id="metadata-schema">Metadata Schema<a hidden class="anchor" aria-hidden="true" href="#metadata-schema">#</a></h3>
-<p>Each dataset should have a metadata file in the following format:</p>
+<h2 id="dataset-formatting-guidelines">Dataset Formatting Guidelines<a hidden class="anchor" aria-hidden="true" href="#dataset-formatting-guidelines">#</a></h2>
+<p>Create a folder structure for your dataset using the following naming convention:</p>
+<ul>
+<li><strong>Main time series data</strong>: <code>id_lastname_ts.tsv</code></li>
+<li><strong>Static/baseline data</strong>: <code>id_lastname_static.tsv</code> (if applicable)</li>
+<li><strong>Weekly data</strong>: <code>id_lastname_weekly.tsv</code> (if applicable)</li>
+<li><strong>Passive sensor data</strong>: <code>id_lastname_passive.tsv</code> (if applicable)</li>
+<li><strong>Metadata file</strong>: <code>id_lastname_metadata.json</code></li>
+</ul>
+<p>Where:</p>
+<ul>
+<li><code>id</code> is a placeholder for the dataset ID (we&rsquo;ll assign this)</li>
+<li><code>lastname</code> is the surname of the first author</li>
+<li>All files, except for the metadata, should be in TSV (tab-separated values) format</li>
+</ul>
+<h3 id="data-cleaning-requirements">Data Cleaning Requirements<a hidden class="anchor" aria-hidden="true" href="#data-cleaning-requirements">#</a></h3>
+<h4 id="column-names">Column Names<a hidden class="anchor" aria-hidden="true" href="#column-names">#</a></h4>
+<ul>
+<li>Apply consistent naming: Use <code>snake_case</code> format (lowercase with underscores). In R, you can use <code>janitor::clean_names()</code> to standardize column names.</li>
+<li>Replace ambiguous names like &ldquo;Q1&rdquo; with descriptive names like &ldquo;stressed&rdquo;. Orient yourself at other variable names in the OpenESM database.</li>
+<li>Ensure variable names are informative and self-explanatory.</li>
+</ul>
+<h4 id="required-standard-columns">Required Standard Columns<a hidden class="anchor" aria-hidden="true" href="#required-standard-columns">#</a></h4>
+<p>Every time series dataset must include these four columns:</p>
+<p><strong><code>id</code></strong></p>
+<ul>
+<li>Participant identifier (anonymized)</li>
+<li>Should be consistent across all data files for the same participant</li>
+</ul>
+<p><strong><code>day</code></strong></p>
+<ul>
+<li>Day of data collection (numeric, starting from 1 for every participant)</li>
+<li>If not available in your original data, code as <code>NA</code></li>
+</ul>
+<p><strong><code>beep</code></strong></p>
+<ul>
+<li>Beep number per day (numeric, starting from 1)</li>
+<li>For daily diary studies, set all values to <code>1</code></li>
+<li>If not available, code as <code>NA</code></li>
+</ul>
+<h4 id="data-splitting">Data Splitting<a hidden class="anchor" aria-hidden="true" href="#data-splitting">#</a></h4>
+<p>Organize your data into separate files based on data type:</p>
+<p><strong>Time Series Data (<code>_ts.tsv</code>)</strong></p>
+<ul>
+<li>Contains repeated measurements (ESM responses, daily diary entries)</li>
+<li>Remove any time-invariant variables (move to static file)</li>
+</ul>
+<p><strong>Static Data (<code>_static.tsv</code>)</strong></p>
+<ul>
+<li>Contains time-invariant variables (age, gender, baseline questionnaires)</li>
+<li>Include the <code>id</code> variable to link with time series data</li>
+<li>If unsure whether a variable is time-invariant, check the number of distinct values per participant</li>
+</ul>
+<p><strong>Weekly Data (<code>_weekly.tsv</code>)</strong></p>
+<ul>
+<li>Contains weekly assessments if applicable</li>
+<li>Include <code>id</code> and <code>week</code> variables</li>
+</ul>
+<p><strong>Passive Data (<code>_passive.tsv</code>)</strong></p>
+<ul>
+<li>Contains sensor data, app usage, or other passively collected data</li>
+</ul>
+<h4 id="data-quality-checks">Data Quality Checks<a hidden class="anchor" aria-hidden="true" href="#data-quality-checks">#</a></h4>
+<ul>
+<li><strong>Missing values</strong>: Ensure all missing values are coded as <code>NA</code></li>
+<li><strong>Convert non-standard missing codes</strong>: Change values like <code>-999</code>, <code>NaN</code>, or empty strings to <code>NA</code></li>
+<li><strong>Remove redundant columns</strong>: Delete variables that can be easily computed from others (e.g., sum scores when individual items are present)</li>
+<li><strong>Check for duplicates</strong>: Remove or flag duplicate responses if present</li>
+</ul>
+<h2 id="variable-metadata">Variable Metadata<a hidden class="anchor" aria-hidden="true" href="#variable-metadata">#</a></h2>
+<p>For each variable in your dataset, please provide the following information in a structured format:</p>
+<h3 id="core-variable-information">Core Variable Information<a hidden class="anchor" aria-hidden="true" href="#core-variable-information">#</a></h3>
+<h4 id="name">name<a hidden class="anchor" aria-hidden="true" href="#name">#</a></h4>
+<p>The exact column name as it appears in your cleaned dataset</p>
+<h4 id="description">description<a hidden class="anchor" aria-hidden="true" href="#description">#</a></h4>
+<p>Brief, clear description of what the variable measures</p>
+<h4 id="variable_type">variable_type<a hidden class="anchor" aria-hidden="true" href="#variable_type">#</a></h4>
+<p>Select the most appropriate type:</p>
+<ul>
+<li><strong>ordinal</strong>: Variables with 5 or fewer ordered response options</li>
+<li><strong>Likert</strong>: Variables with more than 5 ordered response options</li>
+<li><strong>VAS</strong>: Visual analog scales (typically 0-100 sliders)</li>
+<li><strong>binary</strong>: Yes/no, true/false, or other two-category variables</li>
+<li><strong>numeric</strong>: Continuous variables (reaction times, counts, etc.)</li>
+<li><strong>PosixCt</strong>: Date-time variables</li>
+<li><strong>Date</strong>: Date-only variables</li>
+<li><strong>open-text</strong>: Free-text responses</li>
+</ul>
+<h4 id="wording">wording<a hidden class="anchor" aria-hidden="true" href="#wording">#</a></h4>
+<ul>
+<li>Exact question text as presented to participants</li>
+<li>For computed variables, describe how they were created</li>
+<li>Example: &ldquo;How stressed do you feel right now?&rdquo; or &ldquo;Sum of items 1-5 from stress scale&rdquo;</li>
+</ul>
+<h4 id="labels">labels<a hidden class="anchor" aria-hidden="true" href="#labels">#</a></h4>
+<p>Response scale labels and anchors</p>
+<ul>
+<li>Format: &ldquo;1 = Not at all, 7 = Extremely&rdquo;</li>
+<li>Use line breaks to separate multiple labels</li>
+<li>Include all relevant scale points</li>
+</ul>
+<h3 id="additional-metadata">Additional Metadata<a hidden class="anchor" aria-hidden="true" href="#additional-metadata">#</a></h3>
+<h4 id="transformations">transformations<a hidden class="anchor" aria-hidden="true" href="#transformations">#</a></h4>
+<p>Document any data transformations applied:</p>
+<ul>
+<li>Log transformation</li>
+<li>Standardization (z-scores)</li>
+<li>Sum scoring</li>
+<li>Reverse coding</li>
+<li>Mean centering</li>
+</ul>
+<h4 id="source">source<a hidden class="anchor" aria-hidden="true" href="#source">#</a></h4>
+<p>Source of the question or scale:</p>
+<ul>
+<li>Standardized questionnaire name (e.g., &ldquo;PANAS&rdquo;)</li>
+<li>Custom question developed for the study</li>
+<li>Adapted from another source</li>
+</ul>
+<h4 id="assessment_type">assessment_type<a hidden class="anchor" aria-hidden="true" href="#assessment_type">#</a></h4>
+<p>Method of data collection:</p>
+<ul>
+<li><strong>ESM</strong>: Experience Sampling Method (momentary assessments)</li>
+<li><strong>Daily</strong>: Daily diary assessments</li>
+<li><strong>Passive</strong>: Automatically collected data</li>
+<li><strong>Other</strong>: Other assessment methods</li>
+</ul>
+<h4 id="answer_categories">answer_categories<a hidden class="anchor" aria-hidden="true" href="#answer_categories">#</a></h4>
+<p>Number of response options (for categorical variables)</p>
+<h4 id="comments">comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h4>
+<p>Any additional relevant information about the variable</p>
+<h2 id="metadata-formatting-guidelines">Metadata Formatting Guidelines<a hidden class="anchor" aria-hidden="true" href="#metadata-formatting-guidelines">#</a></h2>
+<p>Each dataset should have a .json metadata file in the following format:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;first_author&#34;</span>: <span style="color:#e6db74">&#34;Author&#39;s last name&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;dataset&#34;</span>: <span style="color:#e6db74">&#34;Dataset ID&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;year&#34;</span>: <span style="color:#ae81ff">2021</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;paper_doi&#34;</span>: <span style="color:#e6db74">&#34;https://doi.org/...&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;link_to_data&#34;</span>: <span style="color:#e6db74">&#34;URL to original data&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;link_to_code&#34;</span>: <span style="color:#e6db74">&#34;URL to original code&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_participants&#34;</span>: <span style="color:#ae81ff">80</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_time_points&#34;</span>: <span style="color:#ae81ff">56</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_beeps_per_day&#34;</span>: <span style="color:#ae81ff">4</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;passive_data_available&#34;</span>: <span style="color:#e6db74">&#34;yes/no&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;topics&#34;</span>: <span style="color:#e6db74">&#34;comma-separated topics&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;first_author&#34;</span>: <span style="color:#e6db74">&#34;LastName&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;dataset&#34;</span>: <span style="color:#e6db74">&#34;000x&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;year&#34;</span>: <span style="color:#ae81ff">2024</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;reference_a&#34;</span>: <span style="color:#e6db74">&#34;@article{lastname2024,\n  title = {Title of your paper},\n  author = {Last, First and Second, Author},\n  date = {2024-01-01},\n  journaltitle = {Journal Name},\n  volume = {X},\n  number = {X},\n  pages = {X--X},\n  doi = {10.xxxx/xxxxxxx}\n}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;reference_b&#34;</span>: <span style="color:#66d9ef">null</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;paper_doi&#34;</span>: <span style="color:#e6db74">&#34;https://doi.org/10.xxxx/xxxxxxx&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;link_to_zenodo&#34;</span>: <span style="color:#e6db74">&#34;https://doi.org/10.5281/zenodo.xxxxxxx&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;link_to_data&#34;</span>: <span style="color:#e6db74">&#34;https://osf.io/xxxxx/ or https://zenodo.org/record/xxxxx&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;link_to_codebook&#34;</span>: <span style="color:#e6db74">&#34;https://osf.io/xxxxx or URL to codebook&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;link_to_code&#34;</span>: <span style="color:#e6db74">&#34;https://osf.io/xxxxx or https://github.com/username/repo&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;license&#34;</span>: <span style="color:#e6db74">&#34;CC BY 4.0&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_participants&#34;</span>: <span style="color:#ae81ff">100</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_time_points&#34;</span>: <span style="color:#ae81ff">70</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_beeps_per_day&#34;</span>: <span style="color:#e6db74">&#34;5&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;passive_data_available&#34;</span>: <span style="color:#e6db74">&#34;yes&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;which_passive_data&#34;</span>: <span style="color:#e6db74">&#34;GPS, accelerometer, app usage&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;cross_sectional_available&#34;</span>: <span style="color:#e6db74">&#34;yes&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;topics&#34;</span>: <span style="color:#e6db74">&#34;mood, stress, social interaction&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;implicit_missingness&#34;</span>: <span style="color:#e6db74">&#34;no&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;raw_time_stamp&#34;</span>: <span style="color:#e6db74">&#34;yes&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;sampling_scheme&#34;</span>: <span style="color:#e6db74">&#34;5x/day random within windows&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;participants&#34;</span>: <span style="color:#e6db74">&#34;community sample, ages 18-65&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;additional_comments&#34;</span>: <span style="color:#e6db74">&#34;Any additional notes about the dataset&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;coder_data&#34;</span>: <span style="color:#e6db74">&#34;Your Name&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;coder_metadata&#34;</span>: <span style="color:#e6db74">&#34;Your Name&#34;</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;features&#34;</span>: [
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;variable_name&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Variable description&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;Variable type (e.g., Likert, categorical)&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;coding&#34;</span>: <span style="color:#e6db74">&#34;Coding information&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;id&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Participant ID&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;categorical&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;assessment_type&#34;</span>: <span style="color:#e6db74">&#34;ESM&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;construct&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;answer_categories&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;comments&#34;</span>: <span style="color:#e6db74">&#34;Standard participant identifier&#34;</span>
 </span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">...</span>
-</span></span><span style="display:flex;"><span>  ]
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="contributing-to-existing-datasets">Contributing to Existing Datasets<a hidden class="anchor" aria-hidden="true" href="#contributing-to-existing-datasets">#</a></h2>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;day&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Day of data collection&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;numeric&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;assessment_type&#34;</span>: <span style="color:#e6db74">&#34;ESM&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;construct&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;answer_categories&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;comments&#34;</span>: <span style="color:#e6db74">&#34;Numeric day counter starting from 1&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;beep&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Beep number per day&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;numeric&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;assessment_type&#34;</span>: <span style="color:#e6db74">&#34;ESM&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;construct&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;answer_categories&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;comments&#34;</span>: <span style="color:#e6db74">&#34;Beep counter within each day, starting from 1&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;example_variable&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Brief description of the variable&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;Likert&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;Wording of the question or statement&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;1 = Not at all, 7 = Extremely&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;Custom question developed for the study&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;assessment_type&#34;</span>: <span style="color:#e6db74">&#34;ESM&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;construct&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;answer_categories&#34;</span>: <span style="color:#ae81ff">7</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;comments&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><h1 id="contributing-to-existing-datasets">Contributing to Existing Datasets<a hidden class="anchor" aria-hidden="true" href="#contributing-to-existing-datasets">#</a></h1>
 <p>If you find errors or have suggestions for existing datasets, please follow these steps:</p>
 <ol>
-<li>Open an issue on the <a href="https://github.com/bsiepe/openesm">GitHub repository</a> describing the problem or suggestion.</li>
+<li>Open an issue on the metadata <a href="https://github.com/bsiepe/openesm-metadata">GitHub repository</a> describing the problem or suggestion.</li>
 <li>If you can, fork the repository and make the changes directly.</li>
 <li>Submit a pull request with your changes.</li>
 </ol>
-<h2 id="improving-the-software-infrastructure">Improving the Software Infrastructure<a hidden class="anchor" aria-hidden="true" href="#improving-the-software-infrastructure">#</a></h2>
+<h1 id="improving-the-software-infrastructure">Improving the Software Infrastructure<a hidden class="anchor" aria-hidden="true" href="#improving-the-software-infrastructure">#</a></h1>
 <p>If you have ideas for improving the OpenESM software infrastructure, such as the website or data processing scripts, we welcome your contributions. Please follow these steps:</p>
 <ol>
 <li>Open an issue on the openESM GitHub repository for the website or metadata. Open an issue in the respective software package repositories to improve the software infrastructure.</li>
 <li>Fork the repository and make your changes.</li>
 <li>Submit a pull request with a clear description of your changes and their benefits.</li>
 </ol>
-<h2 id="contact">Contact<a hidden class="anchor" aria-hidden="true" href="#contact">#</a></h2>
+<h1 id="contact">Contact<a hidden class="anchor" aria-hidden="true" href="#contact">#</a></h1>
 <p>If you have any questions or need help with contributions, feel free to reach out.</p>
 
 
