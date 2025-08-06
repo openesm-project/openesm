@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2025-07-16
+date: 2025-08-01
 draft: false
 ---
 
@@ -46,6 +46,10 @@ Fried, E. I., Papanikolaou, F., & Epskamp, S. (2022). Mental health and social c
 
 
 
+
+## Changelog
+
+No changes yet.
 
 ## Variables
 
