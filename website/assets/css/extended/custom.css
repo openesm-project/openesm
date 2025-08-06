@@ -289,15 +289,52 @@ body .main {
   margin: 1rem 0;
 }
 
-/* Search results highlighting */
-.search-result {
-  border-left: 3px solid var(--primary-blue);
-  padding-left: 1rem;
-  margin: 1rem 0;
+/* Search highlighting */
+.search-highlight {
+    background-color: #E78A00; /* Using your accent orange */
+    color: white;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-weight: 500;
 }
 
-.search-result:hover {
-  background-color: rgba(8, 90, 179, 0.05);
+/* Make sure highlights are visible in different contexts */
+.search-result h3 a .search-highlight {
+    background-color: #E78A00;
+    color: white;
+}
+
+.matching-variables .search-highlight {
+    background-color: #E78A00;
+    color: white;
+}
+
+/* Reduce font size for matching variables section */
+.matching-variables h4 {
+    font-size: 0.9rem;
+}
+
+.matching-variables li {
+    font-size: 0.85rem;
+}
+
+/* Match indicators */
+.match-indicators {
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+.match-tag {
+    display: inline-block;
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    color: var(--primary);
+    padding: 2px 6px;
+    margin-right: 4px;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 500;
 }
 
 /* Homepage specific styling */

@@ -111,6 +111,10 @@ ${apaReference}
 
 ${additionalReference ? `\n### Additional Reference\n\n${additionalReference}\n` : ''}
 
+## Changelog
+
+No changes yet.
+
 ## Variables
 
 | Name | Type | Answer Categories | Wording | Labels | Transformation | Source | Assessment Type | Construct | Comments |
@@ -128,4 +132,6 @@ ${data.features.map(feature => `| ${feature.name} | ${feature.variable_type} | $
   });
 };
 
+
 generateDatasetPages();
+

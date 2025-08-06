@@ -160,6 +160,48 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         log("Construct counts:", constructCounts);
     }
+    function highlightSearchTerms(text, query) {
+    if (!text || !query.trim()) return text;
+    // Extract individual terms from query, remove special characters
+    const terms = query.toLowerCase()
+        .split(/\s+/)
+        .filter(term => term.length > 1) // Ignore single characters
+        .map(term => term.replace(/[^\w]/g, '')); // Remove special chars
+    if (terms.length === 0) return text;
+    // Create regex pattern for all terms (case insensitive)
+    const pattern = terms.map(term => 
+        term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // Escape special regex chars
+    ).join('|');
+    const regex = new RegExp(`(${pattern})`, 'gi');
+    return text.replace(regex, '<mark class="search-highlight">$1</mark>');
+}
+function getMatchIndicators(dataset, query) {
+    if (!query.trim()) return [];
+    const indicators = [];
+    const queryTerms = query.toLowerCase().split(/\s+/).filter(term => term.length > 1);
+    // Check title match (first_author + year)
+    const titleText = `${dataset.first_author} ${dataset.year}`.toLowerCase();
+    if (queryTerms.some(term => titleText.includes(term))) {
+        indicators.push('Author/Year');
+    }
+    // Check topics match
+    const topicsText = (dataset.topics || '').toLowerCase();
+    if (queryTerms.some(term => topicsText.includes(term))) {
+        indicators.push('Topics');
+    }
+    // Check variables match
+    let hasVariableMatch = false;
+    if (Array.isArray(dataset.variables)) {
+        hasVariableMatch = dataset.variables.some(variable => {
+            const variableText = `${variable.name || ''} ${variable.description || ''}`.toLowerCase();
+            return queryTerms.some(term => variableText.includes(term));
+        });
+    }
+    if (hasVariableMatch) {
+        indicators.push('Variables');
+    }
+    return indicators;
+}
     function populateConstructDropdown() {
         const dropdown = document.getElementById('construct-dropdown');
         dropdown.innerHTML = '';
@@ -295,47 +337,65 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     function displayResults(results, query) {
-        const resultsContainer = document.getElementById('custom-search-results');
-        resultsContainer.innerHTML = '';
-        const resultsHeader = document.createElement('div');
-        resultsHeader.className = 'search-stats';
-        resultsHeader.textContent = `${results.length} dataset${results.length !== 1 ? 's' : ''} found`;
-        resultsContainer.appendChild(resultsHeader);
-        if (results.length === 0) {
-            resultsContainer.innerHTML += '<p>No results found matching your criteria.</p>';
-            return;
-        }
-        results.forEach(dataset => {
-            const isSelected = selectedDatasets.has(dataset.id);
-            const datasetEl = document.createElement('div');
-            datasetEl.className = `search-result ${isSelected ? 'selected' : ''}`;
-            datasetEl.dataset.id = dataset.id;
-            datasetEl.addEventListener('click', () => toggleDatasetSelection(dataset.id));
-            const queryTerms = query.toLowerCase().split(/\s+/).filter(Boolean);
-            const matchingVariables = query.trim() === '' ? [] : dataset.variables.filter(variable =>
-                queryTerms.some(term =>
-                    (variable.name || '').toLowerCase().includes(term) ||
-                    (variable.description || '').toLowerCase().includes(term)
-                )
-            ).slice(0, 3);
-            const url = dataset.url.startsWith('/') ? `${basePath}${dataset.url}` : dataset.url;
-            datasetEl.innerHTML = `
-                <div class="selection-checkbox ${isSelected ? 'selected' : ''}"></div>
-                <h3><a href="${url}" onclick="event.stopPropagation()">${dataset.first_author} (${dataset.year})</a></h3>
-                <p><strong>Topics:</strong> ${dataset.topics || 'N/A'}</p>
-                <p><strong>Participants:</strong> ${dataset.n_participants || 'N/A'} | <strong>Time points:</strong> ${dataset.n_time_points || 'N/A'}</p>
-                ${matchingVariables.length > 0 ? `
-                    <div class="matching-variables">
-                        <h4>Matching Variables</h4>
-                        <ul>
-                            ${matchingVariables.map(v => `<li><strong>${v.name}</strong>: ${v.description || 'No description.'}</li>`).join('')}
-                        </ul>
-                    </div>
-                ` : ''}
-            `;
-            resultsContainer.appendChild(datasetEl);
-        });
+    const resultsContainer = document.getElementById('custom-search-results');
+    resultsContainer.innerHTML = '';
+    const resultsHeader = document.createElement('div');
+    resultsHeader.className = 'search-stats';
+    resultsHeader.textContent = `${results.length} dataset${results.length !== 1 ? 's' : ''} found`;
+    resultsContainer.appendChild(resultsHeader);
+    if (results.length === 0) {
+        resultsContainer.innerHTML += '<p>No results found matching your criteria.</p>';
+        return;
     }
+    results.forEach(dataset => {
+        const isSelected = selectedDatasets.has(dataset.id);
+        const datasetEl = document.createElement('div');
+        datasetEl.className = `search-result ${isSelected ? 'selected' : ''}`;
+        datasetEl.dataset.id = dataset.id;
+        datasetEl.addEventListener('click', () => toggleDatasetSelection(dataset.id));
+        const queryTerms = query.toLowerCase().split(/\s+/).filter(Boolean);
+        const matchingVariables = query.trim() === '' ? [] : dataset.variables.filter(variable =>
+            queryTerms.some(term =>
+                (variable.name || '').toLowerCase().includes(term) ||
+                (variable.description || '').toLowerCase().includes(term)
+            )
+        ).slice(0, 3);
+        const url = dataset.url.startsWith('/') ? `${basePath}${dataset.url}` : dataset.url;
+        // Apply highlighting to the title
+        const highlightedTitle = highlightSearchTerms(
+            `${dataset.first_author} (${dataset.year})`, 
+            query
+        );
+        // Apply highlighting to topics
+        const highlightedTopics = highlightSearchTerms(dataset.topics || 'N/A', query);
+        // Get match indicators
+        const matchIndicators = getMatchIndicators(dataset, query);
+        const matchIndicatorHTML = matchIndicators.length > 0 ? 
+            `<div class="match-indicators">Found in: ${matchIndicators.map(indicator => 
+                `<span class="match-tag">${indicator}</span>`
+            ).join('')}</div>` : '';
+        datasetEl.innerHTML = `
+            <div class="selection-checkbox ${isSelected ? 'selected' : ''}"></div>
+            <h3><a href="${url}" onclick="event.stopPropagation()">${highlightedTitle}</a></h3>
+            ${matchIndicatorHTML}
+            <p><strong>Topics:</strong> ${highlightedTopics}</p>
+            <p><strong>Participants:</strong> ${dataset.n_participants || 'N/A'} | <strong>Time points:</strong> ${dataset.n_time_points || 'N/A'}</p>
+            ${matchingVariables.length > 0 ? `
+                <div class="matching-variables">
+                    <h4>Matching Variables</h4>
+                    <ul>
+                        ${matchingVariables.map(v => {
+                            const highlightedName = highlightSearchTerms(v.name, query);
+                            const highlightedDesc = highlightSearchTerms(v.description || 'No description.', query);
+                            return `<li><strong>${highlightedName}</strong>: ${highlightedDesc}</li>`;
+                        }).join('')}
+                    </ul>
+                </div>
+            ` : ''}
+        `;
+        resultsContainer.appendChild(datasetEl);
+    });
+}
     function toggleDatasetSelection(datasetId) {
         const resultEl = document.querySelector(`.search-result[data-id="${datasetId}"]`);
         const checkboxEl = resultEl.querySelector('.selection-checkbox');
