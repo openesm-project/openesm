@@ -117,9 +117,9 @@ No changes yet.
 
 ## Variables
 
-| Name | Type | Answer Categories | Wording | Labels | Transformation | Source | Assessment Type | Construct | Comments |
-|------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
-${data.features.map(feature => `| ${feature.name} | ${feature.variable_type} | ${formatForTable(feature.answer_categories)} | ${formatForTable(feature.wording)} | ${formatForTable(feature.labels)} | ${formatForTable(feature.transformation)} | ${formatForTable(feature.source)} | ${formatForTable(feature.assessment_type)} | ${formatForTable(feature.construct)} | ${formatForTable(feature.comments)} |`).join('\n')}
+| Name | Description | Type | Answer Categories | Wording | Labels | Transformation | Source | Assessment Type | Construct | Comments |
+|------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
+${data.features.map(feature => `| ${feature.name} | ${formatForTable(feature.description)} | ${feature.variable_type} | ${formatForTable(feature.answer_categories)} | ${formatForTable(feature.wording)} | ${formatForTable(feature.labels)} | ${formatForTable(feature.transformation)} | ${formatForTable(feature.source)} | ${formatForTable(feature.assessment_type)} | ${formatForTable(feature.construct)} | ${formatForTable(feature.comments)} |`).join('\n')}
 `;
       
       // Write the markdown file
