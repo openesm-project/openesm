@@ -37,7 +37,7 @@ const processDatasets = () => {
       
       // Create a table row representation of the dataset
       return {
-        id: folder,
+        dataset_id: folder,
         first_author: data.first_author,
         year: data.year,
         topics: data.topics,

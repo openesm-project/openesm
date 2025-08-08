@@ -17,7 +17,7 @@ Our inclusion criteria for datasets were the following:
 
 ## Dataset Structure
 
-All datasets are stored in **TSV format** with standardized metadata in **JSON format**. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is `ID_datasetname_type.tsv` where `ID` is a unique identifier, `datasetname` is the name of the dataset, and `type` indicates the type of data. This type can be `ts` for time series data, `static` for cross-sectional/baseline data, or `sensor` for sensor data.
+All datasets are stored in **TSV format** with standardized metadata in **JSON format**. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is `ID_datasetname_type.tsv` where `ID` is a unique identifier for the dataset id, `datasetname` is the name of the dataset, and `type` indicates the type of data. This type can be `ts` for time series data, `static` for cross-sectional/baseline data, or `sensor` for sensor data.
 
 
 
@@ -32,7 +32,7 @@ The dataset metadata are stored in the metadata `.json` file of the dataset. It 
 #### Author
 Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication.
 
-#### ID
+#### Dataset ID
 Unique dataset identifier used throughout the OpenESM database (e.g., "0001", "0002"). This ID is used in folder names and file references.
 
 #### Year

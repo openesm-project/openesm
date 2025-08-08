@@ -3,8 +3,6 @@ title: "Technical Documentation"
 description: "System architecture and technical implementation details"
 ---
 
-# Technical Documentation
-
 This section covers the technical aspects of how OpenESM works, including infrastructure, workflows, and system architecture.
 
 ## System Architecture
@@ -19,3 +17,8 @@ OpenESM uses a static site generator approach with the following components:
 
 
 The website repository then pulls in the metadata from the metadata GitHub repository via GitHub actions upon change in the metadata repository. This allows us to keep the website and metadata in sync automatically.
+
+## Metadata Repository
+The metadata repository contains all the dataset metadata in JSON format. Each dataset has a corresponding JSON file that includes detailed information about the dataset, such as authors, publication references, and links to data files. These are then bundled into `datasets.json` for easy access via the R package. This happens automatically via GitHub actions whenever a change is made to the metadata repository.
+
+## Website Repository
