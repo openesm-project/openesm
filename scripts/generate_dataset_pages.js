@@ -99,7 +99,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo:** ${data.link_to_zenodo ? `[${data.link_to_zenodo}](${data.link_to_zenodo})` : 'not available'}
+- **Zenodo DOI:** ${data.zenodo_doi ? `[${data.zenodo_doi}](${data.zenodo_doi})` : 'not available'}
 - **R:** \`openesm::get_dataset("${folder}")\`
 - **Python:** \`openesm.get_dataset("${folder}")\`
 
