@@ -16,7 +16,7 @@ Below, you will find the full list of all datasets available in the OpenESM data
   <table id="datasets-table">
   <thead>
     <tr>
-      <th>ID</th>
+      <th>Dataset ID</th>
       <th>First Author</th>
       <th>Year</th>
       <th>Topics</th>
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function() {
           `${basePath}${dataset.url}` : dataset.url;
         
         row.innerHTML = `
-          <td><a href="${url}">${dataset.id}</a></td>
+          <td><a href="${url}">${dataset.dataset_id}</a></td>
           <td>${dataset.first_author}</td>
           <td>${formatNumeric(dataset.year)}</td>
           <td>${dataset.topics || ''}</td>

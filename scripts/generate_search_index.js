@@ -63,7 +63,7 @@ const processDatasets = () => {
       datasets.push({
         id: folder,
         first_author: data.first_author,
-        dataset: data.dataset,
+        dataset_id: data.dataset_id,
         year: data.year,
         topics: data.topics,
         participants: data.participants,
