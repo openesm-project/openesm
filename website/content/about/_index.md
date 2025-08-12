@@ -11,7 +11,6 @@ We came together to create an open database of experience sampling datasets prim
 More details on the datasets, metadata, and technical details can be found in the [Documentation]({{< relref "docs/" >}}).
 
 ## How did we create openESM?
-
 More details are available in our [introduction paper](TODO).
 
 ## Your resposibility
@@ -21,6 +20,9 @@ If you use our datasets in your research, please cite the original authors and t
 ```markdown
 TODO
 ```
+
+## Getting Started
+TODO
 
 ## Contributors
 

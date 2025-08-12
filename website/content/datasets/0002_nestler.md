@@ -1,6 +1,6 @@
 ---
 title: "Nestler (2022)"
-date: 2025-08-06
+date: 2025-08-12
 draft: false
 ---
 
@@ -9,7 +9,7 @@ draft: false
 
 - **First Author:** Nestler
 - **Year:** 2022
-- **DOI:** [https://doi.org/10.1007/s11336-021-09787-w](https://doi.org/10.1007/s11336-021-09787-w)
+- **Paper DOI:** [https://doi.org/10.1007/s11336-021-09787-w](https://doi.org/10.1007/s11336-021-09787-w)
 - **Topics:** personality, affect, motivation
 
 ## Data Characteristics
@@ -28,10 +28,11 @@ draft: false
 - **Link to Original Data:** [https://osf.io/gmz7e](https://osf.io/gmz7e)
 - **Link to Codebook:** [https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699](https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699)
 - **Link to Code:** [https://osf.io/53scf/](https://osf.io/53scf/)
+- **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo:** not available
+- **Zenodo DOI:** not available
 - **R:** `openesm::get_dataset("0002_nestler")`
 - **Python:** `openesm.get_dataset("0002_nestler")`
 
@@ -58,12 +59,12 @@ No changes yet.
 | id | Participant ID | categorical |  |  |  |  |  | Daily |  |  |
 | day | Day of study | other |  |  |  |  |  | Daily |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | Daily |  |  |
-| sociable | Sociable | numeric | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | social, personality, extraversion |  |
-| creative | Creative | numeric | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | personality, creativity, openness |  |
-| friendly | Friendly | numeric | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | personality, agreeableness |  |
-| organised | Organised | numeric | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | personality, conscientiousness |  |
-| self_esteem | Satisfied with myself | numeric | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily | self-esteem, well-being, positive affect |  |
+| sociable | Sociable | numeric | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | sociability, extraversion, big five |  |
+| creative | Creative | numeric | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | creativity, openness, big five |  |
+| friendly | Friendly | numeric | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | friendliness, agreeableness, big five |  |
+| organised | Organised | numeric | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | organisation, conscientiousness, big five |  |
+| self_esteem | Satisfied with myself | numeric | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily | self-esteem, self-concept |  |
 | weekday | Day of the week | numeric |  |  |  |  |  | Daily |  |  |
 | temp | Temperature | numeric |  |  |  |  |  | Daily |  |  |
 | rain | Precipitation Rainfall | numeric |  |  |  |  |  | Daily |  |  |
-| nervous | Nervous | Likert | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | negative affect, neuroticism |  |
+| nervous | Nervous | Likert | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | nervousness, negative affect, affect, neuroticism, big five |  |

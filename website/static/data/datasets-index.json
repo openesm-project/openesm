@@ -2,7 +2,7 @@
   {
     "id": "0001_fried",
     "first_author": "Fried",
-    "dataset": "0001",
+    "dataset_id": "0001",
     "year": 2021,
     "topics": "mental health, social contact, COVID",
     "participants": "student sample",
@@ -96,7 +96,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect",
+        "construct": "relaxation, negative affect, affect, neuroticism, big five, psychopathology",
         "comments": ""
       },
       {
@@ -110,7 +110,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect",
+        "construct": "irritability, negative affect, affect, neuroticism, big five, psychopathology",
         "comments": ""
       },
       {
@@ -124,7 +124,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect, anxiety",
+        "construct": "worry, negative affect, affect, neuroticism, big five, psychopathology",
         "comments": ""
       },
       {
@@ -138,7 +138,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect, anxiety",
+        "construct": "nervousness, anxiety, negative affect, affect, neuroticism, big five, psychopathology",
         "comments": ""
       },
       {
@@ -152,7 +152,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "depression",
+        "construct": "depression, psychopathology",
         "comments": ""
       },
       {
@@ -166,7 +166,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "depression",
+        "construct": "anhedonia, depression, psychopathology",
         "comments": ""
       },
       {
@@ -180,7 +180,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "sleep",
+        "construct": "tiredness, negative affect, affect, biological, psychopathology",
         "comments": ""
       },
       {
@@ -194,7 +194,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "hunger",
+        "construct": "hunger, biological",
         "comments": ""
       },
       {
@@ -208,7 +208,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "loneliness",
+        "construct": "loneliness, social functioning",
         "comments": ""
       },
       {
@@ -222,7 +222,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "negative affect",
+        "construct": "anger, negative affect, affect, psychopathology",
         "comments": ""
       },
       {
@@ -236,7 +236,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "social, activity",
+        "construct": "offline social interaction, social interaction, activity, context",
         "comments": ""
       },
       {
@@ -250,7 +250,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "social media",
+        "construct": "online social interaction, social interaction, activity, context",
         "comments": ""
       },
       {
@@ -264,7 +264,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "activity, music",
+        "construct": "music, activity, context",
         "comments": ""
       },
       {
@@ -278,7 +278,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "procrastination",
+        "construct": "procrastination, activity",
         "comments": ""
       },
       {
@@ -292,7 +292,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "activity, location",
+        "construct": "location, context",
         "comments": ""
       },
       {
@@ -334,7 +334,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "activity, location",
+        "construct": "location, context",
         "comments": ""
       },
       {
@@ -385,7 +385,7 @@
   {
     "id": "0002_nestler",
     "first_author": "Nestler",
-    "dataset": "0002",
+    "dataset_id": "0002",
     "year": 2022,
     "topics": "personality, affect, motivation",
     "participants": "unclear",
@@ -451,7 +451,7 @@
         "transformation": "grand-mean centered",
         "source": "",
         "assessment_type": "Daily",
-        "construct": "social, personality, extraversion",
+        "construct": "sociability, extraversion, big five",
         "comments": ""
       },
       {
@@ -465,7 +465,7 @@
         "transformation": "grand-mean centered",
         "source": "",
         "assessment_type": "Daily",
-        "construct": "personality, creativity, openness",
+        "construct": "creativity, openness, big five",
         "comments": ""
       },
       {
@@ -479,7 +479,7 @@
         "transformation": "grand-mean centered",
         "source": "",
         "assessment_type": "Daily",
-        "construct": "personality, agreeableness",
+        "construct": "friendliness, agreeableness, big five",
         "comments": ""
       },
       {
@@ -493,7 +493,7 @@
         "transformation": "grand-mean centered",
         "source": "",
         "assessment_type": "Daily",
-        "construct": "personality, conscientiousness",
+        "construct": "organisation, conscientiousness, big five",
         "comments": ""
       },
       {
@@ -507,7 +507,7 @@
         "transformation": "grand-mean centered",
         "source": "Rosenberg Self-Esteem Scale",
         "assessment_type": "Daily",
-        "construct": "self-esteem, well-being, positive affect",
+        "construct": "self-esteem, self-concept",
         "comments": ""
       },
       {
@@ -563,7 +563,7 @@
         "transformation": "grand-mean centered",
         "source": "",
         "assessment_type": "Daily",
-        "construct": "negative affect, neuroticism",
+        "construct": "nervousness, negative affect, affect, neuroticism, big five",
         "comments": ""
       }
     ],
@@ -572,7 +572,7 @@
   {
     "id": "0003_hawks",
     "first_author": "Hawks",
-    "dataset": "0003",
+    "dataset_id": "0003",
     "year": 2023,
     "topics": "momentary cognition, context, stress",
     "participants": "adults",
@@ -666,7 +666,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect",
+        "construct": "nervousness, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -680,7 +680,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect",
+        "construct": "fear, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -694,7 +694,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "positive affect, affect",
+        "construct": "enthusiasm, positive affect, affect, extraversion, big five",
         "comments": ""
       },
       {
@@ -708,7 +708,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect",
+        "construct": "distress, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -722,7 +722,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "positive affect, affect",
+        "construct": "excitement, positive affect, affect, extraversion, big five",
         "comments": ""
       },
       {
@@ -736,7 +736,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect",
+        "construct": "fear, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -750,7 +750,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "negative affect, affect",
+        "construct": "upset, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -764,7 +764,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "positive affect, affect",
+        "construct": "alertness, positive affect, affect, etxraversion, big five",
         "comments": ""
       },
       {
@@ -778,7 +778,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "positive affect, affect",
+        "construct": "determination, positive affect, affect",
         "comments": ""
       },
       {
@@ -792,7 +792,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "positive affect, affect",
+        "construct": "inspiration, positive affect, affect",
         "comments": ""
       },
       {
@@ -806,7 +806,7 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "depression",
+        "construct": "depression, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -820,7 +820,7 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "anxiety",
+        "construct": "restlessness,",
         "comments": ""
       },
       {
@@ -1146,7 +1146,7 @@
         "comments": ""
       },
       {
-        "name": "sleep_dur",
+        "name": "sleep_duration",
         "description": "Typical sleep duration",
         "type": "numeric",
         "coding": "Time between typical bed and wake up time",
@@ -1156,21 +1156,21 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "",
+        "construct": "sleep",
         "comments": ""
       },
       {
-        "name": "socialfunc_comp",
+        "name": "social_functioning_composite",
         "description": "Social functioning composite score",
         "type": "numeric",
         "coding": "Mean of three social functioning items on a 0-7 scale",
-        "answer_categories": "",
+        "answer_categories": "8",
         "wording": "Mean of three social functioning items on a 0-7 scale",
         "labels": "",
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "",
+        "construct": "social functioning",
         "comments": ""
       },
       {
@@ -1179,12 +1179,12 @@
         "type": "numeric",
         "coding": "Median reaction time on correct responses",
         "answer_categories": "",
-        "wording": "Median reaction time on correct responses",
+        "wording": "Median reaction time on correct responses of Digit-Symbol Matching",
         "labels": "",
         "transformation": "",
-        "source": "",
+        "source": "Digit-Symbol Matching (DS)",
         "assessment_type": "ESM",
-        "construct": "",
+        "construct": "cognition, processing speed",
         "comments": ""
       },
       {
@@ -1207,12 +1207,12 @@
         "type": "numeric",
         "coding": "Median reaction time on correct responses",
         "answer_categories": "",
-        "wording": "Median reaction time on correct responses",
+        "wording": "Median reaction time on correct responses for Choice Reaction Time (CRT)",
         "labels": "",
         "transformation": "",
-        "source": "",
+        "source": "Choice Reaction Time (CRT)",
         "assessment_type": "ESM",
-        "construct": "",
+        "construct": "cognition",
         "comments": ""
       },
       {
@@ -1221,12 +1221,12 @@
         "type": "numeric",
         "coding": "Accuracy computed as d-prime",
         "answer_categories": "",
-        "wording": "Accuracy computed as d-prime",
+        "wording": "Accuracy computed as d-prime for Gradual Onset Continuous Performance Test (GCPT)",
         "labels": "",
         "transformation": "",
-        "source": "",
+        "source": "Gradual Onset Continuous Performance Test (GCPT)",
         "assessment_type": "ESM",
-        "construct": "",
+        "construct": "cognition, attention, cognitive control",
         "comments": ""
       },
       {
@@ -1235,12 +1235,12 @@
         "type": "numeric",
         "coding": "Proportion of correct targets",
         "answer_categories": "",
-        "wording": "Proportion of correct targets",
+        "wording": "Proportion of correct targets in Multiple Object Tracking (MOT) task",
         "labels": "",
         "transformation": "",
-        "source": "",
+        "source": "Multiple Object Tracking (MOT)",
         "assessment_type": "ESM",
-        "construct": "",
+        "construct": "cognition",
         "comments": ""
       }
     ],

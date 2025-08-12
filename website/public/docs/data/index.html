@@ -88,15 +88,15 @@
 <li>Not being synthetic data, in other words, not data simulated based on real data</li>
 </ul>
 <h2 id="dataset-structure">Dataset Structure<a hidden class="anchor" aria-hidden="true" href="#dataset-structure">#</a></h2>
-<p>All datasets are stored in <strong>TSV format</strong> with standardized metadata in <strong>JSON format</strong>. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is <code>ID_datasetname_type.tsv</code> where <code>ID</code> is a unique identifier, <code>datasetname</code> is the name of the dataset, and <code>type</code> indicates the type of data. This type can be <code>ts</code> for time series data, <code>static</code> for cross-sectional/baseline data, or <code>sensor</code> for sensor data.</p>
+<p>All datasets are stored in <strong>TSV format</strong> with standardized metadata in <strong>JSON format</strong>. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is <code>ID_datasetname_type.tsv</code> where <code>ID</code> is a unique identifier for the dataset id, <code>datasetname</code> is the name of the dataset (i.e., the name of the first author), and <code>type</code> indicates the type of data. This type can be <code>ts</code> for time series data, <code>static</code> for cross-sectional/baseline data, or <code>sensor</code> for sensor data.</p>
 <h1 id="metadata">Metadata<a hidden class="anchor" aria-hidden="true" href="#metadata">#</a></h1>
 <h2 id="dataset-metadata">Dataset Metadata<a hidden class="anchor" aria-hidden="true" href="#dataset-metadata">#</a></h2>
 <p>The dataset metadata are stored in the metadata <code>.json</code> file of the dataset. It includes the following fields:</p>
 <h3 id="general-information">General Information<a hidden class="anchor" aria-hidden="true" href="#general-information">#</a></h3>
 <h4 id="author">Author<a hidden class="anchor" aria-hidden="true" href="#author">#</a></h4>
-<p>Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication.</p>
-<h4 id="id">ID<a hidden class="anchor" aria-hidden="true" href="#id">#</a></h4>
-<p>Unique dataset identifier used throughout the OpenESM database (e.g., &ldquo;0001&rdquo;, &ldquo;0002&rdquo;). This ID is used in folder names and file references.</p>
+<p>Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication. Typically, there are multiple individuals involved in the data collection, but we only list the first author of either the publication or the dataset. All individuals who contributed to the reference are listed in the relevant publication. If you think that we missed someone who should be listed here, please let us know.</p>
+<h4 id="dataset-id">Dataset ID<a hidden class="anchor" aria-hidden="true" href="#dataset-id">#</a></h4>
+<p>Unique dataset identifier used throughout the OpenESM database (e.g., &ldquo;0001&rdquo;, &ldquo;0002&rdquo;). This ID is used in folder names and file references. This ID is not fully consecutive, as we have did not include some datasets that we found in our initial search.</p>
 <h4 id="year">Year<a hidden class="anchor" aria-hidden="true" href="#year">#</a></h4>
 <p>Year when the data collection took place. This may differ from the publication year.</p>
 <h4 id="reference-a">Reference A<a hidden class="anchor" aria-hidden="true" href="#reference-a">#</a></h4>
@@ -105,7 +105,7 @@
 <p>Secondary publication reference, if applicable. Some datasets may be associated with multiple publications or follow-up studies.</p>
 <h3 id="code--data-access">Code &amp; Data Access<a hidden class="anchor" aria-hidden="true" href="#code--data-access">#</a></h3>
 <h4 id="link-to-zenodo">Link to Zenodo<a hidden class="anchor" aria-hidden="true" href="#link-to-zenodo">#</a></h4>
-<p>DOI link to the dataset stored on Zenodo. This provides persistent access to the actual data files.</p>
+<p>Link to the dataset stored on Zenodo. This provides persistent access to the actual data files.</p>
 <h4 id="paper-doi">Paper DOI<a hidden class="anchor" aria-hidden="true" href="#paper-doi">#</a></h4>
 <p>Digital Object Identifier (DOI) of the associated publication, enabling direct access to the published research.</p>
 <h4 id="link-to-data">Link to Data<a hidden class="anchor" aria-hidden="true" href="#link-to-data">#</a></h4>

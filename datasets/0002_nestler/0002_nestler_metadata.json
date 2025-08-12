@@ -1,12 +1,13 @@
 {
   "first_author": "Nestler",
-  "dataset": "0002",
+  "dataset_id": "0002",
   "year": 2022,
   "reference_a": "@article{nestler2022,\n  title = {A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation},\n  author = {Nestler, Steffen and Humberg, Sarah},\n  date = {2022-06-01},\n  journaltitle = {Psychometrika},\n  shortjournal = {Psychometrika},\n  volume = {87},\n  number = {2},\n  pages = {506--532},\n  doi = {10.1007/s11336-021-09787-w}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1007/s11336-021-09787-w",
-  "link_to_zenodo": null,
+  "zenodo_doi": null,
   "link_to_data": "https://osf.io/gmz7e",
+  "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699",
   "link_to_code": "https://osf.io/53scf/",
   "n_participants": 85,
@@ -77,7 +78,7 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "social, personality, extraversion",
+      "construct": "sociability, extraversion, big five",
       "comments": ""
     },
     {
@@ -91,7 +92,7 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "personality, creativity, openness",
+      "construct": "creativity, openness, big five",
       "comments": ""
     },
     {
@@ -105,7 +106,7 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "personality, agreeableness",
+      "construct": "friendliness, agreeableness, big five",
       "comments": ""
     },
     {
@@ -119,7 +120,7 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "personality, conscientiousness",
+      "construct": "organisation, conscientiousness, big five",
       "comments": ""
     },
     {
@@ -133,7 +134,7 @@
       "transformation": "grand-mean centered",
       "source": "Rosenberg Self-Esteem Scale",
       "assessment_type": "Daily",
-      "construct": "self-esteem, well-being, positive affect",
+      "construct": "self-esteem, self-concept",
       "comments": ""
     },
     {
@@ -189,7 +190,7 @@
       "transformation": "grand-mean centered",
       "source": "",
       "assessment_type": "Daily",
-      "construct": "negative affect, neuroticism",
+      "construct": "nervousness, negative affect, affect, neuroticism, big five",
       "comments": ""
     }
   ]

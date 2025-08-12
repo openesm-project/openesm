@@ -5,7 +5,8 @@ const path = require('path');
 const datasetsDir = path.join(__dirname, '../datasets');
 
 // Output file for the datasets table
-const outputFile = path.join(__dirname, '../website/data/datasets_table.json');
+// points to static directory
+const outputFile = path.join(__dirname, '../website/static/data/datasets_table.json');
 
 // Ensure the output directory exists
 const outputDir = path.dirname(outputFile);
@@ -54,7 +55,7 @@ const processDatasets = () => {
   }).filter(Boolean);
   
   // Sort datasets by id
-  datasets.sort((a, b) => a.id.localeCompare(b.id));
+  datasets.sort((a, b) => a.dataset_id.localeCompare(b.dataset_id));
   
   // Write the datasets table data
   fs.writeFileSync(outputFile, JSON.stringify(datasets, null, 2));

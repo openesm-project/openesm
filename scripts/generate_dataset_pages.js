@@ -77,7 +77,7 @@ draft: false
 
 - **First Author:** ${data.first_author}
 - **Year:** ${data.year}
-- **DOI:** [${data.paper_doi}](${data.paper_doi})
+- **Paper DOI:** [${data.paper_doi}](${data.paper_doi})
 - **Topics:** ${data.topics || ''}
 
 ## Data Characteristics
@@ -96,6 +96,7 @@ draft: false
 - **Link to Original Data:** [${data.link_to_data}](${data.link_to_data})
 - **Link to Codebook:** ${data.link_to_codebook ? `[${data.link_to_codebook}](${data.link_to_codebook})` : 'not available'}
 - **Link to Code:** [${data.link_to_code}](${data.link_to_code})
+- **License:** ${data.license || 'not specified'}
 
 ## Data Access
 

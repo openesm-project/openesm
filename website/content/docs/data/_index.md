@@ -17,7 +17,7 @@ Our inclusion criteria for datasets were the following:
 
 ## Dataset Structure
 
-All datasets are stored in **TSV format** with standardized metadata in **JSON format**. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is `ID_datasetname_type.tsv` where `ID` is a unique identifier for the dataset id, `datasetname` is the name of the dataset, and `type` indicates the type of data. This type can be `ts` for time series data, `static` for cross-sectional/baseline data, or `sensor` for sensor data.
+All datasets are stored in **TSV format** with standardized metadata in **JSON format**. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is `ID_datasetname_type.tsv` where `ID` is a unique identifier for the dataset id, `datasetname` is the name of the dataset (i.e., the name of the first author), and `type` indicates the type of data. This type can be `ts` for time series data, `static` for cross-sectional/baseline data, or `sensor` for sensor data.
 
 
 
@@ -30,10 +30,10 @@ The dataset metadata are stored in the metadata `.json` file of the dataset. It 
 ### General Information
 
 #### Author
-Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication.
+Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication. Typically, there are multiple individuals involved in the data collection, but we only list the first author of either the publication or the dataset. All individuals who contributed to the reference are listed in the relevant publication. If you think that we missed someone who should be listed here, please let us know.
 
 #### Dataset ID
-Unique dataset identifier used throughout the OpenESM database (e.g., "0001", "0002"). This ID is used in folder names and file references.
+Unique dataset identifier used throughout the OpenESM database (e.g., "0001", "0002"). This ID is used in folder names and file references. This ID is not fully consecutive, as we have did not include some datasets that we found in our initial search.
 
 #### Year
 Year when the data collection took place. This may differ from the publication year.
@@ -47,7 +47,7 @@ Secondary publication reference, if applicable. Some datasets may be associated 
 ### Code & Data Access
 
 #### Link to Zenodo
-DOI link to the dataset stored on Zenodo. This provides persistent access to the actual data files.
+Link to the dataset stored on Zenodo. This provides persistent access to the actual data files.
 
 #### Paper DOI
 Digital Object Identifier (DOI) of the associated publication, enabling direct access to the published research.

@@ -1,6 +1,6 @@
 ---
 title: "Hawks (2023)"
-date: 2025-08-06
+date: 2025-08-12
 draft: false
 ---
 
@@ -9,7 +9,7 @@ draft: false
 
 - **First Author:** Hawks
 - **Year:** 2023
-- **DOI:** [https://doi.org/10.1016/j.bpsc.2022.12.002](https://doi.org/10.1016/j.bpsc.2022.12.002)
+- **Paper DOI:** [https://doi.org/10.1016/j.bpsc.2022.12.002](https://doi.org/10.1016/j.bpsc.2022.12.002)
 - **Topics:** momentary cognition, context, stress
 
 ## Data Characteristics
@@ -28,10 +28,11 @@ draft: false
 - **Link to Original Data:** [https://github.com/zwihawks/PredictingMomentaryCog](https://github.com/zwihawks/PredictingMomentaryCog)
 - **Link to Codebook:** [https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf](https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf)
 - **Link to Code:** [https://github.com/zwihawks/PredictingMomentaryCog](https://github.com/zwihawks/PredictingMomentaryCog)
+- **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo:** not available
+- **Zenodo DOI:** not available
 - **R:** `openesm::get_dataset("0003_hawks")`
 - **Python:** `openesm.get_dataset("0003_hawks")`
 
@@ -57,18 +58,18 @@ No changes yet.
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | sitting_id | Study session id | numeric |  |  |  |  |  | ESM |  |  |
 | interruptions | Did anything interrupt<br>you during this<br>assessment? | binary | 2 |  | 0 = no<br>1 = yes |  |  | ESM |  |  |
-| nervous | Nervous | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Nervous. | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | negative affect, affect |  |
-| afraid | Afraid | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Afraid | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | negative affect, affect |  |
-| enthusiastic | Enthusiastic | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Enthusiastic | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | positive affect, affect |  |
-| distressed | Distressed | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Distressed | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | negative affect, affect |  |
-| excited | Excited | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Excited | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | positive affect, affect |  |
-| scared | Scared | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Scared | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | negative affect, affect |  |
-| upset | Upset | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Upset | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | negative affect, affect |  |
-| alert | Alert | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Alert | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | positive affect, affect |  |
-| determined | Determined | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Determined | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | positive affect, affect |  |
-| inspired | Inspired | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Inspired | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | positive affect, affect |  |
-| depressed | Depressed | Likert | 5 | Since the last survey, how often have you felt depressed? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | depression |  |
-| restless_or_fidgety | Restless or fidgety | Likert | 5 | Since the last survey, how often have you felt restless or fidgety? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | anxiety |  |
+| nervous | Nervous | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Nervous. | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
+| afraid | Afraid | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Afraid | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | fear, negative affect, affect, neuroticism, big five |  |
+| enthusiastic | Enthusiastic | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Enthusiastic | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
+| distressed | Distressed | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Distressed | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | distress, negative affect, affect, neuroticism, big five |  |
+| excited | Excited | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Excited | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | excitement, positive affect, affect, extraversion, big five |  |
+| scared | Scared | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Scared | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | fear, negative affect, affect, neuroticism, big five |  |
+| upset | Upset | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Upset | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | upset, negative affect, affect, neuroticism, big five |  |
+| alert | Alert | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Alert | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | alertness, positive affect, affect, etxraversion, big five |  |
+| determined | Determined | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Determined | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | determination, positive affect, affect |  |
+| inspired | Inspired | Likert | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Inspired | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | inspiration, positive affect, affect |  |
+| depressed | Depressed | Likert | 5 | Since the last survey, how often have you felt depressed? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | depression, negative affect, affect, neuroticism, big five |  |
+| restless_or_fidgety | Restless or fidgety | Likert | 5 | Since the last survey, how often have you felt restless or fidgety? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | restlessness, |  |
 | so_sad_that_nothing_could_cheer_you_up | So sad that nothing could cheer you up | Likert | 5 | Since the last survey, how often have you felt so sad that nothing could cheer you up? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | depression |  |
 | worried | Worried | Likert | 5 | Since the last survey, how often have you felt worried? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | anxiety |  |
 | hopeless | Hopeless | Likert | 5 | Since the last survey, how often have you felt hopeless? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | depression |  |
@@ -92,10 +93,10 @@ No changes yet.
 | fidgeting | Fidgeting | ordinal | 5 | To what extent are you currently having difficulty fidgeting with your hands or feet or squirming in seat? | 1 = not having difficulty at all<br>5 = extreme difficulty |  |  | ESM | attention |  |
 | motor | Acting as if driven by a motor | ordinal | 5 | To what extent are you currently having difficulty with feeling “on the go” or acting as if you are “driven by a motor”? | 1 = not having difficulty at all<br>5 = extreme difficulty |  |  | ESM | attention |  |
 | study_time | Time assessment was completed | numeric |  | 24 hour clock in local time zone |  |  |  | ESM |  |  |
-| sleep_dur | Typical sleep duration | numeric |  | Time between typical bed and wake up time |  |  |  | ESM |  |  |
-| socialfunc_comp | Social functioning composite score | numeric |  | Mean of three social functioning items on a 0-7 scale |  |  |  | ESM |  |  |
-| ds_median_r_tc | Digit-Symbol Matching (DS) | numeric |  | Median reaction time on correct responses |  |  |  | ESM |  |  |
+| sleep_duration | Typical sleep duration | numeric |  | Time between typical bed and wake up time |  |  |  | ESM | sleep |  |
+| social_functioning_composite | Social functioning composite score | numeric | 8 | Mean of three social functioning items on a 0-7 scale |  |  |  | ESM | social functioning |  |
+| ds_median_r_tc | Digit-Symbol Matching (DS) | numeric |  | Median reaction time on correct responses of Digit-Symbol Matching |  |  | Digit-Symbol Matching (DS) | ESM | cognition, processing speed |  |
 | test_position | Position of test within battery | ordinal | 4 |  |  |  |  | ESM |  |  |
-| crt_median_r_tc | Choice Reaction Time (CRT) | numeric |  | Median reaction time on correct responses |  |  |  | ESM |  |  |
-| gcpt_dprime | Gradual Onset Continuous Performance Test (GCPT) | numeric |  | Accuracy computed as d-prime |  |  |  | ESM |  |  |
-| mot_percent_correct | Multiple Object Tracking (MOT) | numeric |  | Proportion of correct targets |  |  |  | ESM |  |  |
+| crt_median_r_tc | Choice Reaction Time (CRT) | numeric |  | Median reaction time on correct responses for Choice Reaction Time (CRT) |  |  | Choice Reaction Time (CRT) | ESM | cognition |  |
+| gcpt_dprime | Gradual Onset Continuous Performance Test (GCPT) | numeric |  | Accuracy computed as d-prime for Gradual Onset Continuous Performance Test (GCPT) |  |  | Gradual Onset Continuous Performance Test (GCPT) | ESM | cognition, attention, cognitive control |  |
+| mot_percent_correct | Multiple Object Tracking (MOT) | numeric |  | Proportion of correct targets in Multiple Object Tracking (MOT) task |  |  | Multiple Object Tracking (MOT) | ESM | cognition |  |

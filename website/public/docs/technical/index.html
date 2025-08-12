@@ -78,8 +78,7 @@
     System architecture and technical implementation details
   </div>
 </header>
-<div class="post-content"><h1 id="technical-documentation">Technical Documentation<a hidden class="anchor" aria-hidden="true" href="#technical-documentation">#</a></h1>
-<p>This section covers the technical aspects of how OpenESM works, including infrastructure, workflows, and system architecture.</p>
+<div class="post-content"><p>This section covers the technical aspects of how OpenESM works, including infrastructure, workflows, and system architecture.</p>
 <h2 id="system-architecture">System Architecture<a hidden class="anchor" aria-hidden="true" href="#system-architecture">#</a></h2>
 <p>OpenESM uses a static site generator approach with the following components:</p>
 <ul>
@@ -90,6 +89,11 @@
 <li><strong>Lunr.js</strong> - Client-side search functionality</li>
 </ul>
 <p>The website repository then pulls in the metadata from the metadata GitHub repository via GitHub actions upon change in the metadata repository. This allows us to keep the website and metadata in sync automatically.</p>
+<h2 id="metadata-repository">Metadata Repository<a hidden class="anchor" aria-hidden="true" href="#metadata-repository">#</a></h2>
+<p>The metadata repository contains all the dataset metadata in JSON format. Each dataset has a corresponding JSON file that includes detailed information about the dataset, such as authors, publication references, and links to data files. These are then bundled into <code>datasets.json</code> for easy access via the R package. This happens automatically via GitHub actions whenever a change is made to the metadata repository.</p>
+<p>Versioning rules:</p>
+<h2 id="website-repository">Website Repository<a hidden class="anchor" aria-hidden="true" href="#website-repository">#</a></h2>
+<p>Versioning rules:</p>
 
 
 </div>
