@@ -36,20 +36,20 @@ hideposts: true
         /* Hero Section */
         .hero-section {
             color: var(--text-charcoal);
-            padding: 80px 20px;
+            padding: 0px 20px 20px 20px;
             text-align: center;
             position: relative;
             overflow: hidden;
         }
         .hero-section h1 {
             font-size: 3em;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             line-height: 1.2;
         }
         .hero-section p {
             font-size: 1.2em;
             max-width: 800px;
-            margin: 0 auto 40px auto;
+            margin: 0 auto 30px auto;
         }
         .hero-section p strong { /* Style for bold text within hero paragraph */
             color: var(--text-charcoal); /* Ensure bold text is still visible against blue */
@@ -75,8 +75,8 @@ hideposts: true
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            padding: 60px 20px;
-            gap: 40px; /* Space between stat boxes */
+            padding: 35px 20px;
+            gap: 30px;
         }
         .stat-box {
             text-align: center;
@@ -119,20 +119,20 @@ hideposts: true
         /* How It Works Section */
         .how-it-works-section {
             text-align: center;
-            padding: 80px 20px;
+            padding: 50px 20px;
             background-color: var(--light-gray);
         }
         .how-it-works-section h2 {
             font-size: 2.5em;
             color: var(--text-charcoal);
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
         .steps-container {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             gap: 30px;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
         .step-card {
             flex: 0 0 300px; /* Fixed width, allows wrapping */
@@ -189,16 +189,31 @@ hideposts: true
         }
         /* Responsive Adjustments */
         @media (max-width: 768px) {
+            .hero-section {
+                padding: 30px 20px 20px 20px;
+            }
             .hero-section h1 {
                 font-size: 2.2em;
             }
             .hero-section p {
                 font-size: 1em;
             }
-            .stats-section, .steps-container {
+            .stats-section {
+                padding: 25px 20px;
                 flex-direction: column;
                 align-items: center;
-                gap: 30px;
+                gap: 25px;
+            }
+            .how-it-works-section {
+                padding: 35px 20px;
+            }
+            .how-it-works-section h2 {
+                margin-bottom: 20px;
+            }
+            .steps-container {
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
             }
             .stat-box, .step-card {
                 flex-basis: auto; /* Allow full width on small screens */
@@ -216,13 +231,13 @@ hideposts: true
     <div class="stats-section">
         <div class="stat-box">
             <div class="icon"><i class="fas fa-database"></i></div>
-            <div class="number" data-target="55" data-suffix="+">0</div>
+            <div class="number" data-target="60">0</div>
             <div class="label">Datasets</div>
             <p>Explore our growing collection of studies.</p>
         </div>
         <div class="stat-box">
             <div class="icon"><i class="fas fa-users"></i></div>
-            <div class="number" data-target="15000" data-suffix="+">0</div>
+            <div class="number" data-target="16000" data-suffix="+">0</div>
             <div class="label">Individuals</div>
             <p>Uncover insights from thousands of participants.</p>
         </div>
@@ -264,10 +279,10 @@ hideposts: true
                 const updateCount = () => {
                     if (current < target) {
                         current += increment;
-                        counter.textContent = Math.ceil(current).toLocaleString() + suffix; // Add suffix
+                        counter.textContent = Math.ceil(current).toLocaleString() + suffix; // add suffix
                         setTimeout(updateCount, 1);
                     } else {
-                        counter.textContent = target.toLocaleString() + suffix; // Ensure final value has suffix
+                        counter.textContent = target.toLocaleString() + suffix; // ensure final value has suffix
                     }
                 };
                 updateCount();

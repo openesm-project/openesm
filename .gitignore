@@ -3,3 +3,25 @@
 .RData
 .Ruserdata
 *.Rproj
+
+# hugo build files
+website/public
+website/resources/
+website/.hugo_build.lock
+
+# quarto
+website/.quarto/
+
+# node modules if you add any
+node_modules/
+
+# os files
+.DS_Store
+Thumbs.db
+
+# editor files
+.github/
+.vscode/
+*.swp
+*.swo
+*~

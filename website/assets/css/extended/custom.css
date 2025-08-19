@@ -19,6 +19,8 @@ body {
 .header,
 header.header {
   background-color: var(--primary-blue) !important;
+  padding: 1rem 0 !important;
+  min-height: 60px;
 }
 
 /* Header text */
@@ -31,6 +33,8 @@ header.header .logo a,
 header.header .menu a,
 header.header nav a {
   color: var(--bg-offwhite) !important;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* Header hover states */
@@ -39,10 +43,9 @@ header.header nav a {
 header.header .menu a:hover,
 header.header nav a:hover {
   color: var(--accent-orange) !important;
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  border-radius: 4px;
-  padding: 0.25rem 0.5rem;
-  transition: all 0.3s ease;
+  background-color: transparent !important;
+  padding: inherit;
+  transition: color 0.3s ease;
 }
 
 /* Headings */
@@ -399,4 +402,32 @@ body .main {
 
 .homepage-hero h1 {
   color: var(--bg-offwhite);
+}
+
+/* improve card shadows */
+.stat-box, .step-card {
+  background: white;
+  border: 1px solid rgba(8, 90, 179, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.stat-box:hover, .step-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(8, 90, 179, 0.15);
+  border-color: var(--primary-blue);
+}
+
+/* responsive header font size */
+@media (max-width: 768px) {
+  .header .logo,
+  .header .logo a,
+  .header .menu a,
+  .header nav a,
+  header.header .logo,
+  header.header .logo a,
+  header.header .menu a,
+  header.header nav a {
+    font-size: 1rem;
+  }
 }
