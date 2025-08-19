@@ -21,8 +21,7 @@ The website repository then pulls in the metadata from the metadata GitHub repos
 ## Metadata Repository
 The metadata repository contains all the dataset metadata in JSON format. Each dataset has a corresponding JSON file that includes detailed information about the dataset, such as authors, publication references, and links to data files. These are then bundled into `datasets.json` for easy access via the R package. This happens automatically via GitHub actions whenever a change is made to the metadata repository.
 
-Versioning rules: 
+For the versioning rules of our metadata, see the data documentation section on [Versioning and Updates](../data/).
 
 ## Website Repository
-
-Versioning rules:
+The website repository contains the static site files, including markdown files for documentation, configuration files, and the Hugo theme. The website is built using Hugo and deployed to GitHub Pages. 

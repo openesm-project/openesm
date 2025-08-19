@@ -10,7 +10,7 @@
 <meta name="description" content="Understanding OpenESM datasets and metadata">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/openesm/docs/data/">
-<link crossorigin="anonymous" href="/openesm/assets/css/stylesheet.3f299b7f0c588bfa67cbf033efb135a6277d39157c65df9176d0caa86447ae49.css" integrity="sha256-PymbfwxYi/pny/Az77E1pid9ORV8Zd&#43;RdtDKqGRHrkk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/openesm/assets/css/stylesheet.6b458cb08633d99d9d43cdb32cdb0060b017bff11dbe416e2ef3b893b89c469c.css" integrity="sha256-a0WMsIYz2Z2dQ82zLNsAYLAXv/EdvkFuLvO4k7icRpw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/openesm/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/openesm/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/openesm/favicon-32x32.png">
@@ -78,7 +78,8 @@
     Understanding OpenESM datasets and metadata
   </div>
 </header>
-<div class="post-content"><p>This section covers everything you need to know about the OpenESM datasets, their structure, and how to work with them effectively.</p>
+<div class="post-content"><p>This section covers everything you need to know about the OpenESM datasets and metadata, their structure, and how to work with them effectively.</p>
+<h1 id="datasets">Datasets<a hidden class="anchor" aria-hidden="true" href="#datasets">#</a></h1>
 <h2 id="initial-data-search-strategy">Initial Data Search Strategy<a hidden class="anchor" aria-hidden="true" href="#initial-data-search-strategy">#</a></h2>
 <p>Our inclusion criteria for datasets were the following:</p>
 <ul>
@@ -89,6 +90,14 @@
 </ul>
 <h2 id="dataset-structure">Dataset Structure<a hidden class="anchor" aria-hidden="true" href="#dataset-structure">#</a></h2>
 <p>All datasets are stored in <strong>TSV format</strong> with standardized metadata in <strong>JSON format</strong>. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is <code>ID_datasetname_type.tsv</code> where <code>ID</code> is a unique identifier for the dataset id, <code>datasetname</code> is the name of the dataset (i.e., the name of the first author), and <code>type</code> indicates the type of data. This type can be <code>ts</code> for time series data, <code>static</code> for cross-sectional/baseline data, or <code>sensor</code> for sensor data.</p>
+<h2 id="versioning-and-updates">Versioning and Updates<a hidden class="anchor" aria-hidden="true" href="#versioning-and-updates">#</a></h2>
+<p>The datasets are versioned, and updates are made as new data becomes available or corrections are needed. Each dataset has a version number in its metadata, and the Zenodo DOI will point to the latest version. If you use a specific version of a dataset, please cite it using the DOI provided in the metadata.</p>
+<p>We follow semantic versioning principles, where:</p>
+<ul>
+<li><strong>Major version</strong> changes indicate significant updates or changes in the dataset structure, such as correcting errors in the data or adding new variables that change the overall structure of the dataset.</li>
+<li><strong>Minor version</strong> changes indicate minor corrections, such as correcting typos or adding new variables without changing the overall structure.</li>
+<li><strong>Patch version</strong> changes indicate small fixes or updates that do not affect the overall dataset structure, such as changes to a column type that does not affect the data itself.</li>
+</ul>
 <h1 id="metadata">Metadata<a hidden class="anchor" aria-hidden="true" href="#metadata">#</a></h1>
 <h2 id="dataset-metadata">Dataset Metadata<a hidden class="anchor" aria-hidden="true" href="#dataset-metadata">#</a></h2>
 <p>The dataset metadata are stored in the metadata <code>.json</code> file of the dataset. It includes the following fields:</p>
@@ -169,6 +178,14 @@
 <p>The psychological or behavioral construct(s) that the variable is intended to measure (e.g., &ldquo;positive affect,&rdquo; &ldquo;relationship,&rdquo; &ldquo;context&rdquo;). Obviously, assigning a variable to a construct is subjective, so we try to be as consistent as possible, but this is not always possible. We mainly added this field to allow for easier filtering of variables, and thus sometimes used relatively broad constructs.</p>
 <h4 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h4>
 <p>Additional notes, caveats, or important information about the variable that doesn&rsquo;t fit in other categories.</p>
+<h2 id="versioning-and-updates-1">Versioning and Updates<a hidden class="anchor" aria-hidden="true" href="#versioning-and-updates-1">#</a></h2>
+<p>The datasets are versioned, and updates are made as new data becomes available or corrections are needed. Each dataset has a version number in its metadata, and the Zenodo DOI will point to the latest version. If you use a specific version of a dataset, please cite it using the DOI provided in the metadata.</p>
+<p>We follow semantic versioning principles, where:</p>
+<ul>
+<li><strong>Major version</strong> changes indicate significant updates or changes in the metadata structure, such as introducing a new column or correcting major errors.</li>
+<li><strong>Minor version</strong> changes indicate minor corrections, such as adding new information or extending existing metadata without changing the overall structure.</li>
+<li><strong>Patch version</strong> changes indicate small fixes or updates that do not affect the overall metadata, such as fixing a typo.</li>
+</ul>
 
 
 </div>

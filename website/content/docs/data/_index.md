@@ -4,7 +4,9 @@ description: "Understanding OpenESM datasets and metadata"
 ---
 
 
-This section covers everything you need to know about the OpenESM datasets, their structure, and how to work with them effectively.
+This section covers everything you need to know about the OpenESM datasets and metadata, their structure, and how to work with them effectively.
+
+# Datasets
 
 ## Initial Data Search Strategy
 
@@ -19,7 +21,13 @@ Our inclusion criteria for datasets were the following:
 
 All datasets are stored in **TSV format** with standardized metadata in **JSON format**. Each dataset is stored on Zenodo with a DOI for citation purposes. The naming convention for datasets is `ID_datasetname_type.tsv` where `ID` is a unique identifier for the dataset id, `datasetname` is the name of the dataset (i.e., the name of the first author), and `type` indicates the type of data. This type can be `ts` for time series data, `static` for cross-sectional/baseline data, or `sensor` for sensor data.
 
+## Versioning and Updates
+The datasets are versioned, and updates are made as new data becomes available or corrections are needed. Each dataset has a version number in its metadata, and the Zenodo DOI will point to the latest version. If you use a specific version of a dataset, please cite it using the DOI provided in the metadata.
 
+We follow semantic versioning principles, where:
+- **Major version** changes indicate significant updates or changes in the dataset structure, such as correcting errors in the data or adding new variables that change the overall structure of the dataset. 
+- **Minor version** changes indicate minor corrections, such as correcting typos or adding new variables without changing the overall structure.
+- **Patch version** changes indicate small fixes or updates that do not affect the overall dataset structure, such as changes to a column type that does not affect the data itself.
 
 
 # Metadata
@@ -141,5 +149,11 @@ The psychological or behavioral construct(s) that the variable is intended to me
 #### Comments
 Additional notes, caveats, or important information about the variable that doesn't fit in other categories.
 
+## Versioning and Updates
+The datasets are versioned, and updates are made as new data becomes available or corrections are needed. Each dataset has a version number in its metadata, and the Zenodo DOI will point to the latest version. If you use a specific version of a dataset, please cite it using the DOI provided in the metadata.
 
+We follow semantic versioning principles, where:
+- **Major version** changes indicate significant updates or changes in the metadata structure, such as introducing a new column or correcting major errors. 
+- **Minor version** changes indicate minor corrections, such as adding new information or extending existing metadata without changing the overall structure.
+- **Patch version** changes indicate small fixes or updates that do not affect the overall metadata, such as fixing a typo.
 
