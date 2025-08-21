@@ -6,12 +6,12 @@
     <description>Recent content in Datasets on openESM</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/openesm/datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fried (2021)</title>
       <link>http://localhost:1313/openesm/datasets/0001_fried/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0001_fried/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -40,7 +40,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;10.5072/zenodo.308201&#34;&gt;10.5072/zenodo.308201&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5072/zenodo.308201&#34;&gt;10.5072/zenodo.308201&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0001_fried&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0001_fried&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -50,7 +50,7 @@
     <item>
       <title>Hawks (2023)</title>
       <link>http://localhost:1313/openesm/datasets/0003_hawks/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0003_hawks/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -89,7 +89,7 @@
     <item>
       <title>Nestler (2022)</title>
       <link>http://localhost:1313/openesm/datasets/0002_nestler/</link>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0002_nestler/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;

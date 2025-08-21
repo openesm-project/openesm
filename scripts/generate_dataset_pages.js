@@ -32,7 +32,7 @@ function formatAPAReference(bibtex) {
   }
 }
 
-// Function to format n_beeps_per_day
+// format n_beeps_per_day
 function formatBeepsPerDay(beeps) {
   if (Array.isArray(beeps)) {
     return beeps.join(', ');
@@ -40,11 +40,17 @@ function formatBeepsPerDay(beeps) {
   return beeps || '';
 }
 
-// Function to format text fields for markdown tables
+// format text fields for markdown tables
 function formatForTable(text) {
   if (!text) return '';
   // Replace newlines with HTML line breaks for table cells
   return text.replace(/\n/g, '<br>');
+}
+
+// format zenodo DOI by prepending "https://doi.org/"
+function formatZenodoDOI(doi) {
+  if (!doi) return '';
+  return `https://doi.org/${doi}`;
 }
 
 // Read and process all dataset folders
@@ -100,7 +106,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** ${data.zenodo_doi ? `[${data.zenodo_doi}](${data.zenodo_doi})` : 'not available'}
+- **Zenodo DOI:** ${data.zenodo_doi ? `[${data.zenodo_doi}](${formatZenodoDOI(data.zenodo_doi)})` : 'not available'}
 - **R:** \`openesm::get_dataset("${folder}")\`
 - **Python:** \`openesm.get_dataset("${folder}")\`
 

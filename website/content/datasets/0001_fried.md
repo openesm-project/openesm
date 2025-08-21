@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2025-08-12
+date: 2025-08-21
 draft: false
 ---
 
@@ -32,7 +32,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** [10.5072/zenodo.308201](10.5072/zenodo.308201)
+- **Zenodo DOI:** [10.5072/zenodo.308201](https://doi.org/10.5072/zenodo.308201)
 - **R:** `openesm::get_dataset("0001_fried")`
 - **Python:** `openesm.get_dataset("0001_fried")`
 
