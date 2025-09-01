@@ -243,7 +243,7 @@ hideposts: true
         </div>
         <div class="stat-box">
             <div class="icon"><i class="fas fa-lightbulb"></i></div>
-            <div class="number" data-target="850" data-suffix="+">0</div>
+            <div class="number" data-target="100" data-suffix="+">0</div>
             <div class="label">Constructs</div>
             <p>Dive into a diverse range of psychological variables.</p>
         </div>
