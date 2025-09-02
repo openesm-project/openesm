@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2025-08-21
+date: 2025-09-02
 draft: false
 ---
 
@@ -54,7 +54,7 @@ No changes yet.
 
 ## Variables
 
-| Name | Description | Type | Answer Categories | Wording | Labels | Transformation | Source | Assessment Type | Construct | Comments |
+| Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | scheduled | Time of beep schedule | PosixCt |  |  |  |  |  | ESM |  |  |

@@ -81,7 +81,7 @@ const processDatasets = () => {
         type: feature.variable_type,
         coding: feature.coding,
         answer_categories: feature.answer_categories,
-        wording: feature.wording,
+        details: feature.details,
         labels: feature.labels,
         transformation: feature.transformation,
         source: feature.source,

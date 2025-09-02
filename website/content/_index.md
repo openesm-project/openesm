@@ -224,8 +224,8 @@ hideposts: true
 </head>
 <body>
     <div class="hero-section">
-        <h1>OpenESM: A database of open experience sampling datasets</h1>
-        <p>OpenESM is a database of harmonized openly available experience sampling datasets. The platform enables easy reuse of datasets with consistent and detailed metadata standards to facilitate reproducible research.</p>
+        <h1>openESM: A database of open experience sampling datasets</h1>
+        <p>openESM is a database of harmonized openly available experience sampling datasets. The platform enables easy reuse of datasets with consistent and detailed metadata standards to facilitate reproducible research.</p>
         <a href="{{< relref "/datasets/" >}}" class="cta-button">Start Exploring Datasets</a>
     </div>
     <div class="stats-section">
@@ -233,19 +233,19 @@ hideposts: true
             <div class="icon"><i class="fas fa-database"></i></div>
             <div class="number" data-target="60">0</div>
             <div class="label">Datasets</div>
-            <p>Explore our growing collection of studies.</p>
+            <p>Explore our growing collection of datasets.</p>
         </div>
         <div class="stat-box">
             <div class="icon"><i class="fas fa-users"></i></div>
             <div class="number" data-target="16000" data-suffix="+">0</div>
             <div class="label">Individuals</div>
-            <p>Uncover insights from thousands of participants.</p>
+            <p>Obtain insights from thousands of participants.</p>
         </div>
         <div class="stat-box">
             <div class="icon"><i class="fas fa-lightbulb"></i></div>
             <div class="number" data-target="100" data-suffix="+">0</div>
             <div class="label">Constructs</div>
-            <p>Dive into a diverse range of psychological variables.</p>
+            <p>Investigate a diverse range of psychological variables.</p>
         </div>
     </div>
 <div class="how-it-works-section">
