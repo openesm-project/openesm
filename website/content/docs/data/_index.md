@@ -120,7 +120,7 @@ The exact variable name as it appears in the dataset files.
 Brief, clear description of what the variable measures or represents.
 
 #### Variable Type
-Data type specification (e.g., numeric, integer, character, date, logical) indicating how the variable should be interpreted.
+Data type specification (e.g., rating_scale, Date, binary) indicating the type of the variable
 
 #### Details
 Comprehensive information including exact question wording or exact meaning of passive sensor variable.

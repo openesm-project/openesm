@@ -103,16 +103,15 @@ Brief, clear description of what the variable measures
 
 #### variable_type
 Select the most appropriate type:
-- **ordinal**: Variables with 5 or fewer ordered response options
-- **Likert**: Variables with more than 5 ordered response options
-- **VAS**: Visual analog scales (typically 0-100 sliders)
+- **rating_scale**: Typical ESM items on an ordinal, Likert, VAS scale
+- **categorical**: Nominal variables with more than two categories
 - **binary**: Yes/no, true/false, or other two-category variables
 - **numeric**: Continuous variables (reaction times, counts, etc.)
 - **PosixCt**: Date-time variables
 - **Date**: Date-only variables
 - **open-text**: Free-text responses
 
-#### wording
+#### details
 - Exact question text as presented to participants
 - For computed variables, describe how they were created
 - Example: "How stressed do you feel right now?" or "Sum of items 1-5 from stress scale"
@@ -190,7 +189,7 @@ Each dataset should have a .json metadata file in the following format:
       "name": "id",
       "description": "Participant ID",
       "variable_type": "categorical",
-      "wording": "",
+      "details": "",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -203,7 +202,7 @@ Each dataset should have a .json metadata file in the following format:
       "name": "day",
       "description": "Day of data collection",
       "variable_type": "numeric",
-      "wording": "",
+      "details": "",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -216,7 +215,7 @@ Each dataset should have a .json metadata file in the following format:
       "name": "beep",
       "description": "Beep number per day",
       "variable_type": "numeric",
-      "wording": "",
+      "details": "",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -229,7 +228,7 @@ Each dataset should have a .json metadata file in the following format:
       "name": "example_variable",
       "description": "Brief description of the variable",
       "variable_type": "Likert",
-      "wording": "Wording of the question or statement",
+      "details": "Wording of the question or statement",
       "labels": "1 = Not at all, 7 = Extremely",
       "transformation": "",
       "source": "Custom question developed for the study",
