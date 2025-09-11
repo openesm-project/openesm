@@ -74,6 +74,7 @@ const processDatasets = () => {
         reference_text: extractReferenceText(data.reference_a) + ' ' + extractReferenceText(data.reference_b),
         n_participants: data.n_participants,
         n_time_points: data.n_time_points,
+        n_days: data.n_days,
         n_beeps_per_day: formatBeepsPerDay(data.n_beeps_per_day),
         variables: data.features.map(feature => ({
         name: feature.name,

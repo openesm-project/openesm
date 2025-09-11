@@ -90,6 +90,7 @@ draft: false
 
 - **Participants:** ${data.n_participants} (${data.participants || ''})
 - **Time Points:** ${data.n_time_points}
+- **Days:** ${data.n_days}
 - **Beeps per Day:** ${formatBeepsPerDay(data.n_beeps_per_day)}
 - **Sampling Scheme:** ${data.sampling_scheme || ''}
 - **Raw Timestamp:** ${data.raw_time_stamp || ''}

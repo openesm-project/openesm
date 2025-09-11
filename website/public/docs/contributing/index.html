@@ -181,16 +181,15 @@ If you have a dataset that you would like to add to the OpenESM database, you ca
 <h4 id="variable_type">variable_type<a hidden class="anchor" aria-hidden="true" href="#variable_type">#</a></h4>
 <p>Select the most appropriate type:</p>
 <ul>
-<li><strong>ordinal</strong>: Variables with 5 or fewer ordered response options</li>
-<li><strong>Likert</strong>: Variables with more than 5 ordered response options</li>
-<li><strong>VAS</strong>: Visual analog scales (typically 0-100 sliders)</li>
+<li><strong>rating_scale</strong>: Typical ESM items on an ordinal, Likert, VAS scale</li>
+<li><strong>categorical</strong>: Nominal variables with more than two categories</li>
 <li><strong>binary</strong>: Yes/no, true/false, or other two-category variables</li>
 <li><strong>numeric</strong>: Continuous variables (reaction times, counts, etc.)</li>
 <li><strong>PosixCt</strong>: Date-time variables</li>
 <li><strong>Date</strong>: Date-only variables</li>
 <li><strong>open-text</strong>: Free-text responses</li>
 </ul>
-<h4 id="wording">wording<a hidden class="anchor" aria-hidden="true" href="#wording">#</a></h4>
+<h4 id="details">details<a hidden class="anchor" aria-hidden="true" href="#details">#</a></h4>
 <ul>
 <li>Exact question text as presented to participants</li>
 <li>For computed variables, describe how they were created</li>
@@ -248,6 +247,7 @@ If you have a dataset that you would like to add to the OpenESM database, you ca
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;license&#34;</span>: <span style="color:#e6db74">&#34;CC BY 4.0&#34;</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_participants&#34;</span>: <span style="color:#ae81ff">100</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_time_points&#34;</span>: <span style="color:#ae81ff">70</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_days&#34;</span>: <span style="color:#ae81ff">14</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;n_beeps_per_day&#34;</span>: <span style="color:#e6db74">&#34;5&#34;</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;passive_data_available&#34;</span>: <span style="color:#e6db74">&#34;yes&#34;</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;which_passive_data&#34;</span>: <span style="color:#e6db74">&#34;GPS, accelerometer, app usage&#34;</span>,
@@ -265,7 +265,7 @@ If you have a dataset that you would like to add to the OpenESM database, you ca
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;id&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Participant ID&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;categorical&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;details&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
@@ -278,7 +278,7 @@ If you have a dataset that you would like to add to the OpenESM database, you ca
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;day&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Day of data collection&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;numeric&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;details&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
@@ -291,7 +291,7 @@ If you have a dataset that you would like to add to the OpenESM database, you ca
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;beep&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Beep number per day&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;numeric&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;details&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
@@ -304,7 +304,7 @@ If you have a dataset that you would like to add to the OpenESM database, you ca
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;example_variable&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Brief description of the variable&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;variable_type&#34;</span>: <span style="color:#e6db74">&#34;Likert&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;wording&#34;</span>: <span style="color:#e6db74">&#34;Wording of the question or statement&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;details&#34;</span>: <span style="color:#e6db74">&#34;Wording of the question or statement&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;labels&#34;</span>: <span style="color:#e6db74">&#34;1 = Not at all, 7 = Extremely&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;transformation&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;Custom question developed for the study&#34;</span>,

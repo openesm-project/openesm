@@ -1,6 +1,6 @@
 ---
 title: "Nestler (2022)"
-date: 2025-09-02
+date: 2025-09-11
 draft: false
 ---
 
@@ -15,7 +15,8 @@ draft: false
 ## Data Characteristics
 
 - **Participants:** 85 (unclear)
-- **Time Points:** 100
+- **Time Points:** 82
+- **Days:** 82
 - **Beeps per Day:** 1
 - **Sampling Scheme:** 1x/day unclear schedule
 - **Raw Timestamp:** no
@@ -67,4 +68,4 @@ No changes yet.
 | weekday | Day of the week | numeric |  |  |  |  |  | Daily |  |  |
 | temp | Temperature | numeric |  |  |  |  |  | Daily |  |  |
 | rain | Precipitation Rainfall | numeric |  |  |  |  |  | Daily |  |  |
-| nervous | Nervous | Likert | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | nervousness, negative affect, affect, neuroticism, big five |  |
+| nervous | Nervous | rating_scale | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | nervousness, negative affect, affect, neuroticism, big five |  |

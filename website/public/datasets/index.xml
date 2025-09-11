@@ -6,12 +6,12 @@
     <description>Recent content in Datasets on openESM</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/openesm/datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fried (2021)</title>
       <link>http://localhost:1313/openesm/datasets/0001_fried/</link>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0001_fried/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -24,6 +24,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 80 (student sample)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 56&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day fixed schedule&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
@@ -50,7 +51,7 @@
     <item>
       <title>Hawks (2023)</title>
       <link>http://localhost:1313/openesm/datasets/0003_hawks/</link>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0003_hawks/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -63,6 +64,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 122 (adults)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 10&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 3&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 3x/day fixed time windows&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
@@ -89,7 +91,7 @@
     <item>
       <title>Nestler (2022)</title>
       <link>http://localhost:1313/openesm/datasets/0002_nestler/</link>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0002_nestler/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -101,7 +103,8 @@
 &lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 85 (unclear)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 100&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 82&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 82&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day unclear schedule&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;

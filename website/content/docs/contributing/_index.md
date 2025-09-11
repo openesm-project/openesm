@@ -172,6 +172,7 @@ Each dataset should have a .json metadata file in the following format:
   "license": "CC BY 4.0",
   "n_participants": 100,
   "n_time_points": 70,
+  "n_days": 14,
   "n_beeps_per_day": "5",
   "passive_data_available": "yes",
   "which_passive_data": "GPS, accelerometer, app usage",

@@ -22,6 +22,7 @@ Below, you will find the full list of all datasets available in the OpenESM data
       <th>Topics</th>
       <th>Participants</th>
       <th>Time Points</th>
+      <th>Days</th>
       <th>Beeps/Day</th>
       <th>Variables</th>
       <th>Cross-sectional</th>
@@ -31,7 +32,7 @@ Below, you will find the full list of all datasets available in the OpenESM data
     <tbody id="datasets-table-body">
       <!-- Loading message will be replaced by JavaScript -->
       <tr>
-        <td colspan="10">Loading datasets...</td>
+        <td colspan="11">Loading datasets...</td>
       </tr>
     </tbody>
   </table>
@@ -237,6 +238,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <td>${dataset.topics || ''}</td>
           <td>${formatNumeric(dataset.n_participants)}</td>
           <td>${formatNumeric(dataset.n_time_points)}</td>
+          <td>${formatNumeric(dataset.n_days)}</td>
           <td>${formatNumeric(dataset.n_beeps_per_day || '')}</td>
           <td>${formatNumeric(dataset.n_variables)}</td>
           <td>${formatBoolean(dataset.cross_sectional_available)}</td>
@@ -250,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Error loading datasets table:', error);
       tableBody.innerHTML = `
         <tr>
-          <td colspan="10" class="error-cell">
+          <td colspan="11" class="error-cell">
             Error loading datasets: ${error.message}<br>
             Please check the browser console for more details.
           </td>

@@ -13,6 +13,7 @@
     "reference_text": "Fried, Eiko I. Papanikolaou, Faidra Epskamp, Sacha Mental health social contact during the {{COVID-19 Clinical Psychological Science ",
     "n_participants": 80,
     "n_time_points": 56,
+    "n_days": "14",
     "n_beeps_per_day": "4",
     "variables": [
       {
@@ -86,9 +87,9 @@
         "comments": ""
       },
       {
-        "name": "relax",
+        "name": "difficulties_relaxing",
         "description": "Difficulties relaxing",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I found it difficult to relax.\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I found it difficult to relax.",
@@ -102,7 +103,7 @@
       {
         "name": "irritable",
         "description": "Irritable",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I felt (very) irritable\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I felt (very) irritable",
@@ -116,7 +117,7 @@
       {
         "name": "worry",
         "description": "Worried",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I was worried about different things\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I was worried about different things",
@@ -130,7 +131,7 @@
       {
         "name": "nervous",
         "description": "Nervous",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I felt nervous, anxious or on edge\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I felt nervous, anxious or on edge",
@@ -138,13 +139,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "nervousness, anxiety, negative affect, affect, neuroticism, big five, psychopathology",
+        "construct": "nervousness, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
-        "name": "future",
+        "name": "nothing_look_forward",
         "description": "Nothing to look forward to",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I felt that I had nothing to look forward\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I felt that I had nothing to look forward",
@@ -158,7 +159,7 @@
       {
         "name": "anhedonia",
         "description": "Anhedonia",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I couldn't seem to experience any positive feeling at all\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I couldn't seem to experience any positive feeling at all",
@@ -172,7 +173,7 @@
       {
         "name": "tired",
         "description": "Tired",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I felt tired\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I felt tired",
@@ -186,7 +187,7 @@
       {
         "name": "hungry",
         "description": "Hungry",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "In the past 3h, I was hungry\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "In the past 3h, I was hungry",
@@ -200,7 +201,7 @@
       {
         "name": "alone",
         "description": "Feeling alone",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I felt like I lack companionship, or that I am not close to people.\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I felt like I lack companionship, or that I am not close to people.",
@@ -214,7 +215,7 @@
       {
         "name": "angry",
         "description": "Angry",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I felt angry\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "I felt angry",
@@ -222,13 +223,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "anger, negative affect, affect, psychopathology",
+        "construct": "anger, negative affect, affect",
         "comments": ""
       },
       {
         "name": "social_offline",
         "description": "Offline social contacts",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I spent ___ minutes on meaningful, offline, social interaction\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
         "details": "I spent ___ minutes on meaningful, offline, social interaction",
@@ -242,7 +243,7 @@
       {
         "name": "social_online",
         "description": "Online social contacs",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I spent __ minutes using social media to kill/pass the time\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
         "details": "I spent __ minutes using social media to kill/pass the time",
@@ -254,9 +255,9 @@
         "comments": ""
       },
       {
-        "name": "music",
+        "name": "time_music",
         "description": "Time spent listening to music",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I spent __ minutes listening to music\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
         "details": "I spent __ minutes listening to music",
@@ -268,9 +269,9 @@
         "comments": ""
       },
       {
-        "name": "procrastinate",
+        "name": "procrastinated",
         "description": "Procastination",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "To what degree did you postpone working on a task?\n\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
         "answer_categories": "5",
         "details": "To what degree did you postpone working on a task?",
@@ -282,9 +283,9 @@
         "comments": ""
       },
       {
-        "name": "outdoors",
+        "name": "time_outdoors",
         "description": "Time spent outdoors",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I spent __ minutes outside (outdoors)?\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
         "details": "I spent __ minutes outside (outdoors)?",
@@ -296,9 +297,9 @@
         "comments": ""
       },
       {
-        "name": "c19_occupied",
+        "name": "covid_occupied",
         "description": "Occupied with COVID",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it)\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
         "details": "I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it)",
@@ -310,9 +311,9 @@
         "comments": ""
       },
       {
-        "name": "c19_worry",
+        "name": "covid_worry",
         "description": "Worried about COVID",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
         "details": "I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus",
@@ -324,9 +325,9 @@
         "comments": ""
       },
       {
-        "name": "home",
+        "name": "time_home",
         "description": "Time spent at home",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "I spent __ at home (including the home of parents/partner)\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
         "answer_categories": "5",
         "details": "I spent __ at home (including the home of parents/partner)",
@@ -395,7 +396,8 @@
     "additional_comments": "part of the FLIP study",
     "reference_text": "Nestler, Steffen Humberg, Sarah A lasso a regression tree mixed-effect model with random effects for the level, the residual variance, the autocorrelation Psychometrika Psychometrika ",
     "n_participants": 85,
-    "n_time_points": 100,
+    "n_time_points": 82,
+    "n_days": "82",
     "n_beeps_per_day": "1",
     "variables": [
       {
@@ -555,7 +557,7 @@
       {
         "name": "nervous",
         "description": "Nervous",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Today I was nervous\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
         "answer_categories": "6",
         "details": "Today I was nervous",
@@ -583,6 +585,7 @@
     "reference_text": "Hawks, Zoë W. Strong, Roger Jung, Laneé Beck, Emorie D. Passell, Eliza J. Grinspoon, Elizabeth Singh, Shifali Frumkin, Madelyn R. Sliwinski, Martin Germine, Laura T. Accurate prediction of momentary cognition from intensive longitudinal data Biological Psychiatry: Cognitive Neuroscience Neuroimaging ",
     "n_participants": 122,
     "n_time_points": 30,
+    "n_days": "10",
     "n_beeps_per_day": "3",
     "variables": [
       {
@@ -658,7 +661,7 @@
       {
         "name": "nervous",
         "description": "Nervous",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Nervous.",
@@ -672,7 +675,7 @@
       {
         "name": "afraid",
         "description": "Afraid",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Afraid",
@@ -686,7 +689,7 @@
       {
         "name": "enthusiastic",
         "description": "Enthusiastic",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Enthusiastic",
@@ -700,7 +703,7 @@
       {
         "name": "distressed",
         "description": "Distressed",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Distressed",
@@ -708,13 +711,13 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "distress, negative affect, affect, neuroticism, big five",
+        "construct": "distress, negative affect, affect",
         "comments": ""
       },
       {
         "name": "excited",
         "description": "Excited",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Excited",
@@ -728,7 +731,7 @@
       {
         "name": "scared",
         "description": "Scared",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Scared",
@@ -742,7 +745,7 @@
       {
         "name": "upset",
         "description": "Upset",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Upset",
@@ -756,7 +759,7 @@
       {
         "name": "alert",
         "description": "Alert",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Alert",
@@ -770,7 +773,7 @@
       {
         "name": "determined",
         "description": "Determined",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Determined",
@@ -784,7 +787,7 @@
       {
         "name": "inspired",
         "description": "Inspired",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Indicate to what extent you felt this way right\nbefore you started this survey.\n\n1 = very slightly or not at all\n2 = a little\n3 = moderately\n4 = quite a bit\n5 = extremely",
         "answer_categories": "5",
         "details": "Indicate to what extent you felt this way right\nbefore you started this survey: Inspired",
@@ -798,7 +801,7 @@
       {
         "name": "depressed",
         "description": "Depressed",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
         "details": "Since the last survey, how often have you felt depressed?",
@@ -806,13 +809,13 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "depression, negative affect, affect, neuroticism, big five",
+        "construct": "depression, negative affect, affect, neuroticism, big five, psychopathology",
         "comments": ""
       },
       {
         "name": "restless_or_fidgety",
         "description": "Restless or fidgety",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
         "details": "Since the last survey, how often have you felt restless or fidgety?",
@@ -820,13 +823,13 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "restlessness,",
+        "construct": "restlessness, fidgety, anxiety, psychopathology",
         "comments": ""
       },
       {
-        "name": "so_sad_that_nothing_could_cheer_you_up",
+        "name": "sadness_extreme",
         "description": "So sad that nothing could cheer you up",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
         "details": "Since the last survey, how often have you felt so sad that nothing could cheer you up?",
@@ -834,13 +837,13 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "depression",
+        "construct": "sadness, depression, psychopathology, negative affect, affect",
         "comments": ""
       },
       {
         "name": "worried",
         "description": "Worried",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
         "details": "Since the last survey, how often have you felt worried?",
@@ -848,13 +851,13 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "anxiety",
+        "construct": "worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
         "name": "hopeless",
         "description": "Hopeless",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
         "details": "Since the last survey, how often have you felt hopeless?",
@@ -862,13 +865,13 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "depression",
+        "construct": "hopelessness, depression, psychopathology",
         "comments": ""
       },
       {
         "name": "irritated",
         "description": "Irritated",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
         "details": "Since the last survey, how often have you felt irritated?",
@@ -876,13 +879,13 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "anxiety",
+        "construct": "irritability, anxiety, psychopathology, negative affect, affect",
         "comments": ""
       },
       {
-        "name": "that_everything_was_an_effort",
+        "name": "effort_everything",
         "description": "That everything was an effort",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how often have you felt...\n\n1 = none of the time\n2 = a little of the time\n3 = some of the time\n4 = most of the time\n5 = all the time",
         "answer_categories": "5",
         "details": "Since the last survey, how often have you felt that everything was an effort?",
@@ -890,13 +893,13 @@
         "transformation": "",
         "source": "Anxiety & Depression Scale",
         "assessment_type": "ESM",
-        "construct": "depression",
+        "construct": "depression, psychopathology",
         "comments": ""
       },
       {
         "name": "argument_stress",
         "description": "Stressfulness of argument",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, did you have an argument or disagreement with someone?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
         "details": "Since the last survey, did you have an argument or disagreement with someone?\nIf yes, how stressul was this experience?",
@@ -904,13 +907,13 @@
         "transformation": "",
         "source": "Daily Inventory of Stressful Events",
         "assessment_type": "ESM",
-        "construct": "stress, relationship",
+        "construct": "negative event, social conflict, stress, social interaction",
         "comments": ""
       },
       {
         "name": "let_pass_stress",
         "description": "Stressfulness of letting something pass",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, did anything else happen that you could have argued or disagreed about, but you let it pass?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
         "details": "Since the last survey, did anything else happen that you could have argued or disagreed about, but you let it pass?\nIf yes, how stressul was this experience?",
@@ -918,13 +921,13 @@
         "transformation": "",
         "source": "Daily Inventory of Stressful Events",
         "assessment_type": "ESM",
-        "construct": "stress, regulation",
+        "construct": "negative event, letting go,  stress, self-regulation",
         "comments": ""
       },
       {
         "name": "friend_relative_stress",
         "description": "Stressfulness of something happening to a friend/relative",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, did anything happen to a close friend or relative that turned out to be stressful for you?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
         "details": "Since the last survey, did anything happen to a close friend or relative that turned out to be stressful for you?\nIf yes, how stressul was this experience?",
@@ -932,13 +935,13 @@
         "transformation": "",
         "source": "Daily Inventory of Stressful Events",
         "assessment_type": "ESM",
-        "construct": "stress, relationship",
+        "construct": "negative event, stress,  relationship",
         "comments": ""
       },
       {
         "name": "health_stress",
         "description": "Stressfulness of personal health even",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, did anything stressful happen regarding your personal health?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
         "details": "Since the last survey, did anything stressful happen regarding your personal health?\nIf yes, how stressul was this experience?",
@@ -946,13 +949,13 @@
         "transformation": "",
         "source": "Daily Inventory of Stressful Events",
         "assessment_type": "ESM",
-        "construct": "stress, physical health",
+        "construct": "negative event, stress, physical health",
         "comments": ""
       },
       {
         "name": "other_stress",
         "description": "Stressfulness of any other event",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, did anything else happen that most people would consider stressful?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
         "details": "Since the last survey, did anything else happen that most people would consider stressful?\nIf yes, how stressul was this experience?",
@@ -960,13 +963,13 @@
         "transformation": "",
         "source": "Daily Inventory of Stressful Events",
         "assessment_type": "ESM",
-        "construct": "stress",
+        "construct": "negative event, stress",
         "comments": ""
       },
       {
         "name": "covid_stress",
         "description": "Stressfulness of thinking about COVID-19",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Since the last survey, how much time did you spend thinking about coronavirus/COVID-19?\nIf yes, how stressul was this experience?\n\n1 = not endorsed\n2 = not at all stressful\n3 = a little bit stressful\n4 = somewhat stressful\n5 = very stressful",
         "answer_categories": "5",
         "details": "Since the last survey, how much time did you spend thinking about coronavirus/COVID-19?\nIf yes, how stressul was this experience?",
@@ -974,13 +977,13 @@
         "transformation": "",
         "source": "Daily Inventory of Stressful Events",
         "assessment_type": "ESM",
-        "construct": "stress, Covid",
+        "construct": "covid, stress, cognition",
         "comments": ""
       },
       {
         "name": "socialfunc_interactions",
         "description": "Number of social interactions",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "Since the last survey, about how many times did you talk or communicate with someone\nelse?\n\n1 = 0 interactions\n2 = 1 interaction\n3 = 2 or 3 interactions\n4 = 4 or more interactions",
         "answer_categories": "4",
         "details": "Since the last survey, about how many times did you talk or communicate with someone\nelse?",
@@ -988,13 +991,13 @@
         "transformation": "",
         "source": "Social Functioning Scale",
         "assessment_type": "ESM",
-        "construct": "social functioning, social, social interaction",
+        "construct": "communication, social functioning, social interaction",
         "comments": ""
       },
       {
         "name": "alert_sleepiness",
         "description": "Sleepiness",
-        "type": "Likert",
+        "type": "rating_scale",
         "coding": "Please indicate your sleepiness during the 5 minutes before this\nsurvey by choosing the appropriate description.\n\n1 = extemely alert\n9 = very sleepy, great effort to keep awake, fighting sleep",
         "answer_categories": "9",
         "details": "Please indicate your sleepiness during the 5 minutes before this\nsurvey by choosing the appropriate description.",
@@ -1002,13 +1005,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "alertness, sleep",
+        "construct": "sleepiness, alertness, negative affect, affect",
         "comments": ""
       },
       {
         "name": "going_on",
         "description": "A lot going on",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "There is a lot going on\naround me right now\n\n1 = not at all true\n2 = a little bit true\n3 = somewhat true\n4 = very true",
         "answer_categories": "4",
         "details": "There is a lot going on\naround me right now",
@@ -1016,13 +1019,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "context",
+        "construct": "busyiness, situational demands, context",
         "comments": ""
       },
       {
         "name": "concentrating",
         "description": "Troubles concentrating",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "I am having trouble concentrating right now. \n\n\n1 = not at all true\n2 = a little bit true\n3 = somewhat true\n4 = very true",
         "answer_categories": "4",
         "details": "I am having trouble concentrating right now.",
@@ -1030,13 +1033,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "concentration",
+        "construct": "concentration, executive functionng, attention",
         "comments": ""
       },
       {
         "name": "noisy",
         "description": "Noisy context",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "I am in a very noisy place right now. \n\n1 = not at all true\n2 = a little bit true\n3 = somewhat true\n4 = very true",
         "answer_categories": "4",
         "details": "I am in a very noisy place right now.",
@@ -1044,13 +1047,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "context",
+        "construct": "noisiness, context",
         "comments": ""
       },
       {
         "name": "finish",
         "description": "Failing to finish things",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "To what extent are you currently having difficulty with following through on instructions and failing to finish things?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
         "details": "To what extent are you currently having difficulty with following through on instructions and failing to finish things?",
@@ -1058,13 +1061,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "attention",
+        "construct": "task completion, executive functioning, self-regulation",
         "comments": ""
       },
       {
         "name": "organization",
         "description": "Difficulty with organization",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "To what extent are you currently having difficulty with organization?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
         "details": "To what extent are you currently having difficulty with organization?",
@@ -1072,13 +1075,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "attention",
+        "construct": "organization, executive functioning",
         "comments": ""
       },
       {
         "name": "mentaleffort",
         "description": "Avoiding, disliking, reluctantly doing things that require a lot of mental effort",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "To what extent are you currently having difficulty with avoiding, disliking, or reluctantly doing things that require a lot of mental effort?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
         "details": "To what extent are you currently having difficulty with avoiding, disliking, or reluctantly doing things that require a lot of mental effort?",
@@ -1086,13 +1089,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "attention",
+        "construct": "mental effort avoidance, executive functioning, self-regulation",
         "comments": ""
       },
       {
         "name": "forgetful",
         "description": "Forgetful",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "To what extent are you currently having difficulty with being forgetful?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
         "details": "To what extent are you currently having difficulty with being forgetful?",
@@ -1100,13 +1103,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "attention",
+        "construct": "forgefulness, attention, cognitive functioning",
         "comments": ""
       },
       {
         "name": "fidgeting",
         "description": "Fidgeting",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "To what extent are you currently having difficulty fidgeting with your hands or feet or squirming in seat?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
         "details": "To what extent are you currently having difficulty fidgeting with your hands or feet or squirming in seat?",
@@ -1114,13 +1117,13 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "attention",
+        "construct": "fidgeting, motor control, executive functioning",
         "comments": ""
       },
       {
         "name": "motor",
         "description": "Acting as if driven by a motor",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "To what extent are you currently having difficulty with feeling “on the go” or acting as if you are “driven by a motor”?\n\n1 = not having difficulty at all\n5 = extreme difficulty",
         "answer_categories": "5",
         "details": "To what extent are you currently having difficulty with feeling “on the go” or acting as if you are “driven by a motor”?",
@@ -1128,7 +1131,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "attention",
+        "construct": "hyperactivity, executive functioning",
         "comments": ""
       },
       {
@@ -1156,7 +1159,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "sleep",
+        "construct": "sleep duration, sleep",
         "comments": ""
       },
       {
@@ -1170,7 +1173,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "social functioning",
+        "construct": "social functioning, social interaction",
         "comments": ""
       },
       {
@@ -1184,13 +1187,13 @@
         "transformation": "",
         "source": "Digit-Symbol Matching (DS)",
         "assessment_type": "ESM",
-        "construct": "cognition, processing speed",
+        "construct": "reaction time, cognitive functioning",
         "comments": ""
       },
       {
         "name": "test_position",
         "description": "Position of test within battery",
-        "type": "ordinal",
+        "type": "rating_scale",
         "coding": "",
         "answer_categories": "4",
         "details": "",
@@ -1212,7 +1215,7 @@
         "transformation": "",
         "source": "Choice Reaction Time (CRT)",
         "assessment_type": "ESM",
-        "construct": "cognition",
+        "construct": "reaction time, cognitive functioning",
         "comments": ""
       },
       {
@@ -1226,7 +1229,7 @@
         "transformation": "",
         "source": "Gradual Onset Continuous Performance Test (GCPT)",
         "assessment_type": "ESM",
-        "construct": "cognition, attention, cognitive control",
+        "construct": "cognitive functioning",
         "comments": ""
       },
       {
@@ -1240,7 +1243,7 @@
         "transformation": "",
         "source": "Multiple Object Tracking (MOT)",
         "assessment_type": "ESM",
-        "construct": "cognition",
+        "construct": "cognitive functioning",
         "comments": ""
       }
     ],

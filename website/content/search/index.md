@@ -17,6 +17,10 @@ Use the search box below to find datasets and variables in the OpenESM database.
 <label for="min-observations" style="display: block; font-weight: 500; margin-bottom: 5px; font-size: 0.875rem;">Min Observations</label>
 <input type="number" id="min-observations" min="1" value="1" style="width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary);">
 </div>
+<div>
+<label for="min-days" style="display: block; font-weight: 500; margin-bottom: 5px; font-size: 0.875rem;">Min Days</label>
+<input type="number" id="min-days" min="1" value="1" style="width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary);">
+</div>
 </div>
 <div style="margin-bottom: 20px;">
 <h4 style="margin-bottom: 10px; font-size: 0.9rem; color: var(--secondary);">Data Types</h4>
@@ -245,6 +249,7 @@ function getMatchIndicators(dataset, query) {
         document.getElementById('custom-search-input').addEventListener('input', performSearch);
         document.getElementById('min-participants').addEventListener('input', performSearch);
         document.getElementById('min-observations').addEventListener('input', performSearch);
+        document.getElementById('min-days').addEventListener('input', performSearch);
         document.getElementById('passive-data').addEventListener('change', performSearch);
         document.getElementById('cross-sectional').addEventListener('change', performSearch);
         document.getElementById('raw-timestamp').addEventListener('change', performSearch);
@@ -296,6 +301,7 @@ function getMatchIndicators(dataset, query) {
     function applyFilters(results) {
         const minParticipants = parseInt(document.getElementById('min-participants').value) || 1;
         const minObservations = parseInt(document.getElementById('min-observations').value) || 1;
+        const minDays = parseInt(document.getElementById('min-days').value) || 1;
         const needsPassiveData = document.getElementById('passive-data').checked;
         const needsCrossSectional = document.getElementById('cross-sectional').checked;
         const needsRawTimestamp = document.getElementById('raw-timestamp').checked;
@@ -303,6 +309,7 @@ function getMatchIndicators(dataset, query) {
             if (!dataset) return false;
             if ((dataset.n_participants || 0) < minParticipants) return false;
             if ((dataset.n_time_points || 0) < minObservations) return false;
+            if ((dataset.n_days || 0) < minDays) return false;
             if (needsPassiveData && dataset.passive_data_available !== "yes") return false;
             if (needsCrossSectional && dataset.cross_sectional_available !== "yes") return false;
             if (needsRawTimestamp && (!dataset.raw_time_stamp || dataset.raw_time_stamp === "no")) return false;
@@ -379,7 +386,7 @@ function getMatchIndicators(dataset, query) {
             <h3><a href="${url}" onclick="event.stopPropagation()">${highlightedTitle}</a></h3>
             ${matchIndicatorHTML}
             <p><strong>Topics:</strong> ${highlightedTopics}</p>
-            <p><strong>Participants:</strong> ${dataset.n_participants || 'N/A'} | <strong>Time points:</strong> ${dataset.n_time_points || 'N/A'}</p>
+            <p><strong>Participants:</strong> ${dataset.n_participants || 'N/A'} | <strong>Time points:</strong> ${dataset.n_time_points || 'N/A'} | <strong>Days:</strong> ${dataset.n_days || 'N/A'}</p>
             ${matchingVariables.length > 0 ? `
                 <div class="matching-variables">
                     <h4>Matching Variables</h4>
@@ -470,9 +477,43 @@ function getMatchIndicators(dataset, query) {
 .clear-btn { background: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 14px; margin-bottom: 15px; }
 .clear-btn:hover { background: #c82333; }
 .code-section { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-.code-block { border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
-.code-header { background: var(--secondary); color: var(--code-bg); padding: 8px 12px; font-weight: 500; font-size: 14px; }
-.code-content { display: block; padding: 12px; font-family: var(--font-mono); font-size: 13px; white-space: pre-wrap; background: var(--entry); color: var(--primary); }
+.code-block { 
+  border: none; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  background: #1a202c;
+}
+.code-header { 
+  background: #2d3748; 
+  color: #e2e8f0; 
+  padding: 10px 12px; 
+  font-weight: 600; 
+  font-size: 13px; 
+}
+.code-content { 
+  display: block; 
+  padding: 12px; 
+  margin: 0; /* remove default margin */
+  font-family: var(--font-mono); 
+  font-size: 13px; 
+  white-space: pre-wrap; 
+  background: #1a202c; 
+  color: #e2e8f0; 
+}
+/* Also target the pre element specifically */
+.code-block pre {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+/* Add some better monospace fonts */
+.code-content { 
+  font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', 'Courier New', monospace; 
+}
+/* Syntax highlighting colors */
+.code-content .keyword { color: #f687b3; font-weight: 500; }
+.code-content .string { color: #9ae6b4; }
+.code-content .function { color: #63b3ed; }
 /* Construct dropdown styles */
 .construct-dropdown { position: relative; }
 .construct-button { width: 100%; padding: 8px 12px; border: 1px solid var(--border); border-radius: 4px; background: var(--entry); color: var(--primary); font-size: 0.875rem; text-align: left; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }

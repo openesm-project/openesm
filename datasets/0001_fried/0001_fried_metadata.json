@@ -12,6 +12,7 @@
   "link_to_code": "https://osf.io/mvdpe/",
   "n_participants": 80,
   "n_time_points": 56,
+  "n_days": "14",
   "n_beeps_per_day": "4",
   "passive_data_available": "no",
   "cross_sectional_available": "yes",
@@ -96,9 +97,9 @@
       "comments": ""
     },
     {
-      "name": "relax",
+      "name": "difficulties_relaxing",
       "description": "Difficulties relaxing",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I found it difficult to relax.\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I found it difficult to relax.",
@@ -112,7 +113,7 @@
     {
       "name": "irritable",
       "description": "Irritable",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I felt (very) irritable\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I felt (very) irritable",
@@ -126,7 +127,7 @@
     {
       "name": "worry",
       "description": "Worried",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I was worried about different things\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I was worried about different things",
@@ -140,7 +141,7 @@
     {
       "name": "nervous",
       "description": "Nervous",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I felt nervous, anxious or on edge\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I felt nervous, anxious or on edge",
@@ -148,13 +149,13 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "nervousness, anxiety, negative affect, affect, neuroticism, big five, psychopathology",
+      "construct": "nervousness, negative affect, affect, neuroticism, big five",
       "comments": ""
     },
     {
-      "name": "future",
+      "name": "nothing_look_forward",
       "description": "Nothing to look forward to",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I felt that I had nothing to look forward\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I felt that I had nothing to look forward",
@@ -168,7 +169,7 @@
     {
       "name": "anhedonia",
       "description": "Anhedonia",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I couldn't seem to experience any positive feeling at all\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I couldn't seem to experience any positive feeling at all",
@@ -182,7 +183,7 @@
     {
       "name": "tired",
       "description": "Tired",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I felt tired\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I felt tired",
@@ -196,7 +197,7 @@
     {
       "name": "hungry",
       "description": "Hungry",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "In the past 3h, I was hungry\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "In the past 3h, I was hungry",
@@ -210,7 +211,7 @@
     {
       "name": "alone",
       "description": "Feeling alone",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I felt like I lack companionship, or that I am not close to people.\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I felt like I lack companionship, or that I am not close to people.",
@@ -224,7 +225,7 @@
     {
       "name": "angry",
       "description": "Angry",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I felt angry\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "I felt angry",
@@ -232,13 +233,13 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "anger, negative affect, affect, psychopathology",
+      "construct": "anger, negative affect, affect",
       "comments": ""
     },
     {
       "name": "social_offline",
       "description": "Offline social contacts",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I spent ___ minutes on meaningful, offline, social interaction\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
       "answer_categories": "5",
       "details": "I spent ___ minutes on meaningful, offline, social interaction",
@@ -252,7 +253,7 @@
     {
       "name": "social_online",
       "description": "Online social contacs",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I spent __ minutes using social media to kill/pass the time\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
       "answer_categories": "5",
       "details": "I spent __ minutes using social media to kill/pass the time",
@@ -264,9 +265,9 @@
       "comments": ""
     },
     {
-      "name": "music",
+      "name": "time_music",
       "description": "Time spent listening to music",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I spent __ minutes listening to music\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
       "answer_categories": "5",
       "details": "I spent __ minutes listening to music",
@@ -278,9 +279,9 @@
       "comments": ""
     },
     {
-      "name": "procrastinate",
+      "name": "procrastinated",
       "description": "Procastination",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "To what degree did you postpone working on a task?\n\n1 = Not at all \n2 = Slightly\n3 = Moderately\n4 = Very\n5 = Extremly",
       "answer_categories": "5",
       "details": "To what degree did you postpone working on a task?",
@@ -292,9 +293,9 @@
       "comments": ""
     },
     {
-      "name": "outdoors",
+      "name": "time_outdoors",
       "description": "Time spent outdoors",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I spent __ minutes outside (outdoors)?\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
       "answer_categories": "5",
       "details": "I spent __ minutes outside (outdoors)?",
@@ -306,9 +307,9 @@
       "comments": ""
     },
     {
-      "name": "c19_occupied",
+      "name": "covid_occupied",
       "description": "Occupied with COVID",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it)\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
       "answer_categories": "5",
       "details": "I spent __ occupied with the coronavirus (e.g. watching news thinking about it talking to friends about it)",
@@ -320,9 +321,9 @@
       "comments": ""
     },
     {
-      "name": "c19_worry",
+      "name": "covid_worry",
       "description": "Worried about COVID",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
       "answer_categories": "5",
       "details": "I spent __ thinking about my own health or that of my close friends and family members regarding the coronavirus",
@@ -334,9 +335,9 @@
       "comments": ""
     },
     {
-      "name": "home",
+      "name": "time_home",
       "description": "Time spent at home",
-      "variable_type": "Likert",
+      "variable_type": "rating_scale",
       "coding": "I spent __ at home (including the home of parents/partner)\n\n1 = 0 minutes\n2 = 5-15 min\n3 = 15-60 min\n4 = 1-2 hours\n5 = > 2h",
       "answer_categories": "5",
       "details": "I spent __ at home (including the home of parents/partner)",

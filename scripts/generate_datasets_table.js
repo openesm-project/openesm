@@ -44,6 +44,7 @@ const processDatasets = () => {
         topics: data.topics,
         n_participants: data.n_participants,
         n_time_points: data.n_time_points,
+        n_days: data.n_days,
         n_beeps_per_day: formatBeepsPerDay(data.n_beeps_per_day),
         n_variables: data.features.length,
         cross_sectional_available: data.cross_sectional_available || '',

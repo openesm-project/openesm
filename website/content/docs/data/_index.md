@@ -80,6 +80,9 @@ Total number of study participants who contributed data to the dataset.
 #### N Time Points
 Maximum number of possible ESM observations per participant. This represents the theoretical maximum if all prompts were answered. In some datasets, this may vary by participant.
 
+#### N Days
+Total number of days over which ESM data was collected. 
+
 #### N Beeps/Day
 Maximum Number of ESM prompts sent to participants per day. This indicates the sampling frequency of the study. In some studies, this may vary by day or participant, so we provide the maximum observed value.
 
