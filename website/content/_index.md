@@ -187,6 +187,44 @@ hideposts: true
         .steps-container a.step-card:hover {
             text-decoration: none;
         }
+        /* modern header improvements */
+        .header,
+        header.header {
+          background: linear-gradient(135deg, var(--primary-blue) 0%, #0a5fb8 100%);
+          backdrop-filter: blur(10px);
+          box-shadow: 0 2px 20px rgba(8, 90, 179, 0.15);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        /* add subtle glow effect to logo */
+        .header .logo a {
+          position: relative;
+          transition: all 0.3s ease;
+        }
+        .header .logo a:hover {
+          text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+        /* modern menu items with better spacing */
+        .header .menu a {
+          position: relative;
+          margin: 0 8px;
+          padding: 8px 16px;
+          border-radius: 6px;
+          transition: all 0.3s ease;
+        }
+        .header .menu a::after {
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          left: 50%;
+          width: 0;
+          height: 2px;
+          background: var(--accent-orange);
+          transform: translateX(-50%);
+          transition: width 0.3s ease;
+        }
+        .header .menu a:hover::after {
+          width: 80%;
+        }
         /* Responsive Adjustments */
         @media (max-width: 768px) {
             .hero-section {
@@ -250,23 +288,24 @@ hideposts: true
     </div>
 <div class="how-it-works-section">
     <h2>Get Started in Three Simple Steps:</h2>
-<div class="steps-container">
     <div class="steps-container">
-    <a href="{{< relref "/about/" >}}" class="step-card">
-        <div class="icon"><i class="fas fa-book-open"></i></div>
-        <h3>1. Learn</h3>
-        <p>Understand how you can use our database and get an overview of all datasets.</p>
-    </a>
-    <a href="{{< relref "/search/" >}}" class="step-card">
-        <div class="icon"><i class="fas fa-search"></i></div>
-        <h3>2. Filter & Find</h3>
-        <p>Utilize our search and filter tools to find datasets with a relevant structure and constructs.</p>
-    </a>
-    <a href="{{< relref "/docs/" >}}" class="step-card">
-        <div class="icon"><i class="fas fa-download"></i></div>
-        <h3>3. Reuse</h3>
-        <p>Download standardized datasets using an R or Python interface.</p>
-    </a>
+        <a href="{{< relref "/about/" >}}" class="step-card">
+            <div class="icon"><i class="fas fa-book-open"></i></div>
+            <h3>1. Learn</h3>
+            <p>Understand how you can use our database and get an overview of all datasets.</p>
+        </a>
+        <a href="{{< relref "/search/" >}}" class="step-card">
+            <div class="icon"><i class="fas fa-search"></i></div>
+            <h3>2. Filter & Find</h3>
+            <p>Utilize our search and filter tools to find datasets with a relevant structure and constructs.</p>
+        </a>
+        <a href="{{< relref "/docs/" >}}" class="step-card">
+            <div class="icon"><i class="fas fa-download"></i></div>
+            <h3>3. Reuse</h3>
+            <p>Download standardized datasets using an R or Python interface.</p>
+        </a>
+    </div>
+</div>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const counters = document.querySelectorAll('.stat-box .number');
