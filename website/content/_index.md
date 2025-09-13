@@ -287,7 +287,7 @@ hideposts: true
         </div>
     </div>
 <div class="how-it-works-section">
-    <h2>Get Started in Three Simple Steps:</h2>
+    <h2>Get started in three simple steps:</h2>
     <div class="steps-container">
         <a href="{{< relref "/about/" >}}" class="step-card">
             <div class="icon"><i class="fas fa-book-open"></i></div>
