@@ -49,6 +49,7 @@ const processDatasets = () => {
         n_variables: data.features.length,
         cross_sectional_available: data.cross_sectional_available || '',
         passive_data_available: data.passive_data_available || '',
+        raw_time_stamp: data.raw_time_stamp,
         url: `/datasets/${folder}/`
       };
     }

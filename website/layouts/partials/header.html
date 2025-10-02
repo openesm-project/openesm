@@ -1,0 +1,46 @@
+{{- /* theme-toggle is enabled */}}
+{{- if (not site.Params.disableThemeToggle) }}
+{{- /* theme-toggle is disabled and auto is set */}}
+{{- if and (site.Params.defaultTheme) (eq site.Params.defaultTheme "auto") }}
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+</script>
+{{- end }}
+{{- /* theme-toggle is disabled and invalid theme is set */}}
+{{- if and (site.Params.defaultTheme) (ne site.Params.defaultTheme "auto") (ne site.Params.defaultTheme "dark") (ne site.Params.defaultTheme "light") }}
+<script>
+    localStorage.setItem("pref-theme", "{{ site.Params.defaultTheme }}");
+</script>
+{{- end }}
+{{- end }}
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            {{- $label_text := (site.Params.label.text | default site.Title) }}
+            {{- if site.Title }}
+            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+                <img src="{{ "openesm_icon.svg" | absURL }}" alt="{{ $label_text }}" class="logo-image">
+            </a>
+            {{- end }}
+        </div>
+        {{- $currentPage := . }}
+        <ul id="menu">
+            {{- range site.Menus.main }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+            {{- $is_search := eq (path.Base $currentPage.RelPermalink) "search" }}
+            <li>
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr) }}"
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr) }}>
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                        {{- .Name }}
+                    </span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>

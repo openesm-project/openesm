@@ -6,12 +6,572 @@
     <description>Recent content in Datasets on openESM</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/openesm/datasets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bailon (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0018_bailon/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0018_bailon/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Bailon&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41597-020-00700-1&#34;&gt;https://doi.org/10.1038/s41597-020-00700-1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; COVID, affect, pandemic, valence, arousal, context&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 999 (community sample)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 444&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 86&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day pseudo-random one-hour intervals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;http://doi.org/10.5281/zenodo.3774526&#34;&gt;http://doi.org/10.5281/zenodo.3774526&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/records/4024141&#34;&gt;https://zenodo.org/records/4024141&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; Creative Commons Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0018_bailon&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0018_bailon&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available; number of max. time points taken as maximum of observations in data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bar-Kalifa (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0047_barkalifa/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0047_barkalifa/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Bar-Kalifa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1080/00273171.2019.1624147&#34;&gt;https://doi.org/10.1080/00273171.2019.1624147&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; relationships, emotion dynamics, interpersonal, mood, relationship satisfaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 80 (heterosexual Israeli couples)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 35&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; undefined&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day in the evening 1 hour before sleep, or completing the next day&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; not specified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0047_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0047_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;sample 1 in the paper, six individuals pre-excluded by authors due to missingness&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bar-Kalifa (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0048_barkalifa/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0048_barkalifa/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Bar-Kalifa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1080/00273171.2019.1624147&#34;&gt;https://doi.org/10.1080/00273171.2019.1624147&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; relationships, emotion dynamics, interpersonal, mood, relationship satisfaction, pregnancy, childbirth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 100 (heterosexual Israeli couples expecting a child (not twins))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; undefined&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day in the evening 1 hour before sleep, or completing the next day&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; not specified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0048_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0048_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;sample 2 in the paper, eight pre-excluded by authors due to missingnes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beck (2022)</title>
+      <link>http://localhost:1313/openesm/datasets/0060_beck/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0060_beck/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Beck&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1177/09567976221093307&#34;&gt;https://doi.org/10.1177/09567976221093307&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; personality, affect, situations, procrastination, loneliness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 199 (students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 109&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 43&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day every fixed schedule every for hours, starting time chosen by participants&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8ebyx/&#34;&gt;https://osf.io/8ebyx/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://github.com/emoriebeck/behavior-prediction/tree/main/01-codebooks&#34;&gt;https://github.com/emoriebeck/behavior-prediction/tree/main/01-codebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8ebyx/&#34;&gt;https://osf.io/8ebyx/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0060_beck&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0060_beck&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blanke (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0059_blanke/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0059_blanke/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Blanke&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1037/emo0000659&#34;&gt;https://doi.org/10.1037/emo0000659&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; mindfulness, reflection, affect, well-being, emotion regulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 70 (students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 54&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 9&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day within self-selected 12hr timeframe&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nvt6a/&#34;&gt;https://osf.io/nvt6a/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v2am8&#34;&gt;https://osf.io/v2am8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0059_blanke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0059_blanke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;study 1 in the paper&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bosley (2019)</title>
+      <link>http://localhost:1313/openesm/datasets/0036_bosley/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0036_bosley/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Bosley&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2019&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31234/osf.io/bhn7y&#34;&gt;https://doi.org/10.31234/osf.io/bhn7y&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; GAD, affect, dampening&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 96 (undergraduate students with elevated GAD symptoms)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 45&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 19&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day 30-minute interval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/4x8jd/&#34;&gt;https://osf.io/4x8jd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8t46j&#34;&gt;https://osf.io/8t46j&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0036_bosley&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0036_bosley&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;item order was randomized; wording of items not fully clear but inferred from article+data; no beep information available; number of max. time points and days taken as maximum of observations in data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contreras (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0028_contreras/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0028_contreras/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Contreras&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.3389/fpsyg.2020.544565&#34;&gt;https://doi.org/10.3389/fpsyg.2020.544565&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; paranoia, sadness, closeness to others, avoidance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 23 (participants with above-average paranoid ideation and/or interpersonal sensitivity)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 70&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 10x/day stratified sampling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/7tk4b/&#34;&gt;https://osf.io/7tk4b/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/bkn3y&#34;&gt;https://osf.io/bkn3y&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mezgw&#34;&gt;https://osf.io/mezgw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0028_contreras&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0028_contreras&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;Contreras, A., Valiente, C., Heeren, A., &amp;amp; Bentall, R. (2020). A temporal network approach to paranoia: A pilot study. Frontiers in Psychology, 11. &lt;a href=&#34;https://doi.org/10.3389/fpsyg.2020.544565&#34;&gt;https://doi.org/10.3389/fpsyg.2020.544565&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dejonckheere (2019)</title>
+      <link>http://localhost:1313/openesm/datasets/0012_dejonckheere/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0012_dejonckheere/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Dejonckheere&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2019&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1080/02699931.2018.1524747&#34;&gt;https://doi.org/10.1080/02699931.2018.1524747&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; rumination, depression, emotion regulation, afect&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 100 (community sample)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 98&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 7x/day stratified random interval scheme&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664&#34;&gt;https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/487eg&#34;&gt;https://osf.io/487eg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/02699931.2018.1524747#supplemental-material-section&#34;&gt;https://www.tandfonline.com/doi/full/10.1080/02699931.2018.1524747#supplemental-material-section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0012_dejonckheere&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0012_dejonckheere&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;some participants pre-excluded by the authors due to their compliance; subset of larger data available upon request in the EMOTE database (&lt;a href=&#34;https://emotedatabase.com/datasets/27&#34;&gt;https://emotedatabase.com/datasets/27&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dora (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0023_dora/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0023_dora/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Dora&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31234/osf.io/jc938&#34;&gt;https://doi.org/10.31234/osf.io/jc938&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; alcohol, self-control demands, intoxication, substance use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 213 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 63&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 22&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 3 or 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 3x/day or 5x/day unclear schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/rh2sw/&#34;&gt;https://osf.io/rh2sw/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/zy639&#34;&gt;https://osf.io/zy639&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/zy639&#34;&gt;https://osf.io/zy639&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0i&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0023_dora&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0023_dora&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;data from two studies; item coding based on private codebook; some items assessed daily; number of max. time points taken as maximum of observations in data; raw time stamps at an hour level&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Drukker (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0029_drukker/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0029_drukker/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Drukker&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1016/j.jpsychores.2020.110261&#34;&gt;https://doi.org/10.1016/j.jpsychores.2020.110261&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; irritable bowel syndrome, panic disorder, gastrointestinal symptoms, childhood trauma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 24 (individuals with IBS and panic disorder)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 70&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 10x/day random schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0125&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0125&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0120&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0120&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0029_drukker&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0029_drukker&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;Drukker, M., Peters, J. C. H., Vork, L., Mujagic, Z., Rutten, B. P. F., van Os, J., Masclee, A. A. M., Kruimel, J. W., &amp;amp; Leue, C. (2020). Network approach of mood and functional gastrointestinal symptom dynamics in relation to childhood trauma in patients with irritable bowel syndrome and comorbid panic disorder. Journal of Psychosomatic Research, 139, 110261. &lt;a href=&#34;https://doi.org/10.1016/j.jpsychores.2020.110261&#34;&gt;https://doi.org/10.1016/j.jpsychores.2020.110261&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fernández (2025)</title>
+      <link>http://localhost:1313/openesm/datasets/0026_fernandez/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0026_fernandez/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Fernández&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31234/osf.io/uj6df&#34;&gt;https://doi.org/10.31234/osf.io/uj6df&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; well-being, smartphone usage, social media&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 225 (young adults (18-25))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 50&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 5x/day semi-random signal contingent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/jvms7&#34;&gt;https://osf.io/jvms7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/w3vp5&#34;&gt;https://osf.io/w3vp5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/95ncg&#34;&gt;https://osf.io/95ncg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0026_fernandez&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0026_fernandez&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep and day information available; sample 1 of the cited paper; only a subset of days was shared&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fisher (2017)</title>
+      <link>http://localhost:1313/openesm/datasets/0033_fisher/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0033_fisher/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Fisher&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2017&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1037/abn0000311&#34;&gt;https://doi.org/10.1037/abn0000311&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; mood, anxiety, procrastination, depression&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 40 (participants with a diagnosis of MDD and/or GAD)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 212&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 55&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day fixed schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/5ybxt/&#34;&gt;https://osf.io/5ybxt/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/h93f4&#34;&gt;https://osf.io/h93f4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/m63ks&#34;&gt;https://osf.io/m63ks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0033_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0033_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;item order was randomized; partially implicit missingness; no beep information; number of max. time points and max. days taken as maximum of observations in data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fisher (2019)</title>
+      <link>http://localhost:1313/openesm/datasets/0037_fisher/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0037_fisher/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Fisher&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2019&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31234/osf.io/e24v6&#34;&gt;https://doi.org/10.31234/osf.io/e24v6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; Smoking, affect, substance abuse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 70 (regular smokers)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 128&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 34&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day random schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nkemg/&#34;&gt;https://osf.io/nkemg/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nkemg/&#34;&gt;https://osf.io/nkemg/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0037_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0037_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;some variables with unclear coding; some variables morning-only; number of max. time points and days taken as maximum of observations in data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flueckiger (2014)</title>
+      <link>http://localhost:1313/openesm/datasets/0015_flueckiger/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0015_flueckiger/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Flueckiger&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2014&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0111080&#34;&gt;https://doi.org/10.1371/journal.pone.0111080&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; health behavior, depression, academic performance, affect&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 72 (first-year psychology students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 32&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 32&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day at 5pm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388&#34;&gt;https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.7910/DVN/27388/U8IPJZ&#34;&gt;https://doi.org/10.7910/DVN/27388/U8IPJZ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC0 1.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0015_flueckiger&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0015_flueckiger&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;Flueckiger, L., Lieb, R., Meyer, A. H., &amp;amp; Mata, J. (2014). How health behaviors relate to academic performance via affect: An intensive longitudinal study. PLOS ONE, 9(10), e111080. &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0111080&#34;&gt;https://doi.org/10.1371/journal.pone.0111080&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fried (2021)</title>
       <link>http://localhost:1313/openesm/datasets/0001_fried/</link>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0001_fried/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -49,9 +609,289 @@
 &lt;p&gt;some individuals have more than the maximum number of observations due to some prompts being expired&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Gainey (2023)</title>
+      <link>http://localhost:1313/openesm/datasets/0058_gainey/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0058_gainey/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Gainey&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1177/21677026221147262&#34;&gt;https://doi.org/10.1177/21677026221147262&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; awareness, mindfulness, emotion, cognitive fusion, well-being&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 356 (adults, oversampled for people in treatment or seeking treatment)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 42&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day pseudo-random intervals with minimum interval between prompts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x/files/osfstorage&#34;&gt;https://osf.io/gct7x/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x/files/osfstorage&#34;&gt;https://osf.io/gct7x/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x/files/osfstorage&#34;&gt;https://osf.io/gct7x/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0058_gainey&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0058_gainey&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;11 participants participated in baseline but not ESM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geschwind (2013)</title>
+      <link>http://localhost:1313/openesm/datasets/0010_geschwind/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0010_geschwind/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Geschwind&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2013&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0060188&#34;&gt;https://doi.org/10.1371/journal.pone.0060188&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; depression, neuroticism, mood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 129 (individuals with residual depressive symptoms)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 200&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 20&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day 90-minute interval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0060188.s004&#34;&gt;https://doi.org/10.1371/journal.pone.0060188.s004&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0060188.s001&#34;&gt;https://doi.org/10.1371/journal.pone.0060188.s001&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0010_geschwind&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0010_geschwind&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;part of an experimental study; contains two study periods, each of the same length; pleasantness is on a different scale and its scale labels are unclear&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grommisch (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0032_grommisch/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0032_grommisch/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Grommisch&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1037/emo0000669&#34;&gt;https://doi.org/10.1037/emo0000669&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; emotion regulation, rumination, well-being&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 179 (adults)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 189&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 9&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 9x/day semi-fixed intervals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/r7jw6/&#34;&gt;https://osf.io/r7jw6/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/b5s97&#34;&gt;https://osf.io/b5s97&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/r7jw6/&#34;&gt;https://osf.io/r7jw6/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0032_grommisch&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0032_grommisch&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available; variable distraction is missing; data from FEEL project; sliders initialized at 50; subset of larger dataset available upon request in the EMOTE database (&lt;a href=&#34;https://emotedatabase.com/datasets/21&#34;&gt;https://emotedatabase.com/datasets/21&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gundogdu (2017)</title>
+      <link>http://localhost:1313/openesm/datasets/0021_gundogdu/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0021_gundogdu/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Gundogdu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2017&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1098/rsos.170194&#34;&gt;https://doi.org/10.1098/rsos.170194&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; social interactions, personality states, personality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 54 (employees of research center)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 90&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 3x/day fixed schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5061/dryad.b88c7&#34;&gt;https://doi.org/10.5061/dryad.b88c7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage&#34;&gt;https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics&#34;&gt;https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; Creative Commons Zero v1.0 Universal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0021_gundogdu&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0021_gundogdu&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available; six-week duration, but only workdays were included&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Habets (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0014_habets/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0014_habets/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Habets&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.2196/15628&#34;&gt;https://doi.org/10.2196/15628&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; Parkinson, affect, motor symptoms, context&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 20 (patients with Parkinson disease)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 98&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 7x/day semi-random&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.34894/5HHK8H&#34;&gt;https://doi.org/10.34894/5HHK8H&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://dataverse.nl/file.xhtml?fileId=36289&amp;amp;version=2.0&#34;&gt;https://dataverse.nl/file.xhtml?fileId=36289&amp;amp;version=2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/jgvhabets/sensor_EMA_PD_monitoring&#34;&gt;https://github.com/jgvhabets/sensor_EMA_PD_monitoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC0 1.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0014_habets&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0014_habets&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;some variables only morning/evening; no beep information available&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hasselhorn (2021)</title>
+      <link>http://localhost:1313/openesm/datasets/0024_hasselhorn/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0024_hasselhorn/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Hasselhorn&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.3758/s13428-021-01683-6&#34;&gt;https://doi.org/10.3758/s13428-021-01683-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; sampling frequency, affect, compliance, extraversion, perceived burden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 313 (university students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 84&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 3 or 9&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 9x/day or 3x/day subject-specific schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;&#34;&gt;https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/ze9wn&#34;&gt;https://osf.io/ze9wn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;&#34;&gt;https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0024_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0024_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available; study 1 of the cited paper; two ESM phases with different number of questionnaires per day; maximum number of observations for both study phases&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hasselhorn (2021)</title>
+      <link>http://localhost:1313/openesm/datasets/0025_hasselhorn/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0025_hasselhorn/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Hasselhorn&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.3758/s13428-021-01683-6&#34;&gt;https://doi.org/10.3758/s13428-021-01683-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; questionnaire length, affect, extraversion, perceived burden&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 282 (university students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 42&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 3x/day fixed schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/vw3gf/&#34;&gt;https://osf.io/vw3gf/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/23db5?view_only=6e6bf509c6374759b56faac680c55825&#34;&gt;https://osf.io/23db5?view_only=6e6bf509c6374759b56faac680c55825&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;&#34;&gt;https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0025_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0025_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available; study 2 of the cited paper; some variable coding unclear; original english codebook contains mixup of mood variables; also shared under &lt;a href=&#34;https://osf.io/xt3rf/?view_only=6e6bf509c6374759b56faac680c55825&#34;&gt;https://osf.io/xt3rf/?view_only=6e6bf509c6374759b56faac680c55825&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hawks (2023)</title>
       <link>http://localhost:1313/openesm/datasets/0003_hawks/</link>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0003_hawks/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -89,9 +929,609 @@
 &lt;p&gt;Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., &amp;amp; Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 8(8), 841–851. &lt;a href=&#34;https://doi.org/10.1016/j.bpsc.2022.12.002&#34;&gt;https://doi.org/10.1016/j.bpsc.2022.12.002&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Hensel (2023)</title>
+      <link>http://localhost:1313/openesm/datasets/0066_hensel/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0066_hensel/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Hensel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0292735&#34;&gt;https://doi.org/10.1371/journal.pone.0292735&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; spina bifida, incontinence, affect, activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 91 (adults with spina bifida and current symptoms of incontinence)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day for a window of four hours&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gefqx/files/&#34;&gt;https://osf.io/gefqx/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gefqx/files/&#34;&gt;https://osf.io/gefqx/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0066_hensel&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0066_hensel&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;more individuals in the dataset than in the published paper; partially implicit missingness; some variable coding unclear, some likert scales have &amp;ldquo;prefer not to answer&amp;rdquo; option coded as 99 to distinguish it from missingness as NA&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hoebeke (2022)</title>
+      <link>http://localhost:1313/openesm/datasets/0013_hoebeke/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0013_hoebeke/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Hoebeke&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.36131/cnfioritieditore20220504&#34;&gt;https://doi.org/10.36131/cnfioritieditore20220504&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; rumination, depression, anxiety&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 40 (community sample)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 56&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day time-contingent equidistant intervals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dngyk/&#34;&gt;https://osf.io/dngyk/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/wj6xn&#34;&gt;https://osf.io/wj6xn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dngyk/&#34;&gt;https://osf.io/dngyk/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0013_hoebeke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0013_hoebeke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;some variable codings unclear&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jang (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0017_jang/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0017_jang/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Jang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41597-024-04147-6&#34;&gt;https://doi.org/10.1038/s41597-024-04147-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; panic symptoms, digital phenotyping, behavior&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 43 (patients diagnosed with mood disorders, anxiety disorders, trauma and stressor-related disorders, and obsessive-compulsive and related disorder)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 402&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 402&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day in the evening&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/records/14190139&#34;&gt;https://zenodo.org/records/14190139&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-024-04147-6/MediaObjects/41597_2024_4147_MOESM1_ESM.pdf&#34;&gt;https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-024-04147-6/MediaObjects/41597_2024_4147_MOESM1_ESM.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DigitalHealthcareLab/24PanicPrediction&#34;&gt;https://github.com/DigitalHealthcareLab/24PanicPrediction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CCI 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0017_jang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0017_jang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;some item coding unclear; large amount of additional data available on Zenodo; number of max. time points calculated as the maximum span between first and last date in the data set; raw time stamp only for some variables&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Johannes (2021)</title>
+      <link>http://localhost:1313/openesm/datasets/0051_johannes/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0051_johannes/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Johannes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1080/15213269.2020.1768122&#34;&gt;https://doi.org/10.1080/15213269.2020.1768122&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; online vigilance, affect, wellbeing, smartphone, social interactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 75 (Dutch undergraduate students using social media)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 40&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 8&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 8x semi-random with at least 45 minutes between surveys&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/ps3rk/files&#34;&gt;https://osf.io/ps3rk/files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/xf2pq/&#34;&gt;https://osf.io/xf2pq/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/ps3rk/files&#34;&gt;https://osf.io/ps3rk/files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0051_johannes&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0051_johannes&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;some participants pre-excluded due to compliance by authors&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Koval (2013)</title>
+      <link>http://localhost:1313/openesm/datasets/0031_koval/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0031_koval/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Koval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2013&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;http://doi.org/10.1037/a0033579&#34;&gt;http://doi.org/10.1037/a0033579&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; well-being, affect, depression, affect dynamics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 95 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 70&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 10x/day stratified random interval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/zm6uw&#34;&gt;https://osf.io/zm6uw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/x4rne&#34;&gt;https://osf.io/x4rne&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0031_koval&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0031_koval&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;subset of larger dataset available upon request in the EMOTE database (&lt;a href=&#34;https://emotedatabase.com/datasets/23&#34;&gt;https://emotedatabase.com/datasets/23&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kuczynski (2018)</title>
+      <link>http://localhost:1313/openesm/datasets/0039_kuczynski/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0039_kuczynski/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Kuczynski&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2018&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1177/02654075211045717&#34;&gt;https://doi.org/10.1177/02654075211045717&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; loneliness, depression, affect, social interaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 515 (adults)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 75&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 75&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day in the evening&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/huz67&#34;&gt;https://osf.io/huz67&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/wtbx8/&#34;&gt;https://osf.io/wtbx8/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0039_kuczynski&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0039_kuczynski&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;variable coding partially unclear&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kullar (2023)</title>
+      <link>http://localhost:1313/openesm/datasets/0045_kullar/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0045_kullar/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Kullar&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1037/emo0001245&#34;&gt;https://doi.org/10.1037/emo0001245&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; affect, affective chronometry, mood disorders, mind wandering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 105 (participants with and without mood disorders)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 70&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 5x/day fixed 30-minute interval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://github.com/mkullar/DataDrivenEmotionDynamics&#34;&gt;https://github.com/mkullar/DataDrivenEmotionDynamics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/mkullar/DataDrivenEmotionDynamics&#34;&gt;https://github.com/mkullar/DataDrivenEmotionDynamics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0045_kullar&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0045_kullar&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;exact question wording unclear&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kuppens (2016)</title>
+      <link>http://localhost:1313/openesm/datasets/0011_kuppens/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0011_kuppens/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Kuppens&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2016&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1177/1073191116645909&#34;&gt;https://doi.org/10.1177/1073191116645909&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; neuroticism, affect, emotion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 95 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 70&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 10x/day random 90-minute intervals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials&#34;&gt;https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials&#34;&gt;https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0011_kuppens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0011_kuppens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no day or beep information; dataset 1 in the study; no information on specific item wording; partially implicit missingness; subset of larger dataset available upon request in the EMOTE database (&lt;a href=&#34;https://emotedatabase.com/datasets/17&#34;&gt;https://emotedatabase.com/datasets/17&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Marian (2022)</title>
+      <link>http://localhost:1313/openesm/datasets/0052_marian/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0052_marian/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Marian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1007/s10862-022-10014-8&#34;&gt;https://doi.org/10.1007/s10862-022-10014-8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; depression, anxiety, COVID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 140 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 63&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day 4 hour intervals based on individual wake-up time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/pt9dk/files/osfstorage&#34;&gt;https://osf.io/pt9dk/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/r85q6&#34;&gt;https://osf.io/r85q6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/pt9dk/files/osfstorage&#34;&gt;https://osf.io/pt9dk/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0052_marian&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0052_marian&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;some participants pre-excluded due to compliance by authors; some collected symptoms strongly overlap and were combined in the original article; exact translation of some GAD/PHQ questions to EMA wording unclear - for example; about frequency of sleep issues&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Menghini (2023)</title>
+      <link>http://localhost:1313/openesm/datasets/0022_menghini/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0022_menghini/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Menghini&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1027/1015-5759/a000725&#34;&gt;https://doi.org/10.1027/1015-5759/a000725&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; workplace stress, mood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 139 (full-time office workers)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 7x/day random schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Luca-Menghini/ESMscales-workplaceStress&#34;&gt;https://github.com/Luca-Menghini/ESMscales-workplaceStress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/87a9p/files/osfstorage&#34;&gt;https://osf.io/87a9p/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis&#34;&gt;https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; GPL-3.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0022_menghini&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0022_menghini&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;Menghini, L., Pastore, M., &amp;amp; Balducci, C. (2023). Workplace stress in real time. European Journal of Psychological Assessment, 39(6), 424–432. &lt;a href=&#34;https://doi.org/10.1027/1015-5759/a000725&#34;&gt;https://doi.org/10.1027/1015-5759/a000725&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Merolla (2022)</title>
+      <link>http://localhost:1313/openesm/datasets/0061_merolla/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0061_merolla/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Merolla&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1007/s10902-024-00710-5&#34;&gt;https://doi.org/10.1007/s10902-024-00710-5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; responsiveness, social connection, hope, life satisfaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 120 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 60&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day random schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nts94/&#34;&gt;https://osf.io/nts94/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nts94/files/osfstorage&#34;&gt;https://osf.io/nts94/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0061_merolla&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0061_merolla&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;data collected as part of an intervention project&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mostajabi (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0042_mostajabi/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0042_mostajabi/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Mostajabi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31219/osf.io/3szng&#34;&gt;https://doi.org/10.31219/osf.io/3szng&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; personality, affect, personality disorder, interpersonal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 342 (community participants (excluding undergraduates))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 70&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; random momentary prompts and scheduled daily diary&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0042_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0042_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;S1 in the paper; no beep information available; some timestamp coding unclear; &lt;a href=&#34;https://osf.io/7a5de&#34;&gt;https://osf.io/7a5de&lt;/a&gt; provides a good overview of previous usage of data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mostajabi (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0043_mostajabi/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0043_mostajabi/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Mostajabi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31219/osf.io/3szng&#34;&gt;https://doi.org/10.31219/osf.io/3szng&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; personality, affect, personality disorder, interpersonal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 330 (college students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 50&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; random momentary prompts and scheduled daily diary&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0043_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0043_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;S2 in the paper; no beep information available; some timestamp coding unclear; affect items could relate to feeling at the moment or during the past interaction; &lt;a href=&#34;https://osf.io/7a5de&#34;&gt;https://osf.io/7a5de&lt;/a&gt; provides a good overview of previous usage of data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mostajabi (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0044_mostajabi/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0044_mostajabi/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Mostajabi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31219/osf.io/3szng&#34;&gt;https://doi.org/10.31219/osf.io/3szng&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; personality, affect, personality disorder, interpersonal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 396 (college students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 42&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0044_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0044_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;S3 in the paper; &lt;a href=&#34;https://osf.io/7a5de&#34;&gt;https://osf.io/7a5de&lt;/a&gt; provides a good overview of previous usage of data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nepal (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0040_nepal/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0040_nepal/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Nepal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1145/3643501&#34;&gt;https://doi.org/10.1145/3643501&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; mental health, resilience, behavior, COVID, anxiety, depression, social media&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 218 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 441&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 441&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; irregular&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset&#34;&gt;https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data&#34;&gt;https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC-SA 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0040_nepal&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0040_nepal&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;combined the two EMA datasets in their repository; more sensor data available online; number of max. time points and days taken as maximum of observations in aggregated data; number of participants differs from description in the paper&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Nestler (2022)</title>
       <link>http://localhost:1313/openesm/datasets/0002_nestler/</link>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/openesm/datasets/0002_nestler/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -127,6 +1567,928 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
 &lt;p&gt;part of the FLIP study&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neubauer (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0072_neubauer/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0072_neubauer/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Neubauer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1111/cdev.13515&#34;&gt;https://doi.org/10.1111/cdev.13515&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; COVID, schooling, adolescents, family&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 562 (adults living in a household with a schoolchild)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day at 7pm completed until 5am&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/wcerj/files/osfstorage&#34;&gt;https://osf.io/wcerj/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/tyc32&#34;&gt;https://osf.io/tyc32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/et869&#34;&gt;https://osf.io/et869&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0072_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0072_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;data from the PACO project; for some Likert questions, -1 indicates that the question could not be answered&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neubauer (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0062_neubauer/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0062_neubauer/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Neubauer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1007/s11618-023-01182-8&#34;&gt;https://doi.org/10.1007/s11618-023-01182-8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; timescales, COVID, academic achievement, study demands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 321 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 84&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day semi-random schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/bhq3p/files/osfstorage&#34;&gt;https://osf.io/bhq3p/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/csfwg&#34;&gt;https://osf.io/csfwg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/84kdr/files&#34;&gt;https://osf.io/84kdr/files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0062_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0062_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;part of the STECCO project; number of participants higher than that included in the paper; more panel datasets available on OSF; some variables use &amp;ldquo;-1&amp;rdquo; for &amp;ldquo;not applicable&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pavani (2017)</title>
+      <link>http://localhost:1313/openesm/datasets/0027_pavani/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0027_pavani/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Pavani&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2017&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1002/per.2109&#34;&gt;https://doi.org/10.1002/per.2109&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; affect regulation, affect, personality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 78 (non-clinical individuals)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 70&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 5x/day fixed-schedule with personalization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/s3chz/?view_only=&#34;&gt;https://osf.io/s3chz/?view_only=&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/u95vg&#34;&gt;https://osf.io/u95vg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/s3chz/?view_only=&#34;&gt;https://osf.io/s3chz/?view_only=&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0027_pavani&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0027_pavani&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;due to lagged variables in the dataset; it&amp;rsquo;s not fully clear to which counter each value corresponds&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pronizius (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0049_pronizius/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0049_pronizius/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Pronizius&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41598-024-75261-z&#34;&gt;https://doi.org/10.1038/s41598-024-75261-z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; helping, mood, prosocial behavior, stress, COVID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 803 (adults experiencing COVID lockdown)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 35&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x semi-random, 1 prompt user-initiated before sleep&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/&#34;&gt;https://osf.io/6n5zj/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/4tpvd&#34;&gt;https://osf.io/4tpvd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/files/osfstorage&#34;&gt;https://osf.io/6n5zj/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0049_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0049_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;burst 1 in the paper; more description on EMA variables: &lt;a href=&#34;https://osf.io/kaf9e&#34;&gt;https://osf.io/kaf9e&lt;/a&gt; and &lt;a href=&#34;https://osf.io/4tpvd;&#34;&gt;https://osf.io/4tpvd;&lt;/a&gt; contains a subset of data from a larger project on Covid (see for example here: &lt;a href=&#34;https://osf.io/fdnm7/&#34;&gt;https://osf.io/fdnm7/&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pronizius (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0050_pronizius/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0050_pronizius/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Pronizius&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41598-024-75261-z&#34;&gt;https://doi.org/10.1038/s41598-024-75261-z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; helping, mood, prosocial behavior, stress, COVID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 303 (adults experiencing COVID lockdown)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 35&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x semi-random, 1 prompt user-initiated before sleep&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/&#34;&gt;https://osf.io/6n5zj/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/4tpvd&#34;&gt;https://osf.io/4tpvd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/files/osfstorage&#34;&gt;https://osf.io/6n5zj/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0050_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0050_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;burst 2 in the paper; more description on EMA variables: &lt;a href=&#34;https://osf.io/kaf9e&#34;&gt;https://osf.io/kaf9e&lt;/a&gt; and &lt;a href=&#34;https://osf.io/4tpvd;&#34;&gt;https://osf.io/4tpvd;&lt;/a&gt; contains a subset of data from a larger project on Covid (see for example here: &lt;a href=&#34;https://osf.io/fdnm7/&#34;&gt;https://osf.io/fdnm7/&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reeves (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0034_reeves/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0034_reeves/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Reeves&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1002/jts.22491&#34;&gt;https://doi.org/10.1002/jts.22491&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; PTSD, emotions, sleep, physical symptoms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 20 (participants with PTSD)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 168&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 43&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day fixed schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6vxhf/&#34;&gt;https://osf.io/6vxhf/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/juksb&#34;&gt;https://osf.io/juksb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gv37j&#34;&gt;https://osf.io/gv37j&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0034_reeves&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0034_reeves&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available; number of max. observations and days taken from maximum observations in data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ringwald (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0046_ringwald/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0046_ringwald/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Ringwald&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.31234/osf.io/g7n4a_v3&#34;&gt;https://doi.org/10.31234/osf.io/g7n4a_v3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; empathy, affect, interpersonal, congruence, social perception&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 526 (adults (18-50))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 145&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; event-contingent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; event-contingent based on social interactions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/unvp8/files/osfstorage&#34;&gt;https://osf.io/unvp8/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/unvp8/files/osfstorage&#34;&gt;https://osf.io/unvp8/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0046_ringwald&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0046_ringwald&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;ILIADD study; randomly initiated ESM surveys not available in this dataset; number of max. time points taken as maximum of observations in data; day and beep information missing&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rowland (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0006_rowland/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0006_rowland/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Rowland&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1007/s12671-020-01335-4&#34;&gt;https://doi.org/10.1007/s12671-020-01335-4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; mindfulness, affect, network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 125 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 240&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 40&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day random timing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/jmz2n/&#34;&gt;https://osf.io/jmz2n/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/5t4yg&#34;&gt;https://osf.io/5t4yg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/jmz2n/&#34;&gt;https://osf.io/jmz2n/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0006_rowland&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0006_rowland&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;Rowland, Z., &amp;amp; Wenzel, M. (2020). Mindfulness and affect-network density: does mindfulness facilitate disengagement from affective experiences in daily life? Mindfulness, 11(5), 1253–1266. &lt;a href=&#34;https://doi.org/10.1007/s12671-020-01335-4&#34;&gt;https://doi.org/10.1007/s12671-020-01335-4&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ryvkina (2023)</title>
+      <link>http://localhost:1313/openesm/datasets/0056_ryvkina/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0056_ryvkina/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Ryvkina&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5334/jopd.83&#34;&gt;https://doi.org/10.5334/jopd.83&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; COVID, personality, emotions, affect, interaction, activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 327 (mostly college students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 84&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day at random times within the bounds of every participant&amp;rsquo;s individually preferred time window, with at least 40 min. time lags between surveys&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0056_ryvkina&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0056_ryvkina&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;sample 1 in the paper; EMOTIONS project; subset of data used in a publication is available at &lt;a href=&#34;https://osf.io/nxyh3/files/osfstorage;&#34;&gt;https://osf.io/nxyh3/files/osfstorage;&lt;/a&gt; some COVID-related variables were only assessed for part of the sample; original dataset contains additional careless responding indices that could be recomputed from the data; no beep information available; the original authors would be thankful if researchers planning to re-use their data could fill in this form: &lt;a href=&#34;https://forms.gle/MDj6WceMcioq5eUt9&#34;&gt;https://forms.gle/MDj6WceMcioq5eUt9&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ryvkina (2023)</title>
+      <link>http://localhost:1313/openesm/datasets/0057_ryvkina/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0057_ryvkina/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Ryvkina&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5334/jopd.83&#34;&gt;https://doi.org/10.5334/jopd.83&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; COVID, personality, emotions, affect, interaction, activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 2272 (general population)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 84&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day at random times within the bounds of every participant&amp;rsquo;s individually preferred time window, with at least 40 min. time lags between surveys&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0057_ryvkina&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0057_ryvkina&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;sample 2 in the paper; EMOTIONS project; subset of data used in a publication is available at &lt;a href=&#34;https://osf.io/nxyh3/files/osfstorage;&#34;&gt;https://osf.io/nxyh3/files/osfstorage;&lt;/a&gt; no beep information available; original dataset contains additional careless responding indices that could be recomputed from the data;  the original authors would be thankful if researchers planning to re-use their data could fill in this form: &lt;a href=&#34;https://forms.gle/MDj6WceMcioq5eUt9&#34;&gt;https://forms.gle/MDj6WceMcioq5eUt9&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scharbert (2023)</title>
+      <link>http://localhost:1313/openesm/datasets/0071_scharbert/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0071_scharbert/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Scharbert&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41467-024-44693-6&#34;&gt;https://doi.org/10.1038/s41467-024-44693-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; affect, well-being, Covid, prejudice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 2855 (adults)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 140&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 28&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 5x/day with 4 randomly-timed surveys between 9am and 6pm and one daily evening survey after 7pm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8f3yu/files/osfstorage&#34;&gt;https://osf.io/8f3yu/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nfkze&#34;&gt;https://osf.io/nfkze&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/z9y5b&#34;&gt;https://osf.io/z9y5b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0071_scharbert&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0071_scharbert&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available; data from the CoCo project; subset of all data available here; more information about all data and a data request sheet is provided at &lt;a href=&#34;https://osf.io/bzahp/&#34;&gt;https://osf.io/bzahp/&lt;/a&gt; and &lt;a href=&#34;https://coco-study.org/en/;&#34;&gt;https://coco-study.org/en/;&lt;/a&gt; additional data about tweet counts related to the Ukraine war are available on OSF&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Söderberg (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0019_soederberg/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0019_soederberg/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Söderberg&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.12688/f1000research.157148.1&#34;&gt;https://doi.org/10.12688/f1000research.157148.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; schooling, relationships, self-efficacy, emotions, sleep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 302 (middle and secondary school students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 40&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 4x/day fixed and random sampling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.13332148&#34;&gt;https://doi.org/10.5281/zenodo.13332148&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/records/13332148&#34;&gt;https://zenodo.org/records/13332148&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; Creative Commons Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0019_soederberg&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0019_soederberg&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;inconsistency between notification times and the beep ordering by the authors; contains multiple sampling frequencies; the &amp;ldquo;stupid&amp;rdquo; item could also be interpreted as &amp;ldquo;hostile&amp;rdquo; in Swedish&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Soyster (2022)</title>
+      <link>http://localhost:1313/openesm/datasets/0035_soyster/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0035_soyster/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Soyster&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1037/adb0000666&#34;&gt;https://doi.org/10.1037/adb0000666&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; alcohol consumption, craving, affect, context&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 33 (adult alcohol consumers)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 129&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 8&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 8x/day semi-random schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/q7upd/&#34;&gt;https://osf.io/q7upd/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/bwkjq&#34;&gt;https://osf.io/bwkjq&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0035_soyster&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0035_soyster&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no beep information available but there may be information in the original code that can be used to create it; number of max. time points taken as maximum of observations in data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stevens (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0053_stevens/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0053_stevens/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Stevens&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1016/j.bodyim.2020.09.003&#34;&gt;https://doi.org/10.1016/j.bodyim.2020.09.003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; body positivity, social media, affect, body satisfaction, fitspiration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 133 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 42&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 6&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day semi-random intervals with anchor times and 40 minute period around them&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/qy9uj/files/&#34;&gt;https://osf.io/qy9uj/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/qy9uj/files/&#34;&gt;https://osf.io/qy9uj/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0053_stevens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0053_stevens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no day and beep information available; some variable coding unclear&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tammilehto (2022)</title>
+      <link>http://localhost:1313/openesm/datasets/0054_tammilehto/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0054_tammilehto/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Tammilehto&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1080/02699931.2022.2081534&#34;&gt;https://doi.org/10.1080/02699931.2022.2081534&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; emotion regulation, attachment, neuroticism&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 122 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 49&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 7x/day semi-random intervals, scheduled in blocks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/e8423/files/osfstorage&#34;&gt;https://osf.io/e8423/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/u59nd/files/&#34;&gt;https://osf.io/u59nd/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/u59nd/files/&#34;&gt;https://osf.io/u59nd/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0054_tammilehto&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0054_tammilehto&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no day and beep information available&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>van Halem (2020)</title>
+      <link>http://localhost:1313/openesm/datasets/0070_vanhalem/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0070_vanhalem/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; van Halem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1002/per.2252&#34;&gt;https://doi.org/10.1002/per.2252&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; skin conductance, affect, arousal, situation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 82 (first-year psychology students in Tilburg)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 69&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; partially event-contingent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; random triggers and triggers based on skin conductance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&#34;&gt;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v8sa7&#34;&gt;https://osf.io/v8sa7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&#34;&gt;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0070_vanhalem&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0070_vanhalem&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;more raw sensor data available on OSF; questions originally in Dutch&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>van Woerkom (2022)</title>
+      <link>http://localhost:1313/openesm/datasets/0063_vanwoerkom/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0063_vanwoerkom/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; van Woerkom&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1007/s10902-022-00546-x&#34;&gt;https://doi.org/10.1007/s10902-022-00546-x&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; happiness, well-being, affect, need for autonomy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 173 (Dutch working adults)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 50&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 10x/day in 90-minute blocks with 30 to 150 minutes in between&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/k98pt/files/&#34;&gt;https://osf.io/k98pt/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/k98pt/files/&#34;&gt;https://osf.io/k98pt/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0063_vanwoerkom&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0063_vanwoerkom&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no implicit missingness but timepoints seem to be missing for dropouts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wang (2014)</title>
+      <link>http://localhost:1313/openesm/datasets/0004_wang/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0004_wang/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Wang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2014&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0266516&#34;&gt;https://doi.org/10.1371/journal.pone.0266516&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; students, mental health, academic performance, stress, activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 49 (undergraduate students)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 64&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 64&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; irregular&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://pbh.tech.cornell.edu/data.html&#34;&gt;https://pbh.tech.cornell.edu/data.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://studentlife.cs.dartmouth.edu/dataset.html&#34;&gt;https://studentlife.cs.dartmouth.edu/dataset.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/CornellPACLab/data_heterogeneity&#34;&gt;https://github.com/CornellPACLab/data_heterogeneity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0004_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0004_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;StudentLife study; More raw unaggregated data available; some item coding unclear; data preaggregated by Adler et al.; number of max. time points taken as maximum in aggregated data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wang (2016)</title>
+      <link>http://localhost:1313/openesm/datasets/0005_wang/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0005_wang/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Wang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2016&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0266516&#34;&gt;https://doi.org/10.1371/journal.pone.0266516&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; schizophrenia, passive sensing, mood&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 62 (adults with diagnosis of schizophrenia, schizoaffective disorder, or psychosis)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 165&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 165&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day on Monday, Wednesday, Friday&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://pbh.tech.cornell.edu/data.html&#34;&gt;https://pbh.tech.cornell.edu/data.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://pbh.tech.cornell.edu/data.html&#34;&gt;https://pbh.tech.cornell.edu/data.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/CornellPACLab/data_heterogeneity&#34;&gt;https://github.com/CornellPACLab/data_heterogeneity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0005_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0005_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;CrossCheck study; More raw unaggregated data available; data preaggregated by Adler et al.; number of max. time points taken as maximum in aggregated data; raw time stamp for passive sensing but not for ESM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wang (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0055_wang/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0055_wang/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Wang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1111/famp.12995&#34;&gt;https://doi.org/10.1111/famp.12995&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; family conflict, social interactions, affect, emotion, sadness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 78 (young adults (18-25))&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 147&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 6x/day EMA, 1x/day daily diary, morning survey at self-chosen time, other surveys randomly with certain interval, daily diary at 6:30pm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&#34;&gt;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&#34;&gt;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0055_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0055_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;Networks of Daily Experiences (NODE) study; combined the daily diary and ESM data into one dataset; some information on the family conflict and cohesion items taken from here: &lt;a href=&#34;https://doi.org/10.1111/famp.12515&#34;&gt;https://doi.org/10.1111/famp.12515&lt;/a&gt;, although their wording in this study was not fully clear&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Westhoff (2024)</title>
+      <link>http://localhost:1313/openesm/datasets/0008_westhoff/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0008_westhoff/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Westhoff&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41598-024-58598-3&#34;&gt;https://doi.org/10.1038/s41598-024-58598-3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; psychological flexibility, cognition, affect&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 114 (young adults)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 105&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 5x/day semi-random schedule&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; no&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41598-024-58598-3&#34;&gt;https://doi.org/10.1038/s41598-024-58598-3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/ejtzs/&#34;&gt;https://osf.io/ejtzs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0008_westhoff&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0008_westhoff&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;item coding based on private codebook&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wright (2017)</title>
+      <link>http://localhost:1313/openesm/datasets/0064_wright/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0064_wright/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Wright&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2017&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1037/abn0000286&#34;&gt;https://doi.org/10.1037/abn0000286&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; affect, interpersonal disorders, personality pathology, emotions, social interactions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 222 (outpatients screened for personality
+pathology and their romantic
+partners)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 344&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 21&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; event-contingent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; event-contingent based on social interactions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6ghcx/files/osfstorage&#34;&gt;https://osf.io/6ghcx/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6ghcx/files/osfstorage&#34;&gt;https://osf.io/6ghcx/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0064_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0064_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;data from original study shared in more detail in Wendt et al. (2020); number of time points based on max. rows in data; variable coding partially unclear&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wright (2019)</title>
+      <link>http://localhost:1313/openesm/datasets/0041_wright/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openesm/datasets/0041_wright/</guid>
+      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Wright&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2019&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1037/pas0000617&#34;&gt;https://doi.org/10.1037/pas0000617&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; personality disorder, interpersonal behavior, stress, affect, functioning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 94 (individuals with personality disorder diagnosis)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 100&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; 100&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day in the evening&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/5x8rv&#34;&gt;https://osf.io/5x8rv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0041_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0041_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
+&lt;p&gt;no information on day of data collection available - unclear if there are intermediate missings&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

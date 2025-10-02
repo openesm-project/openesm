@@ -33,7 +33,7 @@ layout: "single"
         <a href="{{< relref "docs/technical/" >}}" class="doc-card">
             <div class="doc-icon">⚙️</div>
             <h3>Technical Documentation</h3>
-            <p>Understand the system architecture and technical details</p>
+            <p>Understand details of techinical implementation?</p>
             <span class="doc-badge">Want to understand the system?</span>
         </a>
     </div>

@@ -70,6 +70,7 @@ const processDatasets = () => {
         sampling_scheme: data.sampling_scheme,
         cross_sectional_available: data.cross_sectional_available,
         passive_data_available: data.passive_data_available,
+        raw_time_stamp: data.raw_time_stamp,
         additional_comments: data.additional_comments,
         reference_text: extractReferenceText(data.reference_a) + ' ' + extractReferenceText(data.reference_b),
         n_participants: data.n_participants,

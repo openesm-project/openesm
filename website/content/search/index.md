@@ -312,8 +312,8 @@ function getMatchIndicators(dataset, query) {
             if ((dataset.n_days || 0) < minDays) return false;
             if (needsPassiveData && dataset.passive_data_available !== "yes") return false;
             if (needsCrossSectional && dataset.cross_sectional_available !== "yes") return false;
-            if (needsRawTimestamp && (!dataset.raw_time_stamp || dataset.raw_time_stamp === "no")) return false;
-            // Check construct filter
+            if (needsRawTimestamp && dataset.raw_time_stamp !== "yes") return false;
+            // check construct filter
             if (selectedConstructs.size > 0) {
                 const datasetConstructs = new Set();
                 if (Array.isArray(dataset.variables)) {
