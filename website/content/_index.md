@@ -262,7 +262,7 @@ hideposts: true
 </head>
 <body>
     <div class="hero-section">
-        <h1>openESM: A database of open experience sampling datasets</h1>
+        <h1>A database of open experience sampling datasets</h1>
         <p>openESM is a database of harmonized openly available experience sampling datasets. The platform enables easy reuse of datasets with consistent and detailed metadata standards to facilitate reproducible research.</p>
         <a href="{{< relref "/datasets/" >}}" class="cta-button">Start Exploring Datasets</a>
     </div>
@@ -297,7 +297,7 @@ hideposts: true
         <a href="{{< relref "/search/" >}}" class="step-card">
             <div class="icon"><i class="fas fa-search"></i></div>
             <h3>2. Filter & Find</h3>
-            <p>Utilize our search and filter tools to find datasets with a relevant structure and constructs.</p>
+            <p>Use our search and filter tools to find datasets with a relevant structure and constructs.</p>
         </a>
         <a href="{{< relref "/docs/" >}}" class="step-card">
             <div class="icon"><i class="fas fa-download"></i></div>
