@@ -1,6 +1,6 @@
 ---
 title: "Hawks (2023)"
-date: 2025-09-11
+date: 2025-10-01
 draft: false
 ---
 
@@ -70,7 +70,7 @@ No changes yet.
 | determined | Determined | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Determined | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | determination, positive affect, affect |  |
 | inspired | Inspired | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Inspired | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | inspiration, positive affect, affect |  |
 | depressed | Depressed | rating_scale | 5 | Since the last survey, how often have you felt depressed? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
-| restless_or_fidgety | Restless or fidgety | rating_scale | 5 | Since the last survey, how often have you felt restless or fidgety? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | restlessness, fidgety, anxiety, psychopathology |  |
+| restless_or_fidgety | Restless or fidgety | rating_scale | 5 | Since the last survey, how often have you felt restless or fidgety? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | restlessness, fidgety, anxiety, negative affect, affect, psychopathology |  |
 | sadness_extreme | So sad that nothing could cheer you up | rating_scale | 5 | Since the last survey, how often have you felt so sad that nothing could cheer you up? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | sadness, depression, psychopathology, negative affect, affect |  |
 | worried | Worried | rating_scale | 5 | Since the last survey, how often have you felt worried? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five |  |
 | hopeless | Hopeless | rating_scale | 5 | Since the last survey, how often have you felt hopeless? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | hopelessness, depression, psychopathology |  |
@@ -85,7 +85,7 @@ No changes yet.
 | socialfunc_interactions | Number of social interactions | rating_scale | 4 | Since the last survey, about how many times did you talk or communicate with someone<br>else? | 1 = 0 interactions<br>2 = 1 interaction<br>3 = 2 or 3 interactions<br>4 = 4 or more interactions |  | Social Functioning Scale | ESM | communication, social functioning, social interaction |  |
 | alert_sleepiness | Sleepiness | rating_scale | 9 | Please indicate your sleepiness during the 5 minutes before this<br>survey by choosing the appropriate description. | 1 = extemely alert<br>9 = very sleepy, great effort to keep awake, fighting sleep |  |  | ESM | sleepiness, alertness, negative affect, affect |  |
 | going_on | A lot going on | rating_scale | 4 | There is a lot going on<br>around me right now | 1 = not at all true<br>2 = a little bit true<br>3 = somewhat true<br>4 = very true |  |  | ESM | busyiness, situational demands, context |  |
-| concentrating | Troubles concentrating | rating_scale | 4 | I am having trouble concentrating right now. | 1 = not at all true<br>2 = a little bit true<br>3 = somewhat true<br>4 = very true |  |  | ESM | concentration, executive functionng, attention |  |
+| concentrating | Troubles concentrating | rating_scale | 4 | I am having trouble concentrating right now. | 1 = not at all true<br>2 = a little bit true<br>3 = somewhat true<br>4 = very true |  |  | ESM | concentration, executive functioning, attention |  |
 | noisy | Noisy context | rating_scale | 4 | I am in a very noisy place right now. | 1 = not at all true<br>2 = a little bit true<br>3 = somewhat true<br>4 = very true |  |  | ESM | noisiness, context |  |
 | finish | Failing to finish things | rating_scale | 5 | To what extent are you currently having difficulty with following through on instructions and failing to finish things? | 1 = not having difficulty at all<br>5 = extreme difficulty |  |  | ESM | task completion, executive functioning, self-regulation |  |
 | organization | Difficulty with organization | rating_scale | 5 | To what extent are you currently having difficulty with organization? | 1 = not having difficulty at all<br>5 = extreme difficulty |  |  | ESM | organization, executive functioning |  |

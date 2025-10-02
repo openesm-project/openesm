@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2025-09-11
+date: 2025-10-01
 draft: false
 ---
 
@@ -70,7 +70,7 @@ No changes yet.
 | anhedonia | Anhedonia | rating_scale | 5 | I couldn't seem to experience any positive feeling at all | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | anhedonia, depression, psychopathology |  |
 | tired | Tired | rating_scale | 5 | I felt tired | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | tiredness, negative affect, affect, biological, psychopathology |  |
 | hungry | Hungry | rating_scale | 5 | In the past 3h, I was hungry | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | hunger, biological |  |
-| alone | Feeling alone | rating_scale | 5 | I felt like I lack companionship, or that I am not close to people. | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | loneliness, social functioning |  |
+| alone | Feeling alone | rating_scale | 5 | I felt like I lack companionship, or that I am not close to people. | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | loneliness, social functioning, negative affect, affect |  |
 | angry | Angry | rating_scale | 5 | I felt angry | 1 = Not at all <br>2 = Slightly<br>3 = Moderately<br>4 = Very<br>5 = Extremly |  |  | ESM | anger, negative affect, affect |  |
 | social_offline | Offline social contacts | rating_scale | 5 | I spent ___ minutes on meaningful, offline, social interaction | 1 = 0 minutes<br>2 = 5-15 min<br>3 = 15-60 min<br>4 = 1-2 hours<br>5 = > 2h |  |  | ESM | offline social interaction, social interaction, activity, context |  |
 | social_online | Online social contacs | rating_scale | 5 | I spent __ minutes using social media to kill/pass the time | 1 = 0 minutes<br>2 = 5-15 min<br>3 = 15-60 min<br>4 = 1-2 hours<br>5 = > 2h |  |  | ESM | online social interaction, social interaction, activity, context |  |

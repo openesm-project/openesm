@@ -1,0 +1,104 @@
+{
+  "first_author": "Bar-Kalifa",
+  "dataset": "0048",
+  "year": 2020,
+  "reference_a": "@article{barkalifa2020,\n  title = {Using network analysis for examining interpersonal emotion dynamics},\n  author = {Bar-Kalifa, Eran and Sened, Haran},\n  date = {2020-03-03},\n  journaltitle = {Multivariate Behavioral Research},\n  volume = {55},\n  number = {2},\n  eprint = {31179758},\n  eprinttype = {pubmed},\n  pages = {211--230},\n  publisher = {Routledge},\n  issn = {0027-3171},\n  doi = {10.1080/00273171.2019.1624147}\n}",
+  "reference_b": null,
+  "paper_doi": "https://doi.org/10.1080/00273171.2019.1624147",
+  "link_to_data": "https://osf.io/c3zp2/files/osfstorage",
+  "link_to_codebook": null,
+  "link_to_code": "https://osf.io/c3zp2/files/osfstorage",
+  "n_participants": 100,
+  "n_time_points": 21,
+  "n_beeps_per_day": "1",
+  "passive_data_available": "no",
+  "cross_sectional_available": "yes",
+  "topics": "relationships, emotion dynamics, interpersonal, mood, relationship satisfaction, pregnancy, childbirth",
+  "implicit_missingness": "unclear",
+  "raw_time_stamp": "no",
+  "sampling_scheme": "1x/day in the evening 1 hour before sleep, or completing the next day",
+  "participants": "heterosexual Israeli couples expecting a child (not twins)",
+  "coding_file": "0048_barkalifa_variables",
+  "additional_comments": "sample 2 in the paper, eight pre-excluded by authors due to missingnes",
+  "coder_data": "Björn Siepe",
+  "coder_metadata": "Björn Siepe",
+  "features": [
+    {
+      "name": "id",
+      "description": "Participant ID",
+      "type": "categorical",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "day",
+      "description": "Day of study",
+      "type": "other",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "beep",
+      "description": "Beep of the day",
+      "type": "other",
+      "coding": "",
+      "answer_categories": ""
+    },
+    {
+      "name": "men_anxiety",
+      "description": "Anxiety of man",
+      "type": "ordinal",
+      "coding": "Sum score for the man for 3 anxiety items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    },
+    {
+      "name": "men_sadness",
+      "description": "Sadness of man",
+      "type": "ordinal",
+      "coding": "Sum score for the man for 3 sadness items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    },
+    {
+      "name": "men_vigor",
+      "description": "Vigor of man",
+      "type": "ordinal",
+      "coding": "Sum score for the man for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    },
+    {
+      "name": "men_contentment",
+      "description": "Contentment of man",
+      "type": "ordinal",
+      "coding": "Sum score for the man for 3 contentment items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    },
+    {
+      "name": "women_anxiety",
+      "description": "Anxiety of woman",
+      "type": "ordinal",
+      "coding": "Sum score for the woman for 3 anxiety items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    },
+    {
+      "name": "women_sadness",
+      "description": "Sadness of woman",
+      "type": "ordinal",
+      "coding": "Sum score for the woman for 3 sadness items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    },
+    {
+      "name": "women_vigor",
+      "description": "Vigor of woman",
+      "type": "ordinal",
+      "coding": "Sum score for the woman for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    },
+    {
+      "name": "women_contentment",
+      "description": "Contentment of woman",
+      "type": "ordinal",
+      "coding": "Sum score for the woman for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
+      "answer_categories": "5"
+    }
+  ]
+}

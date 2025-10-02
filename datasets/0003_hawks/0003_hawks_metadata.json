@@ -261,7 +261,7 @@
       "transformation": "",
       "source": "Anxiety & Depression Scale",
       "assessment_type": "ESM",
-      "construct": "restlessness, fidgety, anxiety, psychopathology",
+      "construct": "restlessness, fidgety, anxiety, negative affect, affect, psychopathology",
       "comments": ""
     },
     {
@@ -471,7 +471,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "concentration, executive functionng, attention",
+      "construct": "concentration, executive functioning, attention",
       "comments": ""
     },
     {
