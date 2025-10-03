@@ -1,10 +1,7 @@
 # openESM Database
 
-A curated collection of ESM datasets for psychological and behavioral research, hosted at [openesmdata.org](https://openesmdata.org).
+A curated collection of experience sampling datasets, hosted at [openesmdata.org](https://openesmdata.org).
 
-## What is openESM?
-
-openESM provides researchers with access to real-world psychological data collected through experience sampling methods. 
 
 ## Features
 
