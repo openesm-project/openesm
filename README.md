@@ -9,7 +9,7 @@ openESM provides researchers with access to real-world psychological data collec
 ## Features
 
 - **Search & Filter**: Find datasets by sample size, variables, or research topics
-- **R/Python Packages**: Direct data access through `openESMdata` packages
+- **R/Python Packages**: Direct data access through `openesm` packages 
 - **Documentation**: Comprehensive guides for using and contributing data
 - **Open Science**: All datasets include proper attribution and licensing
 
