@@ -54,9 +54,9 @@ More details are available in our [introduction paper](TODO).
 ## Contributors
 
 Our team includes: 
-- Björn S. Siepe (Marburg University) 
+- Björn S. Siepe (Marburg University), main creator and maintainer
 - Jonas M.B. Haslbeck (University of Amsterdam)
-- Matthias KLoft (Marburg University)
+- Matthias Kloft (Marburg University)
 - Yong Zhang (University of Groningen)
 - Anabel Büchner (Humboldt University Berlin)
 - Eiko I. Fried (Leiden University)
@@ -64,5 +64,5 @@ Our team includes:
 
 We are grateful for all researchers who have contributed datasets to the OpenESM database. If you would like to contribute your own dataset, please refer to our [Contributing Guide]({{< relref "docs/contributing/" >}}).
 
-## Contact Us
-If you have any questions, suggestions, or feedback, please feel free to reach out to us at TODO. We are always happy to hear from you and improve the OpenESM database.
+## Contact us
+If you have any questions, suggestions, or feedback, please feel free to reach out to us at bjoernsiepe+openesm[at]gmail.com. We are always happy to hear from you and will try to continuously improve the openESM database.
