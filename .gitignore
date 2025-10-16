@@ -20,7 +20,7 @@ node_modules/
 Thumbs.db
 
 # editor files
-.github/
+.github/copilot-instructions.md
 .vscode/
 *.swp
 *.swo
