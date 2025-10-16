@@ -1,7 +1,7 @@
-baseURL = "https://bsiepe.github.io/openesm/"
+baseURL = "https://openesmdata.org/"
 languageCode = "en-us"
 title = "openESM"
-description = "Open Experience Sampling Method (openESM) Database"
+description = "open Experience Sampling Method (openESM) Database"
 theme = "PaperMod"
 
 # Enable search
