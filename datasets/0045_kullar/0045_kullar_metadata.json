@@ -5,7 +5,7 @@
   "reference_a": "@article{kullar2024,\n  title = {Patterns of emotion-network dynamics are orthogonal to mood disorder status: {{An}} experience sampling investigation},\n  shorttitle = {Patterns of emotion-network dynamics are orthogonal to mood disorder status},\n  author = {Kullar, Monica and Carter, Scott and Hitchcock, Caitlin and Whittaker, Steve and Wright, Aidan G. C. and Dalgleish, Tim},\n  date = {2024},\n  journaltitle = {Emotion},\n  volume = {24},\n  pages = {116--129},\n  doi = {10.1037/emo0001245}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1037/emo0001245",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347798",
   "link_to_data": "https://github.com/mkullar/DataDrivenEmotionDynamics",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",
@@ -135,7 +135,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "irritability, anxiety, psychopathology, negative affect, affect",
+      "construct": "irritability, anxiety, negative affect, affect",
       "comments": ""
     },
     {

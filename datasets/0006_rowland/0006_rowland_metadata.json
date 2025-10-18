@@ -5,7 +5,7 @@
   "reference_a": "@article{rowland2020,\n  title = {Mindfulness and affect-network density: does mindfulness facilitate disengagement from affective experiences in daily life?},\n  shorttitle = {Mindfulness and affect-network density},\n  author = {Rowland, Zarah and Wenzel, Mario},\n  date = {2020-05-01},\n  journaltitle = {Mindfulness},\n  volume = {11},\n  number = {5},\n  pages = {1253--1266},\n  doi = {10.1007/s12671-020-01335-4}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1007/s12671-020-01335-4",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347351",
   "link_to_data": "https://osf.io/jmz2n/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/5t4yg",

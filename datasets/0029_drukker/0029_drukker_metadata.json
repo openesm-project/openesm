@@ -5,7 +5,7 @@
   "reference_a": "@article{drukker2020,\n  title = {Network approach of mood and functional gastrointestinal symptom dynamics in relation to childhood trauma in patients with irritable bowel syndrome and comorbid panic disorder},\n  author = {Drukker, Marjan and Peters, Jill C. H. and Vork, Lisa and Mujagic, Zlatan and Rutten, Bart P. F. and family=Os, given=Jim, prefix=van, useprefix=true and Masclee, Ad A. M. and Kruimel, Joanna W. and Leue, Carsten},\n  date = {2020-12-01},\n  journaltitle = {Journal of Psychosomatic Research},\n  shortjournal = {Journal of Psychosomatic Research},\n  volume = {139},\n  pages = {110261},\n  issn = {0022-3999},\n  doi = {10.1016/j.jpsychores.2020.110261}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1016/j.jpsychores.2020.110261",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347944",
   "link_to_data": "https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0125",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0120",
@@ -107,7 +107,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "irritability, anxiety, psychopathology, negative affect, affect",
+      "construct": "irritability, anxiety, negative affect, affect",
       "comments": ""
     },
     {

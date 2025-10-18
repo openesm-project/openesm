@@ -5,7 +5,7 @@
   "reference_a": "@article{kuczynski2022,\n  title = {The effect of social interaction quantity and quality on depressed mood and loneliness: {{A}} daily diary study},\n  shorttitle = {The effect of social interaction quantity and quality on depressed mood and loneliness},\n  author = {Kuczynski, Adam M. and Halvorson, Max A. and Slater, Lily R. and Kanter, Jonathan W.},\n  date = {2022-03-01},\n  journaltitle = {Journal of Social and Personal Relationships},\n  volume = {39},\n  number = {3},\n  pages = {734--756},\n  publisher = {SAGE Publications Ltd},\n  issn = {0265-4075},\n  doi = {10.1177/02654075211045717}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1177/02654075211045717",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347657",
   "link_to_data": "https://osf.io/huz67",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",

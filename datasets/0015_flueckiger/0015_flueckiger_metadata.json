@@ -5,7 +5,7 @@
   "reference_a": "@article{flueckiger2014,\n  title = {How health behaviors relate to academic performance via affect: {{An}} intensive longitudinal study},\n  shorttitle = {How health behaviors relate to academic performance via affect},\n  author = {Flueckiger, Lavinia and Lieb, Roselind and Meyer, Andrea H. and Mata, Jutta},\n  date = {2014-10-29},\n  journaltitle = {PLOS ONE},\n  shortjournal = {PLOS ONE},\n  volume = {9},\n  number = {10},\n  pages = {e111080},\n  publisher = {Public Library of Science},\n  doi = {10.1371/journal.pone.0111080}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1371/journal.pone.0111080",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347647",
   "link_to_data": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388",
   "license": "CC0 1.0",
   "link_to_codebook": "https://doi.org/10.7910/DVN/27388/U8IPJZ",

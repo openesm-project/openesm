@@ -5,7 +5,7 @@
   "reference_a": "@article{nepal2024,\n  title = {Capturing the college experience: {{A}} four-year mobile sensing study of mental health, resilience and behavior of college students during the pandemic},\n  author = {Nepal, Subigya and Liu, Wenjun and Pillai, Arvind and Wang, Weichen and Vojdanovski, Vlado and Huckins, Jeremy F and Rogers, Courtney and Meyer, Meghan L and Campbell, Andrew T},\n  date = {2024},\n  journaltitle = {Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies},\n  volume = {8},\n  number = {1},\n  pages = {1--37},\n  langid = {english}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1145/3643501",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17348144",
   "link_to_data": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset",
   "license": "CC BY-NC-SA 4.0",
   "link_to_codebook": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data",

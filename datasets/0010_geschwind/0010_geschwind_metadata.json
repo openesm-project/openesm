@@ -5,7 +5,7 @@
   "reference_a": "@article{geschwind2011,\n  title={Mindfulness training increases momentary positive emotions and reward experience in adults vulnerable to depression: {A} randomized controlled trial.},\n  author={Geschwind, Nicole and Peeters, Frenk and Drukker, Marjan and van Os, Jim and Wichers, Marieke},\n  journal={Journal of consulting and clinical psychology},\n  volume={79},\n  number={5},\n  pages={618},\n  year={2011},\n  publisher={American Psychological Association},\n  doi={10.1037/a0024595}\n}",
   "reference_b": "@article{bringmann2013,\n  title = {A network approach to psychopathology: {{New}} insights into clinical longitudinal data},\n  shorttitle = {A {{Network Approach}} to {{Psychopathology}}},\n  author = {Bringmann, Laura F. and Vissers, Nathalie and Wichers, Marieke and Geschwind, Nicole and Kuppens, Peter and Peeters, Frenk and Borsboom, Denny and Tuerlinckx, Francis},\n  date = {2013-04-04},\n  journaltitle = {PLoS ONE},\n  shortjournal = {PLoS One},\n  volume = {8},\n  number = {4},\n  eprint = {23593171},\n  doi = {10.1371/journal.pone.0060188}\n}",
   "paper_doi": "https://doi.org/10.1371/journal.pone.0060188",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347473",
   "link_to_data": "https://doi.org/10.1371/journal.pone.0060188.s004",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",
@@ -121,7 +121,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five",
+      "construct": "worry, anxiety, negative affect, affect, neuroticism, big five",
       "comments": ""
     },
     {

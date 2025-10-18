@@ -5,7 +5,7 @@
   "reference_a": "@online{fisher2019,\n  title = {Generating accurate personalized predictions of future behavior: {{A}} smoking exemplar},\n  shorttitle = {Generating accurate personalized predictions of future behavior},\n  author = {Fisher, Aaron J. and Soyster, Peter},\n  date = {2019-03-28},\n  eprinttype = {PsyArXiv},\n  doi = {10.31234/osf.io/e24v6},\n  pubstate = {prepublished}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.31234/osf.io/e24v6",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17348069",
   "link_to_data": "https://osf.io/nkemg/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004",
@@ -149,7 +149,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "restlessness, fidgety, anxiety, negative affect, affect, psychopathology",
+      "construct": "restlessness, fidgety, anxiety, negative affect, affect",
       "comments": ""
     },
     {

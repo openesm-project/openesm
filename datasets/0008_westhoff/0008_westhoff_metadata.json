@@ -5,9 +5,9 @@
   "reference_a": "@article{westhoff2024,\n  title = {Psychological flexibility and cognitive-affective processes in young adults’ daily lives},\n  author = {Westhoff, Marlon and Heshmati, Saida and Siepe, Björn S. and Vogelbacher, Christoph and Ciarrochi, Joseph and Hayes, Steven C. and Hofmann, Stefan G.},\n  date = {2024-04-08},\n  journaltitle = {Scientific Reports},\n  shortjournal = {Sci Rep},\n  volume = {14},\n  number = {1},\n  pages = {8182},\n  publisher = {Nature Publishing Group},\n  doi = {10.1038/s41598-024-58598-3}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1038/s41598-024-58598-3",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347510",
   "link_to_data": "https://doi.org/10.1038/s41598-024-58598-3",
-  "license": "CC-BY4.0",
+  "license": "CC-BY 4.0",
   "link_to_codebook": "-",
   "link_to_code": "https://osf.io/ejtzs/",
   "n_participants": 114,
@@ -206,7 +206,7 @@
       "source": "Process-Based Assessment Tool (PBAT)",
       "assessment_type": "ESM",
       "construct": "emotion regulation",
-      "comments": "item does not seem to measure affect (as indicated by authors) but rather emotion regulation"
+      "comments": "we categorized the item as emotion regulation instead of affect (as done by the authors)"
     },
     {
       "name": "positive_affect_behavior",
@@ -220,7 +220,7 @@
       "source": "Process-Based Assessment Tool (PBAT)",
       "assessment_type": "ESM",
       "construct": "emotion regulation",
-      "comments": "item does not seem to measure affect (as indicated by authors) but rather emotion regulation"
+      "comments": "we categorized the item as emotion regulation instead of affect (as done by the authors)"
     },
     {
       "name": "negative_cognition_behavior",

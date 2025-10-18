@@ -5,7 +5,7 @@
   "reference_a": "@article{fisher2017,\n  title = {Exploring the idiographic dynamics of mood and anxiety via network analysis},\n  author = {Fisher, Aaron J. and Reeves, Jonathan W and Lawyer, Glenn and Medaglia, John D and Rubel, Julian A},\n  date = {2017},\n  journaltitle = {Journal of abnormal psychology},\n  shortjournal = {Journal of abnormal psychology},\n  volume = {126},\n  number = {8},\n  pages = {1044},\n  publisher = {American Psychological Association},\n  issn = {1939-1846},\n  doi = {10.1037/abn0000311}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1037/abn0000311",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17348038",
   "link_to_data": "https://osf.io/5ybxt/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/h93f4",
@@ -149,7 +149,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "irritability, negative affect, affect, neuroticism, big five, psychopathology",
+      "construct": "irritability, negative affect, affect, neuroticism, big five",
       "comments": ""
     },
     {
@@ -163,7 +163,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "restlessness, fidgety, anxiety, negative affect, affect, psychopathology",
+      "construct": "restlessness, fidgety, anxiety, negative affect, affect",
       "comments": ""
     },
     {
@@ -177,7 +177,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five",
+      "construct": "worry, anxiety, negative affect, affect, neuroticism, big five",
       "comments": ""
     },
     {

@@ -5,7 +5,7 @@
   "reference_a": "@article{wright2019,\n  title = {Focusing personality assessment on the person: {{Modeling}} general, shared, and person specific processes in personality and psychopathology},\n  shorttitle = {Focusing personality assessment on the person},\n  author = {Wright, Aidan G. C. and Gates, Kathleen M. and Arizmendi, Cara and Lane, Stephanie T. and Woods, William C. and Edershile, Elizabeth A.},\n  date = {2019},\n  journaltitle = {Psychological Assessment},\n  volume = {31},\n  number = {4},\n  pages = {502--515},\n  publisher = {American Psychological Association},\n  location = {US},\n  doi = {10.1037/pas0000617}\n}",
   "reference_b": "@article{wright2015,\n  title = {Daily interpersonal and affective dynamics in personality disorder},\n  author = {Wright, Aidan G. C. and Hopwood, Christopher J. and Simms, Leonard J.},\n  date = {2015-08},\n  journaltitle = {Journal of Personality Disorders},\n  volume = {29},\n  number = {4},\n  pages = {503--525},\n  publisher = {Guilford Publications Inc.},\n  doi = {10.1521/pedi.2015.29.4.503}\n}",
   "paper_doi": "https://doi.org/10.1037/pas0000617",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17348148",
   "link_to_data": "https://osf.io/5x8rv",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",

@@ -5,9 +5,9 @@
   "reference_a": "@article{dejonckheere2019a,\n  title = {Poor emotion regulation ability mediates the link between depressive symptoms and affective bipolarity},\n  author = {Dejonckheere, Egon and Kalokerinos, Elise K. and Bastian, Brock and Kuppens, Peter},\n  date = {2019-07-04},\n  journaltitle = {Cognition and Emotion},\n  volume = {33},\n  number = {5},\n  eprint = {30270738},\n  pages = {1076--1083},\n  publisher = {Routledge},\n  doi = {10.1080/02699931.2018.1524747}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1080/02699931.2018.1524747",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347569",
   "link_to_data": "https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664",
-  "license": "CC-BY4.0",
+  "license": "CC-BY 4.0",
   "link_to_codebook": "https://osf.io/487eg",
   "link_to_code": "https://www.tandfonline.com/doi/full/10.1080/02699931.2018.1524747#supplemental-material-section",
   "n_participants": 100,
@@ -52,7 +52,7 @@
       "source": "",
       "assessment_type": "ESM",
       "construct": "",
-      "comments": "Did not see this in the data file"
+      "comments": ""
     },
     {
       "name": "beep",
@@ -80,7 +80,7 @@
       "source": "",
       "assessment_type": "ESM",
       "construct": "",
-      "comments": "Did not see this in the data file"
+      "comments": ""
     },
     {
       "name": "happy",

@@ -5,7 +5,7 @@
   "reference_a": "@article{hensel2023,\n  title = {The feasibility of using ecological momentary assessment to understand urinary and fecal incontinence experiences in adults with spina bifida: {{A}} 30-day study},\n  shorttitle = {The feasibility of using ecological momentary assessment to understand urinary and fecal incontinence experiences in adults with spina bifida},\n  author = {Hensel, Devon J. and Young, Audrey I. and Szymanski, Konrad M.},\n  date = {2023-11-30},\n  journaltitle = {PLOS ONE},\n  shortjournal = {PLOS ONE},\n  volume = {18},\n  number = {11},\n  pages = {e0292735},\n  publisher = {Public Library of Science},\n  issn = {1932-6203},\n  doi = {10.1371/journal.pone.0292735}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1371/journal.pone.0292735",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17348001",
   "link_to_data": "https://osf.io/gefqx/files/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/gefqx/files/",

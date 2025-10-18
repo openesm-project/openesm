@@ -5,7 +5,7 @@
   "reference_a": "@inproceedings{wang2014,\n  title = {{{StudentLife}}: assessing mental health, academic performance and behavioral trends of college students using smartphones},\n  shorttitle = {{{StudentLife}}},\n  booktitle = {Proceedings of the 2014 {{ACM International Joint Conference}} on {{Pervasive}} and {{Ubiquitous Computing}}},\n  author = {Wang, Rui and Chen, Fanglin and Chen, Zhenyu and Li, Tianxing and Harari, Gabriella and Tignor, Stefanie and Zhou, Xia and Ben-Zeev, Dror and Campbell, Andrew T.},\n  date = {2014-09-13},\n  series = {{{UbiComp}} '14},\n  pages = {3--14},\n  publisher = {Association for Computing Machinery},\n  location = {New York, NY, USA},\n  doi = {10.1145/2632048.2632054}\n}",
   "reference_b": "@article{adler2022,\n  title = {Machine learning for passive mental health symptom prediction: {{Generalization}} across different longitudinal mobile sensing studies},\n  shorttitle = {Machine learning for passive mental health symptom prediction},\n  author = {Adler, Daniel A. and Wang, Fei and Mohr, David C. and Choudhury, Tanzeem},\n  date = {2022-04-27},\n  journaltitle = {PLOS ONE},\n  shortjournal = {PLOS ONE},\n  volume = {17},\n  number = {4},\n  pages = {e0266516},\n  publisher = {Public Library of Science},\n  issn = {1932-6203},\n  doi = {10.1371/journal.pone.0266516}\n}",
   "paper_doi": "https://doi.org/10.1371/journal.pone.0266516",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347425",
   "link_to_data": "https://pbh.tech.cornell.edu/data.html",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://studentlife.cs.dartmouth.edu/dataset.html",

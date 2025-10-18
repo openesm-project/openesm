@@ -5,7 +5,7 @@
   "reference_a": "@article{soyster2022,\n  title = {Pooled and person-specific machine learning models for predicting future alcohol consumption, craving, and wanting to drink: {{A}} demonstration of parallel utility.},\n  shorttitle = {Pooled and person-specific machine learning models for predicting future alcohol consumption, craving, and wanting to drink},\n  author = {Soyster, Peter D. and Ashlock, Leighann and Fisher, Aaron J.},\n  date = {2022-05},\n  journaltitle = {Psychology of Addictive Behaviors},\n  shortjournal = {Psychology of Addictive Behaviors},\n  volume = {36},\n  number = {3},\n  pages = {296--306},\n  issn = {1939-1501, 0893-164X},\n  doi = {10.1037/adb0000666}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1037/adb0000666",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347645",
   "link_to_data": "https://osf.io/q7upd/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",

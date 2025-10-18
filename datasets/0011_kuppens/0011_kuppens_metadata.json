@@ -5,7 +5,7 @@
   "reference_a": "@article{kuppens2012,\n  title={The dynamic interplay between appraisal and core affect in daily life},\n  author={Kuppens, Peter and Champagne, Dominique and Tuerlinckx, Francis},\n  journal={Frontiers in psychology},\n  volume={3},\n  pages={380},\n  year={2012},\n  publisher={Frontiers Media SA},\n  doi={10.3389/fpsyg.2012.00380}\n}",
   "reference_b": "@article{bringmannAssessingTemporalEmotion2016,\n  title = {Assessing temporal emotion dynamics using networks},\n  author = {Bringmann, Laura F. and Pe, Madeline L. and Vissers, Nathalie and Ceulemans, Eva and Borsboom, Denny and Vanpaemel, Wolf and Tuerlinckx, Francis and Kuppens, Peter},\n  date = {2016-08-01},\n  journaltitle = {Assessment},\n  shortjournal = {Assessment},\n  volume = {23},\n  number = {4},\n  pages = {425--435},\n  publisher = {SAGE Publications Inc},\n  doi = {10.1177/1073191116645909}\n}",
   "paper_doi": "https://doi.org/10.1177/1073191116645909",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347412",
   "link_to_data": "https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",

@@ -5,7 +5,7 @@
   "reference_a": "@article{bosley2020,\n  title = {Idiographic dynamics of positive affect in {{GAD}}},\n  author = {Bosley, Hannah G. and Sandel, Devon B. and Fisher, Aaron J.},\n  date = {2020-05},\n  journaltitle = {European Journal of Psychological Assessment},\n  volume = {36},\n  number = {3},\n  pages = {500--509},\n  publisher = {Hogrefe Publishing},\n  issn = {1015-5759},\n  doi = {10.1027/1015-5759/a000580}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.31234/osf.io/bhn7y",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17348118",
   "link_to_data": "https://osf.io/4x8jd/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",

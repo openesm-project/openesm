@@ -5,7 +5,7 @@
   "reference_a": "@inproceedings{wang2016,\n  title = {{{CrossCheck}}: {{Toward}} passive sensing and detection of mental health changes in people with schizophrenia},\n  shorttitle = {{{CrossCheck}}},\n  booktitle = {Proceedings of the 2016 {{ACM International Joint Conference}} on {{Pervasive}} and {{Ubiquitous Computing}}},\n  author = {Wang, Rui and Aung, Min S. H. and Abdullah, Saeed and Brian, Rachel and Campbell, Andrew T. and Choudhury, Tanzeem and Hauser, Marta and Kane, John and Merrill, Michael and Scherer, Emily A. and Tseng, Vincent W. S. and Ben-Zeev, Dror},\n  date = {2016-09-12},\n  series = {{{UbiComp}} '16},\n  pages = {886--897},\n  publisher = {Association for Computing Machinery},\n  location = {New York, NY, USA},\n  doi = {10.1145/2971648.2971740}\n}",
   "reference_b": "@article{adler2022,\n  title = {Machine learning for passive mental health symptom prediction: {{Generalization}} across different longitudinal mobile sensing studies},\n  shorttitle = {Machine learning for passive mental health symptom prediction},\n  author = {Adler, Daniel A. and Wang, Fei and Mohr, David C. and Choudhury, Tanzeem},\n  date = {2022-04-27},\n  journaltitle = {PLOS ONE},\n  shortjournal = {PLOS ONE},\n  volume = {17},\n  number = {4},\n  pages = {e0266516},\n  publisher = {Public Library of Science},\n  issn = {1932-6203},\n  doi = {10.1371/journal.pone.0266516}\n}",
   "paper_doi": "https://doi.org/10.1371/journal.pone.0266516",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347402",
   "link_to_data": "https://pbh.tech.cornell.edu/data.html",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://pbh.tech.cornell.edu/data.html",

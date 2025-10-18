@@ -5,7 +5,7 @@
   "reference_a": "@article{nestler2022,\n  title = {A lasso and a regression tree mixed-effect model with random effects for the level, the residual variance, and the autocorrelation},\n  author = {Nestler, Steffen and Humberg, Sarah},\n  date = {2022-06-01},\n  journaltitle = {Psychometrika},\n  shortjournal = {Psychometrika},\n  volume = {87},\n  number = {2},\n  pages = {506--532},\n  doi = {10.1007/s11336-021-09787-w}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1007/s11336-021-09787-w",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347328",
   "link_to_data": "https://osf.io/gmz7e",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699",

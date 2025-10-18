@@ -5,7 +5,7 @@
   "reference_a": "@article{hasselhorn2022,\n  title = {The effects of assessment intensity on participant burden, compliance, within-person variance, and within-person relationships in ambulatory assessment},\n  author = {Hasselhorn, Kilian and Ottenstein, Charlotte and Lischetzke, Tanja},\n  date = {2022-08-01},\n  journaltitle = {Behavior Research Methods},\n  shortjournal = {Behav Res},\n  volume = {54},\n  number = {4},\n  pages = {1541--1558},\n  issn = {1554-3528},\n  doi = {10.3758/s13428-021-01683-6}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.3758/s13428-021-01683-6",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347856",
   "link_to_data": "https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/ze9wn",

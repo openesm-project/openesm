@@ -5,7 +5,7 @@
   "reference_a": "@article{grommisch2020,\n  title = {Modeling individual differences in emotion regulation repertoire in daily life with multilevel latent profile analysis.},\n  author = {Grommisch, Gloria and Koval, Peter and Hinton, Jordan D. X. and Gleeson, John and Hollenstein, Tom and Kuppens, Peter and Lischetzke, Tanja},\n  date = {2020-12},\n  journaltitle = {Emotion},\n  shortjournal = {Emotion},\n  volume = {20},\n  number = {8},\n  pages = {1462--1474},\n  issn = {1931-1516, 1528-3542},\n  doi = {10.1037/emo0000669}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1037/emo0000669",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347621",
   "link_to_data": "https://osf.io/r7jw6/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/b5s97",

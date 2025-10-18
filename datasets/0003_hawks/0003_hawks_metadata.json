@@ -5,7 +5,7 @@
   "reference_a": "@article{hawks2023,\n  title = {Accurate prediction of momentary cognition from intensive longitudinal data},\n  author = {Hawks, Zoë W. and Strong, Roger and Jung, Laneé and Beck, Emorie D. and Passell, Eliza J. and Grinspoon, Elizabeth and Singh, Shifali and Frumkin, Madelyn R. and Sliwinski, Martin and Germine, Laura T.},\n  date = {2023-08-01},\n  journaltitle = {Biological Psychiatry: Cognitive Neuroscience and Neuroimaging},\n  series = {Reliability of {{Neurocognitive Measures}} for {{Mental Health}}},\n  volume = {8},\n  number = {8},\n  pages = {841--851},\n  doi = {10.1016/j.bpsc.2022.12.002}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1016/j.bpsc.2022.12.002",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347389",
   "link_to_data": "https://github.com/zwihawks/PredictingMomentaryCog",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf",

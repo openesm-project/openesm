@@ -5,7 +5,7 @@
   "reference_a": "@article{pavani2017,\n  title = {A network approach to affect regulation dynamics and personality trait–induced variations: {{Extraversion}} and neuroticism moderate reciprocal influences between affect and affect regulation strategies},\n  shorttitle = {A network approach to affect regulation dynamics and personality trait–induced variations},\n  author = {Pavani, Jean–Baptiste and Le Vigouroux, Sarah and Kop, Jean–Luc and Congard, Anne and Dauvier, Bruno},\n  date = {2017-07-01},\n  journaltitle = {European Journal of Personality},\n  shortjournal = {Eur J Pers},\n  volume = {31},\n  number = {4},\n  pages = {329--346},\n  publisher = {SAGE Publications Ltd},\n  doi = {10.1002/per.2109}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1002/per.2109",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347892",
   "link_to_data": "https://osf.io/s3chz/?view_only=",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/u95vg",

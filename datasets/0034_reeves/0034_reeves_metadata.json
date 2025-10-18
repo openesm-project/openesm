@@ -5,7 +5,7 @@
   "reference_a": "@article{reeves2020,\n  title = {An examination of idiographic networks of posttraumatic stress disorder symptoms},\n  author = {Reeves, Jonathan W. and Fisher, Aaron J.},\n  date = {2020},\n  journaltitle = {Journal of Traumatic Stress},\n  volume = {33},\n  number = {1},\n  pages = {84--95},\n  issn = {1573-6598},\n  doi = {10.1002/jts.22491}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1002/jts.22491",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17348019",
   "link_to_data": "https://osf.io/6vxhf/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/juksb",

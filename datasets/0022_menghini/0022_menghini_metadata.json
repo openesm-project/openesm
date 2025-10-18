@@ -5,7 +5,7 @@
   "reference_a": "@article{menghini2023,\n  title = {Workplace stress in real time},\n  author = {Menghini, Luca and Pastore, Massimiliano and Balducci, Cristian},\n  date = {2023},\n  journaltitle = {European Journal of Psychological Assessment},\n  volume = {39},\n  number = {6},\n  pages = {424--432},\n  publisher = {Hogrefe Publishing},\n  issn = {1015-5759},\n  doi = {10.1027/1015-5759/a000725}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1027/1015-5759/a000725",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347537",
   "link_to_data": "https://github.com/Luca-Menghini/ESMscales-workplaceStress",
   "license": "GPL-3.0",
   "link_to_codebook": "https://osf.io/87a9p/files/osfstorage",

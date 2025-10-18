@@ -5,7 +5,7 @@
   "reference_a": "@article{beck2022,\n  title = {Personalized prediction of behaviors and experiences: {{An}} idiographic person–situation test},\n  shorttitle = {Personalized prediction of behaviors and experiences},\n  author = {Beck, Emorie D. and Jackson, Joshua J.},\n  date = {2022-10},\n  journaltitle = {Psychological Science},\n  shortjournal = {Psychol Sci},\n  volume = {33},\n  number = {10},\n  pages = {1767--1782},\n  issn = {0956-7976, 1467-9280},\n  doi = {10.1177/09567976221093307}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1177/09567976221093307",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17361673",
   "link_to_data": "https://osf.io/8ebyx/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://github.com/emoriebeck/behavior-prediction/tree/main/01-codebooks",

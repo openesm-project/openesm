@@ -5,7 +5,7 @@
   "reference_a": "@article{koval2013,\n  title = {Affect dynamics in relation to depressive symptoms: {{Variable}}, unstable or inert?},\n  shorttitle = {Affect dynamics in relation to depressive symptoms},\n  author = {Koval, Peter and Pe, Madeline L. and Meers, Kristof and Kuppens, Peter},\n  date = {2013-12},\n  journaltitle = {Emotion},\n  shortjournal = {Emotion},\n  volume = {13},\n  number = {6},\n  pages = {1132--1141},\n  doi = {10.1037/a0033579}\n}",
   "reference_b": "@article{dejonckheere2019b,\n  title = {Complex affect dynamics add limited information to the prediction of psychological well-being},\n  author = {Dejonckheere, Egon and Mestdagh, Merijn and Houben, Marlies and Rutten, Isa and Sels, Laura and Kuppens, Peter and Tuerlinckx, Francis},\n  date = {2019-04-15},\n  journaltitle = {Nature Human Behaviour},\n  shortjournal = {Nat Hum Behav},\n  volume = {3},\n  number = {5},\n  pages = {478--491},\n  issn = {2397-3374},\n  doi = {10.1038/s41562-019-0555-0}\n}",
   "paper_doi": "http://doi.org/10.1037/a0033579",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.17347968",
   "link_to_data": "https://osf.io/zm6uw",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",
