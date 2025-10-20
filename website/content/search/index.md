@@ -429,8 +429,13 @@ function getMatchIndicators(dataset, query) {
     }
     function updateCode() {
         const datasetIds = Array.from(selectedDatasets).sort().map(id => `"${id}"`).join(', ');
+        // update code content
         document.getElementById('r-code').textContent = `library(openesm)\ndatasets <- get_dataset(c(${datasetIds}))`;
         document.getElementById('python-code').textContent = `import openesm\ndatasets = openesm.get_dataset([${datasetIds}])`;
+        // trigger papermod's copy button initialization
+        if (window.addCopyButtons) {
+            window.addCopyButtons();
+        }
     }
     function toggleSelectedSection() {
         const content = document.querySelector('.selected-content');
@@ -506,7 +511,7 @@ function getMatchIndicators(dataset, query) {
   padding: 0;
   background: transparent;
 }
-/* Add some better monospace fonts */
+/* some better monospace fonts */
 .code-content { 
   font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', 'Courier New', monospace; 
 }
