@@ -418,46 +418,26 @@ body .main {
   border-color: var(--primary-blue);
 }
 
-/* logo image styling */
-.logo-image {
-  height: 80px; /* independent of header size */
-  width: auto;
-  transition: transform 0.2s ease;
-  vertical-align: center;
-  margin-bottom: -10px;
-  margin-top: -10px;
-}
-
-.logo-image:hover {
-  transform: scale(1.05);
-}
-
+/* logo styling - simple approach */
 .logo a {
-  display: inline-flex;
-  align-items: center;
-}
-
-/* decouple logo size from header height */
-.logo {
   display: flex;
   align-items: center;
-  height: 60px; /* match existing header min-height */
-  overflow: visible; /* allow logo to extend beyond header bounds */
+  gap: 10px;
 }
 
-/* responsive header font size */
+.logo-image {
+  height: 85px;
+  width: auto;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* mobile: hide image, keep text */
 @media (max-width: 768px) {
-  .header .logo,
-  .header .logo a,
-  .header .menu a,
-  .header nav a,
-  header.header .logo,
-  header.header .logo a,
-  header.header .menu a,
-  header.header nav a {
-    font-size: 1rem;
-  }
   .logo-image {
-    height: 90px;
+    display: none;
   }
 }
