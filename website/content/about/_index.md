@@ -40,11 +40,20 @@ openesm.get_dataset("dataset_id")
 For technical details about the data structure and metadata, see our [Documentation]({{< relref "/docs/" >}}).
 
 ## Your resposibility
-While we only include datasets that are openly available, it is your responsibility to ensure that you comply with the terms of use of each dataset. This includes checking for the license information of every dataset you use, as well as ensuring that you have the right to use the data for your intended purpose. We do not take responsibility for any misuse of the datasets or any legal issues that may arise from their use.
-If you use our datasets in your research, please cite the original authors and the OpenESM database. You can find the citation information on each dataset's page. You can cite the OpenESM database using our introduction paper: 
+We built OpenESM as a hopefully useful service to the research community, but we are deeply grateful to the original dataset owners who made their work openly available. It is crucial to properly credit their contributions to ensure that data sharing remains worthwhile and sustainable for the research community.
+
+While we only include datasets that are openly available or for which we have obtained permission for reuse, you are responsible for ensuring compliance with the terms of use of each dataset. This includes checking for the license information of every dataset you use, as well as ensuring that you have the right to use the data for your intended purpose. We do not take responsibility for any misuse of the datasets or any legal issues that may arise from their use.
+
+### How to Cite
+
+When using datasets from OpenESM in your research, please cite:
+
+1. **The original authors** - citation information is provided on each dataset's page. Sometimes, there are multiple relevant publications; please make sure to cite all appropriate sources.
+2. **The OpenESM database** - using our introduction paper:
+
 
 ```markdown
-TODO
+coming soon
 ```
 
 ## How did we create openESM?
