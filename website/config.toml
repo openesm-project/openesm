@@ -69,7 +69,7 @@ theme = "PaperMod"
 # Parameters
 [params]
   description = "Open Experience Sampling Method (ESM) Database"
-  logo = "openesm_icon.svg"
+  logo = "openesm_icon_embedded.svg"
   
   # Default theme (auto, light, dark)
   defaultTheme = "light"

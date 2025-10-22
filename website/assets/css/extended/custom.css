@@ -438,6 +438,6 @@ body .main {
 /* mobile: hide image, keep text */
 @media (max-width: 768px) {
   .logo-image {
-    display: none;
+    display: none !important;
   }
 }

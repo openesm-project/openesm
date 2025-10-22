@@ -7,10 +7,10 @@
 <meta name="robots" content="index, follow">
 <title>Package Documentation | openESM</title>
 <meta name="keywords" content="">
-<meta name="description" content="Using the OpenESM R and Python packages">
+<meta name="description" content="Using the openESM R and Python packages">
 <meta name="author" content="">
 <link rel="canonical" href="https://openesmdata.org/docs/packages/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.4f1c6402dd794e76aa12c1e4f807acccf88ce36df87ebcaf5c2228c339c57c44.css" integrity="sha256-TxxkAt15TnaqEsHk&#43;AeszPiM4234fryvXCIowznFfEQ=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f291d3a9decf04d29562610dd86346734d8182551cf25e059de821b6241ca490.css" integrity="sha256-8pHTqd7PBNKVYmEN2GNGc02BglUc8l4FneghtiQcpJA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://openesmdata.org/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://openesmdata.org/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://openesmdata.org/favicon-32x32.png">
@@ -31,12 +31,12 @@
 </noscript><meta property="og:url" content="https://openesmdata.org/docs/packages/">
   <meta property="og:site_name" content="openESM">
   <meta property="og:title" content="Package Documentation">
-  <meta property="og:description" content="Using the OpenESM R and Python packages">
+  <meta property="og:description" content="Using the openESM R and Python packages">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Package Documentation">
-<meta name="twitter:description" content="Using the OpenESM R and Python packages">
+<meta name="twitter:description" content="Using the openESM R and Python packages">
 
 
 <script type="application/ld+json">
@@ -109,22 +109,66 @@
     Package Documentation
   </h1>
   <div class="post-description">
-    Using the OpenESM R and Python packages
+    Using the openESM R and Python packages
   </div>
 </header>
-<div class="post-content"><h1 id="package-documentation">Package Documentation<a hidden class="anchor" aria-hidden="true" href="#package-documentation">#</a></h1>
-<p>The OpenESM packages provide programmatic access to the dataset collection, making it easy to download, explore, and analyze the data directly from R or Python.</p>
+<div class="post-content"><p>The openESM packages provide programmatic access to the dataset collection, making it easy to download, explore, and analyze the data directly from R or Python.</p>
 <h2 id="r-package">R Package<a hidden class="anchor" aria-hidden="true" href="#r-package">#</a></h2>
 <h3 id="installation">Installation<a hidden class="anchor" aria-hidden="true" href="#installation">#</a></h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Install from GitHub (development version)</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># remotes::install_github(&#34;bsiepe/openesm-r&#34;)</span>
+</span></span><span style="display:flex;"><span>remotes<span style="color:#f92672">::</span><span style="color:#a6e22e">install_github</span>(<span style="color:#e6db74">&#34;openesm-project/openesm-r&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Install from CRAN (release version)</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># install.packages(&#34;openesm&#34;)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;openesm&#34;</span>)
 </span></span></code></pre></div><h2 id="python-package">Python Package<a hidden class="anchor" aria-hidden="true" href="#python-package">#</a></h2>
 <h3 id="installation-1">Installation<a hidden class="anchor" aria-hidden="true" href="#installation-1">#</a></h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Install from PyPI</span>
 </span></span><span style="display:flex;"><span>pip install openesm
+</span></span></code></pre></div><h2 id="getting-started">Getting Started<a hidden class="anchor" aria-hidden="true" href="#getting-started">#</a></h2>
+<p>For detailed guides on how to use the packages, please refer to their respective manuals.
+Both packages share the same core functionality:</p>
+<ul>
+<li>You can list all metadata using <code>list_datasets()</code>. The returned data frame contains key information about each dataset.</li>
+<li>You can download datasets using <code>get_dataset(&quot;dataset_id&quot;)</code>, where <code>&quot;dataset_id&quot;</code> is the unique identifier for the dataset you want to access. You can also specify multiple dataset IDs to download several datasets at once.</li>
+<li>Both packages handle data caching automatically, so datasets are only downloaded once and stored locally for future use.</li>
+<li>Each dataset is returned as a standardized data frame (R) or polars DataFrame (Python), with consistent variable names and formats across studies.</li>
+<li>There are additional functions for obtaining citation information and metadata details.</li>
+</ul>
+<h2 id="example-usage">Example Usage<a hidden class="anchor" aria-hidden="true" href="#example-usage">#</a></h2>
+<p>First, list all available datasets and their metadata:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(openesm)
+</span></span><span style="display:flex;"><span>datasets <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">list_datasets</span>()
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">head</span>(datasets)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> openesm
+</span></span><span style="display:flex;"><span>datasets <span style="color:#f92672">=</span> openesm<span style="color:#f92672">.</span>list_datasets()
+</span></span><span style="display:flex;"><span>print(datasets<span style="color:#f92672">.</span>head())
+</span></span></code></pre></div><p>Then, download one or multiple datasets by their IDs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Download a single dataset</span>
+</span></span><span style="display:flex;"><span>df_example <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_dataset</span>(<span style="color:#e6db74">&#34;0001&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Download multiple datasets</span>
+</span></span><span style="display:flex;"><span>df_multiple <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_dataset</span>(<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;0001&#34;</span>, <span style="color:#e6db74">&#34;0002&#34;</span>, <span style="color:#e6db74">&#34;0003&#34;</span>))
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Download a single dataset</span>
+</span></span><span style="display:flex;"><span>df_example <span style="color:#f92672">=</span> openesm<span style="color:#f92672">.</span>get_dataset(<span style="color:#e6db74">&#34;0001&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Download multiple datasets</span>
+</span></span><span style="display:flex;"><span>df_multiple <span style="color:#f92672">=</span> openesm<span style="color:#f92672">.</span>get_dataset([<span style="color:#e6db74">&#34;0001&#34;</span>, <span style="color:#e6db74">&#34;0002&#34;</span>, <span style="color:#e6db74">&#34;0003&#34;</span>])
+</span></span></code></pre></div><p>Obtain various information about a dataset</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Print general information</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(df_example)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Obtain citation information</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">cite</span>(df_example)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get notes about dataset</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">notes</span>(df_example)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Access the polars DataFrame</span>
+</span></span><span style="display:flex;"><span>print(dataset<span style="color:#f92672">.</span>data)  
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Obtain citation information</span>
+</span></span><span style="display:flex;"><span>print(dataset<span style="color:#f92672">.</span>cite())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Get notes about dataset</span>
+</span></span><span style="display:flex;"><span>print(dataset<span style="color:#f92672">.</span>notes())
 </span></span></code></pre></div>
 
 </div>
