@@ -21,6 +21,7 @@ Once you've found a relevant dataset, use our code generator on the dataset's pa
 **R Package:**
 ```r
 # install if needed: install.packages("openesm")
+# or, current until it is on CRAN: remotes::install_github("bsiepe/openesm")
 openesm::get_dataset("dataset_id")
 ```
 
@@ -52,12 +53,11 @@ When using datasets from OpenESM in your research, please cite:
 2. **The OpenESM database** - using our introduction paper:
 
 
-```markdown
-coming soon
-```
+> Siepe, B. S., Haslbeck, J. M. B., Kloft, M., Büchner, A., Zhang, Y., Fried, E. I., & Heck, D. W. (2025, October 22). Introducing openESM: A database of openly available experience sampling datasets. https://doi.org/10.31234/osf.io/qfdtb_v1
+
 
 ## How did we create openESM?
-More details are available in our [introduction paper](TODO).
+More details are available in our [introduction paper](https://doi.org/10.31234/osf.io/qfdtb_v1).
 
 
 ## Contributors
