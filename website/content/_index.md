@@ -263,7 +263,7 @@ hideposts: true
 <body>
     <div class="hero-section">
         <h1>A database of open experience sampling datasets</h1>
-        <p>openESM is a database of harmonized openly available experience sampling datasets. The platform enables easy reuse of datasets with consistent and detailed metadata standards to facilitate reproducible research.</p>
+        <p>openESM is a database of harmonized openly available experience sampling datasets. The platform enables easy reuse of datasets with consistent and detailed metadata standards to advance reproducible research into daily life.</p>
         <a href="{{< relref "/datasets/" >}}" class="cta-button">Start Exploring Datasets</a>
     </div>
     <div class="stats-section">
