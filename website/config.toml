@@ -91,7 +91,7 @@ theme = "PaperMod"
   mainSections = []
 
   [params.footer]
-  text = "[Privacy](/openesm/privacy/) · [Source code](https://github.com/bsiepe/openesm) · Built by [Björn Siepe](https://bsiepe.github.io) "
+  text = "[Privacy](/privacy/) · [Source code](https://github.com/bsiepe/openesm) · Built by [Björn Siepe](https://bsiepe.github.io) "
   
   # Enable search
   [params.fuseOpts]
