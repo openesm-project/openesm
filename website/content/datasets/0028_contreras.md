@@ -1,6 +1,6 @@
 ---
 title: "Contreras (2020)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -29,11 +29,11 @@ draft: false
 - **Link to Original Data:** [https://osf.io/7tk4b/](https://osf.io/7tk4b/)
 - **Link to Codebook:** [https://osf.io/bkn3y](https://osf.io/bkn3y)
 - **Link to Code:** [https://osf.io/mezgw](https://osf.io/mezgw)
-- **License:** CC-By Attribution 4.0 International
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347605](https://doi.org/10.5281/zenodo.17347605)
 - **R:** `openesm::get_dataset("0028_contreras")`
 - **Python:** `openesm.get_dataset("0028_contreras")`
 

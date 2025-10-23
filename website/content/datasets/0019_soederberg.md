@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -29,11 +29,11 @@ draft: false
 - **Link to Original Data:** [https://doi.org/10.5281/zenodo.13332148](https://doi.org/10.5281/zenodo.13332148)
 - **Link to Codebook:** [https://zenodo.org/records/13332148](https://zenodo.org/records/13332148)
 - **Link to Code:** [null](null)
-- **License:** Creative Commons Attribution 4.0 International
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347732](https://doi.org/10.5281/zenodo.17347732)
 - **R:** `openesm::get_dataset("0019_soederberg")`
 - **Python:** `openesm.get_dataset("0019_soederberg")`
 

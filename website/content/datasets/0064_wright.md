@@ -1,6 +1,6 @@
 ---
 title: "Wright (2017)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -28,14 +28,14 @@ partners)
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/6ghcx/files/osfstorage](https://osf.io/6ghcx/files/osfstorage)
+- **Link to Original Data:** [https://osf.io/6ghcx/](https://osf.io/6ghcx/)
 - **Link to Codebook:** [-](-)
-- **Link to Code:** [https://osf.io/6ghcx/files/osfstorage](https://osf.io/6ghcx/files/osfstorage)
+- **Link to Code:** [https://osf.io/6ghcx](https://osf.io/6ghcx)
 - **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348495](https://doi.org/10.5281/zenodo.17348495)
 - **R:** `openesm::get_dataset("0064_wright")`
 - **Python:** `openesm.get_dataset("0064_wright")`
 

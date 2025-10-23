@@ -1,6 +1,6 @@
 ---
 title: "Westhoff (2024)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -29,11 +29,11 @@ draft: false
 - **Link to Original Data:** [https://doi.org/10.1038/s41598-024-58598-3](https://doi.org/10.1038/s41598-024-58598-3)
 - **Link to Codebook:** [-](-)
 - **Link to Code:** [https://osf.io/ejtzs/](https://osf.io/ejtzs/)
-- **License:** CC-BY4.0
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347510](https://doi.org/10.5281/zenodo.17347510)
 - **R:** `openesm::get_dataset("0008_westhoff")`
 - **Python:** `openesm.get_dataset("0008_westhoff")`
 
@@ -69,8 +69,8 @@ No changes yet.
 | end_date | End of survey | PosixCt |  |  |  |  |  | ESM |  |  |
 | duration_in_seconds | Duration of survey | numeric |  |  |  |  |  | ESM |  |  |
 | finished | Finished survey | binary | 2 |  | NA = no<br>1 = yes |  |  | ESM |  |  |
-| negative_affect_behavior | negative affect behavior | rating_scale | 101 | I am not finding an appropriate outlet for my emotions. | 0 = fully disagree<br>100 = fully agree |  | Process-Based Assessment Tool (PBAT) | ESM | emotion regulation | item does not seem to measure affect (as indicated by authors) but rather emotion regulation |
-| positive_affect_behavior | positive affect behavior | rating_scale | 101 | I am able to experience a range of emotions appropriate to the moment. | 0 = fully disagree<br>100 = fully agree |  | Process-Based Assessment Tool (PBAT) | ESM | emotion regulation | item does not seem to measure affect (as indicated by authors) but rather emotion regulation |
+| negative_affect_behavior | negative affect behavior | rating_scale | 101 | I am not finding an appropriate outlet for my emotions. | 0 = fully disagree<br>100 = fully agree |  | Process-Based Assessment Tool (PBAT) | ESM | emotion regulation | we categorized the item as emotion regulation instead of affect (as done by the authors) |
+| positive_affect_behavior | positive affect behavior | rating_scale | 101 | I am able to experience a range of emotions appropriate to the moment. | 0 = fully disagree<br>100 = fully agree |  | Process-Based Assessment Tool (PBAT) | ESM | emotion regulation | we categorized the item as emotion regulation instead of affect (as done by the authors) |
 | negative_cognition_behavior | negative cognition behavior | rating_scale | 101 | My thinking is getting in the way of things that are important to me. | 0 = fully disagree<br>100 = fully agree |  | Process-Based Assessment Tool (PBAT) | ESM | intrusive thinking, cognitive control, executive functioning, self-regulation |  |
 | positive_cognition_behavior | positive cognition behavior | rating_scale | 101 | I am using my thinking in ways that help me live better. | 0 = fully disagree<br>100 = fully agree |  | Process-Based Assessment Tool (PBAT) | ESM | adaptive thinking, cognitive control, executive functioning, self-regulation |  |
 | negative_attention_behavior | negative attention behavior | rating_scale | 101 | I am struggling to connect with the present moment. | 0 = fully disagree<br>100 = fully agree |  | Process-Based Assessment Tool (PBAT) | ESM | mindfulness, executive functioning |  |

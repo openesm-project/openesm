@@ -1,6 +1,6 @@
 ---
 title: "Hoebeke (2022)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -29,11 +29,11 @@ draft: false
 - **Link to Original Data:** [https://osf.io/dngyk/](https://osf.io/dngyk/)
 - **Link to Codebook:** [https://osf.io/wj6xn](https://osf.io/wj6xn)
 - **Link to Code:** [https://osf.io/dngyk/](https://osf.io/dngyk/)
-- **License:** CC-BY4.0
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347619](https://doi.org/10.5281/zenodo.17347619)
 - **R:** `openesm::get_dataset("0013_hoebeke")`
 - **Python:** `openesm.get_dataset("0013_hoebeke")`
 

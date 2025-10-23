@@ -1,6 +1,6 @@
 ---
 title: "Geschwind (2013)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347473](https://doi.org/10.5281/zenodo.17347473)
 - **R:** `openesm::get_dataset("0010_geschwind")`
 - **Python:** `openesm.get_dataset("0010_geschwind")`
 
@@ -68,7 +68,7 @@ No changes yet.
 | study_period | Study period | binary | 2 |  | 0 = six-day baseline period before mindfulness therapy (therapy group only)<br>1 = six-day post-baseline period after mindfulness therapy (therapy group only) |  |  | ESM |  |  |
 | cheerful | Cheerful | rating_scale | 7 | I feel cheerful | 1 = not at all<br>7 = very |  |  | ESM | cheerfulness, positive affect, affect |  |
 | pleasantness | Pleasantness of event | rating_scale | 8 | Pleasantness of the most important event that happened between the current and the previous response | -4 = unclear<br>3 = unclear |  |  | ESM | event pleasantness, daily event,  activity, context | Labels and wording not fully clear, but original article states that "High pleasantness thus reflected high skill, low effort, low preference for doing something else, and high enjoyment of the activity" |
-| worried | worried | rating_scale | 7 | I feel worried | 1 = not at all<br>7 = very |  |  | ESM | worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five |  |
+| worried | worried | rating_scale | 7 | I feel worried | 1 = not at all<br>7 = very |  |  | ESM | worry, anxiety, negative affect, affect, neuroticism, big five |  |
 | fearful | Fearful | rating_scale | 7 | I feel fearful | 1 = not at all<br>7 = very |  |  | ESM | fearfulness, negative affect, affect, neuroticism, big five |  |
 | sad | Sad | rating_scale | 7 | I feel sad | 1 = not at all<br>7 = very |  |  | ESM | sadness, negative affect, affect |  |
 | relaxed | Relaxed | rating_scale | 7 | I feel relaxed | 1 = not at all<br>7 = very |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |

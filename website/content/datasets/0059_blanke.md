@@ -1,6 +1,6 @@
 ---
 title: "Blanke (2020)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -24,7 +24,7 @@ draft: false
 
 ## Data Availability
 
-- **Cross-sectional Data:** yes
+- **Cross-sectional Data:** no
 - **Passive Sensor Data:** no
 - **Link to Original Data:** [https://osf.io/nvt6a/](https://osf.io/nvt6a/)
 - **Link to Codebook:** [https://osf.io/v2am8](https://osf.io/v2am8)
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347911](https://doi.org/10.5281/zenodo.17347911)
 - **R:** `openesm::get_dataset("0059_blanke")`
 - **Python:** `openesm.get_dataset("0059_blanke")`
 

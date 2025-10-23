@@ -1,6 +1,6 @@
 ---
 title: "Scharbert (2023)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/8f3yu/files/osfstorage](https://osf.io/8f3yu/files/osfstorage)
+- **Link to Original Data:** [https://osf.io/8f3yu](https://osf.io/8f3yu)
 - **Link to Codebook:** [https://osf.io/nfkze](https://osf.io/nfkze)
 - **Link to Code:** [https://osf.io/z9y5b](https://osf.io/z9y5b)
-- **License:** CC-By Attribution 4.0 International
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348583](https://doi.org/10.5281/zenodo.17348583)
 - **R:** `openesm::get_dataset("0071_scharbert")`
 - **Python:** `openesm.get_dataset("0071_scharbert")`
 

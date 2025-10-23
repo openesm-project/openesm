@@ -4873,7 +4873,7 @@
         "source": "Process-Based Assessment Tool (PBAT)",
         "assessment_type": "ESM",
         "construct": "emotion regulation",
-        "comments": "item does not seem to measure affect (as indicated by authors) but rather emotion regulation"
+        "comments": "we categorized the item as emotion regulation instead of affect (as done by the authors)"
       },
       {
         "name": "positive_affect_behavior",
@@ -4887,7 +4887,7 @@
         "source": "Process-Based Assessment Tool (PBAT)",
         "assessment_type": "ESM",
         "construct": "emotion regulation",
-        "comments": "item does not seem to measure affect (as indicated by authors) but rather emotion regulation"
+        "comments": "we categorized the item as emotion regulation instead of affect (as done by the authors)"
       },
       {
         "name": "negative_cognition_behavior",
@@ -5383,7 +5383,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five",
+        "construct": "worry, anxiety, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -5622,7 +5622,7 @@
         "source": "",
         "assessment_type": "ESM",
         "construct": "",
-        "comments": "Did not see this in the data file"
+        "comments": ""
       },
       {
         "name": "beep",
@@ -5650,7 +5650,7 @@
         "source": "",
         "assessment_type": "ESM",
         "construct": "",
-        "comments": "Did not see this in the data file"
+        "comments": ""
       },
       {
         "name": "happy",
@@ -5964,7 +5964,7 @@
     "topics": "Parkinson, affect, motor symptoms, context",
     "participants": "patients with Parkinson disease",
     "sampling_scheme": "7x/day semi-random",
-    "cross_sectional_available": "yes",
+    "cross_sectional_available": "no",
     "passive_data_available": "yes",
     "raw_time_stamp": "yes",
     "additional_comments": "some variables only morning/evening; no beep information available",
@@ -8001,7 +8001,7 @@
     "topics": "social interactions, personality states, personality",
     "participants": "employees of research center",
     "sampling_scheme": "3x/day fixed schedule",
-    "cross_sectional_available": "yes",
+    "cross_sectional_available": "no",
     "passive_data_available": "yes",
     "raw_time_stamp": "yes",
     "additional_comments": "no beep information available; six-week duration, but only workdays were included",
@@ -9818,7 +9818,7 @@
     "passive_data_available": "yes",
     "raw_time_stamp": "no",
     "additional_comments": "no beep and day information available; sample 1 of the cited paper; only a subset of days was shared",
-    "reference_text": "Elmer, Timon Fernández, Aurelio Stadel, Marie Kas, Martien Langener, Anna M. Bidirectional associations between smartphone usage momentary well-being in young adults: {{Tackling ",
+    "reference_text": "Elmer, Timon Fernández, Aurelio Stadel, Marie Kas, Martien J. H. Langener, Anna M. Bidirectional associations between smartphone usage momentary well-being in young adults: {{Tackling Emotion ",
     "n_participants": 225,
     "n_time_points": 50,
     "n_days": "10",
@@ -10486,7 +10486,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "irritability, anxiety, psychopathology, negative affect, affect",
+        "construct": "irritability, anxiety, negative affect, affect",
         "comments": ""
       },
       {
@@ -11109,7 +11109,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "irritability, negative affect, affect, neuroticism, big five, psychopathology",
+        "construct": "irritability, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -11123,7 +11123,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "restlessness, fidgety, anxiety, negative affect, affect, psychopathology",
+        "construct": "restlessness, fidgety, anxiety, negative affect, affect",
         "comments": ""
       },
       {
@@ -11137,7 +11137,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five",
+        "construct": "worry, anxiety, negative affect, affect, neuroticism, big five",
         "comments": ""
       },
       {
@@ -12971,7 +12971,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "restlessness, fidgety, anxiety, negative affect, affect, psychopathology",
+        "construct": "restlessness, fidgety, anxiety, negative affect, affect",
         "comments": ""
       },
       {
@@ -15470,7 +15470,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "irritability, anxiety, psychopathology, negative affect, affect",
+        "construct": "irritability, anxiety, negative affect, affect",
         "comments": ""
       },
       {
@@ -21261,7 +21261,7 @@
     "topics": "mindfulness, reflection, affect, well-being, emotion regulation",
     "participants": "students",
     "sampling_scheme": "6x/day within self-selected 12hr timeframe",
-    "cross_sectional_available": "yes",
+    "cross_sectional_available": "no",
     "passive_data_available": "no",
     "raw_time_stamp": "yes",
     "additional_comments": "study 1 in the paper",

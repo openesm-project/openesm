@@ -1,6 +1,6 @@
 ---
 title: "Grommisch (2020)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347621](https://doi.org/10.5281/zenodo.17347621)
 - **R:** `openesm::get_dataset("0032_grommisch")`
 - **Python:** `openesm.get_dataset("0032_grommisch")`
 

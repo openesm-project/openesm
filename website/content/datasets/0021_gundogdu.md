@@ -1,6 +1,6 @@
 ---
 title: "Gundogdu (2017)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -24,16 +24,16 @@ draft: false
 
 ## Data Availability
 
-- **Cross-sectional Data:** yes
+- **Cross-sectional Data:** no
 - **Passive Sensor Data:** yes
 - **Link to Original Data:** [https://doi.org/10.5061/dryad.b88c7](https://doi.org/10.5061/dryad.b88c7)
 - **Link to Codebook:** [https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage](https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage)
 - **Link to Code:** [https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics](https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics)
-- **License:** Creative Commons Zero v1.0 Universal
+- **License:** CC0 1.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347760](https://doi.org/10.5281/zenodo.17347760)
 - **R:** `openesm::get_dataset("0021_gundogdu")`
 - **Python:** `openesm.get_dataset("0021_gundogdu")`
 

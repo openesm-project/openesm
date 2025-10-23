@@ -1,6 +1,6 @@
 ---
 title: "Fernández (2025)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347879](https://doi.org/10.5281/zenodo.17347879)
 - **R:** `openesm::get_dataset("0026_fernandez")`
 - **Python:** `openesm.get_dataset("0026_fernandez")`
 
@@ -44,7 +44,7 @@ no beep and day information available; sample 1 of the cited paper; only a subse
 
 ## Citation
 
-Elmer, T., Fernández, A., Stadel, M., Kas, M., & Langener, A. M. (2023, December 5). Bidirectional associations between smartphone usage and momentary well-being in young adults: Tackling methodological challenges by combining experience sampling methods with passive smartphone data. https://doi.org/10.31234/osf.io/uj6df
+Elmer, T., Fernández, A., Stadel, M., Kas, M. J. H., & Langener, A. M. (2025). Bidirectional associations between smartphone usage and momentary well-being in young adults: Tackling methodological challenges by combining experience sampling methods with passive smartphone data. Emotion, 25(5), 1065–1078. https://doi.org/10.1037/emo0001485
 
 
 

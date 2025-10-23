@@ -1,6 +1,6 @@
 ---
 title: "Ringwald (2024)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** no
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/unvp8/files/osfstorage](https://osf.io/unvp8/files/osfstorage)
+- **Link to Original Data:** [https://osf.io/unvp8](https://osf.io/unvp8)
 - **Link to Codebook:** not available
-- **Link to Code:** [https://osf.io/unvp8/files/osfstorage](https://osf.io/unvp8/files/osfstorage)
+- **Link to Code:** [https://osf.io/unvp8](https://osf.io/unvp8)
 - **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348284](https://doi.org/10.5281/zenodo.17348284)
 - **R:** `openesm::get_dataset("0046_ringwald")`
 - **Python:** `openesm.get_dataset("0046_ringwald")`
 

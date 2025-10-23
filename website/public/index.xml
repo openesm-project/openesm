@@ -6,12 +6,12 @@
     <description>Recent content in OpenESM: Open Experience Sampling Method Database on openESM</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://openesmdata.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bailon (2020)</title>
       <link>https://openesmdata.org/datasets/0018_bailon/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0018_bailon/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -37,11 +37,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;http://doi.org/10.5281/zenodo.3774526&#34;&gt;http://doi.org/10.5281/zenodo.3774526&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/records/4024141&#34;&gt;https://zenodo.org/records/4024141&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; Creative Commons Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347690&#34;&gt;10.5281/zenodo.17347690&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0018_bailon&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0018_bailon&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -51,7 +51,7 @@
     <item>
       <title>Bar-Kalifa (2020)</title>
       <link>https://openesmdata.org/datasets/0047_barkalifa/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0047_barkalifa/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -91,7 +91,7 @@
     <item>
       <title>Bar-Kalifa (2020)</title>
       <link>https://openesmdata.org/datasets/0048_barkalifa/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0048_barkalifa/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -131,7 +131,7 @@
     <item>
       <title>Beck (2022)</title>
       <link>https://openesmdata.org/datasets/0060_beck/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0060_beck/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -161,7 +161,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17361673&#34;&gt;10.5281/zenodo.17361673&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0060_beck&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0060_beck&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -171,7 +171,7 @@
     <item>
       <title>Blanke (2020)</title>
       <link>https://openesmdata.org/datasets/0059_blanke/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0059_blanke/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -192,7 +192,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nvt6a/&#34;&gt;https://osf.io/nvt6a/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v2am8&#34;&gt;https://osf.io/v2am8&lt;/a&gt;&lt;/li&gt;
@@ -201,7 +201,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347911&#34;&gt;10.5281/zenodo.17347911&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0059_blanke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0059_blanke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -211,7 +211,7 @@
     <item>
       <title>Bosley (2019)</title>
       <link>https://openesmdata.org/datasets/0036_bosley/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0036_bosley/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -241,7 +241,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348118&#34;&gt;10.5281/zenodo.17348118&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0036_bosley&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0036_bosley&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -251,7 +251,7 @@
     <item>
       <title>Contreras (2020)</title>
       <link>https://openesmdata.org/datasets/0028_contreras/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0028_contreras/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -277,11 +277,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/7tk4b/&#34;&gt;https://osf.io/7tk4b/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/bkn3y&#34;&gt;https://osf.io/bkn3y&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mezgw&#34;&gt;https://osf.io/mezgw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347605&#34;&gt;10.5281/zenodo.17347605&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0028_contreras&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0028_contreras&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -291,7 +291,7 @@
     <item>
       <title>Dejonckheere (2019)</title>
       <link>https://openesmdata.org/datasets/0012_dejonckheere/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0012_dejonckheere/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -317,11 +317,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664&#34;&gt;https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/487eg&#34;&gt;https://osf.io/487eg&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/02699931.2018.1524747#supplemental-material-section&#34;&gt;https://www.tandfonline.com/doi/full/10.1080/02699931.2018.1524747#supplemental-material-section&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347569&#34;&gt;10.5281/zenodo.17347569&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0012_dejonckheere&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0012_dejonckheere&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -331,7 +331,7 @@
     <item>
       <title>Dora (2024)</title>
       <link>https://openesmdata.org/datasets/0023_dora/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0023_dora/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -357,11 +357,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/rh2sw/&#34;&gt;https://osf.io/rh2sw/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/zy639&#34;&gt;https://osf.io/zy639&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/zy639&#34;&gt;https://osf.io/zy639&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0i&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347813&#34;&gt;10.5281/zenodo.17347813&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0023_dora&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0023_dora&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -371,7 +371,7 @@
     <item>
       <title>Drukker (2020)</title>
       <link>https://openesmdata.org/datasets/0029_drukker/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0029_drukker/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -401,7 +401,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347944&#34;&gt;10.5281/zenodo.17347944&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0029_drukker&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0029_drukker&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -411,7 +411,7 @@
     <item>
       <title>Fernández (2025)</title>
       <link>https://openesmdata.org/datasets/0026_fernandez/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0026_fernandez/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -441,7 +441,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347879&#34;&gt;10.5281/zenodo.17347879&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0026_fernandez&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0026_fernandez&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -451,7 +451,7 @@
     <item>
       <title>Fisher (2017)</title>
       <link>https://openesmdata.org/datasets/0033_fisher/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0033_fisher/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -481,7 +481,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348038&#34;&gt;10.5281/zenodo.17348038&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0033_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0033_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -491,7 +491,7 @@
     <item>
       <title>Fisher (2019)</title>
       <link>https://openesmdata.org/datasets/0037_fisher/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0037_fisher/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -521,7 +521,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348069&#34;&gt;10.5281/zenodo.17348069&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0037_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0037_fisher&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -531,7 +531,7 @@
     <item>
       <title>Flueckiger (2014)</title>
       <link>https://openesmdata.org/datasets/0015_flueckiger/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0015_flueckiger/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -561,7 +561,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347647&#34;&gt;10.5281/zenodo.17347647&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0015_flueckiger&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0015_flueckiger&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -571,7 +571,7 @@
     <item>
       <title>Fried (2021)</title>
       <link>https://openesmdata.org/datasets/0001_fried/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0001_fried/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -597,11 +597,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mvdpe/&#34;&gt;https://osf.io/mvdpe/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mx87b&#34;&gt;https://osf.io/mx87b&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/mvdpe/&#34;&gt;https://osf.io/mvdpe/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5072/zenodo.308201&#34;&gt;10.5072/zenodo.308201&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347269&#34;&gt;10.5281/zenodo.17347269&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0001_fried&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0001_fried&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -611,7 +611,7 @@
     <item>
       <title>Gainey (2023)</title>
       <link>https://openesmdata.org/datasets/0058_gainey/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0058_gainey/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -634,14 +634,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x/files/osfstorage&#34;&gt;https://osf.io/gct7x/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x/files/osfstorage&#34;&gt;https://osf.io/gct7x/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x/&#34;&gt;https://osf.io/gct7x/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x&#34;&gt;https://osf.io/gct7x&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/gct7x/files/osfstorage&#34;&gt;https://osf.io/gct7x/files/osfstorage&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348369&#34;&gt;10.5281/zenodo.17348369&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0058_gainey&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0058_gainey&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -651,7 +651,7 @@
     <item>
       <title>Geschwind (2013)</title>
       <link>https://openesmdata.org/datasets/0010_geschwind/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0010_geschwind/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -681,7 +681,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347473&#34;&gt;10.5281/zenodo.17347473&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0010_geschwind&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0010_geschwind&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -691,7 +691,7 @@
     <item>
       <title>Grommisch (2020)</title>
       <link>https://openesmdata.org/datasets/0032_grommisch/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0032_grommisch/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -721,7 +721,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347621&#34;&gt;10.5281/zenodo.17347621&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0032_grommisch&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0032_grommisch&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -731,7 +731,7 @@
     <item>
       <title>Gundogdu (2017)</title>
       <link>https://openesmdata.org/datasets/0021_gundogdu/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0021_gundogdu/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -752,16 +752,16 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5061/dryad.b88c7&#34;&gt;https://doi.org/10.5061/dryad.b88c7&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage&#34;&gt;https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics&#34;&gt;https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; Creative Commons Zero v1.0 Universal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC0 1.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347760&#34;&gt;10.5281/zenodo.17347760&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0021_gundogdu&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0021_gundogdu&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -771,7 +771,7 @@
     <item>
       <title>Habets (2020)</title>
       <link>https://openesmdata.org/datasets/0014_habets/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0014_habets/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -792,7 +792,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.34894/5HHK8H&#34;&gt;https://doi.org/10.34894/5HHK8H&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://dataverse.nl/file.xhtml?fileId=36289&amp;amp;version=2.0&#34;&gt;https://dataverse.nl/file.xhtml?fileId=36289&amp;amp;version=2.0&lt;/a&gt;&lt;/li&gt;
@@ -801,7 +801,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347440&#34;&gt;10.5281/zenodo.17347440&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0014_habets&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0014_habets&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -811,7 +811,7 @@
     <item>
       <title>Hasselhorn (2021)</title>
       <link>https://openesmdata.org/datasets/0024_hasselhorn/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0024_hasselhorn/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -841,7 +841,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347856&#34;&gt;10.5281/zenodo.17347856&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0024_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0024_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -851,7 +851,7 @@
     <item>
       <title>Hasselhorn (2021)</title>
       <link>https://openesmdata.org/datasets/0025_hasselhorn/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0025_hasselhorn/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -881,7 +881,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347567&#34;&gt;10.5281/zenodo.17347567&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0025_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0025_hasselhorn&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -891,7 +891,7 @@
     <item>
       <title>Hawks (2023)</title>
       <link>https://openesmdata.org/datasets/0003_hawks/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0003_hawks/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -921,7 +921,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347389&#34;&gt;10.5281/zenodo.17347389&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0003_hawks&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0003_hawks&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -931,7 +931,7 @@
     <item>
       <title>Hensel (2023)</title>
       <link>https://openesmdata.org/datasets/0066_hensel/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0066_hensel/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -961,7 +961,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348001&#34;&gt;10.5281/zenodo.17348001&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0066_hensel&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0066_hensel&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -971,7 +971,7 @@
     <item>
       <title>Hoebeke (2022)</title>
       <link>https://openesmdata.org/datasets/0013_hoebeke/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0013_hoebeke/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -997,11 +997,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dngyk/&#34;&gt;https://osf.io/dngyk/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/wj6xn&#34;&gt;https://osf.io/wj6xn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dngyk/&#34;&gt;https://osf.io/dngyk/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347619&#34;&gt;10.5281/zenodo.17347619&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0013_hoebeke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0013_hoebeke&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1011,7 +1011,7 @@
     <item>
       <title>Jang (2024)</title>
       <link>https://openesmdata.org/datasets/0017_jang/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0017_jang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1037,11 +1037,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/records/14190139&#34;&gt;https://zenodo.org/records/14190139&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-024-04147-6/MediaObjects/41597_2024_4147_MOESM1_ESM.pdf&#34;&gt;https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-024-04147-6/MediaObjects/41597_2024_4147_MOESM1_ESM.pdf&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://github.com/DigitalHealthcareLab/24PanicPrediction&#34;&gt;https://github.com/DigitalHealthcareLab/24PanicPrediction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CCI 4.0&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347469&#34;&gt;10.5281/zenodo.17347469&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0017_jang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0017_jang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1051,7 +1051,7 @@
     <item>
       <title>Johannes (2021)</title>
       <link>https://openesmdata.org/datasets/0051_johannes/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0051_johannes/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1077,11 +1077,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/ps3rk/files&#34;&gt;https://osf.io/ps3rk/files&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/xf2pq/&#34;&gt;https://osf.io/xf2pq/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/ps3rk/files&#34;&gt;https://osf.io/ps3rk/files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348348&#34;&gt;10.5281/zenodo.17348348&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0051_johannes&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0051_johannes&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1091,7 +1091,7 @@
     <item>
       <title>Koval (2013)</title>
       <link>https://openesmdata.org/datasets/0031_koval/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0031_koval/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1121,7 +1121,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347968&#34;&gt;10.5281/zenodo.17347968&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0031_koval&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0031_koval&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1131,7 +1131,7 @@
     <item>
       <title>Kuczynski (2018)</title>
       <link>https://openesmdata.org/datasets/0039_kuczynski/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0039_kuczynski/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1161,7 +1161,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347657&#34;&gt;10.5281/zenodo.17347657&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0039_kuczynski&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0039_kuczynski&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1171,7 +1171,7 @@
     <item>
       <title>Kullar (2023)</title>
       <link>https://openesmdata.org/datasets/0045_kullar/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0045_kullar/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1201,7 +1201,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347798&#34;&gt;10.5281/zenodo.17347798&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0045_kullar&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0045_kullar&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1211,7 +1211,7 @@
     <item>
       <title>Kuppens (2016)</title>
       <link>https://openesmdata.org/datasets/0011_kuppens/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0011_kuppens/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1241,7 +1241,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347412&#34;&gt;10.5281/zenodo.17347412&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0011_kuppens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0011_kuppens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1251,7 +1251,7 @@
     <item>
       <title>Marian (2022)</title>
       <link>https://openesmdata.org/datasets/0052_marian/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0052_marian/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1274,14 +1274,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/pt9dk/files/osfstorage&#34;&gt;https://osf.io/pt9dk/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/pt9dk&#34;&gt;https://osf.io/pt9dk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/r85q6&#34;&gt;https://osf.io/r85q6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/pt9dk/files/osfstorage&#34;&gt;https://osf.io/pt9dk/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/pt9dk&#34;&gt;https://osf.io/pt9dk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348267&#34;&gt;10.5281/zenodo.17348267&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0052_marian&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0052_marian&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1291,7 +1291,7 @@
     <item>
       <title>Menghini (2023)</title>
       <link>https://openesmdata.org/datasets/0022_menghini/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0022_menghini/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1321,7 +1321,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347537&#34;&gt;10.5281/zenodo.17347537&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0022_menghini&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0022_menghini&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1331,7 +1331,7 @@
     <item>
       <title>Merolla (2022)</title>
       <link>https://openesmdata.org/datasets/0061_merolla/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0061_merolla/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1356,12 +1356,12 @@
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nts94/&#34;&gt;https://osf.io/nts94/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nts94/files/osfstorage&#34;&gt;https://osf.io/nts94/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nts94&#34;&gt;https://osf.io/nts94&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348441&#34;&gt;10.5281/zenodo.17348441&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0061_merolla&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0061_merolla&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1371,7 +1371,7 @@
     <item>
       <title>Mostajabi (2024)</title>
       <link>https://openesmdata.org/datasets/0042_mostajabi/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0042_mostajabi/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1394,14 +1394,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/&#34;&gt;https://osf.io/dcfb5/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/agmcx&#34;&gt;https://osf.io/dcfb5/files/agmcx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5&#34;&gt;https://osf.io/dcfb5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347765&#34;&gt;10.5281/zenodo.17347765&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0042_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0042_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1411,7 +1411,7 @@
     <item>
       <title>Mostajabi (2024)</title>
       <link>https://openesmdata.org/datasets/0043_mostajabi/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0043_mostajabi/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1434,14 +1434,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5&#34;&gt;https://osf.io/dcfb5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/agmcx&#34;&gt;https://osf.io/dcfb5/files/agmcx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5&#34;&gt;https://osf.io/dcfb5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348182&#34;&gt;10.5281/zenodo.17348182&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0043_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0043_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1451,7 +1451,7 @@
     <item>
       <title>Mostajabi (2024)</title>
       <link>https://openesmdata.org/datasets/0044_mostajabi/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0044_mostajabi/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1474,14 +1474,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/osfstorage&#34;&gt;https://osf.io/dcfb5/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5&#34;&gt;https://osf.io/dcfb5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5/files/agmcx&#34;&gt;https://osf.io/dcfb5/files/agmcx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/dcfb5&#34;&gt;https://osf.io/dcfb5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17386028&#34;&gt;10.5281/zenodo.17386028&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0044_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0044_mostajabi&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1491,7 +1491,7 @@
     <item>
       <title>Nepal (2024)</title>
       <link>https://openesmdata.org/datasets/0040_nepal/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0040_nepal/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1521,7 +1521,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348144&#34;&gt;10.5281/zenodo.17348144&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0040_nepal&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0040_nepal&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1531,7 +1531,7 @@
     <item>
       <title>Nestler (2022)</title>
       <link>https://openesmdata.org/datasets/0002_nestler/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0002_nestler/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1561,7 +1561,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347328&#34;&gt;10.5281/zenodo.17347328&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0002_nestler&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0002_nestler&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1571,7 +1571,7 @@
     <item>
       <title>Neubauer (2020)</title>
       <link>https://openesmdata.org/datasets/0072_neubauer/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0072_neubauer/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1594,14 +1594,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/wcerj/files/osfstorage&#34;&gt;https://osf.io/wcerj/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/wcerj/&#34;&gt;https://osf.io/wcerj/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/tyc32&#34;&gt;https://osf.io/tyc32&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/et869&#34;&gt;https://osf.io/et869&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17361778&#34;&gt;10.5281/zenodo.17361778&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0072_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0072_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1611,7 +1611,7 @@
     <item>
       <title>Neubauer (2024)</title>
       <link>https://openesmdata.org/datasets/0062_neubauer/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0062_neubauer/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1634,14 +1634,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/bhq3p/files/osfstorage&#34;&gt;https://osf.io/bhq3p/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/bhq3p&#34;&gt;https://osf.io/bhq3p&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/csfwg&#34;&gt;https://osf.io/csfwg&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/84kdr/files&#34;&gt;https://osf.io/84kdr/files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347974&#34;&gt;10.5281/zenodo.17347974&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0062_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0062_neubauer&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1651,7 +1651,7 @@
     <item>
       <title>Pavani (2017)</title>
       <link>https://openesmdata.org/datasets/0027_pavani/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0027_pavani/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1681,7 +1681,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347892&#34;&gt;10.5281/zenodo.17347892&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0027_pavani&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0027_pavani&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1691,7 +1691,7 @@
     <item>
       <title>Pronizius (2024)</title>
       <link>https://openesmdata.org/datasets/0049_pronizius/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0049_pronizius/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1716,12 +1716,12 @@
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/&#34;&gt;https://osf.io/6n5zj/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/4tpvd&#34;&gt;https://osf.io/4tpvd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/files/osfstorage&#34;&gt;https://osf.io/6n5zj/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj&#34;&gt;https://osf.io/6n5zj&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348222&#34;&gt;10.5281/zenodo.17348222&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0049_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0049_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1731,7 +1731,7 @@
     <item>
       <title>Pronizius (2024)</title>
       <link>https://openesmdata.org/datasets/0050_pronizius/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0050_pronizius/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1756,12 +1756,12 @@
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/&#34;&gt;https://osf.io/6n5zj/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/4tpvd&#34;&gt;https://osf.io/4tpvd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj/files/osfstorage&#34;&gt;https://osf.io/6n5zj/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6n5zj&#34;&gt;https://osf.io/6n5zj&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347819&#34;&gt;10.5281/zenodo.17347819&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0050_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0050_pronizius&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1771,7 +1771,7 @@
     <item>
       <title>Reeves (2020)</title>
       <link>https://openesmdata.org/datasets/0034_reeves/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0034_reeves/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1801,7 +1801,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348019&#34;&gt;10.5281/zenodo.17348019&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0034_reeves&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0034_reeves&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1811,7 +1811,7 @@
     <item>
       <title>Ringwald (2024)</title>
       <link>https://openesmdata.org/datasets/0046_ringwald/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0046_ringwald/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1834,14 +1834,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; no&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/unvp8/files/osfstorage&#34;&gt;https://osf.io/unvp8/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/unvp8&#34;&gt;https://osf.io/unvp8&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/unvp8/files/osfstorage&#34;&gt;https://osf.io/unvp8/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/unvp8&#34;&gt;https://osf.io/unvp8&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348284&#34;&gt;10.5281/zenodo.17348284&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0046_ringwald&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0046_ringwald&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1851,7 +1851,7 @@
     <item>
       <title>Rowland (2020)</title>
       <link>https://openesmdata.org/datasets/0006_rowland/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0006_rowland/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1881,7 +1881,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347351&#34;&gt;10.5281/zenodo.17347351&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0006_rowland&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0006_rowland&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1891,7 +1891,7 @@
     <item>
       <title>Ryvkina (2023)</title>
       <link>https://openesmdata.org/datasets/0056_ryvkina/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0056_ryvkina/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1917,7 +1917,7 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
@@ -1931,7 +1931,7 @@
     <item>
       <title>Ryvkina (2023)</title>
       <link>https://openesmdata.org/datasets/0057_ryvkina/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0057_ryvkina/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1957,11 +1957,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6kzx3/&#34;&gt;https://osf.io/6kzx3/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17361657&#34;&gt;10.5281/zenodo.17361657&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0057_ryvkina&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0057_ryvkina&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1971,7 +1971,7 @@
     <item>
       <title>Scharbert (2023)</title>
       <link>https://openesmdata.org/datasets/0071_scharbert/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0071_scharbert/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1994,14 +1994,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8f3yu/files/osfstorage&#34;&gt;https://osf.io/8f3yu/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8f3yu&#34;&gt;https://osf.io/8f3yu&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/nfkze&#34;&gt;https://osf.io/nfkze&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/z9y5b&#34;&gt;https://osf.io/z9y5b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348583&#34;&gt;10.5281/zenodo.17348583&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0071_scharbert&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0071_scharbert&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2011,7 +2011,7 @@
     <item>
       <title>Söderberg (2024)</title>
       <link>https://openesmdata.org/datasets/0019_soederberg/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0019_soederberg/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2037,11 +2037,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.13332148&#34;&gt;https://doi.org/10.5281/zenodo.13332148&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/records/13332148&#34;&gt;https://zenodo.org/records/13332148&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;null&#34;&gt;null&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; Creative Commons Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347732&#34;&gt;10.5281/zenodo.17347732&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0019_soederberg&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0019_soederberg&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2051,7 +2051,7 @@
     <item>
       <title>Soyster (2022)</title>
       <link>https://openesmdata.org/datasets/0035_soyster/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0035_soyster/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2081,7 +2081,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347645&#34;&gt;10.5281/zenodo.17347645&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0035_soyster&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0035_soyster&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2091,7 +2091,7 @@
     <item>
       <title>Stevens (2020)</title>
       <link>https://openesmdata.org/datasets/0053_stevens/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0053_stevens/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2121,7 +2121,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347854&#34;&gt;10.5281/zenodo.17347854&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0053_stevens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0053_stevens&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2131,7 +2131,7 @@
     <item>
       <title>Tammilehto (2022)</title>
       <link>https://openesmdata.org/datasets/0054_tammilehto/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0054_tammilehto/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2154,14 +2154,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/e8423/files/osfstorage&#34;&gt;https://osf.io/e8423/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/e8423&#34;&gt;https://osf.io/e8423&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/u59nd/files/&#34;&gt;https://osf.io/u59nd/files/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/u59nd/files/&#34;&gt;https://osf.io/u59nd/files/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-By Attribution 4.0 International&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17361509&#34;&gt;10.5281/zenodo.17361509&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0054_tammilehto&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0054_tammilehto&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2171,7 +2171,7 @@
     <item>
       <title>van Halem (2020)</title>
       <link>https://openesmdata.org/datasets/0070_vanhalem/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0070_vanhalem/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2194,14 +2194,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; yes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&#34;&gt;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v4qh9/&#34;&gt;https://osf.io/v4qh9/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v8sa7&#34;&gt;https://osf.io/v8sa7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&#34;&gt;https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/v4qh9/&#34;&gt;https://osf.io/v4qh9/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348032&#34;&gt;10.5281/zenodo.17348032&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0070_vanhalem&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0070_vanhalem&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2211,7 +2211,7 @@
     <item>
       <title>van Woerkom (2022)</title>
       <link>https://openesmdata.org/datasets/0063_vanwoerkom/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0063_vanwoerkom/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2234,14 +2234,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/k98pt/files/&#34;&gt;https://osf.io/k98pt/files/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/k98pt/&#34;&gt;https://osf.io/k98pt/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/k98pt/files/&#34;&gt;https://osf.io/k98pt/files/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17361708&#34;&gt;10.5281/zenodo.17361708&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0063_vanwoerkom&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0063_vanwoerkom&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2251,7 +2251,7 @@
     <item>
       <title>Wang (2014)</title>
       <link>https://openesmdata.org/datasets/0004_wang/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0004_wang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2281,7 +2281,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347425&#34;&gt;10.5281/zenodo.17347425&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0004_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0004_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2291,7 +2291,7 @@
     <item>
       <title>Wang (2016)</title>
       <link>https://openesmdata.org/datasets/0005_wang/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0005_wang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2321,7 +2321,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347402&#34;&gt;10.5281/zenodo.17347402&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0005_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0005_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2331,7 +2331,7 @@
     <item>
       <title>Wang (2024)</title>
       <link>https://openesmdata.org/datasets/0055_wang/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0055_wang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2354,14 +2354,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&#34;&gt;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8jhuk&#34;&gt;https://osf.io/8jhuk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&#34;&gt;https://osf.io/8jhuk/files/osfstorage?view_only=32c209abc9164e698da7c6479e6d4e52&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/8jhuk&#34;&gt;https://osf.io/8jhuk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348326&#34;&gt;10.5281/zenodo.17348326&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0055_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0055_wang&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2371,7 +2371,7 @@
     <item>
       <title>Westhoff (2024)</title>
       <link>https://openesmdata.org/datasets/0008_westhoff/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0008_westhoff/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2397,11 +2397,11 @@
 &lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1038/s41598-024-58598-3&#34;&gt;https://doi.org/10.1038/s41598-024-58598-3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/ejtzs/&#34;&gt;https://osf.io/ejtzs/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY4.0&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC-BY 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17347510&#34;&gt;10.5281/zenodo.17347510&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0008_westhoff&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0008_westhoff&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2411,7 +2411,7 @@
     <item>
       <title>Wright (2017)</title>
       <link>https://openesmdata.org/datasets/0064_wright/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0064_wright/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2436,14 +2436,14 @@ partners)&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6ghcx/files/osfstorage&#34;&gt;https://osf.io/6ghcx/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6ghcx/&#34;&gt;https://osf.io/6ghcx/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; &lt;a href=&#34;-&#34;&gt;-&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6ghcx/files/osfstorage&#34;&gt;https://osf.io/6ghcx/files/osfstorage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/6ghcx&#34;&gt;https://osf.io/6ghcx&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; CC BY-NC 4.0&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348495&#34;&gt;10.5281/zenodo.17348495&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0064_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0064_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2453,7 +2453,7 @@ partners)&lt;/li&gt;
     <item>
       <title>Wright (2019)</title>
       <link>https://openesmdata.org/datasets/0041_wright/</link>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0041_wright/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2483,7 +2483,7 @@ partners)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.5281/zenodo.17348148&#34;&gt;10.5281/zenodo.17348148&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0041_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0041_wright&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;

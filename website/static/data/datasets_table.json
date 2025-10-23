@@ -174,7 +174,7 @@
     "n_days": "14",
     "n_beeps_per_day": "7",
     "n_variables": 48,
-    "cross_sectional_available": "yes",
+    "cross_sectional_available": "no",
     "passive_data_available": "yes",
     "raw_time_stamp": "yes",
     "url": "/datasets/0014_habets/"
@@ -249,7 +249,7 @@
     "n_days": "30",
     "n_beeps_per_day": "3",
     "n_variables": 10,
-    "cross_sectional_available": "yes",
+    "cross_sectional_available": "no",
     "passive_data_available": "yes",
     "raw_time_stamp": "yes",
     "url": "/datasets/0021_gundogdu/"
@@ -787,7 +787,7 @@
     "n_days": "9",
     "n_beeps_per_day": "6",
     "n_variables": 22,
-    "cross_sectional_available": "yes",
+    "cross_sectional_available": "no",
     "passive_data_available": "no",
     "raw_time_stamp": "yes",
     "url": "/datasets/0059_blanke/"

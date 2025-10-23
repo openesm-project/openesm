@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -29,11 +29,11 @@ draft: false
 - **Link to Original Data:** [https://osf.io/mvdpe/](https://osf.io/mvdpe/)
 - **Link to Codebook:** [https://osf.io/mx87b](https://osf.io/mx87b)
 - **Link to Code:** [https://osf.io/mvdpe/](https://osf.io/mvdpe/)
-- **License:** CC-BY4.0
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** [10.5072/zenodo.308201](https://doi.org/10.5072/zenodo.308201)
+- **Zenodo DOI:** [10.5281/zenodo.17347269](https://doi.org/10.5281/zenodo.17347269)
 - **R:** `openesm::get_dataset("0001_fried")`
 - **Python:** `openesm.get_dataset("0001_fried")`
 

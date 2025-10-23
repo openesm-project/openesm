@@ -1,6 +1,6 @@
 ---
 title: "Gainey (2023)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/gct7x/files/osfstorage](https://osf.io/gct7x/files/osfstorage)
-- **Link to Codebook:** [https://osf.io/gct7x/files/osfstorage](https://osf.io/gct7x/files/osfstorage)
+- **Link to Original Data:** [https://osf.io/gct7x/](https://osf.io/gct7x/)
+- **Link to Codebook:** [https://osf.io/gct7x](https://osf.io/gct7x)
 - **Link to Code:** [https://osf.io/gct7x/files/osfstorage](https://osf.io/gct7x/files/osfstorage)
 - **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348369](https://doi.org/10.5281/zenodo.17348369)
 - **R:** `openesm::get_dataset("0058_gainey")`
 - **Python:** `openesm.get_dataset("0058_gainey")`
 

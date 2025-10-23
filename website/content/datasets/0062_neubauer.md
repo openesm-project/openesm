@@ -1,6 +1,6 @@
 ---
 title: "Neubauer (2024)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/bhq3p/files/osfstorage](https://osf.io/bhq3p/files/osfstorage)
+- **Link to Original Data:** [https://osf.io/bhq3p](https://osf.io/bhq3p)
 - **Link to Codebook:** [https://osf.io/csfwg](https://osf.io/csfwg)
 - **Link to Code:** [https://osf.io/84kdr/files](https://osf.io/84kdr/files)
-- **License:** CC-By Attribution 4.0 International
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347974](https://doi.org/10.5281/zenodo.17347974)
 - **R:** `openesm::get_dataset("0062_neubauer")`
 - **Python:** `openesm.get_dataset("0062_neubauer")`
 

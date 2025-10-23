@@ -1,6 +1,6 @@
 ---
 title: "Koval (2013)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347968](https://doi.org/10.5281/zenodo.17347968)
 - **R:** `openesm::get_dataset("0031_koval")`
 - **Python:** `openesm.get_dataset("0031_koval")`
 

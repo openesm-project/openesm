@@ -1,6 +1,6 @@
 ---
 title: "Mostajabi (2024)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/dcfb5/files/osfstorage](https://osf.io/dcfb5/files/osfstorage)
-- **Link to Codebook:** [https://osf.io/dcfb5/files/osfstorage](https://osf.io/dcfb5/files/osfstorage)
-- **Link to Code:** [https://osf.io/dcfb5/files/osfstorage](https://osf.io/dcfb5/files/osfstorage)
+- **Link to Original Data:** [https://osf.io/dcfb5](https://osf.io/dcfb5)
+- **Link to Codebook:** [https://osf.io/dcfb5/files/agmcx](https://osf.io/dcfb5/files/agmcx)
+- **Link to Code:** [https://osf.io/dcfb5](https://osf.io/dcfb5)
 - **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348182](https://doi.org/10.5281/zenodo.17348182)
 - **R:** `openesm::get_dataset("0043_mostajabi")`
 - **Python:** `openesm.get_dataset("0043_mostajabi")`
 

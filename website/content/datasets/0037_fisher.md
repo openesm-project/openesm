@@ -1,6 +1,6 @@
 ---
 title: "Fisher (2019)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348069](https://doi.org/10.5281/zenodo.17348069)
 - **R:** `openesm::get_dataset("0037_fisher")`
 - **Python:** `openesm.get_dataset("0037_fisher")`
 
@@ -65,7 +65,7 @@ No changes yet.
 | cigs | Number of cigarettes | rating_scale |  | Number of cigarettes smoked since the previous survey |  |  |  | ESM |  |  |
 | angry | Angry | rating_scale | 101 | I feel angry | 0 = not at all<br>100 = as much as possible |  |  | ESM | anger, negative affect, affect |  |
 | hungry | Hungry | rating_scale | 101 | I feel hungry | 0 = not at all<br>100 = as much as possible |  |  | ESM | hunger, biological |  |
-| restless | Restless | rating_scale | 101 | I feel restless | 0 = not at all<br>100 = as much as possible |  |  | ESM | restlessness, fidgety, anxiety, negative affect, affect, psychopathology |  |
+| restless | Restless | rating_scale | 101 | I feel restless | 0 = not at all<br>100 = as much as possible |  |  | ESM | restlessness, fidgety, anxiety, negative affect, affect |  |
 | down | Down | rating_scale | 101 | I feel down or depressed | 0 = not at all<br>100 = as much as possible |  |  | ESM | negative affect, affect |  |
 | bored | Bored | rating_scale | 101 | I feel bored | 0 = not at all<br>100 = as much as possible |  |  | ESM | boredom, negative affect, affect |  |
 | stressed | Stressed | rating_scale | 101 | I feel stressed | 0 = not at all<br>100 = as much as possible |  |  | ESM | stress, negative affect, affect |  |

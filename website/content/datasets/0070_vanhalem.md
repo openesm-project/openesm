@@ -1,6 +1,6 @@
 ---
 title: "van Halem (2020)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** yes
-- **Link to Original Data:** [https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686](https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686)
+- **Link to Original Data:** [https://osf.io/v4qh9/](https://osf.io/v4qh9/)
 - **Link to Codebook:** [https://osf.io/v8sa7](https://osf.io/v8sa7)
-- **Link to Code:** [https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686](https://osf.io/v4qh9/files/osfstorage?view_only=054234b95e454a7db553e38d0490f686)
+- **Link to Code:** [https://osf.io/v4qh9/](https://osf.io/v4qh9/)
 - **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348032](https://doi.org/10.5281/zenodo.17348032)
 - **R:** `openesm::get_dataset("0070_vanhalem")`
 - **Python:** `openesm.get_dataset("0070_vanhalem")`
 

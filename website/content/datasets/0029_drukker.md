@@ -1,6 +1,6 @@
 ---
 title: "Drukker (2020)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347944](https://doi.org/10.5281/zenodo.17347944)
 - **R:** `openesm::get_dataset("0029_drukker")`
 - **Python:** `openesm.get_dataset("0029_drukker")`
 
@@ -59,7 +59,7 @@ No changes yet.
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | enthusiastic | Enthusiastic | rating_scale | 7 | I feel enthusiastic | 1 = not at all<br>7 = extremely |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
 | down | Feeling down | rating_scale | 7 | I feel down | 1 = not at all<br>7 = extremely |  |  | ESM | negative affect, affect |  |
-| irritated | Irritated | rating_scale | 7 | I feel irritated | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, psychopathology, negative affect, affect |  |
+| irritated | Irritated | rating_scale | 7 | I feel irritated | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, negative affect, affect |  |
 | rushed | Rushed | rating_scale | 7 | I feel rushed | 1 = not at all<br>7 = extremely |  |  | ESM | negative affect, affect |  |
 | happy | Happy | rating_scale | 7 | I feel happy | 1 = not at all<br>7 = extremely |  |  | ESM | happiness, positive affect, affect |  |
 | cheerful | Cheerful | rating_scale | 7 | I feel cheerful | 1 = not at all<br>7 = extremely |  |  | ESM | cheerfulness, positive affect, affect |  |

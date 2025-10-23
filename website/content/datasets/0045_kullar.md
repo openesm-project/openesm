@@ -1,6 +1,6 @@
 ---
 title: "Kullar (2023)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347798](https://doi.org/10.5281/zenodo.17347798)
 - **R:** `openesm::get_dataset("0045_kullar")`
 - **Python:** `openesm.get_dataset("0045_kullar")`
 
@@ -64,7 +64,7 @@ No changes yet.
 | emotion_chronometry | Emotion duration | numeric |  | Estimate of how long current emotional state lasted in minutes |  |  |  | ESM | affect, time scale |  |
 | enthusiastic | Enthusiastic | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
 | happy | Happy | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | happiness, positive affect, affect |  |
-| irritated | Irritated | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, psychopathology, negative affect, affect |  |
+| irritated | Irritated | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, negative affect, affect |  |
 | mind_wandering | Mind wandering | binary | 2 | wording unclear, but roughly: Are you thinking about anything else other than what you are currently doing? | 0 = no<br>1 = yes |  |  | ESM | mindfulness, distraction, mindwandering |  |
 | nervous | Nervous | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
 | pleased | Pleased | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | pleased, positive affect, affect |  |

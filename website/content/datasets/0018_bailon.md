@@ -1,6 +1,6 @@
 ---
 title: "Bailon (2020)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -29,11 +29,11 @@ draft: false
 - **Link to Original Data:** [http://doi.org/10.5281/zenodo.3774526](http://doi.org/10.5281/zenodo.3774526)
 - **Link to Codebook:** [https://zenodo.org/records/4024141](https://zenodo.org/records/4024141)
 - **Link to Code:** [null](null)
-- **License:** Creative Commons Attribution 4.0 International
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347690](https://doi.org/10.5281/zenodo.17347690)
 - **R:** `openesm::get_dataset("0018_bailon")`
 - **Python:** `openesm.get_dataset("0018_bailon")`
 

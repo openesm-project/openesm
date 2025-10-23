@@ -1,6 +1,6 @@
 ---
 title: "van Woerkom (2022)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/k98pt/files/](https://osf.io/k98pt/files/)
+- **Link to Original Data:** [https://osf.io/k98pt/](https://osf.io/k98pt/)
 - **Link to Codebook:** not available
 - **Link to Code:** [https://osf.io/k98pt/files/](https://osf.io/k98pt/files/)
 - **License:** CC BY-NC 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17361708](https://doi.org/10.5281/zenodo.17361708)
 - **R:** `openesm::get_dataset("0063_vanwoerkom")`
 - **Python:** `openesm.get_dataset("0063_vanwoerkom")`
 

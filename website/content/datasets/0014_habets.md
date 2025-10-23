@@ -1,6 +1,6 @@
 ---
 title: "Habets (2020)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -24,7 +24,7 @@ draft: false
 
 ## Data Availability
 
-- **Cross-sectional Data:** yes
+- **Cross-sectional Data:** no
 - **Passive Sensor Data:** yes
 - **Link to Original Data:** [https://doi.org/10.34894/5HHK8H](https://doi.org/10.34894/5HHK8H)
 - **Link to Codebook:** [https://dataverse.nl/file.xhtml?fileId=36289&version=2.0](https://dataverse.nl/file.xhtml?fileId=36289&version=2.0)
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17347440](https://doi.org/10.5281/zenodo.17347440)
 - **R:** `openesm::get_dataset("0014_habets")`
 - **Python:** `openesm.get_dataset("0014_habets")`
 

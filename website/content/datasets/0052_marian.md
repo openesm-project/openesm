@@ -1,6 +1,6 @@
 ---
 title: "Marian (2022)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -26,14 +26,14 @@ draft: false
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/pt9dk/files/osfstorage](https://osf.io/pt9dk/files/osfstorage)
+- **Link to Original Data:** [https://osf.io/pt9dk](https://osf.io/pt9dk)
 - **Link to Codebook:** [https://osf.io/r85q6](https://osf.io/r85q6)
-- **Link to Code:** [https://osf.io/pt9dk/files/osfstorage](https://osf.io/pt9dk/files/osfstorage)
-- **License:** CC-By Attribution 4.0 International
+- **Link to Code:** [https://osf.io/pt9dk](https://osf.io/pt9dk)
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348267](https://doi.org/10.5281/zenodo.17348267)
 - **R:** `openesm::get_dataset("0052_marian")`
 - **Python:** `openesm.get_dataset("0052_marian")`
 

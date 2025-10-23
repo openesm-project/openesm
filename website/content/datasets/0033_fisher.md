@@ -1,6 +1,6 @@
 ---
 title: "Fisher (2017)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -33,7 +33,7 @@ draft: false
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348038](https://doi.org/10.5281/zenodo.17348038)
 - **R:** `openesm::get_dataset("0033_fisher")`
 - **Python:** `openesm.get_dataset("0033_fisher")`
 
@@ -65,9 +65,9 @@ No changes yet.
 | energetic | Energetic | rating_scale | 101 | To what degree have you felt energetic? | 0 = none at all<br>100 = as much as possible |  |  | ESM | energy, positive affect, affect, big five, extraversion |  |
 | enthusiastic | Enthusiastic | rating_scale | 101 | To what degree have you felt enthusiastic? | 0 = none at all<br>100 = as much as possible |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
 | content | Content | rating_scale | 101 | To what degree have you felt content? | 0 = none at all<br>100 = as much as possible |  |  | ESM | content, positive affect, affect |  |
-| irritable | Irritable | rating_scale | 101 | To what degree have you felt irritable? | 0 = none at all<br>100 = as much as possible |  |  | ESM | irritability, negative affect, affect, neuroticism, big five, psychopathology |  |
-| restless | Restless | rating_scale | 101 | To what degree have you felt restless? | 0 = none at all<br>100 = as much as possible |  |  | ESM | restlessness, fidgety, anxiety, negative affect, affect, psychopathology |  |
-| worried | Worried | rating_scale | 101 | To what degree have you felt worried? | 0 = none at all<br>100 = as much as possible |  |  | ESM | worry, anxiety, psychopathology, negative affect, affect, neuroticism, big five |  |
+| irritable | Irritable | rating_scale | 101 | To what degree have you felt irritable? | 0 = none at all<br>100 = as much as possible |  |  | ESM | irritability, negative affect, affect, neuroticism, big five |  |
+| restless | Restless | rating_scale | 101 | To what degree have you felt restless? | 0 = none at all<br>100 = as much as possible |  |  | ESM | restlessness, fidgety, anxiety, negative affect, affect |  |
+| worried | Worried | rating_scale | 101 | To what degree have you felt worried? | 0 = none at all<br>100 = as much as possible |  |  | ESM | worry, anxiety, negative affect, affect, neuroticism, big five |  |
 | guilty | Guilty/Worthless | rating_scale | 101 | To what degree have you felt worthless or guilty? | 0 = none at all<br>100 = as much as possible |  |  | ESM | guilt, negative affect, affect |  |
 | afraid | Afraid | rating_scale | 101 | To what degree have you felt frightened or afraid? | 0 = none at all<br>100 = as much as possible |  |  | ESM | fear, negative affect, affect, neuroticism, big five |  |
 | anhedonia | Anhedonia | rating_scale | 101 | To what degree have you experienced loss of interest or pleasure? | 0 = none at all<br>100 = as much as possible |  |  | ESM | anhedonia, depression, psychopathology |  |

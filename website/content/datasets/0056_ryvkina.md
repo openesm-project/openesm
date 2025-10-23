@@ -1,6 +1,6 @@
 ---
 title: "Ryvkina (2023)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -29,7 +29,7 @@ draft: false
 - **Link to Original Data:** [https://osf.io/6kzx3/](https://osf.io/6kzx3/)
 - **Link to Codebook:** [https://osf.io/6kzx3/](https://osf.io/6kzx3/)
 - **Link to Code:** [https://osf.io/6kzx3/](https://osf.io/6kzx3/)
-- **License:** CC-By Attribution 4.0 International
+- **License:** CC-BY 4.0
 
 ## Data Access
 

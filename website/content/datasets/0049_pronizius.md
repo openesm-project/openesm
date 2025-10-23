@@ -1,6 +1,6 @@
 ---
 title: "Pronizius (2024)"
-date: 2025-10-01
+date: 2025-10-23
 draft: false
 ---
 
@@ -28,12 +28,12 @@ draft: false
 - **Passive Sensor Data:** no
 - **Link to Original Data:** [https://osf.io/6n5zj/](https://osf.io/6n5zj/)
 - **Link to Codebook:** [https://osf.io/4tpvd](https://osf.io/4tpvd)
-- **Link to Code:** [https://osf.io/6n5zj/files/osfstorage](https://osf.io/6n5zj/files/osfstorage)
-- **License:** CC-By Attribution 4.0 International
+- **Link to Code:** [https://osf.io/6n5zj](https://osf.io/6n5zj)
+- **License:** CC-BY 4.0
 
 ## Data Access
 
-- **Zenodo DOI:** not available
+- **Zenodo DOI:** [10.5281/zenodo.17348222](https://doi.org/10.5281/zenodo.17348222)
 - **R:** `openesm::get_dataset("0049_pronizius")`
 - **Python:** `openesm.get_dataset("0049_pronizius")`
 
