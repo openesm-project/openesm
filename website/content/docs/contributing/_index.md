@@ -2,11 +2,11 @@
 title: "Contribute"
 ---
 
-We welcome contributions to the OpenESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure. 
+We welcome contributions to the openESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure. 
 
 # Adding a New Dataset
 
-If you have a dataset that you would like to add to the OpenESM database, you can simply contact us. In the early stages of the project, we are happy to add datasets that meet our inclusion criteria ourselves. We then aim to continuously improve the process of adding datasets to the OpenESM database, so that you can add datasets yourself in the future.
+If you have a dataset that you would like to add to the openESM database, you can simply contact us. In the early stages of the project, we are happy to add datasets that meet our inclusion criteria ourselves. We then aim to continuously improve the process of adding datasets to the openESM database, so that you can add datasets yourself in the future.
 
 Alternatively, you can follow these steps to add a new dataset:
 
@@ -17,7 +17,7 @@ Before contributing, please ensure:
 - You can provide basic metadata about the study design and variables
 
 1. Open an issue on the [metadata GitHub repository](https://github.com/bsiepe/openesm-metadata) to discuss the dataset you want to add. Provide a brief description of the dataset, its relevance, and any preliminary metadata you have.
-2. If the dataset meets our inclusion criteria (see our [Data Documentation]({{< relref "docs/data/" >}}) for more information), we will guide you through the process of adding it to the OpenESM database.
+2. If the dataset meets our inclusion criteria (see our [Data Documentation]({{< relref "docs/data/" >}}) for more information), we will guide you through the process of adding it to the openESM database.
 3. Prepare your dataset in TSV format, following our formatting guidelines (see below).
 4. Create a dataset metadata file following our standard format. An example metadata file is provided below.
    - Include all relevant information about the dataset, such as authors, year, number of participants, time points, and topics covered.
@@ -45,7 +45,7 @@ Where:
 
 #### Column Names
 - Apply consistent naming: Use `snake_case` format (lowercase with underscores). In R, you can use `janitor::clean_names()` to standardize column names.
-- Replace ambiguous names like "Q1" with descriptive names like "stressed". Orient yourself at other variable names in the OpenESM database.
+- Replace ambiguous names like "Q1" with descriptive names like "stressed". Orient yourself at other variable names in the openESM database.
 - Ensure variable names are informative and self-explanatory.
 
 #### Required Standard Columns
@@ -247,7 +247,7 @@ If you find errors or have suggestions for existing datasets, please follow thes
 3. Submit a pull request with your changes.
 
 # Improving the Software Infrastructure
-If you have ideas for improving the OpenESM software infrastructure, such as the website or data processing scripts, we welcome your contributions. Please follow these steps:
+If you have ideas for improving the openESM software infrastructure, such as the website or data processing scripts, we welcome your contributions. Please follow these steps:
 1. Open an issue on the openESM GitHub repository for the website or metadata. Open an issue in the respective software package repositories to improve the software infrastructure.
 2. Fork the repository and make your changes.
 3. Submit a pull request with a clear description of your changes and their benefits.

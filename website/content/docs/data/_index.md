@@ -1,10 +1,10 @@
 ---
 title: "Data Documentation"
-description: "Understanding OpenESM datasets and metadata"
+description: "Understanding openESM datasets and metadata"
 ---
 
 
-This section covers everything you need to know about the OpenESM datasets and metadata, their structure, and how to work with them effectively.
+This section covers everything you need to know about the openESM datasets and metadata, their structure, and how to work with them effectively.
 
 # Datasets
 
@@ -41,7 +41,7 @@ The dataset metadata are stored in the metadata `.json` file of the dataset. It 
 Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication. Typically, there are multiple individuals involved in the data collection, but we only list the first author of either the publication or the dataset. All individuals who contributed to the reference are listed in the relevant publication. If you think that we missed someone who should be listed here, please let us know.
 
 #### Dataset ID
-Unique dataset identifier used throughout the OpenESM database (e.g., "0001", "0002"). This ID is used in folder names and file references. This ID is not fully consecutive, as we have did not include some datasets that we found in our initial search.
+Unique dataset identifier used throughout the openESM database (e.g., "0001", "0002"). This ID is used in folder names and file references. This ID is not fully consecutive, as we have did not include some datasets that we found in our initial search.
 
 #### Year
 Year when the data collection took place. This may differ from the publication year.

@@ -9,7 +9,7 @@ We came together to create an open database of experience sampling datasets prim
 
 ## Getting Started
 
-Getting started with OpenESM is straightforward. Follow these steps to find and use datasets:
+Getting started with openESM is straightforward. Follow these steps to find and use datasets:
 
 ### 1. Explore Available Datasets
 - **Browse all datasets**: Visit our [Datasets]({{< relref "/datasets/" >}}) page to see the complete overview table with key information about each study
@@ -35,22 +35,22 @@ openesm.get_dataset("dataset_id")
 ### 3. Download and Use Responsibly
 - The packages will automatically download the standardized dataset files
 - **Check licensing**: Each dataset page contains specific license information - ensure you comply with these terms
-- **Cite properly**: Use the provided citation information for both the original study and the OpenESM database
+- **Cite properly**: Use the provided citation information for both the original study and the openESM database
 - **Review documentation**: Each dataset includes detailed variable descriptions and methodology information
 
 For technical details about the data structure and metadata, see our [Documentation]({{< relref "/docs/" >}}).
 
 ## Your resposibility
-We built OpenESM as a hopefully useful service to the research community, but we are deeply grateful to the original dataset owners who made their work openly available. It is crucial to properly credit their contributions to ensure that data sharing remains worthwhile and sustainable for the research community.
+We built openESM as a hopefully useful service to the research community, but we are deeply grateful to the original dataset owners who made their work openly available. It is crucial to properly credit their contributions to ensure that data sharing remains worthwhile and sustainable for the research community.
 
 While we only include datasets that are openly available or for which we have obtained permission for reuse, you are responsible for ensuring compliance with the terms of use of each dataset. This includes checking for the license information of every dataset you use, as well as ensuring that you have the right to use the data for your intended purpose. We do not take responsibility for any misuse of the datasets or any legal issues that may arise from their use.
 
 ### How to Cite
 
-When using datasets from OpenESM in your research, please cite:
+When using datasets from openESM in your research, please cite:
 
 1. **The original authors** - citation information is provided on each dataset's page. Sometimes, there are multiple relevant publications; please make sure to cite all appropriate sources.
-2. **The OpenESM database** - using our introduction paper:
+2. **The openESM database** - using our introduction paper:
 
 
 > Siepe, B. S., Haslbeck, J. M. B., Kloft, M., Büchner, A., Zhang, Y., Fried, E. I., & Heck, D. W. (2025, October 22). Introducing openESM: A database of openly available experience sampling datasets. https://doi.org/10.31234/osf.io/qfdtb_v1
@@ -71,7 +71,7 @@ Our team includes:
 - Eiko I. Fried (Leiden University)
 - Daniel W. Heck (Marburg University)
 
-We are grateful for all researchers who have contributed datasets to the OpenESM database. If you would like to contribute your own dataset, please refer to our [Contributing Guide]({{< relref "docs/contributing/" >}}).
+We are grateful for all researchers who have contributed datasets to the openESM database. If you would like to contribute your own dataset, please refer to our [Contributing Guide]({{< relref "docs/contributing/" >}}).
 
 ## Contact us
 If you have any questions, suggestions, or feedback, please feel free to reach out to us at bjoernsiepe+openesm[at]gmail.com. We are always happy to hear from you and will try to continuously improve the openESM database.

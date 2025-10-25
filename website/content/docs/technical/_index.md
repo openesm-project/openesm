@@ -3,11 +3,11 @@ title: "Technical Documentation"
 description: "System architecture and technical implementation details"
 ---
 
-This section covers the technical aspects of how OpenESM works, including infrastructure, workflows, and system architecture.
+This section covers the technical aspects of how openESM works, including infrastructure, workflows, and system architecture.
 
 ## System Architecture
 
-OpenESM uses a static site generator approach with the following components:
+openESM uses a static site generator approach with the following components:
 
 - **Hugo static site generator** - Builds the website from markdown files
 - **GitHub Pages** - Hosts the static website
