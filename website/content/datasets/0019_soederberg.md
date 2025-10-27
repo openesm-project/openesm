@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2025-10-23
+date: 2025-10-27
 draft: false
 ---
 

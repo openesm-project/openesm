@@ -482,7 +482,7 @@
   {
     "dataset_id": "0039_kuczynski",
     "first_author": "Kuczynski",
-    "year": 2018,
+    "year": 2021,
     "topics": "loneliness, depression, affect, social interaction",
     "n_participants": 515,
     "n_time_points": 75,
@@ -598,34 +598,6 @@
     "passive_data_available": "no",
     "raw_time_stamp": "no",
     "url": "/datasets/0046_ringwald/"
-  },
-  {
-    "dataset_id": "0047_barkalifa",
-    "first_author": "Bar-Kalifa",
-    "year": 2020,
-    "topics": "relationships, emotion dynamics, interpersonal, mood, relationship satisfaction",
-    "n_participants": 80,
-    "n_time_points": 35,
-    "n_beeps_per_day": "1",
-    "n_variables": 11,
-    "cross_sectional_available": "yes",
-    "passive_data_available": "no",
-    "raw_time_stamp": "no",
-    "url": "/datasets/0047_barkalifa/"
-  },
-  {
-    "dataset_id": "0048_barkalifa",
-    "first_author": "Bar-Kalifa",
-    "year": 2020,
-    "topics": "relationships, emotion dynamics, interpersonal, mood, relationship satisfaction, pregnancy, childbirth",
-    "n_participants": 100,
-    "n_time_points": 21,
-    "n_beeps_per_day": "1",
-    "n_variables": 11,
-    "cross_sectional_available": "yes",
-    "passive_data_available": "no",
-    "raw_time_stamp": "no",
-    "url": "/datasets/0048_barkalifa/"
   },
   {
     "dataset_id": "0049_pronizius",

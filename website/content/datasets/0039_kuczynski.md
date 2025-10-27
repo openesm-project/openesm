@@ -1,6 +1,6 @@
 ---
-title: "Kuczynski (2018)"
-date: 2025-10-23
+title: "Kuczynski (2021)"
+date: 2025-10-27
 draft: false
 ---
 
@@ -8,7 +8,7 @@ draft: false
 ## Study Information
 
 - **First Author:** Kuczynski
-- **Year:** 2018
+- **Year:** 2021
 - **Paper DOI:** [https://doi.org/10.1177/02654075211045717](https://doi.org/10.1177/02654075211045717)
 - **Topics:** loneliness, depression, affect, social interaction
 
@@ -39,7 +39,7 @@ draft: false
 
 ## Additional Comments
 
-variable coding partially unclear
+variable coding partially unclear; 1.0.1: changed publication year to 2021
 
 
 ## Citation

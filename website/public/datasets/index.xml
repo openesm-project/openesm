@@ -6,12 +6,12 @@
     <description>Recent content in Datasets on openESM</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://openesmdata.org/datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bailon (2020)</title>
       <link>https://openesmdata.org/datasets/0018_bailon/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0018_bailon/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -49,89 +49,9 @@
 &lt;p&gt;no beep information available; number of max. time points taken as maximum of observations in data&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bar-Kalifa (2020)</title>
-      <link>https://openesmdata.org/datasets/0047_barkalifa/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://openesmdata.org/datasets/0047_barkalifa/</guid>
-      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Bar-Kalifa&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1080/00273171.2019.1624147&#34;&gt;https://doi.org/10.1080/00273171.2019.1624147&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; relationships, emotion dynamics, interpersonal, mood, relationship satisfaction&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 80 (heterosexual Israeli couples)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 35&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; undefined&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day in the evening 1 hour before sleep, or completing the next day&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; not specified&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0047_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0047_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
-&lt;p&gt;sample 1 in the paper, six individuals pre-excluded by authors due to missingness&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bar-Kalifa (2020)</title>
-      <link>https://openesmdata.org/datasets/0048_barkalifa/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://openesmdata.org/datasets/0048_barkalifa/</guid>
-      <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Bar-Kalifa&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2020&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1080/00273171.2019.1624147&#34;&gt;https://doi.org/10.1080/00273171.2019.1624147&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; relationships, emotion dynamics, interpersonal, mood, relationship satisfaction, pregnancy, childbirth&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-characteristics&#34;&gt;Data Characteristics&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Participants:&lt;/strong&gt; 100 (heterosexual Israeli couples expecting a child (not twins))&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time Points:&lt;/strong&gt; 21&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Days:&lt;/strong&gt; undefined&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beeps per Day:&lt;/strong&gt; 1&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sampling Scheme:&lt;/strong&gt; 1x/day in the evening 1 hour before sleep, or completing the next day&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Raw Timestamp:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Implicit Missingness:&lt;/strong&gt; unclear&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-availability&#34;&gt;Data Availability&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cross-sectional Data:&lt;/strong&gt; yes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Passive Sensor Data:&lt;/strong&gt; no&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Original Data:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Codebook:&lt;/strong&gt; not available&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Link to Code:&lt;/strong&gt; &lt;a href=&#34;https://osf.io/c3zp2/files/osfstorage&#34;&gt;https://osf.io/c3zp2/files/osfstorage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;License:&lt;/strong&gt; not specified&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-access&#34;&gt;Data Access&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zenodo DOI:&lt;/strong&gt; not available&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; &lt;code&gt;openesm::get_dataset(&amp;quot;0048_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0048_barkalifa&amp;quot;)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
-&lt;p&gt;sample 2 in the paper, eight pre-excluded by authors due to missingnes&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Beck (2022)</title>
       <link>https://openesmdata.org/datasets/0060_beck/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0060_beck/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -171,7 +91,7 @@
     <item>
       <title>Blanke (2020)</title>
       <link>https://openesmdata.org/datasets/0059_blanke/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0059_blanke/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -211,7 +131,7 @@
     <item>
       <title>Bosley (2019)</title>
       <link>https://openesmdata.org/datasets/0036_bosley/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0036_bosley/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -251,7 +171,7 @@
     <item>
       <title>Contreras (2020)</title>
       <link>https://openesmdata.org/datasets/0028_contreras/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0028_contreras/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -291,7 +211,7 @@
     <item>
       <title>Dejonckheere (2019)</title>
       <link>https://openesmdata.org/datasets/0012_dejonckheere/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0012_dejonckheere/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -331,7 +251,7 @@
     <item>
       <title>Dora (2024)</title>
       <link>https://openesmdata.org/datasets/0023_dora/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0023_dora/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -371,7 +291,7 @@
     <item>
       <title>Drukker (2020)</title>
       <link>https://openesmdata.org/datasets/0029_drukker/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0029_drukker/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -411,7 +331,7 @@
     <item>
       <title>Fernández (2025)</title>
       <link>https://openesmdata.org/datasets/0026_fernandez/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0026_fernandez/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -451,7 +371,7 @@
     <item>
       <title>Fisher (2017)</title>
       <link>https://openesmdata.org/datasets/0033_fisher/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0033_fisher/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -491,7 +411,7 @@
     <item>
       <title>Fisher (2019)</title>
       <link>https://openesmdata.org/datasets/0037_fisher/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0037_fisher/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -531,7 +451,7 @@
     <item>
       <title>Flueckiger (2014)</title>
       <link>https://openesmdata.org/datasets/0015_flueckiger/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0015_flueckiger/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -571,7 +491,7 @@
     <item>
       <title>Fried (2021)</title>
       <link>https://openesmdata.org/datasets/0001_fried/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0001_fried/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -611,7 +531,7 @@
     <item>
       <title>Gainey (2023)</title>
       <link>https://openesmdata.org/datasets/0058_gainey/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0058_gainey/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -651,7 +571,7 @@
     <item>
       <title>Geschwind (2013)</title>
       <link>https://openesmdata.org/datasets/0010_geschwind/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0010_geschwind/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -691,7 +611,7 @@
     <item>
       <title>Grommisch (2020)</title>
       <link>https://openesmdata.org/datasets/0032_grommisch/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0032_grommisch/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -731,7 +651,7 @@
     <item>
       <title>Gundogdu (2017)</title>
       <link>https://openesmdata.org/datasets/0021_gundogdu/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0021_gundogdu/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -771,7 +691,7 @@
     <item>
       <title>Habets (2020)</title>
       <link>https://openesmdata.org/datasets/0014_habets/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0014_habets/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -811,7 +731,7 @@
     <item>
       <title>Hasselhorn (2021)</title>
       <link>https://openesmdata.org/datasets/0024_hasselhorn/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0024_hasselhorn/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -851,7 +771,7 @@
     <item>
       <title>Hasselhorn (2021)</title>
       <link>https://openesmdata.org/datasets/0025_hasselhorn/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0025_hasselhorn/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -891,7 +811,7 @@
     <item>
       <title>Hawks (2023)</title>
       <link>https://openesmdata.org/datasets/0003_hawks/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0003_hawks/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -931,7 +851,7 @@
     <item>
       <title>Hensel (2023)</title>
       <link>https://openesmdata.org/datasets/0066_hensel/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0066_hensel/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -971,7 +891,7 @@
     <item>
       <title>Hoebeke (2022)</title>
       <link>https://openesmdata.org/datasets/0013_hoebeke/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0013_hoebeke/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1011,7 +931,7 @@
     <item>
       <title>Jang (2024)</title>
       <link>https://openesmdata.org/datasets/0017_jang/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0017_jang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1051,7 +971,7 @@
     <item>
       <title>Johannes (2021)</title>
       <link>https://openesmdata.org/datasets/0051_johannes/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0051_johannes/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1091,7 +1011,7 @@
     <item>
       <title>Koval (2013)</title>
       <link>https://openesmdata.org/datasets/0031_koval/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0031_koval/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1129,14 +1049,14 @@
 &lt;p&gt;subset of larger dataset available upon request in the EMOTE database (&lt;a href=&#34;https://emotedatabase.com/datasets/23&#34;&gt;https://emotedatabase.com/datasets/23&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kuczynski (2018)</title>
+      <title>Kuczynski (2021)</title>
       <link>https://openesmdata.org/datasets/0039_kuczynski/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0039_kuczynski/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;First Author:&lt;/strong&gt; Kuczynski&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2018&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Year:&lt;/strong&gt; 2021&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Paper DOI:&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1177/02654075211045717&#34;&gt;https://doi.org/10.1177/02654075211045717&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; loneliness, depression, affect, social interaction&lt;/li&gt;
 &lt;/ul&gt;
@@ -1166,12 +1086,12 @@
 &lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; &lt;code&gt;openesm.get_dataset(&amp;quot;0039_kuczynski&amp;quot;)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;additional-comments&#34;&gt;Additional Comments&lt;/h2&gt;
-&lt;p&gt;variable coding partially unclear&lt;/p&gt;</description>
+&lt;p&gt;variable coding partially unclear; 1.0.1: changed publication year to 2021&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kullar (2023)</title>
       <link>https://openesmdata.org/datasets/0045_kullar/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0045_kullar/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1211,7 +1131,7 @@
     <item>
       <title>Kuppens (2016)</title>
       <link>https://openesmdata.org/datasets/0011_kuppens/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0011_kuppens/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1251,7 +1171,7 @@
     <item>
       <title>Marian (2022)</title>
       <link>https://openesmdata.org/datasets/0052_marian/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0052_marian/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1291,7 +1211,7 @@
     <item>
       <title>Menghini (2023)</title>
       <link>https://openesmdata.org/datasets/0022_menghini/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0022_menghini/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1331,7 +1251,7 @@
     <item>
       <title>Merolla (2022)</title>
       <link>https://openesmdata.org/datasets/0061_merolla/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0061_merolla/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1371,7 +1291,7 @@
     <item>
       <title>Mostajabi (2024)</title>
       <link>https://openesmdata.org/datasets/0042_mostajabi/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0042_mostajabi/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1411,7 +1331,7 @@
     <item>
       <title>Mostajabi (2024)</title>
       <link>https://openesmdata.org/datasets/0043_mostajabi/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0043_mostajabi/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1451,7 +1371,7 @@
     <item>
       <title>Mostajabi (2024)</title>
       <link>https://openesmdata.org/datasets/0044_mostajabi/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0044_mostajabi/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1491,7 +1411,7 @@
     <item>
       <title>Nepal (2024)</title>
       <link>https://openesmdata.org/datasets/0040_nepal/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0040_nepal/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1531,7 +1451,7 @@
     <item>
       <title>Nestler (2022)</title>
       <link>https://openesmdata.org/datasets/0002_nestler/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0002_nestler/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1571,7 +1491,7 @@
     <item>
       <title>Neubauer (2020)</title>
       <link>https://openesmdata.org/datasets/0072_neubauer/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0072_neubauer/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1611,7 +1531,7 @@
     <item>
       <title>Neubauer (2024)</title>
       <link>https://openesmdata.org/datasets/0062_neubauer/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0062_neubauer/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1651,7 +1571,7 @@
     <item>
       <title>Pavani (2017)</title>
       <link>https://openesmdata.org/datasets/0027_pavani/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0027_pavani/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1691,7 +1611,7 @@
     <item>
       <title>Pronizius (2024)</title>
       <link>https://openesmdata.org/datasets/0049_pronizius/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0049_pronizius/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1731,7 +1651,7 @@
     <item>
       <title>Pronizius (2024)</title>
       <link>https://openesmdata.org/datasets/0050_pronizius/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0050_pronizius/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1771,7 +1691,7 @@
     <item>
       <title>Reeves (2020)</title>
       <link>https://openesmdata.org/datasets/0034_reeves/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0034_reeves/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1811,7 +1731,7 @@
     <item>
       <title>Ringwald (2024)</title>
       <link>https://openesmdata.org/datasets/0046_ringwald/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0046_ringwald/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1851,7 +1771,7 @@
     <item>
       <title>Rowland (2020)</title>
       <link>https://openesmdata.org/datasets/0006_rowland/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0006_rowland/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1891,7 +1811,7 @@
     <item>
       <title>Ryvkina (2023)</title>
       <link>https://openesmdata.org/datasets/0056_ryvkina/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0056_ryvkina/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1931,7 +1851,7 @@
     <item>
       <title>Ryvkina (2023)</title>
       <link>https://openesmdata.org/datasets/0057_ryvkina/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0057_ryvkina/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -1971,7 +1891,7 @@
     <item>
       <title>Scharbert (2023)</title>
       <link>https://openesmdata.org/datasets/0071_scharbert/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0071_scharbert/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2011,7 +1931,7 @@
     <item>
       <title>Söderberg (2024)</title>
       <link>https://openesmdata.org/datasets/0019_soederberg/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0019_soederberg/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2051,7 +1971,7 @@
     <item>
       <title>Soyster (2022)</title>
       <link>https://openesmdata.org/datasets/0035_soyster/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0035_soyster/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2091,7 +2011,7 @@
     <item>
       <title>Stevens (2020)</title>
       <link>https://openesmdata.org/datasets/0053_stevens/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0053_stevens/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2131,7 +2051,7 @@
     <item>
       <title>Tammilehto (2022)</title>
       <link>https://openesmdata.org/datasets/0054_tammilehto/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0054_tammilehto/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2171,7 +2091,7 @@
     <item>
       <title>van Halem (2020)</title>
       <link>https://openesmdata.org/datasets/0070_vanhalem/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0070_vanhalem/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2211,7 +2131,7 @@
     <item>
       <title>van Woerkom (2022)</title>
       <link>https://openesmdata.org/datasets/0063_vanwoerkom/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0063_vanwoerkom/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2251,7 +2171,7 @@
     <item>
       <title>Wang (2014)</title>
       <link>https://openesmdata.org/datasets/0004_wang/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0004_wang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2291,7 +2211,7 @@
     <item>
       <title>Wang (2016)</title>
       <link>https://openesmdata.org/datasets/0005_wang/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0005_wang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2331,7 +2251,7 @@
     <item>
       <title>Wang (2024)</title>
       <link>https://openesmdata.org/datasets/0055_wang/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0055_wang/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2371,7 +2291,7 @@
     <item>
       <title>Westhoff (2024)</title>
       <link>https://openesmdata.org/datasets/0008_westhoff/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0008_westhoff/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2411,7 +2331,7 @@
     <item>
       <title>Wright (2017)</title>
       <link>https://openesmdata.org/datasets/0064_wright/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0064_wright/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;
@@ -2453,7 +2373,7 @@ partners)&lt;/li&gt;
     <item>
       <title>Wright (2019)</title>
       <link>https://openesmdata.org/datasets/0041_wright/</link>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://openesmdata.org/datasets/0041_wright/</guid>
       <description>&lt;h2 id=&#34;study-information&#34;&gt;Study Information&lt;/h2&gt;
 &lt;ul&gt;

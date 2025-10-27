@@ -13387,14 +13387,14 @@
     "id": "0039_kuczynski",
     "first_author": "Kuczynski",
     "dataset_id": "0039",
-    "year": 2018,
+    "year": 2021,
     "topics": "loneliness, depression, affect, social interaction",
     "participants": "adults",
     "sampling_scheme": "1x/day in the evening",
     "cross_sectional_available": "yes",
     "passive_data_available": "no",
     "raw_time_stamp": "no",
-    "additional_comments": "variable coding partially unclear",
+    "additional_comments": "variable coding partially unclear; 1.0.1: changed publication year to 2021",
     "reference_text": "Kuczynski, Adam M. Halvorson, Max A. Slater, Lily R. Kanter, Jonathan W. The effect of social interaction quantity quality on depressed mood loneliness: {{A Journal of Social Personal Relationships ",
     "n_participants": 515,
     "n_time_points": 75,
@@ -15720,176 +15720,6 @@
       }
     ],
     "url": "/datasets/0046_ringwald/"
-  },
-  {
-    "id": "0047_barkalifa",
-    "first_author": "Bar-Kalifa",
-    "year": 2020,
-    "topics": "relationships, emotion dynamics, interpersonal, mood, relationship satisfaction",
-    "participants": "heterosexual Israeli couples",
-    "sampling_scheme": "1x/day in the evening 1 hour before sleep, or completing the next day",
-    "cross_sectional_available": "yes",
-    "passive_data_available": "no",
-    "raw_time_stamp": "no",
-    "additional_comments": "sample 1 in the paper, six individuals pre-excluded by authors due to missingness",
-    "reference_text": "Bar-Kalifa, Eran Sened, Haran Using network analysis for examining interpersonal emotion dynamics Multivariate Behavioral Research ",
-    "n_participants": 80,
-    "n_time_points": 35,
-    "n_beeps_per_day": "1",
-    "variables": [
-      {
-        "name": "id",
-        "description": "Participant ID",
-        "coding": "",
-        "answer_categories": ""
-      },
-      {
-        "name": "day",
-        "description": "Day of study",
-        "coding": "",
-        "answer_categories": ""
-      },
-      {
-        "name": "beep",
-        "description": "Beep of the day",
-        "coding": "",
-        "answer_categories": ""
-      },
-      {
-        "name": "men_anxiety",
-        "description": "Anxiety of man",
-        "coding": "Sum score for the man for 3 anxiety items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "men_sadness",
-        "description": "Sadness of man",
-        "coding": "Sum score for the man for 3 sadness items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "men_vigor",
-        "description": "Vigor of man",
-        "coding": "Sum score for the man for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "men_contentment",
-        "description": "Contentment of man",
-        "coding": "Sum score for the man for 3 contentment items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_anxiety",
-        "description": "Anxiety of woman",
-        "coding": "Sum score for the woman for 3 anxiety items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_sadness",
-        "description": "Sadness of woman",
-        "coding": "Sum score for the woman for 3 sadness items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_vigor",
-        "description": "Vigor of woman",
-        "coding": "Sum score for the woman for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_contentment",
-        "description": "Contentment of woman",
-        "coding": "Sum score for the woman for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      }
-    ],
-    "url": "/datasets/0047_barkalifa/"
-  },
-  {
-    "id": "0048_barkalifa",
-    "first_author": "Bar-Kalifa",
-    "year": 2020,
-    "topics": "relationships, emotion dynamics, interpersonal, mood, relationship satisfaction, pregnancy, childbirth",
-    "participants": "heterosexual Israeli couples expecting a child (not twins)",
-    "sampling_scheme": "1x/day in the evening 1 hour before sleep, or completing the next day",
-    "cross_sectional_available": "yes",
-    "passive_data_available": "no",
-    "raw_time_stamp": "no",
-    "additional_comments": "sample 2 in the paper, eight pre-excluded by authors due to missingnes",
-    "reference_text": "Bar-Kalifa, Eran Sened, Haran Using network analysis for examining interpersonal emotion dynamics Multivariate Behavioral Research ",
-    "n_participants": 100,
-    "n_time_points": 21,
-    "n_beeps_per_day": "1",
-    "variables": [
-      {
-        "name": "id",
-        "description": "Participant ID",
-        "coding": "",
-        "answer_categories": ""
-      },
-      {
-        "name": "day",
-        "description": "Day of study",
-        "coding": "",
-        "answer_categories": ""
-      },
-      {
-        "name": "beep",
-        "description": "Beep of the day",
-        "coding": "",
-        "answer_categories": ""
-      },
-      {
-        "name": "men_anxiety",
-        "description": "Anxiety of man",
-        "coding": "Sum score for the man for 3 anxiety items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "men_sadness",
-        "description": "Sadness of man",
-        "coding": "Sum score for the man for 3 sadness items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "men_vigor",
-        "description": "Vigor of man",
-        "coding": "Sum score for the man for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "men_contentment",
-        "description": "Contentment of man",
-        "coding": "Sum score for the man for 3 contentment items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_anxiety",
-        "description": "Anxiety of woman",
-        "coding": "Sum score for the woman for 3 anxiety items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_sadness",
-        "description": "Sadness of woman",
-        "coding": "Sum score for the woman for 3 sadness items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_vigor",
-        "description": "Vigor of woman",
-        "coding": "Sum score for the woman for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      },
-      {
-        "name": "women_contentment",
-        "description": "Contentment of woman",
-        "coding": "Sum score for the woman for 3 vigor items from the adapted shortened daily diary version of the Profile of Mood states",
-        "answer_categories": "5"
-      }
-    ],
-    "url": "/datasets/0048_barkalifa/"
   },
   {
     "id": "0049_pronizius",

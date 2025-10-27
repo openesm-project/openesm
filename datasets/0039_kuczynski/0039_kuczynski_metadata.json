@@ -1,7 +1,7 @@
 {
   "first_author": "Kuczynski",
   "dataset_id": "0039",
-  "year": 2018,
+  "year": 2021,
   "reference_a": "@article{kuczynski2022,\n  title = {The effect of social interaction quantity and quality on depressed mood and loneliness: {{A}} daily diary study},\n  shorttitle = {The effect of social interaction quantity and quality on depressed mood and loneliness},\n  author = {Kuczynski, Adam M. and Halvorson, Max A. and Slater, Lily R. and Kanter, Jonathan W.},\n  date = {2022-03-01},\n  journaltitle = {Journal of Social and Personal Relationships},\n  volume = {39},\n  number = {3},\n  pages = {734--756},\n  publisher = {SAGE Publications Ltd},\n  issn = {0265-4075},\n  doi = {10.1177/02654075211045717}\n}",
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1177/02654075211045717",
@@ -22,7 +22,7 @@
   "sampling_scheme": "1x/day in the evening",
   "participants": "adults",
   "coding_file": "0039_kuczynski_variables",
-  "additional_comments": "variable coding partially unclear",
+  "additional_comments": "variable coding partially unclear; 1.0.1: changed publication year to 2021",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
   "features": [
