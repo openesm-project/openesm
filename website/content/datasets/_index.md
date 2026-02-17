@@ -8,7 +8,7 @@ hidemeta: true
 hideposts: true
 ---
 
-Below, you will find the full list of all datasets available in the OpenESM database. Each dataset is linked to its detailed page where you can find more information, download options, and metadata. More information about the datasets and their metadata can be found in the [Data Documentation]({{< relref "docs/data/" >}}).
+Below, you will find the full list of all datasets available in the openESM database. Each dataset is linked to its detailed page where you can find more information, download options, and metadata. More information about the datasets and their metadata can be found in the [Data Documentation]({{< relref "docs/data/" >}}).
 
 ## Dataset Overview
 

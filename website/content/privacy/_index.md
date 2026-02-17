@@ -4,7 +4,7 @@ title: "Privacy Notice"
 
 ## Data Collection
 
-The OpenESM website is a static site hosted on GitHub Pages. This site itself does not collect, store, or process personal data from visitors.
+The openESM website is a static site hosted on GitHub Pages. This site itself does not collect, store, or process personal data from visitors.
 
 ### External Services
 

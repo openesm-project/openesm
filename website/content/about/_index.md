@@ -21,7 +21,6 @@ Once you've found a relevant dataset, use our code generator on the dataset's pa
 **R Package:**
 ```r
 # install if needed: install.packages("openesm")
-# or, current until it is on CRAN: remotes::install_github("bsiepe/openesm")
 openesm::get_dataset("dataset_id")
 ```
 

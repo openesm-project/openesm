@@ -1,5 +1,5 @@
 ---
-title: "OpenESM: Open Experience Sampling Method Database"
+title: "openESM: Open Experience Sampling Method Database"
 # prevent showing posts
 hidemeta: true
 # Hide the default list of posts
@@ -11,7 +11,7 @@ hideposts: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenESM: Open Experience Sampling Method Database</title>
+    <title>openESM: Open Experience Sampling Method Database</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* Color Palette Variables */
