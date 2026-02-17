@@ -62,11 +62,11 @@ Use the search box below to find datasets and variables in the OpenESM database.
 <div class="code-section">
 <div class="code-block">
 <div class="code-header">R Code</div>
-<pre><code class="code-content" id="r-code"></code></pre>
+<pre><code class="code-content language-r" id="r-code"></code></pre>
 </div>
 <div class="code-block">
 <div class="code-header">Python Code</div>
-<pre><code class="code-content" id="python-code"></code></pre>
+<pre><code class="code-content language-python" id="python-code"></code></pre>
 </div>
 </div>
 </div>
