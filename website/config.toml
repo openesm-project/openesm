@@ -7,7 +7,7 @@ theme = "PaperMod"
 # outputs: json needed for search, rss removed (incompatible with hugo v0.124+)
 [outputs]
   home = ["HTML", "JSON"]
-  section = ["HTML"]
+  section = ["HTML", "JSON"]
   taxonomy = ["HTML"]
   term = ["HTML"]
 
