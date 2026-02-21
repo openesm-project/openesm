@@ -4,9 +4,12 @@ title = "openESM"
 description = "open Experience Sampling Method (openESM) Database"
 theme = "PaperMod"
 
-# Enable search
+# outputs: json needed for search, rss removed (incompatible with hugo v0.124+)
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "JSON"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 # Menu items
 [menu]
