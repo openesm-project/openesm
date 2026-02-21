@@ -62,11 +62,11 @@ Use the search box below to find datasets and variables in the OpenESM database.
 <div class="code-section">
 <div class="code-block">
 <div class="code-header">R Code</div>
-<pre><code class="code-content language-r" id="r-code"></code></pre>
+<div class="highlight"><pre><code class="code-content language-r" id="r-code"></code></pre></div>
 </div>
 <div class="code-block">
 <div class="code-header">Python Code</div>
-<pre><code class="code-content language-python" id="python-code"></code></pre>
+<div class="highlight"><pre><code class="code-content language-python" id="python-code"></code></pre></div>
 </div>
 </div>
 </div>
@@ -510,6 +510,13 @@ function getMatchIndicators(dataset, query) {
   margin: 0;
   padding: 0;
   background: transparent;
+}
+/* neutralize papermod's .highlight styles inside code blocks */
+.code-block .highlight {
+  background: transparent;
+  border-left: none;
+  padding: 0;
+  margin: 0;
 }
 /* some better monospace fonts */
 .code-content { 
