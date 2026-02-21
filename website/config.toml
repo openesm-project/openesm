@@ -6,7 +6,7 @@ theme = "PaperMod"
 
 # Enable search
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 
 # Menu items
 [menu]
@@ -105,4 +105,7 @@ theme = "PaperMod"
   
   # Custom CSS
   customCSS = ["assets/css/custom.css"]
+
+# disable unused taxonomies to prevent rss rendering errors
+[taxonomies]
 
