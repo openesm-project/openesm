@@ -2,24 +2,39 @@
 title: "Search Datasets and Variables"
 ---
 
-Use the search box below to find datasets and variables in the OpenESM database.
+Use the search box below to find datasets and variables in the openESM database.
 
 <div id="custom-search-container" style="display: flex; gap: 20px;">
 <aside style="width: 250px; background-color: var(--code-bg); padding: 20px; border-radius: 8px; height: fit-content; flex-shrink: 0; border: 1px solid var(--border);">
 <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.1rem; border-bottom: 1px solid var(--border); padding-bottom: 10px;">Filters</h3>
 <div style="margin-bottom: 20px;">
 <h4 style="margin-bottom: 10px; font-size: 0.9rem; color: var(--secondary);">Dataset Size</h4>
-<div style="margin-bottom: 15px;">
-<label for="min-participants" style="display: block; font-weight: 500; margin-bottom: 5px; font-size: 0.875rem;">Min Participants</label>
-<input type="number" id="min-participants" min="1" value="1" style="width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary);">
+<div style="margin-bottom: 12px;">
+<label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 0.875rem;">Participants</label>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
+<div><span style="display: block; font-size: 0.75rem; color: var(--secondary); margin-bottom: 3px;">Min</span>
+<input type="number" id="min-participants" min="1" value="1" style="width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary); font-size: 0.875rem;"></div>
+<div><span style="display: block; font-size: 0.75rem; color: var(--secondary); margin-bottom: 3px;">Max</span>
+<input type="number" id="max-participants" min="1" placeholder="∞" style="width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary); font-size: 0.875rem;"></div>
+</div>
+</div>
+<div style="margin-bottom: 12px;">
+<label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 0.875rem;">Max. Timepoints <span class="tooltip-icon" data-tooltip="The maximum number of timepoints any individual could have completed, based on the study design.">ⓘ</span></label>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
+<div><span style="display: block; font-size: 0.75rem; color: var(--secondary); margin-bottom: 3px;">Min</span>
+<input type="number" id="min-observations" min="1" value="1" style="width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary); font-size: 0.875rem;"></div>
+<div><span style="display: block; font-size: 0.75rem; color: var(--secondary); margin-bottom: 3px;">Max</span>
+<input type="number" id="max-observations" min="1" placeholder="∞" style="width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary); font-size: 0.875rem;"></div>
+</div>
 </div>
 <div>
-<label for="min-observations" style="display: block; font-weight: 500; margin-bottom: 5px; font-size: 0.875rem;">Min Observations</label>
-<input type="number" id="min-observations" min="1" value="1" style="width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary);">
+<label style="display: block; font-weight: 500; margin-bottom: 6px; font-size: 0.875rem;">Days</label>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
+<div><span style="display: block; font-size: 0.75rem; color: var(--secondary); margin-bottom: 3px;">Min</span>
+<input type="number" id="min-days" min="1" value="1" style="width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary); font-size: 0.875rem;"></div>
+<div><span style="display: block; font-size: 0.75rem; color: var(--secondary); margin-bottom: 3px;">Max</span>
+<input type="number" id="max-days" min="1" placeholder="∞" style="width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary); font-size: 0.875rem;"></div>
 </div>
-<div>
-<label for="min-days" style="display: block; font-weight: 500; margin-bottom: 5px; font-size: 0.875rem;">Min Days</label>
-<input type="number" id="min-days" min="1" value="1" style="width: 100%; padding: 8px; border: 1px solid var(--border); border-radius: 4px; background-color: var(--entry); color: var(--primary);">
 </div>
 </div>
 <div style="margin-bottom: 20px;">
@@ -52,6 +67,7 @@ Use the search box below to find datasets and variables in the OpenESM database.
 </aside>
 <main style="flex: 1;">
 <input type="text" id="custom-search-input" placeholder="Search datasets and variables...">
+<div id="active-filter-pills" class="active-filter-pills hidden"></div>
 <div id="selected-datasets" class="selected-datasets hidden">
 <div class="selected-header">
 <h3 id="selected-count">0 datasets selected</h3>
@@ -121,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const variableText = Array.isArray(doc.variables)
     ? doc.variables.map(v => {
         const constructs = Array.isArray(v.construct) ? v.construct.join(' ') : (v.construct || '');
-        return `${v.name || ''} ${v.description || ''} ${v.variable_type || ''} ${constructs}`;
+        return `${v.name || ''} ${v.description || ''} ${v.type || ''} ${constructs}`;
     }).join(' ')
     : '';
                 this.add({
@@ -248,8 +264,11 @@ function getMatchIndicators(dataset, query) {
     function setupEventListeners() {
         document.getElementById('custom-search-input').addEventListener('input', performSearch);
         document.getElementById('min-participants').addEventListener('input', performSearch);
+        document.getElementById('max-participants').addEventListener('input', performSearch);
         document.getElementById('min-observations').addEventListener('input', performSearch);
+        document.getElementById('max-observations').addEventListener('input', performSearch);
         document.getElementById('min-days').addEventListener('input', performSearch);
+        document.getElementById('max-days').addEventListener('input', performSearch);
         document.getElementById('passive-data').addEventListener('change', performSearch);
         document.getElementById('cross-sectional').addEventListener('change', performSearch);
         document.getElementById('raw-timestamp').addEventListener('change', performSearch);
@@ -296,20 +315,27 @@ function getMatchIndicators(dataset, query) {
             return dataset;
         });
         const filteredResults = applyFilters(mappedResults);
+        renderActiveFilterPills();
         displayResults(filteredResults, query);
     }
     function applyFilters(results) {
         const minParticipants = parseInt(document.getElementById('min-participants').value) || 1;
+        const maxParticipants = parseInt(document.getElementById('max-participants').value) || Infinity;
         const minObservations = parseInt(document.getElementById('min-observations').value) || 1;
+        const maxObservations = parseInt(document.getElementById('max-observations').value) || Infinity;
         const minDays = parseInt(document.getElementById('min-days').value) || 1;
+        const maxDays = parseInt(document.getElementById('max-days').value) || Infinity;
         const needsPassiveData = document.getElementById('passive-data').checked;
         const needsCrossSectional = document.getElementById('cross-sectional').checked;
         const needsRawTimestamp = document.getElementById('raw-timestamp').checked;
         return results.filter(dataset => {
             if (!dataset) return false;
             if ((dataset.n_participants || 0) < minParticipants) return false;
+            if (maxParticipants !== Infinity && (dataset.n_participants || 0) > maxParticipants) return false;
             if ((dataset.n_time_points || 0) < minObservations) return false;
+            if (maxObservations !== Infinity && (dataset.n_time_points || 0) > maxObservations) return false;
             if ((dataset.n_days || 0) < minDays) return false;
+            if (maxDays !== Infinity && parseInt(dataset.n_days || 0) > maxDays) return false;
             if (needsPassiveData && dataset.passive_data_available !== "yes") return false;
             if (needsCrossSectional && dataset.cross_sectional_available !== "yes") return false;
             if (needsRawTimestamp && dataset.raw_time_stamp !== "yes") return false;
@@ -451,6 +477,54 @@ function getMatchIndicators(dataset, query) {
         });
         updateSelectedSection();
     }
+    function renderActiveFilterPills() {
+        const container = document.getElementById('active-filter-pills');
+        container.innerHTML = '';
+        const pills = [];
+        const minP = parseInt(document.getElementById('min-participants').value) || 1;
+        const maxP = parseInt(document.getElementById('max-participants').value) || Infinity;
+        const minO = parseInt(document.getElementById('min-observations').value) || 1;
+        const maxO = parseInt(document.getElementById('max-observations').value) || Infinity;
+        const minD = parseInt(document.getElementById('min-days').value) || 1;
+        const maxD = parseInt(document.getElementById('max-days').value) || Infinity;
+        if (minP > 1 || maxP !== Infinity) {
+            const label = maxP === Infinity ? `Participants ≥ ${minP}` : (minP > 1 ? `Participants: ${minP}–${maxP}` : `Participants ≤ ${maxP}`);
+            pills.push({ label, reset: () => { document.getElementById('min-participants').value = 1; document.getElementById('max-participants').value = ''; } });
+        }
+        if (minO > 1 || maxO !== Infinity) {
+            const label = maxO === Infinity ? `Observations ≥ ${minO}` : (minO > 1 ? `Observations: ${minO}–${maxO}` : `Observations ≤ ${maxO}`);
+            pills.push({ label, reset: () => { document.getElementById('min-observations').value = 1; document.getElementById('max-observations').value = ''; } });
+        }
+        if (minD > 1 || maxD !== Infinity) {
+            const label = maxD === Infinity ? `Days ≥ ${minD}` : (minD > 1 ? `Days: ${minD}–${maxD}` : `Days ≤ ${maxD}`);
+            pills.push({ label, reset: () => { document.getElementById('min-days').value = 1; document.getElementById('max-days').value = ''; } });
+        }
+        if (document.getElementById('passive-data').checked) {
+            pills.push({ label: 'Passive data', reset: () => { document.getElementById('passive-data').checked = false; } });
+        }
+        if (document.getElementById('cross-sectional').checked) {
+            pills.push({ label: 'Cross-sectional', reset: () => { document.getElementById('cross-sectional').checked = false; } });
+        }
+        if (document.getElementById('raw-timestamp').checked) {
+            pills.push({ label: 'Raw timestamp', reset: () => { document.getElementById('raw-timestamp').checked = false; } });
+        }
+        selectedConstructs.forEach(construct => {
+            pills.push({ label: construct, reset: () => {
+                selectedConstructs.delete(construct);
+                const cb = document.getElementById(`construct-${construct.replace(/\s+/g, '-')}`);
+                if (cb) cb.checked = false;
+                updateConstructButtonText();
+            } });
+        });
+        container.classList.toggle('hidden', pills.length === 0);
+        pills.forEach(pill => {
+            const el = document.createElement('span');
+            el.className = 'filter-pill';
+            el.innerHTML = `${pill.label} <button class="pill-remove" aria-label="Remove filter">×</button>`;
+            el.querySelector('.pill-remove').addEventListener('click', () => { pill.reset(); performSearch(); });
+            container.appendChild(el);
+        });
+    }
 });
 </script>
 <style>
@@ -462,7 +536,7 @@ function getMatchIndicators(dataset, query) {
 .search-result.selected { border-color: var(--primary); background-color: var(--code-bg); }
 .search-result h3 { margin-top: 0; margin-bottom: 0.5rem; }
 .search-result h3 a { color: var(--primary); text-decoration: none; }
-.search-result h3 a:hover { text-decoration: underline; }
+.search-result h3 a:hover { text-decoration: none; background-color: rgba(8, 90, 179, 0.08); border-radius: 2px; }
 .search-result p { margin: 0.3rem 0; font-size: 0.9rem; }
 .matching-variables { margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px solid var(--border); }
 .matching-variables h4 { margin-bottom: 0.5rem; font-size: 1rem; }
@@ -538,6 +612,14 @@ function getMatchIndicators(dataset, query) {
 .construct-item input[type="checkbox"] { margin: 0; }
 .construct-item label { flex: 1; cursor: pointer; margin: 0; }
 .construct-count { color: var(--secondary); font-size: 0.8125rem; }
+.active-filter-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
+.active-filter-pills.hidden { display: none; }
+.filter-pill { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px 4px 12px; background: var(--code-bg); border: 1px solid var(--primary); border-radius: 20px; font-size: 0.8rem; color: var(--primary); }
+.pill-remove { background: none; border: none; color: var(--primary); cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0; opacity: 0.6; }
+.pill-remove:hover { opacity: 1; }
+.tooltip-icon { cursor: help; color: var(--secondary); font-size: 0.8rem; position: relative; }
+.tooltip-icon::after { content: attr(data-tooltip); display: none; position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%); width: 200px; background: var(--primary); color: var(--theme); font-size: 0.75rem; font-weight: 400; padding: 6px 8px; border-radius: 4px; line-height: 1.4; z-index: 100; white-space: normal; pointer-events: none; }
+.tooltip-icon:hover::after { display: block; }
 @media (max-width: 900px) { .code-section { grid-template-columns: 1fr; } }
 @media (max-width: 768px) { #custom-search-container { flex-direction: column; margin: 2rem 0; } #custom-search-container aside { width: 100%; margin-bottom: 20px; } }
 </style>
