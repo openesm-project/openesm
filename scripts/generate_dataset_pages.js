@@ -56,7 +56,16 @@ function formatZenodoDOI(doi) {
 // Escape double quotes for YAML frontmatter string values
 function escapeFM(val) {
   if (val === null || val === undefined) return '';
-  return String(val).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+  return String(val)
+    .replace(/\r\n|\r|\n/g, ' ')
+    .replace(/\\/g, '\\\\')
+    .replace(/"/g, '\\"');
+}
+
+// Return true only for valid http/https URLs (not placeholders like "-")
+function isValidUrl(val) {
+  if (!val || typeof val !== 'string') return false;
+  return /^https?:\/\//i.test(val.trim());
 }
 
 // Read and process all dataset folders
@@ -139,9 +148,9 @@ ${data.paper_doi ? `<li><strong>Paper DOI:</strong> <a href="${data.paper_doi}">
 
 <div class="dataset-links">
 ${data.zenodo_doi ? `<p><strong>Harmonized Data (Zenodo):</strong> <a href="${zenodoUrl}">${data.zenodo_doi}</a></p>` : ''}
-<p><strong>Original Source Data:</strong> <a href="${data.link_to_data}">${data.link_to_data}</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-${data.link_to_codebook ? `<p><strong>Codebook:</strong> <a href="${data.link_to_codebook}">${data.link_to_codebook}</a></p>` : ''}
-${data.link_to_code ? `<p><strong>Code:</strong> <a href="${data.link_to_code}">${data.link_to_code}</a></p>` : ''}
+${isValidUrl(data.link_to_data) ? `<p><strong>Original Source Data:</strong> <a href="${data.link_to_data}">${data.link_to_data}</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>` : ''}
+${isValidUrl(data.link_to_codebook) ? `<p><strong>Codebook:</strong> <a href="${data.link_to_codebook}">${data.link_to_codebook}</a></p>` : ''}
+${isValidUrl(data.link_to_code) ? `<p><strong>Code:</strong> <a href="${data.link_to_code}">${data.link_to_code}</a></p>` : ''}
 </div>
 
 ${data.additional_comments ? `## Additional Comments\n\n${data.additional_comments}\n` : ''}
