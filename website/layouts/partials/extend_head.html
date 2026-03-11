@@ -1,0 +1,75 @@
+{{- /* Dataset JSON-LD (Schema.org) — only on individual dataset pages */ -}}
+{{- if .Params.dataset_id -}}
+
+{{- /* Map license strings to canonical URLs (CC and common SPDX identifiers) */ -}}
+{{- $licenseUrl := "" -}}
+{{- $license := .Params.license | default "" | lower -}}
+{{- if or (eq $license "cc-by 4.0") (eq $license "cc by 4.0") (eq $license "cc-by-4.0") -}}
+  {{- $licenseUrl = "https://creativecommons.org/licenses/by/4.0/" -}}
+{{- else if or (eq $license "cc-by-nc 4.0") (eq $license "cc by-nc 4.0") (eq $license "cc-by-nc-4.0") -}}
+  {{- $licenseUrl = "https://creativecommons.org/licenses/by-nc/4.0/" -}}
+{{- else if or (eq $license "cc-by-sa 4.0") (eq $license "cc by-sa 4.0") (eq $license "cc-by-sa-4.0") -}}
+  {{- $licenseUrl = "https://creativecommons.org/licenses/by-sa/4.0/" -}}
+{{- else if or (eq $license "cc-by-nc-sa 4.0") (eq $license "cc by-nc-sa 4.0") (eq $license "cc-by-nc-sa-4.0") -}}
+  {{- $licenseUrl = "https://creativecommons.org/licenses/by-nc-sa/4.0/" -}}
+{{- else if or (eq $license "cc0") (eq $license "cc0 1.0") (eq $license "cc0-1.0") -}}
+  {{- $licenseUrl = "https://creativecommons.org/publicdomain/zero/1.0/" -}}
+{{- else if or (eq $license "gpl-3.0") (eq $license "gpl-3.0-only") (eq $license "gpl-3.0-or-later") -}}
+  {{- $licenseUrl = "https://spdx.org/licenses/GPL-3.0.html" -}}
+{{- else if or (eq $license "mit") (eq $license "mit license") -}}
+  {{- $licenseUrl = "https://spdx.org/licenses/MIT.html" -}}
+{{- else if or (eq $license "apache-2.0") (eq $license "apache 2.0") -}}
+  {{- $licenseUrl = "https://spdx.org/licenses/Apache-2.0.html" -}}
+{{- end -}}
+
+{{- $description := printf "%s — ESM dataset by %s (%d). Part of the openESM database of open experience sampling datasets." (.Params.topics | default "Experience sampling dataset") .Params.first_author (.Params.year | int) -}}
+{{- $sizeStr := printf "%d participants, %d time points" (.Params.n_participants | int) (.Params.n_time_points | int) -}}
+{{- $zenodoDOI := .Params.zenodo_doi | default "" -}}
+{{- $zenodoUrl := "" -}}
+{{- if $zenodoDOI -}}
+  {{- $zenodoUrl = printf "https://doi.org/%s" $zenodoDOI -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": {{ .Title | jsonify }},
+  "description": {{ $description | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  {{- if $zenodoDOI }}
+  "identifier": {{ printf "https://doi.org/%s" $zenodoDOI | jsonify }},
+  {{- end }}
+  "creator": {
+    "@type": "Person",
+    "name": {{ .Params.first_author | jsonify }}
+  },
+  {{- if .Params.year }}
+  "datePublished": {{ .Params.year | string | jsonify }},
+  {{- end }}
+  {{- if $licenseUrl }}
+  "license": {{ $licenseUrl | jsonify }},
+  {{- end }}
+  {{- if .Params.sampling_scheme }}
+  "measurementTechnique": {{ .Params.sampling_scheme | jsonify }},
+  {{- end }}
+  "size": {{ $sizeStr | jsonify }},
+  "keywords": {{ .Params.topics | jsonify }},
+  "inLanguage": "en",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "openESM",
+    "url": {{ site.Home.Permalink | jsonify }}
+  }{{- if $zenodoUrl }},
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": {{ $zenodoUrl | jsonify }},
+      "encodingFormat": "text/tab-separated-values",
+      "description": "Harmonized dataset provided via openESM"
+    }
+  ]
+  {{- end }}
+}
+</script>
+{{- end -}}

@@ -1,41 +1,66 @@
 ---
 title: "Kullar (2023)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0045_kullar"
+first_author: "Kullar"
+year: 2023
+paper_doi: "https://doi.org/10.1037/emo0001245"
+zenodo_doi: "10.5281/zenodo.17347798"
+license: "CC BY-NC 4.0"
+n_participants: 105
+n_time_points: 70
+n_days: "14"
+topics: "affect, affective chronometry, mood disorders, mind wandering"
+sampling_scheme: "5x/day fixed 30-minute interval"
+participants: "participants with and without mood disorders"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347798">10.5281/zenodo.17347798</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0045_kullar")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0045_kullar")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Kullar
-- **Year:** 2023
-- **Paper DOI:** [https://doi.org/10.1037/emo0001245](https://doi.org/10.1037/emo0001245)
-- **Topics:** affect, affective chronometry, mood disorders, mind wandering
-
-## Data Characteristics
-
-- **Participants:** 105 (participants with and without mood disorders)
-- **Time Points:** 70
-- **Days:** 14
-- **Beeps per Day:** 5
-- **Sampling Scheme:** 5x/day fixed 30-minute interval
-- **Raw Timestamp:** unclear
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Kullar</li>
+<li><strong>Year:</strong> 2023</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1037/emo0001245">https://doi.org/10.1037/emo0001245</a></li>
+<li><strong>Topics:</strong> affect, affective chronometry, mood disorders, mind wandering</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 105 (participants with and without mood disorders)</li>
+<li><strong>Time Points:</strong> 70</li>
+<li><strong>Days:</strong> 14</li>
+<li><strong>Beeps per Day:</strong> 5</li>
+<li><strong>Sampling Scheme:</strong> 5x/day fixed 30-minute interval</li>
+<li><strong>Raw Timestamp:</strong> unclear</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://github.com/mkullar/DataDrivenEmotionDynamics](https://github.com/mkullar/DataDrivenEmotionDynamics)
-- **Link to Codebook:** [-](-)
-- **Link to Code:** [https://github.com/mkullar/DataDrivenEmotionDynamics](https://github.com/mkullar/DataDrivenEmotionDynamics)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347798](https://doi.org/10.5281/zenodo.17347798)
-- **R:** `openesm::get_dataset("0045_kullar")`
-- **Python:** `openesm.get_dataset("0045_kullar")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347798">10.5281/zenodo.17347798</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://github.com/mkullar/DataDrivenEmotionDynamics">https://github.com/mkullar/DataDrivenEmotionDynamics</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="-">-</a></p>
+<p><strong>Code:</strong> <a href="https://github.com/mkullar/DataDrivenEmotionDynamics">https://github.com/mkullar/DataDrivenEmotionDynamics</a></p>
+</div>
 
 ## Additional Comments
 

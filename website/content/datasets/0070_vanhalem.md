@@ -1,41 +1,66 @@
 ---
 title: "van Halem (2020)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0070_vanhalem"
+first_author: "van Halem"
+year: 2020
+paper_doi: "https://doi.org/10.1002/per.2252"
+zenodo_doi: "10.5281/zenodo.17348032"
+license: "CC BY-NC 4.0"
+n_participants: 82
+n_time_points: 69
+n_days: "5"
+topics: "skin conductance, affect, arousal, situation"
+sampling_scheme: "random triggers and triggers based on skin conductance"
+participants: "first-year psychology students in Tilburg"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348032">10.5281/zenodo.17348032</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0070_vanhalem")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0070_vanhalem")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** van Halem
-- **Year:** 2020
-- **Paper DOI:** [https://doi.org/10.1002/per.2252](https://doi.org/10.1002/per.2252)
-- **Topics:** skin conductance, affect, arousal, situation
-
-## Data Characteristics
-
-- **Participants:** 82 (first-year psychology students in Tilburg)
-- **Time Points:** 69
-- **Days:** 5
-- **Beeps per Day:** partially event-contingent
-- **Sampling Scheme:** random triggers and triggers based on skin conductance
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> van Halem</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1002/per.2252">https://doi.org/10.1002/per.2252</a></li>
+<li><strong>Topics:</strong> skin conductance, affect, arousal, situation</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 82 (first-year psychology students in Tilburg)</li>
+<li><strong>Time Points:</strong> 69</li>
+<li><strong>Days:</strong> 5</li>
+<li><strong>Beeps per Day:</strong> partially event-contingent</li>
+<li><strong>Sampling Scheme:</strong> random triggers and triggers based on skin conductance</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** yes
-- **Link to Original Data:** [https://osf.io/v4qh9/](https://osf.io/v4qh9/)
-- **Link to Codebook:** [https://osf.io/v8sa7](https://osf.io/v8sa7)
-- **Link to Code:** [https://osf.io/v4qh9/](https://osf.io/v4qh9/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348032](https://doi.org/10.5281/zenodo.17348032)
-- **R:** `openesm::get_dataset("0070_vanhalem")`
-- **Python:** `openesm.get_dataset("0070_vanhalem")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348032">10.5281/zenodo.17348032</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/v4qh9/">https://osf.io/v4qh9/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/v8sa7">https://osf.io/v8sa7</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/v4qh9/">https://osf.io/v4qh9/</a></p>
+</div>
 
 ## Additional Comments
 

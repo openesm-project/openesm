@@ -1,41 +1,66 @@
 ---
 title: "Grommisch (2020)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0032_grommisch"
+first_author: "Grommisch"
+year: 2020
+paper_doi: "https://doi.org/10.1037/emo0000669"
+zenodo_doi: "10.5281/zenodo.17347621"
+license: "CC BY-NC 4.0"
+n_participants: 179
+n_time_points: 189
+n_days: "21"
+topics: "emotion regulation, rumination, well-being"
+sampling_scheme: "9x/day semi-fixed intervals"
+participants: "adults"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347621">10.5281/zenodo.17347621</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0032_grommisch")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0032_grommisch")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Grommisch
-- **Year:** 2020
-- **Paper DOI:** [https://doi.org/10.1037/emo0000669](https://doi.org/10.1037/emo0000669)
-- **Topics:** emotion regulation, rumination, well-being
-
-## Data Characteristics
-
-- **Participants:** 179 (adults)
-- **Time Points:** 189
-- **Days:** 21
-- **Beeps per Day:** 9
-- **Sampling Scheme:** 9x/day semi-fixed intervals
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Grommisch</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1037/emo0000669">https://doi.org/10.1037/emo0000669</a></li>
+<li><strong>Topics:</strong> emotion regulation, rumination, well-being</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 179 (adults)</li>
+<li><strong>Time Points:</strong> 189</li>
+<li><strong>Days:</strong> 21</li>
+<li><strong>Beeps per Day:</strong> 9</li>
+<li><strong>Sampling Scheme:</strong> 9x/day semi-fixed intervals</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/r7jw6/](https://osf.io/r7jw6/)
-- **Link to Codebook:** [https://osf.io/b5s97](https://osf.io/b5s97)
-- **Link to Code:** [https://osf.io/r7jw6/](https://osf.io/r7jw6/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347621](https://doi.org/10.5281/zenodo.17347621)
-- **R:** `openesm::get_dataset("0032_grommisch")`
-- **Python:** `openesm.get_dataset("0032_grommisch")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347621">10.5281/zenodo.17347621</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/r7jw6/">https://osf.io/r7jw6/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/b5s97">https://osf.io/b5s97</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/r7jw6/">https://osf.io/r7jw6/</a></p>
+</div>
 
 ## Additional Comments
 

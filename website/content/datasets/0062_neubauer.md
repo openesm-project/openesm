@@ -1,41 +1,66 @@
 ---
 title: "Neubauer (2024)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0062_neubauer"
+first_author: "Neubauer"
+year: 2024
+paper_doi: "https://doi.org/10.1007/s11618-023-01182-8"
+zenodo_doi: "10.5281/zenodo.17347974"
+license: "CC-BY 4.0"
+n_participants: 321
+n_time_points: 84
+n_days: "14"
+topics: "timescales, COVID, academic achievement, study demands"
+sampling_scheme: "6x/day semi-random schedule"
+participants: "undergraduate students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347974">10.5281/zenodo.17347974</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0062_neubauer")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0062_neubauer")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Neubauer
-- **Year:** 2024
-- **Paper DOI:** [https://doi.org/10.1007/s11618-023-01182-8](https://doi.org/10.1007/s11618-023-01182-8)
-- **Topics:** timescales, COVID, academic achievement, study demands
-
-## Data Characteristics
-
-- **Participants:** 321 (undergraduate students)
-- **Time Points:** 84
-- **Days:** 14
-- **Beeps per Day:** 6
-- **Sampling Scheme:** 6x/day semi-random schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Neubauer</li>
+<li><strong>Year:</strong> 2024</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1007/s11618-023-01182-8">https://doi.org/10.1007/s11618-023-01182-8</a></li>
+<li><strong>Topics:</strong> timescales, COVID, academic achievement, study demands</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 321 (undergraduate students)</li>
+<li><strong>Time Points:</strong> 84</li>
+<li><strong>Days:</strong> 14</li>
+<li><strong>Beeps per Day:</strong> 6</li>
+<li><strong>Sampling Scheme:</strong> 6x/day semi-random schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/bhq3p](https://osf.io/bhq3p)
-- **Link to Codebook:** [https://osf.io/csfwg](https://osf.io/csfwg)
-- **Link to Code:** [https://osf.io/84kdr/files](https://osf.io/84kdr/files)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347974](https://doi.org/10.5281/zenodo.17347974)
-- **R:** `openesm::get_dataset("0062_neubauer")`
-- **Python:** `openesm.get_dataset("0062_neubauer")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347974">10.5281/zenodo.17347974</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/bhq3p">https://osf.io/bhq3p</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/csfwg">https://osf.io/csfwg</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/84kdr/files">https://osf.io/84kdr/files</a></p>
+</div>
 
 ## Additional Comments
 

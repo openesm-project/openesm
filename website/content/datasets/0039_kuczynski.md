@@ -1,41 +1,66 @@
 ---
 title: "Kuczynski (2021)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0039_kuczynski"
+first_author: "Kuczynski"
+year: 2021
+paper_doi: "https://doi.org/10.1177/02654075211045717"
+zenodo_doi: "10.5281/zenodo.17347657"
+license: "CC BY-NC 4.0"
+n_participants: 515
+n_time_points: 75
+n_days: "75"
+topics: "loneliness, depression, affect, social interaction"
+sampling_scheme: "1x/day in the evening"
+participants: "adults"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347657">10.5281/zenodo.17347657</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0039_kuczynski")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0039_kuczynski")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Kuczynski
-- **Year:** 2021
-- **Paper DOI:** [https://doi.org/10.1177/02654075211045717](https://doi.org/10.1177/02654075211045717)
-- **Topics:** loneliness, depression, affect, social interaction
-
-## Data Characteristics
-
-- **Participants:** 515 (adults)
-- **Time Points:** 75
-- **Days:** 75
-- **Beeps per Day:** 1
-- **Sampling Scheme:** 1x/day in the evening
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Kuczynski</li>
+<li><strong>Year:</strong> 2021</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1177/02654075211045717">https://doi.org/10.1177/02654075211045717</a></li>
+<li><strong>Topics:</strong> loneliness, depression, affect, social interaction</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 515 (adults)</li>
+<li><strong>Time Points:</strong> 75</li>
+<li><strong>Days:</strong> 75</li>
+<li><strong>Beeps per Day:</strong> 1</li>
+<li><strong>Sampling Scheme:</strong> 1x/day in the evening</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/huz67](https://osf.io/huz67)
-- **Link to Codebook:** [-](-)
-- **Link to Code:** [https://osf.io/wtbx8/](https://osf.io/wtbx8/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347657](https://doi.org/10.5281/zenodo.17347657)
-- **R:** `openesm::get_dataset("0039_kuczynski")`
-- **Python:** `openesm.get_dataset("0039_kuczynski")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347657">10.5281/zenodo.17347657</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/huz67">https://osf.io/huz67</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="-">-</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/wtbx8/">https://osf.io/wtbx8/</a></p>
+</div>
 
 ## Additional Comments
 

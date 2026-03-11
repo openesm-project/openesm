@@ -1,41 +1,66 @@
 ---
 title: "Tammilehto (2022)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0054_tammilehto"
+first_author: "Tammilehto"
+year: 2022
+paper_doi: "https://doi.org/10.1080/02699931.2022.2081534"
+zenodo_doi: "10.5281/zenodo.17361509"
+license: "CC-BY 4.0"
+n_participants: 122
+n_time_points: 49
+n_days: "7"
+topics: "emotion regulation, attachment, neuroticism"
+sampling_scheme: "7x/day semi-random intervals, scheduled in blocks"
+participants: "undergraduate students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17361509">10.5281/zenodo.17361509</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0054_tammilehto")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0054_tammilehto")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Tammilehto
-- **Year:** 2022
-- **Paper DOI:** [https://doi.org/10.1080/02699931.2022.2081534](https://doi.org/10.1080/02699931.2022.2081534)
-- **Topics:** emotion regulation, attachment, neuroticism
-
-## Data Characteristics
-
-- **Participants:** 122 (undergraduate students)
-- **Time Points:** 49
-- **Days:** 7
-- **Beeps per Day:** 7
-- **Sampling Scheme:** 7x/day semi-random intervals, scheduled in blocks
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Tammilehto</li>
+<li><strong>Year:</strong> 2022</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1080/02699931.2022.2081534">https://doi.org/10.1080/02699931.2022.2081534</a></li>
+<li><strong>Topics:</strong> emotion regulation, attachment, neuroticism</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 122 (undergraduate students)</li>
+<li><strong>Time Points:</strong> 49</li>
+<li><strong>Days:</strong> 7</li>
+<li><strong>Beeps per Day:</strong> 7</li>
+<li><strong>Sampling Scheme:</strong> 7x/day semi-random intervals, scheduled in blocks</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/e8423](https://osf.io/e8423)
-- **Link to Codebook:** [https://osf.io/u59nd/files/](https://osf.io/u59nd/files/)
-- **Link to Code:** [https://osf.io/u59nd/files/](https://osf.io/u59nd/files/)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17361509](https://doi.org/10.5281/zenodo.17361509)
-- **R:** `openesm::get_dataset("0054_tammilehto")`
-- **Python:** `openesm.get_dataset("0054_tammilehto")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17361509">10.5281/zenodo.17361509</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/e8423">https://osf.io/e8423</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/u59nd/files/">https://osf.io/u59nd/files/</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/u59nd/files/">https://osf.io/u59nd/files/</a></p>
+</div>
 
 ## Additional Comments
 

@@ -1,41 +1,66 @@
 ---
 title: "Geschwind (2013)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0010_geschwind"
+first_author: "Geschwind"
+year: 2013
+paper_doi: "https://doi.org/10.1371/journal.pone.0060188"
+zenodo_doi: "10.5281/zenodo.17347473"
+license: "CC BY-NC 4.0"
+n_participants: 129
+n_time_points: 200
+n_days: "20"
+topics: "depression, neuroticism, mood"
+sampling_scheme: "6x/day 90-minute interval"
+participants: "individuals with residual depressive symptoms"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347473">10.5281/zenodo.17347473</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0010_geschwind")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0010_geschwind")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Geschwind
-- **Year:** 2013
-- **Paper DOI:** [https://doi.org/10.1371/journal.pone.0060188](https://doi.org/10.1371/journal.pone.0060188)
-- **Topics:** depression, neuroticism, mood
-
-## Data Characteristics
-
-- **Participants:** 129 (individuals with residual depressive symptoms)
-- **Time Points:** 200
-- **Days:** 20
-- **Beeps per Day:** 10
-- **Sampling Scheme:** 6x/day 90-minute interval
-- **Raw Timestamp:** no
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Geschwind</li>
+<li><strong>Year:</strong> 2013</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1371/journal.pone.0060188">https://doi.org/10.1371/journal.pone.0060188</a></li>
+<li><strong>Topics:</strong> depression, neuroticism, mood</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 129 (individuals with residual depressive symptoms)</li>
+<li><strong>Time Points:</strong> 200</li>
+<li><strong>Days:</strong> 20</li>
+<li><strong>Beeps per Day:</strong> 10</li>
+<li><strong>Sampling Scheme:</strong> 6x/day 90-minute interval</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://doi.org/10.1371/journal.pone.0060188.s004](https://doi.org/10.1371/journal.pone.0060188.s004)
-- **Link to Codebook:** [-](-)
-- **Link to Code:** [https://doi.org/10.1371/journal.pone.0060188.s001](https://doi.org/10.1371/journal.pone.0060188.s001)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347473](https://doi.org/10.5281/zenodo.17347473)
-- **R:** `openesm::get_dataset("0010_geschwind")`
-- **Python:** `openesm.get_dataset("0010_geschwind")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347473">10.5281/zenodo.17347473</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.1371/journal.pone.0060188.s004">https://doi.org/10.1371/journal.pone.0060188.s004</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="-">-</a></p>
+<p><strong>Code:</strong> <a href="https://doi.org/10.1371/journal.pone.0060188.s001">https://doi.org/10.1371/journal.pone.0060188.s001</a></p>
+</div>
 
 ## Additional Comments
 

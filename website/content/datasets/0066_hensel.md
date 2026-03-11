@@ -1,41 +1,66 @@
 ---
 title: "Hensel (2023)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0066_hensel"
+first_author: "Hensel"
+year: 2023
+paper_doi: "https://doi.org/10.1371/journal.pone.0292735"
+zenodo_doi: "10.5281/zenodo.17348001"
+license: "CC BY-NC 4.0"
+n_participants: 91
+n_time_points: 30
+n_days: "30"
+topics: "spina bifida, incontinence, affect, activities"
+sampling_scheme: "1x/day for a window of four hours"
+participants: "adults with spina bifida and current symptoms of incontinence"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348001">10.5281/zenodo.17348001</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0066_hensel")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0066_hensel")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Hensel
-- **Year:** 2023
-- **Paper DOI:** [https://doi.org/10.1371/journal.pone.0292735](https://doi.org/10.1371/journal.pone.0292735)
-- **Topics:** spina bifida, incontinence, affect, activities
-
-## Data Characteristics
-
-- **Participants:** 91 (adults with spina bifida and current symptoms of incontinence)
-- **Time Points:** 30
-- **Days:** 30
-- **Beeps per Day:** 1
-- **Sampling Scheme:** 1x/day for a window of four hours
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Hensel</li>
+<li><strong>Year:</strong> 2023</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1371/journal.pone.0292735">https://doi.org/10.1371/journal.pone.0292735</a></li>
+<li><strong>Topics:</strong> spina bifida, incontinence, affect, activities</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 91 (adults with spina bifida and current symptoms of incontinence)</li>
+<li><strong>Time Points:</strong> 30</li>
+<li><strong>Days:</strong> 30</li>
+<li><strong>Beeps per Day:</strong> 1</li>
+<li><strong>Sampling Scheme:</strong> 1x/day for a window of four hours</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/gefqx/files/](https://osf.io/gefqx/files/)
-- **Link to Codebook:** [https://osf.io/gefqx/files/](https://osf.io/gefqx/files/)
-- **Link to Code:** [-](-)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348001](https://doi.org/10.5281/zenodo.17348001)
-- **R:** `openesm::get_dataset("0066_hensel")`
-- **Python:** `openesm.get_dataset("0066_hensel")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348001">10.5281/zenodo.17348001</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/gefqx/files/">https://osf.io/gefqx/files/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/gefqx/files/">https://osf.io/gefqx/files/</a></p>
+<p><strong>Code:</strong> <a href="-">-</a></p>
+</div>
 
 ## Additional Comments
 

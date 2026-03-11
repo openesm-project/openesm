@@ -1,41 +1,66 @@
 ---
 title: "Marian (2022)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0052_marian"
+first_author: "Marian"
+year: 2022
+paper_doi: "https://doi.org/10.1007/s10862-022-10014-8"
+zenodo_doi: "10.5281/zenodo.17348267"
+license: "CC-BY 4.0"
+n_participants: 140
+n_time_points: 63
+n_days: "21"
+topics: "depression, anxiety, COVID"
+sampling_scheme: "4x/day 4 hour intervals based on individual wake-up time"
+participants: "undergraduate students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348267">10.5281/zenodo.17348267</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0052_marian")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0052_marian")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Marian
-- **Year:** 2022
-- **Paper DOI:** [https://doi.org/10.1007/s10862-022-10014-8](https://doi.org/10.1007/s10862-022-10014-8)
-- **Topics:** depression, anxiety, COVID
-
-## Data Characteristics
-
-- **Participants:** 140 (undergraduate students)
-- **Time Points:** 63
-- **Days:** 21
-- **Beeps per Day:** 3
-- **Sampling Scheme:** 4x/day 4 hour intervals based on individual wake-up time
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Marian</li>
+<li><strong>Year:</strong> 2022</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1007/s10862-022-10014-8">https://doi.org/10.1007/s10862-022-10014-8</a></li>
+<li><strong>Topics:</strong> depression, anxiety, COVID</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 140 (undergraduate students)</li>
+<li><strong>Time Points:</strong> 63</li>
+<li><strong>Days:</strong> 21</li>
+<li><strong>Beeps per Day:</strong> 3</li>
+<li><strong>Sampling Scheme:</strong> 4x/day 4 hour intervals based on individual wake-up time</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/pt9dk](https://osf.io/pt9dk)
-- **Link to Codebook:** [https://osf.io/r85q6](https://osf.io/r85q6)
-- **Link to Code:** [https://osf.io/pt9dk](https://osf.io/pt9dk)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348267](https://doi.org/10.5281/zenodo.17348267)
-- **R:** `openesm::get_dataset("0052_marian")`
-- **Python:** `openesm.get_dataset("0052_marian")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348267">10.5281/zenodo.17348267</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/pt9dk">https://osf.io/pt9dk</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/r85q6">https://osf.io/r85q6</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/pt9dk">https://osf.io/pt9dk</a></p>
+</div>
 
 ## Additional Comments
 

@@ -1,41 +1,66 @@
 ---
 title: "Bailon (2020)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0018_bailon"
+first_author: "Bailon"
+year: 2020
+paper_doi: "https://doi.org/10.1038/s41597-020-00700-1"
+zenodo_doi: "10.5281/zenodo.17347690"
+license: "CC-BY 4.0"
+n_participants: 999
+n_time_points: 444
+n_days: "86"
+topics: "COVID, affect, pandemic, valence, arousal, context"
+sampling_scheme: "6x/day pseudo-random one-hour intervals"
+participants: "community sample"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347690">10.5281/zenodo.17347690</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0018_bailon")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0018_bailon")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Bailon
-- **Year:** 2020
-- **Paper DOI:** [https://doi.org/10.1038/s41597-020-00700-1](https://doi.org/10.1038/s41597-020-00700-1)
-- **Topics:** COVID, affect, pandemic, valence, arousal, context
-
-## Data Characteristics
-
-- **Participants:** 999 (community sample)
-- **Time Points:** 444
-- **Days:** 86
-- **Beeps per Day:** 6
-- **Sampling Scheme:** 6x/day pseudo-random one-hour intervals
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Bailon</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1038/s41597-020-00700-1">https://doi.org/10.1038/s41597-020-00700-1</a></li>
+<li><strong>Topics:</strong> COVID, affect, pandemic, valence, arousal, context</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 999 (community sample)</li>
+<li><strong>Time Points:</strong> 444</li>
+<li><strong>Days:</strong> 86</li>
+<li><strong>Beeps per Day:</strong> 6</li>
+<li><strong>Sampling Scheme:</strong> 6x/day pseudo-random one-hour intervals</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [http://doi.org/10.5281/zenodo.3774526](http://doi.org/10.5281/zenodo.3774526)
-- **Link to Codebook:** [https://zenodo.org/records/4024141](https://zenodo.org/records/4024141)
-- **Link to Code:** [null](null)
 - **License:** CC-BY 4.0
 
-## Data Access
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347690">10.5281/zenodo.17347690</a></p>
+<p><strong>Original Source Data:</strong> <a href="http://doi.org/10.5281/zenodo.3774526">http://doi.org/10.5281/zenodo.3774526</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://zenodo.org/records/4024141">https://zenodo.org/records/4024141</a></p>
 
-- **Zenodo DOI:** [10.5281/zenodo.17347690](https://doi.org/10.5281/zenodo.17347690)
-- **R:** `openesm::get_dataset("0018_bailon")`
-- **Python:** `openesm.get_dataset("0018_bailon")`
+</div>
 
 ## Additional Comments
 

@@ -1,41 +1,66 @@
 ---
 title: "Hoebeke (2022)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0013_hoebeke"
+first_author: "Hoebeke"
+year: 2022
+paper_doi: "https://doi.org/10.36131/cnfioritieditore20220504"
+zenodo_doi: "10.5281/zenodo.17347619"
+license: "CC-BY 4.0"
+n_participants: 40
+n_time_points: 56
+n_days: "14"
+topics: "rumination, depression, anxiety"
+sampling_scheme: "4x/day time-contingent equidistant intervals"
+participants: "community sample"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347619">10.5281/zenodo.17347619</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0013_hoebeke")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0013_hoebeke")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Hoebeke
-- **Year:** 2022
-- **Paper DOI:** [https://doi.org/10.36131/cnfioritieditore20220504](https://doi.org/10.36131/cnfioritieditore20220504)
-- **Topics:** rumination, depression, anxiety
-
-## Data Characteristics
-
-- **Participants:** 40 (community sample)
-- **Time Points:** 56
-- **Days:** 14
-- **Beeps per Day:** 4
-- **Sampling Scheme:** 4x/day time-contingent equidistant intervals
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Hoebeke</li>
+<li><strong>Year:</strong> 2022</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.36131/cnfioritieditore20220504">https://doi.org/10.36131/cnfioritieditore20220504</a></li>
+<li><strong>Topics:</strong> rumination, depression, anxiety</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 40 (community sample)</li>
+<li><strong>Time Points:</strong> 56</li>
+<li><strong>Days:</strong> 14</li>
+<li><strong>Beeps per Day:</strong> 4</li>
+<li><strong>Sampling Scheme:</strong> 4x/day time-contingent equidistant intervals</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/dngyk/](https://osf.io/dngyk/)
-- **Link to Codebook:** [https://osf.io/wj6xn](https://osf.io/wj6xn)
-- **Link to Code:** [https://osf.io/dngyk/](https://osf.io/dngyk/)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347619](https://doi.org/10.5281/zenodo.17347619)
-- **R:** `openesm::get_dataset("0013_hoebeke")`
-- **Python:** `openesm.get_dataset("0013_hoebeke")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347619">10.5281/zenodo.17347619</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/dngyk/">https://osf.io/dngyk/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/wj6xn">https://osf.io/wj6xn</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/dngyk/">https://osf.io/dngyk/</a></p>
+</div>
 
 ## Additional Comments
 

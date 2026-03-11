@@ -1,41 +1,66 @@
 ---
 title: "Nepal (2024)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0040_nepal"
+first_author: "Nepal"
+year: 2024
+paper_doi: "https://doi.org/10.1145/3643501"
+zenodo_doi: "10.5281/zenodo.17348144"
+license: "CC BY-NC-SA 4.0"
+n_participants: 218
+n_time_points: 441
+n_days: "441"
+topics: "mental health, resilience, behavior, COVID, anxiety, depression, social media"
+sampling_scheme: "irregular"
+participants: "undergraduate students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348144">10.5281/zenodo.17348144</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0040_nepal")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0040_nepal")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Nepal
-- **Year:** 2024
-- **Paper DOI:** [https://doi.org/10.1145/3643501](https://doi.org/10.1145/3643501)
-- **Topics:** mental health, resilience, behavior, COVID, anxiety, depression, social media
-
-## Data Characteristics
-
-- **Participants:** 218 (undergraduate students)
-- **Time Points:** 441
-- **Days:** 441
-- **Beeps per Day:** 1
-- **Sampling Scheme:** irregular
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Nepal</li>
+<li><strong>Year:</strong> 2024</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1145/3643501">https://doi.org/10.1145/3643501</a></li>
+<li><strong>Topics:</strong> mental health, resilience, behavior, COVID, anxiety, depression, social media</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 218 (undergraduate students)</li>
+<li><strong>Time Points:</strong> 441</li>
+<li><strong>Days:</strong> 441</li>
+<li><strong>Beeps per Day:</strong> 1</li>
+<li><strong>Sampling Scheme:</strong> irregular</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** yes
-- **Link to Original Data:** [https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset](https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset)
-- **Link to Codebook:** [https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data](https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data)
-- **Link to Code:** [null](null)
 - **License:** CC BY-NC-SA 4.0
 
-## Data Access
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348144">10.5281/zenodo.17348144</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset">https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data">https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data</a></p>
 
-- **Zenodo DOI:** [10.5281/zenodo.17348144](https://doi.org/10.5281/zenodo.17348144)
-- **R:** `openesm::get_dataset("0040_nepal")`
-- **Python:** `openesm.get_dataset("0040_nepal")`
+</div>
 
 ## Additional Comments
 

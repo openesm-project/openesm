@@ -1,41 +1,66 @@
 ---
 title: "Gundogdu (2017)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0021_gundogdu"
+first_author: "Gundogdu"
+year: 2017
+paper_doi: "https://doi.org/10.1098/rsos.170194"
+zenodo_doi: "10.5281/zenodo.17347760"
+license: "CC0 1.0"
+n_participants: 54
+n_time_points: 90
+n_days: "30"
+topics: "social interactions, personality states, personality"
+sampling_scheme: "3x/day fixed schedule"
+participants: "employees of research center"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347760">10.5281/zenodo.17347760</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0021_gundogdu")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0021_gundogdu")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Gundogdu
-- **Year:** 2017
-- **Paper DOI:** [https://doi.org/10.1098/rsos.170194](https://doi.org/10.1098/rsos.170194)
-- **Topics:** social interactions, personality states, personality
-
-## Data Characteristics
-
-- **Participants:** 54 (employees of research center)
-- **Time Points:** 90
-- **Days:** 30
-- **Beeps per Day:** 3
-- **Sampling Scheme:** 3x/day fixed schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Gundogdu</li>
+<li><strong>Year:</strong> 2017</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1098/rsos.170194">https://doi.org/10.1098/rsos.170194</a></li>
+<li><strong>Topics:</strong> social interactions, personality states, personality</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 54 (employees of research center)</li>
+<li><strong>Time Points:</strong> 90</li>
+<li><strong>Days:</strong> 30</li>
+<li><strong>Beeps per Day:</strong> 3</li>
+<li><strong>Sampling Scheme:</strong> 3x/day fixed schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** no
 - **Passive Sensor Data:** yes
-- **Link to Original Data:** [https://doi.org/10.5061/dryad.b88c7](https://doi.org/10.5061/dryad.b88c7)
-- **Link to Codebook:** [https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage](https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage)
-- **Link to Code:** [https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics](https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics)
 - **License:** CC0 1.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347760](https://doi.org/10.5281/zenodo.17347760)
-- **R:** `openesm::get_dataset("0021_gundogdu")`
-- **Python:** `openesm.get_dataset("0021_gundogdu")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347760">10.5281/zenodo.17347760</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.5061/dryad.b88c7">https://doi.org/10.5061/dryad.b88c7</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage">https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage</a></p>
+<p><strong>Code:</strong> <a href="https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics">https://github.com/didemgundogdu/RoyalOpenSciencePersonalityDynamics</a></p>
+</div>
 
 ## Additional Comments
 

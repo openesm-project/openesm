@@ -1,41 +1,66 @@
 ---
 title: "Hasselhorn (2021)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0024_hasselhorn"
+first_author: "Hasselhorn"
+year: 2021
+paper_doi: "https://doi.org/10.3758/s13428-021-01683-6"
+zenodo_doi: "10.5281/zenodo.17347856"
+license: "CC BY-NC 4.0"
+n_participants: 313
+n_time_points: 84
+n_days: "14"
+topics: "sampling frequency, affect, compliance, extraversion, perceived burden"
+sampling_scheme: "9x/day or 3x/day subject-specific schedule"
+participants: "university students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347856">10.5281/zenodo.17347856</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0024_hasselhorn")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0024_hasselhorn")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Hasselhorn
-- **Year:** 2021
-- **Paper DOI:** [https://doi.org/10.3758/s13428-021-01683-6](https://doi.org/10.3758/s13428-021-01683-6)
-- **Topics:** sampling frequency, affect, compliance, extraversion, perceived burden
-
-## Data Characteristics
-
-- **Participants:** 313 (university students)
-- **Time Points:** 84
-- **Days:** 14
-- **Beeps per Day:** 3 or 9
-- **Sampling Scheme:** 9x/day or 3x/day subject-specific schedule
-- **Raw Timestamp:** no
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Hasselhorn</li>
+<li><strong>Year:</strong> 2021</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.3758/s13428-021-01683-6">https://doi.org/10.3758/s13428-021-01683-6</a></li>
+<li><strong>Topics:</strong> sampling frequency, affect, compliance, extraversion, perceived burden</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 313 (university students)</li>
+<li><strong>Time Points:</strong> 84</li>
+<li><strong>Days:</strong> 14</li>
+<li><strong>Beeps per Day:</strong> 3 or 9</li>
+<li><strong>Sampling Scheme:</strong> 9x/day or 3x/day subject-specific schedule</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;](https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;)
-- **Link to Codebook:** [https://osf.io/ze9wn](https://osf.io/ze9wn)
-- **Link to Code:** [https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;](https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347856](https://doi.org/10.5281/zenodo.17347856)
-- **R:** `openesm::get_dataset("0024_hasselhorn")`
-- **Python:** `openesm.get_dataset("0024_hasselhorn")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347856">10.5281/zenodo.17347856</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;">https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/ze9wn">https://osf.io/ze9wn</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;">https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;</a></p>
+</div>
 
 ## Additional Comments
 

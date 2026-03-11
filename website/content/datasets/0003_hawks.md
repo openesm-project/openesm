@@ -1,41 +1,66 @@
 ---
 title: "Hawks (2023)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0003_hawks"
+first_author: "Hawks"
+year: 2023
+paper_doi: "https://doi.org/10.1016/j.bpsc.2022.12.002"
+zenodo_doi: "10.5281/zenodo.17347389"
+license: "CC BY-NC 4.0"
+n_participants: 122
+n_time_points: 30
+n_days: "10"
+topics: "momentary cognition, context, stress"
+sampling_scheme: "3x/day fixed time windows"
+participants: "adults"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347389">10.5281/zenodo.17347389</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0003_hawks")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0003_hawks")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Hawks
-- **Year:** 2023
-- **Paper DOI:** [https://doi.org/10.1016/j.bpsc.2022.12.002](https://doi.org/10.1016/j.bpsc.2022.12.002)
-- **Topics:** momentary cognition, context, stress
-
-## Data Characteristics
-
-- **Participants:** 122 (adults)
-- **Time Points:** 30
-- **Days:** 10
-- **Beeps per Day:** 3
-- **Sampling Scheme:** 3x/day fixed time windows
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Hawks</li>
+<li><strong>Year:</strong> 2023</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1016/j.bpsc.2022.12.002">https://doi.org/10.1016/j.bpsc.2022.12.002</a></li>
+<li><strong>Topics:</strong> momentary cognition, context, stress</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 122 (adults)</li>
+<li><strong>Time Points:</strong> 30</li>
+<li><strong>Days:</strong> 10</li>
+<li><strong>Beeps per Day:</strong> 3</li>
+<li><strong>Sampling Scheme:</strong> 3x/day fixed time windows</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** unclear
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://github.com/zwihawks/PredictingMomentaryCog](https://github.com/zwihawks/PredictingMomentaryCog)
-- **Link to Codebook:** [https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf](https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf)
-- **Link to Code:** [https://github.com/zwihawks/PredictingMomentaryCog](https://github.com/zwihawks/PredictingMomentaryCog)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347389](https://doi.org/10.5281/zenodo.17347389)
-- **R:** `openesm::get_dataset("0003_hawks")`
-- **Python:** `openesm.get_dataset("0003_hawks")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347389">10.5281/zenodo.17347389</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf">https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf</a></p>
+<p><strong>Code:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a></p>
+</div>
 
 
 

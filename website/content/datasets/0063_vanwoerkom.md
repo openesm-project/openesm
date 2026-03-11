@@ -1,41 +1,66 @@
 ---
 title: "van Woerkom (2022)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0063_vanwoerkom"
+first_author: "van Woerkom"
+year: 2022
+paper_doi: "https://doi.org/10.1007/s10902-022-00546-x"
+zenodo_doi: "10.5281/zenodo.17361708"
+license: "CC BY-NC 4.0"
+n_participants: 173
+n_time_points: 50
+n_days: "5"
+topics: "happiness, well-being, affect, need for autonomy"
+sampling_scheme: "10x/day in 90-minute blocks with 30 to 150 minutes in between"
+participants: "Dutch working adults"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17361708">10.5281/zenodo.17361708</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0063_vanwoerkom")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0063_vanwoerkom")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** van Woerkom
-- **Year:** 2022
-- **Paper DOI:** [https://doi.org/10.1007/s10902-022-00546-x](https://doi.org/10.1007/s10902-022-00546-x)
-- **Topics:** happiness, well-being, affect, need for autonomy
-
-## Data Characteristics
-
-- **Participants:** 173 (Dutch working adults)
-- **Time Points:** 50
-- **Days:** 5
-- **Beeps per Day:** 10
-- **Sampling Scheme:** 10x/day in 90-minute blocks with 30 to 150 minutes in between
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> van Woerkom</li>
+<li><strong>Year:</strong> 2022</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1007/s10902-022-00546-x">https://doi.org/10.1007/s10902-022-00546-x</a></li>
+<li><strong>Topics:</strong> happiness, well-being, affect, need for autonomy</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 173 (Dutch working adults)</li>
+<li><strong>Time Points:</strong> 50</li>
+<li><strong>Days:</strong> 5</li>
+<li><strong>Beeps per Day:</strong> 10</li>
+<li><strong>Sampling Scheme:</strong> 10x/day in 90-minute blocks with 30 to 150 minutes in between</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/k98pt/](https://osf.io/k98pt/)
-- **Link to Codebook:** not available
-- **Link to Code:** [https://osf.io/k98pt/files/](https://osf.io/k98pt/files/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17361708">10.5281/zenodo.17361708</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/k98pt/">https://osf.io/k98pt/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
 
-- **Zenodo DOI:** [10.5281/zenodo.17361708](https://doi.org/10.5281/zenodo.17361708)
-- **R:** `openesm::get_dataset("0063_vanwoerkom")`
-- **Python:** `openesm.get_dataset("0063_vanwoerkom")`
+<p><strong>Code:</strong> <a href="https://osf.io/k98pt/files/">https://osf.io/k98pt/files/</a></p>
+</div>
 
 ## Additional Comments
 

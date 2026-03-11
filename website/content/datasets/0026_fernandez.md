@@ -1,41 +1,66 @@
 ---
 title: "Fernández (2025)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0026_fernandez"
+first_author: "Fernández"
+year: 2025
+paper_doi: "https://doi.org/10.31234/osf.io/uj6df"
+zenodo_doi: "10.5281/zenodo.17347879"
+license: "CC BY-NC 4.0"
+n_participants: 225
+n_time_points: 50
+n_days: "10"
+topics: "well-being, smartphone usage, social media"
+sampling_scheme: "5x/day semi-random signal contingent"
+participants: "young adults (18-25)"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347879">10.5281/zenodo.17347879</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0026_fernandez")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0026_fernandez")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Fernández
-- **Year:** 2025
-- **Paper DOI:** [https://doi.org/10.31234/osf.io/uj6df](https://doi.org/10.31234/osf.io/uj6df)
-- **Topics:** well-being, smartphone usage, social media
-
-## Data Characteristics
-
-- **Participants:** 225 (young adults (18-25))
-- **Time Points:** 50
-- **Days:** 10
-- **Beeps per Day:** 5
-- **Sampling Scheme:** 5x/day semi-random signal contingent
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Fernández</li>
+<li><strong>Year:</strong> 2025</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.31234/osf.io/uj6df">https://doi.org/10.31234/osf.io/uj6df</a></li>
+<li><strong>Topics:</strong> well-being, smartphone usage, social media</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 225 (young adults (18-25))</li>
+<li><strong>Time Points:</strong> 50</li>
+<li><strong>Days:</strong> 10</li>
+<li><strong>Beeps per Day:</strong> 5</li>
+<li><strong>Sampling Scheme:</strong> 5x/day semi-random signal contingent</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** yes
-- **Link to Original Data:** [https://osf.io/jvms7](https://osf.io/jvms7)
-- **Link to Codebook:** [https://osf.io/w3vp5](https://osf.io/w3vp5)
-- **Link to Code:** [https://osf.io/95ncg](https://osf.io/95ncg)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347879](https://doi.org/10.5281/zenodo.17347879)
-- **R:** `openesm::get_dataset("0026_fernandez")`
-- **Python:** `openesm.get_dataset("0026_fernandez")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347879">10.5281/zenodo.17347879</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/jvms7">https://osf.io/jvms7</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/w3vp5">https://osf.io/w3vp5</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/95ncg">https://osf.io/95ncg</a></p>
+</div>
 
 ## Additional Comments
 

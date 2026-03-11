@@ -1,41 +1,66 @@
 ---
 title: "Fisher (2019)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0037_fisher"
+first_author: "Fisher"
+year: 2019
+paper_doi: "https://doi.org/10.31234/osf.io/e24v6"
+zenodo_doi: "10.5281/zenodo.17348069"
+license: "CC BY-NC 4.0"
+n_participants: 70
+n_time_points: 128
+n_days: "34"
+topics: "Smoking, affect, substance abuse"
+sampling_scheme: "4x/day random schedule"
+participants: "regular smokers"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348069">10.5281/zenodo.17348069</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0037_fisher")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0037_fisher")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Fisher
-- **Year:** 2019
-- **Paper DOI:** [https://doi.org/10.31234/osf.io/e24v6](https://doi.org/10.31234/osf.io/e24v6)
-- **Topics:** Smoking, affect, substance abuse
-
-## Data Characteristics
-
-- **Participants:** 70 (regular smokers)
-- **Time Points:** 128
-- **Days:** 34
-- **Beeps per Day:** 4
-- **Sampling Scheme:** 4x/day random schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Fisher</li>
+<li><strong>Year:</strong> 2019</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.31234/osf.io/e24v6">https://doi.org/10.31234/osf.io/e24v6</a></li>
+<li><strong>Topics:</strong> Smoking, affect, substance abuse</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 70 (regular smokers)</li>
+<li><strong>Time Points:</strong> 128</li>
+<li><strong>Days:</strong> 34</li>
+<li><strong>Beeps per Day:</strong> 4</li>
+<li><strong>Sampling Scheme:</strong> 4x/day random schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** no
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/nkemg/](https://osf.io/nkemg/)
-- **Link to Codebook:** [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004)
-- **Link to Code:** [https://osf.io/nkemg/](https://osf.io/nkemg/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348069](https://doi.org/10.5281/zenodo.17348069)
-- **R:** `openesm::get_dataset("0037_fisher")`
-- **Python:** `openesm.get_dataset("0037_fisher")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348069">10.5281/zenodo.17348069</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/nkemg/">https://osf.io/nkemg/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/nkemg/">https://osf.io/nkemg/</a></p>
+</div>
 
 ## Additional Comments
 

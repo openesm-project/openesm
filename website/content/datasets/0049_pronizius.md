@@ -1,41 +1,66 @@
 ---
 title: "Pronizius (2024)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0049_pronizius"
+first_author: "Pronizius"
+year: 2024
+paper_doi: "https://doi.org/10.1038/s41598-024-75261-z"
+zenodo_doi: "10.5281/zenodo.17348222"
+license: "CC-BY 4.0"
+n_participants: 803
+n_time_points: 35
+n_days: "7"
+topics: "helping, mood, prosocial behavior, stress, COVID"
+sampling_scheme: "4x semi-random, 1 prompt user-initiated before sleep"
+participants: "adults experiencing COVID lockdown"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348222">10.5281/zenodo.17348222</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0049_pronizius")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0049_pronizius")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Pronizius
-- **Year:** 2024
-- **Paper DOI:** [https://doi.org/10.1038/s41598-024-75261-z](https://doi.org/10.1038/s41598-024-75261-z)
-- **Topics:** helping, mood, prosocial behavior, stress, COVID
-
-## Data Characteristics
-
-- **Participants:** 803 (adults experiencing COVID lockdown)
-- **Time Points:** 35
-- **Days:** 7
-- **Beeps per Day:** 5
-- **Sampling Scheme:** 4x semi-random, 1 prompt user-initiated before sleep
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Pronizius</li>
+<li><strong>Year:</strong> 2024</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1038/s41598-024-75261-z">https://doi.org/10.1038/s41598-024-75261-z</a></li>
+<li><strong>Topics:</strong> helping, mood, prosocial behavior, stress, COVID</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 803 (adults experiencing COVID lockdown)</li>
+<li><strong>Time Points:</strong> 35</li>
+<li><strong>Days:</strong> 7</li>
+<li><strong>Beeps per Day:</strong> 5</li>
+<li><strong>Sampling Scheme:</strong> 4x semi-random, 1 prompt user-initiated before sleep</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/6n5zj/](https://osf.io/6n5zj/)
-- **Link to Codebook:** [https://osf.io/4tpvd](https://osf.io/4tpvd)
-- **Link to Code:** [https://osf.io/6n5zj](https://osf.io/6n5zj)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348222](https://doi.org/10.5281/zenodo.17348222)
-- **R:** `openesm::get_dataset("0049_pronizius")`
-- **Python:** `openesm.get_dataset("0049_pronizius")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348222">10.5281/zenodo.17348222</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/6n5zj/">https://osf.io/6n5zj/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/4tpvd">https://osf.io/4tpvd</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/6n5zj">https://osf.io/6n5zj</a></p>
+</div>
 
 ## Additional Comments
 
