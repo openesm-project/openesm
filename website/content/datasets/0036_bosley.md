@@ -1,41 +1,66 @@
 ---
 title: "Bosley (2019)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0036_bosley"
+first_author: "Bosley"
+year: 2019
+paper_doi: "https://doi.org/10.31234/osf.io/bhn7y"
+zenodo_doi: "10.5281/zenodo.17348118"
+license: "CC BY-NC 4.0"
+n_participants: 96
+n_time_points: 45
+n_days: "19"
+topics: "GAD, affect, dampening"
+sampling_scheme: "4x/day 30-minute interval"
+participants: "undergraduate students with elevated GAD symptoms"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348118">10.5281/zenodo.17348118</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0036_bosley")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0036_bosley")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Bosley
-- **Year:** 2019
-- **Paper DOI:** [https://doi.org/10.31234/osf.io/bhn7y](https://doi.org/10.31234/osf.io/bhn7y)
-- **Topics:** GAD, affect, dampening
-
-## Data Characteristics
-
-- **Participants:** 96 (undergraduate students with elevated GAD symptoms)
-- **Time Points:** 45
-- **Days:** 19
-- **Beeps per Day:** 4
-- **Sampling Scheme:** 4x/day 30-minute interval
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Bosley</li>
+<li><strong>Year:</strong> 2019</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.31234/osf.io/bhn7y">https://doi.org/10.31234/osf.io/bhn7y</a></li>
+<li><strong>Topics:</strong> GAD, affect, dampening</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 96 (undergraduate students with elevated GAD symptoms)</li>
+<li><strong>Time Points:</strong> 45</li>
+<li><strong>Days:</strong> 19</li>
+<li><strong>Beeps per Day:</strong> 4</li>
+<li><strong>Sampling Scheme:</strong> 4x/day 30-minute interval</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** no
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/4x8jd/](https://osf.io/4x8jd/)
-- **Link to Codebook:** [-](-)
-- **Link to Code:** [https://osf.io/8t46j](https://osf.io/8t46j)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348118](https://doi.org/10.5281/zenodo.17348118)
-- **R:** `openesm::get_dataset("0036_bosley")`
-- **Python:** `openesm.get_dataset("0036_bosley")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348118">10.5281/zenodo.17348118</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/4x8jd/">https://osf.io/4x8jd/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="-">-</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/8t46j">https://osf.io/8t46j</a></p>
+</div>
 
 ## Additional Comments
 

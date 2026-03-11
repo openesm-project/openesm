@@ -1,41 +1,66 @@
 ---
 title: "Söderberg (2024)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0019_soederberg"
+first_author: "Söderberg"
+year: 2024
+paper_doi: "https://doi.org/10.12688/f1000research.157148.1"
+zenodo_doi: "10.5281/zenodo.17347732"
+license: "CC-BY 4.0"
+n_participants: 302
+n_time_points: 40
+n_days: "10"
+topics: "schooling, relationships, self-efficacy, emotions, sleep"
+sampling_scheme: "4x/day fixed and random sampling"
+participants: "middle and secondary school students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347732">10.5281/zenodo.17347732</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0019_soederberg")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0019_soederberg")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Söderberg
-- **Year:** 2024
-- **Paper DOI:** [https://doi.org/10.12688/f1000research.157148.1](https://doi.org/10.12688/f1000research.157148.1)
-- **Topics:** schooling, relationships, self-efficacy, emotions, sleep
-
-## Data Characteristics
-
-- **Participants:** 302 (middle and secondary school students)
-- **Time Points:** 40
-- **Days:** 10
-- **Beeps per Day:** 4
-- **Sampling Scheme:** 4x/day fixed and random sampling
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Söderberg</li>
+<li><strong>Year:</strong> 2024</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.12688/f1000research.157148.1">https://doi.org/10.12688/f1000research.157148.1</a></li>
+<li><strong>Topics:</strong> schooling, relationships, self-efficacy, emotions, sleep</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 302 (middle and secondary school students)</li>
+<li><strong>Time Points:</strong> 40</li>
+<li><strong>Days:</strong> 10</li>
+<li><strong>Beeps per Day:</strong> 4</li>
+<li><strong>Sampling Scheme:</strong> 4x/day fixed and random sampling</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://doi.org/10.5281/zenodo.13332148](https://doi.org/10.5281/zenodo.13332148)
-- **Link to Codebook:** [https://zenodo.org/records/13332148](https://zenodo.org/records/13332148)
-- **Link to Code:** [null](null)
 - **License:** CC-BY 4.0
 
-## Data Access
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347732">10.5281/zenodo.17347732</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.5281/zenodo.13332148">https://doi.org/10.5281/zenodo.13332148</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://zenodo.org/records/13332148">https://zenodo.org/records/13332148</a></p>
 
-- **Zenodo DOI:** [10.5281/zenodo.17347732](https://doi.org/10.5281/zenodo.17347732)
-- **R:** `openesm::get_dataset("0019_soederberg")`
-- **Python:** `openesm.get_dataset("0019_soederberg")`
+</div>
 
 ## Additional Comments
 

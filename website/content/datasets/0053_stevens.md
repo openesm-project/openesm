@@ -1,41 +1,66 @@
 ---
 title: "Stevens (2020)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0053_stevens"
+first_author: "Stevens"
+year: 2020
+paper_doi: "https://doi.org/10.1016/j.bodyim.2020.09.003"
+zenodo_doi: "10.5281/zenodo.17347854"
+license: "CC BY-NC 4.0"
+n_participants: 133
+n_time_points: 42
+n_days: "7"
+topics: "body positivity, social media, affect, body satisfaction, fitspiration"
+sampling_scheme: "6x/day semi-random intervals with anchor times and 40 minute period around them"
+participants: "undergraduate students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347854">10.5281/zenodo.17347854</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0053_stevens")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0053_stevens")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Stevens
-- **Year:** 2020
-- **Paper DOI:** [https://doi.org/10.1016/j.bodyim.2020.09.003](https://doi.org/10.1016/j.bodyim.2020.09.003)
-- **Topics:** body positivity, social media, affect, body satisfaction, fitspiration
-
-## Data Characteristics
-
-- **Participants:** 133 (undergraduate students)
-- **Time Points:** 42
-- **Days:** 7
-- **Beeps per Day:** 6
-- **Sampling Scheme:** 6x/day semi-random intervals with anchor times and 40 minute period around them
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Stevens</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1016/j.bodyim.2020.09.003">https://doi.org/10.1016/j.bodyim.2020.09.003</a></li>
+<li><strong>Topics:</strong> body positivity, social media, affect, body satisfaction, fitspiration</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 133 (undergraduate students)</li>
+<li><strong>Time Points:</strong> 42</li>
+<li><strong>Days:</strong> 7</li>
+<li><strong>Beeps per Day:</strong> 6</li>
+<li><strong>Sampling Scheme:</strong> 6x/day semi-random intervals with anchor times and 40 minute period around them</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/qy9uj/files/](https://osf.io/qy9uj/files/)
-- **Link to Codebook:** not available
-- **Link to Code:** [https://osf.io/qy9uj/files/](https://osf.io/qy9uj/files/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347854">10.5281/zenodo.17347854</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/qy9uj/files/">https://osf.io/qy9uj/files/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
 
-- **Zenodo DOI:** [10.5281/zenodo.17347854](https://doi.org/10.5281/zenodo.17347854)
-- **R:** `openesm::get_dataset("0053_stevens")`
-- **Python:** `openesm.get_dataset("0053_stevens")`
+<p><strong>Code:</strong> <a href="https://osf.io/qy9uj/files/">https://osf.io/qy9uj/files/</a></p>
+</div>
 
 ## Additional Comments
 

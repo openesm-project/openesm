@@ -1,41 +1,66 @@
 ---
 title: "Menghini (2023)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0022_menghini"
+first_author: "Menghini"
+year: 2023
+paper_doi: "https://doi.org/10.1027/1015-5759/a000725"
+zenodo_doi: "10.5281/zenodo.17347537"
+license: "GPL-3.0"
+n_participants: 139
+n_time_points: 21
+n_days: "3"
+topics: "workplace stress, mood"
+sampling_scheme: "7x/day random schedule"
+participants: "full-time office workers"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347537">10.5281/zenodo.17347537</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0022_menghini")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0022_menghini")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Menghini
-- **Year:** 2023
-- **Paper DOI:** [https://doi.org/10.1027/1015-5759/a000725](https://doi.org/10.1027/1015-5759/a000725)
-- **Topics:** workplace stress, mood
-
-## Data Characteristics
-
-- **Participants:** 139 (full-time office workers)
-- **Time Points:** 21
-- **Days:** 3
-- **Beeps per Day:** 7
-- **Sampling Scheme:** 7x/day random schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Menghini</li>
+<li><strong>Year:</strong> 2023</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1027/1015-5759/a000725">https://doi.org/10.1027/1015-5759/a000725</a></li>
+<li><strong>Topics:</strong> workplace stress, mood</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 139 (full-time office workers)</li>
+<li><strong>Time Points:</strong> 21</li>
+<li><strong>Days:</strong> 3</li>
+<li><strong>Beeps per Day:</strong> 7</li>
+<li><strong>Sampling Scheme:</strong> 7x/day random schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://github.com/Luca-Menghini/ESMscales-workplaceStress](https://github.com/Luca-Menghini/ESMscales-workplaceStress)
-- **Link to Codebook:** [https://osf.io/87a9p/files/osfstorage](https://osf.io/87a9p/files/osfstorage)
-- **Link to Code:** [https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis](https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis)
 - **License:** GPL-3.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347537](https://doi.org/10.5281/zenodo.17347537)
-- **R:** `openesm::get_dataset("0022_menghini")`
-- **Python:** `openesm.get_dataset("0022_menghini")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347537">10.5281/zenodo.17347537</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://github.com/Luca-Menghini/ESMscales-workplaceStress">https://github.com/Luca-Menghini/ESMscales-workplaceStress</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/87a9p/files/osfstorage">https://osf.io/87a9p/files/osfstorage</a></p>
+<p><strong>Code:</strong> <a href="https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis">https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis</a></p>
+</div>
 
 
 

@@ -1,41 +1,66 @@
 ---
 title: "Reeves (2020)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0034_reeves"
+first_author: "Reeves"
+year: 2020
+paper_doi: "https://doi.org/10.1002/jts.22491"
+zenodo_doi: "10.5281/zenodo.17348019"
+license: "CC BY-NC 4.0"
+n_participants: 20
+n_time_points: 168
+n_days: "43"
+topics: "PTSD, emotions, sleep, physical symptoms"
+sampling_scheme: "4x/day fixed schedule"
+participants: "participants with PTSD"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348019">10.5281/zenodo.17348019</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0034_reeves")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0034_reeves")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Reeves
-- **Year:** 2020
-- **Paper DOI:** [https://doi.org/10.1002/jts.22491](https://doi.org/10.1002/jts.22491)
-- **Topics:** PTSD, emotions, sleep, physical symptoms
-
-## Data Characteristics
-
-- **Participants:** 20 (participants with PTSD)
-- **Time Points:** 168
-- **Days:** 43
-- **Beeps per Day:** 4
-- **Sampling Scheme:** 4x/day fixed schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Reeves</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1002/jts.22491">https://doi.org/10.1002/jts.22491</a></li>
+<li><strong>Topics:</strong> PTSD, emotions, sleep, physical symptoms</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 20 (participants with PTSD)</li>
+<li><strong>Time Points:</strong> 168</li>
+<li><strong>Days:</strong> 43</li>
+<li><strong>Beeps per Day:</strong> 4</li>
+<li><strong>Sampling Scheme:</strong> 4x/day fixed schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** no
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/6vxhf/](https://osf.io/6vxhf/)
-- **Link to Codebook:** [https://osf.io/juksb](https://osf.io/juksb)
-- **Link to Code:** [https://osf.io/gv37j](https://osf.io/gv37j)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348019](https://doi.org/10.5281/zenodo.17348019)
-- **R:** `openesm::get_dataset("0034_reeves")`
-- **Python:** `openesm.get_dataset("0034_reeves")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348019">10.5281/zenodo.17348019</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/6vxhf/">https://osf.io/6vxhf/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/juksb">https://osf.io/juksb</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/gv37j">https://osf.io/gv37j</a></p>
+</div>
 
 ## Additional Comments
 

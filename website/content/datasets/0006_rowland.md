@@ -1,41 +1,66 @@
 ---
 title: "Rowland (2020)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0006_rowland"
+first_author: "Rowland"
+year: 2020
+paper_doi: "https://doi.org/10.1007/s12671-020-01335-4"
+zenodo_doi: "10.5281/zenodo.17347351"
+license: "CC BY-NC 4.0"
+n_participants: 125
+n_time_points: 240
+n_days: "40"
+topics: "mindfulness, affect, network"
+sampling_scheme: "6x/day random timing"
+participants: "undergraduate students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347351">10.5281/zenodo.17347351</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0006_rowland")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0006_rowland")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Rowland
-- **Year:** 2020
-- **Paper DOI:** [https://doi.org/10.1007/s12671-020-01335-4](https://doi.org/10.1007/s12671-020-01335-4)
-- **Topics:** mindfulness, affect, network
-
-## Data Characteristics
-
-- **Participants:** 125 (undergraduate students)
-- **Time Points:** 240
-- **Days:** 40
-- **Beeps per Day:** 6
-- **Sampling Scheme:** 6x/day random timing
-- **Raw Timestamp:** no
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Rowland</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1007/s12671-020-01335-4">https://doi.org/10.1007/s12671-020-01335-4</a></li>
+<li><strong>Topics:</strong> mindfulness, affect, network</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 125 (undergraduate students)</li>
+<li><strong>Time Points:</strong> 240</li>
+<li><strong>Days:</strong> 40</li>
+<li><strong>Beeps per Day:</strong> 6</li>
+<li><strong>Sampling Scheme:</strong> 6x/day random timing</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/jmz2n/](https://osf.io/jmz2n/)
-- **Link to Codebook:** [https://osf.io/5t4yg](https://osf.io/5t4yg)
-- **Link to Code:** [https://osf.io/jmz2n/](https://osf.io/jmz2n/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347351](https://doi.org/10.5281/zenodo.17347351)
-- **R:** `openesm::get_dataset("0006_rowland")`
-- **Python:** `openesm.get_dataset("0006_rowland")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347351">10.5281/zenodo.17347351</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/jmz2n/">https://osf.io/jmz2n/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/5t4yg">https://osf.io/5t4yg</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/jmz2n/">https://osf.io/jmz2n/</a></p>
+</div>
 
 
 

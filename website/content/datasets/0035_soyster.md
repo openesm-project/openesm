@@ -1,41 +1,66 @@
 ---
 title: "Soyster (2022)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0035_soyster"
+first_author: "Soyster"
+year: 2022
+paper_doi: "https://doi.org/10.1037/adb0000666"
+zenodo_doi: "10.5281/zenodo.17347645"
+license: "CC BY-NC 4.0"
+n_participants: 33
+n_time_points: 129
+n_days: "15"
+topics: "alcohol consumption, craving, affect, context"
+sampling_scheme: "8x/day semi-random schedule"
+participants: "adult alcohol consumers"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347645">10.5281/zenodo.17347645</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0035_soyster")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0035_soyster")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Soyster
-- **Year:** 2022
-- **Paper DOI:** [https://doi.org/10.1037/adb0000666](https://doi.org/10.1037/adb0000666)
-- **Topics:** alcohol consumption, craving, affect, context
-
-## Data Characteristics
-
-- **Participants:** 33 (adult alcohol consumers)
-- **Time Points:** 129
-- **Days:** 15
-- **Beeps per Day:** 8
-- **Sampling Scheme:** 8x/day semi-random schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Soyster</li>
+<li><strong>Year:</strong> 2022</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1037/adb0000666">https://doi.org/10.1037/adb0000666</a></li>
+<li><strong>Topics:</strong> alcohol consumption, craving, affect, context</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 33 (adult alcohol consumers)</li>
+<li><strong>Time Points:</strong> 129</li>
+<li><strong>Days:</strong> 15</li>
+<li><strong>Beeps per Day:</strong> 8</li>
+<li><strong>Sampling Scheme:</strong> 8x/day semi-random schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** no
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/q7upd/](https://osf.io/q7upd/)
-- **Link to Codebook:** [-](-)
-- **Link to Code:** [https://osf.io/bwkjq](https://osf.io/bwkjq)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347645](https://doi.org/10.5281/zenodo.17347645)
-- **R:** `openesm::get_dataset("0035_soyster")`
-- **Python:** `openesm.get_dataset("0035_soyster")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347645">10.5281/zenodo.17347645</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/q7upd/">https://osf.io/q7upd/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="-">-</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/bwkjq">https://osf.io/bwkjq</a></p>
+</div>
 
 ## Additional Comments
 

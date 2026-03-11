@@ -1,41 +1,66 @@
 ---
 title: "Scharbert (2023)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0071_scharbert"
+first_author: "Scharbert"
+year: 2023
+paper_doi: "https://doi.org/10.1038/s41467-024-44693-6"
+zenodo_doi: "10.5281/zenodo.17348583"
+license: "CC-BY 4.0"
+n_participants: 2855
+n_time_points: 140
+n_days: "28"
+topics: "affect, well-being, Covid, prejudice"
+sampling_scheme: "5x/day with 4 randomly-timed surveys between 9am and 6pm and one daily evening survey after 7pm"
+participants: "adults"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348583">10.5281/zenodo.17348583</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0071_scharbert")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0071_scharbert")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Scharbert
-- **Year:** 2023
-- **Paper DOI:** [https://doi.org/10.1038/s41467-024-44693-6](https://doi.org/10.1038/s41467-024-44693-6)
-- **Topics:** affect, well-being, Covid, prejudice
-
-## Data Characteristics
-
-- **Participants:** 2855 (adults)
-- **Time Points:** 140
-- **Days:** 28
-- **Beeps per Day:** 5
-- **Sampling Scheme:** 5x/day with 4 randomly-timed surveys between 9am and 6pm and one daily evening survey after 7pm
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Scharbert</li>
+<li><strong>Year:</strong> 2023</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1038/s41467-024-44693-6">https://doi.org/10.1038/s41467-024-44693-6</a></li>
+<li><strong>Topics:</strong> affect, well-being, Covid, prejudice</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 2855 (adults)</li>
+<li><strong>Time Points:</strong> 140</li>
+<li><strong>Days:</strong> 28</li>
+<li><strong>Beeps per Day:</strong> 5</li>
+<li><strong>Sampling Scheme:</strong> 5x/day with 4 randomly-timed surveys between 9am and 6pm and one daily evening survey after 7pm</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/8f3yu](https://osf.io/8f3yu)
-- **Link to Codebook:** [https://osf.io/nfkze](https://osf.io/nfkze)
-- **Link to Code:** [https://osf.io/z9y5b](https://osf.io/z9y5b)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348583](https://doi.org/10.5281/zenodo.17348583)
-- **R:** `openesm::get_dataset("0071_scharbert")`
-- **Python:** `openesm.get_dataset("0071_scharbert")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348583">10.5281/zenodo.17348583</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/8f3yu">https://osf.io/8f3yu</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/nfkze">https://osf.io/nfkze</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/z9y5b">https://osf.io/z9y5b</a></p>
+</div>
 
 ## Additional Comments
 

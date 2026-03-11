@@ -1,41 +1,66 @@
 ---
 title: "Fried (2021)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0001_fried"
+first_author: "Fried"
+year: 2021
+paper_doi: "https://doi.org/10.1177/21677026211017839"
+zenodo_doi: "10.5281/zenodo.17347269"
+license: "CC-BY 4.0"
+n_participants: 80
+n_time_points: 56
+n_days: "14"
+topics: "mental health, social contact, COVID"
+sampling_scheme: "4x/day fixed schedule"
+participants: "student sample"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347269">10.5281/zenodo.17347269</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0001_fried")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0001_fried")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Fried
-- **Year:** 2021
-- **Paper DOI:** [https://doi.org/10.1177/21677026211017839](https://doi.org/10.1177/21677026211017839)
-- **Topics:** mental health, social contact, COVID
-
-## Data Characteristics
-
-- **Participants:** 80 (student sample)
-- **Time Points:** 56
-- **Days:** 14
-- **Beeps per Day:** 4
-- **Sampling Scheme:** 4x/day fixed schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Fried</li>
+<li><strong>Year:</strong> 2021</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1177/21677026211017839">https://doi.org/10.1177/21677026211017839</a></li>
+<li><strong>Topics:</strong> mental health, social contact, COVID</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 80 (student sample)</li>
+<li><strong>Time Points:</strong> 56</li>
+<li><strong>Days:</strong> 14</li>
+<li><strong>Beeps per Day:</strong> 4</li>
+<li><strong>Sampling Scheme:</strong> 4x/day fixed schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/mvdpe/](https://osf.io/mvdpe/)
-- **Link to Codebook:** [https://osf.io/mx87b](https://osf.io/mx87b)
-- **Link to Code:** [https://osf.io/mvdpe/](https://osf.io/mvdpe/)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347269](https://doi.org/10.5281/zenodo.17347269)
-- **R:** `openesm::get_dataset("0001_fried")`
-- **Python:** `openesm.get_dataset("0001_fried")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347269">10.5281/zenodo.17347269</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/mvdpe/">https://osf.io/mvdpe/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/mx87b">https://osf.io/mx87b</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/mvdpe/">https://osf.io/mvdpe/</a></p>
+</div>
 
 ## Additional Comments
 

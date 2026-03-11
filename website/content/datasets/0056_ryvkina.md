@@ -1,41 +1,66 @@
 ---
 title: "Ryvkina (2023)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0056_ryvkina"
+first_author: "Ryvkina"
+year: 2023
+paper_doi: "https://doi.org/10.5334/jopd.83"
+zenodo_doi: ""
+license: "CC-BY 4.0"
+n_participants: 327
+n_time_points: 84
+n_days: "14"
+topics: "COVID, personality, emotions, affect, interaction, activities"
+sampling_scheme: "6x/day at random times within the bounds of every participant's individually preferred time window, with at least 40 min. time lags between surveys"
+participants: "mostly college students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><em>Zenodo DOI not yet available</em></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0056_ryvkina")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0056_ryvkina")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Ryvkina
-- **Year:** 2023
-- **Paper DOI:** [https://doi.org/10.5334/jopd.83](https://doi.org/10.5334/jopd.83)
-- **Topics:** COVID, personality, emotions, affect, interaction, activities
-
-## Data Characteristics
-
-- **Participants:** 327 (mostly college students)
-- **Time Points:** 84
-- **Days:** 14
-- **Beeps per Day:** 6
-- **Sampling Scheme:** 6x/day at random times within the bounds of every participant's individually preferred time window, with at least 40 min. time lags between surveys
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Ryvkina</li>
+<li><strong>Year:</strong> 2023</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.5334/jopd.83">https://doi.org/10.5334/jopd.83</a></li>
+<li><strong>Topics:</strong> COVID, personality, emotions, affect, interaction, activities</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 327 (mostly college students)</li>
+<li><strong>Time Points:</strong> 84</li>
+<li><strong>Days:</strong> 14</li>
+<li><strong>Beeps per Day:</strong> 6</li>
+<li><strong>Sampling Scheme:</strong> 6x/day at random times within the bounds of every participant's individually preferred time window, with at least 40 min. time lags between surveys</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/6kzx3/](https://osf.io/6kzx3/)
-- **Link to Codebook:** [https://osf.io/6kzx3/](https://osf.io/6kzx3/)
-- **Link to Code:** [https://osf.io/6kzx3/](https://osf.io/6kzx3/)
 - **License:** CC-BY 4.0
 
-## Data Access
+<div class="dataset-links">
 
-- **Zenodo DOI:** not available
-- **R:** `openesm::get_dataset("0056_ryvkina")`
-- **Python:** `openesm.get_dataset("0056_ryvkina")`
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/6kzx3/">https://osf.io/6kzx3/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/6kzx3/">https://osf.io/6kzx3/</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/6kzx3/">https://osf.io/6kzx3/</a></p>
+</div>
 
 ## Additional Comments
 

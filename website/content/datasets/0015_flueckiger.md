@@ -1,41 +1,66 @@
 ---
 title: "Flueckiger (2014)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0015_flueckiger"
+first_author: "Flueckiger"
+year: 2014
+paper_doi: "https://doi.org/10.1371/journal.pone.0111080"
+zenodo_doi: "10.5281/zenodo.17347647"
+license: "CC0 1.0"
+n_participants: 72
+n_time_points: 32
+n_days: "32"
+topics: "health behavior, depression, academic performance, affect"
+sampling_scheme: "1x/day at 5pm"
+participants: "first-year psychology students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347647">10.5281/zenodo.17347647</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0015_flueckiger")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0015_flueckiger")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Flueckiger
-- **Year:** 2014
-- **Paper DOI:** [https://doi.org/10.1371/journal.pone.0111080](https://doi.org/10.1371/journal.pone.0111080)
-- **Topics:** health behavior, depression, academic performance, affect
-
-## Data Characteristics
-
-- **Participants:** 72 (first-year psychology students)
-- **Time Points:** 32
-- **Days:** 32
-- **Beeps per Day:** 1
-- **Sampling Scheme:** 1x/day at 5pm
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Flueckiger</li>
+<li><strong>Year:</strong> 2014</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1371/journal.pone.0111080">https://doi.org/10.1371/journal.pone.0111080</a></li>
+<li><strong>Topics:</strong> health behavior, depression, academic performance, affect</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 72 (first-year psychology students)</li>
+<li><strong>Time Points:</strong> 32</li>
+<li><strong>Days:</strong> 32</li>
+<li><strong>Beeps per Day:</strong> 1</li>
+<li><strong>Sampling Scheme:</strong> 1x/day at 5pm</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388)
-- **Link to Codebook:** [https://doi.org/10.7910/DVN/27388/U8IPJZ](https://doi.org/10.7910/DVN/27388/U8IPJZ)
-- **Link to Code:** [null](null)
 - **License:** CC0 1.0
 
-## Data Access
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347647">10.5281/zenodo.17347647</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388">https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://doi.org/10.7910/DVN/27388/U8IPJZ">https://doi.org/10.7910/DVN/27388/U8IPJZ</a></p>
 
-- **Zenodo DOI:** [10.5281/zenodo.17347647](https://doi.org/10.5281/zenodo.17347647)
-- **R:** `openesm::get_dataset("0015_flueckiger")`
-- **Python:** `openesm.get_dataset("0015_flueckiger")`
+</div>
 
 
 

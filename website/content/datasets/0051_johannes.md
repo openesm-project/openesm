@@ -1,41 +1,66 @@
 ---
 title: "Johannes (2021)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0051_johannes"
+first_author: "Johannes"
+year: 2021
+paper_doi: "https://doi.org/10.1080/15213269.2020.1768122"
+zenodo_doi: "10.5281/zenodo.17348348"
+license: "CC-BY 4.0"
+n_participants: 75
+n_time_points: 40
+n_days: "5"
+topics: "online vigilance, affect, wellbeing, smartphone, social interactions"
+sampling_scheme: "8x semi-random with at least 45 minutes between surveys"
+participants: "Dutch undergraduate students using social media"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348348">10.5281/zenodo.17348348</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0051_johannes")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0051_johannes")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Johannes
-- **Year:** 2021
-- **Paper DOI:** [https://doi.org/10.1080/15213269.2020.1768122](https://doi.org/10.1080/15213269.2020.1768122)
-- **Topics:** online vigilance, affect, wellbeing, smartphone, social interactions
-
-## Data Characteristics
-
-- **Participants:** 75 (Dutch undergraduate students using social media)
-- **Time Points:** 40
-- **Days:** 5
-- **Beeps per Day:** 8
-- **Sampling Scheme:** 8x semi-random with at least 45 minutes between surveys
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Johannes</li>
+<li><strong>Year:</strong> 2021</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1080/15213269.2020.1768122">https://doi.org/10.1080/15213269.2020.1768122</a></li>
+<li><strong>Topics:</strong> online vigilance, affect, wellbeing, smartphone, social interactions</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 75 (Dutch undergraduate students using social media)</li>
+<li><strong>Time Points:</strong> 40</li>
+<li><strong>Days:</strong> 5</li>
+<li><strong>Beeps per Day:</strong> 8</li>
+<li><strong>Sampling Scheme:</strong> 8x semi-random with at least 45 minutes between surveys</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** yes
-- **Link to Original Data:** [https://osf.io/ps3rk/files](https://osf.io/ps3rk/files)
-- **Link to Codebook:** [https://osf.io/xf2pq/](https://osf.io/xf2pq/)
-- **Link to Code:** [https://osf.io/ps3rk/files](https://osf.io/ps3rk/files)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348348](https://doi.org/10.5281/zenodo.17348348)
-- **R:** `openesm::get_dataset("0051_johannes")`
-- **Python:** `openesm.get_dataset("0051_johannes")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348348">10.5281/zenodo.17348348</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/ps3rk/files">https://osf.io/ps3rk/files</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/xf2pq/">https://osf.io/xf2pq/</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/ps3rk/files">https://osf.io/ps3rk/files</a></p>
+</div>
 
 ## Additional Comments
 

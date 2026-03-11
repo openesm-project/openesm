@@ -1,41 +1,66 @@
 ---
 title: "Westhoff (2024)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0008_westhoff"
+first_author: "Westhoff"
+year: 2024
+paper_doi: "https://doi.org/10.1038/s41598-024-58598-3"
+zenodo_doi: "10.5281/zenodo.17347510"
+license: "CC-BY 4.0"
+n_participants: 114
+n_time_points: 105
+n_days: "21"
+topics: "psychological flexibility, cognition, affect"
+sampling_scheme: "5x/day semi-random schedule"
+participants: "young adults"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347510">10.5281/zenodo.17347510</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0008_westhoff")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0008_westhoff")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Westhoff
-- **Year:** 2024
-- **Paper DOI:** [https://doi.org/10.1038/s41598-024-58598-3](https://doi.org/10.1038/s41598-024-58598-3)
-- **Topics:** psychological flexibility, cognition, affect
-
-## Data Characteristics
-
-- **Participants:** 114 (young adults)
-- **Time Points:** 105
-- **Days:** 21
-- **Beeps per Day:** 5
-- **Sampling Scheme:** 5x/day semi-random schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Westhoff</li>
+<li><strong>Year:</strong> 2024</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1038/s41598-024-58598-3">https://doi.org/10.1038/s41598-024-58598-3</a></li>
+<li><strong>Topics:</strong> psychological flexibility, cognition, affect</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 114 (young adults)</li>
+<li><strong>Time Points:</strong> 105</li>
+<li><strong>Days:</strong> 21</li>
+<li><strong>Beeps per Day:</strong> 5</li>
+<li><strong>Sampling Scheme:</strong> 5x/day semi-random schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** yes
-- **Link to Original Data:** [https://doi.org/10.1038/s41598-024-58598-3](https://doi.org/10.1038/s41598-024-58598-3)
-- **Link to Codebook:** [-](-)
-- **Link to Code:** [https://osf.io/ejtzs/](https://osf.io/ejtzs/)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347510](https://doi.org/10.5281/zenodo.17347510)
-- **R:** `openesm::get_dataset("0008_westhoff")`
-- **Python:** `openesm.get_dataset("0008_westhoff")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347510">10.5281/zenodo.17347510</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.1038/s41598-024-58598-3">https://doi.org/10.1038/s41598-024-58598-3</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="-">-</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/ejtzs/">https://osf.io/ejtzs/</a></p>
+</div>
 
 ## Additional Comments
 

@@ -53,63 +53,96 @@ function formatZenodoDOI(doi) {
   return `https://doi.org/${doi}`;
 }
 
+// Escape double quotes for YAML frontmatter string values
+function escapeFM(val) {
+  if (val === null || val === undefined) return '';
+  return String(val).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
 // Read and process all dataset folders
 const generateDatasetPages = () => {
   // Get all subdirectories in the datasets directory
   const datasetFolders = fs.readdirSync(datasetsDir, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);
-  
+
   datasetFolders.forEach(folder => {
     // Look for metadata file in the dataset folder
     const metadataPath = path.join(datasetsDir, folder, `${folder}_metadata.json`);
-    
+
     if (fs.existsSync(metadataPath)) {
       const data = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
-      
+
       // Format the reference
       const apaReference = data.reference_a ? formatAPAReference(data.reference_a) : '';
       const additionalReference = data.reference_b ? formatAPAReference(data.reference_b) : '';
-      
+
+      const zenodoUrl = data.zenodo_doi ? formatZenodoDOI(data.zenodo_doi) : '';
+
       // Create markdown content for the dataset page
       const content = `---
-title: "${data.first_author} (${data.year})"
+title: "${escapeFM(data.first_author)} (${data.year})"
 date: ${new Date().toISOString().split('T')[0]}
 draft: false
+dataset_id: "${escapeFM(folder)}"
+first_author: "${escapeFM(data.first_author)}"
+year: ${data.year}
+paper_doi: "${escapeFM(data.paper_doi || '')}"
+zenodo_doi: "${escapeFM(data.zenodo_doi || '')}"
+license: "${escapeFM(data.license || '')}"
+n_participants: ${data.n_participants || 0}
+n_time_points: ${data.n_time_points || 0}
+n_days: "${escapeFM(String(data.n_days || ''))}"
+topics: "${escapeFM(data.topics || '')}"
+sampling_scheme: "${escapeFM(data.sampling_scheme || '')}"
+participants: "${escapeFM(data.participants || '')}"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+${data.zenodo_doi ? `<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="${zenodoUrl}">${data.zenodo_doi}</a></p>` : '<p class="dataset-access-doi"><em>Zenodo DOI not yet available</em></p>'}
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("${folder}")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("${folder}")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** ${data.first_author}
-- **Year:** ${data.year}
-- **Paper DOI:** [${data.paper_doi}](${data.paper_doi})
-- **Topics:** ${data.topics || ''}
-
-## Data Characteristics
-
-- **Participants:** ${data.n_participants} (${data.participants || ''})
-- **Time Points:** ${data.n_time_points}
-- **Days:** ${data.n_days}
-- **Beeps per Day:** ${formatBeepsPerDay(data.n_beeps_per_day)}
-- **Sampling Scheme:** ${data.sampling_scheme || ''}
-- **Raw Timestamp:** ${data.raw_time_stamp || ''}
-- **Implicit Missingness:** ${data.implicit_missingness || ''}
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> ${data.first_author}</li>
+<li><strong>Year:</strong> ${data.year}</li>
+${data.paper_doi ? `<li><strong>Paper DOI:</strong> <a href="${data.paper_doi}">${data.paper_doi}</a></li>` : ''}
+<li><strong>Topics:</strong> ${data.topics || ''}</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> ${data.n_participants}${data.participants ? ` (${data.participants})` : ''}</li>
+<li><strong>Time Points:</strong> ${data.n_time_points}</li>
+<li><strong>Days:</strong> ${data.n_days}</li>
+<li><strong>Beeps per Day:</strong> ${formatBeepsPerDay(data.n_beeps_per_day)}</li>
+<li><strong>Sampling Scheme:</strong> ${data.sampling_scheme || ''}</li>
+<li><strong>Raw Timestamp:</strong> ${data.raw_time_stamp || ''}</li>
+<li><strong>Implicit Missingness:</strong> ${data.implicit_missingness || ''}</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** ${data.cross_sectional_available || 'not specified'}
 - **Passive Sensor Data:** ${data.passive_data_available || 'not specified'}
-- **Link to Original Data:** [${data.link_to_data}](${data.link_to_data})
-- **Link to Codebook:** ${data.link_to_codebook ? `[${data.link_to_codebook}](${data.link_to_codebook})` : 'not available'}
-- **Link to Code:** [${data.link_to_code}](${data.link_to_code})
 - **License:** ${data.license || 'not specified'}
 
-## Data Access
-
-- **Zenodo DOI:** ${data.zenodo_doi ? `[${data.zenodo_doi}](${formatZenodoDOI(data.zenodo_doi)})` : 'not available'}
-- **R:** \`openesm::get_dataset("${folder}")\`
-- **Python:** \`openesm.get_dataset("${folder}")\`
+<div class="dataset-links">
+${data.zenodo_doi ? `<p><strong>Harmonized Data (Zenodo):</strong> <a href="${zenodoUrl}">${data.zenodo_doi}</a></p>` : ''}
+<p><strong>Original Source Data:</strong> <a href="${data.link_to_data}">${data.link_to_data}</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+${data.link_to_codebook ? `<p><strong>Codebook:</strong> <a href="${data.link_to_codebook}">${data.link_to_codebook}</a></p>` : ''}
+${data.link_to_code ? `<p><strong>Code:</strong> <a href="${data.link_to_code}">${data.link_to_code}</a></p>` : ''}
+</div>
 
 ${data.additional_comments ? `## Additional Comments\n\n${data.additional_comments}\n` : ''}
 
@@ -129,7 +162,7 @@ No changes yet.
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 ${data.features.map(feature => `| ${feature.name} | ${formatForTable(feature.description)} | ${feature.variable_type} | ${formatForTable(feature.answer_categories)} | ${formatForTable(feature.details)} | ${formatForTable(feature.labels)} | ${formatForTable(feature.transformation)} | ${formatForTable(feature.source)} | ${formatForTable(feature.assessment_type)} | ${formatForTable(feature.construct)} | ${formatForTable(feature.comments)} |`).join('\n')}
 `;
-      
+
       // Write the markdown file
       const outputPath = path.join(outputDir, `${folder}.md`);
       fs.writeFileSync(outputPath, content);
@@ -142,4 +175,3 @@ ${data.features.map(feature => `| ${feature.name} | ${formatForTable(feature.des
 
 
 generateDatasetPages();
-

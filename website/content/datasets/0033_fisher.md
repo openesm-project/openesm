@@ -1,41 +1,66 @@
 ---
 title: "Fisher (2017)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0033_fisher"
+first_author: "Fisher"
+year: 2017
+paper_doi: "https://doi.org/10.1037/abn0000311"
+zenodo_doi: "10.5281/zenodo.17348038"
+license: "CC BY-NC 4.0"
+n_participants: 40
+n_time_points: 212
+n_days: "55"
+topics: "mood, anxiety, procrastination, depression"
+sampling_scheme: "4x/day fixed schedule"
+participants: "participants with a diagnosis of MDD and/or GAD"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348038">10.5281/zenodo.17348038</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0033_fisher")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0033_fisher")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Fisher
-- **Year:** 2017
-- **Paper DOI:** [https://doi.org/10.1037/abn0000311](https://doi.org/10.1037/abn0000311)
-- **Topics:** mood, anxiety, procrastination, depression
-
-## Data Characteristics
-
-- **Participants:** 40 (participants with a diagnosis of MDD and/or GAD)
-- **Time Points:** 212
-- **Days:** 55
-- **Beeps per Day:** 4
-- **Sampling Scheme:** 4x/day fixed schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** unclear
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Fisher</li>
+<li><strong>Year:</strong> 2017</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1037/abn0000311">https://doi.org/10.1037/abn0000311</a></li>
+<li><strong>Topics:</strong> mood, anxiety, procrastination, depression</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 40 (participants with a diagnosis of MDD and/or GAD)</li>
+<li><strong>Time Points:</strong> 212</li>
+<li><strong>Days:</strong> 55</li>
+<li><strong>Beeps per Day:</strong> 4</li>
+<li><strong>Sampling Scheme:</strong> 4x/day fixed schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> unclear</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** no
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/5ybxt/](https://osf.io/5ybxt/)
-- **Link to Codebook:** [https://osf.io/h93f4](https://osf.io/h93f4)
-- **Link to Code:** [https://osf.io/m63ks](https://osf.io/m63ks)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348038](https://doi.org/10.5281/zenodo.17348038)
-- **R:** `openesm::get_dataset("0033_fisher")`
-- **Python:** `openesm.get_dataset("0033_fisher")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348038">10.5281/zenodo.17348038</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/5ybxt/">https://osf.io/5ybxt/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/h93f4">https://osf.io/h93f4</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/m63ks">https://osf.io/m63ks</a></p>
+</div>
 
 ## Additional Comments
 

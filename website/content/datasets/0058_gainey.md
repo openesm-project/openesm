@@ -1,41 +1,66 @@
 ---
 title: "Gainey (2023)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0058_gainey"
+first_author: "Gainey"
+year: 2023
+paper_doi: "https://doi.org/10.1177/21677026221147262"
+zenodo_doi: "10.5281/zenodo.17348369"
+license: "CC BY-NC 4.0"
+n_participants: 356
+n_time_points: 42
+n_days: "7"
+topics: "awareness, mindfulness, emotion, cognitive fusion, well-being"
+sampling_scheme: "6x/day pseudo-random intervals with minimum interval between prompts"
+participants: "adults, oversampled for people in treatment or seeking treatment"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348369">10.5281/zenodo.17348369</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0058_gainey")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0058_gainey")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Gainey
-- **Year:** 2023
-- **Paper DOI:** [https://doi.org/10.1177/21677026221147262](https://doi.org/10.1177/21677026221147262)
-- **Topics:** awareness, mindfulness, emotion, cognitive fusion, well-being
-
-## Data Characteristics
-
-- **Participants:** 356 (adults, oversampled for people in treatment or seeking treatment)
-- **Time Points:** 42
-- **Days:** 7
-- **Beeps per Day:** 6
-- **Sampling Scheme:** 6x/day pseudo-random intervals with minimum interval between prompts
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Gainey</li>
+<li><strong>Year:</strong> 2023</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1177/21677026221147262">https://doi.org/10.1177/21677026221147262</a></li>
+<li><strong>Topics:</strong> awareness, mindfulness, emotion, cognitive fusion, well-being</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 356 (adults, oversampled for people in treatment or seeking treatment)</li>
+<li><strong>Time Points:</strong> 42</li>
+<li><strong>Days:</strong> 7</li>
+<li><strong>Beeps per Day:</strong> 6</li>
+<li><strong>Sampling Scheme:</strong> 6x/day pseudo-random intervals with minimum interval between prompts</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/gct7x/](https://osf.io/gct7x/)
-- **Link to Codebook:** [https://osf.io/gct7x](https://osf.io/gct7x)
-- **Link to Code:** [https://osf.io/gct7x/files/osfstorage](https://osf.io/gct7x/files/osfstorage)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17348369](https://doi.org/10.5281/zenodo.17348369)
-- **R:** `openesm::get_dataset("0058_gainey")`
-- **Python:** `openesm.get_dataset("0058_gainey")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348369">10.5281/zenodo.17348369</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/gct7x/">https://osf.io/gct7x/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/gct7x">https://osf.io/gct7x</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/gct7x/files/osfstorage">https://osf.io/gct7x/files/osfstorage</a></p>
+</div>
 
 ## Additional Comments
 

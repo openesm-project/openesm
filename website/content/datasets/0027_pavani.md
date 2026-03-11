@@ -1,41 +1,66 @@
 ---
 title: "Pavani (2017)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0027_pavani"
+first_author: "Pavani"
+year: 2017
+paper_doi: "https://doi.org/10.1002/per.2109"
+zenodo_doi: "10.5281/zenodo.17347892"
+license: "CC BY-NC 4.0"
+n_participants: 78
+n_time_points: 70
+n_days: "14"
+topics: "affect regulation, affect, personality"
+sampling_scheme: "5x/day fixed-schedule with personalization"
+participants: "non-clinical individuals"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347892">10.5281/zenodo.17347892</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0027_pavani")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0027_pavani")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Pavani
-- **Year:** 2017
-- **Paper DOI:** [https://doi.org/10.1002/per.2109](https://doi.org/10.1002/per.2109)
-- **Topics:** affect regulation, affect, personality
-
-## Data Characteristics
-
-- **Participants:** 78 (non-clinical individuals)
-- **Time Points:** 70
-- **Days:** 14
-- **Beeps per Day:** 5
-- **Sampling Scheme:** 5x/day fixed-schedule with personalization
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Pavani</li>
+<li><strong>Year:</strong> 2017</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1002/per.2109">https://doi.org/10.1002/per.2109</a></li>
+<li><strong>Topics:</strong> affect regulation, affect, personality</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 78 (non-clinical individuals)</li>
+<li><strong>Time Points:</strong> 70</li>
+<li><strong>Days:</strong> 14</li>
+<li><strong>Beeps per Day:</strong> 5</li>
+<li><strong>Sampling Scheme:</strong> 5x/day fixed-schedule with personalization</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/s3chz/?view_only=](https://osf.io/s3chz/?view_only=)
-- **Link to Codebook:** [https://osf.io/u95vg](https://osf.io/u95vg)
-- **Link to Code:** [https://osf.io/s3chz/?view_only=](https://osf.io/s3chz/?view_only=)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347892](https://doi.org/10.5281/zenodo.17347892)
-- **R:** `openesm::get_dataset("0027_pavani")`
-- **Python:** `openesm.get_dataset("0027_pavani")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347892">10.5281/zenodo.17347892</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/s3chz/?view_only=">https://osf.io/s3chz/?view_only=</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/u95vg">https://osf.io/u95vg</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/s3chz/?view_only=">https://osf.io/s3chz/?view_only=</a></p>
+</div>
 
 ## Additional Comments
 

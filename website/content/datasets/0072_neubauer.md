@@ -1,41 +1,66 @@
 ---
 title: "Neubauer (2020)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0072_neubauer"
+first_author: "Neubauer"
+year: 2020
+paper_doi: "https://doi.org/10.1111/cdev.13515"
+zenodo_doi: "10.5281/zenodo.17361778"
+license: "CC-BY 4.0"
+n_participants: 562
+n_time_points: 21
+n_days: "21"
+topics: "COVID, schooling, adolescents, family"
+sampling_scheme: "1x/day at 7pm completed until 5am"
+participants: "adults living in a household with a schoolchild"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17361778">10.5281/zenodo.17361778</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0072_neubauer")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0072_neubauer")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Neubauer
-- **Year:** 2020
-- **Paper DOI:** [https://doi.org/10.1111/cdev.13515](https://doi.org/10.1111/cdev.13515)
-- **Topics:** COVID, schooling, adolescents, family
-
-## Data Characteristics
-
-- **Participants:** 562 (adults living in a household with a schoolchild)
-- **Time Points:** 21
-- **Days:** 21
-- **Beeps per Day:** 1
-- **Sampling Scheme:** 1x/day at 7pm completed until 5am
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Neubauer</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1111/cdev.13515">https://doi.org/10.1111/cdev.13515</a></li>
+<li><strong>Topics:</strong> COVID, schooling, adolescents, family</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 562 (adults living in a household with a schoolchild)</li>
+<li><strong>Time Points:</strong> 21</li>
+<li><strong>Days:</strong> 21</li>
+<li><strong>Beeps per Day:</strong> 1</li>
+<li><strong>Sampling Scheme:</strong> 1x/day at 7pm completed until 5am</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/wcerj/](https://osf.io/wcerj/)
-- **Link to Codebook:** [https://osf.io/tyc32](https://osf.io/tyc32)
-- **Link to Code:** [https://osf.io/et869](https://osf.io/et869)
 - **License:** CC-BY 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17361778](https://doi.org/10.5281/zenodo.17361778)
-- **R:** `openesm::get_dataset("0072_neubauer")`
-- **Python:** `openesm.get_dataset("0072_neubauer")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17361778">10.5281/zenodo.17361778</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/wcerj/">https://osf.io/wcerj/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/tyc32">https://osf.io/tyc32</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/et869">https://osf.io/et869</a></p>
+</div>
 
 ## Additional Comments
 

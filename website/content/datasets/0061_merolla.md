@@ -1,41 +1,66 @@
 ---
 title: "Merolla (2022)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0061_merolla"
+first_author: "Merolla"
+year: 2022
+paper_doi: "https://doi.org/10.1007/s10902-024-00710-5"
+zenodo_doi: "10.5281/zenodo.17348441"
+license: "CC BY-NC 4.0"
+n_participants: 120
+n_time_points: 60
+n_days: "10"
+topics: "responsiveness, social connection, hope, life satisfaction"
+sampling_scheme: "6x/day random schedule"
+participants: "undergraduate students"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17348441">10.5281/zenodo.17348441</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0061_merolla")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0061_merolla")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Merolla
-- **Year:** 2022
-- **Paper DOI:** [https://doi.org/10.1007/s10902-024-00710-5](https://doi.org/10.1007/s10902-024-00710-5)
-- **Topics:** responsiveness, social connection, hope, life satisfaction
-
-## Data Characteristics
-
-- **Participants:** 120 (undergraduate students)
-- **Time Points:** 60
-- **Days:** 10
-- **Beeps per Day:** 6
-- **Sampling Scheme:** 6x/day random schedule
-- **Raw Timestamp:** yes
-- **Implicit Missingness:** no
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Merolla</li>
+<li><strong>Year:</strong> 2022</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1007/s10902-024-00710-5">https://doi.org/10.1007/s10902-024-00710-5</a></li>
+<li><strong>Topics:</strong> responsiveness, social connection, hope, life satisfaction</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 120 (undergraduate students)</li>
+<li><strong>Time Points:</strong> 60</li>
+<li><strong>Days:</strong> 10</li>
+<li><strong>Beeps per Day:</strong> 6</li>
+<li><strong>Sampling Scheme:</strong> 6x/day random schedule</li>
+<li><strong>Raw Timestamp:</strong> yes</li>
+<li><strong>Implicit Missingness:</strong> no</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/nts94/](https://osf.io/nts94/)
-- **Link to Codebook:** not available
-- **Link to Code:** [https://osf.io/nts94](https://osf.io/nts94)
 - **License:** CC BY-NC 4.0
 
-## Data Access
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348441">10.5281/zenodo.17348441</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/nts94/">https://osf.io/nts94/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
 
-- **Zenodo DOI:** [10.5281/zenodo.17348441](https://doi.org/10.5281/zenodo.17348441)
-- **R:** `openesm::get_dataset("0061_merolla")`
-- **Python:** `openesm.get_dataset("0061_merolla")`
+<p><strong>Code:</strong> <a href="https://osf.io/nts94">https://osf.io/nts94</a></p>
+</div>
 
 ## Additional Comments
 

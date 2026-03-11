@@ -1,41 +1,66 @@
 ---
 title: "Nestler (2022)"
-date: 2025-10-27
+date: 2026-03-11
 draft: false
+dataset_id: "0002_nestler"
+first_author: "Nestler"
+year: 2022
+paper_doi: "https://doi.org/10.1007/s11336-021-09787-w"
+zenodo_doi: "10.5281/zenodo.17347328"
+license: "CC BY-NC 4.0"
+n_participants: 85
+n_time_points: 82
+n_days: "82"
+topics: "personality, affect, motivation"
+sampling_scheme: "1x/day unclear schedule"
+participants: "unclear"
 ---
 
+<div class="dataset-access-box">
+<h2 class="dataset-access-title">Access Harmonized Data</h2>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17347328">10.5281/zenodo.17347328</a></p>
+<div class="dataset-code-grid">
+<div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0002_nestler")</code></div>
+<div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0002_nestler")</code></div>
+</div>
+</div>
 
-## Study Information
-
-- **First Author:** Nestler
-- **Year:** 2022
-- **Paper DOI:** [https://doi.org/10.1007/s11336-021-09787-w](https://doi.org/10.1007/s11336-021-09787-w)
-- **Topics:** personality, affect, motivation
-
-## Data Characteristics
-
-- **Participants:** 85 (unclear)
-- **Time Points:** 82
-- **Days:** 82
-- **Beeps per Day:** 1
-- **Sampling Scheme:** 1x/day unclear schedule
-- **Raw Timestamp:** no
-- **Implicit Missingness:** yes
+<div class="dataset-meta-grid">
+<div class="dataset-meta-card">
+<h2>Study Information</h2>
+<ul>
+<li><strong>First Author:</strong> Nestler</li>
+<li><strong>Year:</strong> 2022</li>
+<li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1007/s11336-021-09787-w">https://doi.org/10.1007/s11336-021-09787-w</a></li>
+<li><strong>Topics:</strong> personality, affect, motivation</li>
+</ul>
+</div>
+<div class="dataset-meta-card">
+<h2>Data Characteristics</h2>
+<ul>
+<li><strong>Participants:</strong> 85 (unclear)</li>
+<li><strong>Time Points:</strong> 82</li>
+<li><strong>Days:</strong> 82</li>
+<li><strong>Beeps per Day:</strong> 1</li>
+<li><strong>Sampling Scheme:</strong> 1x/day unclear schedule</li>
+<li><strong>Raw Timestamp:</strong> no</li>
+<li><strong>Implicit Missingness:</strong> yes</li>
+</ul>
+</div>
+</div>
 
 ## Data Availability
 
 - **Cross-sectional Data:** yes
 - **Passive Sensor Data:** no
-- **Link to Original Data:** [https://osf.io/gmz7e](https://osf.io/gmz7e)
-- **Link to Codebook:** [https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699](https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699)
-- **Link to Code:** [https://osf.io/53scf/](https://osf.io/53scf/)
 - **License:** CC BY-NC 4.0
 
-## Data Access
-
-- **Zenodo DOI:** [10.5281/zenodo.17347328](https://doi.org/10.5281/zenodo.17347328)
-- **R:** `openesm::get_dataset("0002_nestler")`
-- **Python:** `openesm.get_dataset("0002_nestler")`
+<div class="dataset-links">
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347328">10.5281/zenodo.17347328</a></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/gmz7e">https://osf.io/gmz7e</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Codebook:</strong> <a href="https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699">https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699</a></p>
+<p><strong>Code:</strong> <a href="https://osf.io/53scf/">https://osf.io/53scf/</a></p>
+</div>
 
 ## Additional Comments
 
