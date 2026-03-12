@@ -1,6 +1,6 @@
 ---
 title: "Wright (2017)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0064_wright"
 first_author: "Wright"
@@ -13,9 +13,7 @@ n_time_points: 344
 n_days: "21"
 topics: "affect, interpersonal disorders, personality pathology, emotions, social interactions"
 sampling_scheme: "event-contingent based on social interactions"
-participants: "outpatients screened for personality
-pathology and their romantic
-partners"
+participants: "outpatients screened for personality pathology and their romantic partners"
 ---
 
 <div class="dataset-access-box">
@@ -62,7 +60,7 @@ partners)</li>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348495">10.5281/zenodo.17348495</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://osf.io/6ghcx/">https://osf.io/6ghcx/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://osf.io/6ghcx">https://osf.io/6ghcx</a></p>
 </div>
 

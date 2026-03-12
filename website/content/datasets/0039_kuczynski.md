@@ -1,6 +1,6 @@
 ---
 title: "Kuczynski (2021)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0039_kuczynski"
 first_author: "Kuczynski"
@@ -58,7 +58,7 @@ participants: "adults"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347657">10.5281/zenodo.17347657</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://osf.io/huz67">https://osf.io/huz67</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://osf.io/wtbx8/">https://osf.io/wtbx8/</a></p>
 </div>
 

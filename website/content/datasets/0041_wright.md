@@ -1,6 +1,6 @@
 ---
 title: "Wright (2019)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0041_wright"
 first_author: "Wright"
@@ -58,8 +58,8 @@ participants: "individuals with personality disorder diagnosis"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348148">10.5281/zenodo.17348148</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://osf.io/5x8rv">https://osf.io/5x8rv</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
-<p><strong>Code:</strong> <a href="-">-</a></p>
+
+
 </div>
 
 ## Additional Comments

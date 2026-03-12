@@ -1,6 +1,6 @@
 ---
 title: "Soyster (2022)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0035_soyster"
 first_author: "Soyster"
@@ -58,7 +58,7 @@ participants: "adult alcohol consumers"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347645">10.5281/zenodo.17347645</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://osf.io/q7upd/">https://osf.io/q7upd/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://osf.io/bwkjq">https://osf.io/bwkjq</a></p>
 </div>
 

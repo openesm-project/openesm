@@ -1,6 +1,6 @@
 ---
 title: "Kuppens (2016)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0011_kuppens"
 first_author: "Kuppens"
@@ -58,7 +58,7 @@ participants: "undergraduate students"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347412">10.5281/zenodo.17347412</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials">https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials">https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials</a></p>
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "Bosley (2019)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0036_bosley"
 first_author: "Bosley"
@@ -58,7 +58,7 @@ participants: "undergraduate students with elevated GAD symptoms"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348118">10.5281/zenodo.17348118</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://osf.io/4x8jd/">https://osf.io/4x8jd/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://osf.io/8t46j">https://osf.io/8t46j</a></p>
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "Kullar (2023)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0045_kullar"
 first_author: "Kullar"
@@ -58,7 +58,7 @@ participants: "participants with and without mood disorders"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347798">10.5281/zenodo.17347798</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://github.com/mkullar/DataDrivenEmotionDynamics">https://github.com/mkullar/DataDrivenEmotionDynamics</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://github.com/mkullar/DataDrivenEmotionDynamics">https://github.com/mkullar/DataDrivenEmotionDynamics</a></p>
 </div>
 

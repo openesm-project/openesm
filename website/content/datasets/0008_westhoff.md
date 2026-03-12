@@ -1,6 +1,6 @@
 ---
 title: "Westhoff (2024)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0008_westhoff"
 first_author: "Westhoff"
@@ -58,7 +58,7 @@ participants: "young adults"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347510">10.5281/zenodo.17347510</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://doi.org/10.1038/s41598-024-58598-3">https://doi.org/10.1038/s41598-024-58598-3</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://osf.io/ejtzs/">https://osf.io/ejtzs/</a></p>
 </div>
 

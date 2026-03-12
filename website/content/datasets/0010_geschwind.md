@@ -1,6 +1,6 @@
 ---
 title: "Geschwind (2013)"
-date: 2026-03-11
+date: 2026-03-12
 draft: false
 dataset_id: "0010_geschwind"
 first_author: "Geschwind"
@@ -58,7 +58,7 @@ participants: "individuals with residual depressive symptoms"
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347473">10.5281/zenodo.17347473</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://doi.org/10.1371/journal.pone.0060188.s004">https://doi.org/10.1371/journal.pone.0060188.s004</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
-<p><strong>Codebook:</strong> <a href="-">-</a></p>
+
 <p><strong>Code:</strong> <a href="https://doi.org/10.1371/journal.pone.0060188.s001">https://doi.org/10.1371/journal.pone.0060188.s001</a></p>
 </div>
 
