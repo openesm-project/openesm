@@ -36,6 +36,12 @@ layout: "single"
             <p>Understand details of techinical implementation?</p>
             <span class="doc-badge">Want to understand the system?</span>
         </a>
+        <a href="{{< relref "docs/journey/" >}}" class="doc-card">
+            <div class="doc-icon">🗺️</div>
+            <h3>Dataset Journey</h3>
+            <p>Follow a dataset from submission to going live in openESM</p>
+            <span class="doc-badge">How does it all work?</span>
+        </a>
     </div>
 </div>
 
