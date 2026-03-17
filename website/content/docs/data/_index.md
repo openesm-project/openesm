@@ -153,10 +153,22 @@ The psychological or behavioral construct(s) that the variable is intended to me
 Additional notes, caveats, or important information about the variable that doesn't fit in other categories.
 
 ## Versioning and Updates
-The datasets are versioned, and updates are made as new data becomes available or corrections are needed. Each dataset has a version number in its metadata, and the Zenodo DOI will point to the latest version. If you use a specific version of a dataset, please cite it using the DOI provided in the metadata.
+openESM distinguishes between two types of versioning.
 
-We follow semantic versioning principles, where:
-- **Major version** changes indicate significant updates or changes in the metadata structure, such as introducing a new column or correcting major errors. 
-- **Minor version** changes indicate minor corrections, such as adding new information or extending existing metadata without changing the overall structure.
-- **Patch version** changes indicate small fixes or updates that do not affect the overall metadata, such as fixing a typo.
+openESM distinguishes between two types of versioning:
 
+**1. Dataset versions**
+
+- Each dataset has a `dataset_version` field in its metadata, following [semantic versioning](https://semver.org/):
+	- **Major**: Structural modifications to the data file (e.g., adding or removing variables)
+	- **Minor**: Corrections to existing data (e.g., fixing errors in values, revising missing data codes)
+	- **Patch**: Small fixes that do not affect data values (e.g., correcting a column type)
+- Each new dataset version is deposited as a new version on Zenodo with its own DOI.
+- If you use a specific dataset in your work, cite the version-specific DOI listed on the dataset page.
+
+**2. Metadata database versions**
+
+- Track the state of the openESM metadata database as a whole (all datasets combined)
+- Released as versioned snapshots on Zenodo, following the openesm-metadata repository releases
+- A single metadata database release may include changes to multiple datasets simultaneously (e.g., updated construct annotations, label corrections)
+- These changes are recorded in each dataset's changelog on its dataset page.
