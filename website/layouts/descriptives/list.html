@@ -153,6 +153,55 @@
   border-radius: 8px;
 }
 
+/* plain HTML bar chart for n_modes panel */
+.desc-modes-chart {
+  display: flex;
+  gap: 6px;
+  padding: 0 4px;
+  margin-top: 2px;
+}
+.desc-modes-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.desc-modes-count {
+  font-size: 11px;
+  line-height: 1.2;
+  color: #262626;
+  margin-bottom: 3px;
+  min-height: 1.2em; /* reserve space so zero-count cols don't collapse */
+}
+.desc-modes-bar-wrap {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid #e5e5e5;
+}
+.desc-modes-bar {
+  width: 100%;
+  background: #085AB3;
+  opacity: 0.75;
+  border-radius: 2px 2px 0 0;
+}
+.desc-modes-label {
+  font-size: 11px;
+  color: #262626;
+  margin-top: 4px;
+}
+
+/* Loading placeholder spanning full grid width */
+.desc-loading {
+  grid-column: 1 / -1;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
 /* Error */
 .desc-error {
   padding: 0.9rem 1.1rem;
@@ -218,12 +267,11 @@ import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm"
 
 const BASE = '/data';
 const STATS = [
-  { key: 'mean',        label: 'Mean' },
-  { key: 'sd',          label: 'SD' },
-  { key: 'skewness',    label: 'Skewness' },
-  { key: 'prop_floor',  label: 'Prop. Floor' },
-  { key: 'prop_ceil',   label: 'Prop. Ceiling' },
-  { key: 'dip_p',       label: 'Dip p-value' },
+  { key: 'mean',       label: 'Mean' },
+  { key: 'sd',         label: 'SD' },
+  { key: 'skewness',   label: 'Skewness' },
+  { key: 'prop_floor', label: 'Prop. Floor' },
+  { key: 'prop_ceil',  label: 'Prop. Ceiling' },
 ];
 
 let index = [];
@@ -351,6 +399,13 @@ async function populateItems(dsId, preselectItem) {
 
 async function loadAndRender(dsId, item) {
   if (!dataCache.has(dsId)) {
+    // show skeleton before fetch so the user sees immediate feedback
+    document.getElementById('item-view').style.display = 'block';
+    document.getElementById('landing-hint').style.display = 'none';
+    document.getElementById('desc-error').style.display = 'none';
+    document.getElementById('desc-plots-grid').innerHTML = '<p class="desc-loading">Loading…</p>';
+    document.getElementById('desc-stats-section').innerHTML = '';
+
     const meta = datasetLookup[dsId];
     if (!meta) { showError(`No metadata for dataset ${dsId}.`); return; }
     try {
@@ -524,6 +579,12 @@ function renderPlots(included, dsId, item) {
   const cols = gridWidth > 900 ? 3 : gridWidth > 600 ? 2 : 1;
   const plotW = Math.max(200, Math.floor((gridWidth - cols * 16) / cols) - 34);
 
+  // empirical scale bounds for reference lines on the mean plot
+  const empMins = included.map(d => d.empirical_min).filter(v => v !== null);
+  const empMaxs = included.map(d => d.empirical_max).filter(v => v !== null);
+  const scaleMin = empMins.length ? arrMin(empMins) : null;
+  const scaleMax = empMaxs.length ? arrMax(empMaxs) : null;
+
   for (const { key, label } of STATS) {
     const vals = included.map(d => d[key]).filter(v => v !== null && !isNaN(v));
 
@@ -560,14 +621,24 @@ function renderPlots(included, dsId, item) {
     // IQR-based x domain clips outliers; null → let Plot auto-scale
     const domain = xDomain(vals);
 
-    const marks = [
+    const marks = [];
+
+    // soft scale-boundary lines on the mean plot only
+    if (key === 'mean' && scaleMin !== null) {
+      marks.push(Plot.ruleX([scaleMin, scaleMax], {
+        stroke: '#d0d0d0', strokeWidth: 1, strokeDasharray: '3,3',
+        y1: yDotCenter - yPad * 0.15, y2: maxDensity * 1.05,
+      }));
+    }
+
+    marks.push(
       Plot.areaY(kdeData, { x: 'x', y: 'y', fill: '#085AB3', fillOpacity: 0.18 }),
       Plot.lineY(kdeData, { x: 'x', y: 'y', stroke: '#085AB3', strokeWidth: 1.5 }),
       Plot.ruleX([med], {
         stroke: '#E78A00', strokeWidth: 2, strokeDasharray: '5,3',
         y1: yDotCenter - yPad * 0.15, y2: maxDensity * 1.05,
       }),
-    ];
+    );
 
     if (vals.length <= 150) {
       marks.push(Plot.dot(dotData, {
@@ -589,6 +660,35 @@ function renderPlots(included, dsId, item) {
     panel.appendChild(plt);
     grid.appendChild(panel);
   }
+
+  // ── N modes panel — plain HTML bars (avoids Observable Plot quirks) ────────
+  const modesBuckets = [
+    { label: '1',  count: included.filter(d => d.n_modes === 1).length },
+    { label: '2',  count: included.filter(d => d.n_modes === 2).length },
+    { label: '3',  count: included.filter(d => d.n_modes === 3).length },
+    { label: '4+', count: included.filter(d => d.n_modes !== null && d.n_modes >= 4).length },
+  ];
+  const maxModeCount = arrMax(modesBuckets.map(d => d.count));
+
+  const colsHtml = modesBuckets.map(({ label, count }) => {
+    const pct = maxModeCount > 0 ? (count / maxModeCount * 100) : 0;
+    return `
+      <div class="desc-modes-col">
+        <span class="desc-modes-count">${count > 0 ? count : ''}</span>
+        <div class="desc-modes-bar-wrap">
+          <div class="desc-modes-bar" style="height:${pct}%"></div>
+        </div>
+        <span class="desc-modes-label">${label}</span>
+      </div>`;
+  }).join('');
+
+  const modesPanel = document.createElement('div');
+  modesPanel.className = 'desc-plot-panel';
+  modesPanel.innerHTML = `
+    <p class="desc-plot-title">N modes</p>
+    <div class="desc-modes-chart">${colsHtml}</div>
+  `;
+  grid.appendChild(modesPanel);
 }
 
 // ── Stats table rendering ────────────────────────────────────────────────────
@@ -615,6 +715,15 @@ function renderStatsTable(included, excluded, itemData) {
     ? 'none'
     : Object.entries(reasons).map(([r, n]) => `${n} (${r.replace(/_/g, ' ')})`).join(', ');
 
+  // n_modes breakdown
+  const modeCounts = [1, 2, 3].map(m => {
+    const n = included.filter(d => d.n_modes === m).length;
+    return n > 0 ? `${m}: ${n}` : null;
+  }).filter(Boolean);
+  const modeCountPlus = included.filter(d => d.n_modes !== null && d.n_modes >= 4).length;
+  if (modeCountPlus > 0) modeCounts.push(`4+: ${modeCountPlus}`);
+  const modeText = modeCounts.length ? modeCounts.join(' / ') : '—';
+
   section.innerHTML = `
     <div class="desc-stats-grid">
       <div>
@@ -632,6 +741,7 @@ function renderStatsTable(included, excluded, itemData) {
             <tr><td>N excluded</td><td>${excText}</td></tr>
             <tr><td>ICC</td><td>${itemData.icc.toFixed(3)}${itemData.icc_singular ? ' <em>(singular)</em>' : ''}</td></tr>
             <tr><td>Empirical scale range</td><td>${empRange}</td></tr>
+            <tr><td>Mode counts</td><td>${modeText}</td></tr>
           </tbody>
         </table>
       </div>
