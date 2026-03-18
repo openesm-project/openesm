@@ -34,6 +34,11 @@ theme = "PaperMod"
     url = "/search/"
     weight = 40
   [[menu.main]]
+    identifier = "descriptives"
+    name = "Descriptives"
+    url = "/descriptives/"
+    weight = 45
+  [[menu.main]]
     identifier = "documentation"
     name = "Documentation"
     url = "/docs/"
