@@ -542,6 +542,17 @@ body .main {
   font-style: italic;
 }
 
+/* Note shown above variables table when descriptives links are present */
+.dataset-note {
+  font-size: 0.85rem;
+  color: #555;
+  padding: 0.5rem 0.85rem;
+  background: rgba(8, 90, 179, 0.04);
+  border-left: 3px solid var(--primary-blue);
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+
 /* Responsive: stack grid on narrow screens */
 @media (max-width: 700px) {
   .dataset-meta-grid {
