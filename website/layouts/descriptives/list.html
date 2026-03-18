@@ -1,0 +1,644 @@
+{{- define "main" }}
+<style>
+.desc-description { color: #555; max-width: 65ch; margin-bottom: 1.5rem; }
+
+.desc-selectors {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: var(--light-gray);
+  border-radius: 6px;
+  border: 1px solid var(--border-gray);
+}
+
+.desc-select-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.desc-select-group label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--primary-blue);
+}
+
+.desc-select-group select {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--border-gray);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: white;
+  min-width: 240px;
+  cursor: pointer;
+  color: var(--text-charcoal);
+}
+
+.desc-select-group select:focus {
+  border-color: var(--primary-blue);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(8, 90, 179, 0.15);
+}
+
+.desc-select-group select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Breadcrumb */
+.desc-breadcrumb {
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+  color: #888;
+}
+
+.desc-breadcrumb a { color: var(--primary-blue); }
+.desc-breadcrumb .sep { margin: 0 0.45rem; color: #ccc; }
+
+/* Meta bar */
+.desc-meta-bar {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0.85rem 1.25rem;
+  background: rgba(8, 90, 179, 0.04);
+  border: 1px solid rgba(8, 90, 179, 0.18);
+  border-left: 4px solid var(--primary-blue);
+  border-radius: 4px;
+  margin-bottom: 1.75rem;
+}
+
+.desc-meta-item { display: flex; flex-direction: column; gap: 0.1rem; }
+
+.desc-meta-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #777;
+  font-weight: 600;
+}
+
+.desc-meta-value {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-charcoal);
+}
+
+.desc-meta-note {
+  font-size: 0.8rem;
+  color: var(--accent-orange);
+  font-weight: 500;
+}
+
+/* Plots grid */
+.desc-plots-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.desc-plot-panel {
+  background: white;
+  border: 1px solid var(--border-gray);
+  border-radius: 6px;
+  padding: 0.85rem 0.85rem 0.5rem;
+}
+
+.desc-plot-title {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.desc-plot-panel svg { display: block; width: 100%; }
+
+/* Stats table section */
+.desc-stats-section h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+}
+
+.desc-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Back link */
+.desc-back-link {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-gray);
+  font-size: 0.9rem;
+}
+
+/* Landing hint */
+.desc-landing-hint {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.95rem;
+  border: 2px dashed var(--border-gray);
+  border-radius: 8px;
+}
+
+/* Error */
+.desc-error {
+  padding: 0.9rem 1.1rem;
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 4px;
+  color: #7a5900;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .desc-plots-grid { grid-template-columns: repeat(2, 1fr); }
+  .desc-stats-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .desc-plots-grid { grid-template-columns: 1fr; }
+  .desc-selectors { flex-direction: column; align-items: stretch; }
+  .desc-select-group select { min-width: unset; width: 100%; }
+  .desc-meta-bar { gap: 1rem; }
+}
+</style>
+
+<div class="post-content">
+  <h1 class="post-title">Descriptives</h1>
+  <p class="desc-description">
+    Item-level distributional statistics computed from within-person summaries across openESM datasets.
+    Select a dataset and item to explore the distribution of participant-level statistics.
+  </p>
+
+  <div class="desc-selectors">
+    <div class="desc-select-group">
+      <label for="dataset-select">Dataset</label>
+      <select id="dataset-select">
+        <option value="">— select dataset —</option>
+      </select>
+    </div>
+    <div class="desc-select-group">
+      <label for="item-select">Item</label>
+      <select id="item-select" disabled>
+        <option value="">— select item —</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="desc-error" class="desc-error" style="display:none"></div>
+
+  <div id="item-view" style="display:none">
+    <nav id="desc-breadcrumb" class="desc-breadcrumb" aria-label="breadcrumb"></nav>
+    <div id="desc-meta-bar" class="desc-meta-bar"></div>
+    <div id="desc-plots-grid" class="desc-plots-grid"></div>
+    <div id="desc-stats-section" class="desc-stats-section"></div>
+    <div id="desc-back-link" class="desc-back-link"></div>
+  </div>
+
+  <div id="landing-hint" class="desc-landing-hint">
+    Select a dataset and item above to view distributional statistics.
+  </div>
+</div>
+
+<script type="module">
+import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+
+const BASE = '/data';
+const STATS = [
+  { key: 'mean',        label: 'Mean' },
+  { key: 'sd',          label: 'SD' },
+  { key: 'skewness',    label: 'Skewness' },
+  { key: 'prop_floor',  label: 'Prop. Floor' },
+  { key: 'prop_ceil',   label: 'Prop. Ceiling' },
+  { key: 'dip_p',       label: 'Dip p-value' },
+];
+
+let index = [];
+let tableData = [];
+let datasetLookup = {};  // short_id (e.g. "0001") -> datasets_table row
+const dataCache = new Map();  // short_id -> parsed dataset JSON
+let currentDatasetId = null;
+
+// ── Bootstrap ──────────────────────────────────────────────────────────────
+
+async function init() {
+  try {
+    [index, tableData] = await Promise.all([
+      fetch(`${BASE}/descriptives_index.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch(`${BASE}/datasets_table.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    ]);
+  } catch (e) {
+    showError('Failed to load descriptives index: ' + e.message);
+    return;
+  }
+
+  // build lookup: "0001" -> table row (table stores "0001_fried")
+  for (const row of tableData) {
+    const shortId = row.dataset_id.replace(/_.*/, '');
+    datasetLookup[shortId] = row;
+  }
+
+  // populate dataset dropdown
+  const dsSelect = document.getElementById('dataset-select');
+  const uniqueDs = [...new Set(index.map(d => d.dataset_id))];
+  for (const dsId of uniqueDs) {
+    const meta = datasetLookup[dsId];
+    const label = meta ? `${meta.first_author} (${meta.year})` : dsId;
+    dsSelect.appendChild(new Option(label, dsId));
+  }
+
+  // set up event listeners (once)
+  dsSelect.addEventListener('change', onDatasetSelectChange);
+  document.getElementById('item-select').addEventListener('change', onItemSelectChange);
+  window.addEventListener('popstate', onPopState);
+
+  // restore state from URL
+  const { ds, item } = getParams();
+  if (ds) {
+    currentDatasetId = ds;
+    dsSelect.value = ds;
+    await populateItems(ds, item);
+    if (item) await loadAndRender(ds, item);
+  }
+}
+
+// ── Event handlers ──────────────────────────────────────────────────────────
+
+async function onDatasetSelectChange() {
+  const dsId = document.getElementById('dataset-select').value;
+  const itemSelect = document.getElementById('item-select');
+
+  if (!dsId) {
+    currentDatasetId = null;
+    itemSelect.innerHTML = '<option value="">— select item —</option>';
+    itemSelect.disabled = true;
+    pushState(null, null);
+    showLanding();
+    return;
+  }
+
+  currentDatasetId = dsId;
+  await populateItems(dsId, null);
+  pushState(dsId, null);
+  showLanding();
+}
+
+async function onItemSelectChange() {
+  const item = document.getElementById('item-select').value;
+  if (!item || !currentDatasetId) return;
+  pushState(currentDatasetId, item);
+  await loadAndRender(currentDatasetId, item);
+}
+
+async function onPopState() {
+  const { ds, item } = getParams();
+  const dsSelect = document.getElementById('dataset-select');
+  const itemSelect = document.getElementById('item-select');
+
+  if (ds) {
+    currentDatasetId = ds;
+    dsSelect.value = ds;
+    await populateItems(ds, item);
+    if (item) {
+      await loadAndRender(ds, item);
+    } else {
+      showLanding();
+    }
+  } else {
+    currentDatasetId = null;
+    dsSelect.value = '';
+    itemSelect.innerHTML = '<option value="">— select item —</option>';
+    itemSelect.disabled = true;
+    showLanding();
+  }
+}
+
+// ── Helpers ─────────────────────────────────────────────────────────────────
+
+function getParams() {
+  const p = new URLSearchParams(location.search);
+  return { ds: p.get('dataset'), item: p.get('item') };
+}
+
+function pushState(ds, item) {
+  const url = new URL(location);
+  if (ds) url.searchParams.set('dataset', ds); else url.searchParams.delete('dataset');
+  if (item) url.searchParams.set('item', item); else url.searchParams.delete('item');
+  history.pushState({}, '', url);
+}
+
+async function populateItems(dsId, preselectItem) {
+  const itemSelect = document.getElementById('item-select');
+  itemSelect.innerHTML = '<option value="">— select item —</option>';
+  itemSelect.disabled = false;
+  const items = index.filter(d => d.dataset_id === dsId).map(d => d.item);
+  for (const it of items) itemSelect.appendChild(new Option(it, it));
+  if (preselectItem) itemSelect.value = preselectItem;
+}
+
+async function loadAndRender(dsId, item) {
+  if (!dataCache.has(dsId)) {
+    const meta = datasetLookup[dsId];
+    if (!meta) { showError(`No metadata for dataset ${dsId}.`); return; }
+    try {
+      const resp = await fetch(`${BASE}/descriptives/${meta.dataset_id}.json`);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      dataCache.set(dsId, await resp.json());
+    } catch (e) {
+      showError(`Could not load data for dataset ${dsId}: ${e.message}`);
+      return;
+    }
+  }
+
+  const items = dataCache.get(dsId);
+  const itemData = items.find(d => d.item === item);
+  if (!itemData) { showError(`No data found for item "${item}".`); return; }
+
+  renderItemView(dsId, item, itemData);
+}
+
+function showLanding() {
+  document.getElementById('item-view').style.display = 'none';
+  document.getElementById('landing-hint').style.display = 'block';
+  document.getElementById('desc-error').style.display = 'none';
+}
+
+function showError(msg) {
+  document.getElementById('desc-error').textContent = msg;
+  document.getElementById('desc-error').style.display = 'block';
+  document.getElementById('item-view').style.display = 'none';
+  document.getElementById('landing-hint').style.display = 'none';
+}
+
+// ── Rendering ───────────────────────────────────────────────────────────────
+
+function renderItemView(dsId, item, itemData) {
+  const meta = datasetLookup[dsId];
+  const dsLabel = meta ? `${meta.first_author} (${meta.year})` : dsId;
+  const dsUrl = meta ? meta.url : '#';
+
+  document.getElementById('item-view').style.display = 'block';
+  document.getElementById('landing-hint').style.display = 'none';
+  document.getElementById('desc-error').style.display = 'none';
+
+  // breadcrumb
+  document.getElementById('desc-breadcrumb').innerHTML =
+    `<a href="/descriptives/">Descriptives</a>` +
+    `<span class="sep">›</span>` +
+    `<a href="${dsUrl}">${dsLabel}</a>` +
+    `<span class="sep">›</span>` +
+    `<strong>${item}</strong>`;
+
+  // meta bar
+  const included = itemData.person_stats.filter(p => p.filter_reason === null);
+  const excluded = itemData.person_stats.filter(p => p.filter_reason !== null);
+  const iccSingularNote = itemData.icc_singular
+    ? `<span class="desc-meta-note"> (singular fit)</span>` : '';
+
+  document.getElementById('desc-meta-bar').innerHTML = `
+    <div class="desc-meta-item">
+      <span class="desc-meta-label">Dataset</span>
+      <span class="desc-meta-value">${dsLabel}</span>
+    </div>
+    <div class="desc-meta-item">
+      <span class="desc-meta-label">Item</span>
+      <span class="desc-meta-value">${item}</span>
+    </div>
+    <div class="desc-meta-item">
+      <span class="desc-meta-label">N included</span>
+      <span class="desc-meta-value">${included.length}</span>
+    </div>
+    <div class="desc-meta-item">
+      <span class="desc-meta-label">N excluded</span>
+      <span class="desc-meta-value">${excluded.length}</span>
+    </div>
+    <div class="desc-meta-item">
+      <span class="desc-meta-label">ICC</span>
+      <span class="desc-meta-value">${itemData.icc.toFixed(3)}${iccSingularNote}</span>
+    </div>
+  `;
+
+  renderPlots(included, dsId, item);
+  renderStatsTable(included, excluded, itemData);
+
+  document.getElementById('desc-back-link').innerHTML =
+    meta ? `<a href="${dsUrl}">← Back to dataset page</a>` : '';
+}
+
+// ── Statistics helpers ───────────────────────────────────────────────────────
+
+function quantile(sorted, p) {
+  const i = p * (sorted.length - 1);
+  const lo = Math.floor(i), hi = Math.ceil(i);
+  return sorted[lo] + (sorted[hi] - sorted[lo]) * (i - lo);
+}
+
+function medianOf(vals) {
+  const s = [...vals].sort((a, b) => a - b);
+  return quantile(s, 0.5);
+}
+
+function iqrOf(vals) {
+  const s = [...vals].sort((a, b) => a - b);
+  return quantile(s, 0.75) - quantile(s, 0.25);
+}
+
+function stdOf(vals) {
+  if (vals.length < 2) return 0;
+  const m = vals.reduce((a, b) => a + b, 0) / vals.length;
+  return Math.sqrt(vals.reduce((a, b) => a + (b - m) ** 2, 0) / vals.length);
+}
+
+// safe min/max avoiding spread-arg stack limits on large arrays
+function arrMin(vals) { return vals.reduce((a, b) => b < a ? b : a, Infinity); }
+function arrMax(vals) { return vals.reduce((a, b) => b > a ? b : a, -Infinity); }
+
+// robust bandwidth: Silverman's rule using min(std, IQR/1.34) to resist outliers
+function robustBandwidth(vals) {
+  const n = vals.length;
+  const s = stdOf(vals);
+  const iq = iqrOf(vals);
+  const scale = iq > 1e-6 ? Math.min(s, iq / 1.34) : s;
+  return Math.max(1e-4, 0.9 * scale * Math.pow(n, -0.2));
+}
+
+// IQR-based x-axis domain to clip outliers; returns null when IQR is near zero
+function xDomain(vals) {
+  if (vals.length < 4) return null;
+  const sorted = [...vals].sort((a, b) => a - b);
+  const q1 = quantile(sorted, 0.25);
+  const q3 = quantile(sorted, 0.75);
+  const iq = q3 - q1;
+  if (iq < 1e-6) return null;
+  return [q1 - 3 * iq, q3 + 3 * iq];
+}
+
+// Gaussian kernel density estimate (computed over full value range)
+function kde(values) {
+  const n = values.length;
+  if (n < 2) return [];
+  const h = robustBandwidth(values);
+  const lo = arrMin(values) - 3 * h;
+  const hi = arrMax(values) + 3 * h;
+  const inv2pi = 1 / Math.sqrt(2 * Math.PI);
+  const pts = [];
+  for (let i = 0; i < 200; i++) {
+    const x = lo + (hi - lo) * i / 199;
+    let y = 0;
+    for (const xi of values) {
+      const z = (x - xi) / h;
+      y += Math.exp(-0.5 * z * z);
+    }
+    pts.push({ x, y: y * inv2pi / (n * h) });
+  }
+  return pts;
+}
+
+// seeded jitter so positions are stable across re-renders
+function seededJitter(seed, range) {
+  seed = (seed * 1664525 + 1013904223) >>> 0;
+  return { value: (seed / 0xffffffff - 0.5) * range, seed };
+}
+
+// ── Plot rendering ───────────────────────────────────────────────────────────
+
+function renderPlots(included, dsId, item) {
+  const grid = document.getElementById('desc-plots-grid');
+  grid.innerHTML = '';
+
+  // compute panel width; fall back to 960 if layout not yet resolved
+  const gridWidth = grid.getBoundingClientRect().width || 960;
+  const cols = gridWidth > 900 ? 3 : gridWidth > 600 ? 2 : 1;
+  const plotW = Math.max(200, Math.floor((gridWidth - cols * 16) / cols) - 34);
+
+  for (const { key, label } of STATS) {
+    const vals = included.map(d => d[key]).filter(v => v !== null && !isNaN(v));
+
+    const panel = document.createElement('div');
+    panel.className = 'desc-plot-panel';
+    const title = document.createElement('p');
+    title.className = 'desc-plot-title';
+    title.textContent = label;
+    panel.appendChild(title);
+
+    if (vals.length < 3) {
+      panel.insertAdjacentHTML('beforeend', '<p style="color:#bbb;font-size:0.8rem;margin:0">Insufficient data</p>');
+      grid.appendChild(panel);
+      continue;
+    }
+
+    const kdeData = kde(vals);
+    const maxDensity = Math.max(1e-9, arrMax(kdeData.map(p => p.y)));  // guard zero
+    const med = medianOf(vals);
+    const yPad = maxDensity * 0.40;
+    const yDotCenter = -yPad * 0.55;
+
+    // stable jitter seed mixes all characters of dsId, item, and key
+    let s = 0;
+    for (const c of dsId + '|' + item + '|' + key) s = (s * 31 + c.charCodeAt(0)) >>> 0;
+    const dotData = included
+      .filter(d => d[key] !== null && !isNaN(d[key]))
+      .map(d => {
+        const j = seededJitter(s, yPad * 0.55);
+        s = j.seed;
+        return { ...d, _y: yDotCenter + j.value };
+      });
+
+    // IQR-based x domain clips outliers; null → let Plot auto-scale
+    const domain = xDomain(vals);
+
+    const marks = [
+      Plot.areaY(kdeData, { x: 'x', y: 'y', fill: '#085AB3', fillOpacity: 0.18 }),
+      Plot.lineY(kdeData, { x: 'x', y: 'y', stroke: '#085AB3', strokeWidth: 1.5 }),
+      Plot.ruleX([med], {
+        stroke: '#E78A00', strokeWidth: 2, strokeDasharray: '5,3',
+        y1: yDotCenter - yPad * 0.15, y2: maxDensity * 1.05,
+      }),
+    ];
+
+    if (vals.length <= 150) {
+      marks.push(Plot.dot(dotData, {
+        x: key, y: '_y',
+        r: 2.5, fill: '#E78A00', fillOpacity: 0.55, stroke: 'none',
+      }));
+    }
+
+    const plt = Plot.plot({
+      width: plotW,
+      height: 150,
+      x: { label: null, nice: !domain, domain: domain ?? undefined },
+      y: { axis: null, domain: [yDotCenter - yPad * 0.3, maxDensity * 1.15] },
+      marks,
+      style: { background: 'transparent', fontSize: '11px', overflow: 'visible' },
+      clip: true,
+    });
+
+    panel.appendChild(plt);
+    grid.appendChild(panel);
+  }
+}
+
+// ── Stats table rendering ────────────────────────────────────────────────────
+
+function renderStatsTable(included, excluded, itemData) {
+  const section = document.getElementById('desc-stats-section');
+
+  const statRows = STATS.map(({ key, label }) => {
+    const vals = included.map(d => d[key]).filter(v => v !== null && !isNaN(v));
+    if (vals.length === 0) return `<tr><td>${label}</td><td>—</td><td>—</td></tr>`;
+    return `<tr><td>${label}</td><td>${medianOf(vals).toFixed(3)}</td><td>${iqrOf(vals).toFixed(3)}</td></tr>`;
+  }).join('');
+
+  const empMins = included.map(d => d.empirical_min).filter(v => v !== null);
+  const empMaxs = included.map(d => d.empirical_max).filter(v => v !== null);
+  const empRange = empMins.length ? `${arrMin(empMins)} – ${arrMax(empMaxs)}` : '—';
+
+  // excluded reasons summary
+  const reasons = {};
+  for (const p of excluded) {
+    reasons[p.filter_reason] = (reasons[p.filter_reason] || 0) + 1;
+  }
+  const excText = excluded.length === 0
+    ? 'none'
+    : Object.entries(reasons).map(([r, n]) => `${n} (${r.replace(/_/g, ' ')})`).join(', ');
+
+  section.innerHTML = `
+    <div class="desc-stats-grid">
+      <div>
+        <h3>Per-statistic summary</h3>
+        <table>
+          <thead><tr><th>Statistic</th><th>Median</th><th>IQR</th></tr></thead>
+          <tbody>${statRows}</tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Overview</h3>
+        <table>
+          <tbody>
+            <tr><td>N included</td><td>${included.length}</td></tr>
+            <tr><td>N excluded</td><td>${excText}</td></tr>
+            <tr><td>ICC</td><td>${itemData.icc.toFixed(3)}${itemData.icc_singular ? ' <em>(singular)</em>' : ''}</td></tr>
+            <tr><td>Empirical scale range</td><td>${empRange}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+
+init();
+</script>
+{{- end }}
