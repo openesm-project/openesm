@@ -33,6 +33,8 @@ Harmonization includes:
 - **Range validation**: observed values are checked against expected scale bounds
 - **Person-level summaries**: observation counts per participant are computed and appended
 
+The output JSON includes a `dataset_version` field and a `changelog` array recording all changes to the dataset. The cleaning script preserves any existing changelog entries on re-runs, so manually added entries are never overwritten.
+
 The raw data are never modified. The cleaning script is the complete, reproducible record of every transformation applied.
 
 After the script runs, the output JSON can be validated against the openESM metadata schema via `validate_metadata_json()`.
@@ -49,11 +51,13 @@ For each variable, we annotate structured metadata in the curation sheet (see ou
 
 The finalized JSON in `data/metadata/` is committed and pushed to the `main` branch of `openesm-cleaning`. This is a required step: the next stage fetches metadata directly from this branch via the GitHub API, so local-only files are invisible to it.
 
+At this point the Zenodo DOI is not yet known, so the JSON is pushed once before the Zenodo upload and again after (Stage 6) once the DOI has been obtained.
+
 ---
 
 ## Stage 6: Zenodo upload
 
-The cleaned TSV and codebook are uploaded to the [openESM Zenodo collection](https://zenodo.org/communities/openesm), where they receive a permanent DOI. The DOI is then added back to the metadata JSON, which is regenerated and pushed to `openesm-cleaning` main again.
+The cleaned TSV and codebook are uploaded to the [openESM Zenodo collection](https://zenodo.org/communities/openesm), where they receive a permanent DOI. We store the overarching concept DOI in the JSON metadata, which always resolves to the most current version of the dataset when accessed by the R and Python packages. The DOI is added to the metadata JSON, which is regenerated and pushed to `openesm-cleaning` main.
 
 ---
 
@@ -61,11 +65,19 @@ The cleaned TSV and codebook are uploaded to the [openESM Zenodo collection](htt
 
 With the JSON live on `openesm-cleaning` main, we run two scripts in [openesm-metadata](https://github.com/openesm-project/openesm-metadata). The first fetches all per-dataset JSON files from `openesm-cleaning` via the GitHub API and places them into versioned dataset folders. The second aggregates all individual JSONs into a single `datasets.json` file that the website consumes. Both steps are committed to `openesm-metadata`. This process is initiated by opening an issue in `openesm-metadata` using the provided templates, which include a maintainer checklist for each case.
 
+Before creating a release, the following checklist must be completed in order:
+
+- [ ] All affected dataset JSONs updated and pushed to `openesm-cleaning` main
+- [ ] `copy_metadata.R` run and output committed
+- [ ] `bundle_metadata.R` run and `datasets.json` committed and verified
+- [ ] All changes pushed to `openesm-metadata` main
+- [ ] Release notes drafted
+
 ---
 
 ## Stage 8: Release & automated website update
 
-A new versioned release is created in `openesm-metadata` following semantic versioning (`v1.X.0` for new datasets, `v1.X.Y` for corrections). This release triggers two automated processes:
+A new versioned release is created in `openesm-metadata` following semantic versioning (see [Data Documentation]({{< relref "docs/data/" >}}) for versioning details). This release triggers two automated processes:
 
 1. The `openesm-metadata` repository is synced to its linked Zenodo record, creating a citable, versioned snapshot of the full metadata database.
 2. A GitHub Action copies the updated JSON files to the [openesm](https://github.com/openesm-project/openesm) website repository and runs three Node.js scripts that regenerate the dataset pages, the dataset table, and the search index. The result is committed and GitHub Pages deploys automatically.
@@ -81,11 +93,10 @@ flowchart TD
     A(["Submission via\nGitHub issue (new dataset or metadata update)\nor literature review"]) --> B[Registration & ID assignment\ncuration sheet]
     B --> C[Dataset-level metadata\ncuration sheet]
     C --> D[Variable-level annotation\ncuration sheet · construct hierarchy · scale metadata]
-    D --> E[Cleaning script\nopenesm-cleaning · reads sheet via googlesheets4\noutputs TSV + validated JSON]
+    D --> E[Cleaning script\nopenesm-cleaning · reads sheet via googlesheets4\noutputs TSV + validated JSON with dataset_version and changelog]
     E --> F[Push JSON to\nopenesm-cleaning main]
-    F --> G[Zenodo upload\nTSV + codebook · DOI minted\nDOI written back to JSON]
-    G --> F
-    F --> H[Metadata aggregation\nopenesm-metadata · fetches JSON via GitHub API\nbundles into datasets.json]
+    F --> G[Zenodo upload\nTSV + codebook · concept DOI minted\nDOI written back to JSON · second push to main]
+    G --> H[Metadata aggregation\nopenesm-metadata · fetches JSON via GitHub API\nbundles into datasets.json]
     H --> I[Versioned release\nopenesm-metadata]
     I --> J[Zenodo snapshot\nmetadata database]
     I --> K[GitHub Action\ncopies JSON · regenerates pages\nand search index]
