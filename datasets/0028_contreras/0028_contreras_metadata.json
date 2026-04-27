@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.3389/fpsyg.2020.544565",
   "zenodo_doi": "10.5281/zenodo.17347605",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/7tk4b/",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://osf.io/bkn3y",
@@ -22,7 +31,7 @@
   "sampling_scheme": "10x/day stratified sampling",
   "participants": "participants with above-average paranoid ideation and/or interpersonal sensitivity",
   "coding_file": "0028_contreras_variables",
-  "additional_comments": null,
+  "additional_comments": {},
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
   "features": [

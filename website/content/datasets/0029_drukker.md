@@ -1,6 +1,6 @@
 ---
 title: "Drukker (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0029_drukker"
 first_author: "Drukker"
@@ -62,6 +62,9 @@ participants: "individuals with IBS and panic disorder"
 
 </div>
 
+## Additional Comments
+
+[object Object]
 
 
 ## Citation

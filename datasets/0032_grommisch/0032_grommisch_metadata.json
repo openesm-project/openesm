@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1037/emo0000669",
   "zenodo_doi": "10.5281/zenodo.17347621",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/r7jw6/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/b5s97",

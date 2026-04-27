@@ -1,6 +1,6 @@
 ---
 title: "Hasselhorn (2021)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0025_hasselhorn"
 first_author: "Hasselhorn"
@@ -113,7 +113,7 @@ No changes yet.
 | uncreative | Uncreative | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Uncreative | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | creativity, intellectual, openness, big five |  |
 | unintellectual | Unintellectual | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Unintellectual | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | intellectual, openness, big five |  |
 | envious | Envious | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Envious | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | envy, negative affect, affect, big five, agreeableness |  |
-| relaxation | Relaxation | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Relaxed | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | relaxation, positive affect, affect, neuroticism, big five | named it "relaxation" to avoid duplication of "relaxed" column name |
+| relaxed_personality | Relaxation | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Relaxed | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | relaxation, positive affect, affect, neuroticism, big five | named it "relaxation" to avoid duplication of "relaxed" column name |
 | unsympathetic | Unsympathetic | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Unsympathetic | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | empathy, social behavior, agreeableness, big five |  |
 | harsh | Harsh | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Harsh | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | harshness, social behavior, agreeableness, big five |  |
 | rude | Rude | rating_scale | 5 | How accurate does each adjective describe your behavior in the last half hour? Rude | 1 = extremely inaccurate<br>5 = extremely accurate | reverse-coded by the authors, backtransformed by us | Mini-Markers for Big Five | ESM | rudeness, social behavior, agreeableness, big five |  |

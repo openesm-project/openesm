@@ -6,6 +6,21 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1080/02699931.2018.1524747",
   "zenodo_doi": "10.5281/zenodo.17347569",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2026-04-27",
+      "description": "Fix typo for 'affect' in topics.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://osf.io/487eg",
@@ -16,7 +31,7 @@
   "n_beeps_per_day": "7",
   "passive_data_available": "no",
   "cross_sectional_available": "yes",
-  "topics": "rumination, depression, emotion regulation, afect",
+  "topics": "rumination, depression, emotion regulation, affect",
   "implicit_missingness": "no",
   "raw_time_stamp": "no",
   "sampling_scheme": "7x/day stratified random interval scheme",

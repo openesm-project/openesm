@@ -1,6 +1,6 @@
 ---
 title: "Hawks (2023)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0003_hawks"
 first_author: "Hawks"
@@ -91,7 +91,7 @@ No changes yet.
 | excited | Excited | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Excited | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | excitement, positive affect, affect, extraversion, big five |  |
 | scared | Scared | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Scared | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | fear, negative affect, affect, neuroticism, big five |  |
 | upset | Upset | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Upset | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | upset, negative affect, affect, neuroticism, big five |  |
-| alert | Alert | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Alert | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | alertness, positive affect, affect, etxraversion, big five |  |
+| alert | Alert | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Alert | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | alertness, positive affect, affect, extraversion, big five |  |
 | determined | Determined | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Determined | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | determination, positive affect, affect |  |
 | inspired | Inspired | rating_scale | 5 | Indicate to what extent you felt this way right<br>before you started this survey: Inspired | 1 = very slightly or not at all<br>2 = a little<br>3 = moderately<br>4 = quite a bit<br>5 = extremely |  | PANAS Short Form | ESM | inspiration, positive affect, affect |  |
 | depressed | Depressed | rating_scale | 5 | Since the last survey, how often have you felt depressed? | 1 = none of the time<br>2 = a little of the time<br>3 = some of the time<br>4 = most of the time<br>5 = all the time |  | Anxiety & Depression Scale | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |

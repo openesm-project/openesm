@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1038/s41597-024-04147-6",
   "zenodo_doi": "10.5281/zenodo.17347469",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://zenodo.org/records/14190139",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-024-04147-6/MediaObjects/41597_2024_4147_MOESM1_ESM.pdf",

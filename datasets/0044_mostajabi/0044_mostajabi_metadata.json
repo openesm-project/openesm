@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.31219/osf.io/3szng",
   "zenodo_doi": "10.5281/zenodo.17386028",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-18",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/dcfb5",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/dcfb5/files/agmcx",

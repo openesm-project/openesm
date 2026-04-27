@@ -1,6 +1,6 @@
 ---
 title: "Wright (2017)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0064_wright"
 first_author: "Wright"
@@ -119,7 +119,7 @@ No changes yet.
 | alone | Alone | rating_scale | 5 | Alone | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loneliness, social functioning, negative affect, affect |  |
 | lonely | Lonely | rating_scale | 5 | Lonely | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loneliness, social functioning, negative affect, affect |  |
 | active | Active | rating_scale | 5 | Active | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | active, energy, positive affect, affect, big five, extraversion |  |
-| alert | Alert | rating_scale | 5 | Alert | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | alertness, positive affect, affect, etxraversion, big five |  |
+| alert | Alert | rating_scale | 5 | Alert | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | alertness, positive affect, affect, extraversion, big five |  |
 | attentive | Attentive | rating_scale | 5 | Attentive | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | attentiveness, positive affect, affect |  |
 | determined | Determined | rating_scale | 5 | Determined | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | determination, positive affect, affect |  |
 | enthusiastic | Enthusiastic | rating_scale | 5 | Enthusiastic | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |

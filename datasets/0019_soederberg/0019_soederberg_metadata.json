@@ -6,6 +6,21 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.12688/f1000research.157148.1",
   "zenodo_doi": "10.5281/zenodo.17347732",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2026-04-27",
+      "description": "Fix 'extraversion' typo in variable coding.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://doi.org/10.5281/zenodo.13332148",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://zenodo.org/records/13332148",
@@ -275,7 +290,7 @@
       "transformation": "",
       "source": "",
       "assessment_type": "ESM",
-      "construct": "alertness, positive affect, affect, etxraversion, big five",
+      "construct": "alertness, positive affect, affect, extraversion, big five",
       "comments": ""
     },
     {

@@ -1,6 +1,6 @@
 ---
 title: "Geschwind (2013)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0010_geschwind"
 first_author: "Geschwind"
@@ -12,7 +12,7 @@ n_participants: 129
 n_time_points: 200
 n_days: "20"
 topics: "depression, neuroticism, mood"
-sampling_scheme: "6x/day 90-minute interval"
+sampling_scheme: "10x/day 90-minute interval"
 participants: "individuals with residual depressive symptoms"
 ---
 
@@ -42,7 +42,7 @@ participants: "individuals with residual depressive symptoms"
 <li><strong>Time Points:</strong> 200</li>
 <li><strong>Days:</strong> 20</li>
 <li><strong>Beeps per Day:</strong> 10</li>
-<li><strong>Sampling Scheme:</strong> 6x/day 90-minute interval</li>
+<li><strong>Sampling Scheme:</strong> 10x/day 90-minute interval</li>
 <li><strong>Raw Timestamp:</strong> no</li>
 <li><strong>Implicit Missingness:</strong> no</li>
 </ul>

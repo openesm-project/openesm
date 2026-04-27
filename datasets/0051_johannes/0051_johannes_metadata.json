@@ -6,6 +6,21 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1080/15213269.2020.1768122",
   "zenodo_doi": "10.5281/zenodo.17348348",
+  "dataset_version": "1.1.0",
+  "changelog": [
+    {
+      "date": "2026-04-27",
+      "description": "Fix coding of 'concentrated_activity_binary'.",
+      "type": "data",
+      "dataset_version": "1.1.0"
+    },
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/ps3rk/files",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://osf.io/xf2pq/",

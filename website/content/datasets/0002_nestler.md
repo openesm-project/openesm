@@ -1,6 +1,6 @@
 ---
 title: "Nestler (2022)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0002_nestler"
 first_author: "Nestler"
@@ -85,11 +85,11 @@ No changes yet.
 | id | Participant ID | categorical |  |  |  |  |  | Daily |  |  |
 | day | Day of study | other |  |  |  |  |  | Daily |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | Daily |  |  |
-| sociable | Sociable | numeric | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | sociability, extraversion, big five |  |
-| creative | Creative | numeric | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | creativity, openness, big five |  |
-| friendly | Friendly | numeric | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | friendliness, agreeableness, big five |  |
-| organised | Organised | numeric | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | organisation, conscientiousness, big five |  |
-| self_esteem | Satisfied with myself | numeric | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily | self-esteem, self-concept |  |
+| sociable | Sociable | rating_scale | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | sociability, extraversion, big five |  |
+| creative | Creative | rating_scale | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | creativity, openness, big five |  |
+| friendly | Friendly | rating_scale | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | friendliness, agreeableness, big five |  |
+| organised | Organised | rating_scale | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | organisation, conscientiousness, big five |  |
+| self_esteem | Satisfied with myself | rating_scale | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily | self-esteem, self-concept |  |
 | weekday | Day of the week | numeric |  |  |  |  |  | Daily |  |  |
 | temp | Temperature | numeric |  |  |  |  |  | Daily |  |  |
 | rain | Precipitation Rainfall | numeric |  |  |  |  |  | Daily |  |  |

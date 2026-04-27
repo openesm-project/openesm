@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.31234/osf.io/e24v6",
   "zenodo_doi": "10.5281/zenodo.17348069",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/nkemg/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004",

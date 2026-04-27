@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1027/1015-5759/a000725",
   "zenodo_doi": "10.5281/zenodo.17347537",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://github.com/Luca-Menghini/ESMscales-workplaceStress",
   "license": "GPL-3.0",
   "link_to_codebook": "https://osf.io/87a9p/files/osfstorage",

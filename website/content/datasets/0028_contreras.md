@@ -1,6 +1,6 @@
 ---
 title: "Contreras (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0028_contreras"
 first_author: "Contreras"
@@ -62,6 +62,9 @@ participants: "participants with above-average paranoid ideation and/or interper
 <p><strong>Code:</strong> <a href="https://osf.io/mezgw">https://osf.io/mezgw</a></p>
 </div>
 
+## Additional Comments
+
+[object Object]
 
 
 ## Citation

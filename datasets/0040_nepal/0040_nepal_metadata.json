@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1145/3643501",
   "zenodo_doi": "10.5281/zenodo.17348144",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset",
   "license": "CC BY-NC-SA 4.0",
   "link_to_codebook": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data",

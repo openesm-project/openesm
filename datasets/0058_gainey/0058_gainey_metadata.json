@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1177/21677026221147262",
   "zenodo_doi": "10.5281/zenodo.17348369",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/gct7x/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/gct7x",
@@ -518,3 +527,4 @@
     }
   ]
 }
+

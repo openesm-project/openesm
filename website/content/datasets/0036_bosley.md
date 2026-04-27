@@ -1,6 +1,6 @@
 ---
 title: "Bosley (2019)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0036_bosley"
 first_author: "Bosley"
@@ -103,7 +103,7 @@ No changes yet.
 | nervous | Nervous | rating_scale | 101 | Felt nervous |  |  |  |  | nervousness, negative affect, affect, neuroticism, big five |  |
 | determined | Determined | rating_scale | 101 | Felt determined |  |  |  |  | determination, positive affect, affect |  |
 | attentive | Attentive | rating_scale | 101 | Felt attentive |  |  |  |  | attentiveness, positive affect, affect |  |
-| alert | Alert | rating_scale | 101 | Felt alert |  |  |  |  | alertness, positive affect, affect, etxraversion, big five |  |
+| alert | Alert | rating_scale | 101 | Felt alert |  |  |  |  | alertness, positive affect, affect, extraversion, big five |  |
 | inspired | Inspired | rating_scale | 101 | Felt inspired |  |  |  |  | inspiration, positive affect, affect |  |
 | active | Active | rating_scale | 101 | Felt active |  |  |  |  | active, energy, positive affect, affect, big five, extraversion |  |
 | afraid | Afraid | rating_scale | 101 | Felt afraid |  |  |  |  | fear, negative affect, affect, neuroticism, big five |  |

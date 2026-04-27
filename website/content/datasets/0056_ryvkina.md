@@ -1,12 +1,12 @@
 ---
 title: "Ryvkina (2023)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0056_ryvkina"
 first_author: "Ryvkina"
 year: 2023
 paper_doi: "https://doi.org/10.5334/jopd.83"
-zenodo_doi: ""
+zenodo_doi: "10.5281/zenodo.17386600"
 license: "CC-BY 4.0"
 n_participants: 327
 n_time_points: 84
@@ -18,7 +18,7 @@ participants: "mostly college students"
 
 <div class="dataset-access-box">
 <h2 class="dataset-access-title">Access Harmonized Data</h2>
-<p class="dataset-access-doi"><em>Zenodo DOI not yet available</em></p>
+<p class="dataset-access-doi"><strong>Zenodo DOI:</strong> <a href="https://doi.org/10.5281/zenodo.17386600">10.5281/zenodo.17386600</a></p>
 <div class="dataset-code-grid">
 <div class="dataset-code-item"><span class="dataset-code-label">R</span> <code>openesm::get_dataset("0056_ryvkina")</code></div>
 <div class="dataset-code-item"><span class="dataset-code-label">Python</span> <code>openesm.get_dataset("0056_ryvkina")</code></div>
@@ -56,7 +56,7 @@ participants: "mostly college students"
 - **License:** CC-BY 4.0
 
 <div class="dataset-links">
-
+<p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17386600">10.5281/zenodo.17386600</a></p>
 <p><strong>Original Source Data:</strong> <a href="https://osf.io/6kzx3/">https://osf.io/6kzx3/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://osf.io/6kzx3/">https://osf.io/6kzx3/</a></p>
 <p><strong>Code:</strong> <a href="https://osf.io/6kzx3/">https://osf.io/6kzx3/</a></p>

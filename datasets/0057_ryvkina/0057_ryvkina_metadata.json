@@ -6,6 +6,15 @@
   "reference_b": "@article{kroencke2023,\n  title = {Narcissistic status pursuit in everyday social life: {{A}} within-person process approach to the behavioral and emotional dynamics of narcissism},\n  shorttitle = {Narcissistic status pursuit in everyday social life},\n  author = {Kroencke, Lara and Kuper, Niclas and Mota, Simon and Geukes, Katharina and Zeigler-Hill, Virgil and Back, Mitja D.},\n  date = {2023-12},\n  journaltitle = {Journal of Personality and Social Psychology},\n  shortjournal = {Journal of Personality and Social Psychology},\n  volume = {125},\n  number = {6},\n  pages = {1519--1541},\n  issn = {1939-1315, 0022-3514},\n  doi = {10.1037/pspp0000467}\n}",
   "paper_doi": "https://doi.org/10.5334/jopd.83",
   "zenodo_doi": "10.5281/zenodo.17361657",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-15",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/6kzx3/",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://osf.io/6kzx3/",
@@ -1302,3 +1311,4 @@
     }
   ]
 }
+

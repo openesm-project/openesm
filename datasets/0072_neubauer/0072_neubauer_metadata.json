@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1111/cdev.13515",
   "zenodo_doi": "10.5281/zenodo.17361778",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-15",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/wcerj/",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://osf.io/tyc32",
@@ -1722,3 +1731,4 @@
     }
   ]
 }
+

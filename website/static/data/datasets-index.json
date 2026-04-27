@@ -447,7 +447,7 @@
       {
         "name": "sociable",
         "description": "Sociable",
-        "type": "numeric",
+        "type": "rating_scale",
         "coding": "Today I was sociable\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
         "answer_categories": "6",
         "details": "Today I was sociable",
@@ -461,7 +461,7 @@
       {
         "name": "creative",
         "description": "Creative",
-        "type": "numeric",
+        "type": "rating_scale",
         "coding": "Today I was creative\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
         "answer_categories": "6",
         "details": "Today I was creative",
@@ -475,7 +475,7 @@
       {
         "name": "friendly",
         "description": "Friendly",
-        "type": "numeric",
+        "type": "rating_scale",
         "coding": "Today I was friendly\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
         "answer_categories": "6",
         "details": "Today I was friendly",
@@ -489,7 +489,7 @@
       {
         "name": "organised",
         "description": "Organised",
-        "type": "numeric",
+        "type": "rating_scale",
         "coding": "Today I was organised\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
         "answer_categories": "6",
         "details": "Today I was organised",
@@ -503,7 +503,7 @@
       {
         "name": "self_esteem",
         "description": "Satisfied with myself",
-        "type": "numeric",
+        "type": "rating_scale",
         "coding": "Today I was satisfied with myself\n\n1 (not at all) to 6 (extremely)\n(self-esteem, grand-mean centered)",
         "answer_categories": "6",
         "details": "Today I was satisfied with myself",
@@ -770,7 +770,7 @@
         "transformation": "",
         "source": "PANAS Short Form",
         "assessment_type": "ESM",
-        "construct": "alertness, positive affect, affect, etxraversion, big five",
+        "construct": "alertness, positive affect, affect, extraversion, big five",
         "comments": ""
       },
       {
@@ -5277,7 +5277,7 @@
     "year": 2013,
     "topics": "depression, neuroticism, mood",
     "participants": "individuals with residual depressive symptoms",
-    "sampling_scheme": "6x/day 90-minute interval",
+    "sampling_scheme": "10x/day 90-minute interval",
     "cross_sectional_available": "yes",
     "passive_data_available": "no",
     "raw_time_stamp": "no",
@@ -5583,7 +5583,7 @@
     "first_author": "Dejonckheere",
     "dataset_id": "0012",
     "year": 2019,
-    "topics": "rumination, depression, emotion regulation, afect",
+    "topics": "rumination, depression, emotion regulation, affect",
     "participants": "community sample",
     "sampling_scheme": "7x/day stratified random interval scheme",
     "cross_sectional_available": "yes",
@@ -7861,7 +7861,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "ESM",
-        "construct": "alertness, positive affect, affect, etxraversion, big five",
+        "construct": "alertness, positive affect, affect, extraversion, big five",
         "comments": ""
       },
       {
@@ -9706,7 +9706,7 @@
         "comments": ""
       },
       {
-        "name": "relaxation",
+        "name": "relaxed_personality",
         "description": "Relaxation",
         "type": "rating_scale",
         "coding": "How accurate does each adjective describe your behavior in the last half hour? Relaxed\n1 = extremely inaccurate\n5 = extremely accurate\n(originally reverse coded)\nBased on Mini-Markers for Big-Five",
@@ -10223,7 +10223,7 @@
     "cross_sectional_available": "no",
     "passive_data_available": "no",
     "raw_time_stamp": "no",
-    "additional_comments": null,
+    "additional_comments": {},
     "reference_text": "Contreras, Alba Valiente, Carmen Heeren, Alexandre Bentall, Richard A temporal network approach to paranoia: {{A Frontiers in Psychology Front. Psychol. ",
     "n_participants": 23,
     "n_time_points": 70,
@@ -10398,7 +10398,7 @@
     "cross_sectional_available": "yes",
     "passive_data_available": "no",
     "raw_time_stamp": "no",
-    "additional_comments": null,
+    "additional_comments": {},
     "reference_text": "Drukker, Marjan Peters, Jill C. H. Vork, Lisa Mujagic, Zlatan Rutten, Bart P. F. family=Os, given=Jim, prefix=van, useprefix=true Masclee, Ad A. M. Kruimel, Joanna W. Leue, Carsten Network approach of mood functional gastrointestinal symptom dynamics in relation to childhood trauma in patients with irritable bowel syndrome comorbid panic disorder Journal of Psychosomatic Research Journal of Psychosomatic Research ",
     "n_participants": 24,
     "n_time_points": 70,
@@ -12698,7 +12698,7 @@
         "transformation": "",
         "source": "",
         "assessment_type": "",
-        "construct": "alertness, positive affect, affect, etxraversion, big five",
+        "construct": "alertness, positive affect, affect, extraversion, big five",
         "comments": ""
       },
       {
@@ -26033,7 +26033,7 @@
         "transformation": "",
         "source": "PANAS-X",
         "assessment_type": "ESM",
-        "construct": "alertness, positive affect, affect, etxraversion, big five",
+        "construct": "alertness, positive affect, affect, extraversion, big five",
         "comments": ""
       },
       {

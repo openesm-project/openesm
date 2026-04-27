@@ -6,6 +6,15 @@
   "reference_b": "@online{vize2023,\n  title = {Socio-affective dynamics of psychopathy in daily life},\n  author = {Vize, Colin and Scott, Lori and Wright, Aidan and Kamarck, Thomas},\n  date = {2023-02-15},\n  eprinttype = {PsyArXiv},\n  doi = {10.31234/osf.io/m9nxz},\n  pubstate = {prepublished}\n}",
   "paper_doi": "https://doi.org/10.31219/osf.io/3szng",
   "zenodo_doi": "10.5281/zenodo.17347765",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/dcfb5/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/dcfb5/files/agmcx",

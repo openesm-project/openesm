@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0019_soederberg"
 first_author: "Söderberg"
@@ -99,7 +99,7 @@ No changes yet.
 | angry | Angry | rating_scale | 5 | How do you feel right now?: I feel angry | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | anger, negative affect, affect |  |
 | liked | Liked | rating_scale | 5 | How do you feel right now?:  I feel liked | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | positive affect, affect |  |
 | lonely | Lonely | rating_scale | 5 | How do you feel right now?: I feel lonely | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | loneliness, negative affect, affect |  |
-| alert | Alert | rating_scale | 5 | How do you feel right now?: I feel alert | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | alertness, positive affect, affect, etxraversion, big five |  |
+| alert | Alert | rating_scale | 5 | How do you feel right now?: I feel alert | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | alertness, positive affect, affect, extraversion, big five |  |
 | stupid | Stupid | rating_scale | 5 | How do you feel right now?: I feel stupid | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | negative affect, affect | Note: In Swedish, this item was "jag känner mig dum", which could also be interpreted as "hostility". However, it was intended to ask about stupidity |
 | lecture_enjoy | Enjoyable lecture | rating_scale | 5 | The most recent lecture: The lesson was enjoyable | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
 | lecture_difficult | Lecture difficulty | rating_scale | 5 | The most recent lecture: The content was difficult | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
