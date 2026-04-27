@@ -81,7 +81,7 @@ Vize, C., Scott, L., Wright, A., & Kamarck, T. (2023, February 15). Socio-affect
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

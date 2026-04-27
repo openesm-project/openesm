@@ -76,7 +76,8 @@ Kuczynski, A. M., Halvorson, M. A., Slater, L. R., & Kanter, J. W. (2022). The e
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *metadata change*: Changed publication year from 2018 to 2021.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

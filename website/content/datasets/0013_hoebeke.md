@@ -76,7 +76,7 @@ Hoebeke, Y., Blanchard, M. A., Contreras, A., & Heeren, A. (2022). An experience
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

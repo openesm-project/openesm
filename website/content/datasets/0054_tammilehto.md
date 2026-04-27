@@ -76,7 +76,7 @@ Tammilehto, J., Bosmans ,Guy, Kuppens ,Peter, Flykt ,Marjo, Peltonen ,Kirsi, Ker
 
 ## Changelog
 
-No changes yet.
+- **2025-10-15** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

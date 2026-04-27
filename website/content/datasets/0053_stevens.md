@@ -76,7 +76,7 @@ Stevens, A., & Griffiths, S. (2020). Body Positivity (#BoPo) in everyday life: A
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

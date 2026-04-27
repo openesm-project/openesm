@@ -76,7 +76,7 @@ Soyster, P. D., Ashlock, L., & Fisher, A. J. (2022). Pooled and person-specific 
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

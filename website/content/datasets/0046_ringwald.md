@@ -76,7 +76,7 @@ Ringwald, W., Vize, C., & Wright, A. (2025, March 9). Do you feel what I feel? T
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

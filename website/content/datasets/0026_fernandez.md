@@ -76,7 +76,7 @@ Elmer, T., Fernández, A., Stadel, M., Kas, M. J. H., & Langener, A. M. (2025). 
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

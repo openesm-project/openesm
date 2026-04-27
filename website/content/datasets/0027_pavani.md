@@ -76,7 +76,7 @@ Pavani, J., Le Vigouroux, S., Kop, J., Congard, A., & Dauvier, B. (2017). A netw
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

@@ -76,7 +76,8 @@ van Woerkom, M., Constantin, M., Janssens, M., Reijnders, J., Jacobs, N., & Lata
 
 ## Changelog
 
-No changes yet.
+- **2025-10-18** (1.0.1) *data change*: Removed underscore from file names.
+- **2025-10-15** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

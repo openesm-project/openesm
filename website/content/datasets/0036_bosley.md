@@ -76,7 +76,8 @@ Bosley, H. G., Sandel, D. B., & Fisher, A. J. (2020). Idiographic dynamics of po
 
 ## Changelog
 
-No changes yet.
+- **2026-04-27** (1.0.0) *metadata change*: Fix 'extraversion' typo in variable coding.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

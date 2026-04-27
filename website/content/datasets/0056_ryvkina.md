@@ -81,7 +81,7 @@ Kroencke, L., Kuper, N., Mota, S., Geukes, K., Zeigler-Hill, V., & Back, M. D. (
 
 ## Changelog
 
-No changes yet.
+- **2025-10-18** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

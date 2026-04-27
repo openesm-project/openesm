@@ -76,7 +76,7 @@ Merolla, A. J., Neubauer, A. B., & Otmar, C. D. (2024). Responsiveness, social c
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

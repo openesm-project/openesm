@@ -76,7 +76,8 @@ Dejonckheere, E., Kalokerinos, E. K., Bastian, B., & Kuppens, P. (2019). Poor em
 
 ## Changelog
 
-No changes yet.
+- **2026-04-27** (1.0.0) *metadata change*: Fix typo for 'affect' in topics.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

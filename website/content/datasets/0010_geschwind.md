@@ -81,7 +81,8 @@ Bringmann, L. F., Vissers, N., Wichers, M., Geschwind, N., Kuppens, P., Peeters,
 
 ## Changelog
 
-No changes yet.
+- **2026-04-27** (1.0.0) *metadata change*: Fix information about sampling scheme.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

@@ -76,7 +76,7 @@ Hensel, D. J., Young, A. I., & Szymanski, K. M. (2023). The feasibility of using
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

@@ -76,7 +76,7 @@ Blanke, E. S., Schmidt, M. J., Riediger, M., & Brose, A. (2020). Thinking mindfu
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

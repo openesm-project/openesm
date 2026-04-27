@@ -73,7 +73,7 @@ Menghini, L., Pastore, M., & Balducci, C. (2023). Workplace stress in real time.
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

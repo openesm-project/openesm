@@ -76,7 +76,8 @@ Hasselhorn, K., Ottenstein, C., & Lischetzke, T. (2022). The effects of assessme
 
 ## Changelog
 
-No changes yet.
+- **2026-04-27** (1.0.0) *metadata change*: Fixed variable name 'relaxed_personality' in metadata.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

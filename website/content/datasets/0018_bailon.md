@@ -76,7 +76,7 @@ Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanab
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

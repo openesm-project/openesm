@@ -76,7 +76,7 @@ Neubauer, A. B., Schmidt, A., Kramer, A. C., & Schmiedek, F. (2021). A little au
 
 ## Changelog
 
-No changes yet.
+- **2025-10-15** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

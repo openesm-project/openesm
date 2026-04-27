@@ -73,7 +73,7 @@ Flueckiger, L., Lieb, R., Meyer, A. H., & Mata, J. (2014). How health behaviors 
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

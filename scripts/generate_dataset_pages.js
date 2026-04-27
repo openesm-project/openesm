@@ -53,6 +53,31 @@ function formatZenodoDOI(doi) {
   return `https://doi.org/${doi}`;
 }
 
+function formatChangelog(changelog) {
+  if (!Array.isArray(changelog) || changelog.length === 0) {
+    return 'No changes yet.';
+  }
+
+  const sortedEntries = [...changelog].sort((a, b) => {
+    const aTime = Date.parse(a?.date || '');
+    const bTime = Date.parse(b?.date || '');
+    const safeATime = Number.isNaN(aTime) ? -Infinity : aTime;
+    const safeBTime = Number.isNaN(bTime) ? -Infinity : bTime;
+    return safeBTime - safeATime;
+  });
+
+  return sortedEntries.map(entry => {
+    const date = entry?.date || 'Unknown date';
+    const version = entry?.dataset_version ? ` (${entry.dataset_version})` : '';
+    const typeLabel = entry?.type
+      ? `${entry.type === 'data' ? 'data change' : entry.type === 'metadata' ? 'metadata change' : `${entry.type} change`}`
+      : '';
+    const type = typeLabel ? ` *${typeLabel}*` : '';
+    const description = entry?.description || '';
+    return `- **${date}**${version}${type}: ${description}`;
+  }).join('\n');
+}
+
 // Escape double quotes for YAML frontmatter string values
 function escapeFM(val) {
   if (val === null || val === undefined) return '';
@@ -87,6 +112,7 @@ const generateDatasetPages = () => {
       const additionalReference = data.reference_b ? formatAPAReference(data.reference_b) : '';
 
       const zenodoUrl = data.zenodo_doi ? formatZenodoDOI(data.zenodo_doi) : '';
+      const changelogContent = formatChangelog(data.changelog);
 
       // Create markdown content for the dataset page
       const content = `---
@@ -163,7 +189,7 @@ ${additionalReference ? `\n### Additional Reference\n\n${additionalReference}\n`
 
 ## Changelog
 
-No changes yet.
+${changelogContent}
 
 ## Variables
 

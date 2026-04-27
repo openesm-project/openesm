@@ -76,7 +76,7 @@ Mostajabi, J., & Wright, A. (2024, July 9). An exploratory study on disinhibitio
 
 ## Changelog
 
-No changes yet.
+- **2025-10-18** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

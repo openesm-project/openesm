@@ -76,7 +76,8 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 
 ## Changelog
 
-No changes yet.
+- **2026-04-27** (1.1.0) *data change*: Fix coding of 'concentrated_activity_binary'.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

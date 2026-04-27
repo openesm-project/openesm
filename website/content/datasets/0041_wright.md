@@ -81,7 +81,7 @@ Wright, A. G. C., Hopwood, C. J., & Simms, L. J. (2015). Daily interpersonal and
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 
