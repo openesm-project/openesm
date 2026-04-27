@@ -29848,10 +29848,10 @@
         "name": "school_new_material",
         "description": "New material in school",
         "type": "categorical",
-        "coding": "Did your child receive learning materials or tasks from school today? \n1= yes  \n2= no \n3= don’t know",
+        "coding": "Did your child receive learning materials or tasks from school today? \n1= yes \n2= no \n3= don’t know",
         "answer_categories": "3",
         "details": "Did your child receive learning materials or tasks from school today?",
-        "labels": "1= yes  \n2= no \n3= don’t know",
+        "labels": "1= yes \n2= no \n3= don’t know",
         "transformation": "",
         "source": "",
         "assessment_type": "Daily",
@@ -29862,10 +29862,10 @@
         "name": "school_work_today",
         "description": "Child worked on school material",
         "type": "categorical",
-        "coding": "Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days. \n1= yes  \n2= no  \n3= don’t know",
+        "coding": "Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days. \n1= yes \n2= no  \n3= don’t know",
         "answer_categories": "3",
         "details": "Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days.",
-        "labels": "1= yes  \n2= no  \n3= don’t know",
+        "labels": "1= yes \n2= no  \n3= don’t know",
         "transformation": "",
         "source": "",
         "assessment_type": "Daily",
@@ -31346,10 +31346,10 @@
         "name": "corona_info_update",
         "description": "Corona info updates",
         "type": "rating_scale",
-        "coding": "How often did you update yourself about the corona pandemic today (e.g., by reading newspapers, watching the news, push notifications, online news)? \n1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+        "coding": "How often did you update yourself about the corona pandemic today (e.g., by reading newspapers, watching the news, push notifications, online news)? \n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "answer_categories": "5",
         "details": "How often did you update yourself about the corona pandemic today (e.",
-        "labels": "1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+        "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "transformation": "",
         "source": "",
         "assessment_type": "Daily",
@@ -31360,10 +31360,10 @@
         "name": "corona_talk_friends_family",
         "description": "Corona talk friends/family",
         "type": "rating_scale",
-        "coding": "How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today?\n1= not at all \n2= rarely \n3= sometimes \n4= often \n5= very often",
+        "coding": "How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today?\n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "answer_categories": "5",
         "details": "How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today?",
-        "labels": "1= not at all \n2= rarely \n3= sometimes \n4= often \n5= very often",
+        "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "transformation": "",
         "source": "",
         "assessment_type": "Daily",
@@ -31374,10 +31374,10 @@
         "name": "corona_social_media_check",
         "description": "Corona social media checking",
         "type": "rating_scale",
-        "coding": "How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today?\n1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+        "coding": "How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today?\n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "answer_categories": "5",
         "details": "How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today?",
-        "labels": "1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+        "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "transformation": "",
         "source": "",
         "assessment_type": "Daily",
@@ -31388,10 +31388,10 @@
         "name": "corona_social_media_create",
         "description": "Corona social media creating",
         "type": "rating_scale",
-        "coding": "How often did you create or share posts, images or comments about the corona pandemic on social media today?\n1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+        "coding": "How often did you create or share posts, images or comments about the corona pandemic on social media today?\n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "answer_categories": "5",
         "details": "How often did you create or share posts, images or comments about the corona pandemic on social media today?",
-        "labels": "1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+        "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
         "transformation": "",
         "source": "",
         "assessment_type": "Daily",
