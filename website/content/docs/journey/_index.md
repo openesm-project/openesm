@@ -59,6 +59,8 @@ At this point the Zenodo DOI is not yet known, so the JSON is pushed once before
 
 The cleaned TSV and codebook are uploaded to the [openESM Zenodo collection](https://zenodo.org/communities/openesm), where they receive a permanent DOI. We store the overarching concept DOI in the JSON metadata, which always resolves to the most current version of the dataset when accessed by the R and Python packages. The DOI is added to the metadata JSON, which is regenerated and pushed to `openesm-cleaning` main.
 
+When a new version of the dataset is released, the concept DOI always resolves to the latest version, so no updates to the JSON are needed. When updating on Zenodo, provide the existing DOI for smooth updates of the DOI.
+
 ---
 
 ## Stage 7: Metadata aggregation in openesm-metadata
