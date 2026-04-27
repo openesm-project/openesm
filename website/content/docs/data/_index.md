@@ -3,8 +3,17 @@ title: "Data Documentation"
 description: "Understanding openESM datasets and metadata"
 ---
 
+<div class="docs-page">
 
 This section covers everything you need to know about the openESM datasets and metadata, their structure, and how to work with them effectively.
+
+<div class="docs-topics" role="navigation" aria-label="Topics on this page">
+	<span class="docs-topics-label">On this page</span>
+	<a class="docs-topic-chip" href="#datasets">Datasets</a>
+	<a class="docs-topic-chip" href="#metadata">Metadata</a>
+	<a class="docs-topic-chip" href="#variable-level-metadata">Variable metadata</a>
+	<a class="docs-topic-chip" href="#versioning-and-updates">Versioning</a>
+</div>
 
 # Datasets
 
@@ -172,3 +181,5 @@ The metadata database follows semantic versioning:
 - **Major**: Breaking changes to the JSON schema that require updates to downstream code (e.g. renaming or removing existing fields)
 - **Minor**: Additive schema changes (new fields added) or batches of new dataset additions
 - **Patch**: Metadata corrections, typo fixes, no schema changes
+
+</div>

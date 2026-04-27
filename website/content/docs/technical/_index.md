@@ -3,7 +3,16 @@ title: "Technical Documentation"
 description: "System architecture and technical implementation details"
 ---
 
+<div class="docs-page">
+
 This section covers the technical aspects of how openESM works, including infrastructure, workflows, and system architecture.
+
+<div class="docs-topics" role="navigation" aria-label="Topics on this page">
+	<span class="docs-topics-label">On this page</span>
+	<a class="docs-topic-chip" href="#system-architecture">System architecture</a>
+	<a class="docs-topic-chip" href="#metadata-repository">Metadata repository</a>
+	<a class="docs-topic-chip" href="#website-repository">Website repository</a>
+</div>
 
 ## System Architecture
 
@@ -25,3 +34,5 @@ For the versioning rules of our metadata, see the data documentation section on 
 
 ## Website Repository
 The website repository contains the static site files, including markdown files for documentation, configuration files, and the Hugo theme. The website is built using Hugo and deployed to GitHub Pages. 
+
+</div>

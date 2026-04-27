@@ -3,9 +3,18 @@ title: "Dataset Journey"
 mermaid: true
 ---
 
+<div class="docs-page">
 
 
 Every dataset in openESM passes through a structured curation pipeline before it becomes available. This page explains each stage (what happens, where it happens, and what it produces).
+
+<div class="docs-topics" role="navigation" aria-label="Topics on this page">
+    <span class="docs-topics-label">On this page</span>
+    <a class="docs-topic-chip" href="#stage-1-submission">Submission</a>
+    <a class="docs-topic-chip" href="#stage-3-data-cleaning--harmonization">Cleaning and harmonization</a>
+    <a class="docs-topic-chip" href="#stage-8-release--automated-website-update">Release and automation</a>
+    <a class="docs-topic-chip" href="#pipeline-overview">Pipeline overview</a>
+</div>
 
 ---
 
@@ -109,3 +118,5 @@ flowchart TD
     style E fill:#E78A00,color:#fff,stroke:none
     style D fill:#E78A00,color:#fff,stroke:none
 ```
+
+</div>

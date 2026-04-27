@@ -2,7 +2,18 @@
 title: "Contribute"
 ---
 
+<div class="docs-page">
+
 We welcome contributions to the openESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure. 
+
+<div class="docs-topics" role="navigation" aria-label="Topics on this page">
+  <span class="docs-topics-label">On this page</span>
+  <a class="docs-topic-chip" href="#adding-a-new-dataset">Add a dataset</a>
+  <a class="docs-topic-chip" href="#dataset-formatting-guidelines">Formatting</a>
+  <a class="docs-topic-chip" href="#variable-metadata">Variable metadata</a>
+  <a class="docs-topic-chip" href="#metadata-formatting-guidelines">Metadata format</a>
+  <a class="docs-topic-chip" href="#contact">Contact</a>
+</div>
 
 # Adding a New Dataset
 
@@ -254,3 +265,5 @@ If you have ideas for improving the openESM software infrastructure, such as the
 
 # Contact
 If you have any questions or need help with contributions, feel free to reach out. 
+
+</div>
