@@ -1,6 +1,6 @@
 ---
 title: "Wright (2019)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0041_wright"
 first_author: "Wright"
@@ -81,7 +81,7 @@ Wright, A. G. C., Hopwood, C. J., & Simms, L. J. (2015). Daily interpersonal and
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

@@ -1,6 +1,6 @@
 ---
 title: "Blanke (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0059_blanke"
 first_author: "Blanke"
@@ -76,7 +76,7 @@ Blanke, E. S., Schmidt, M. J., Riediger, M., & Brose, A. (2020). Thinking mindfu
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

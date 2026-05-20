@@ -1,6 +1,6 @@
 ---
 title: "Westhoff (2024)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0008_westhoff"
 first_author: "Westhoff"
@@ -76,7 +76,7 @@ Westhoff, M., Heshmati, S., Siepe, B. S., Vogelbacher, C., Ciarrochi, J., Hayes,
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

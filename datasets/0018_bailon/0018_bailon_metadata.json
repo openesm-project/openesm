@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1038/s41597-020-00700-1",
   "zenodo_doi": "10.5281/zenodo.17347690",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "http://doi.org/10.5281/zenodo.3774526",
   "license": "CC-BY 4.0",
   "link_to_codebook": "https://zenodo.org/records/4024141",

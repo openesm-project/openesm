@@ -1,6 +1,6 @@
 ---
 title: "Nepal (2024)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0040_nepal"
 first_author: "Nepal"
@@ -76,7 +76,7 @@ Nepal, S., Liu, W., Pillai, A., Wang, W., Vojdanovski, V., Huckins, J. F., Roger
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

@@ -6,6 +6,21 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.3758/s13428-021-01683-6",
   "zenodo_doi": "10.5281/zenodo.17347567",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2026-04-27",
+      "description": "Fixed variable name 'relaxed_personality' in metadata.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/vw3gf/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://osf.io/23db5?view_only=6e6bf509c6374759b56faac680c55825",
@@ -461,7 +476,7 @@
       "comments": ""
     },
     {
-      "name": "relaxation",
+      "name": "relaxed_personality",
       "description": "Relaxation",
       "variable_type": "rating_scale",
       "coding": "How accurate does each adjective describe your behavior in the last half hour? Relaxed\n1 = extremely inaccurate\n5 = extremely accurate\n(originally reverse coded)\nBased on Mini-Markers for Big-Five",

@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0001_fried"
 first_author: "Fried"
@@ -76,7 +76,7 @@ Fried, E. I., Papanikolaou, F., & Epskamp, S. (2022). Mental health and social c
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

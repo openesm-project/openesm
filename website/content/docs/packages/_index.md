@@ -3,8 +3,17 @@ title: "Package Documentation"
 description: "Using the openESM R and Python packages"
 ---
 
+<div class="docs-page">
 
 The openESM packages provide programmatic access to the dataset collection, making it easy to download, explore, and analyze the data directly from R or Python.
+
+<div class="docs-topics" role="navigation" aria-label="Topics on this page">
+	<span class="docs-topics-label">On this page</span>
+	<a class="docs-topic-chip" href="#r-package">R package</a>
+	<a class="docs-topic-chip" href="#python-package">Python package</a>
+	<a class="docs-topic-chip" href="#getting-started">Getting started</a>
+	<a class="docs-topic-chip" href="#example-usage">Example usage</a>
+</div>
 
 ## R Package
 
@@ -91,3 +100,5 @@ print(dataset.cite())
 print(dataset.notes())
 
 ```
+
+</div>

@@ -6,6 +6,21 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1007/s10902-022-00546-x",
   "zenodo_doi": "10.5281/zenodo.17361708",
+  "dataset_version": "1.0.1",
+  "changelog": [
+  {
+    "date": "2025-10-18",
+    "description": "Removed underscore from file names.",
+    "type": "data",
+    "dataset_version": "1.0.1"
+  },
+    {
+      "date": "2025-10-15",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/k98pt/",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": null,
@@ -392,3 +407,4 @@
     }
   ]
 }
+

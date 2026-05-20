@@ -1,6 +1,6 @@
 ---
 title: "Contreras (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0028_contreras"
 first_author: "Contreras"
@@ -62,6 +62,9 @@ participants: "participants with above-average paranoid ideation and/or interper
 <p><strong>Code:</strong> <a href="https://osf.io/mezgw">https://osf.io/mezgw</a></p>
 </div>
 
+## Additional Comments
+
+[object Object]
 
 
 ## Citation
@@ -73,7 +76,7 @@ Contreras, A., Valiente, C., Heeren, A., & Bentall, R. (2020). A temporal networ
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

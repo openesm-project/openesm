@@ -1,6 +1,6 @@
 ---
 title: "Neubauer (2024)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0062_neubauer"
 first_author: "Neubauer"
@@ -76,7 +76,7 @@ Neubauer, A. B., & Schmiedek, F. (2024). Approaching academic adjustment on mult
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

@@ -1,6 +1,6 @@
 ---
 title: "Gainey (2023)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0058_gainey"
 first_author: "Gainey"
@@ -76,7 +76,7 @@ Naragon-Gainey, K., DeMarree, K. G., Kyron, M. J., McMahon, T. P., Park, J., & B
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

@@ -1,6 +1,6 @@
 ---
 title: "Marian (2022)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0052_marian"
 first_author: "Marian"
@@ -76,7 +76,7 @@ Marian, S., Costantini, G., Macsinga, I., & Sava, F. A. (2023). The dynamic inte
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

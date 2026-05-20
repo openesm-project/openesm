@@ -6,6 +6,15 @@
   "reference_b": "@article{wright2015,\n  title = {Daily interpersonal and affective dynamics in personality disorder},\n  author = {Wright, Aidan G. C. and Hopwood, Christopher J. and Simms, Leonard J.},\n  date = {2015-08},\n  journaltitle = {Journal of Personality Disorders},\n  volume = {29},\n  number = {4},\n  pages = {503--525},\n  publisher = {Guilford Publications Inc.},\n  doi = {10.1521/pedi.2015.29.4.503}\n}",
   "paper_doi": "https://doi.org/10.1037/pas0000617",
   "zenodo_doi": "10.5281/zenodo.17348148",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://osf.io/5x8rv",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",

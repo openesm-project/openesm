@@ -1,6 +1,6 @@
 ---
 title: "Flueckiger (2014)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0015_flueckiger"
 first_author: "Flueckiger"
@@ -73,7 +73,7 @@ Flueckiger, L., Lieb, R., Meyer, A. H., & Mata, J. (2014). How health behaviors 
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

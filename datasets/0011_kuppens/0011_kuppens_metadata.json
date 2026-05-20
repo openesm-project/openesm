@@ -6,6 +6,15 @@
   "reference_b": "@article{bringmannAssessingTemporalEmotion2016,\n  title = {Assessing temporal emotion dynamics using networks},\n  author = {Bringmann, Laura F. and Pe, Madeline L. and Vissers, Nathalie and Ceulemans, Eva and Borsboom, Denny and Vanpaemel, Wolf and Tuerlinckx, Francis and Kuppens, Peter},\n  date = {2016-08-01},\n  journaltitle = {Assessment},\n  shortjournal = {Assessment},\n  volume = {23},\n  number = {4},\n  pages = {425--435},\n  publisher = {SAGE Publications Inc},\n  doi = {10.1177/1073191116645909}\n}",
   "paper_doi": "https://doi.org/10.1177/1073191116645909",
   "zenodo_doi": "10.5281/zenodo.17347412",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-10-14",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",

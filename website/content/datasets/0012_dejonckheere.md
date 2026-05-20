@@ -1,6 +1,6 @@
 ---
 title: "Dejonckheere (2019)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0012_dejonckheere"
 first_author: "Dejonckheere"
@@ -11,7 +11,7 @@ license: "CC-BY 4.0"
 n_participants: 100
 n_time_points: 98
 n_days: "14"
-topics: "rumination, depression, emotion regulation, afect"
+topics: "rumination, depression, emotion regulation, affect"
 sampling_scheme: "7x/day stratified random interval scheme"
 participants: "community sample"
 ---
@@ -32,7 +32,7 @@ participants: "community sample"
 <li><strong>First Author:</strong> Dejonckheere</li>
 <li><strong>Year:</strong> 2019</li>
 <li><strong>Paper DOI:</strong> <a href="https://doi.org/10.1080/02699931.2018.1524747">https://doi.org/10.1080/02699931.2018.1524747</a></li>
-<li><strong>Topics:</strong> rumination, depression, emotion regulation, afect</li>
+<li><strong>Topics:</strong> rumination, depression, emotion regulation, affect</li>
 </ul>
 </div>
 <div class="dataset-meta-card">
@@ -76,7 +76,8 @@ Dejonckheere, E., Kalokerinos, E. K., Bastian, B., & Kuppens, P. (2019). Poor em
 
 ## Changelog
 
-No changes yet.
+- **2026-04-27** (1.0.0) *metadata change*: Fix typo for 'affect' in topics.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

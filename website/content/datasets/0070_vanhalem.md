@@ -1,6 +1,6 @@
 ---
 title: "van Halem (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0070_vanhalem"
 first_author: "van Halem"
@@ -76,7 +76,7 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

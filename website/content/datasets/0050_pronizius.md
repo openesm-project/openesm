@@ -1,6 +1,6 @@
 ---
 title: "Pronizius (2024)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0050_pronizius"
 first_author: "Pronizius"
@@ -76,7 +76,7 @@ Pronizius, E., Forbes, P. A. G., Feneberg, A. C., Miculescu, B., Nater, U. M., P
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

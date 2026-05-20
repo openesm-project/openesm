@@ -1,6 +1,6 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0044_mostajabi"
 first_author: "Mostajabi"
@@ -76,7 +76,7 @@ Mostajabi, J., & Wright, A. (2024, July 9). An exploratory study on disinhibitio
 
 ## Changelog
 
-No changes yet.
+- **2025-10-18** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

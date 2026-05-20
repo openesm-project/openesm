@@ -1,6 +1,6 @@
 ---
 title: "Bailon (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0018_bailon"
 first_author: "Bailon"
@@ -76,7 +76,7 @@ Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanab
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

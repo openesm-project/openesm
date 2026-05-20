@@ -1,6 +1,6 @@
 ---
 title: "Rowland (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0006_rowland"
 first_author: "Rowland"
@@ -73,7 +73,7 @@ Rowland, Z., & Wenzel, M. (2020). Mindfulness and affect-network density: does m
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

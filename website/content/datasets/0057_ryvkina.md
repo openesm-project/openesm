@@ -1,6 +1,6 @@
 ---
 title: "Ryvkina (2023)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0057_ryvkina"
 first_author: "Ryvkina"
@@ -81,7 +81,7 @@ Kroencke, L., Kuper, N., Mota, S., Geukes, K., Zeigler-Hill, V., & Back, M. D. (
 
 ## Changelog
 
-No changes yet.
+- **2025-10-15** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

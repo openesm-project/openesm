@@ -1,6 +1,6 @@
 ---
 title: "Ringwald (2024)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0046_ringwald"
 first_author: "Ringwald"
@@ -76,7 +76,7 @@ Ringwald, W., Vize, C., & Wright, A. (2025, March 9). Do you feel what I feel? T
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 

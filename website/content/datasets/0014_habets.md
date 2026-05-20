@@ -1,6 +1,6 @@
 ---
 title: "Habets (2020)"
-date: 2026-03-12
+date: 2026-04-27
 draft: false
 dataset_id: "0014_habets"
 first_author: "Habets"
@@ -76,7 +76,7 @@ Habets, J., Heijmans, M., Herff, C., Simons, C., Leentjens, A. F., Temel, Y., Ku
 
 ## Changelog
 
-No changes yet.
+- **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
 
