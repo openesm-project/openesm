@@ -328,7 +328,8 @@ details.desc-disclaimer[open] summary::before {
 <script type="module">
 import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
 
-const BASE = '/data';
+const BASE = '{{ "data" | relURL }}';
+const DESCRIPTIVES_URL = '{{ "descriptives/" | relURL }}';
 const STATS = [
   { key: 'mean',       label: 'Mean' },
   { key: 'sd',         label: 'SD' },
@@ -353,6 +354,11 @@ async function init() {
     ]);
   } catch (e) {
     showError('Failed to load descriptives index: ' + e.message);
+    return;
+  }
+
+  if (!Array.isArray(index) || !Array.isArray(tableData)) {
+    showError('Descriptives data format is invalid.');
     return;
   }
 
@@ -488,7 +494,9 @@ async function loadAndRender(dsId, item) {
     try {
       const resp = await fetch(`${BASE}/descriptives/${meta.dataset_id}.json`);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      dataCache.set(dsId, await resp.json());
+      const parsed = await resp.json();
+      if (!Array.isArray(parsed)) throw new Error('Invalid data format');
+      dataCache.set(dsId, parsed);
     } catch (e) {
       showError(`Could not load data for dataset ${dsId}: ${e.message}`);
       return;
@@ -496,8 +504,15 @@ async function loadAndRender(dsId, item) {
   }
 
   const items = dataCache.get(dsId);
+  if (!Array.isArray(items)) {
+    showError(`Invalid data for dataset ${dsId}.`);
+    return;
+  }
   const itemData = items.find(d => d.item === item);
-  if (!itemData) { showError(`No data found for item "${item}".`); return; }
+  if (!itemData || !Array.isArray(itemData.person_stats)) {
+    showError(`No valid data found for item "${item}".`);
+    return;
+  }
 
   renderItemView(dsId, item, itemData);
 }
@@ -521,6 +536,7 @@ function renderItemView(dsId, item, itemData) {
   const meta = datasetLookup[dsId];
   const dsLabel = meta ? `${meta.first_author} (${meta.year})` : dsId;
   const dsUrl = meta ? meta.url : '#';
+  const iccText = Number.isFinite(itemData.icc) ? itemData.icc.toFixed(3) : '—';
 
   document.getElementById('item-view').style.display = 'block';
   document.getElementById('landing-hint').style.display = 'none';
@@ -528,7 +544,7 @@ function renderItemView(dsId, item, itemData) {
 
   // breadcrumb
   document.getElementById('desc-breadcrumb').innerHTML =
-    `<a href="/descriptives/">Descriptives</a>` +
+    `<a href="${DESCRIPTIVES_URL}">Descriptives</a>` +
     `<span class="sep">›</span>` +
     `<a href="${dsUrl}">${dsLabel}</a>` +
     `<span class="sep">›</span>` +
@@ -559,7 +575,7 @@ function renderItemView(dsId, item, itemData) {
     </div>
     <div class="desc-meta-item">
       <span class="desc-meta-label">ICC</span>
-      <span class="desc-meta-value">${itemData.icc.toFixed(3)}${iccSingularNote}</span>
+      <span class="desc-meta-value">${iccText}${iccSingularNote}</span>
     </div>
   `;
 
@@ -701,7 +717,7 @@ function renderPlots(included, dsId, item) {
     const marks = [];
 
     // soft scale-boundary lines on the mean plot only
-    if (key === 'mean' && scaleMin !== null) {
+    if (key === 'mean' && scaleMin !== null && scaleMax !== null) {
       marks.push(Plot.ruleX([scaleMin, scaleMax], {
         stroke: '#d0d0d0', strokeWidth: 1, strokeDasharray: '3,3',
         y1: yDotCenter - yPad * 0.15, y2: maxDensity * 1.05,
@@ -772,6 +788,7 @@ function renderPlots(included, dsId, item) {
 
 function renderStatsTable(included, excluded, itemData) {
   const section = document.getElementById('desc-stats-section');
+  const iccText = Number.isFinite(itemData.icc) ? itemData.icc.toFixed(3) : '—';
 
   const statRows = STATS.map(({ key, label }) => {
     const vals = included.map(d => d[key]).filter(v => v !== null && !isNaN(v));
@@ -816,7 +833,7 @@ function renderStatsTable(included, excluded, itemData) {
           <tbody>
             <tr><td>N included</td><td>${included.length}</td></tr>
             <tr><td>N excluded</td><td>${excText}</td></tr>
-            <tr><td>ICC</td><td>${itemData.icc.toFixed(3)}${itemData.icc_singular ? ' <em>(singular)</em>' : ''}</td></tr>
+            <tr><td>ICC</td><td>${iccText}${itemData.icc_singular ? ' <em>(singular)</em>' : ''}</td></tr>
             <tr><td>Empirical scale range</td><td>${empRange}</td></tr>
             <tr><td>Mode counts</td><td>${modeText}</td></tr>
           </tbody>
