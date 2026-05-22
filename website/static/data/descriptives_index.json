@@ -1,1 +1,4962 @@
-[]
+[
+  {
+    "dataset_id": "0001",
+    "item": "difficulties_relaxing"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "worry"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "nothing_look_forward"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "anhedonia"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "tired"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "hungry"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "alone"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "social_offline"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "social_online"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "time_music"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "procrastinated"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "time_outdoors"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "covid_occupied"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "covid_worry"
+  },
+  {
+    "dataset_id": "0001",
+    "item": "time_home"
+  },
+  {
+    "dataset_id": "0002",
+    "item": "sociable"
+  },
+  {
+    "dataset_id": "0002",
+    "item": "creative"
+  },
+  {
+    "dataset_id": "0002",
+    "item": "friendly"
+  },
+  {
+    "dataset_id": "0002",
+    "item": "organised"
+  },
+  {
+    "dataset_id": "0002",
+    "item": "self_esteem"
+  },
+  {
+    "dataset_id": "0002",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "afraid"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "distressed"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "scared"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "upset"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "alert"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "determined"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "inspired"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "restless_or_fidgety"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "sadness_extreme"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "worried"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "hopeless"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "irritated"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "effort_everything"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "argument_stress"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "let_pass_stress"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "friend_relative_stress"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "health_stress"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "other_stress"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "covid_stress"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "socialfunc_interactions"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "alert_sleepiness"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "going_on"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "concentrating"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "noisy"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "finish"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "organization"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "mentaleffort"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "forgetful"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "fidgeting"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "motor"
+  },
+  {
+    "dataset_id": "0003",
+    "item": "test_position"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "social_number"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "sleep_quality"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "difficult_stay_awake"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "conventional"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "critical"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "dependable"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "disorganized"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "open_to_experiences"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "reserved"
+  },
+  {
+    "dataset_id": "0004",
+    "item": "sympathetic"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "harm"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "hopeful"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "seeing_things"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "sleeping"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "social"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "think_clearly"
+  },
+  {
+    "dataset_id": "0005",
+    "item": "voices"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "satisfied"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0006",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_affect_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_affect_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_cognition_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_cognition_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_attention_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_attention_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_social_connection_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_social_connection_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_motivation_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_motivation_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_overt_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_overt_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_physical_health_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_physical_health_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_change_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_change_behavior"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "negative_behavior_retention"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "positive_behavior_retention"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "affect_valence"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "affect_arousal"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "life_satisfaction"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "lacking_support"
+  },
+  {
+    "dataset_id": "0008",
+    "item": "sleep_quality"
+  },
+  {
+    "dataset_id": "0010",
+    "item": "cheerful"
+  },
+  {
+    "dataset_id": "0010",
+    "item": "pleasantness"
+  },
+  {
+    "dataset_id": "0010",
+    "item": "worried"
+  },
+  {
+    "dataset_id": "0010",
+    "item": "fearful"
+  },
+  {
+    "dataset_id": "0010",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0010",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0011",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0011",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0011",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0011",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0011",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0011",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0012",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0012",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0012",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0012",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0012",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0013",
+    "item": "activity"
+  },
+  {
+    "dataset_id": "0013",
+    "item": "perseverance"
+  },
+  {
+    "dataset_id": "0013",
+    "item": "negativity"
+  },
+  {
+    "dataset_id": "0013",
+    "item": "self_criticism"
+  },
+  {
+    "dataset_id": "0013",
+    "item": "brooding"
+  },
+  {
+    "dataset_id": "0013",
+    "item": "replaying"
+  },
+  {
+    "dataset_id": "0013",
+    "item": "att_control"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "well"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "down"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "frightened"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "tense"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "sleepy"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "tired"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "cheerful"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "concentrate"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "hallucinations"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "act_problemless"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "mobility_well"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "sit_still"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "speech_well"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "walk_well"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "tremor"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "slowness"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "stiffness"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "muscle_tension"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "dyskinesia"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "beep_disturbing"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "mor_slept_well"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "mor_often_awake"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "mor_rested"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "mor_tired_phys"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "mor_tired_ment"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_many_offs"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_long_offs"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_walk_well"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_clothing"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_eat_well"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_personalcare"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_household"
+  },
+  {
+    "dataset_id": "0014",
+    "item": "eve_tired"
+  },
+  {
+    "dataset_id": "0015",
+    "item": "sleep_quality"
+  },
+  {
+    "dataset_id": "0015",
+    "item": "pa"
+  },
+  {
+    "dataset_id": "0015",
+    "item": "na"
+  },
+  {
+    "dataset_id": "0015",
+    "item": "learning_goal_achievement"
+  },
+  {
+    "dataset_id": "0017",
+    "item": "positive_feeling"
+  },
+  {
+    "dataset_id": "0017",
+    "item": "negative_feeling"
+  },
+  {
+    "dataset_id": "0017",
+    "item": "positive_energy"
+  },
+  {
+    "dataset_id": "0017",
+    "item": "negative_energy"
+  },
+  {
+    "dataset_id": "0017",
+    "item": "anxiety"
+  },
+  {
+    "dataset_id": "0017",
+    "item": "annoying"
+  },
+  {
+    "dataset_id": "0018",
+    "item": "valence"
+  },
+  {
+    "dataset_id": "0018",
+    "item": "arousal"
+  },
+  {
+    "dataset_id": "0018",
+    "item": "valence_slider_initial"
+  },
+  {
+    "dataset_id": "0018",
+    "item": "arousal_slider_initial"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "sleep_quality"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "morning_ok"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "enjoy_school"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "motivated"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "liked"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "lonely"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "alert"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "stupid"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "lecture_enjoy"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "lecture_difficult"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "lecture_interesting"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "teacher_strict"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "teacher_fair"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "teacher_encouraging"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "peer_relationship"
+  },
+  {
+    "dataset_id": "0019",
+    "item": "schoolday_satisfaction"
+  },
+  {
+    "dataset_id": "0021",
+    "item": "extraversion"
+  },
+  {
+    "dataset_id": "0021",
+    "item": "agreeableness"
+  },
+  {
+    "dataset_id": "0021",
+    "item": "conscientiousness"
+  },
+  {
+    "dataset_id": "0021",
+    "item": "emotional_stability"
+  },
+  {
+    "dataset_id": "0021",
+    "item": "openness"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "well"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "discontent"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "state"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "tense"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "placid"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "awake"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "energyless"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "rested"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "too_much"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "work_fast"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "multitasking"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "hard_work"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "change_task"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "decide_task"
+  },
+  {
+    "dataset_id": "0022",
+    "item": "schedule_task"
+  },
+  {
+    "dataset_id": "0023",
+    "item": "control_fixmood"
+  },
+  {
+    "dataset_id": "0023",
+    "item": "control_fixthought"
+  },
+  {
+    "dataset_id": "0023",
+    "item": "dealt_stress"
+  },
+  {
+    "dataset_id": "0023",
+    "item": "felt_overwhelm"
+  },
+  {
+    "dataset_id": "0023",
+    "item": "alc_intox"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "well"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "awake"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "good"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "rested"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "pleased"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "organized"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "talkative"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "persistent"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "outgoing"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "assertive"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "study_burden"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "study_interfere"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "study_annoy"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "report_easy"
+  },
+  {
+    "dataset_id": "0024",
+    "item": "report_sure"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "well"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "awake"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "pleased"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "bold"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "energetic"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "extraverted"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "talkative"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "study_burden"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "study_interfere"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "study_annoy"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "good"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "rested"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "bashful"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "quiet"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "shy"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "withdrawn"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "careless"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "disorganized"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "inefficient"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "sloppy"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "uncreative"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "unintellectual"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "envious"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "unsympathetic"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "harsh"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "rude"
+  },
+  {
+    "dataset_id": "0025",
+    "item": "cold"
+  },
+  {
+    "dataset_id": "0026",
+    "item": "affect"
+  },
+  {
+    "dataset_id": "0026",
+    "item": "loneliness"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "reappraisal"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "distraction"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "suppression"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "rumination"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "appreciation"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "sharing_affect"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "problem_coping"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "pa"
+  },
+  {
+    "dataset_id": "0027",
+    "item": "na"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "useless"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "manage_well"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "no_trust"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "harm"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "criticism"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "others"
+  },
+  {
+    "dataset_id": "0028",
+    "item": "avoid"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "down"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "irritated"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "rushed"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "cheerful"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "phy_bloating"
+  },
+  {
+    "dataset_id": "0029",
+    "item": "phy_abd"
+  },
+  {
+    "dataset_id": "0031",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0031",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0031",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0031",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0031",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "confident"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "situation_selection"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "situation_modification"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "reappraisal"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "acceptance"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "rumination"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "social_sharing"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "ignoring"
+  },
+  {
+    "dataset_id": "0032",
+    "item": "suppression"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "energetic"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "content"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "restless"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "worried"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "guilty"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "afraid"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "anhedonia"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "hopeless"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "down"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "positive"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "fatigue"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "muscle_tension"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "difficulty_concentrating"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "accepted"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "threatened"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "rumination"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "avoid_activity"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "reassure"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "procrastination"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "difficult"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "unsatisfy"
+  },
+  {
+    "dataset_id": "0033",
+    "item": "avoid_people"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "felt_enthusiastic"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "hypervigilant"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "aggressive"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "afraid"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "neg_thoughts_self"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "avoidance"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "reliving"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "unpleasant_dreams"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "intrusions"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "restless_sleep"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "sleep_troubles"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "horrified"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "guilty"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "ashamed"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "neg_thoughts_others"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "neg_thoughts_world"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "self_blame"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "others_blame"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "avoid_places"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "upset"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "physical_reactions"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "amnesia"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "anhedonia"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "distant"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "difficulty_positive"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "reckless"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "startled"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "difficulty_concentrating"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "sleepy"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "positive"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "content"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "fatigued"
+  },
+  {
+    "dataset_id": "0034",
+    "item": "muscle_tension"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "comfortable"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "pressure_to_drink"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "conflict"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "craving"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "impulsive"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "drink_feel_better"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "perceived_peer_drinking"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "want_to_drink"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "delay_gratification"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "restless_sleep"
+  },
+  {
+    "dataset_id": "0035",
+    "item": "sleep_difficulty"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "bragging_thought"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "too_good_to_be_true"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "ruminate_negatives"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "feelings_transient"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "hard_to_concentrate"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "think_of_risks"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "undeserving"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "luck_will_end"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "content"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "determined"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "attentive"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "alert"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "inspired"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "active"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "afraid"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "upset"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "ashamed"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "hostile"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "worry_frequent"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "worry_hard_to_control"
+  },
+  {
+    "dataset_id": "0036",
+    "item": "worry_interferes"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "cigs"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "hungry"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "restless"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "down"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "bored"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "motivated_quit_smoking"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "want_quit"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "impulsive"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "sleep_difficulty"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "craving_smoking"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "enjoy_last"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "trigger"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "concentrate"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "tired"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "hurt_health"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "pos_expect"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "ashamed_smoking"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "agency"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "could_quit"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "delay_gratification"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "health_belief"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "comfortable"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "frustrated"
+  },
+  {
+    "dataset_id": "0037",
+    "item": "pos_social"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "anhedonia"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "loneliness"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "left_out"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "social_interaction"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "vulnerability"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "perceived_responsiveness"
+  },
+  {
+    "dataset_id": "0039",
+    "item": "covid_anxiety"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "worrying"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "anhedonia"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "social_level"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "perception_worry"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "appearance_pleased"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "feel_smart"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "feel_good"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_concern_general"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_daily_activities"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_behavior_change"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_concern_self"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_concern_classmates"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_concern_family"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_concern_supplies"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_felt_support"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "covid_support_others"
+  },
+  {
+    "dataset_id": "0040",
+    "item": "social_media_use"
+  },
+  {
+    "dataset_id": "0041",
+    "item": "dominance"
+  },
+  {
+    "dataset_id": "0041",
+    "item": "affiliation"
+  },
+  {
+    "dataset_id": "0041",
+    "item": "pa"
+  },
+  {
+    "dataset_id": "0041",
+    "item": "na"
+  },
+  {
+    "dataset_id": "0041",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0041",
+    "item": "functioning"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "ashamed"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "proud"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "confident"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "hostile"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "dom_sub_you"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "warm_cold_you"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "happy_interaction"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "nervous_interaction"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "sad_interaction"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "excited_interaction"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "angry_interaction"
+  },
+  {
+    "dataset_id": "0042",
+    "item": "relaxed_interaction"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "ashamed"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "proud"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "confident"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "hostile"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "dom_sub_you"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "warm_cold_you"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "happy_interaction"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "nervous_interaction"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "sad_interaction"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "excited_interaction"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "angry_interaction"
+  },
+  {
+    "dataset_id": "0043",
+    "item": "relaxed_interaction"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "proud"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "content"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "ashamed"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "hostile"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "dom_sub_you"
+  },
+  {
+    "dataset_id": "0044",
+    "item": "warm_cold_you"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "irritated"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "pleased"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0045",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0046",
+    "item": "empathy_global"
+  },
+  {
+    "dataset_id": "0046",
+    "item": "empathy_cog"
+  },
+  {
+    "dataset_id": "0046",
+    "item": "empathy_aff"
+  },
+  {
+    "dataset_id": "0046",
+    "item": "pa_self"
+  },
+  {
+    "dataset_id": "0046",
+    "item": "pa_other"
+  },
+  {
+    "dataset_id": "0046",
+    "item": "na_self"
+  },
+  {
+    "dataset_id": "0046",
+    "item": "na_other"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "men_anxiety"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "men_sadness"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "men_vigor"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "men_contentment"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "women_anxiety"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "women_sadness"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "women_vigor"
+  },
+  {
+    "dataset_id": "0047",
+    "item": "women_contentment"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "men_anxiety"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "men_sadness"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "men_vigor"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "men_contentment"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "women_anxiety"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "women_sadness"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "women_vigor"
+  },
+  {
+    "dataset_id": "0048",
+    "item": "women_contentment"
+  },
+  {
+    "dataset_id": "0049",
+    "item": "helping_effort"
+  },
+  {
+    "dataset_id": "0049",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0049",
+    "item": "valence_mood"
+  },
+  {
+    "dataset_id": "0049",
+    "item": "calmness_mood"
+  },
+  {
+    "dataset_id": "0049",
+    "item": "energy_mood"
+  },
+  {
+    "dataset_id": "0050",
+    "item": "helping_effort"
+  },
+  {
+    "dataset_id": "0050",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0050",
+    "item": "valence_mood"
+  },
+  {
+    "dataset_id": "0050",
+    "item": "calmness_mood"
+  },
+  {
+    "dataset_id": "0050",
+    "item": "energy_mood"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "awake"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "discontent"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "without_energy"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "well"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "tense"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "vigilance_salience_mediated"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "salience_ft_f"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "valence_mediated"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "valence_ft_f"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "valence_activity"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "concentration_extent"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "vigilance_reactibility"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "vigilance_monitoring"
+  },
+  {
+    "dataset_id": "0051",
+    "item": "social_pressure_phone"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "worry"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "difficulty_control_worry"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "restless"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "fatiguability"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "difficulty_concentrating"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "muscle_tension"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "sleep_difficulty"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "anhedonia"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "sleep_problems"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "tired"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "appetite_change"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "worthlessness"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "concentration_trouble"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "psychomotor_change"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "suicidal_ideation"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "something_wrong"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "cant_go_on"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "dont_like_self"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "no_good"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "nobody_likes"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "alone"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "fear_sickness"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "awful_happen"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "life_not_worth"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "nobody_cares"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "cant_stand"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "never_make_it"
+  },
+  {
+    "dataset_id": "0052",
+    "item": "need_change"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "weight_satisfaction"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "appearance_satisfaction"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "shape_satisfaction"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "guilty"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "confident"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0053",
+    "item": "inspired"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "reappraisal"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "rumination"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "suppression"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "feel_loved"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "rely_on"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "need_love"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "share_feelings"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "keep_distance"
+  },
+  {
+    "dataset_id": "0054",
+    "item": "closeness_nervous"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "family_cohesion"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "family_conflict"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "sad_daily"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "anxiety_daily"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "anger_daily"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "family_support_daily"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "family_togetherness_daily"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "family_backup_daily"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "family_critcism_daily"
+  },
+  {
+    "dataset_id": "0055",
+    "item": "family_fight_daily"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "beh_leadership"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "beh_criticism"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "beh_uninvolved"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "beh_selfesteem"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "beh_unfriendly"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "beh_reserved"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "status_admired"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "status_criticised"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "status_ignored"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "status_respected"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "status_upstaged"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "status_sidelined"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_proud"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_success"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_superior"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_angry"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_envious"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_resentful"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_ashamed"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_insecure"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_enthusiastic"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_relaxed"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_anxious"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_sad"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_pleasure"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "int_activity"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "pleasant"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "fun"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "done"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "intellectual"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "overwhelmed"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "bored"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "concentrated"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "motivated"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_proud"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_success"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_superior"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_angry"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_envious"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_resentful"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_ashamed"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_insecure"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_enthusiastic"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_relaxed"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_anxious"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_sad"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_pleasure"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "occup_activity"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_ownhealth"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_ownsoclife"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_ownstudies"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_healthsystem"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_soclife"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_economy"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_cullife"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_parentshealth"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_grandparentshealth"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_siblingshealth"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_partnerhealth"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_friendshealth"
+  },
+  {
+    "dataset_id": "0056",
+    "item": "worry_peoplehealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_leadership"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_criticism"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_uninvolved"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_selfesteem"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_unfriendly"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_reserved"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_corona"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "beh_help"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "status_admired"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "status_criticised"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "status_ignored"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "status_respected"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "status_upstaged"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "status_sidelined"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "corona_asked"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "comfort"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_proud"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_success"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_superior"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_angry"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_excluded"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_envious"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_resentful"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_ashamed"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_insecure"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_enthusiastic"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_relaxed"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_anxious"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_sad"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_lonely"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_pleasure"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "int_activity"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "pleasant"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "fun"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "done"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "intellectual"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "overwhelmed"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "bored"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "concentrated"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "motivated"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "corona_thinking"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_proud"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_success"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_superior"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_angry"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_excluded"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_envious"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_resentful"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_ashamed"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_insecure"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_enthusiastic"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_relaxed"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_anxious"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_sad"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_lonely"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_pleasure"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "occup_activity"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_ownhealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_ownsoclife"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_ownstudies"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_healthsystem"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_soclife"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_economy"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_cullife"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_parentshealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_grandparentshealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_siblingshealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_childrenhealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_partnerhealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_friendshealth"
+  },
+  {
+    "dataset_id": "0057",
+    "item": "worry_peoplehealth"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "active"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "interested"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "strong"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "upset"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "afraid_anxious"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "meaning"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "vitality"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "observe_thoughts_feelings"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "struggled_thoughts_feelings"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "detached_thoughts_feelings"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "caught_up_thoughts"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "mindful"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "meta_aware"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "reappraisal"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "distract"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "brooding"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "savoring"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "resist_temptation"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "getting_done"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "mental_exhaust"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "symptom_experience"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "symptom_interfere"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "anhedonia"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "inadequate"
+  },
+  {
+    "dataset_id": "0058",
+    "item": "discouraged"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "attention_present"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "opened_up"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "concentrated_present"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "nonjudgmental_feelings"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "nonjudgmental_thoughts"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "nonjudgmental_behavior"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "content"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "downhearted"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "distressed"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "ruminate_feelings"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "ruminate_things"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "relaxed_thoughts_feelings"
+  },
+  {
+    "dataset_id": "0059",
+    "item": "relaxed_thoughts_things"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "optimistic_setback"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "talkative"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "difficulty_starting"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "curious"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "persistent"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "worries"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "inventive"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "starts_arguments"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "depressed"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "less_active"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "assumes_best"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "rarely_excited"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "fascinated_art"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "assertive"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "careless"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "finds_fault"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "controls_emotions"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "values_beauty"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "moody"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "messy"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "others_charge"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "poetry_boring"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "compassionate"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "neat_tidy"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "reliable"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "rude"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "tense"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "little_creativity"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "energetic"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "quiet"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "original"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "dependable"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "lazy"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "deep_thinker"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "forgiving"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "helpful"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "emotionally_stable"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "polite"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "difficulty_imagining"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "little_sympathy"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "dominant"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "influence_hard"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "efficient"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "outgoing"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "secure_comfortable"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "avoids_intellectual"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "disorganized"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "few_artistic"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "suspicious"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "respectful"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "systematic"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "little_abstract"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "rarely_anxious"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "temperamental"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "shy"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "cold"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "irresponsible"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "mating"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "positivity"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "intellect"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "negativity"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "adversity"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "sociality"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "duty"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "deception"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "guilty"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "attentive"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "content"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "goal_directed"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "afraid"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "proud"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0060",
+    "item": "purposeful"
+  },
+  {
+    "dataset_id": "0061",
+    "item": "relationship_level"
+  },
+  {
+    "dataset_id": "0061",
+    "item": "cared_for"
+  },
+  {
+    "dataset_id": "0061",
+    "item": "respected"
+  },
+  {
+    "dataset_id": "0061",
+    "item": "supported"
+  },
+  {
+    "dataset_id": "0061",
+    "item": "connected"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "afraid"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "balanced"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "exhausted"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "cheerful"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "worried"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "lively"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_others_disappointed"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_felt_bad"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_important"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_interesting"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_compulsory"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_proving"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_understanding"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_motivation_enjoyment"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_others_disappointed"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_felt_bad"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_important"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_interesting"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_compulsory"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_proving"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_understanding"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "activity_motivation_enjoyment"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "see_good_in_bad"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "focus_on_good"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "suppression"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "changed_feeling"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "rumination"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "contact_with_people"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "excluded_ostracized"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "failure"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "own_way"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "completed_difficult_project"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "true_self"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "connected"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mastered_challenges"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "intimacy"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "pressure"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "told_what_to_do"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "unappreciated"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "disagreements_conflicts"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "even_hard_things"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "against_own_will"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "did_stupid"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "struggled"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "did_interesting"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "happy_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "afraid_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "sad_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "balanced_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "exhausted_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "cheerful_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "worried_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "lively_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "angry_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "relaxed_daily"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_enjoy"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_wearing_down"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_satisfied"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_difficult_reconcile"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_interesting"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_exhausted"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_only_necessary"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_energy"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_identification"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_expectations"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "study_consider_quitting"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_autonomy"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_own_decisions"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_asked_opinion"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_interrupted"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_point_of_view"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_guilty"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_tried_change"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "mother_disapproved"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_autonomy"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_own_decisions"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_asked_opinion"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_interrupted"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_point_of_view"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_guilty"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_tried_change"
+  },
+  {
+    "dataset_id": "0062",
+    "item": "father_disapproved"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "cheerful"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "satisfied"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "insecure"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "down"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "tired"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "energetic"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "satisfied_self"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "inspired"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "goal_pursuit"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "feels_like_obligation"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "chose_doing"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "good_at_this"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "doubt"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "appreciated"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "part_of_company"
+  },
+  {
+    "dataset_id": "0063",
+    "item": "misunderstood"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "afraid"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "ashamed"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "distressed"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "guilty"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "hostile"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "jittery"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "scared"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "upset"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "frightened"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "shaky"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "scornful"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "disgusted"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "loathing"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "blue"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "downhearted"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "alone"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "lonely"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "active"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "alert"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "attentive"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "determined"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "inspired"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "interested"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "proud"
+  },
+  {
+    "dataset_id": "0064",
+    "item": "strong"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "amount_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "amount_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "anxious_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "anxious_stool_possibility"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "anxious_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "anxious_urine_possibility"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "bother_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "bother_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "dry_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "dry_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "friendly"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "frust_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "frust_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "health"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "manage_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "manage_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "prevent_activity_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "prevent_activity_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "stool_leak"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "stress_stool"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "stress_stool_possibility"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "stress_urine"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "stress_urine_possibility"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "urine_leak"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "worry_stool_prevent"
+  },
+  {
+    "dataset_id": "0066",
+    "item": "worry_urine_prevent"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "pleasant"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "important"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "expected"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "aroused"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "enthusiastic"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "satisfied"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "irritable"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "energetic"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "calm"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "cheerful"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "irritated"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "bored"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "nervous"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "gloomy"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "lifeless"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "insecure"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "fearful"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "worried"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "academic"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "tiring"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "heartwarming"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "standard"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "productive"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "crazy"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "malicious"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "learned"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "stressful"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "precious"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "ordinary"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "useful"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "silly"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "repulsive"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "wearing_annoying"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "wearing_obstructing"
+  },
+  {
+    "dataset_id": "0070",
+    "item": "wearing_influence"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "angry"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "anxious"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "sad"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "happy"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "excited"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "relaxed"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "feeling_country"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "threat_country"
+  },
+  {
+    "dataset_id": "0071",
+    "item": "similarity_country"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "sleep_quality"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "difficulty_school_work"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "volume_school_work"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "school_work_comprehensible"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "school_work_independent"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "school_work_needed_support"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "school_work_joy"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "school_work_effort"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_fun"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_talked_worries"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_assert_difficult"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_drained_energy"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_disagreements"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_child_decide"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_child_liked"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_told_what_to_do"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_explained_why"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parenting_explained_why_not"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_happy"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_afraid"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_sad"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_balanced"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_exhausted"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_cheerful"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_worried"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_lively"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_angry"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "child_relaxed"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "contact_with_people"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "excluded_ostracized"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "failure"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "own_way"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "completed_difficult_project"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "true_self"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "connected"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "mastered_challenges"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "intimacy"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "pressure"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "told_what_to_do"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "unappreciated"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "disagreements_conflicts"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "even_hard_things"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "against_own_will"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "did_stupid"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "struggled"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "did_interesting"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_happy"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_afraid"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_sad"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_balanced"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_exhausted"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_cheerful"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_worried"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_lively"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_angry"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "parent_relaxed"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "worry_many_things"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "worry_bothered"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "worry_might_happen"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "worry_cant_get_out_head"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "worry_wrapped_up"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "mindfulness_open_to_happening"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "mindfulness_inappropriate"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "mindfulness_present_moment"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "mindfulness_could_act_better"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "corona_info_update"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "corona_talk_friends_family"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "corona_social_media_check"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "corona_social_media_create"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "corona_thinking_about"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "corona_worries"
+  },
+  {
+    "dataset_id": "0072",
+    "item": "corona_acceptance"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "guilty_emotion"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "out_of_control"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "embarrassed_emotion"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "negative_self_thoughts"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "emotion_confusion"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "ashamed_emotion"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "task_difficulty"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "prolonged_emotion_expectation"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "annoyed_at_self"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "behavior_control_difficulty"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "confused_emotions"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "down_expectation"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "emotions_out_of_control"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "annoyed_at_self_emotion"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "weak_emotion"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "overwhelming_emotions"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "seek_contact_affect"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "others_perspective_giving"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "received_comfort"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "received_coping_examples"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "negative_event"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "positive_event"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "impulse_contact_emotion_regulation"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "impulse_self_regulation"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "emotion_awareness"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "acknowledge_emotions"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "care_about_emotions"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "emotion_exploration"
+  },
+  {
+    "dataset_id": "0073",
+    "item": "emotions_valid"
+  }
+]
