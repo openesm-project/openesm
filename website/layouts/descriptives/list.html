@@ -202,6 +202,55 @@
   margin: 0;
 }
 
+/* No-data state */
+.desc-no-data {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  color: #666;
+  background: rgba(8, 90, 179, 0.03);
+  border: 1px solid rgba(8, 90, 179, 0.15);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Methods disclaimer */
+.desc-disclaimer {
+  font-size: 0.83rem;
+  color: #555;
+  line-height: 1.55;
+  padding: 0.65rem 1rem;
+  background: #fffbf0;
+  border: 1px solid #ffe4a0;
+  border-left: 3px solid var(--accent-orange);
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+}
+
+.desc-disclaimer summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #7a5900;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.desc-disclaimer summary::before {
+  content: "▸";
+  font-size: 0.75rem;
+  transition: transform 0.15s;
+}
+
+details.desc-disclaimer[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.desc-disclaimer p {
+  margin: 0.5rem 0 0;
+}
+
 /* Error */
 .desc-error {
   padding: 0.9rem 1.1rem;
@@ -232,7 +281,21 @@
     Select a dataset and item to explore the distribution of participant-level statistics.
   </p>
 
-  <div class="desc-selectors">
+  <details class="desc-disclaimer">
+    <summary>Methods note</summary>
+    <p>
+      These statistics are computed automatically using standardized exclusion criteria
+      (participants with fewer than 5 observations or zero variance are excluded) and
+      are intended for orientation only.
+      The exclusion thresholds and statistical choices (e.g. skewness estimator, bandwidth
+      for mode detection) may not match the preprocessing choices appropriate for your
+      research question.
+      <strong>Do not use these figures directly in scientific publications</strong>
+      without verifying the underlying data and replicating the analyses yourself.
+    </p>
+  </details>
+
+  <div id="desc-selectors" class="desc-selectors" style="display:none">
     <div class="desc-select-group">
       <label for="dataset-select">Dataset</label>
       <select id="dataset-select">
@@ -298,6 +361,20 @@ async function init() {
     const shortId = row.dataset_id.replace(/_.*/, '');
     datasetLookup[shortId] = row;
   }
+
+  // if no data is available yet, show a holding message and skip the rest
+  if (index.length === 0) {
+    document.getElementById('desc-selectors').style.display = 'none';
+    document.getElementById('landing-hint').innerHTML =
+      `<p style="margin:0 0 0.5rem"><strong>Descriptives data is being prepared.</strong></p>` +
+      `<p style="margin:0;font-size:0.88rem">` +
+      `Per-dataset statistics are computed from the raw ESM data and will appear here once available.` +
+      `</p>`;
+    return;
+  }
+
+  // data is available — show the selectors
+  document.getElementById('desc-selectors').style.display = '';
 
   // populate dataset dropdown
   const dsSelect = document.getElementById('dataset-select');
