@@ -15,6 +15,26 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
+// load descriptives index to conditionally link items that have statistics
+const descriptivesIndexPath = path.join(__dirname, '../website/static/data/descriptives_index.json');
+const descriptivesSet = new Set();
+if (fs.existsSync(descriptivesIndexPath)) {
+  try {
+    const descriptivesIndex = JSON.parse(fs.readFileSync(descriptivesIndexPath, 'utf8'));
+    if (Array.isArray(descriptivesIndex)) {
+      descriptivesIndex.forEach(d => {
+        if (d && d.dataset_id && d.item) {
+          descriptivesSet.add(`${d.dataset_id}|${d.item}`);
+        }
+      });
+    } else {
+      console.warn('descriptives_index.json is not an array; continuing without descriptives links');
+    }
+  } catch (error) {
+    console.warn(`Could not parse descriptives_index.json: ${error.message}; continuing without descriptives links`);
+  }
+}
+
 
 
 function formatAPAReference(bibtex) {
@@ -193,9 +213,15 @@ ${changelogContent}
 
 ## Variables
 
-| Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
+${data.features.some(f => descriptivesSet.has(`${data.dataset_id}|${f.name}`)) ? '<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref \"/descriptives/\" >}}">Descriptives</a> page.</p>\n\n' : ''}| Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
-${data.features.map(feature => `| ${feature.name} | ${formatForTable(feature.description)} | ${feature.variable_type} | ${formatForTable(feature.answer_categories)} | ${formatForTable(feature.details)} | ${formatForTable(feature.labels)} | ${formatForTable(feature.transformation)} | ${formatForTable(feature.source)} | ${formatForTable(feature.assessment_type)} | ${formatForTable(feature.construct)} | ${formatForTable(feature.comments)} |`).join('\n')}
+${data.features.map(feature => {
+        const descKey = `${data.dataset_id}|${feature.name}`;
+        const nameCell = descriptivesSet.has(descKey)
+          ? `[${feature.name}]({{< relref \"/descriptives/\" >}}?dataset=${encodeURIComponent(data.dataset_id)}&item=${encodeURIComponent(feature.name)})`
+          : feature.name;
+        return `| ${nameCell} | ${formatForTable(feature.description)} | ${feature.variable_type} | ${formatForTable(feature.answer_categories)} | ${formatForTable(feature.details)} | ${formatForTable(feature.labels)} | ${formatForTable(feature.transformation)} | ${formatForTable(feature.source)} | ${formatForTable(feature.assessment_type)} | ${formatForTable(feature.construct)} | ${formatForTable(feature.comments)} |`;
+      }).join('\n')}
 `;
 
       // Write the markdown file
