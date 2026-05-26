@@ -1,6 +1,6 @@
 ---
 title: "Neubauer (2020)"
-date: 2026-04-27
+date: 2026-05-22
 draft: false
 dataset_id: "0072_neubauer"
 first_author: "Neubauer"
@@ -89,8 +89,8 @@ Neubauer, A. B., Schmidt, A., Kramer, A. C., & Schmiedek, F. (2021). A little au
 | start_time | Prompt start time | PosixCt |  |  |  |  |  | Daily |  |  |
 | last_update | Last update to prompt | PosixCt |  |  |  |  |  | Daily |  |  |
 | sleep_quality | Sleep quality | rating_scale | 7 | How did you sleep last night? | 1= very poorly <br>7= very well |  |  | Daily | sleep quality, sleep |  |
-| school_new_material | New material in school | categorical | 3 | Did your child receive learning materials or tasks from school today? | 1= yes  <br>2= no <br>3= don’t know |  |  | Daily | school, education |  |
-| school_work_today | Child worked on school material | categorical | 3 | Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days. | 1= yes  <br>2= no  <br>3= don’t know |  |  | Daily | school, education |  |
+| school_new_material | New material in school | categorical | 3 | Did your child receive learning materials or tasks from school today? | 1= yes <br>2= no <br>3= don’t know |  |  | Daily | school, education |  |
+| school_work_today | Child worked on school material | categorical | 3 | Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days. | 1= yes <br>2= no  <br>3= don’t know |  |  | Daily | school, education |  |
 | difficulty_school_work | School work difficulty | rating_scale | 8 | My child thought the learning material or tasks for today were... | 1= too easy<br>7= too difficult  <br>-1= I cannot say today |  |  | Daily | school, education |  |
 | volume_school_work | School work volume | rating_scale | 8 | My child thought the learning material or tasks for today were... | 1= too little<br>7= too much<br>-1= I cannot say today |  |  | Daily | school, education |  |
 | school_work_hours | Hours spent on school work | numeric |  | approximately... hours and |  |  |  | Daily | school, education |  |
@@ -196,10 +196,10 @@ Neubauer, A. B., Schmidt, A., Kramer, A. C., & Schmiedek, F. (2021). A little au
 | mindfulness_inappropriate | Felt inappropriate | rating_scale | 7 | Several times today I felt that what I was thinking, feeling or doing was slightly off. | 1 = not at all<br>7 = very |  | Multidimensional State Mindfulness Questionnaire (MSMQ) | Daily | mindfulness |  |
 | mindfulness_present_moment | Present moment focus | rating_scale | 7 | I focused my attention on the present moment today. | 1 = not at all<br>7 = very |  | Multidimensional State Mindfulness Questionnaire (MSMQ) | Daily | mindfulness, attention |  |
 | mindfulness_could_act_better | Could act better | rating_scale | 7 | I sometimes thought today that I could have acted more appropriately at a certain time. | 1 = not at all<br>7 = very |  | Multidimensional State Mindfulness Questionnaire (MSMQ) | Daily | mindfulness, self-critical thinking |  |
-| corona_info_update | Corona info updates | rating_scale | 5 | How often did you update yourself about the corona pandemic today (e. | 1= not at all <br>2= rarely<br> 3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid |  |
-| corona_talk_friends_family | Corona talk friends/family | rating_scale | 5 | How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today? | 1= not at all <br>2= rarely <br>3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid |  |
-| corona_social_media_check | Corona social media checking | rating_scale | 5 | How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today? | 1= not at all <br>2= rarely<br> 3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid, social media |  |
-| corona_social_media_create | Corona social media creating | rating_scale | 5 | How often did you create or share posts, images or comments about the corona pandemic on social media today? | 1= not at all <br>2= rarely<br> 3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid, social media |  |
+| corona_info_update | Corona info updates | rating_scale | 5 | How often did you update yourself about the corona pandemic today (e. | 1= not at all <br>2= rarely<br>3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid |  |
+| corona_talk_friends_family | Corona talk friends/family | rating_scale | 5 | How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today? | 1= not at all <br>2= rarely<br>3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid |  |
+| corona_social_media_check | Corona social media checking | rating_scale | 5 | How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today? | 1= not at all <br>2= rarely<br>3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid, social media |  |
+| corona_social_media_create | Corona social media creating | rating_scale | 5 | How often did you create or share posts, images or comments about the corona pandemic on social media today? | 1= not at all <br>2= rarely<br>3= sometimes <br>4= often <br>5= very often |  |  | Daily | Covid, social media |  |
 | corona_thinking_about | Corona thinking about | rating_scale | 7 | Today, I spent a lot of time thinking about the corona pandemic. | 1 = completely disagree <br>7 = completely agree |  |  | Daily | Covid |  |
 | corona_worries | Corona worries | rating_scale | 7 | Today, I worried about the corona pandemic and its effects on myself and my family. | 1 = completely disagree <br>7 = completely agree |  |  | Daily | Covid, worry |  |
 | corona_acceptance | Corona acceptance | rating_scale | 7 | Today, I accepted that the current situation aggravates our lives and brings along problems. | 1 = completely disagree <br>7 = completely agree |  |  | Daily | Covid, acceptance |  |
