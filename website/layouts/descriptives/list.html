@@ -326,7 +326,7 @@ details.desc-disclaimer[open] summary::before {
 </div>
 
 <script type="module">
-import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
+import * as Plot from '{{ "vendor/observable-plot-0.6.esm.js" | relURL }}';
 
 const BASE = '{{ "data" | relURL }}';
 const DESCRIPTIVES_URL = '{{ "descriptives/" | relURL }}';
@@ -340,8 +340,8 @@ const STATS = [
 
 let index = [];
 let tableData = [];
-let datasetLookup = {};  // short_id (e.g. "0001") -> datasets_table row
-const dataCache = new Map();  // short_id -> parsed dataset JSON
+let datasetLookup = {};  // short_id + full dataset_id -> datasets_table row
+const dataCache = new Map();  // full dataset_id -> parsed dataset JSON
 let currentDatasetId = null;
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
@@ -366,6 +366,7 @@ async function init() {
   for (const row of tableData) {
     const shortId = row.dataset_id.replace(/_.*/, '');
     datasetLookup[shortId] = row;
+    datasetLookup[row.dataset_id] = row;
   }
 
   // if no data is available yet, show a holding message and skip the rest
@@ -398,11 +399,12 @@ async function init() {
 
   // restore state from URL
   const { ds, item } = getParams();
-  if (ds) {
-    currentDatasetId = ds;
-    dsSelect.value = ds;
-    await populateItems(ds, item);
-    if (item) await loadAndRender(ds, item);
+  const initialDs = ds ? normalizeDatasetId(ds) : null;
+  if (initialDs) {
+    currentDatasetId = initialDs;
+    dsSelect.value = initialDs;
+    await populateItems(initialDs, item);
+    if (item) await loadAndRender(initialDs, item);
   }
 }
 
@@ -438,13 +440,14 @@ async function onPopState() {
   const { ds, item } = getParams();
   const dsSelect = document.getElementById('dataset-select');
   const itemSelect = document.getElementById('item-select');
+  const resolvedDs = ds ? normalizeDatasetId(ds) : null;
 
-  if (ds) {
-    currentDatasetId = ds;
-    dsSelect.value = ds;
-    await populateItems(ds, item);
+  if (resolvedDs) {
+    currentDatasetId = resolvedDs;
+    dsSelect.value = resolvedDs;
+    await populateItems(resolvedDs, item);
     if (item) {
-      await loadAndRender(ds, item);
+      await loadAndRender(resolvedDs, item);
     } else {
       showLanding();
     }
@@ -464,11 +467,100 @@ function getParams() {
   return { ds: p.get('dataset'), item: p.get('item') };
 }
 
+function normalizeDatasetId(dsId) {
+  // support both full ids (0001_fried) and short ids (0001) from links/URL params
+  if (!dsId) return dsId;
+  return datasetLookup[dsId] ? dsId : dsId.replace(/_.*/, '');
+}
+
+function getDatasetMeta(dsId) {
+  return datasetLookup[dsId] || null;
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function safeHref(value, fallback = '#') {
+  // only allow http/https targets when rendering dynamic href values
+  if (!value) return fallback;
+  try {
+    const url = new URL(value, location.origin);
+    const allowed = ['http:', 'https:'];
+    return allowed.includes(url.protocol) ? url.href : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
 function pushState(ds, item) {
   const url = new URL(location);
   if (ds) url.searchParams.set('dataset', ds); else url.searchParams.delete('dataset');
   if (item) url.searchParams.set('item', item); else url.searchParams.delete('item');
   history.pushState({}, '', url);
+}
+
+function clearElement(el) {
+  el.replaceChildren();
+  return el;
+}
+
+function appendTextElement(parent, tagName, text, className) {
+  const el = document.createElement(tagName);
+  if (className) el.className = className;
+  el.textContent = text;
+  parent.appendChild(el);
+  return el;
+}
+
+function appendMetaItem(parent, label, value, note) {
+  const item = document.createElement('div');
+  item.className = 'desc-meta-item';
+
+  appendTextElement(item, 'span', label, 'desc-meta-label');
+  const valueEl = appendTextElement(item, 'span', value, 'desc-meta-value');
+  if (note) {
+    appendTextElement(valueEl, 'span', note, 'desc-meta-note');
+  }
+
+  parent.appendChild(item);
+}
+
+function buildTable(headers, rows) {
+  const table = document.createElement('table');
+
+  if (headers) {
+    const thead = document.createElement('thead');
+    const tr = document.createElement('tr');
+    for (const header of headers) {
+      appendTextElement(tr, 'th', header);
+    }
+    thead.appendChild(tr);
+    table.appendChild(thead);
+  }
+
+  const tbody = document.createElement('tbody');
+  for (const row of rows) {
+    const tr = document.createElement('tr');
+    for (const cell of row) {
+      const td = document.createElement('td');
+      if (cell instanceof Node) {
+        td.appendChild(cell);
+      } else {
+        td.textContent = cell;
+      }
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+
+  table.appendChild(tbody);
+  return table;
 }
 
 async function populateItems(dsId, preselectItem) {
@@ -481,7 +573,12 @@ async function populateItems(dsId, preselectItem) {
 }
 
 async function loadAndRender(dsId, item) {
-  if (!dataCache.has(dsId)) {
+  const meta = getDatasetMeta(dsId);
+  if (!meta) { showError(`No metadata for dataset ${dsId}.`); return; }
+
+  const cacheKey = meta.dataset_id;
+
+  if (!dataCache.has(cacheKey)) {
     // show skeleton before fetch so the user sees immediate feedback
     document.getElementById('item-view').style.display = 'block';
     document.getElementById('landing-hint').style.display = 'none';
@@ -489,27 +586,25 @@ async function loadAndRender(dsId, item) {
     document.getElementById('desc-plots-grid').innerHTML = '<p class="desc-loading">Loading…</p>';
     document.getElementById('desc-stats-section').innerHTML = '';
 
-    const meta = datasetLookup[dsId];
-    if (!meta) { showError(`No metadata for dataset ${dsId}.`); return; }
     try {
       const resp = await fetch(`${BASE}/descriptives/${meta.dataset_id}.json`);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const parsed = await resp.json();
       if (!Array.isArray(parsed)) throw new Error('Invalid data format');
-      dataCache.set(dsId, parsed);
+      dataCache.set(cacheKey, parsed);
     } catch (e) {
       showError(`Could not load data for dataset ${dsId}: ${e.message}`);
       return;
     }
   }
 
-  const items = dataCache.get(dsId);
+  const items = dataCache.get(cacheKey);
   if (!Array.isArray(items)) {
     showError(`Invalid data for dataset ${dsId}.`);
     return;
   }
   const itemData = items.find(d => d.item === item);
-  if (!itemData || !Array.isArray(itemData.person_stats)) {
+  if (!itemData || !itemData.stats) {
     showError(`No valid data found for item "${item}".`);
     return;
   }
@@ -533,9 +628,10 @@ function showError(msg) {
 // ── Rendering ───────────────────────────────────────────────────────────────
 
 function renderItemView(dsId, item, itemData) {
-  const meta = datasetLookup[dsId];
+  const meta = getDatasetMeta(dsId);
   const dsLabel = meta ? `${meta.first_author} (${meta.year})` : dsId;
   const dsUrl = meta ? meta.url : '#';
+  const dsHref = safeHref(dsUrl);
   const iccText = Number.isFinite(itemData.icc) ? itemData.icc.toFixed(3) : '—';
 
   document.getElementById('item-view').style.display = 'block';
@@ -543,119 +639,44 @@ function renderItemView(dsId, item, itemData) {
   document.getElementById('desc-error').style.display = 'none';
 
   // breadcrumb
-  document.getElementById('desc-breadcrumb').innerHTML =
-    `<a href="${DESCRIPTIVES_URL}">Descriptives</a>` +
-    `<span class="sep">›</span>` +
-    `<a href="${dsUrl}">${dsLabel}</a>` +
-    `<span class="sep">›</span>` +
-    `<strong>${item}</strong>`;
+  const breadcrumb = clearElement(document.getElementById('desc-breadcrumb'));
+  const homeLink = document.createElement('a');
+  homeLink.href = DESCRIPTIVES_URL;
+  homeLink.textContent = 'Descriptives';
+  breadcrumb.appendChild(homeLink);
+  appendTextElement(breadcrumb, 'span', '›', 'sep');
+  const datasetLink = document.createElement('a');
+  datasetLink.href = dsHref;
+  datasetLink.textContent = dsLabel;
+  breadcrumb.appendChild(datasetLink);
+  appendTextElement(breadcrumb, 'span', '›', 'sep');
+  appendTextElement(breadcrumb, 'strong', item);
 
-  // meta bar
-  const included = itemData.person_stats.filter(p => p.filter_reason === null);
-  const excluded = itemData.person_stats.filter(p => p.filter_reason !== null);
-  const iccSingularNote = itemData.icc_singular
-    ? `<span class="desc-meta-note"> (singular fit)</span>` : '';
+  // meta bar — n_included/n_excluded come from top-level fields in the new schema
+  const metaBar = clearElement(document.getElementById('desc-meta-bar'));
+  appendMetaItem(metaBar, 'Dataset', dsLabel);
+  appendMetaItem(metaBar, 'Item', item);
+  appendMetaItem(metaBar, 'N included', String(Number.isFinite(itemData.n_included) ? itemData.n_included : '—'));
+  appendMetaItem(metaBar, 'N excluded', String(Number.isFinite(itemData.n_excluded) ? itemData.n_excluded : '—'));
+  appendMetaItem(metaBar, 'ICC', iccText, itemData.icc_singular ? ' (singular fit)' : '');
 
-  document.getElementById('desc-meta-bar').innerHTML = `
-    <div class="desc-meta-item">
-      <span class="desc-meta-label">Dataset</span>
-      <span class="desc-meta-value">${dsLabel}</span>
-    </div>
-    <div class="desc-meta-item">
-      <span class="desc-meta-label">Item</span>
-      <span class="desc-meta-value">${item}</span>
-    </div>
-    <div class="desc-meta-item">
-      <span class="desc-meta-label">N included</span>
-      <span class="desc-meta-value">${included.length}</span>
-    </div>
-    <div class="desc-meta-item">
-      <span class="desc-meta-label">N excluded</span>
-      <span class="desc-meta-value">${excluded.length}</span>
-    </div>
-    <div class="desc-meta-item">
-      <span class="desc-meta-label">ICC</span>
-      <span class="desc-meta-value">${iccText}${iccSingularNote}</span>
-    </div>
-  `;
+  renderPlots(itemData, dsId, item);
+  renderStatsTable(itemData);
 
-  renderPlots(included, dsId, item);
-  renderStatsTable(included, excluded, itemData);
-
-  document.getElementById('desc-back-link').innerHTML =
-    meta ? `<a href="${dsUrl}">← Back to dataset page</a>` : '';
-}
-
-// ── Statistics helpers ───────────────────────────────────────────────────────
-
-function quantile(sorted, p) {
-  const i = p * (sorted.length - 1);
-  const lo = Math.floor(i), hi = Math.ceil(i);
-  return sorted[lo] + (sorted[hi] - sorted[lo]) * (i - lo);
-}
-
-function medianOf(vals) {
-  const s = [...vals].sort((a, b) => a - b);
-  return quantile(s, 0.5);
-}
-
-function iqrOf(vals) {
-  const s = [...vals].sort((a, b) => a - b);
-  return quantile(s, 0.75) - quantile(s, 0.25);
-}
-
-function stdOf(vals) {
-  if (vals.length < 2) return 0;
-  const m = vals.reduce((a, b) => a + b, 0) / vals.length;
-  return Math.sqrt(vals.reduce((a, b) => a + (b - m) ** 2, 0) / vals.length);
+  const backLink = clearElement(document.getElementById('desc-back-link'));
+  if (meta) {
+    const link = document.createElement('a');
+    link.href = dsHref;
+    link.textContent = '← Back to dataset page';
+    backLink.appendChild(link);
+  }
 }
 
 // safe min/max avoiding spread-arg stack limits on large arrays
 function arrMin(vals) { return vals.reduce((a, b) => b < a ? b : a, Infinity); }
 function arrMax(vals) { return vals.reduce((a, b) => b > a ? b : a, -Infinity); }
 
-// robust bandwidth: Silverman's rule using min(std, IQR/1.34) to resist outliers
-function robustBandwidth(vals) {
-  const n = vals.length;
-  const s = stdOf(vals);
-  const iq = iqrOf(vals);
-  const scale = iq > 1e-6 ? Math.min(s, iq / 1.34) : s;
-  return Math.max(1e-4, 0.9 * scale * Math.pow(n, -0.2));
-}
-
-// IQR-based x-axis domain to clip outliers; returns null when IQR is near zero
-function xDomain(vals) {
-  if (vals.length < 4) return null;
-  const sorted = [...vals].sort((a, b) => a - b);
-  const q1 = quantile(sorted, 0.25);
-  const q3 = quantile(sorted, 0.75);
-  const iq = q3 - q1;
-  if (iq < 1e-6) return null;
-  return [q1 - 3 * iq, q3 + 3 * iq];
-}
-
-// Gaussian kernel density estimate (computed over full value range)
-function kde(values) {
-  const n = values.length;
-  if (n < 2) return [];
-  const h = robustBandwidth(values);
-  const lo = arrMin(values) - 3 * h;
-  const hi = arrMax(values) + 3 * h;
-  const inv2pi = 1 / Math.sqrt(2 * Math.PI);
-  const pts = [];
-  for (let i = 0; i < 200; i++) {
-    const x = lo + (hi - lo) * i / 199;
-    let y = 0;
-    for (const xi of values) {
-      const z = (x - xi) / h;
-      y += Math.exp(-0.5 * z * z);
-    }
-    pts.push({ x, y: y * inv2pi / (n * h) });
-  }
-  return pts;
-}
-
-// seeded jitter so positions are stable across re-renders
+// seeded jitter so dot positions are stable across re-renders
 function seededJitter(seed, range) {
   seed = (seed * 1664525 + 1013904223) >>> 0;
   return { value: (seed / 0xffffffff - 0.5) * range, seed };
@@ -663,7 +684,7 @@ function seededJitter(seed, range) {
 
 // ── Plot rendering ───────────────────────────────────────────────────────────
 
-function renderPlots(included, dsId, item) {
+function renderPlots(itemData, dsId, item) {
   const grid = document.getElementById('desc-plots-grid');
   grid.innerHTML = '';
 
@@ -672,14 +693,15 @@ function renderPlots(included, dsId, item) {
   const cols = gridWidth > 900 ? 3 : gridWidth > 600 ? 2 : 1;
   const plotW = Math.max(200, Math.floor((gridWidth - cols * 16) / cols) - 34);
 
-  // empirical scale bounds for reference lines on the mean plot
-  const empMins = included.map(d => d.empirical_min).filter(v => v !== null);
-  const empMaxs = included.map(d => d.empirical_max).filter(v => v !== null);
-  const scaleMin = empMins.length ? arrMin(empMins) : null;
-  const scaleMax = empMaxs.length ? arrMax(empMaxs) : null;
+  const scaleRange = itemData.empirical_scale_range;  // [min, max] or null
+  const validScaleRange = Array.isArray(scaleRange)
+    && scaleRange.length === 2
+    && Number.isFinite(scaleRange[0])
+    && Number.isFinite(scaleRange[1]);
+  const personDots = itemData.person_dots;            // null or {key: [values]}
 
   for (const { key, label } of STATS) {
-    const vals = included.map(d => d[key]).filter(v => v !== null && !isNaN(v));
+    const statData = itemData.stats?.[key];
 
     const panel = document.createElement('div');
     panel.className = 'desc-plot-panel';
@@ -688,37 +710,29 @@ function renderPlots(included, dsId, item) {
     title.textContent = label;
     panel.appendChild(title);
 
-    if (vals.length < 3) {
+    if (!statData || !Array.isArray(statData.kde) || statData.kde.length < 3) {
       panel.insertAdjacentHTML('beforeend', '<p style="color:#bbb;font-size:0.8rem;margin:0">Insufficient data</p>');
       grid.appendChild(panel);
       continue;
     }
 
-    const kdeData = kde(vals);
-    const maxDensity = Math.max(1e-9, arrMax(kdeData.map(p => p.y)));  // guard zero
-    const med = medianOf(vals);
+    const kdeData = statData.kde.filter(p => Number.isFinite(p?.x) && Number.isFinite(p?.y));  // precomputed {x, y} array from R
+    if (kdeData.length < 3) {
+      panel.insertAdjacentHTML('beforeend', '<p style="color:#bbb;font-size:0.8rem;margin:0">Insufficient data</p>');
+      grid.appendChild(panel);
+      continue;
+    }
+    const maxDensity = Math.max(1e-9, arrMax(kdeData.map(p => p.y)));
     const yPad = maxDensity * 0.40;
     const yDotCenter = -yPad * 0.55;
-
-    // stable jitter seed mixes all characters of dsId, item, and key
-    let s = 0;
-    for (const c of dsId + '|' + item + '|' + key) s = (s * 31 + c.charCodeAt(0)) >>> 0;
-    const dotData = included
-      .filter(d => d[key] !== null && !isNaN(d[key]))
-      .map(d => {
-        const j = seededJitter(s, yPad * 0.55);
-        s = j.seed;
-        return { ...d, _y: yDotCenter + j.value };
-      });
-
-    // IQR-based x domain clips outliers; null → let Plot auto-scale
-    const domain = xDomain(vals);
+    const domain = [kdeData[0].x, kdeData[kdeData.length - 1].x];
+    const median = Number(statData.median);
 
     const marks = [];
 
-    // soft scale-boundary lines on the mean plot only
-    if (key === 'mean' && scaleMin !== null && scaleMax !== null) {
-      marks.push(Plot.ruleX([scaleMin, scaleMax], {
+    // soft scale-boundary lines on mean plot only
+    if (key === 'mean' && validScaleRange) {
+      marks.push(Plot.ruleX(scaleRange, {
         stroke: '#d0d0d0', strokeWidth: 1, strokeDasharray: '3,3',
         y1: yDotCenter - yPad * 0.15, y2: maxDensity * 1.05,
       }));
@@ -727,23 +741,36 @@ function renderPlots(included, dsId, item) {
     marks.push(
       Plot.areaY(kdeData, { x: 'x', y: 'y', fill: '#085AB3', fillOpacity: 0.18 }),
       Plot.lineY(kdeData, { x: 'x', y: 'y', stroke: '#085AB3', strokeWidth: 1.5 }),
-      Plot.ruleX([med], {
-        stroke: '#E78A00', strokeWidth: 2, strokeDasharray: '5,3',
-        y1: yDotCenter - yPad * 0.15, y2: maxDensity * 1.05,
-      }),
     );
 
-    if (vals.length <= 150) {
-      marks.push(Plot.dot(dotData, {
-        x: key, y: '_y',
-        r: 2.5, fill: '#E78A00', fillOpacity: 0.55, stroke: 'none',
+    if (Number.isFinite(median)) {
+      marks.push(Plot.ruleX([median], {
+        stroke: '#E78A00', strokeWidth: 2, strokeDasharray: '5,3',
+        y1: yDotCenter - yPad * 0.15, y2: maxDensity * 1.05,
       }));
+    }
+
+    // individual dot overlay when person_dots provided (n_included <= 150)
+    if (personDots && Array.isArray(personDots[key])) {
+      let s = 0;
+      for (const c of dsId + '|' + item + '|' + key) s = (s * 31 + c.charCodeAt(0)) >>> 0;
+      const dotData = personDots[key].filter(v => Number.isFinite(v)).map(v => {
+        const j = seededJitter(s, yPad * 0.55);
+        s = j.seed;
+        return { _x: v, _y: yDotCenter + j.value };
+      });
+      if (dotData.length > 0) {
+        marks.push(Plot.dot(dotData, {
+          x: '_x', y: '_y',
+          r: 2.5, fill: '#E78A00', fillOpacity: 0.55, stroke: 'none',
+        }));
+      }
     }
 
     const plt = Plot.plot({
       width: plotW,
       height: 150,
-      x: { label: null, nice: !domain, domain: domain ?? undefined },
+      x: { label: null, domain },
       y: { axis: null, domain: [yDotCenter - yPad * 0.3, maxDensity * 1.15] },
       marks,
       style: { background: 'transparent', fontSize: '11px', overflow: 'visible' },
@@ -754,12 +781,14 @@ function renderPlots(included, dsId, item) {
     grid.appendChild(panel);
   }
 
-  // ── N modes panel — plain HTML bars (avoids Observable Plot quirks) ────────
+  // ── N modes panel — plain HTML bars ─────────────────────────────────────────
+  // mode_counts is a precomputed object; missing keys mean zero count
+  const mc = itemData.mode_counts || {};
   const modesBuckets = [
-    { label: '1',  count: included.filter(d => d.n_modes === 1).length },
-    { label: '2',  count: included.filter(d => d.n_modes === 2).length },
-    { label: '3',  count: included.filter(d => d.n_modes === 3).length },
-    { label: '4+', count: included.filter(d => d.n_modes !== null && d.n_modes >= 4).length },
+    { label: '1',  count: mc['1']  || 0 },
+    { label: '2',  count: mc['2']  || 0 },
+    { label: '3',  count: mc['3']  || 0 },
+    { label: '4+', count: mc['4+'] || 0 },
   ];
   const maxModeCount = arrMax(modesBuckets.map(d => d.count));
 
@@ -786,61 +815,68 @@ function renderPlots(included, dsId, item) {
 
 // ── Stats table rendering ────────────────────────────────────────────────────
 
-function renderStatsTable(included, excluded, itemData) {
+function renderStatsTable(itemData) {
   const section = document.getElementById('desc-stats-section');
   const iccText = Number.isFinite(itemData.icc) ? itemData.icc.toFixed(3) : '—';
 
+  // median/IQR come from precomputed stats fields
   const statRows = STATS.map(({ key, label }) => {
-    const vals = included.map(d => d[key]).filter(v => v !== null && !isNaN(v));
-    if (vals.length === 0) return `<tr><td>${label}</td><td>—</td><td>—</td></tr>`;
-    return `<tr><td>${label}</td><td>${medianOf(vals).toFixed(3)}</td><td>${iqrOf(vals).toFixed(3)}</td></tr>`;
-  }).join('');
+    const s = itemData.stats?.[key];
+    if (!s) return [label, '—', '—'];
+    const med = Number(s.median);
+    const iqr = Number(s.iqr);
+    const medText = Number.isFinite(med) ? med.toFixed(3) : '—';
+    const iqrText = Number.isFinite(iqr) ? iqr.toFixed(3) : '—';
+    return [label, medText, iqrText];
+  });
 
-  const empMins = included.map(d => d.empirical_min).filter(v => v !== null);
-  const empMaxs = included.map(d => d.empirical_max).filter(v => v !== null);
-  const empRange = empMins.length ? `${arrMin(empMins)} – ${arrMax(empMaxs)}` : '—';
+  const scaleRange = itemData.empirical_scale_range;
+  const empRange = (Array.isArray(scaleRange)
+    && scaleRange.length === 2
+    && Number.isFinite(scaleRange[0])
+    && Number.isFinite(scaleRange[1]))
+    ? `${scaleRange[0]} – ${scaleRange[1]}`
+    : '—';
 
-  // excluded reasons summary
-  const reasons = {};
-  for (const p of excluded) {
-    reasons[p.filter_reason] = (reasons[p.filter_reason] || 0) + 1;
-  }
-  const excText = excluded.length === 0
+  // excluded_reasons is a precomputed object ({} when no exclusions)
+  const reasons = itemData.excluded_reasons || {};
+  const excText = itemData.n_excluded === 0
     ? 'none'
-    : Object.entries(reasons).map(([r, n]) => `${n} (${r.replace(/_/g, ' ')})`).join(', ');
+    : Object.entries(reasons).map(([r, n]) => `${n} (${r.replace(/_/g, ' ')})`).join(', ') || String(itemData.n_excluded);
 
-  // n_modes breakdown
-  const modeCounts = [1, 2, 3].map(m => {
-    const n = included.filter(d => d.n_modes === m).length;
-    return n > 0 ? `${m}: ${n}` : null;
-  }).filter(Boolean);
-  const modeCountPlus = included.filter(d => d.n_modes !== null && d.n_modes >= 4).length;
-  if (modeCountPlus > 0) modeCounts.push(`4+: ${modeCountPlus}`);
-  const modeText = modeCounts.length ? modeCounts.join(' / ') : '—';
+  // mode_counts is a precomputed object; only non-zero buckets present
+  const mc = itemData.mode_counts || {};
+  const modeParts = ['1', '2', '3', '4+'].filter(k => mc[k] > 0).map(k => `${k}: ${mc[k]}`);
+  const modeText = modeParts.length ? modeParts.join(' / ') : '—';
 
-  section.innerHTML = `
-    <div class="desc-stats-grid">
-      <div>
-        <h3>Per-statistic summary</h3>
-        <table>
-          <thead><tr><th>Statistic</th><th>Median</th><th>IQR</th></tr></thead>
-          <tbody>${statRows}</tbody>
-        </table>
-      </div>
-      <div>
-        <h3>Overview</h3>
-        <table>
-          <tbody>
-            <tr><td>N included</td><td>${included.length}</td></tr>
-            <tr><td>N excluded</td><td>${excText}</td></tr>
-            <tr><td>ICC</td><td>${iccText}${itemData.icc_singular ? ' <em>(singular)</em>' : ''}</td></tr>
-            <tr><td>Empirical scale range</td><td>${empRange}</td></tr>
-            <tr><td>Mode counts</td><td>${modeText}</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  `;
+  const grid = document.createElement('div');
+  grid.className = 'desc-stats-grid';
+
+  const summaryCol = document.createElement('div');
+  appendTextElement(summaryCol, 'h3', 'Per-statistic summary');
+  summaryCol.appendChild(buildTable(['Statistic', 'Median', 'IQR'], statRows));
+
+  const overviewCol = document.createElement('div');
+  appendTextElement(overviewCol, 'h3', 'Overview');
+  const iccCell = document.createElement('span');
+  iccCell.textContent = iccText;
+  if (itemData.icc_singular) {
+    const note = document.createElement('em');
+    note.textContent = ' (singular)';
+    iccCell.appendChild(note);
+  }
+  overviewCol.appendChild(buildTable(null, [
+    ['N included', String(itemData.n_included)],
+    ['N excluded', excText],
+    ['ICC', iccCell],
+    ['Empirical scale range', empRange],
+    ['Mode counts', modeText],
+  ]));
+
+  grid.appendChild(summaryCol);
+  grid.appendChild(overviewCol);
+
+  clearElement(section).appendChild(grid);
 }
 
 init();
