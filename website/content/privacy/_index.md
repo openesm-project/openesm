@@ -4,12 +4,13 @@ title: "Privacy Notice"
 
 ## Data Collection
 
-The openESM website is a static site hosted on GitHub Pages. This site itself does not collect, store, or process personal data from visitors.
+The openESM website is a static site hosted on GitHub Pages. We use GoatCounter to collect anonymous, aggregate page-view statistics. No personal data, cookies, or cross-site tracking are involved.
 
 ### External Services
 
 This website loads resources from the following external services:
 - [unpkg.com](https://unpkg.com) - Used to serve the lunr.js search library
+- [GoatCounter](https://www.goatcounter.com) - Used for privacy-friendly, cookieless page-view analytics. GoatCounter does not track individuals, does not use cookies, and does not share data with third parties. See the [GoatCounter privacy policy](https://www.goatcounter.com/help/privacy) for details.
 
 These external services may collect technical information such as your IP address, browser type, and the pages you visit for their operational purposes. Please refer to their respective privacy policies for more information.
 
@@ -42,5 +43,5 @@ Germany
 
 We may update this privacy policy from time to time. The latest version will always be available on this page.
 
-Last updated: 21st May 2025
+Last updated: 3rd June 2026: Added GoatCounter for anonymous page-view analytics.
 
