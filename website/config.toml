@@ -24,6 +24,11 @@ theme = "PaperMod"
     url = "/about/"
     weight = 20  
   [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 25
+  [[menu.main]]
     identifier = "datasets"
     name = "Datasets"
     url = "/datasets/"
@@ -114,6 +119,6 @@ theme = "PaperMod"
   # Custom CSS
   customCSS = ["assets/css/custom.css"]
 
-# disable unused taxonomies to prevent rss rendering errors
 [taxonomies]
+  category = "categories"
 

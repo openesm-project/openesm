@@ -520,6 +520,64 @@ body .main {
   }
 }
 
+/* ── Recent news strip (homepage) ─────────────────────────────────────── */
+
+.recent-posts-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.recent-posts-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.recent-posts-heading {
+  font-size: 2.5em;
+  margin: 0 0 1.25rem;
+  color: var(--text-charcoal);
+  text-align: center;
+}
+
+.recent-posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.recent-posts-item {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border-gray);
+  align-items: baseline;
+}
+
+.recent-posts-item:last-child {
+  border-bottom: none;
+}
+
+.recent-posts-date {
+  font-size: 0.85rem;
+  color: #888;
+  flex-shrink: 0;
+  min-width: 90px;
+}
+
+.recent-posts-all {
+  font-size: 0.9rem;
+  display: block;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .recent-posts-heading {
+    font-size: 1.8em;
+  }
+}
+
 /* ── Dataset page layout ───────────────────────────────────────────────── */
 
 /* Access box — prominent callout at the top of each dataset page */

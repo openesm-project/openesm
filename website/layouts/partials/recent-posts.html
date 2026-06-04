@@ -1,0 +1,19 @@
+{{- $blog := where .Site.RegularPages "Section" "blog" }}
+{{- $news := where $blog ".Params.categories" "intersect" (slice "news") }}
+{{- $recent := first 3 $news }}
+{{- if $recent }}
+<div class="recent-posts-section">
+  <div class="recent-posts-inner">
+    <h2 class="recent-posts-heading">Recent News</h2>
+    <ul class="recent-posts-list">
+      {{- range $recent }}
+      <li class="recent-posts-item">
+        <span class="recent-posts-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{- end }}
+    </ul>
+    <a href="/blog/" class="recent-posts-all">All posts →</a>
+  </div>
+</div>
+{{- end }}

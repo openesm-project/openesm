@@ -1,0 +1,8 @@
+{{- define "main" }}
+{{- if .Content }}
+<div class="post-content">
+  {{- .Content }}
+</div>
+{{- end }}
+{{- partial "recent-posts.html" . }}
+{{- end }}
