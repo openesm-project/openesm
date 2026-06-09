@@ -116,76 +116,85 @@ hideposts: true
         .stat-box:nth-child(1) .icon { color: var(--primary-blue); }
         .stat-box:nth-child(2) .icon { color: var(--accent-orange); }
         .stat-box:nth-child(3) .icon { color: var(--primary-blue); } /* Consistent blue for 1st and 3rd */
-        /* How It Works Section */
-        .how-it-works-section {
-            text-align: center;
-            padding: 50px 20px;
+        /* Explore section */
+        .explore-section {
             background-color: var(--light-gray);
+            padding: 50px 40px;
         }
-        .how-it-works-section h2 {
-            font-size: 2.5em;
-            color: var(--text-charcoal);
-            margin-bottom: 30px;
-        }
-        .steps-container {
+        .explore-inner {
+            max-width: 900px;
+            margin: 0 auto;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin-bottom: 30px;
+            align-items: flex-start;
         }
-        .step-card {
-            flex: 0 0 300px; /* Fixed width, allows wrapping */
-            padding: 30px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        .explore-col {
+            flex: 1;
+            padding: 0 40px;
         }
-        .step-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        .explore-col:first-child {
+            padding-left: 0;
         }
-        .step-card .icon {
-            font-size: 3em;
-            margin-bottom: 20px;
+        .explore-col:last-child {
+            padding-right: 0;
         }
-        .step-card h3 {
+        .explore-divider {
+            width: 1px;
+            background-color: var(--border-gray);
+            align-self: stretch;
+            flex-shrink: 0;
+            min-height: 200px;
+        }
+        .explore-col h2 {
+            font-size: 0.8em;
+            font-weight: 700;
             color: var(--text-charcoal);
-            margin-bottom: 10px;
-            font-size: 1.5em;
+            margin: 0 0 24px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary-blue);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
         }
-        .step-card p {
-            color: #555;
+        .explore-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .explore-links li {
+            margin-bottom: 18px;
+        }
+        .explore-links a {
             font-size: 1em;
-        }
-        .step-card:nth-child(1) .icon { color: var(--primary-blue); }
-        .step-card:nth-child(2) .icon { color: var(--accent-orange); }
-        .step-card:nth-child(3) .icon { color: var(--primary-blue); }
-        .how-it-works-section .main-cta-button {
-            background-color: var(--primary-blue);
-            color: white;
-            padding: 18px 40px;
-            border-radius: 5px;
+            font-weight: 600;
+            color: var(--primary-blue);
             text-decoration: none;
-            font-size: 1.3em;
-            font-weight: bold;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            display: inline-block;
+            transition: color 0.2s ease;
         }
-        .how-it-works-section .main-cta-button:hover {
-            background-color: #06458d; /* Manual darken for hover */
-            transform: translateY(-2px);
-        }
-        /* cards link styles */
-        .steps-container a.step-card {
+        .explore-links a:hover {
+            color: var(--accent-orange);
             text-decoration: none;
-            color: inherit;
-            display: block;
         }
-        .steps-container a.step-card:hover {
-            text-decoration: none;
+        .explore-links p {
+            margin: 3px 0 0 0;
+            font-size: 0.88em;
+            color: #666;
+            line-height: 1.45;
+        }
+        @media (max-width: 768px) {
+            .explore-section {
+                padding: 35px 20px;
+            }
+            .explore-inner {
+                flex-direction: column;
+            }
+            .explore-divider {
+                width: 100%;
+                height: 1px;
+                min-height: 0;
+                margin: 24px 0;
+            }
+            .explore-col {
+                padding: 0;
+            }
         }
         /* modern header improvements */
         .header,
@@ -286,24 +295,51 @@ hideposts: true
             <p>Investigate a diverse range of psychological variables.</p>
         </div>
     </div>
-<div class="how-it-works-section">
-    <h2>Get started in three simple steps:</h2>
-    <div class="steps-container">
-        <a href="{{< relref "/about/" >}}" class="step-card">
-            <div class="icon"><i class="fas fa-book-open"></i></div>
-            <h3>1. Learn</h3>
-            <p>Understand how you can use our database and get an overview of all datasets.</p>
-        </a>
-        <a href="{{< relref "/search/" >}}" class="step-card">
-            <div class="icon"><i class="fas fa-search"></i></div>
-            <h3>2. Filter & Find</h3>
-            <p>Use our search and filter tools to find datasets with a relevant structure and constructs.</p>
-        </a>
-        <a href="{{< relref "/docs/" >}}" class="step-card">
-            <div class="icon"><i class="fas fa-download"></i></div>
-            <h3>3. Reuse</h3>
-            <p>Download standardized datasets using an R or Python interface.</p>
-        </a>
+<div class="explore-section">
+    <div class="explore-inner">
+        <div class="explore-col">
+            <h2>Using openESM</h2>
+            <ul class="explore-links">
+                <li>
+                    <a href="{{< relref "/about/" >}}">About the project</a>
+                    <p>What openESM is, how the database is structured, and what kinds of datasets it contains.</p>
+                </li>
+                <li>
+                    <a href="{{< relref "/datasets/" >}}">Browse all datasets</a>
+                    <p>View all available datasets with key metadata, participant counts, and variable summaries.</p>
+                </li>
+                <li>
+                    <a href="{{< relref "/search/" >}}">Search by construct</a>
+                    <p>Filter datasets by constructs, metadata, or free-text entry.</p>
+                </li>
+                <li>
+                    <a href="{{< relref "/docs/" >}}">Documentation</a>
+                    <p>Technical details on data formats, metadata standards, and the R and Python packages.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="explore-divider"></div>
+        <div class="explore-col">
+            <h2>Contributing</h2>
+            <ul class="explore-links">
+                <li>
+                    <a href="{{< relref "/docs/contributing/" >}}">Overview</a>
+                    <p>Who can contribute, what kinds of datasets qualify, and how the process works.</p>
+                </li>
+                <li>
+                    <a href="{{< relref "/docs/contributing/#dataset-formatting-guidelines" >}}">Formatting guidelines</a>
+                    <p>How to structure your data files and prepare the required metadata.</p>
+                </li>
+                <li>
+                    <a href="{{< relref "/docs/contributing/#adding-a-new-dataset" >}}">Submission process</a>
+                    <p>Open an issue, format your data, and submit a pull request to the metadata repository.</p>
+                </li>
+                <li>
+                    <a href="{{< relref "/docs/contributing/#contact" >}}">Contact us</a>
+                    <p>In the early stages, we're happy to add qualifying datasets ourselves.</p>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
     <script>
