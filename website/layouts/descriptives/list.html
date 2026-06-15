@@ -214,6 +214,18 @@
   line-height: 1.6;
 }
 
+/* Work-in-progress notice */
+.desc-wip-notice {
+  font-size: 0.9rem;
+  color: #444;
+  padding: 0.65rem 1rem;
+  background: rgba(8, 90, 179, 0.04);
+  border: 1px solid rgba(8, 90, 179, 0.18);
+  border-left: 3px solid var(--primary-blue);
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+}
+
 /* Methods disclaimer */
 .desc-disclaimer {
   font-size: 0.83rem;
@@ -281,6 +293,10 @@ details.desc-disclaimer[open] summary::before {
     Select a dataset and item to explore the distribution of participant-level statistics.
   </p>
 
+  <p class="desc-wip-notice">
+    The descriptives explorer is not yet operational. Interactive statistics will be available here once the data pipeline is fully set up.
+  </p>
+
   <details class="desc-disclaimer">
     <summary>Methods note</summary>
     <p>
@@ -326,7 +342,7 @@ details.desc-disclaimer[open] summary::before {
 </div>
 
 <script type="module">
-import * as Plot from '{{ "vendor/observable-plot-0.6.esm.js" | relURL }}';
+import * as Plot from '{{ "vendor/observable-plot-bundled.esm.js" | relURL }}';
 
 const BASE = '{{ "data" | relURL }}';
 const DESCRIPTIVES_URL = '{{ "descriptives/" | relURL }}';
