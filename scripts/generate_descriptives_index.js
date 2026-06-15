@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const descriptivesDir = path.join(__dirname, '../website/static/data/descriptives');
+const datasetsDir = path.join(__dirname, '../datasets');
 const outputFile = path.join(__dirname, '../website/static/data/descriptives_index.json');
 
 const outputDir = path.dirname(outputFile);
@@ -16,10 +17,18 @@ const buildIndex = () => {
     return;
   }
 
+  // only surface descriptives for datasets that exist in the website
+  const knownDatasetIds = new Set(
+    fs.readdirSync(datasetsDir, { withFileTypes: true })
+      .filter(d => d.isDirectory())
+      .map(d => d.name.replace(/_.*/, ''))  // "0001_fried" -> "0001"
+  );
+
   const files = fs.readdirSync(descriptivesDir)
     .filter(f => f.endsWith('.json') && !f.startsWith('.'));
 
   const entries = [];
+  let skippedDatasets = [];
 
   for (const file of files.sort()) {
     const filePath = path.join(descriptivesDir, file);
@@ -37,14 +46,20 @@ const buildIndex = () => {
     }
 
     for (const entry of items) {
-      if (entry.dataset_id && entry.item) {
-        entries.push({ dataset_id: entry.dataset_id, item: entry.item });
+      if (!entry.dataset_id || !entry.item) continue;
+      if (!knownDatasetIds.has(entry.dataset_id)) {
+        if (!skippedDatasets.includes(entry.dataset_id)) skippedDatasets.push(entry.dataset_id);
+        continue;
       }
+      entries.push({ dataset_id: entry.dataset_id, item: entry.item });
     }
   }
 
+  if (skippedDatasets.length) {
+    console.log(`Skipped (not in datasets/): ${skippedDatasets.sort().join(', ')}`);
+  }
   fs.writeFileSync(outputFile, JSON.stringify(entries, null, 2));
-  console.log(`Generated descriptives index with ${entries.length} entries across ${files.length} dataset(s)`);
+  console.log(`Generated descriptives index with ${entries.length} entries across ${files.length} file(s)`);
 };
 
 buildIndex();

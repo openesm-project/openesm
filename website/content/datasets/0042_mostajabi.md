@@ -1,6 +1,6 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0042_mostajabi"
 first_author: "Mostajabi"
@@ -85,6 +85,8 @@ Vize, C., Scott, L., Wright, A., & Kamarck, T. (2023, February 15). Socio-affect
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -99,22 +101,22 @@ Vize, C., Scott, L., Wright, A., & Kamarck, T. (2023, February 15). Socio-affect
 | finish_day_eod | unclear | PosixCt |  | unclear, likely finish day of end-of-day survey |  |  |  | ESM |  |  |
 | finish_time_eod | unclear | PosixCt |  | unclear, likely finish time of end-of-day survey |  |  |  | ESM |  |  |
 | duration_ema | Duration of EMA | numeric |  | in seconds |  |  |  | ESM |  |  |
-| happy | Happy | rating_scale | 101 | How happy do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | happiness, positive affect, affect |  |
-| ashamed | Ashamed | rating_scale | 101 | How ashamed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | shame, negative affect, affect |  |
-| proud | Proud | rating_scale | 101 | How proud do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | pride, positive affect, affect |  |
-| nervous | Nervous | rating_scale | 101 | How nervous do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
-| confident | Confident | rating_scale | 101 | How confident do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | confidence, self-efficacy, positive affect, affect, big five, extraversion |  |
-| hostile | Hostile | rating_scale | 101 | How hostile do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | hostility, anger, negative affect, affect |  |
-| sad | Sad | rating_scale | 101 | How sad do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | sadness, negative affect, affect |  |
-| excited | Excited | rating_scale | 101 | How excited do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | excitement, positive affect, affect, extraversion, big five |  |
-| angry | Angry | rating_scale | 101 | How angry do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | anger, negative affect, affect |  |
-| relaxed | Relaxed | rating_scale | 101 | How relaxed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0042&item=happy) | Happy | rating_scale | 101 | How happy do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | happiness, positive affect, affect |  |
+| [ashamed]({{< relref "/descriptives/" >}}?dataset=0042&item=ashamed) | Ashamed | rating_scale | 101 | How ashamed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | shame, negative affect, affect |  |
+| [proud]({{< relref "/descriptives/" >}}?dataset=0042&item=proud) | Proud | rating_scale | 101 | How proud do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | pride, positive affect, affect |  |
+| [nervous]({{< relref "/descriptives/" >}}?dataset=0042&item=nervous) | Nervous | rating_scale | 101 | How nervous do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
+| [confident]({{< relref "/descriptives/" >}}?dataset=0042&item=confident) | Confident | rating_scale | 101 | How confident do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | confidence, self-efficacy, positive affect, affect, big five, extraversion |  |
+| [hostile]({{< relref "/descriptives/" >}}?dataset=0042&item=hostile) | Hostile | rating_scale | 101 | How hostile do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | hostility, anger, negative affect, affect |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0042&item=sad) | Sad | rating_scale | 101 | How sad do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | sadness, negative affect, affect |  |
+| [excited]({{< relref "/descriptives/" >}}?dataset=0042&item=excited) | Excited | rating_scale | 101 | How excited do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | excitement, positive affect, affect, extraversion, big five |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0042&item=angry) | Angry | rating_scale | 101 | How angry do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | anger, negative affect, affect |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0042&item=relaxed) | Relaxed | rating_scale | 101 | How relaxed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
 | interaction | Interaction occurence | binary | 2 | unclear wording, but likely: Did you have any social interactions since your last prompt? | 0 = no<br>1 = yes |  |  | ESM | social interaction |  |
-| dom_sub_you | Dominance of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | 0 = Accomodating/Submissive/Timid<br>50 = Assertive/Dominant/Controlling |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal dominance, social behavior, big five, extraversion |  |
-| warm_cold_you | Warmth of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | 0 = Cold/Distant/Hostile<br>50 = Warm/Friendly/Caring |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal affiliation, social behavior, big five, agreeableness |  |
-| happy_interaction | Happy during interaction | rating_scale | 101 | How happy did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | happiness, positive affect, affect, social interaction |  |
-| nervous_interaction | Nervous during interaction | rating_scale | 101 | How nervous did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | nervousness, negative affect, affect, neuroticism, big five, social interaction |  |
-| sad_interaction | Sad during interaction | rating_scale | 101 | How sad did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | sadness, negative affect, affect, social interaction |  |
-| excited_interaction | Excited during interaction | rating_scale | 101 | How excited did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | excitement, positive affect, affect, extraversion, big five, social interaction |  |
-| angry_interaction | Angry during interaction | rating_scale | 101 | How angry did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | anger, negative affect, affect, social interaction |  |
-| relaxed_interaction | Relaxed during interaction | rating_scale | 101 | How relaxed did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five, social interaction |  |
+| [dom_sub_you]({{< relref "/descriptives/" >}}?dataset=0042&item=dom_sub_you) | Dominance of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | 0 = Accomodating/Submissive/Timid<br>50 = Assertive/Dominant/Controlling |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal dominance, social behavior, big five, extraversion |  |
+| [warm_cold_you]({{< relref "/descriptives/" >}}?dataset=0042&item=warm_cold_you) | Warmth of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | 0 = Cold/Distant/Hostile<br>50 = Warm/Friendly/Caring |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal affiliation, social behavior, big five, agreeableness |  |
+| [happy_interaction]({{< relref "/descriptives/" >}}?dataset=0042&item=happy_interaction) | Happy during interaction | rating_scale | 101 | How happy did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | happiness, positive affect, affect, social interaction |  |
+| [nervous_interaction]({{< relref "/descriptives/" >}}?dataset=0042&item=nervous_interaction) | Nervous during interaction | rating_scale | 101 | How nervous did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | nervousness, negative affect, affect, neuroticism, big five, social interaction |  |
+| [sad_interaction]({{< relref "/descriptives/" >}}?dataset=0042&item=sad_interaction) | Sad during interaction | rating_scale | 101 | How sad did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | sadness, negative affect, affect, social interaction |  |
+| [excited_interaction]({{< relref "/descriptives/" >}}?dataset=0042&item=excited_interaction) | Excited during interaction | rating_scale | 101 | How excited did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | excitement, positive affect, affect, extraversion, big five, social interaction |  |
+| [angry_interaction]({{< relref "/descriptives/" >}}?dataset=0042&item=angry_interaction) | Angry during interaction | rating_scale | 101 | How angry did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | anger, negative affect, affect, social interaction |  |
+| [relaxed_interaction]({{< relref "/descriptives/" >}}?dataset=0042&item=relaxed_interaction) | Relaxed during interaction | rating_scale | 101 | How relaxed did you feel during the interaction? | 0 = Not at all<br>100 = Extremely |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five, social interaction |  |

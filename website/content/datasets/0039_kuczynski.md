@@ -1,6 +1,6 @@
 ---
 title: "Kuczynski (2021)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0039_kuczynski"
 first_author: "Kuczynski"
@@ -81,17 +81,19 @@ Kuczynski, A. M., Halvorson, M. A., Slater, L. R., & Kanter, J. W. (2022). The e
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | Daily |  |  |
 | day | Day of study | other |  |  |  |  |  | Daily |  |  |
 | beep | Beep of the day | other | 1 | only 1 beep ber day |  |  |  | Daily |  |  |
 | date | Date | Date |  | Date of data collection |  |  |  | Daily |  |  |
-| depressed | Depressed | rating_scale | 11 | I felt down, depressed, or hopeless today | 0 = None of the time<br>10 = All of the time |  | Patient Health Questionnaire (PHQ-2) | Daily | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
-| anhedonia | Anhedonia | rating_scale | 11 | I had little interest or pleasure in doing things today | 0 = None of the time<br>10 = All of the time |  | Patient Health Questionnaire (PHQ-2) | Daily | anhedonia, depression, psychopathology |  |
-| loneliness | Feeling lonely | rating_scale | 11 | I felt lonely today | 0 = Not at all<br>10 = Extremely |  | UCLA Loneliness Scale | Daily | loneliness, social functioning, negative affect, affect |  |
-| left_out | Feeling left out | rating_scale | 11 | I felt left out today | 0 = Not at all<br>10 = Extremely |  | UCLA Loneliness Scale | Daily | loneliness, social functioning, social exclusion |  |
-| social_interaction | Social interaction quantity | rating_scale | 11 | How much social interaction did you have today? | 0 = None at all<br>10 = A lot |  |  | Daily | social interaction |  |
-| vulnerability | Vulnerable self-disclosure | rating_scale | 11 | I expressed my true feelings to others today | 0 = Not at all<br>5 = A moderate amount<br>10 = Very much so |  |  | Daily | emotional expression, emotion regulation, social behavior |  |
-| perceived_responsiveness | Peceived peer responsiveness | rating_scale | 11 | I felt understood/cared for by others today | 0 = Not at all<br>10 = Extremely |  |  | Daily | responsiveness, social support, social connectedness |  |
-| covid_anxiety | Covid anxiety | rating_scale | 11 | unclear |  |  |  | Daily | Covid, anxiety |  |
+| [depressed]({{< relref "/descriptives/" >}}?dataset=0039&item=depressed) | Depressed | rating_scale | 11 | I felt down, depressed, or hopeless today | 0 = None of the time<br>10 = All of the time |  | Patient Health Questionnaire (PHQ-2) | Daily | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
+| [anhedonia]({{< relref "/descriptives/" >}}?dataset=0039&item=anhedonia) | Anhedonia | rating_scale | 11 | I had little interest or pleasure in doing things today | 0 = None of the time<br>10 = All of the time |  | Patient Health Questionnaire (PHQ-2) | Daily | anhedonia, depression, psychopathology |  |
+| [loneliness]({{< relref "/descriptives/" >}}?dataset=0039&item=loneliness) | Feeling lonely | rating_scale | 11 | I felt lonely today | 0 = Not at all<br>10 = Extremely |  | UCLA Loneliness Scale | Daily | loneliness, social functioning, negative affect, affect |  |
+| [left_out]({{< relref "/descriptives/" >}}?dataset=0039&item=left_out) | Feeling left out | rating_scale | 11 | I felt left out today | 0 = Not at all<br>10 = Extremely |  | UCLA Loneliness Scale | Daily | loneliness, social functioning, social exclusion |  |
+| [social_interaction]({{< relref "/descriptives/" >}}?dataset=0039&item=social_interaction) | Social interaction quantity | rating_scale | 11 | How much social interaction did you have today? | 0 = None at all<br>10 = A lot |  |  | Daily | social interaction |  |
+| [vulnerability]({{< relref "/descriptives/" >}}?dataset=0039&item=vulnerability) | Vulnerable self-disclosure | rating_scale | 11 | I expressed my true feelings to others today | 0 = Not at all<br>5 = A moderate amount<br>10 = Very much so |  |  | Daily | emotional expression, emotion regulation, social behavior |  |
+| [perceived_responsiveness]({{< relref "/descriptives/" >}}?dataset=0039&item=perceived_responsiveness) | Peceived peer responsiveness | rating_scale | 11 | I felt understood/cared for by others today | 0 = Not at all<br>10 = Extremely |  |  | Daily | responsiveness, social support, social connectedness |  |
+| [covid_anxiety]({{< relref "/descriptives/" >}}?dataset=0039&item=covid_anxiety) | Covid anxiety | rating_scale | 11 | unclear |  |  |  | Daily | Covid, anxiety |  |

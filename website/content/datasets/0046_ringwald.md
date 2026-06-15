@@ -1,6 +1,6 @@
 ---
 title: "Ringwald (2024)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0046_ringwald"
 first_author: "Ringwald"
@@ -80,15 +80,17 @@ Ringwald, W., Vize, C., & Wright, A. (2025, March 9). Do you feel what I feel? T
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
-| empathy_global | Global empathy | rating_scale | 11 | Mean of other two empathy categories (3 items) and additional item:<br>"When the person(s) I interacted with showed emotions, I <br>felt their emotions inside of me." |  | Mean-scored and likely person-mean centered |  | ESM | empathy |  |
-| empathy_cog | Cognitive empathy | rating_scale | 11 | Mean of two items:<br>"I considered what the person(s) I interacted with was <br>thinking." and "I considered what the person(s) I interacted with was feeling." |  | Mean-scored and likely person-mean centered |  | ESM | cognitive empathy, empathy |  |
-| empathy_aff | Affective empathy | rating_scale | 11 | When the person(s) I interacted with showed emotions, I <br>felt their emotions inside of me. |  | Mean-scored and likely person-mean centered |  | ESM | affective empathy, empathy |  |
-| pa_self | Positive affect self | rating_scale | 11 | How positive did you feel during the interaction? |  | Likely person-mean centered |  | ESM | positive affect, affect, interaction |  |
-| pa_other | Positive affect other | rating_scale | 11 | How positive were their emotions during the interaction? |  | Likely person-mean centered |  | ESM | positive affect, affect, interaction, external rating |  |
-| na_self | Negative affect self | rating_scale | 11 | How negative did you feel during the interaction? |  | Likely person-mean centered |  | ESM | negative affect, affect |  |
-| na_other | Negative affect other | rating_scale | 11 | How negative were their emotions during the interaction? |  | Likely person-mean centered |  | ESM | negative affect, affect, external rating |  |
+| [empathy_global]({{< relref "/descriptives/" >}}?dataset=0046&item=empathy_global) | Global empathy | rating_scale | 11 | Mean of other two empathy categories (3 items) and additional item:<br>"When the person(s) I interacted with showed emotions, I <br>felt their emotions inside of me." |  | Mean-scored and likely person-mean centered |  | ESM | empathy |  |
+| [empathy_cog]({{< relref "/descriptives/" >}}?dataset=0046&item=empathy_cog) | Cognitive empathy | rating_scale | 11 | Mean of two items:<br>"I considered what the person(s) I interacted with was <br>thinking." and "I considered what the person(s) I interacted with was feeling." |  | Mean-scored and likely person-mean centered |  | ESM | cognitive empathy, empathy |  |
+| [empathy_aff]({{< relref "/descriptives/" >}}?dataset=0046&item=empathy_aff) | Affective empathy | rating_scale | 11 | When the person(s) I interacted with showed emotions, I <br>felt their emotions inside of me. |  | Mean-scored and likely person-mean centered |  | ESM | affective empathy, empathy |  |
+| [pa_self]({{< relref "/descriptives/" >}}?dataset=0046&item=pa_self) | Positive affect self | rating_scale | 11 | How positive did you feel during the interaction? |  | Likely person-mean centered |  | ESM | positive affect, affect, interaction |  |
+| [pa_other]({{< relref "/descriptives/" >}}?dataset=0046&item=pa_other) | Positive affect other | rating_scale | 11 | How positive were their emotions during the interaction? |  | Likely person-mean centered |  | ESM | positive affect, affect, interaction, external rating |  |
+| [na_self]({{< relref "/descriptives/" >}}?dataset=0046&item=na_self) | Negative affect self | rating_scale | 11 | How negative did you feel during the interaction? |  | Likely person-mean centered |  | ESM | negative affect, affect |  |
+| [na_other]({{< relref "/descriptives/" >}}?dataset=0046&item=na_other) | Negative affect other | rating_scale | 11 | How negative were their emotions during the interaction? |  | Likely person-mean centered |  | ESM | negative affect, affect, external rating |  |

@@ -1,6 +1,6 @@
 ---
 title: "Drukker (2020)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0029_drukker"
 first_author: "Drukker"
@@ -80,16 +80,18 @@ Drukker, M., Peters, J. C. H., Vork, L., Mujagic, Z., Rutten, B. P. F., van Os, 
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
-| enthusiastic | Enthusiastic | rating_scale | 7 | I feel enthusiastic | 1 = not at all<br>7 = extremely |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
-| down | Feeling down | rating_scale | 7 | I feel down | 1 = not at all<br>7 = extremely |  |  | ESM | negative affect, affect |  |
-| irritated | Irritated | rating_scale | 7 | I feel irritated | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, negative affect, affect |  |
-| rushed | Rushed | rating_scale | 7 | I feel rushed | 1 = not at all<br>7 = extremely |  |  | ESM | negative affect, affect |  |
-| happy | Happy | rating_scale | 7 | I feel happy | 1 = not at all<br>7 = extremely |  |  | ESM | happiness, positive affect, affect |  |
-| cheerful | Cheerful | rating_scale | 7 | I feel cheerful | 1 = not at all<br>7 = extremely |  |  | ESM | cheerfulness, positive affect, affect |  |
-| phy_bloating | Bloating | rating_scale | 7 |  | unclear |  |  | ESM | gastrointestinal, physical health, physical symptom |  |
-| phy_abd | Abdominal pain | rating_scale | 7 |  | unclear |  |  | ESM | gastrointestinal, physical health, physical symptom |  |
+| [enthusiastic]({{< relref "/descriptives/" >}}?dataset=0029&item=enthusiastic) | Enthusiastic | rating_scale | 7 | I feel enthusiastic | 1 = not at all<br>7 = extremely |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
+| [down]({{< relref "/descriptives/" >}}?dataset=0029&item=down) | Feeling down | rating_scale | 7 | I feel down | 1 = not at all<br>7 = extremely |  |  | ESM | negative affect, affect |  |
+| [irritated]({{< relref "/descriptives/" >}}?dataset=0029&item=irritated) | Irritated | rating_scale | 7 | I feel irritated | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, negative affect, affect |  |
+| [rushed]({{< relref "/descriptives/" >}}?dataset=0029&item=rushed) | Rushed | rating_scale | 7 | I feel rushed | 1 = not at all<br>7 = extremely |  |  | ESM | negative affect, affect |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0029&item=happy) | Happy | rating_scale | 7 | I feel happy | 1 = not at all<br>7 = extremely |  |  | ESM | happiness, positive affect, affect |  |
+| [cheerful]({{< relref "/descriptives/" >}}?dataset=0029&item=cheerful) | Cheerful | rating_scale | 7 | I feel cheerful | 1 = not at all<br>7 = extremely |  |  | ESM | cheerfulness, positive affect, affect |  |
+| [phy_bloating]({{< relref "/descriptives/" >}}?dataset=0029&item=phy_bloating) | Bloating | rating_scale | 7 |  | unclear |  |  | ESM | gastrointestinal, physical health, physical symptom |  |
+| [phy_abd]({{< relref "/descriptives/" >}}?dataset=0029&item=phy_abd) | Abdominal pain | rating_scale | 7 |  | unclear |  |  | ESM | gastrointestinal, physical health, physical symptom |  |

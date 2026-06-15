@@ -1,6 +1,6 @@
 ---
 title: "Stevens (2020)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0053_stevens"
 first_author: "Stevens"
@@ -80,6 +80,8 @@ Stevens, A., & Griffiths, S. (2020). Body Positivity (#BoPo) in everyday life: A
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -97,12 +99,12 @@ Stevens, A., & Griffiths, S. (2020). Body Positivity (#BoPo) in everyday life: A
 | dual_thin_fits | Dual exposure to thinspiration and fitspiration | binary | 2 | Have you seen thinspiration/fitspiration since the last questionnaire? | 0 = No exposure<br>1 = Thinspiration and fitspiration exposure |  | Recoded by the authors to indicate double exposure | ESM | thinspiration, fitspiration, media exposure, body image |  |
 | dual_thin_bo_po | Dual exposure to thinspiration and body positivity | binary | 2 | Have you seen thinspiration/body positivity since the last questionnaire? | 0 = No exposure<br>1 = Thinspiration and body positivity exposure |  | Recoded by the authors to indicate double exposure | ESM | thinspiration, body positivity, media exposure, body image |  |
 | triple_exposure | Triple exposure to thinspiration, fitspiration, and body positivity | binary | 2 | Have you seen thinspiration/fitspiration/body positivity since the last questionnaire? | 0 = No exposure<br>1 = Thinspiration, fitspiration, and body positivity exposure |  | Recoded by the authors to indicate triple exposure | ESM | thinspiration, fitspiration, body positivity, media exposure, body image |  |
-| weight_satisfaction | Weight satisfaction | rating_scale | 101 | How satisfied with your weight are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | weight satisfaction, body satisfaction, body image, self-concept |  |
-| appearance_satisfaction | Appearance satisfaction | rating_scale | 101 | How satisfied with your appearance are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | appearance satisfaction, body satisfaction, body image, self-concept |  |
-| shape_satisfaction | Shape satisfaction | rating_scale | 101 | How satisfied with your shape are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | shape satisfaction, body satisfaction, body image, self-concept |  |
-| anxious | Anxious | rating_scale | 101 | How anxious are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
-| guilty | Guilty | rating_scale | 101 | How guilty are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | guilt, negative affect, affect |  |
-| depressed | Depressed | rating_scale | 101 | How depressed are you right now? Wording not fully clear here, as the article states "upset" instead of depressed | 0 = not at all<br>100 = extremely |  |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
-| confident | Confident | rating_scale | 101 | How confident are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | confidence, self-efficacy, positive affect, affect, big five, extraversion |  |
-| happy | Happy | rating_scale | 101 | How happy are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | happiness, positive affect, affect |  |
-| inspired | Inspired | rating_scale | 101 | How inspired are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | inspiration, positive affect, affect |  |
+| [weight_satisfaction]({{< relref "/descriptives/" >}}?dataset=0053&item=weight_satisfaction) | Weight satisfaction | rating_scale | 101 | How satisfied with your weight are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | weight satisfaction, body satisfaction, body image, self-concept |  |
+| [appearance_satisfaction]({{< relref "/descriptives/" >}}?dataset=0053&item=appearance_satisfaction) | Appearance satisfaction | rating_scale | 101 | How satisfied with your appearance are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | appearance satisfaction, body satisfaction, body image, self-concept |  |
+| [shape_satisfaction]({{< relref "/descriptives/" >}}?dataset=0053&item=shape_satisfaction) | Shape satisfaction | rating_scale | 101 | How satisfied with your shape are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | shape satisfaction, body satisfaction, body image, self-concept |  |
+| [anxious]({{< relref "/descriptives/" >}}?dataset=0053&item=anxious) | Anxious | rating_scale | 101 | How anxious are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
+| [guilty]({{< relref "/descriptives/" >}}?dataset=0053&item=guilty) | Guilty | rating_scale | 101 | How guilty are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | guilt, negative affect, affect |  |
+| [depressed]({{< relref "/descriptives/" >}}?dataset=0053&item=depressed) | Depressed | rating_scale | 101 | How depressed are you right now? Wording not fully clear here, as the article states "upset" instead of depressed | 0 = not at all<br>100 = extremely |  |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
+| [confident]({{< relref "/descriptives/" >}}?dataset=0053&item=confident) | Confident | rating_scale | 101 | How confident are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | confidence, self-efficacy, positive affect, affect, big five, extraversion |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0053&item=happy) | Happy | rating_scale | 101 | How happy are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | happiness, positive affect, affect |  |
+| [inspired]({{< relref "/descriptives/" >}}?dataset=0053&item=inspired) | Inspired | rating_scale | 101 | How inspired are you right now? | 0 = not at all<br>100 = extremely |  |  | ESM | inspiration, positive affect, affect |  |

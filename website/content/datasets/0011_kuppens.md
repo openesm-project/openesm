@@ -1,6 +1,6 @@
 ---
 title: "Kuppens (2016)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0011_kuppens"
 first_author: "Kuppens"
@@ -85,14 +85,16 @@ Bringmann, L. F., Pe, M. L., Vissers, N., Ceulemans, E., Borsboom, D., Vanpaemel
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  | NA |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  | NA |  |  |  | ESM |  |  |
-| angry | Angry | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | anger, negative affect, affect |  |
-| depressed | Depressed | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
-| sad | Sad | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | sadness, negative affect, affect |  |
-| anxious | Anxious | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
-| relaxed | Relaxed | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| happy | Happy | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | happiness, positive affect, affect |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0011&item=angry) | Angry | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | anger, negative affect, affect |  |
+| [depressed]({{< relref "/descriptives/" >}}?dataset=0011&item=depressed) | Depressed | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0011&item=sad) | Sad | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | sadness, negative affect, affect |  |
+| [anxious]({{< relref "/descriptives/" >}}?dataset=0011&item=anxious) | Anxious | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0011&item=relaxed) | Relaxed | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0011&item=happy) | Happy | rating_scale | 100 | NA | 1 = not at all<br>100 = very |  |  | ESM | happiness, positive affect, affect |  |

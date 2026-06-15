@@ -1,6 +1,6 @@
 ---
 title: "Pavani (2017)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0027_pavani"
 first_author: "Pavani"
@@ -80,18 +80,20 @@ Pavani, J., Le Vigouroux, S., Kop, J., Congard, A., & Dauvier, B. (2017). A netw
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | counter | Counter | numeric |  |  |  |  |  | ESM |  |  |
-| reappraisal | Positive reappraisal | rating_scale | 5 | I have seen what positive things a negative event can bring me. | 1 = not at all<br>5 = a lot |  |  | ESM | reappraisal, emotion regulation |  |
-| distraction | Distraction | rating_scale | 5 | I have diverted my attention away from my problems. | 1 = not at all<br>5 = a lot |  |  | ESM | distraction, emotion regulation |  |
-| suppression | Expressive suppression | rating_scale | 5 | I have tried not to show or express my emotions. | 1 = not at all<br>5 = a lot |  |  | ESM | suppression, emotion regulation |  |
-| rumination | Rumination | rating_scale | 5 | I have wasted time thinking of a past event again and again. | 1 = not at all<br>5 = a lot |  |  | ESM | rumination, emotion regulation |  |
-| appreciation | Appreciation | rating_scale | 5 | I have taken time to savor a moment of the day. | 1 = not at all<br>5 = a lot |  |  | ESM | savoring, mindfulness, well-being |  |
-| sharing_affect | Social affect sharing | rating_scale | 5 |  | 1 = not at all<br>5 = a lot |  |  | ESM | coping, social support, emotion regulation, social behavior |  |
-| problem_coping | Problem-focused coping | rating_scale | 5 |  | 1 = not at all<br>5 = a lot |  |  | ESM | coping, emotion regulation |  |
-| pa | Positive affect | rating_scale | 5 | Highly activated positive affect: I am full of energy and spirit.<br>Activated positive affect: I am feeling enthusiastic.<br>Neither activated nor deactivated positive affect: I am happy.<br>Deactivated positive affect: I am feeling both happy and calm.<br>Highly deactivated positive affect: My whole body is relaxed. | 1 = not at all<br>5 = a lot | mean-scored | 12-point affect circumplex model | ESM | positive affect, affect |  |
-| na | Negative affect | rating_scale | 5 | Highly activated negative affect: I can feel pressure building inside.<br>Activated negative affect: I am feeling irritated.<br>Neither activated nor deactivated negative affect: I am unhappy.<br>Deactivated negative affect: I am feeling sad and in slow motion.<br>Highly deactivated negative affect: I am so bored that everything around me looks drab. | 1 = not at all<br>5 = a lot | mean-scored | 12-point affect circumplex model | ESM | negative affect, affect |  |
+| [reappraisal]({{< relref "/descriptives/" >}}?dataset=0027&item=reappraisal) | Positive reappraisal | rating_scale | 5 | I have seen what positive things a negative event can bring me. | 1 = not at all<br>5 = a lot |  |  | ESM | reappraisal, emotion regulation |  |
+| [distraction]({{< relref "/descriptives/" >}}?dataset=0027&item=distraction) | Distraction | rating_scale | 5 | I have diverted my attention away from my problems. | 1 = not at all<br>5 = a lot |  |  | ESM | distraction, emotion regulation |  |
+| [suppression]({{< relref "/descriptives/" >}}?dataset=0027&item=suppression) | Expressive suppression | rating_scale | 5 | I have tried not to show or express my emotions. | 1 = not at all<br>5 = a lot |  |  | ESM | suppression, emotion regulation |  |
+| [rumination]({{< relref "/descriptives/" >}}?dataset=0027&item=rumination) | Rumination | rating_scale | 5 | I have wasted time thinking of a past event again and again. | 1 = not at all<br>5 = a lot |  |  | ESM | rumination, emotion regulation |  |
+| [appreciation]({{< relref "/descriptives/" >}}?dataset=0027&item=appreciation) | Appreciation | rating_scale | 5 | I have taken time to savor a moment of the day. | 1 = not at all<br>5 = a lot |  |  | ESM | savoring, mindfulness, well-being |  |
+| [sharing_affect]({{< relref "/descriptives/" >}}?dataset=0027&item=sharing_affect) | Social affect sharing | rating_scale | 5 |  | 1 = not at all<br>5 = a lot |  |  | ESM | coping, social support, emotion regulation, social behavior |  |
+| [problem_coping]({{< relref "/descriptives/" >}}?dataset=0027&item=problem_coping) | Problem-focused coping | rating_scale | 5 |  | 1 = not at all<br>5 = a lot |  |  | ESM | coping, emotion regulation |  |
+| [pa]({{< relref "/descriptives/" >}}?dataset=0027&item=pa) | Positive affect | rating_scale | 5 | Highly activated positive affect: I am full of energy and spirit.<br>Activated positive affect: I am feeling enthusiastic.<br>Neither activated nor deactivated positive affect: I am happy.<br>Deactivated positive affect: I am feeling both happy and calm.<br>Highly deactivated positive affect: My whole body is relaxed. | 1 = not at all<br>5 = a lot | mean-scored | 12-point affect circumplex model | ESM | positive affect, affect |  |
+| [na]({{< relref "/descriptives/" >}}?dataset=0027&item=na) | Negative affect | rating_scale | 5 | Highly activated negative affect: I can feel pressure building inside.<br>Activated negative affect: I am feeling irritated.<br>Neither activated nor deactivated negative affect: I am unhappy.<br>Deactivated negative affect: I am feeling sad and in slow motion.<br>Highly deactivated negative affect: I am so bored that everything around me looks drab. | 1 = not at all<br>5 = a lot | mean-scored | 12-point affect circumplex model | ESM | negative affect, affect |  |

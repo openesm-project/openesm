@@ -1,6 +1,6 @@
 ---
 title: "Fernández (2025)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0026_fernandez"
 first_author: "Fernández"
@@ -80,13 +80,15 @@ Elmer, T., Fernández, A., Stadel, M., Kas, M. J. H., & Langener, A. M. (2025). 
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
-| affect | Affect | rating_scale | 7 | How do you feel right now? | 1 = Very bad<br>7 = Very good |  |  | ESM | affect |  |
-| loneliness | Loneliness | rating_scale | 7 | How lonely do you feel at the moment? | 1 = Not at all<br>7 = Very much |  |  | ESM | loneliness, social functioning, negative affect, affect |  |
+| [affect]({{< relref "/descriptives/" >}}?dataset=0026&item=affect) | Affect | rating_scale | 7 | How do you feel right now? | 1 = Very bad<br>7 = Very good |  |  | ESM | affect |  |
+| [loneliness]({{< relref "/descriptives/" >}}?dataset=0026&item=loneliness) | Loneliness | rating_scale | 7 | How lonely do you feel at the moment? | 1 = Not at all<br>7 = Very much |  |  | ESM | loneliness, social functioning, negative affect, affect |  |
 | all_smartphone_pre | Total smartphone use (pre) | numeric |  | Minutes of total smartphone use in the hour <br>prior to ESM measurement |  |  |  | Passive | smartphone use |  |
 | communication_pre | Communication app use (pre) | numeric |  | Minutes of communication app use in the <br>hour prior to ESM measurement |  |  |  | Passive | smartphone use, communication, app use |  |
 | social_media_pre | Social media app use (pre) | numeric |  | Minutes of social media app use in the hour <br>prior to ESM measurement |  |  |  | Passive | smartphone use, social media, app use |  |

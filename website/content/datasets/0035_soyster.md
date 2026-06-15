@@ -1,6 +1,6 @@
 ---
 title: "Soyster (2022)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0035_soyster"
 first_author: "Soyster"
@@ -80,6 +80,8 @@ Soyster, P. D., Ashlock, L., & Fisher, A. J. (2022). Pooled and person-specific 
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -88,22 +90,22 @@ Soyster, P. D., Ashlock, L., & Fisher, A. J. (2022). Pooled and person-specific 
 | creation_time | Creation time | PosixCt |  |  |  |  |  | ESM |  |  |
 | completion_time | Completion time | PosixCt |  |  |  |  |  | ESM |  |  |
 | drink_number | Number of drinks | numeric |  | Since your last survey; how many alcoholic drinks have you had? |  |  |  | ESM | alcohol, substance use |  |
-| comfortable | Comfortable | rating_scale | 101 | I feel comfortable in my current location | 0 = not at all<br>100 = as much as possible |  |  | ESM | comfortable, positive affect, affect, situation, context |  |
-| stressed | Stressed | rating_scale | 101 | I feel stressed | 0 = not at all<br>100 = as much as possible |  |  | ESM | stress, negative affect, affect |  |
-| depressed | Depressed | rating_scale | 101 | I feel down/depressed | 0 = not at all<br>100 = as much as possible |  |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
-| calm | Calm | rating_scale | 101 | I feel calm/relaxed | 0 = not at all<br>100 = as much as possible |  |  | ESM | calmness, positive affect, affect, neuroticism, big five |  |
-| pressure_to_drink | Pressure to drink | rating_scale | 101 | I currently feel pressure to drink | 0 = not at all<br>100 = as much as possible |  |  | ESM | substance use pressure, alcohol, substance use |  |
-| enthusiastic | Enthusiastic | rating_scale | 101 | I feel enthusiastic | 0 = not at all<br>100 = as much as possible |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
-| happy | Happy | rating_scale | 101 | I feel happy | 0 = not at all<br>100 = as much as possible |  |  | ESM | happiness, positive affect, affect |  |
-| conflict | Conflict | rating_scale | 101 | I am having conflict/fighting with others | 0 = not at all<br>100 = as much as possible |  |  | ESM | social conflict, social behavior, social stress |  |
-| craving | Craving alcohol | rating_scale | 101 | I am craving alcohol | 0 = not at all<br>100 = as much as possible |  |  | ESM | craving, alcohol, substance use |  |
-| impulsive | Impulsive | rating_scale | 101 | I am feeling impulsive | 0 = not at all<br>100 = as much as possible |  |  | ESM | impulsivity, self-control |  |
-| drink_feel_better | Drink would make feelings better | rating_scale | 101 | A drink would make me feel better right now | 0 = not at all<br>100 = as much as possible |  |  | ESM | substance use expectancy, alcohol, substance use |  |
-| perceived_peer_drinking | Perceived peer drinking | rating_scale | 101 | What % of [university] students do you think are drinking alcohol right now? |  |  |  | ESM | substance use norms, alcohol, substance use |  |
-| want_to_drink | Wanting to drink | rating_scale | 101 | I would like to drink | 0 = not at all<br>100 = as much as possible |  |  | ESM | substance use desire, alcohol, substance use |  |
-| delay_gratification | Delayed gratification | rating_scale | 101 | I feel able to delay gratification | 0 = not at all<br>100 = as much as possible |  |  | ESM | self-control |  |
-| angry | Angry | rating_scale | 101 | I feel angry | 0 = not at all<br>100 = as much as possible |  |  | ESM | anger, negative affect, affect |  |
+| [comfortable]({{< relref "/descriptives/" >}}?dataset=0035&item=comfortable) | Comfortable | rating_scale | 101 | I feel comfortable in my current location | 0 = not at all<br>100 = as much as possible |  |  | ESM | comfortable, positive affect, affect, situation, context |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0035&item=stressed) | Stressed | rating_scale | 101 | I feel stressed | 0 = not at all<br>100 = as much as possible |  |  | ESM | stress, negative affect, affect |  |
+| [depressed]({{< relref "/descriptives/" >}}?dataset=0035&item=depressed) | Depressed | rating_scale | 101 | I feel down/depressed | 0 = not at all<br>100 = as much as possible |  |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
+| [calm]({{< relref "/descriptives/" >}}?dataset=0035&item=calm) | Calm | rating_scale | 101 | I feel calm/relaxed | 0 = not at all<br>100 = as much as possible |  |  | ESM | calmness, positive affect, affect, neuroticism, big five |  |
+| [pressure_to_drink]({{< relref "/descriptives/" >}}?dataset=0035&item=pressure_to_drink) | Pressure to drink | rating_scale | 101 | I currently feel pressure to drink | 0 = not at all<br>100 = as much as possible |  |  | ESM | substance use pressure, alcohol, substance use |  |
+| [enthusiastic]({{< relref "/descriptives/" >}}?dataset=0035&item=enthusiastic) | Enthusiastic | rating_scale | 101 | I feel enthusiastic | 0 = not at all<br>100 = as much as possible |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0035&item=happy) | Happy | rating_scale | 101 | I feel happy | 0 = not at all<br>100 = as much as possible |  |  | ESM | happiness, positive affect, affect |  |
+| [conflict]({{< relref "/descriptives/" >}}?dataset=0035&item=conflict) | Conflict | rating_scale | 101 | I am having conflict/fighting with others | 0 = not at all<br>100 = as much as possible |  |  | ESM | social conflict, social behavior, social stress |  |
+| [craving]({{< relref "/descriptives/" >}}?dataset=0035&item=craving) | Craving alcohol | rating_scale | 101 | I am craving alcohol | 0 = not at all<br>100 = as much as possible |  |  | ESM | craving, alcohol, substance use |  |
+| [impulsive]({{< relref "/descriptives/" >}}?dataset=0035&item=impulsive) | Impulsive | rating_scale | 101 | I am feeling impulsive | 0 = not at all<br>100 = as much as possible |  |  | ESM | impulsivity, self-control |  |
+| [drink_feel_better]({{< relref "/descriptives/" >}}?dataset=0035&item=drink_feel_better) | Drink would make feelings better | rating_scale | 101 | A drink would make me feel better right now | 0 = not at all<br>100 = as much as possible |  |  | ESM | substance use expectancy, alcohol, substance use |  |
+| [perceived_peer_drinking]({{< relref "/descriptives/" >}}?dataset=0035&item=perceived_peer_drinking) | Perceived peer drinking | rating_scale | 101 | What % of [university] students do you think are drinking alcohol right now? |  |  |  | ESM | substance use norms, alcohol, substance use |  |
+| [want_to_drink]({{< relref "/descriptives/" >}}?dataset=0035&item=want_to_drink) | Wanting to drink | rating_scale | 101 | I would like to drink | 0 = not at all<br>100 = as much as possible |  |  | ESM | substance use desire, alcohol, substance use |  |
+| [delay_gratification]({{< relref "/descriptives/" >}}?dataset=0035&item=delay_gratification) | Delayed gratification | rating_scale | 101 | I feel able to delay gratification | 0 = not at all<br>100 = as much as possible |  |  | ESM | self-control |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0035&item=angry) | Angry | rating_scale | 101 | I feel angry | 0 = not at all<br>100 = as much as possible |  |  | ESM | anger, negative affect, affect |  |
 | drinks_today_estimate | Drinks today | numeric |  | How many drinks do you think you'll consume today? |  |  |  | ESM | substance use intention, alcohol, substance use |  |
-| restless_sleep | Restless sleep | rating_scale | 101 | Last night, my sleep was restless or unsatisfying | 0 = not at all<br>100 = as much as possible |  |  | ESM | sleep difficulty, sleep quality, sleep |  |
-| sleep_difficulty | Sleep difficulty | rating_scale | 101 | Last night, I had difficulty falling or staying asleep | 0 = not at all<br>100 = as much as possible |  |  | ESM | sleep difficulty, sleep quality, sleep |  |
+| [restless_sleep]({{< relref "/descriptives/" >}}?dataset=0035&item=restless_sleep) | Restless sleep | rating_scale | 101 | Last night, my sleep was restless or unsatisfying | 0 = not at all<br>100 = as much as possible |  |  | ESM | sleep difficulty, sleep quality, sleep |  |
+| [sleep_difficulty]({{< relref "/descriptives/" >}}?dataset=0035&item=sleep_difficulty) | Sleep difficulty | rating_scale | 101 | Last night, I had difficulty falling or staying asleep | 0 = not at all<br>100 = as much as possible |  |  | ESM | sleep difficulty, sleep quality, sleep |  |
 | sleep_duration | Sleep duration in hours | numeric |  | How many hours did you sleep last night? |  |  |  | ESM | sleep duration, sleep |  |

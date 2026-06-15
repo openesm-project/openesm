@@ -1,6 +1,6 @@
 ---
 title: "Grommisch (2020)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0032_grommisch"
 first_author: "Grommisch"
@@ -80,23 +80,25 @@ Grommisch, G., Koval, P., Hinton, J. D. X., Gleeson, J., Hollenstein, T., Kuppen
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  | Not available |  |  |  | ESM |  | Not available |
 | counter | Counter | other | 101 | Running number of measurement occasion per id |  |  |  | ESM |  |  |
-| happy | Happy | rating_scale | 101 | Feeling happy at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | happiness, positive affect, affect |  |
-| relaxed | Relaxed | rating_scale | 101 | Feeling relaxed at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| confident | Confident | rating_scale | 101 | Feeling confident at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | confidence, self-efficacy, positive affect, affect, big five, extraversion |  |
-| sad | Sad | rating_scale | 101 | Feeling sad at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | sadness, negative affect, affect |  |
-| stressed | Stressed | rating_scale | 101 | Feeling stressed at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |
-| angry | Angry | rating_scale | 101 | Feeling angry at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | anger, negative affect, affect |  |
-| situation_selection | Situation Selection | rating_scale | 101 | Since last survey, I chose which situation to put myself in | 0 = not at all<br>100 = very much |  |  | ESM | situation selection, emotion regulation |  |
-| situation_modification | Situation Modification | rating_scale | 101 | Since last survey, I actively changed something in the situation | 0 = not at all<br>100 = very much |  |  | ESM | situation modification, emotion regulation |  |
-| reappraisal | Reappraisal | rating_scale | 101 | Mean of two items: <br>Since last survey, I changed the way I was thinking about the situation<br>Since last survey, I took a step back and looked at things from a different perspective. | 0 = not at all<br>100 = very much |  |  | ESM | reappraisal, emotion regulation |  |
-| acceptance | Acceptance | rating_scale | 101 | Since last survey, I accepted my emotions as valid and important | 0 = not at all<br>100 = very much |  |  | ESM | acceptance, emotion regulation |  |
-| rumination | Rumination | rating_scale | 101 | Since last survey, I thought over and over again about my emotions | 0 = not at all<br>100 = very much |  |  | ESM | rumination, emotion regulation |  |
-| social_sharing | Social Sharing | rating_scale | 101 | Since last survey, I talked with someone about my emotions | 0 = not at all<br>100 = very much |  |  | ESM | emotional expression, emotion regulation, social support |  |
-| ignoring | Ignoring | rating_scale | 101 | Since last survey, I ignored my emotions | 0 = not at all<br>100 = very much |  |  | ESM | suppression, emotion regulation |  |
-| suppression | Suppression | rating_scale | 101 | Since last survey, I was careful not to express my emotions to others | 0 = not at all<br>100 = very much |  |  | ESM | suppression, emotion regulation |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0032&item=happy) | Happy | rating_scale | 101 | Feeling happy at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | happiness, positive affect, affect |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0032&item=relaxed) | Relaxed | rating_scale | 101 | Feeling relaxed at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [confident]({{< relref "/descriptives/" >}}?dataset=0032&item=confident) | Confident | rating_scale | 101 | Feeling confident at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | confidence, self-efficacy, positive affect, affect, big five, extraversion |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0032&item=sad) | Sad | rating_scale | 101 | Feeling sad at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | sadness, negative affect, affect |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0032&item=stressed) | Stressed | rating_scale | 101 | Feeling stressed at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0032&item=angry) | Angry | rating_scale | 101 | Feeling angry at moment of prompt | 0 = not at all<br>100 = very much |  |  | ESM | anger, negative affect, affect |  |
+| [situation_selection]({{< relref "/descriptives/" >}}?dataset=0032&item=situation_selection) | Situation Selection | rating_scale | 101 | Since last survey, I chose which situation to put myself in | 0 = not at all<br>100 = very much |  |  | ESM | situation selection, emotion regulation |  |
+| [situation_modification]({{< relref "/descriptives/" >}}?dataset=0032&item=situation_modification) | Situation Modification | rating_scale | 101 | Since last survey, I actively changed something in the situation | 0 = not at all<br>100 = very much |  |  | ESM | situation modification, emotion regulation |  |
+| [reappraisal]({{< relref "/descriptives/" >}}?dataset=0032&item=reappraisal) | Reappraisal | rating_scale | 101 | Mean of two items: <br>Since last survey, I changed the way I was thinking about the situation<br>Since last survey, I took a step back and looked at things from a different perspective. | 0 = not at all<br>100 = very much |  |  | ESM | reappraisal, emotion regulation |  |
+| [acceptance]({{< relref "/descriptives/" >}}?dataset=0032&item=acceptance) | Acceptance | rating_scale | 101 | Since last survey, I accepted my emotions as valid and important | 0 = not at all<br>100 = very much |  |  | ESM | acceptance, emotion regulation |  |
+| [rumination]({{< relref "/descriptives/" >}}?dataset=0032&item=rumination) | Rumination | rating_scale | 101 | Since last survey, I thought over and over again about my emotions | 0 = not at all<br>100 = very much |  |  | ESM | rumination, emotion regulation |  |
+| [social_sharing]({{< relref "/descriptives/" >}}?dataset=0032&item=social_sharing) | Social Sharing | rating_scale | 101 | Since last survey, I talked with someone about my emotions | 0 = not at all<br>100 = very much |  |  | ESM | emotional expression, emotion regulation, social support |  |
+| [ignoring]({{< relref "/descriptives/" >}}?dataset=0032&item=ignoring) | Ignoring | rating_scale | 101 | Since last survey, I ignored my emotions | 0 = not at all<br>100 = very much |  |  | ESM | suppression, emotion regulation |  |
+| [suppression]({{< relref "/descriptives/" >}}?dataset=0032&item=suppression) | Suppression | rating_scale | 101 | Since last survey, I was careful not to express my emotions to others | 0 = not at all<br>100 = very much |  |  | ESM | suppression, emotion regulation |  |

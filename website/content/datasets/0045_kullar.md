@@ -1,6 +1,6 @@
 ---
 title: "Kullar (2023)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0045_kullar"
 first_author: "Kullar"
@@ -80,19 +80,21 @@ Kullar, M., Carter, S., Hitchcock, C., Whittaker, S., Wright, A. G. C., & Dalgle
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
-| angry | Angry | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | anger, negative affect, affect |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0045&item=angry) | Angry | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | anger, negative affect, affect |  |
 | emotion_chronometry | Emotion duration | numeric |  | Estimate of how long current emotional state lasted in minutes |  |  |  | ESM | affect, time scale |  |
-| enthusiastic | Enthusiastic | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
-| happy | Happy | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | happiness, positive affect, affect |  |
-| irritated | Irritated | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, negative affect, affect |  |
+| [enthusiastic]({{< relref "/descriptives/" >}}?dataset=0045&item=enthusiastic) | Enthusiastic | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0045&item=happy) | Happy | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | happiness, positive affect, affect |  |
+| [irritated]({{< relref "/descriptives/" >}}?dataset=0045&item=irritated) | Irritated | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | irritability, anxiety, negative affect, affect |  |
 | mind_wandering | Mind wandering | binary | 2 | wording unclear, but roughly: Are you thinking about anything else other than what you are currently doing? | 0 = no<br>1 = yes |  |  | ESM | mindfulness, distraction, mindwandering |  |
-| nervous | Nervous | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
-| pleased | Pleased | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | pleased, positive affect, affect |  |
-| relaxed | Relaxed | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| sad | Sad | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | sadness, negative affect, affect |  |
-| stressed | Stressed | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | stress, negative affect, affect |  |
+| [nervous]({{< relref "/descriptives/" >}}?dataset=0045&item=nervous) | Nervous | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
+| [pleased]({{< relref "/descriptives/" >}}?dataset=0045&item=pleased) | Pleased | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | pleased, positive affect, affect |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0045&item=relaxed) | Relaxed | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0045&item=sad) | Sad | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | sadness, negative affect, affect |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0045&item=stressed) | Stressed | rating_scale | 7 | Wording unclear, but rating of present intensity of emotion | 1 = not at all<br>7 = extremely |  |  | ESM | stress, negative affect, affect |  |

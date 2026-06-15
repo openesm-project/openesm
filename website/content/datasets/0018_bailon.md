@@ -1,6 +1,6 @@
 ---
 title: "Bailon (2020)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0018_bailon"
 first_author: "Bailon"
@@ -80,6 +80,8 @@ Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanab
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -87,8 +89,8 @@ Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanab
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | timestamp_issued | Timestamp survey issued | PosixCt |  |  |  |  |  | ESM |  |  |
 | timestamp_answer | Timestamp survey answered | PosixCt |  |  |  |  |  | ESM |  |  |
-| valence | Valence | rating_scale | 101 | How do you feel right now? | -50 = Very bad<br>50 = Very good |  | the Feeling Scale <br>(https://doi.org/10.1123/jsep.11.3.304) | ESM | valence, affect |  |
-| arousal | Arousal | rating_scale | 101 | How physically active do you feel right now? | 0 = Not active<br>100 = Active |  | the Felt Arousal Scale<br>(https://doi.org/10.1123/jsep.11.3.304) | ESM | arousal, affect |  |
-| valence_slider_initial | Slider initialisation valence | rating_scale | 101 |  |  |  |  | ESM | slider, measurement |  |
-| arousal_slider_initial | Slider initialisation arousal | rating_scale | 101 |  |  |  |  | ESM | slider, measurement |  |
+| [valence]({{< relref "/descriptives/" >}}?dataset=0018&item=valence) | Valence | rating_scale | 101 | How do you feel right now? | -50 = Very bad<br>50 = Very good |  | the Feeling Scale <br>(https://doi.org/10.1123/jsep.11.3.304) | ESM | valence, affect |  |
+| [arousal]({{< relref "/descriptives/" >}}?dataset=0018&item=arousal) | Arousal | rating_scale | 101 | How physically active do you feel right now? | 0 = Not active<br>100 = Active |  | the Felt Arousal Scale<br>(https://doi.org/10.1123/jsep.11.3.304) | ESM | arousal, affect |  |
+| [valence_slider_initial]({{< relref "/descriptives/" >}}?dataset=0018&item=valence_slider_initial) | Slider initialisation valence | rating_scale | 101 |  |  |  |  | ESM | slider, measurement |  |
+| [arousal_slider_initial]({{< relref "/descriptives/" >}}?dataset=0018&item=arousal_slider_initial) | Slider initialisation arousal | rating_scale | 101 |  |  |  |  | ESM | slider, measurement |  |
 | input_method | Survey input method | categorical | 3 |  | One of {‘App’, ‘Web’, ‘Both’} |  |  | ESM |  |  |

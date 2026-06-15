@@ -1,6 +1,6 @@
 ---
 title: "Nestler (2022)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0002_nestler"
 first_author: "Nestler"
@@ -81,17 +81,19 @@ Nestler, S., & Humberg, S. (2022). A lasso and a regression tree mixed-effect mo
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | Daily |  |  |
 | day | Day of study | other |  |  |  |  |  | Daily |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | Daily |  |  |
-| sociable | Sociable | rating_scale | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | sociability, extraversion, big five |  |
-| creative | Creative | rating_scale | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | creativity, openness, big five |  |
-| friendly | Friendly | rating_scale | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | friendliness, agreeableness, big five |  |
-| organised | Organised | rating_scale | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | organisation, conscientiousness, big five |  |
-| self_esteem | Satisfied with myself | rating_scale | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily | self-esteem, self-concept |  |
+| [sociable]({{< relref "/descriptives/" >}}?dataset=0002&item=sociable) | Sociable | rating_scale | 6 | Today I was sociable | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | sociability, extraversion, big five |  |
+| [creative]({{< relref "/descriptives/" >}}?dataset=0002&item=creative) | Creative | rating_scale | 6 | Today I was creative | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | creativity, openness, big five |  |
+| [friendly]({{< relref "/descriptives/" >}}?dataset=0002&item=friendly) | Friendly | rating_scale | 6 | Today I was friendly | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | friendliness, agreeableness, big five |  |
+| [organised]({{< relref "/descriptives/" >}}?dataset=0002&item=organised) | Organised | rating_scale | 6 | Today I was organised | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | organisation, conscientiousness, big five |  |
+| [self_esteem]({{< relref "/descriptives/" >}}?dataset=0002&item=self_esteem) | Satisfied with myself | rating_scale | 6 | Today I was satisfied with myself | 1 = not at all<br>6 = extremely | grand-mean centered | Rosenberg Self-Esteem Scale | Daily | self-esteem, self-concept |  |
 | weekday | Day of the week | numeric |  |  |  |  |  | Daily |  |  |
 | temp | Temperature | numeric |  |  |  |  |  | Daily |  |  |
 | rain | Precipitation Rainfall | numeric |  |  |  |  |  | Daily |  |  |
-| nervous | Nervous | rating_scale | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | nervousness, negative affect, affect, neuroticism, big five |  |
+| [nervous]({{< relref "/descriptives/" >}}?dataset=0002&item=nervous) | Nervous | rating_scale | 6 | Today I was nervous | 1 = not at all<br>6 = extremely | grand-mean centered |  | Daily | nervousness, negative affect, affect, neuroticism, big five |  |

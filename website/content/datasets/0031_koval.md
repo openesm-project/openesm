@@ -1,6 +1,6 @@
 ---
 title: "Koval (2013)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0031_koval"
 first_author: "Koval"
@@ -85,13 +85,15 @@ Dejonckheere, E., Mestdagh, M., Houben, M., Rutten, I., Sels, L., Kuppens, P., &
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
-| happy | Happy | rating_scale | 101 | Felt happy | 0 = not at all<br>100 = very much |  |  | ESM | happiness, positive affect, affect |  |
-| relaxed | Relaxed | rating_scale | 101 | Felt relaxed | 0 = not at all<br>100 = very much |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| sad | Sad | rating_scale | 101 | Felt sad | 0 = not at all<br>100 = very much |  |  | ESM | sadness, negative affect, affect |  |
-| angry | Angry | rating_scale | 101 | Felt angry | 0 = not at all<br>100 = very much |  |  | ESM | anger, negative affect, affect |  |
-| stressed | Stress | rating_scale | 101 | Felt stressed | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0031&item=happy) | Happy | rating_scale | 101 | Felt happy | 0 = not at all<br>100 = very much |  |  | ESM | happiness, positive affect, affect |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0031&item=relaxed) | Relaxed | rating_scale | 101 | Felt relaxed | 0 = not at all<br>100 = very much |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0031&item=sad) | Sad | rating_scale | 101 | Felt sad | 0 = not at all<br>100 = very much |  |  | ESM | sadness, negative affect, affect |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0031&item=angry) | Angry | rating_scale | 101 | Felt angry | 0 = not at all<br>100 = very much |  |  | ESM | anger, negative affect, affect |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0031&item=stressed) | Stress | rating_scale | 101 | Felt stressed | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |

@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-05-22
+date: 2026-06-15
 draft: false
 dataset_id: "0019_soederberg"
 first_author: "Söderberg"
@@ -81,6 +81,8 @@ Mölsä, M., Forsman, A. K., & Söderberg, P. (2024, December 16). A 10-day expe
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  |  |  |  |
@@ -91,22 +93,22 @@ Mölsä, M., Forsman, A. K., & Söderberg, P. (2024, December 16). A 10-day expe
 | reminder | Reminder | binary | 2 |  | 0 = no<br>1 = yes |  |  |  |  |  |
 | session_instance_response_lapse | Response lapse | other |  | Response lapse in minutes:second |  |  |  |  |  |  |
 | session_length | Session length | other |  | Session length in minutes:seconds |  |  |  |  |  |  |
-| sleep_quality | Sleep quality | rating_scale | 5 | Good morning. Did you sleep well last night? | 1 = Not at all<br>5 = Yes, absolutely |  |  | Daily | sleep quality, sleep |  |
+| [sleep_quality]({{< relref "/descriptives/" >}}?dataset=0019&item=sleep_quality) | Sleep quality | rating_scale | 5 | Good morning. Did you sleep well last night? | 1 = Not at all<br>5 = Yes, absolutely |  |  | Daily | sleep quality, sleep |  |
 | morning_breakfast | Breakfast eaten | binary | 2 | Have you eaten (or will you eat) breakfast this morning? | 0 = no<br>1 = yes |  |  | Daily | food, activity |  |
-| morning_ok | Feeling okay about school | rating_scale | 5 | Do you feel okay about going to school today? | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education |  |
-| enjoy_school | Enjoying school | rating_scale | 5 | How do you feel right now?: I enjoy being at school | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | positive affect, affect, school, education |  |
-| stressed | Stress | rating_scale | 5 | How do you feel right now?: I feel stressed | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | stress, negative affect, affect |  |
-| motivated | Motivated | rating_scale | 5 | How do you feel right now?: I feel motivated | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | motivation |  |
-| angry | Angry | rating_scale | 5 | How do you feel right now?: I feel angry | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | anger, negative affect, affect |  |
-| liked | Liked | rating_scale | 5 | How do you feel right now?:  I feel liked | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | positive affect, affect |  |
-| lonely | Lonely | rating_scale | 5 | How do you feel right now?: I feel lonely | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | loneliness, negative affect, affect |  |
-| alert | Alert | rating_scale | 5 | How do you feel right now?: I feel alert | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | alertness, positive affect, affect, extraversion, big five |  |
-| stupid | Stupid | rating_scale | 5 | How do you feel right now?: I feel stupid | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | negative affect, affect | Note: In Swedish, this item was "jag känner mig dum", which could also be interpreted as "hostility". However, it was intended to ask about stupidity |
-| lecture_enjoy | Enjoyable lecture | rating_scale | 5 | The most recent lecture: The lesson was enjoyable | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
-| lecture_difficult | Lecture difficulty | rating_scale | 5 | The most recent lecture: The content was difficult | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
-| lecture_interesting | Lecture interest | rating_scale | 5 | The most recent lecture: The content was interesting | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
-| teacher_strict | Teacher strictness | rating_scale | 5 | The most recent lecture: The teacher was strict | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
-| teacher_fair | Teacher fairness | rating_scale | 5 | The most recent lecture: The teacher was fair | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
-| teacher_encouraging | Teacher encouraging | rating_scale | 5 | The most recent lecture: The teacher was encouraging | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
-| peer_relationship | Peer relationships | rating_scale | 5 | Did you have a good time with your classmates during the morning/the afternoon? | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | relationship, social interaction, school |  |
-| schoolday_satisfaction | Schoolday satisfaction | rating_scale | 10 | What rating would you give for the overall school day? |  |  |  | Daily | satisfaction, school, education, activity, context |  |
+| [morning_ok]({{< relref "/descriptives/" >}}?dataset=0019&item=morning_ok) | Feeling okay about school | rating_scale | 5 | Do you feel okay about going to school today? | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education |  |
+| [enjoy_school]({{< relref "/descriptives/" >}}?dataset=0019&item=enjoy_school) | Enjoying school | rating_scale | 5 | How do you feel right now?: I enjoy being at school | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | positive affect, affect, school, education |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0019&item=stressed) | Stress | rating_scale | 5 | How do you feel right now?: I feel stressed | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | stress, negative affect, affect |  |
+| [motivated]({{< relref "/descriptives/" >}}?dataset=0019&item=motivated) | Motivated | rating_scale | 5 | How do you feel right now?: I feel motivated | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | motivation |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0019&item=angry) | Angry | rating_scale | 5 | How do you feel right now?: I feel angry | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | anger, negative affect, affect |  |
+| [liked]({{< relref "/descriptives/" >}}?dataset=0019&item=liked) | Liked | rating_scale | 5 | How do you feel right now?:  I feel liked | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | positive affect, affect |  |
+| [lonely]({{< relref "/descriptives/" >}}?dataset=0019&item=lonely) | Lonely | rating_scale | 5 | How do you feel right now?: I feel lonely | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | loneliness, negative affect, affect |  |
+| [alert]({{< relref "/descriptives/" >}}?dataset=0019&item=alert) | Alert | rating_scale | 5 | How do you feel right now?: I feel alert | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | alertness, positive affect, affect, extraversion, big five |  |
+| [stupid]({{< relref "/descriptives/" >}}?dataset=0019&item=stupid) | Stupid | rating_scale | 5 | How do you feel right now?: I feel stupid | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | negative affect, affect | Note: In Swedish, this item was "jag känner mig dum", which could also be interpreted as "hostility". However, it was intended to ask about stupidity |
+| [lecture_enjoy]({{< relref "/descriptives/" >}}?dataset=0019&item=lecture_enjoy) | Enjoyable lecture | rating_scale | 5 | The most recent lecture: The lesson was enjoyable | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
+| [lecture_difficult]({{< relref "/descriptives/" >}}?dataset=0019&item=lecture_difficult) | Lecture difficulty | rating_scale | 5 | The most recent lecture: The content was difficult | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
+| [lecture_interesting]({{< relref "/descriptives/" >}}?dataset=0019&item=lecture_interesting) | Lecture interest | rating_scale | 5 | The most recent lecture: The content was interesting | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
+| [teacher_strict]({{< relref "/descriptives/" >}}?dataset=0019&item=teacher_strict) | Teacher strictness | rating_scale | 5 | The most recent lecture: The teacher was strict | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
+| [teacher_fair]({{< relref "/descriptives/" >}}?dataset=0019&item=teacher_fair) | Teacher fairness | rating_scale | 5 | The most recent lecture: The teacher was fair | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
+| [teacher_encouraging]({{< relref "/descriptives/" >}}?dataset=0019&item=teacher_encouraging) | Teacher encouraging | rating_scale | 5 | The most recent lecture: The teacher was encouraging | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education, activity, context |  |
+| [peer_relationship]({{< relref "/descriptives/" >}}?dataset=0019&item=peer_relationship) | Peer relationships | rating_scale | 5 | Did you have a good time with your classmates during the morning/the afternoon? | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | relationship, social interaction, school |  |
+| [schoolday_satisfaction]({{< relref "/descriptives/" >}}?dataset=0019&item=schoolday_satisfaction) | Schoolday satisfaction | rating_scale | 10 | What rating would you give for the overall school day? |  |  |  | Daily | satisfaction, school, education, activity, context |  |
