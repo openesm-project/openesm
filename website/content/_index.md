@@ -278,7 +278,7 @@ hideposts: true
     <div class="stats-section">
         <div class="stat-box">
             <div class="icon"><i class="fas fa-database"></i></div>
-            <div class="number" data-target="60">0</div>
+            <div class="number" data-target="61">0</div>
             <div class="label">Datasets</div>
             <p>Explore our growing collection of datasets.</p>
         </div>
