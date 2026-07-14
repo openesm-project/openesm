@@ -109,7 +109,7 @@
     "first_author": "Geschwind",
     "year": 2013,
     "topics": "depression, neuroticism, mood",
-    "n_participants": 129,
+    "n_participants": 130,
     "n_time_points": 200,
     "n_days": "20",
     "n_beeps_per_day": "10",
@@ -829,7 +829,7 @@
     "first_author": "Wright",
     "year": 2017,
     "topics": "affect, interpersonal disorders, personality pathology, emotions, social interactions",
-    "n_participants": 222,
+    "n_participants": 245,
     "n_time_points": 344,
     "n_days": "21",
     "n_beeps_per_day": "event-contingent",
@@ -898,5 +898,20 @@
     "passive_data_available": "no",
     "raw_time_stamp": "yes",
     "url": "/datasets/0072_neubauer/"
+  },
+  {
+    "dataset_id": "0073_sicorello",
+    "first_author": "Sicorello",
+    "year": 2024,
+    "topics": "emotion regulation, stress, affect",
+    "n_participants": 214,
+    "n_time_points": 60,
+    "n_days": "10",
+    "n_beeps_per_day": "6",
+    "n_variables": 45,
+    "cross_sectional_available": "yes",
+    "passive_data_available": "no",
+    "raw_time_stamp": "yes",
+    "url": "/datasets/0073_sicorello/"
   }
 ]

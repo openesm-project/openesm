@@ -1,6 +1,6 @@
 ---
 title: "Wright (2017)"
-date: 2026-06-15
+date: 2026-07-14
 draft: false
 dataset_id: "0064_wright"
 first_author: "Wright"
@@ -8,7 +8,7 @@ year: 2017
 paper_doi: "https://doi.org/10.1037/abn0000286"
 zenodo_doi: "10.5281/zenodo.17348495"
 license: "CC BY-NC 4.0"
-n_participants: 222
+n_participants: 245
 n_time_points: 344
 n_days: "21"
 topics: "affect, interpersonal disorders, personality pathology, emotions, social interactions"
@@ -38,7 +38,7 @@ participants: "outpatients screened for personality pathology and their romantic
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 222 (outpatients screened for personality
+<li><strong>Participants:</strong> 245 (outpatients screened for personality
 pathology and their romantic
 partners)</li>
 <li><strong>Time Points:</strong> 344</li>
@@ -83,6 +83,7 @@ Wendt, L. P., Wright, A. G. C., Pilkonis, P. A., Woods, W. C., Denissen, J. J. A
 
 ## Changelog
 
+- **2026-06-11** (1.0.0) *metadata change*: Fix number of participants.
 - **2026-04-27** (1.0.0) *metadata change*: Fix 'extraversion' typo in variable coding.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

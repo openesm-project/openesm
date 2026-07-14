@@ -1,6 +1,6 @@
 ---
 title: "Geschwind (2013)"
-date: 2026-06-15
+date: 2026-07-14
 draft: false
 dataset_id: "0010_geschwind"
 first_author: "Geschwind"
@@ -8,7 +8,7 @@ year: 2013
 paper_doi: "https://doi.org/10.1371/journal.pone.0060188"
 zenodo_doi: "10.5281/zenodo.17347473"
 license: "CC BY-NC 4.0"
-n_participants: 129
+n_participants: 130
 n_time_points: 200
 n_days: "20"
 topics: "depression, neuroticism, mood"
@@ -38,7 +38,7 @@ participants: "individuals with residual depressive symptoms"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 129 (individuals with residual depressive symptoms)</li>
+<li><strong>Participants:</strong> 130 (individuals with residual depressive symptoms)</li>
 <li><strong>Time Points:</strong> 200</li>
 <li><strong>Days:</strong> 20</li>
 <li><strong>Beeps per Day:</strong> 10</li>
@@ -81,6 +81,7 @@ Bringmann, L. F., Vissers, N., Wichers, M., Geschwind, N., Kuppens, P., Peeters,
 
 ## Changelog
 
+- **2026-06-11** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.0.0) *metadata change*: Fix information about sampling scheme.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
