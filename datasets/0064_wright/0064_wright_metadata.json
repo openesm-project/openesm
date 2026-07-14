@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-06-11",
+      "description": "Fix number of participants.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-04-27",
       "description": "Fix 'extraversion' typo in variable coding.",
       "type": "metadata",
@@ -25,7 +31,7 @@
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",
   "link_to_code": "https://osf.io/6ghcx",
-  "n_participants": 222,
+  "n_participants": 245,
   "n_time_points": 344,
   "n_days": "21",
   "n_beeps_per_day": "event-contingent",

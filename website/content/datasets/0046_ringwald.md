@@ -1,6 +1,6 @@
 ---
 title: "Ringwald (2024)"
-date: 2026-06-15
+date: 2026-07-14
 draft: false
 dataset_id: "0046_ringwald"
 first_author: "Ringwald"
