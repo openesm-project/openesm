@@ -1,6 +1,6 @@
 ---
 title: "Hensel (2023)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0066_hensel"
 first_author: "Hensel"
@@ -49,17 +49,19 @@ participants: "adults with spina bifida and current symptoms of incontinence"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** yes
-- **Passive Sensor Data:** no
-- **License:** CC BY-NC 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> yes</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC BY-NC 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348001">10.5281/zenodo.17348001</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://osf.io/gefqx/files/">https://osf.io/gefqx/files/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/gefqx/files/">https://osf.io/gefqx/files/</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://osf.io/gefqx/files/">https://osf.io/gefqx/files/</a></p>
 
+</div>
 </div>
 
 ## Additional Comments
@@ -80,7 +82,7 @@ Hensel, D. J., Young, A. I., & Szymanski, K. M. (2023). The feasibility of using
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

@@ -1,6 +1,6 @@
 ---
 title: "Hawks (2023)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0003_hawks"
 first_author: "Hawks"
@@ -49,24 +49,26 @@ participants: "adults"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** unclear
-- **Passive Sensor Data:** no
-- **License:** CC BY-NC 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> unclear</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC BY-NC 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347389">10.5281/zenodo.17347389</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf">https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf</a></p>
 <p><strong>Code:</strong> <a href="https://github.com/zwihawks/PredictingMomentaryCog">https://github.com/zwihawks/PredictingMomentaryCog</a></p>
+</div>
 </div>
 
 
 
 ## Citation
 
-Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., & Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, Reliability of Neurocognitive Measures for Mental Health, 8(8), 841–851. https://doi.org/10.1016/j.bpsc.2022.12.002
+Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., & Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 8(8), 841–851. https://doi.org/10.1016/j.bpsc.2022.12.002
 
 
 
@@ -78,7 +80,7 @@ Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., 
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

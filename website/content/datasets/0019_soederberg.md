@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0019_soederberg"
 first_author: "Söderberg"
@@ -49,17 +49,19 @@ participants: "middle and secondary school students"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** yes
-- **Passive Sensor Data:** no
-- **License:** CC-BY 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> yes</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC-BY 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347732">10.5281/zenodo.17347732</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.5281/zenodo.13332148">https://doi.org/10.5281/zenodo.13332148</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.5281/zenodo.13332148">https://doi.org/10.5281/zenodo.13332148</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://zenodo.org/records/13332148">https://zenodo.org/records/13332148</a></p>
 
+</div>
 </div>
 
 ## Additional Comments
@@ -81,7 +83,7 @@ Mölsä, M., Forsman, A. K., & Söderberg, P. (2024, December 16). A 10-day expe
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

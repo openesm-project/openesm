@@ -1,6 +1,6 @@
 ---
 title: "Scharbert (2023)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0071_scharbert"
 first_author: "Scharbert"
@@ -49,17 +49,19 @@ participants: "adults"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** yes
-- **Passive Sensor Data:** no
-- **License:** CC-BY 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> yes</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC-BY 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348583">10.5281/zenodo.17348583</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://osf.io/8f3yu">https://osf.io/8f3yu</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/8f3yu">https://osf.io/8f3yu</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://osf.io/nfkze">https://osf.io/nfkze</a></p>
 <p><strong>Code:</strong> <a href="https://osf.io/z9y5b">https://osf.io/z9y5b</a></p>
+</div>
 </div>
 
 ## Additional Comments
@@ -85,7 +87,7 @@ Scharbert, J., Humberg, S., Kroencke, L., Reiter, T., Sakel, S., ter Horst, J., 
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

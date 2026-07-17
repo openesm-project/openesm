@@ -1,6 +1,6 @@
 ---
 title: "Habets (2020)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0014_habets"
 first_author: "Habets"
@@ -49,17 +49,19 @@ participants: "patients with Parkinson disease"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** no
-- **Passive Sensor Data:** yes
-- **License:** CC0 1.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> no</li>
+<li><strong>Passive Sensor Data:</strong> yes</li>
+<li><strong>License:</strong> CC0 1.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347440">10.5281/zenodo.17347440</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.34894/5HHK8H">https://doi.org/10.34894/5HHK8H</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.34894/5HHK8H">https://doi.org/10.34894/5HHK8H</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://dataverse.nl/file.xhtml?fileId=36289&version=2.0">https://dataverse.nl/file.xhtml?fileId=36289&version=2.0</a></p>
 <p><strong>Code:</strong> <a href="https://github.com/jgvhabets/sensor_EMA_PD_monitoring">https://github.com/jgvhabets/sensor_EMA_PD_monitoring</a></p>
+</div>
 </div>
 
 ## Additional Comments
@@ -80,7 +82,7 @@ Habets, J., Heijmans, M., Herff, C., Simons, C., Leentjens, A. F., Temel, Y., Ku
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

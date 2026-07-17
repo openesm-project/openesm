@@ -1,6 +1,6 @@
 ---
 title: "Fisher (2019)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0037_fisher"
 first_author: "Fisher"
@@ -49,17 +49,19 @@ participants: "regular smokers"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** no
-- **Passive Sensor Data:** no
-- **License:** CC BY-NC 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> no</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC BY-NC 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17348069">10.5281/zenodo.17348069</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://osf.io/nkemg/">https://osf.io/nkemg/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/nkemg/">https://osf.io/nkemg/</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004</a></p>
 <p><strong>Code:</strong> <a href="https://osf.io/nkemg/">https://osf.io/nkemg/</a></p>
+</div>
 </div>
 
 ## Additional Comments
@@ -80,7 +82,7 @@ Fisher, A. J., & Soyster, P. (2019, March 28). Generating accurate personalized 
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

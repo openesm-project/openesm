@@ -1,6 +1,6 @@
 ---
 title: "Soyster (2022)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0035_soyster"
 first_author: "Soyster"
@@ -49,17 +49,19 @@ participants: "adult alcohol consumers"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** no
-- **Passive Sensor Data:** no
-- **License:** CC BY-NC 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> no</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC BY-NC 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347645">10.5281/zenodo.17347645</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://osf.io/q7upd/">https://osf.io/q7upd/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/q7upd/">https://osf.io/q7upd/</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 
 <p><strong>Code:</strong> <a href="https://osf.io/bwkjq">https://osf.io/bwkjq</a></p>
+</div>
 </div>
 
 ## Additional Comments
@@ -80,7 +82,7 @@ Soyster, P. D., Ashlock, L., & Fisher, A. J. (2022). Pooled and person-specific 
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

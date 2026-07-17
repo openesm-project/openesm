@@ -1,6 +1,6 @@
 ---
 title: "Neubauer (2020)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0072_neubauer"
 first_author: "Neubauer"
@@ -49,17 +49,19 @@ participants: "adults living in a household with a schoolchild"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** yes
-- **Passive Sensor Data:** no
-- **License:** CC-BY 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> yes</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC-BY 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17361778">10.5281/zenodo.17361778</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://osf.io/wcerj/">https://osf.io/wcerj/</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://osf.io/wcerj/">https://osf.io/wcerj/</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://osf.io/tyc32">https://osf.io/tyc32</a></p>
 <p><strong>Code:</strong> <a href="https://osf.io/et869">https://osf.io/et869</a></p>
+</div>
 </div>
 
 ## Additional Comments
@@ -80,7 +82,7 @@ Neubauer, A. B., Schmidt, A., Kramer, A. C., & Schmiedek, F. (2021). A little au
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

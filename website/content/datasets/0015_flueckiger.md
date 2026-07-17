@@ -1,6 +1,6 @@
 ---
 title: "Flueckiger (2014)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0015_flueckiger"
 first_author: "Flueckiger"
@@ -49,17 +49,19 @@ participants: "first-year psychology students"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** yes
-- **Passive Sensor Data:** no
-- **License:** CC0 1.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> yes</li>
+<li><strong>Passive Sensor Data:</strong> no</li>
+<li><strong>License:</strong> CC0 1.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347647">10.5281/zenodo.17347647</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388">https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388">https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 <p><strong>Codebook:</strong> <a href="https://doi.org/10.7910/DVN/27388/U8IPJZ">https://doi.org/10.7910/DVN/27388/U8IPJZ</a></p>
 
+</div>
 </div>
 
 
@@ -77,7 +79,7 @@ Flueckiger, L., Lieb, R., Meyer, A. H., & Mata, J. (2014). How health behaviors 
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|

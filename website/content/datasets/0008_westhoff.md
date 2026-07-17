@@ -1,6 +1,6 @@
 ---
 title: "Westhoff (2024)"
-date: 2026-07-14
+date: 2026-07-17
 draft: false
 dataset_id: "0008_westhoff"
 first_author: "Westhoff"
@@ -49,17 +49,19 @@ participants: "young adults"
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** yes
-- **Passive Sensor Data:** yes
-- **License:** CC-BY 4.0
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> yes</li>
+<li><strong>Passive Sensor Data:</strong> yes</li>
+<li><strong>License:</strong> CC-BY 4.0</li>
+</ul>
 <div class="dataset-links">
 <p><strong>Harmonized Data (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.17347510">10.5281/zenodo.17347510</a></p>
-<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.1038/s41598-024-58598-3">https://doi.org/10.1038/s41598-024-58598-3</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>
+<p><strong>Original Source Data:</strong> <a href="https://doi.org/10.1038/s41598-024-58598-3">https://doi.org/10.1038/s41598-024-58598-3</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>
 
 <p><strong>Code:</strong> <a href="https://osf.io/ejtzs/">https://osf.io/ejtzs/</a></p>
+</div>
 </div>
 
 ## Additional Comments
@@ -80,7 +82,7 @@ Westhoff, M., Heshmati, S., Siepe, B. S., Vogelbacher, C., Ciarrochi, J., Hayes,
 
 ## Variables
 
-<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
