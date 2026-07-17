@@ -66,9 +66,8 @@
   gap: 2rem;
   flex-wrap: wrap;
   padding: 0.85rem 1.25rem;
-  background: rgba(8, 90, 179, 0.04);
-  border: 1px solid rgba(8, 90, 179, 0.18);
-  border-left: 4px solid var(--primary-blue);
+  background: var(--light-gray);
+  border: 1px solid var(--border-gray);
   border-radius: 4px;
   margin-bottom: 1.75rem;
 }
@@ -133,6 +132,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.desc-stats-grid table {
+  margin-top: 0;
 }
 
 /* Back link */
@@ -263,6 +266,15 @@ details.desc-disclaimer[open] summary::before {
   margin: 0.5rem 0 0;
 }
 
+/* Similar items */
+.desc-similar-section { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-gray); }
+.desc-similar-heading { font-size: 1rem; font-weight: 700; margin: 0 0 0.75rem; }
+.desc-similar-list { list-style: none; padding: 0; margin: 0; }
+.desc-similar-list li { padding: 0.4rem 0; border-bottom: 1px solid var(--border-gray); font-size: 0.92rem; }
+.desc-similar-list li:last-child { border-bottom: none; }
+.desc-similar-score { color: #888; font-size: 0.85em; }
+.desc-similar-note { font-size: 0.83rem; color: #666; margin: 0 0 0.75rem; line-height: 1.5; }
+
 /* Error */
 .desc-error {
   padding: 0.9rem 1.1rem;
@@ -331,6 +343,7 @@ details.desc-disclaimer[open] summary::before {
     <div id="desc-meta-bar" class="desc-meta-bar"></div>
     <div id="desc-plots-grid" class="desc-plots-grid"></div>
     <div id="desc-stats-section" class="desc-stats-section"></div>
+    <div id="desc-similar"></div>
     <div id="desc-back-link" class="desc-back-link"></div>
   </div>
 
@@ -357,6 +370,7 @@ let tableData = [];
 let datasetLookup = {};  // short_id + full dataset_id -> datasets_table row
 const dataCache = new Map();  // full dataset_id -> parsed dataset JSON
 let currentDatasetId = null;
+let similarCache = null;  // similar_items.json, loaded once on first use
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
 
@@ -676,6 +690,8 @@ function renderItemView(dsId, item, itemData) {
 
   renderPlots(itemData, dsId, item);
   renderStatsTable(itemData);
+  clearElement(document.getElementById('desc-similar'));
+  renderSimilarItems(dsId, item);  // fire-and-forget
 
   const backLink = clearElement(document.getElementById('desc-back-link'));
   if (meta) {
@@ -825,6 +841,62 @@ function renderPlots(itemData, dsId, item) {
     <div class="desc-modes-chart">${colsHtml}</div>
   `;
   grid.appendChild(modesPanel);
+}
+
+// ── Similar items ────────────────────────────────────────────────────────────
+
+async function renderSimilarItems(dsId, item) {
+  const el = document.getElementById('desc-similar');
+  el.replaceChildren();
+
+  if (!similarCache) {
+    try {
+      const res = await fetch(`${BASE}/similarity/similar_items.json`);
+      if (!res.ok) return;
+      similarCache = await res.json();
+    } catch { return; }
+  }
+
+  const numId = dsId.replace(/_.*/, '');
+  const entry = similarCache[`${numId}_${item}`];
+  if (!entry?.neighbors?.length) return;
+
+  const section = document.createElement('div');
+  section.className = 'desc-similar-section';
+  appendTextElement(section, 'h3', 'Similar items in other datasets', 'desc-similar-heading');
+
+  const note = document.createElement('p');
+  note.className = 'desc-similar-note';
+  note.innerHTML = 'Ranked by semantic similarity of item descriptions. Scores reflect how items were phrased rather than the underlying construct alone, so two items measuring the same thing may score lower than expected if worded differently, and vice versa. <a href="/docs/technical/#item-similarity">Technical details →</a>';
+  section.appendChild(note);
+
+  const ul = document.createElement('ul');
+  ul.className = 'desc-similar-list';
+
+  for (const n of entry.neighbors) {
+    const slug = datasetLookup[n.dataset_id]?.dataset_id ?? n.dataset_id;
+    const meta = datasetLookup[n.dataset_id];
+    const dsLabel = meta ? ` (${meta.first_author}, ${meta.year})` : ` (${n.dataset_id})`;
+
+    const li = document.createElement('li');
+
+    const a = document.createElement('a');
+    a.href = `?${new URLSearchParams({ dataset: slug, item: n.variable_name })}`;
+    a.textContent = n.variable_name;
+    li.appendChild(a);
+
+    li.appendChild(document.createTextNode(`${dsLabel}: ${n.description} `));
+
+    const score = document.createElement('span');
+    score.className = 'desc-similar-score';
+    score.textContent = `(${Math.round(n.similarity * 100)}%)`;
+    li.appendChild(score);
+
+    ul.appendChild(li);
+  }
+
+  section.appendChild(ul);
+  el.appendChild(section);
 }
 
 // ── Stats table rendering ────────────────────────────────────────────────────

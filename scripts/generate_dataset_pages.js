@@ -194,7 +194,7 @@ ${data.paper_doi ? `<li><strong>Paper DOI:</strong> <a href="${data.paper_doi}">
 
 <div class="dataset-links">
 ${data.zenodo_doi ? `<p><strong>Harmonized Data (Zenodo):</strong> <a href="${zenodoUrl}">${data.zenodo_doi}</a></p>` : ''}
-${isValidUrl(data.link_to_data) ? `<p><strong>Original Source Data:</strong> <a href="${data.link_to_data}">${data.link_to_data}</a> <span class="dataset-link-note">(not harmonized — for reference only)</span></p>` : ''}
+${isValidUrl(data.link_to_data) ? `<p><strong>Original Source Data:</strong> <a href="${data.link_to_data}">${data.link_to_data}</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>` : ''}
 ${isValidUrl(data.link_to_codebook) ? `<p><strong>Codebook:</strong> <a href="${data.link_to_codebook}">${data.link_to_codebook}</a></p>` : ''}
 ${isValidUrl(data.link_to_code) ? `<p><strong>Code:</strong> <a href="${data.link_to_code}">${data.link_to_code}</a></p>` : ''}
 </div>
@@ -213,7 +213,7 @@ ${changelogContent}
 
 ## Variables
 
-${data.features.some(f => descriptivesSet.has(`${data.dataset_id}|${f.name}`)) ? '<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref \"/descriptives/\" >}}">Descriptives</a> page.</p>\n\n' : ''}| Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
+${data.features.some(f => descriptivesSet.has(`${data.dataset_id}|${f.name}`)) ? '<p class="dataset-note">Linked variable names point to item-level distributional statistics on the <a href="{{< relref \"/descriptives/\" >}}">Descriptives</a> page.</p>\n\n' : ''}| Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 ${data.features.map(feature => {
         const descKey = `${data.dataset_id}|${feature.name}`;
