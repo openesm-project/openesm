@@ -13,6 +13,7 @@ This section covers the technical aspects of how openESM works, including infras
 	<a class="docs-topic-chip" href="#metadata-repository">Metadata repository</a>
 	<a class="docs-topic-chip" href="#website-repository">Website repository</a>
 	<a class="docs-topic-chip" href="#descriptives-pipeline">Descriptives pipeline</a>
+	<>
 </div>
 
 ## System Architecture
@@ -85,5 +86,14 @@ view when data is available.
 > the preprocessing appropriate for a given research question. Do not use
 > them directly in scientific publications without replicating the analysis
 > on the underlying data.
+
+## Item Similarity
+
+Each item in the descriptives explorer shows up to 10 similar items from other datasets. Similarity is computed offline using a local sentence embedding model ([BAAI/bge-large-en-v1.5](https://huggingface.co/BAAI/bge-large-en-v1.5)) via [sentence-transformers](https://sbert.net/index.html), applied to each item's description and details text. Embeddings are compared with cosine similarity, and the top 10 cross-dataset neighbors per item are stored as precomputed JSON, so no computation happens at browsing time.
+
+Because similarity is based on item wording rather than construct labels, scores also reflect how questions are phrased. Two items measuring the same construct may score lower if worded differently; two items phrased similarly may score high even if they target different constructs.
+
+The code for similarity computation is in the [openesm-cleaning](https://github.com/openesm-project/openesm-cleaning) repository.
+
 
 </div>
