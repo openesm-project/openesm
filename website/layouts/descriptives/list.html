@@ -857,6 +857,8 @@ async function renderSimilarItems(dsId, item) {
   const numId = dsId.replace(/_.*/, '');
   const entry = similarCache[`${numId}_${item}`];
   if (!entry?.neighbors?.length) return;
+  const liveNeighbors = entry.neighbors.filter(n => datasetLookup[n.dataset_id]);
+  if (!liveNeighbors.length) return;
 
   const section = document.createElement('div');
   section.className = 'desc-similar-section';
@@ -867,7 +869,7 @@ async function renderSimilarItems(dsId, item) {
   note.innerHTML = 'Ranked by semantic similarity of item descriptions. Scores reflect how items were phrased rather than the underlying construct alone, so two items measuring the same thing may score lower than expected if worded differently, and vice versa. <a href="/docs/technical/#item-similarity">Technical details →</a>';
   section.appendChild(note);
 
-  const rows = entry.neighbors.map(n => {
+  const rows = liveNeighbors.map(n => {
     const slug = datasetLookup[n.dataset_id]?.dataset_id ?? n.dataset_id;
     const meta = datasetLookup[n.dataset_id];
     const dsLabel = meta ? `${meta.first_author} (${meta.year})` : n.dataset_id;
