@@ -40,8 +40,8 @@ The website repository contains the static site files, including markdown files 
 ## Descriptives Pipeline
 
 The [descriptives explorer](/descriptives/) shows item-level distributional
-statistics — per-participant means, SDs, skewness, floor/ceiling effects,
-and mode counts — for datasets where cleaned data is available.
+statistics (per-participant means, SDs, skewness, floor/ceiling effects,
+and mode counts) for datasets where cleaned data is available.
 
 **Computation** runs in the
 [openesm-cleaning](https://github.com/bsiepe/openesm-cleaning) repository,

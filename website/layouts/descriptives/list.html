@@ -1,6 +1,6 @@
 {{- define "main" }}
 <style>
-.desc-description { color: #555; max-width: 65ch; margin-bottom: 1.5rem; }
+.desc-description { color: #555; max-width: 120ch; margin-bottom: 1.5rem; }
 
 .desc-selectors {
   display: flex;
@@ -268,12 +268,9 @@ details.desc-disclaimer[open] summary::before {
 
 /* Similar items */
 .desc-similar-section { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-gray); }
-.desc-similar-heading { font-size: 1rem; font-weight: 700; margin: 0 0 0.75rem; }
-.desc-similar-list { list-style: none; padding: 0; margin: 0; }
-.desc-similar-list li { padding: 0.4rem 0; border-bottom: 1px solid var(--border-gray); font-size: 0.92rem; }
-.desc-similar-list li:last-child { border-bottom: none; }
-.desc-similar-score { color: #888; font-size: 0.85em; }
-.desc-similar-note { font-size: 0.83rem; color: #666; margin: 0 0 0.75rem; line-height: 1.5; }
+.desc-similar-heading { font-size: 1rem; font-weight: 700; margin: 0 0 0.5rem; }
+.desc-similar-note { font-size: 0.83rem; color: #666; margin: 0 0 0.85rem; line-height: 1.5; }
+.desc-similar-section table { margin-top: 0; }
 
 /* Error */
 .desc-error {
@@ -870,32 +867,19 @@ async function renderSimilarItems(dsId, item) {
   note.innerHTML = 'Ranked by semantic similarity of item descriptions. Scores reflect how items were phrased rather than the underlying construct alone, so two items measuring the same thing may score lower than expected if worded differently, and vice versa. <a href="/docs/technical/#item-similarity">Technical details →</a>';
   section.appendChild(note);
 
-  const ul = document.createElement('ul');
-  ul.className = 'desc-similar-list';
-
-  for (const n of entry.neighbors) {
+  const rows = entry.neighbors.map(n => {
     const slug = datasetLookup[n.dataset_id]?.dataset_id ?? n.dataset_id;
     const meta = datasetLookup[n.dataset_id];
-    const dsLabel = meta ? ` (${meta.first_author}, ${meta.year})` : ` (${n.dataset_id})`;
-
-    const li = document.createElement('li');
+    const dsLabel = meta ? `${meta.first_author} (${meta.year})` : n.dataset_id;
 
     const a = document.createElement('a');
     a.href = `?${new URLSearchParams({ dataset: slug, item: n.variable_name })}`;
     a.textContent = n.variable_name;
-    li.appendChild(a);
 
-    li.appendChild(document.createTextNode(`${dsLabel}: ${n.description} `));
+    return [a, n.description, dsLabel, `${Math.round(n.similarity * 100)}%`];
+  });
 
-    const score = document.createElement('span');
-    score.className = 'desc-similar-score';
-    score.textContent = `(${Math.round(n.similarity * 100)}%)`;
-    li.appendChild(score);
-
-    ul.appendChild(li);
-  }
-
-  section.appendChild(ul);
+  section.appendChild(buildTable(['Item', 'Description', 'Dataset', 'Similarity'], rows));
   el.appendChild(section);
 }
 
@@ -951,7 +935,7 @@ function renderStatsTable(itemData) {
     note.textContent = ' (singular)';
     iccCell.appendChild(note);
   }
-  overviewCol.appendChild(buildTable(null, [
+  overviewCol.appendChild(buildTable(['Metric', 'Value'], [
     ['N included', String(itemData.n_included)],
     ['N excluded', excText],
     ['ICC', iccCell],
