@@ -578,7 +578,7 @@ body .main {
 .dataset-access-box {
   border: 1px solid var(--border-gray);
   border-radius: 6px;
-  background: var(--light-gray);
+  background: white;
   padding: 1.25rem 1.5rem;
   margin: 0 0 1.75rem 0;
 }
@@ -587,7 +587,8 @@ body .main {
   margin-top: 0 !important;
   margin-bottom: 0.6rem !important;
   font-size: 1.25rem;
-  color: var(--primary-blue);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border-gray);
 }
 
 .dataset-access-doi {
@@ -651,9 +652,11 @@ body .main {
   font-size: 0.9rem;
 }
 
-/* Links section within Data Availability */
+/* Links section within Data Availability card */
 .dataset-links {
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-gray);
 }
 
 .dataset-links p {

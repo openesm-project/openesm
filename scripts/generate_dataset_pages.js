@@ -186,17 +186,19 @@ ${data.paper_doi ? `<li><strong>Paper DOI:</strong> <a href="${data.paper_doi}">
 </div>
 </div>
 
-## Data Availability
-
-- **Cross-sectional Data:** ${data.cross_sectional_available || 'not specified'}
-- **Passive Sensor Data:** ${data.passive_data_available || 'not specified'}
-- **License:** ${data.license || 'not specified'}
-
+<div class="dataset-meta-card">
+<h2>Data Availability</h2>
+<ul>
+<li><strong>Cross-sectional Data:</strong> ${data.cross_sectional_available || 'not specified'}</li>
+<li><strong>Passive Sensor Data:</strong> ${data.passive_data_available || 'not specified'}</li>
+<li><strong>License:</strong> ${data.license || 'not specified'}</li>
+</ul>
 <div class="dataset-links">
 ${data.zenodo_doi ? `<p><strong>Harmonized Data (Zenodo):</strong> <a href="${zenodoUrl}">${data.zenodo_doi}</a></p>` : ''}
 ${isValidUrl(data.link_to_data) ? `<p><strong>Original Source Data:</strong> <a href="${data.link_to_data}">${data.link_to_data}</a> <span class="dataset-link-note">(not harmonized, for reference only)</span></p>` : ''}
 ${isValidUrl(data.link_to_codebook) ? `<p><strong>Codebook:</strong> <a href="${data.link_to_codebook}">${data.link_to_codebook}</a></p>` : ''}
 ${isValidUrl(data.link_to_code) ? `<p><strong>Code:</strong> <a href="${data.link_to_code}">${data.link_to_code}</a></p>` : ''}
+</div>
 </div>
 
 ${data.additional_comments ? `## Additional Comments\n\n${data.additional_comments}\n` : ''}
