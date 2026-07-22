@@ -1,6 +1,6 @@
 ---
 title: "Tammilehto (2022)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0054_tammilehto"
 first_author: "Tammilehto"
@@ -80,6 +80,8 @@ Tammilehto, J., Bosmans ,Guy, Kuppens ,Peter, Flykt ,Marjo, Peltonen ,Kirsi, Ker
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -87,12 +89,12 @@ Tammilehto, J., Bosmans ,Guy, Kuppens ,Peter, Flykt ,Marjo, Peltonen ,Kirsi, Ker
 | beep | Beep of the day | other |  | not available |  |  |  | ESM |  |  |
 | discrete_time | Discrete time since study beginning | numeric | 92 | Discrete time (1 hour and 43 min blocks) | 1= first block<br>92 = last block |  |  | ESM |  |  |
 | time_elapsed | Time elapsed | numeric |  | Time of receiving EMA questionnaires in hours from the<br>beginning of the study |  |  |  | ESM |  |  |
-| reappraisal | Reappraisal | rating_scale | 5 | I thought about the situation in a more positive way |  |  |  | ESM | reappraisal, emotion regulation |  |
-| rumination | Rumination | rating_scale | 5 | I thought over and over again about the negative situation and<br>feelings |  |  |  | ESM | rumination, emotion regulation |  |
-| suppression | Suppression | rating_scale | 5 | I avoided showing my situation-elicited negative feelings |  |  |  | ESM | suppression, emotion regulation |  |
-| feel_loved | Feeling loved | rating_scale | 7 | I feel loved |  |  | State Adult Attachment Measure | ESM | attachment security, attachment |  |
-| rely_on | Rely on someone | rating_scale | 7 | I feel like I have someone to rely on |  |  | State Adult Attachment Measure | ESM | attachment security, attachment, social support |  |
-| need_love | Need for love | rating_scale | 7 | I feel a strong need to be unconditionally loved right now |  |  | State Adult Attachment Measure | ESM | attachment anxiety, attachment, social needs |  |
-| share_feelings | Wanting to share feelings | rating_scale | 7 | I want to share my feelings with someone |  |  | State Adult Attachment Measure | ESM | attachment anxiety, attachment, social needs |  |
-| keep_distance | Keeping distance | rating_scale | 7 | If someone tried to get close to me, I would try to keep my<br>distance |  |  | State Adult Attachment Measure | ESM | attachment avoidance, attachment, social behavior |  |
-| closeness_nervous | Emotional closeness makes nervous | rating_scale | 7 | The idea of being emotionally close to someone makes me<br>nervous |  |  | State Adult Attachment Measure | ESM | attachment avoidance, attachment, social anxiety |  |
+| [reappraisal]({{< relref "/descriptives/" >}}?dataset=0054&item=reappraisal) | Reappraisal | rating_scale | 5 | I thought about the situation in a more positive way |  |  |  | ESM | reappraisal, emotion regulation |  |
+| [rumination]({{< relref "/descriptives/" >}}?dataset=0054&item=rumination) | Rumination | rating_scale | 5 | I thought over and over again about the negative situation and<br>feelings |  |  |  | ESM | rumination, emotion regulation |  |
+| [suppression]({{< relref "/descriptives/" >}}?dataset=0054&item=suppression) | Suppression | rating_scale | 5 | I avoided showing my situation-elicited negative feelings |  |  |  | ESM | suppression, emotion regulation |  |
+| [feel_loved]({{< relref "/descriptives/" >}}?dataset=0054&item=feel_loved) | Feeling loved | rating_scale | 7 | I feel loved |  |  | State Adult Attachment Measure | ESM | attachment security, attachment |  |
+| [rely_on]({{< relref "/descriptives/" >}}?dataset=0054&item=rely_on) | Rely on someone | rating_scale | 7 | I feel like I have someone to rely on |  |  | State Adult Attachment Measure | ESM | attachment security, attachment, social support |  |
+| [need_love]({{< relref "/descriptives/" >}}?dataset=0054&item=need_love) | Need for love | rating_scale | 7 | I feel a strong need to be unconditionally loved right now |  |  | State Adult Attachment Measure | ESM | attachment anxiety, attachment, social needs |  |
+| [share_feelings]({{< relref "/descriptives/" >}}?dataset=0054&item=share_feelings) | Wanting to share feelings | rating_scale | 7 | I want to share my feelings with someone |  |  | State Adult Attachment Measure | ESM | attachment anxiety, attachment, social needs |  |
+| [keep_distance]({{< relref "/descriptives/" >}}?dataset=0054&item=keep_distance) | Keeping distance | rating_scale | 7 | If someone tried to get close to me, I would try to keep my<br>distance |  |  | State Adult Attachment Measure | ESM | attachment avoidance, attachment, social behavior |  |
+| [closeness_nervous]({{< relref "/descriptives/" >}}?dataset=0054&item=closeness_nervous) | Emotional closeness makes nervous | rating_scale | 7 | The idea of being emotionally close to someone makes me<br>nervous |  |  | State Adult Attachment Measure | ESM | attachment avoidance, attachment, social anxiety |  |

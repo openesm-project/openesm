@@ -1,6 +1,6 @@
 ---
 title: "Hoebeke (2022)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0013_hoebeke"
 first_author: "Hoebeke"
@@ -80,6 +80,8 @@ Hoebeke, Y., Blanchard, M. A., Contreras, A., & Heeren, A. (2022). An experience
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -90,10 +92,10 @@ Hoebeke, Y., Blanchard, M. A., Contreras, A., & Heeren, A. (2022). An experience
 | modified | Time of modification | PosixCt |  |  |  |  |  | ESM |  |  |
 | ended | Time of ending | PosixCt |  |  |  |  |  | ESM |  |  |
 | expired | Time of expiring | PosixCt |  |  |  |  |  | ESM |  |  |
-| activity | unclear, likely: Absorption in activity | rating_scale | 101 | unclear |  |  |  | ESM |  |  |
-| perseverance | Perseverance | rating_scale | 101 | How much time did you spend thinking of one or more emotional<br>experiences? | 0 = None<br>100 = All the time |  |  | ESM | rumination, emotion regulation |  |
-| negativity | Negativity | rating_scale | 101 | To what extent were your thoughts negative? | 0 = Not at all<br>100 = Extremely |  |  | ESM | negative thinking, negativity |  |
-| self_criticism | Self-criticism | rating_scale | 101 | To what extent were your thoughts self-critical? | 0 = Not at all<br>100 = Extremely |  |  | ESM | self-critical thinking, criticism |  |
-| brooding | Brooding | rating_scale | 101 | How much did you think about the causes and consequences of <br>emotional experiences? | 0 = Not at all<br>100 = Absolutely |  |  | ESM | rumination, emotion-focused reflection |  |
-| replaying | Replaying | rating_scale | 101 | To what extent have you mentally replayed emotional experiences that <br>you’ve had? | 0 = Not at all<br>100 = Absolutely |  |  | ESM | rumination, emotion regulation |  |
-| att_control | Executive control | rating_scale | 101 | unclear |  |  |  | ESM | executive control |  |
+| [activity]({{< relref "/descriptives/" >}}?dataset=0013&item=activity) | unclear, likely: Absorption in activity | rating_scale | 101 | unclear |  |  |  | ESM |  |  |
+| [perseverance]({{< relref "/descriptives/" >}}?dataset=0013&item=perseverance) | Perseverance | rating_scale | 101 | How much time did you spend thinking of one or more emotional<br>experiences? | 0 = None<br>100 = All the time |  |  | ESM | rumination, emotion regulation |  |
+| [negativity]({{< relref "/descriptives/" >}}?dataset=0013&item=negativity) | Negativity | rating_scale | 101 | To what extent were your thoughts negative? | 0 = Not at all<br>100 = Extremely |  |  | ESM | negative thinking, negativity |  |
+| [self_criticism]({{< relref "/descriptives/" >}}?dataset=0013&item=self_criticism) | Self-criticism | rating_scale | 101 | To what extent were your thoughts self-critical? | 0 = Not at all<br>100 = Extremely |  |  | ESM | self-critical thinking, criticism |  |
+| [brooding]({{< relref "/descriptives/" >}}?dataset=0013&item=brooding) | Brooding | rating_scale | 101 | How much did you think about the causes and consequences of <br>emotional experiences? | 0 = Not at all<br>100 = Absolutely |  |  | ESM | rumination, emotion-focused reflection |  |
+| [replaying]({{< relref "/descriptives/" >}}?dataset=0013&item=replaying) | Replaying | rating_scale | 101 | To what extent have you mentally replayed emotional experiences that <br>you’ve had? | 0 = Not at all<br>100 = Absolutely |  |  | ESM | rumination, emotion regulation |  |
+| [att_control]({{< relref "/descriptives/" >}}?dataset=0013&item=att_control) | Executive control | rating_scale | 101 | unclear |  |  |  | ESM | executive control |  |

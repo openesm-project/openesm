@@ -1,6 +1,6 @@
 ---
 title: "Rowland (2020)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0006_rowland"
 first_author: "Rowland"
@@ -77,16 +77,18 @@ Rowland, Z., & Wenzel, M. (2020). Mindfulness and affect-network density: does m
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
-| happy | Happy | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | happiness, positive affect, affect | "We assessed affect in terms of eight common emotional states (e.g., Kuppens et al. 2010), which were based on the affective circumplex model (Russell 2003)." |
-| excited | Excited | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | excitement, positive affect, affect, extraversion, big five |  |
-| relaxed | Relaxed | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| satisfied | Satisfied | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | satisfaction, positive affect, affect |  |
-| angry | Angry | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | anger, negative affect, affect |  |
-| anxious | Anxious | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
-| depressed | Depressed | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
-| sad | Sad | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | sadness, negative affect, affect |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0006&item=happy) | Happy | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | happiness, positive affect, affect | "We assessed affect in terms of eight common emotional states (e.g., Kuppens et al. 2010), which were based on the affective circumplex model (Russell 2003)." |
+| [excited]({{< relref "/descriptives/" >}}?dataset=0006&item=excited) | Excited | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | excitement, positive affect, affect, extraversion, big five |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0006&item=relaxed) | Relaxed | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [satisfied]({{< relref "/descriptives/" >}}?dataset=0006&item=satisfied) | Satisfied | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | satisfaction, positive affect, affect |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0006&item=angry) | Angry | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | anger, negative affect, affect |  |
+| [anxious]({{< relref "/descriptives/" >}}?dataset=0006&item=anxious) | Anxious | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
+| [depressed]({{< relref "/descriptives/" >}}?dataset=0006&item=depressed) | Depressed | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | depression, negative affect, affect, neuroticism, big five, psychopathology |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0006&item=sad) | Sad | rating_scale | 101 |  | 0 (not at all) to 100 (very much) | within-person centered |  | ESM | sadness, negative affect, affect |  |

@@ -1,6 +1,6 @@
 ---
 title: "Dejonckheere (2019)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0012_dejonckheere"
 first_author: "Dejonckheere"
@@ -81,14 +81,16 @@ Dejonckheere, E., Kalokerinos, E. K., Bastian, B., & Kuppens, P. (2019). Poor em
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | numeric |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | numeric |  |  |  |  |  | ESM |  |  |
 | counter | Counter | numeric |  |  |  |  |  | ESM |  |  |
-| happy | Happiness | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | happiness, positive affect, affect |  |
-| relaxed | Relaxation | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| sad | Sadness | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | sadness, negative affect, affect |  |
-| angry | Angry | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | anger, negative affect, affect |  |
-| stressed | Stress | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0012&item=happy) | Happiness | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | happiness, positive affect, affect |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0012&item=relaxed) | Relaxation | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0012&item=sad) | Sadness | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | sadness, negative affect, affect |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0012&item=angry) | Angry | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | anger, negative affect, affect |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0012&item=stressed) | Stress | rating_scale | 101 |  | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |

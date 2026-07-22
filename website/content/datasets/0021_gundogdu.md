@@ -1,6 +1,6 @@
 ---
 title: "Gundogdu (2017)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0021_gundogdu"
 first_author: "Gundogdu"
@@ -80,6 +80,8 @@ Gundogdu, D., Finnerty, A. N., Staiano, J., Teso, S., Passerini, A., Pianesi, F.
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -87,8 +89,8 @@ Gundogdu, D., Finnerty, A. N., Staiano, J., Teso, S., Passerini, A., Pianesi, F.
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | date | Date | PosixCt |  |  |  |  |  | ESM |  |  |
 | timestamp | Timestamp | other |  | Timestamp in unix time |  |  |  | ESM |  |  |
-| extraversion | Extraversion | rating_scale | 7 | ‘extraverted, enthusiastic’ and ‘reserved, quiet’ (reversed)<br><br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | extraversion, big five |  |
-| agreeableness | Agreeableness | rating_scale | 7 | ‘sympathetic, warm’ and ‘critical, quarrelsome’ (reversed)<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | agreeableness, big five |  |
-| conscientiousness | Conscientiousness | rating_scale | 7 | ‘dependable, self-disciplined’ and ‘disorganized, careless’ (reversed)<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | conscientiousness, big five |  |
-| emotional_stability | Emotional stability | rating_scale | 7 | ‘calm, emotionally stable’ and ‘anxious, easily upset’<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | neuroticism, big five |  |
-| openness | Openness to experience | rating_scale | 7 | ‘open to new experiences, complex’ and ‘conventional, uncreative’ (reversed)<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | openness, big five |  |
+| [extraversion]({{< relref "/descriptives/" >}}?dataset=0021&item=extraversion) | Extraversion | rating_scale | 7 | ‘extraverted, enthusiastic’ and ‘reserved, quiet’ (reversed)<br><br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | extraversion, big five |  |
+| [agreeableness]({{< relref "/descriptives/" >}}?dataset=0021&item=agreeableness) | Agreeableness | rating_scale | 7 | ‘sympathetic, warm’ and ‘critical, quarrelsome’ (reversed)<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | agreeableness, big five |  |
+| [conscientiousness]({{< relref "/descriptives/" >}}?dataset=0021&item=conscientiousness) | Conscientiousness | rating_scale | 7 | ‘dependable, self-disciplined’ and ‘disorganized, careless’ (reversed)<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | conscientiousness, big five |  |
+| [emotional_stability]({{< relref "/descriptives/" >}}?dataset=0021&item=emotional_stability) | Emotional stability | rating_scale | 7 | ‘calm, emotionally stable’ and ‘anxious, easily upset’<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | neuroticism, big five |  |
+| [openness]({{< relref "/descriptives/" >}}?dataset=0021&item=openness) | Openness to experience | rating_scale | 7 | ‘open to new experiences, complex’ and ‘conventional, uncreative’ (reversed)<br>During the last half hour, how ... have you been? | 1 = Strongly disagree<br>7 = Strongly agree | mean-scored | Ten-Item Personality Inventory | ESM | openness, big five |  |

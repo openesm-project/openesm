@@ -1,6 +1,6 @@
 ---
 title: "Fisher (2017)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0033_fisher"
 first_author: "Fisher"
@@ -80,6 +80,8 @@ Fisher, A. J., Reeves, J. W., Lawyer, G., Medaglia, J. D., & Rubel, J. A. (2017)
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -87,29 +89,29 @@ Fisher, A. J., Reeves, J. W., Lawyer, G., Medaglia, J. D., & Rubel, J. A. (2017)
 | beep | Beep of the day | other |  | NA |  |  |  | ESM |  |  |
 | start | Start time survey | PosixCt |  |  |  |  |  | ESM |  |  |
 | finish | Finish time survey | PosixCt |  |  |  |  |  | ESM | task completion, executive functioning, self-regulation |  |
-| energetic | Energetic | rating_scale | 101 | To what degree have you felt energetic? | 0 = none at all<br>100 = as much as possible |  |  | ESM | energy, positive affect, affect, big five, extraversion |  |
-| enthusiastic | Enthusiastic | rating_scale | 101 | To what degree have you felt enthusiastic? | 0 = none at all<br>100 = as much as possible |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
-| content | Content | rating_scale | 101 | To what degree have you felt content? | 0 = none at all<br>100 = as much as possible |  |  | ESM | content, positive affect, affect |  |
-| irritable | Irritable | rating_scale | 101 | To what degree have you felt irritable? | 0 = none at all<br>100 = as much as possible |  |  | ESM | irritability, negative affect, affect, neuroticism, big five |  |
-| restless | Restless | rating_scale | 101 | To what degree have you felt restless? | 0 = none at all<br>100 = as much as possible |  |  | ESM | restlessness, fidgety, anxiety, negative affect, affect |  |
-| worried | Worried | rating_scale | 101 | To what degree have you felt worried? | 0 = none at all<br>100 = as much as possible |  |  | ESM | worry, anxiety, negative affect, affect, neuroticism, big five |  |
-| guilty | Guilty/Worthless | rating_scale | 101 | To what degree have you felt worthless or guilty? | 0 = none at all<br>100 = as much as possible |  |  | ESM | guilt, negative affect, affect |  |
-| afraid | Afraid | rating_scale | 101 | To what degree have you felt frightened or afraid? | 0 = none at all<br>100 = as much as possible |  |  | ESM | fear, negative affect, affect, neuroticism, big five |  |
-| anhedonia | Anhedonia | rating_scale | 101 | To what degree have you experienced loss of interest or pleasure? | 0 = none at all<br>100 = as much as possible |  |  | ESM | anhedonia, depression, psychopathology |  |
-| angry | Angry | rating_scale | 101 | To what degree have you felt angry? | 0 = none at all<br>100 = as much as possible |  |  | ESM | anger, negative affect, affect |  |
-| hopeless | Hopeless | rating_scale | 101 | To what degree have you felt hopeless? | 0 = none at all<br>100 = as much as possible |  |  | ESM | hopelessness, depression, psychopathology |  |
-| down | Down/Depressed | rating_scale | 101 | To what degree have you felt down or depressed? | 0 = none at all<br>100 = as much as possible |  |  | ESM | negative affect, affect |  |
-| positive | Positive | rating_scale | 101 | To what degree have you felt positive? | 0 = none at all<br>100 = as much as possible |  |  | ESM | positive affect, affect |  |
-| fatigue | Fatigue | rating_scale | 101 | To what degree have you felt fatigued? | 0 = none at all<br>100 = as much as possible |  |  | ESM | fatigue, negative affect, affect |  |
-| muscle_tension | Muscle tension | rating_scale | 101 | To what degree have you experienced muscle tension? | 0 = none at all<br>100 = as much as possible |  |  | ESM | tensioned muscles, anxiety |  |
-| difficulty_concentrating | Concentration problems | rating_scale | 101 | To what degree did you have difficulty concentrating? | 0 = none at all<br>100 = as much as possible |  |  | ESM | concentration, executive functioning, attention |  |
-| accepted | Accepted | rating_scale | 101 | unclear |  |  |  | ESM | acceptance, social belonging, social functioning |  |
-| threatened | Threatened | rating_scale | 101 | unclear |  |  |  | ESM | threat perception, social cognition |  |
-| rumination | Rumination | rating_scale | 101 | unclear, but likely: To what degree have you dwelled on the past? |  |  |  | ESM | rumination, emotion regulation |  |
-| avoid_activity | Avoided activities | rating_scale | 101 | To what degree did you avoid activities? | 0 = none at all<br>100 = as much as possible |  |  | ESM | activity avoidance, avoidance |  |
-| reassure | Sought reassurance | rating_scale | 101 | To what degree did you seek reassurance? | 0 = none at all<br>100 = as much as possible |  |  | ESM | coping, social support, emotion regulation, social behavior |  |
-| procrastination | Procrastinated | rating_scale | 101 | To what degree did you procrastinate? | 0 = none at all<br>100 = as much as possible |  |  | ESM | procrastination, activity |  |
+| [energetic]({{< relref "/descriptives/" >}}?dataset=0033&item=energetic) | Energetic | rating_scale | 101 | To what degree have you felt energetic? | 0 = none at all<br>100 = as much as possible |  |  | ESM | energy, positive affect, affect, big five, extraversion |  |
+| [enthusiastic]({{< relref "/descriptives/" >}}?dataset=0033&item=enthusiastic) | Enthusiastic | rating_scale | 101 | To what degree have you felt enthusiastic? | 0 = none at all<br>100 = as much as possible |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
+| [content]({{< relref "/descriptives/" >}}?dataset=0033&item=content) | Content | rating_scale | 101 | To what degree have you felt content? | 0 = none at all<br>100 = as much as possible |  |  | ESM | content, positive affect, affect |  |
+| [irritable]({{< relref "/descriptives/" >}}?dataset=0033&item=irritable) | Irritable | rating_scale | 101 | To what degree have you felt irritable? | 0 = none at all<br>100 = as much as possible |  |  | ESM | irritability, negative affect, affect, neuroticism, big five |  |
+| [restless]({{< relref "/descriptives/" >}}?dataset=0033&item=restless) | Restless | rating_scale | 101 | To what degree have you felt restless? | 0 = none at all<br>100 = as much as possible |  |  | ESM | restlessness, fidgety, anxiety, negative affect, affect |  |
+| [worried]({{< relref "/descriptives/" >}}?dataset=0033&item=worried) | Worried | rating_scale | 101 | To what degree have you felt worried? | 0 = none at all<br>100 = as much as possible |  |  | ESM | worry, anxiety, negative affect, affect, neuroticism, big five |  |
+| [guilty]({{< relref "/descriptives/" >}}?dataset=0033&item=guilty) | Guilty/Worthless | rating_scale | 101 | To what degree have you felt worthless or guilty? | 0 = none at all<br>100 = as much as possible |  |  | ESM | guilt, negative affect, affect |  |
+| [afraid]({{< relref "/descriptives/" >}}?dataset=0033&item=afraid) | Afraid | rating_scale | 101 | To what degree have you felt frightened or afraid? | 0 = none at all<br>100 = as much as possible |  |  | ESM | fear, negative affect, affect, neuroticism, big five |  |
+| [anhedonia]({{< relref "/descriptives/" >}}?dataset=0033&item=anhedonia) | Anhedonia | rating_scale | 101 | To what degree have you experienced loss of interest or pleasure? | 0 = none at all<br>100 = as much as possible |  |  | ESM | anhedonia, depression, psychopathology |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0033&item=angry) | Angry | rating_scale | 101 | To what degree have you felt angry? | 0 = none at all<br>100 = as much as possible |  |  | ESM | anger, negative affect, affect |  |
+| [hopeless]({{< relref "/descriptives/" >}}?dataset=0033&item=hopeless) | Hopeless | rating_scale | 101 | To what degree have you felt hopeless? | 0 = none at all<br>100 = as much as possible |  |  | ESM | hopelessness, depression, psychopathology |  |
+| [down]({{< relref "/descriptives/" >}}?dataset=0033&item=down) | Down/Depressed | rating_scale | 101 | To what degree have you felt down or depressed? | 0 = none at all<br>100 = as much as possible |  |  | ESM | negative affect, affect |  |
+| [positive]({{< relref "/descriptives/" >}}?dataset=0033&item=positive) | Positive | rating_scale | 101 | To what degree have you felt positive? | 0 = none at all<br>100 = as much as possible |  |  | ESM | positive affect, affect |  |
+| [fatigue]({{< relref "/descriptives/" >}}?dataset=0033&item=fatigue) | Fatigue | rating_scale | 101 | To what degree have you felt fatigued? | 0 = none at all<br>100 = as much as possible |  |  | ESM | fatigue, negative affect, affect |  |
+| [muscle_tension]({{< relref "/descriptives/" >}}?dataset=0033&item=muscle_tension) | Muscle tension | rating_scale | 101 | To what degree have you experienced muscle tension? | 0 = none at all<br>100 = as much as possible |  |  | ESM | tensioned muscles, anxiety |  |
+| [difficulty_concentrating]({{< relref "/descriptives/" >}}?dataset=0033&item=difficulty_concentrating) | Concentration problems | rating_scale | 101 | To what degree did you have difficulty concentrating? | 0 = none at all<br>100 = as much as possible |  |  | ESM | concentration, executive functioning, attention |  |
+| [accepted]({{< relref "/descriptives/" >}}?dataset=0033&item=accepted) | Accepted | rating_scale | 101 | unclear |  |  |  | ESM | acceptance, social belonging, social functioning |  |
+| [threatened]({{< relref "/descriptives/" >}}?dataset=0033&item=threatened) | Threatened | rating_scale | 101 | unclear |  |  |  | ESM | threat perception, social cognition |  |
+| [rumination]({{< relref "/descriptives/" >}}?dataset=0033&item=rumination) | Rumination | rating_scale | 101 | unclear, but likely: To what degree have you dwelled on the past? |  |  |  | ESM | rumination, emotion regulation |  |
+| [avoid_activity]({{< relref "/descriptives/" >}}?dataset=0033&item=avoid_activity) | Avoided activities | rating_scale | 101 | To what degree did you avoid activities? | 0 = none at all<br>100 = as much as possible |  |  | ESM | activity avoidance, avoidance |  |
+| [reassure]({{< relref "/descriptives/" >}}?dataset=0033&item=reassure) | Sought reassurance | rating_scale | 101 | To what degree did you seek reassurance? | 0 = none at all<br>100 = as much as possible |  |  | ESM | coping, social support, emotion regulation, social behavior |  |
+| [procrastination]({{< relref "/descriptives/" >}}?dataset=0033&item=procrastination) | Procrastinated | rating_scale | 101 | To what degree did you procrastinate? | 0 = none at all<br>100 = as much as possible |  |  | ESM | procrastination, activity |  |
 | hours | unclear | numeric |  | unclear |  |  |  | ESM |  |  |
-| difficult | unclear | rating_scale | 101 | unclear |  |  |  | ESM |  |  |
-| unsatisfy | unclear | rating_scale | 101 | unclear |  |  |  | ESM |  |  |
-| avoid_people | Avoided people | rating_scale | 101 | To what degree did you avoid people? | 0 = none at all<br>100 = as much as possible |  |  | ESM | avoidance |  |
+| [difficult]({{< relref "/descriptives/" >}}?dataset=0033&item=difficult) | unclear | rating_scale | 101 | unclear |  |  |  | ESM |  |  |
+| [unsatisfy]({{< relref "/descriptives/" >}}?dataset=0033&item=unsatisfy) | unclear | rating_scale | 101 | unclear |  |  |  | ESM |  |  |
+| [avoid_people]({{< relref "/descriptives/" >}}?dataset=0033&item=avoid_people) | Avoided people | rating_scale | 101 | To what degree did you avoid people? | 0 = none at all<br>100 = as much as possible |  |  | ESM | avoidance |  |

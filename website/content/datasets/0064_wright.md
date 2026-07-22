@@ -1,6 +1,6 @@
 ---
 title: "Wright (2017)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0064_wright"
 first_author: "Wright"
@@ -88,6 +88,8 @@ Wendt, L. P., Wright, A. G. C., Pilkonis, P. A., Woods, W. C., Denissen, J. J. A
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -98,34 +100,34 @@ Wendt, L. P., Wright, A. G. C., Pilkonis, P. A., Woods, W. C., Denissen, J. J. A
 | timestamp | Timestamp | numeric |  |  |  |  |  | ESM |  |  |
 | date | Date | numeric |  |  |  |  |  | ESM |  |  |
 | dyad | Dyad | numeric |  |  |  |  |  | ESM |  |  |
-| afraid | Afraid | rating_scale | 5 | Afraid | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
-| ashamed | Ashamed | rating_scale | 5 | Ashamed | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | shame, negative affect, affect |  |
-| distressed | Distressed | rating_scale | 5 | Distressed | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | distress, negative affect, affect |  |
-| guilty | Guilty | rating_scale | 5 | Guilty | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | guilt, negative affect, affect |  |
-| hostile | Hostile | rating_scale | 5 | Hostile | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | hostility, anger, negative affect, affect |  |
-| irritable | Irritable | rating_scale | 5 | Irritable | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | irritability, negative affect, affect, neuroticism, big five |  |
-| jittery | Jittery | rating_scale | 5 | Jittery | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
-| nervous | Nervous | rating_scale | 5 | Nervous | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
-| scared | Scared | rating_scale | 5 | Scared | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
-| upset | Upset | rating_scale | 5 | Upset | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | upset, negative affect, affect, neuroticism, big five |  |
-| frightened | Frightened | rating_scale | 5 | Frightened | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
-| shaky | Shaky | rating_scale | 5 | Shaky | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
-| angry | Angry | rating_scale | 5 | Angry | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | anger, negative affect, affect |  |
-| scornful | Scornful | rating_scale | 5 | Scornful | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | anger, negative affect, affect |  |
-| disgusted | Disgusted | rating_scale | 5 | Disgusted | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | disgust, negative affect, affect |  |
-| loathing | Loathing | rating_scale | 5 | Loathing | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loathing, negative affect, affect |  |
-| sad | Sad | rating_scale | 5 | Sad | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | sadness, negative affect, affect |  |
-| blue | Blue | rating_scale | 5 | Blue | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | sadness, negative affect, affect |  |
-| downhearted | Downhearted | rating_scale | 5 | Downhearted | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | negative affect, affect |  |
-| alone | Alone | rating_scale | 5 | Alone | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loneliness, social functioning, negative affect, affect |  |
-| lonely | Lonely | rating_scale | 5 | Lonely | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loneliness, social functioning, negative affect, affect |  |
-| active | Active | rating_scale | 5 | Active | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | active, energy, positive affect, affect, big five, extraversion |  |
-| alert | Alert | rating_scale | 5 | Alert | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | alertness, positive affect, affect, extraversion, big five |  |
-| attentive | Attentive | rating_scale | 5 | Attentive | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | attentiveness, positive affect, affect |  |
-| determined | Determined | rating_scale | 5 | Determined | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | determination, positive affect, affect |  |
-| enthusiastic | Enthusiastic | rating_scale | 5 | Enthusiastic | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
-| excited | Excited | rating_scale | 5 | Excited | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | excitement, positive affect, affect, extraversion, big five |  |
-| inspired | Inspired | rating_scale | 5 | Inspired | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | inspiration, positive affect, affect |  |
-| interested | Interested | rating_scale | 5 | Interested | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | interest, positive affect, affect, big five, openness |  |
-| proud | Proud | rating_scale | 5 | Proud | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | pride, positive affect, affect |  |
-| strong | Strong | rating_scale | 5 | Strong | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | strength, positive affect, affect |  |
+| [afraid]({{< relref "/descriptives/" >}}?dataset=0064&item=afraid) | Afraid | rating_scale | 5 | Afraid | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
+| [ashamed]({{< relref "/descriptives/" >}}?dataset=0064&item=ashamed) | Ashamed | rating_scale | 5 | Ashamed | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | shame, negative affect, affect |  |
+| [distressed]({{< relref "/descriptives/" >}}?dataset=0064&item=distressed) | Distressed | rating_scale | 5 | Distressed | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | distress, negative affect, affect |  |
+| [guilty]({{< relref "/descriptives/" >}}?dataset=0064&item=guilty) | Guilty | rating_scale | 5 | Guilty | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | guilt, negative affect, affect |  |
+| [hostile]({{< relref "/descriptives/" >}}?dataset=0064&item=hostile) | Hostile | rating_scale | 5 | Hostile | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | hostility, anger, negative affect, affect |  |
+| [irritable]({{< relref "/descriptives/" >}}?dataset=0064&item=irritable) | Irritable | rating_scale | 5 | Irritable | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | irritability, negative affect, affect, neuroticism, big five |  |
+| [jittery]({{< relref "/descriptives/" >}}?dataset=0064&item=jittery) | Jittery | rating_scale | 5 | Jittery | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
+| [nervous]({{< relref "/descriptives/" >}}?dataset=0064&item=nervous) | Nervous | rating_scale | 5 | Nervous | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
+| [scared]({{< relref "/descriptives/" >}}?dataset=0064&item=scared) | Scared | rating_scale | 5 | Scared | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
+| [upset]({{< relref "/descriptives/" >}}?dataset=0064&item=upset) | Upset | rating_scale | 5 | Upset | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | upset, negative affect, affect, neuroticism, big five |  |
+| [frightened]({{< relref "/descriptives/" >}}?dataset=0064&item=frightened) | Frightened | rating_scale | 5 | Frightened | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
+| [shaky]({{< relref "/descriptives/" >}}?dataset=0064&item=shaky) | Shaky | rating_scale | 5 | Shaky | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | fear, negative affect, affect, neuroticism, big five |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0064&item=angry) | Angry | rating_scale | 5 | Angry | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | anger, negative affect, affect |  |
+| [scornful]({{< relref "/descriptives/" >}}?dataset=0064&item=scornful) | Scornful | rating_scale | 5 | Scornful | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | anger, negative affect, affect |  |
+| [disgusted]({{< relref "/descriptives/" >}}?dataset=0064&item=disgusted) | Disgusted | rating_scale | 5 | Disgusted | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | disgust, negative affect, affect |  |
+| [loathing]({{< relref "/descriptives/" >}}?dataset=0064&item=loathing) | Loathing | rating_scale | 5 | Loathing | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loathing, negative affect, affect |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0064&item=sad) | Sad | rating_scale | 5 | Sad | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | sadness, negative affect, affect |  |
+| [blue]({{< relref "/descriptives/" >}}?dataset=0064&item=blue) | Blue | rating_scale | 5 | Blue | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | sadness, negative affect, affect |  |
+| [downhearted]({{< relref "/descriptives/" >}}?dataset=0064&item=downhearted) | Downhearted | rating_scale | 5 | Downhearted | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | negative affect, affect |  |
+| [alone]({{< relref "/descriptives/" >}}?dataset=0064&item=alone) | Alone | rating_scale | 5 | Alone | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loneliness, social functioning, negative affect, affect |  |
+| [lonely]({{< relref "/descriptives/" >}}?dataset=0064&item=lonely) | Lonely | rating_scale | 5 | Lonely | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | loneliness, social functioning, negative affect, affect |  |
+| [active]({{< relref "/descriptives/" >}}?dataset=0064&item=active) | Active | rating_scale | 5 | Active | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | active, energy, positive affect, affect, big five, extraversion |  |
+| [alert]({{< relref "/descriptives/" >}}?dataset=0064&item=alert) | Alert | rating_scale | 5 | Alert | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | alertness, positive affect, affect, extraversion, big five |  |
+| [attentive]({{< relref "/descriptives/" >}}?dataset=0064&item=attentive) | Attentive | rating_scale | 5 | Attentive | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | attentiveness, positive affect, affect |  |
+| [determined]({{< relref "/descriptives/" >}}?dataset=0064&item=determined) | Determined | rating_scale | 5 | Determined | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | determination, positive affect, affect |  |
+| [enthusiastic]({{< relref "/descriptives/" >}}?dataset=0064&item=enthusiastic) | Enthusiastic | rating_scale | 5 | Enthusiastic | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
+| [excited]({{< relref "/descriptives/" >}}?dataset=0064&item=excited) | Excited | rating_scale | 5 | Excited | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | excitement, positive affect, affect, extraversion, big five |  |
+| [inspired]({{< relref "/descriptives/" >}}?dataset=0064&item=inspired) | Inspired | rating_scale | 5 | Inspired | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | inspiration, positive affect, affect |  |
+| [interested]({{< relref "/descriptives/" >}}?dataset=0064&item=interested) | Interested | rating_scale | 5 | Interested | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | interest, positive affect, affect, big five, openness |  |
+| [proud]({{< relref "/descriptives/" >}}?dataset=0064&item=proud) | Proud | rating_scale | 5 | Proud | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | pride, positive affect, affect |  |
+| [strong]({{< relref "/descriptives/" >}}?dataset=0064&item=strong) | Strong | rating_scale | 5 | Strong | 1 = very slightly or not at all<br>5 = extremely |  | PANAS-X | ESM | strength, positive affect, affect |  |

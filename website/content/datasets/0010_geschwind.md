@@ -1,6 +1,6 @@
 ---
 title: "Geschwind (2013)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0010_geschwind"
 first_author: "Geschwind"
@@ -86,15 +86,17 @@ Bringmann, L. F., Vissers, N., Wichers, M., Geschwind, N., Kuppens, P., Peeters,
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | study_period | Study period | binary | 2 |  | 0 = six-day baseline period before mindfulness therapy (therapy group only)<br>1 = six-day post-baseline period after mindfulness therapy (therapy group only) |  |  | ESM |  |  |
-| cheerful | Cheerful | rating_scale | 7 | I feel cheerful | 1 = not at all<br>7 = very |  |  | ESM | cheerfulness, positive affect, affect |  |
-| pleasantness | Pleasantness of event | rating_scale | 8 | Pleasantness of the most important event that happened between the current and the previous response | -4 = unclear<br>3 = unclear |  |  | ESM | event pleasantness, daily event,  activity, context | Labels and wording not fully clear, but original article states that "High pleasantness thus reflected high skill, low effort, low preference for doing something else, and high enjoyment of the activity" |
-| worried | worried | rating_scale | 7 | I feel worried | 1 = not at all<br>7 = very |  |  | ESM | worry, anxiety, negative affect, affect, neuroticism, big five |  |
-| fearful | Fearful | rating_scale | 7 | I feel fearful | 1 = not at all<br>7 = very |  |  | ESM | fearfulness, negative affect, affect, neuroticism, big five |  |
-| sad | Sad | rating_scale | 7 | I feel sad | 1 = not at all<br>7 = very |  |  | ESM | sadness, negative affect, affect |  |
-| relaxed | Relaxed | rating_scale | 7 | I feel relaxed | 1 = not at all<br>7 = very |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [cheerful]({{< relref "/descriptives/" >}}?dataset=0010&item=cheerful) | Cheerful | rating_scale | 7 | I feel cheerful | 1 = not at all<br>7 = very |  |  | ESM | cheerfulness, positive affect, affect |  |
+| [pleasantness]({{< relref "/descriptives/" >}}?dataset=0010&item=pleasantness) | Pleasantness of event | rating_scale | 8 | Pleasantness of the most important event that happened between the current and the previous response | -4 = unclear<br>3 = unclear |  |  | ESM | event pleasantness, daily event,  activity, context | Labels and wording not fully clear, but original article states that "High pleasantness thus reflected high skill, low effort, low preference for doing something else, and high enjoyment of the activity" |
+| [worried]({{< relref "/descriptives/" >}}?dataset=0010&item=worried) | worried | rating_scale | 7 | I feel worried | 1 = not at all<br>7 = very |  |  | ESM | worry, anxiety, negative affect, affect, neuroticism, big five |  |
+| [fearful]({{< relref "/descriptives/" >}}?dataset=0010&item=fearful) | Fearful | rating_scale | 7 | I feel fearful | 1 = not at all<br>7 = very |  |  | ESM | fearfulness, negative affect, affect, neuroticism, big five |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0010&item=sad) | Sad | rating_scale | 7 | I feel sad | 1 = not at all<br>7 = very |  |  | ESM | sadness, negative affect, affect |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0010&item=relaxed) | Relaxed | rating_scale | 7 | I feel relaxed | 1 = not at all<br>7 = very |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |

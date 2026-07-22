@@ -1,6 +1,6 @@
 ---
 title: "Pronizius (2024)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0050_pronizius"
 first_author: "Pronizius"
@@ -80,6 +80,8 @@ Pronizius, E., Forbes, P. A. G., Feneberg, A. C., Miculescu, B., Nater, U. M., P
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -87,11 +89,11 @@ Pronizius, E., Forbes, P. A. G., Feneberg, A. C., Miculescu, B., Nater, U. M., P
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | counter | Counter | numeric |  |  |  |  |  | ESM |  |  |
 | helping_binary | Helping behavior | binary | 2 | Since the last data entry, have you helped or supported someone? | 0 = no<br>1 = yes |  |  | ESM | helping behavior, prosocial behavior, social behavior, big five, agreeableness |  |
-| helping_effort | Effort for helping | rating_scale | 100 | How effortful was this helping or support? | 0 = not at all<br>100 = very much |  |  | ESM | helping effort, prosocial behavior, social behavior |  |
-| stressed | Stress | rating_scale | 100 | At the moment, I feel stressed | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |
-| valence_mood | Mood valence | rating_scale | 100 | Mean of two bipolar items: unwell-well and dissatisfied-satisfied | 0 = not at all<br>100 = very much | mean-scored | Adapted multidimensional mood questionnaire | ESM | affect, valence, satisfaction, wellness |  |
-| calmness_mood | Mood calmness | rating_scale | 100 | Mean of two bipolar items: tense-relaxed and restless-calm | 0 = not at all<br>100 = very much | mean-scored | Adapted multidimensional mood questionnaire | ESM | affect, calmness, relaxation, restlessness, tenseness |  |
-| energy_mood | Mood energy | rating_scale | 100 | Mean of two bipolar items: weak-energetic and tired-awake | 0 = not at all<br>100 = very much | mean-scored | Adapted multidimensional mood questionnaire | ESM | affect, energy, tiredness |  |
+| [helping_effort]({{< relref "/descriptives/" >}}?dataset=0050&item=helping_effort) | Effort for helping | rating_scale | 100 | How effortful was this helping or support? | 0 = not at all<br>100 = very much |  |  | ESM | helping effort, prosocial behavior, social behavior |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0050&item=stressed) | Stress | rating_scale | 100 | At the moment, I feel stressed | 0 = not at all<br>100 = very much |  |  | ESM | stress, negative affect, affect |  |
+| [valence_mood]({{< relref "/descriptives/" >}}?dataset=0050&item=valence_mood) | Mood valence | rating_scale | 100 | Mean of two bipolar items: unwell-well and dissatisfied-satisfied | 0 = not at all<br>100 = very much | mean-scored | Adapted multidimensional mood questionnaire | ESM | affect, valence, satisfaction, wellness |  |
+| [calmness_mood]({{< relref "/descriptives/" >}}?dataset=0050&item=calmness_mood) | Mood calmness | rating_scale | 100 | Mean of two bipolar items: tense-relaxed and restless-calm | 0 = not at all<br>100 = very much | mean-scored | Adapted multidimensional mood questionnaire | ESM | affect, calmness, relaxation, restlessness, tenseness |  |
+| [energy_mood]({{< relref "/descriptives/" >}}?dataset=0050&item=energy_mood) | Mood energy | rating_scale | 100 | Mean of two bipolar items: weak-energetic and tired-awake | 0 = not at all<br>100 = very much | mean-scored | Adapted multidimensional mood questionnaire | ESM | affect, energy, tiredness |  |
 | ema_time | Time of EMA prompt | numeric |  | Time of the day in hours since midnight |  |  |  | ESM |  |  |
 | freetime | Freetime | binary | 2 |  | 0 = current data entry while working/studying<br>1 = during free time |  |  | ESM | activity, context |  |
 | social_binary | Social activity binary | binary | 2 | Were there any social interactions since the last data entry? | 0 = No<br>1 = Yes |  |  | ESM | social interaction |  |

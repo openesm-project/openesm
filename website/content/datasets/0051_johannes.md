@@ -1,6 +1,6 @@
 ---
 title: "Johannes (2021)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0051_johannes"
 first_author: "Johannes"
@@ -81,6 +81,8 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -103,23 +105,23 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 | reactibility_notification_sd | Variability notifcation reactibility | numeric |  | The standard deviation of the time between receiving a notification and unlocking the screen in the 30 minutes before the survey was opened (in seconds). Receiving a notification while the screen was unlocked does not count. |  |  |  | ESM |  |  |
 | reactibility_social_notification_avg | Average social media notification reactibility | numeric |  | The average time between receiving a notification from a social app and opening that social app in the 30 minutes before the survey was opened (in seconds) |  |  |  | ESM |  |  |
 | reactibility_social_notification_sd | Variability social media notification reactibility | numeric |  | The standard deviation of the time between receiving a notification from a social app and opening that social app in the 30 minutes before the survey was opened (in seconds) |  |  |  | ESM |  |  |
-| awake | Awake | rating_scale | 7 | At this moment, I feel... | 1 = Tired<br>7 = Awake |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | alertness, energy, positive affect, affect |  |
-| discontent | Discontent | rating_scale | 7 | At this moment, I feel... | 1 = Content<br>7 = Discontent |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | discontent, negative affect, affect |  |
-| calm | Calm | rating_scale | 7 | At this moment, I feel... | 1 = Agitated<br>7 = Calm |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | calmness, positive affect, affect, neuroticism, big five |  |
-| without_energy | Without energy | rating_scale | 7 | At this moment, I feel... | 1 = Full of energy<br>7 = Without energy |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | low energy, negative affect, affect |  |
-| well | Well | rating_scale | 7 | At this moment, I feel... | 1 = Unwell<br>7 = Well |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | positive affect, affect |  |
-| tense | Tense | rating_scale | 7 | At this moment, I feel... | 1 = Relaxed<br>7 = Tense |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | tense, negative affect, affect, neuroticism, big five |  |
-| happy | Happy | rating_scale | 7 | At this moment, I feel... | 1 = Depressed<br>7 = Happy |  |  | ESM | happiness, positive affect, affect |  |
-| stressed | Stress | rating_scale | 7 | How much stress are you experiencing right now? | 1 = Not at all<br>7 = Very stressed |  |  | ESM | stress, negative affect, affect |  |
-| vigilance_salience_mediated | Situational salience mediated interactions | rating_scale | 7 | In the last half an hour, how much were you thinking about mediated interactions (e.g., phone calls, WhatsApp messages, Facebook likes, Instagram posts etc.)? | 1 = Not at all<br>7 = A lot |  |  | ESM | social interaction, smartphone use, communication, app use, social media |  |
-| salience_ft_f | Salience face-to-face interactions | rating_scale | 7 | In the last half an hour, how much were you thinking about face-to-face interactions? | 1 = Not at all<br>7 = A lot |  |  | ESM | social interaction, communication |  |
-| valence_mediated | Valence of thoughts on mediated interactions | rating_scale | 7 | How pleasant were those thoughts about mediated interactions? | 1 = Unpleasant<br>7 = Pleasant |  |  | ESM | social interaction |  |
-| valence_ft_f | Valence of thoughts on face-to-face interactions | rating_scale | 7 | How pleasant were those thoughts about face-to-face interactions? | 1 = Unpleasant<br>7 = Pleasant |  |  | ESM | social interaction |  |
-| valence_activity | Valence current activity | rating_scale | 7 | How pleasant was what you were doing in the last half an hour? | 1 = Unpleasant<br>7 = Pleasant |  |  | ESM | situational appraisal, activity, context |  |
+| [awake]({{< relref "/descriptives/" >}}?dataset=0051&item=awake) | Awake | rating_scale | 7 | At this moment, I feel... | 1 = Tired<br>7 = Awake |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | alertness, energy, positive affect, affect |  |
+| [discontent]({{< relref "/descriptives/" >}}?dataset=0051&item=discontent) | Discontent | rating_scale | 7 | At this moment, I feel... | 1 = Content<br>7 = Discontent |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | discontent, negative affect, affect |  |
+| [calm]({{< relref "/descriptives/" >}}?dataset=0051&item=calm) | Calm | rating_scale | 7 | At this moment, I feel... | 1 = Agitated<br>7 = Calm |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | calmness, positive affect, affect, neuroticism, big five |  |
+| [without_energy]({{< relref "/descriptives/" >}}?dataset=0051&item=without_energy) | Without energy | rating_scale | 7 | At this moment, I feel... | 1 = Full of energy<br>7 = Without energy |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | low energy, negative affect, affect |  |
+| [well]({{< relref "/descriptives/" >}}?dataset=0051&item=well) | Well | rating_scale | 7 | At this moment, I feel... | 1 = Unwell<br>7 = Well |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | positive affect, affect |  |
+| [tense]({{< relref "/descriptives/" >}}?dataset=0051&item=tense) | Tense | rating_scale | 7 | At this moment, I feel... | 1 = Relaxed<br>7 = Tense |  | Wilhelm Schoebi Short-scale to measure three basic dimensions of mood | ESM | tense, negative affect, affect, neuroticism, big five |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0051&item=happy) | Happy | rating_scale | 7 | At this moment, I feel... | 1 = Depressed<br>7 = Happy |  |  | ESM | happiness, positive affect, affect |  |
+| [stressed]({{< relref "/descriptives/" >}}?dataset=0051&item=stressed) | Stress | rating_scale | 7 | How much stress are you experiencing right now? | 1 = Not at all<br>7 = Very stressed |  |  | ESM | stress, negative affect, affect |  |
+| [vigilance_salience_mediated]({{< relref "/descriptives/" >}}?dataset=0051&item=vigilance_salience_mediated) | Situational salience mediated interactions | rating_scale | 7 | In the last half an hour, how much were you thinking about mediated interactions (e.g., phone calls, WhatsApp messages, Facebook likes, Instagram posts etc.)? | 1 = Not at all<br>7 = A lot |  |  | ESM | social interaction, smartphone use, communication, app use, social media |  |
+| [salience_ft_f]({{< relref "/descriptives/" >}}?dataset=0051&item=salience_ft_f) | Salience face-to-face interactions | rating_scale | 7 | In the last half an hour, how much were you thinking about face-to-face interactions? | 1 = Not at all<br>7 = A lot |  |  | ESM | social interaction, communication |  |
+| [valence_mediated]({{< relref "/descriptives/" >}}?dataset=0051&item=valence_mediated) | Valence of thoughts on mediated interactions | rating_scale | 7 | How pleasant were those thoughts about mediated interactions? | 1 = Unpleasant<br>7 = Pleasant |  |  | ESM | social interaction |  |
+| [valence_ft_f]({{< relref "/descriptives/" >}}?dataset=0051&item=valence_ft_f) | Valence of thoughts on face-to-face interactions | rating_scale | 7 | How pleasant were those thoughts about face-to-face interactions? | 1 = Unpleasant<br>7 = Pleasant |  |  | ESM | social interaction |  |
+| [valence_activity]({{< relref "/descriptives/" >}}?dataset=0051&item=valence_activity) | Valence current activity | rating_scale | 7 | How pleasant was what you were doing in the last half an hour? | 1 = Unpleasant<br>7 = Pleasant |  |  | ESM | situational appraisal, activity, context |  |
 | concentrated_activity_binary | Engagement in activity that required concentration | binary | 2 | In the last half an hour, I was engaged in a performance-related activity (e.g., an activity for which I had to concentrate). | 0 = No<br>1 = Yes |  |  | ESM | performance |  |
-| concentration_extent | Extent of concentration during activity | rating_scale | 7 | The activity required all my mental capacities. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | cognitive load, mental effort |  |
+| [concentration_extent]({{< relref "/descriptives/" >}}?dataset=0051&item=concentration_extent) | Extent of concentration during activity | rating_scale | 7 | The activity required all my mental capacities. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | cognitive load, mental effort |  |
 | concentrated_activity_alone | Concentrated activity company | categorical | 2 | Did you engage in the activity alone or with others? | Alone<br>With others |  |  | ESM | activity, context |  |
-| vigilance_reactibility | Vigilance reactibility | rating_scale | 7 | In the last half an hour, when I received an online message, I immediately gave it my full attention. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | attention, media, communication |  |
-| vigilance_monitoring | Vigilance monitoring | rating_scale | 7 | In the last half an hour, I was constantly monitoring what was happening online. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | attention, media, communication |  |
-| social_pressure_phone | Social pressure to be available via phone | rating_scale | 7 | In the last half an hour, I felt a social obligation to be available for mediated interactions. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | social pressure, attention, media, communication |  |
+| [vigilance_reactibility]({{< relref "/descriptives/" >}}?dataset=0051&item=vigilance_reactibility) | Vigilance reactibility | rating_scale | 7 | In the last half an hour, when I received an online message, I immediately gave it my full attention. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | attention, media, communication |  |
+| [vigilance_monitoring]({{< relref "/descriptives/" >}}?dataset=0051&item=vigilance_monitoring) | Vigilance monitoring | rating_scale | 7 | In the last half an hour, I was constantly monitoring what was happening online. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | attention, media, communication |  |
+| [social_pressure_phone]({{< relref "/descriptives/" >}}?dataset=0051&item=social_pressure_phone) | Social pressure to be available via phone | rating_scale | 7 | In the last half an hour, I felt a social obligation to be available for mediated interactions. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | social pressure, attention, media, communication |  |
 | extracted_scheduled_times | Time the prompt was scheduled | PosixCt |  |  |  |  |  | ESM |  |  |

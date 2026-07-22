@@ -1,6 +1,6 @@
 ---
 title: "Scharbert (2023)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0071_scharbert"
 first_author: "Scharbert"
@@ -85,18 +85,20 @@ Scharbert, J., Humberg, S., Kroencke, L., Reiter, T., Sakel, S., ter Horst, J., 
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | date | Date | Date |  |  |  |  |  | ESM |  |  |
-| angry | Angry | rating_scale | 6 | I felt angry. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | anger, negative affect, affect |  |
-| anxious | Anxious | rating_scale | 6 | I felt anxious. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
-| sad | Sad | rating_scale | 6 | I felt sad. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | sadness, negative affect, affect |  |
-| happy | Happy | rating_scale | 6 | I felt happy. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | happiness, positive affect, affect |  |
-| excited | Excited | rating_scale | 6 | I felt excited. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | excitement, positive affect, affect, extraversion, big five |  |
-| relaxed | Relaxed | rating_scale | 6 | I felt relaxed. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| feeling_country | Feeling towards people in country | rating_scale | 10 | How positive or negative have you felt towards people in<br>your country in general today? | 1 = very negative<br>10 very positive |  |  | Daily | social attitude, ingroup, social cognition |  |
-| threat_country | Feeling threatened by people in country | rating_scale | 10 | How threatened have you felt by people in your country<br>in general today? | 1 = not at all threatened<br>10 = extremely threatened |  |  | Daily | threat perception, ingroup, social cognition |  |
-| similarity_country | Feeling similar to people in country | rating_scale | 10 | How similar have you felt to people in your country in<br>general today? | 1 = not at all similar<br>10 = extremely similar |  |  | Daily | social identity, ingroup, social cognition |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0071&item=angry) | Angry | rating_scale | 6 | I felt angry. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | anger, negative affect, affect |  |
+| [anxious]({{< relref "/descriptives/" >}}?dataset=0071&item=anxious) | Anxious | rating_scale | 6 | I felt anxious. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | anxiety, negative affect, affect, neuroticism, big five |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0071&item=sad) | Sad | rating_scale | 6 | I felt sad. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | sadness, negative affect, affect |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0071&item=happy) | Happy | rating_scale | 6 | I felt happy. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | happiness, positive affect, affect |  |
+| [excited]({{< relref "/descriptives/" >}}?dataset=0071&item=excited) | Excited | rating_scale | 6 | I felt excited. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | excitement, positive affect, affect, extraversion, big five |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0071&item=relaxed) | Relaxed | rating_scale | 6 | I felt relaxed. | 1 = not agree at all<br>2 = disagree<br>3 = somewhat disagree<br>4 = somewhat agree<br>5 = agree<br>6 = agree completely |  |  | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [feeling_country]({{< relref "/descriptives/" >}}?dataset=0071&item=feeling_country) | Feeling towards people in country | rating_scale | 10 | How positive or negative have you felt towards people in<br>your country in general today? | 1 = very negative<br>10 very positive |  |  | Daily | social attitude, ingroup, social cognition |  |
+| [threat_country]({{< relref "/descriptives/" >}}?dataset=0071&item=threat_country) | Feeling threatened by people in country | rating_scale | 10 | How threatened have you felt by people in your country<br>in general today? | 1 = not at all threatened<br>10 = extremely threatened |  |  | Daily | threat perception, ingroup, social cognition |  |
+| [similarity_country]({{< relref "/descriptives/" >}}?dataset=0071&item=similarity_country) | Feeling similar to people in country | rating_scale | 10 | How similar have you felt to people in your country in<br>general today? | 1 = not at all similar<br>10 = extremely similar |  |  | Daily | social identity, ingroup, social cognition |  |

@@ -1,6 +1,6 @@
 ---
 title: "Merolla (2022)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0061_merolla"
 first_author: "Merolla"
@@ -80,6 +80,8 @@ Merolla, A. J., Neubauer, A. B., & Otmar, C. D. (2024). Responsiveness, social c
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -91,9 +93,9 @@ Merolla, A. J., Neubauer, A. B., & Otmar, C. D. (2024). Responsiveness, social c
 | has_data | Data provided | binary | 2 | Are data available for the timepoint? | FALSE/TRUE |  |  | ESM |  |  |
 | first_prompt | First prompt time | numeric |  |  |  |  |  | ESM |  |  |
 | time_since_first | Time since first prompt | numeric |  |  |  |  |  | ESM |  |  |
-| relationship_level | Relationship level interaction partner | rating_scale | 7 | Nature of the participants' relationship to the person they were communicating with | 1 = No established relationship/stranger; 7 = established relationship |  |  | ESM | social interaction, relationship |  |
-| cared_for | Feeling cared for | rating_scale | 7 | If participants were in a social interaction in the last 10 min. of the survey signal: Asked for the degree to which their interaction partner made them feel cared for | 1 = Not at all<br>5 = Extremely |  |  | ESM | responsiveness, social support, social connectedness |  |
-| respected | Respected | rating_scale | 7 | If participants were in a social interaction in the last 10 min. of the survey signal: Asked for the degree to which their interaction partner made them feel respected | 1 = Not at all<br>5 = Extremely |  |  | ESM | respect, social support, responsiveness, social interaction |  |
-| supported | Supported | rating_scale | 7 | If participants were in a social interaction in the last 10 min. of the survey signal: Asked for the degree to which their interaction partner made them feel supported | 1 = Not at all<br>5 = Extremely |  |  | ESM | social support, responsiveness, social interaction |  |
-| connected | Connected | rating_scale | 7 | At this moment, how close and connected do you feel to other people? | 1 = no connection<br>7 = a great deal of connection |  |  | ESM | social connectedness |  |
+| [relationship_level]({{< relref "/descriptives/" >}}?dataset=0061&item=relationship_level) | Relationship level interaction partner | rating_scale | 7 | Nature of the participants' relationship to the person they were communicating with | 1 = No established relationship/stranger; 7 = established relationship |  |  | ESM | social interaction, relationship |  |
+| [cared_for]({{< relref "/descriptives/" >}}?dataset=0061&item=cared_for) | Feeling cared for | rating_scale | 7 | If participants were in a social interaction in the last 10 min. of the survey signal: Asked for the degree to which their interaction partner made them feel cared for | 1 = Not at all<br>5 = Extremely |  |  | ESM | responsiveness, social support, social connectedness |  |
+| [respected]({{< relref "/descriptives/" >}}?dataset=0061&item=respected) | Respected | rating_scale | 7 | If participants were in a social interaction in the last 10 min. of the survey signal: Asked for the degree to which their interaction partner made them feel respected | 1 = Not at all<br>5 = Extremely |  |  | ESM | respect, social support, responsiveness, social interaction |  |
+| [supported]({{< relref "/descriptives/" >}}?dataset=0061&item=supported) | Supported | rating_scale | 7 | If participants were in a social interaction in the last 10 min. of the survey signal: Asked for the degree to which their interaction partner made them feel supported | 1 = Not at all<br>5 = Extremely |  |  | ESM | social support, responsiveness, social interaction |  |
+| [connected]({{< relref "/descriptives/" >}}?dataset=0061&item=connected) | Connected | rating_scale | 7 | At this moment, how close and connected do you feel to other people? | 1 = no connection<br>7 = a great deal of connection |  |  | ESM | social connectedness |  |
 | interaction_type | Interaction Type | categorical | 5 | Communication channel used for the interaction | Face-to-face, video calls, text messaging/SMS, voice-only phone calls, 0 (no interaction) |  |  | ESM | social interaction, media, communication |  |

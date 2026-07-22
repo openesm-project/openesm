@@ -1,6 +1,6 @@
 ---
 title: "Flueckiger (2014)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0015_flueckiger"
 first_author: "Flueckiger"
@@ -77,13 +77,15 @@ Flueckiger, L., Lieb, R., Meyer, A. H., & Mata, J. (2014). How health behaviors 
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | Daily |  |  |
 | day | Day of study | other |  |  |  |  |  | Daily |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | Daily |  |  |
-| sleep_quality | Sleep quality | rating_scale | 4 |  | 1 = very bad<br>4 = very good |  | Pittsburgh Sleep Quality Index (German version) | Daily | sleep quality, sleep |  |
+| [sleep_quality]({{< relref "/descriptives/" >}}?dataset=0015&item=sleep_quality) | Sleep quality | rating_scale | 4 |  | 1 = very bad<br>4 = very good |  | Pittsburgh Sleep Quality Index (German version) | Daily | sleep quality, sleep |  |
 | physical_activity | Physical activity | numerical |  | Number of minutes engaged in mild, moderate and strenuous exercise weighted by metabolic equivalents and then summed to produce a total daily leisure activity score |  |  | Godin Leisure-Time Exercise Questionnaire | Daily | exercise, physical activity, activity |  |
-| pa | Positive affect | rating_scale | 7 | Happy, content, cheerful | 1 = not at all<br>7 = extremely | mean-scored | Pleasentness scale (German version) | Daily | positive affect, affect |  |
-| na | Negative affect | rating_scale | 7 | Sad, downhearted, frustrated | 1 = not at all<br>7 = extremely | mean-scored | Pleasentness scale (German version) | Daily | negative affect, affect |  |
-| learning_goal_achievement | Learning goal achievement | rating_scale | 5 | Did you achieve the learning goals you set for yourself in the last 24 hours? (paraphrasd after item description in the paper) | 0 = not at all<br>4 = completely |  |  | Daily | learning, academic |  |
+| [pa]({{< relref "/descriptives/" >}}?dataset=0015&item=pa) | Positive affect | rating_scale | 7 | Happy, content, cheerful | 1 = not at all<br>7 = extremely | mean-scored | Pleasentness scale (German version) | Daily | positive affect, affect |  |
+| [na]({{< relref "/descriptives/" >}}?dataset=0015&item=na) | Negative affect | rating_scale | 7 | Sad, downhearted, frustrated | 1 = not at all<br>7 = extremely | mean-scored | Pleasentness scale (German version) | Daily | negative affect, affect |  |
+| [learning_goal_achievement]({{< relref "/descriptives/" >}}?dataset=0015&item=learning_goal_achievement) | Learning goal achievement | rating_scale | 5 | Did you achieve the learning goals you set for yourself in the last 24 hours? (paraphrasd after item description in the paper) | 0 = not at all<br>4 = completely |  |  | Daily | learning, academic |  |

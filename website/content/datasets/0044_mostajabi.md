@@ -1,6 +1,6 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-04-27
+date: 2026-07-22
 draft: false
 dataset_id: "0044_mostajabi"
 first_author: "Mostajabi"
@@ -80,6 +80,8 @@ Mostajabi, J., & Wright, A. (2024, July 9). An exploratory study on disinhibitio
 
 ## Variables
 
+<p class="dataset-note">Some variable names are links — click them to explore item-level distributional statistics on the <a href="{{< relref "/descriptives/" >}}">Descriptives</a> page.</p>
+
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
@@ -89,17 +91,17 @@ Mostajabi, J., & Wright, A. (2024, July 9). An exploratory study on disinhibitio
 | begin_time_ema | Time of Prompt beginning | PosixCt |  |  |  |  |  | ESM |  |  |
 | finish_day_ema | Day of EMA finishing | PosixCt |  |  |  |  |  | ESM |  |  |
 | finish_time_ema | Time of EMA finishing | PosixCt |  |  |  |  |  | ESM |  |  |
-| happy | Happy | rating_scale | 101 | How happy do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | happiness, positive affect, affect |  |
-| proud | Proud | rating_scale | 101 | How proud do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | pride, positive affect, affect |  |
-| content | Content | rating_scale | 101 | How content do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | content, positive affect, affect |  |
-| excited | Excited | rating_scale | 101 | How excited do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | excitement, positive affect, affect, extraversion, big five |  |
-| relaxed | Relaxed | rating_scale | 101 | How relaxed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
-| ashamed | Ashamed | rating_scale | 101 | How ashamed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | shame, negative affect, affect |  |
-| nervous | Nervous | rating_scale | 101 | How nervous do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
-| hostile | Hostile | rating_scale | 101 | How hostile do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | hostility, anger, negative affect, affect |  |
-| sad | Sad | rating_scale | 101 | How sad do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | sadness, negative affect, affect |  |
-| angry | Angry | rating_scale | 101 | How angry do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | anger, negative affect, affect |  |
+| [happy]({{< relref "/descriptives/" >}}?dataset=0044&item=happy) | Happy | rating_scale | 101 | How happy do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | happiness, positive affect, affect |  |
+| [proud]({{< relref "/descriptives/" >}}?dataset=0044&item=proud) | Proud | rating_scale | 101 | How proud do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | pride, positive affect, affect |  |
+| [content]({{< relref "/descriptives/" >}}?dataset=0044&item=content) | Content | rating_scale | 101 | How content do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | content, positive affect, affect |  |
+| [excited]({{< relref "/descriptives/" >}}?dataset=0044&item=excited) | Excited | rating_scale | 101 | How excited do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | excitement, positive affect, affect, extraversion, big five |  |
+| [relaxed]({{< relref "/descriptives/" >}}?dataset=0044&item=relaxed) | Relaxed | rating_scale | 101 | How relaxed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | relaxation, positive affect, affect, neuroticism, big five |  |
+| [ashamed]({{< relref "/descriptives/" >}}?dataset=0044&item=ashamed) | Ashamed | rating_scale | 101 | How ashamed do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | shame, negative affect, affect |  |
+| [nervous]({{< relref "/descriptives/" >}}?dataset=0044&item=nervous) | Nervous | rating_scale | 101 | How nervous do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | nervousness, negative affect, affect, neuroticism, big five |  |
+| [hostile]({{< relref "/descriptives/" >}}?dataset=0044&item=hostile) | Hostile | rating_scale | 101 | How hostile do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | hostility, anger, negative affect, affect |  |
+| [sad]({{< relref "/descriptives/" >}}?dataset=0044&item=sad) | Sad | rating_scale | 101 | How sad do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | sadness, negative affect, affect |  |
+| [angry]({{< relref "/descriptives/" >}}?dataset=0044&item=angry) | Angry | rating_scale | 101 | How angry do you feel right now? | 0 = Not at all<br>100 = Extremely |  | PANAS | ESM | anger, negative affect, affect |  |
 | duration_ema | Duration of EMA | numeric |  | in seconds |  |  |  | ESM |  |  |
 | interaction | Interaction occurence | binary | 2 | unclear coding, but likely: Did you have any social interactions since your last prompt? |  |  |  | ESM | social interaction |  |
-| dom_sub_you | Dominance of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | -50 = Accomodating/Submissive/Timid<br>50 = Assertive/Dominant/Controlling |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal dominance, social behavior, big five, extraversion |  |
-| warm_cold_you | Warmth of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | -50 = Cold/Distant/Hostile<br>50 = Warm/Friendly/Caring |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal affiliation, social behavior, big five, agreeableness |  |
+| [dom_sub_you]({{< relref "/descriptives/" >}}?dataset=0044&item=dom_sub_you) | Dominance of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | -50 = Accomodating/Submissive/Timid<br>50 = Assertive/Dominant/Controlling |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal dominance, social behavior, big five, extraversion |  |
+| [warm_cold_you]({{< relref "/descriptives/" >}}?dataset=0044&item=warm_cold_you) | Warmth of interaction behavior | rating_scale | 101 | Please rate your behavior toward the other person during this interaction. | -50 = Cold/Distant/Hostile<br>50 = Warm/Friendly/Caring |  | Visual Interpersonal Analogue Scale (VIAS) | ESM | interpersonal affiliation, social behavior, big five, agreeableness |  |
