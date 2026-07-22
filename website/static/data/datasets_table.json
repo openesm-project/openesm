@@ -913,5 +913,20 @@
     "passive_data_available": "no",
     "raw_time_stamp": "yes",
     "url": "/datasets/0073_sicorello/"
+  },
+  {
+    "dataset_id": "0075_ballou",
+    "first_author": "Ballou",
+    "year": 2025,
+    "topics": "videogames, gaming, well-being, mental health",
+    "n_participants": 1284,
+    "n_time_points": 30,
+    "n_days": "30",
+    "n_beeps_per_day": "1",
+    "n_variables": 51,
+    "cross_sectional_available": "yes",
+    "passive_data_available": "yes",
+    "raw_time_stamp": "yes",
+    "url": "/datasets/0075_ballou/"
   }
 ]

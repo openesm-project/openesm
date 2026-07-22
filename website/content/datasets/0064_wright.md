@@ -1,6 +1,6 @@
 ---
 title: "Wright (2017)"
-date: 2026-07-17
+date: 2026-07-22
 draft: false
 dataset_id: "0064_wright"
 first_author: "Wright"

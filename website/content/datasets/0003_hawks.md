@@ -1,6 +1,6 @@
 ---
 title: "Hawks (2023)"
-date: 2026-07-17
+date: 2026-07-22
 draft: false
 dataset_id: "0003_hawks"
 first_author: "Hawks"
@@ -68,7 +68,7 @@ participants: "adults"
 
 ## Citation
 
-Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., & Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 8(8), 841–851. https://doi.org/10.1016/j.bpsc.2022.12.002
+Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., & Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, Reliability of Neurocognitive Measures for Mental Health, 8(8), 841–851. https://doi.org/10.1016/j.bpsc.2022.12.002
 
 
 
