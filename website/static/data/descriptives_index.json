@@ -4894,5 +4894,85 @@
   {
     "dataset_id": "0073",
     "item": "emotions_valid"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "gaming_autonomy"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "gaming_wish_else"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "gaming_progress"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "gaming_disappointed"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "gaming_relationships"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "gaming_toxic"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "needs_autonomy_satisfied"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "needs_autonomy_frustrated"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "needs_competence_satisfied"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "needs_competence_frustrated"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "needs_relatedness_satisfied"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "needs_relatedness_frustrated"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "how_stressful_argument"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "how_stressful_friend_rel"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "how_stressful_health"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "how_stressful_home_issue"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "how_stressful_other"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "how_stressful_work_school"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "life_satisfaction"
+  },
+  {
+    "dataset_id": "0075",
+    "item": "sleep_quality"
   }
 ]

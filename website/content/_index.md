@@ -278,13 +278,13 @@ hideposts: true
     <div class="stats-section">
         <div class="stat-box">
             <div class="icon"><i class="fas fa-database"></i></div>
-            <div class="number" data-target="61">0</div>
+            <div class="number" data-target="62">0</div>
             <div class="label">Datasets</div>
             <p>Explore our growing collection of datasets.</p>
         </div>
         <div class="stat-box">
             <div class="icon"><i class="fas fa-users"></i></div>
-            <div class="number" data-target="16000" data-suffix="+">0</div>
+            <div class="number" data-target="17000" data-suffix="+">0</div>
             <div class="label">Individuals</div>
             <p>Obtain insights from thousands of participants.</p>
         </div>
