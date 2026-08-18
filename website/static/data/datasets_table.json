@@ -98,7 +98,7 @@
     "n_time_points": 105,
     "n_days": "21",
     "n_beeps_per_day": "5",
-    "n_variables": 41,
+    "n_variables": 39,
     "cross_sectional_available": "yes",
     "passive_data_available": "yes",
     "raw_time_stamp": "yes",

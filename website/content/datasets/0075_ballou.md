@@ -1,6 +1,6 @@
 ---
 title: "Ballou (2025)"
-date: 2026-07-23
+date: 2026-08-18
 draft: false
 dataset_id: "0075_ballou"
 first_author: "Ballou"

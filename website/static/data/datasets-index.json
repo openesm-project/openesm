@@ -4778,34 +4778,6 @@
         "comments": ""
       },
       {
-        "name": "location_latitude",
-        "description": "Latitude",
-        "type": "numeric",
-        "coding": "",
-        "answer_categories": "",
-        "details": "",
-        "labels": "",
-        "transformation": "",
-        "source": "",
-        "assessment_type": "Passive",
-        "construct": "",
-        "comments": ""
-      },
-      {
-        "name": "location_longitude",
-        "description": "Longitude",
-        "type": "numeric",
-        "coding": "",
-        "answer_categories": "",
-        "details": "",
-        "labels": "",
-        "transformation": "",
-        "source": "",
-        "assessment_type": "Passive",
-        "construct": "",
-        "comments": ""
-      },
-      {
         "name": "start_date",
         "description": "Start of survey",
         "type": "PosixCt",

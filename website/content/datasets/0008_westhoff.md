@@ -1,6 +1,6 @@
 ---
 title: "Westhoff (2024)"
-date: 2026-07-22
+date: 2026-08-18
 draft: false
 dataset_id: "0008_westhoff"
 first_author: "Westhoff"
@@ -78,6 +78,7 @@ Westhoff, M., Heshmati, S., Siepe, B. S., Vogelbacher, C., Ciarrochi, J., Hayes,
 
 ## Changelog
 
+- **2026-08-18** (2.0.0) *data change*: Remove passive sensing data columns.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
@@ -92,8 +93,6 @@ Westhoff, M., Heshmati, S., Siepe, B. S., Vogelbacher, C., Ciarrochi, J., Hayes,
 | scheduled_time | Scheduled time | PosixCt |  |  |  |  |  | ESM |  |  |
 | response_time | Response time | PosixCt |  |  |  |  |  | ESM |  |  |
 | weekday | Day of the week | other |  |  |  |  |  | ESM |  |  |
-| location_latitude | Latitude | numeric |  |  |  |  |  | Passive |  |  |
-| location_longitude | Longitude | numeric |  |  |  |  |  | Passive |  |  |
 | start_date | Start of survey | PosixCt |  |  |  |  |  | ESM |  |  |
 | end_date | End of survey | PosixCt |  |  |  |  |  | ESM |  |  |
 | duration_in_seconds | Duration of survey | numeric |  |  |  |  |  | ESM |  |  |
