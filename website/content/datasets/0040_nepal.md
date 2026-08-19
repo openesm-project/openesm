@@ -1,6 +1,6 @@
 ---
 title: "Nepal (2024)"
-date: 2026-08-18
+date: 2026-08-19
 draft: false
 dataset_id: "0040_nepal"
 first_author: "Nepal"
