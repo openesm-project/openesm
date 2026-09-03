@@ -1,6 +1,6 @@
 ---
 title: "van Halem (2020)"
-date: 2026-08-19
+date: 2026-09-03
 draft: false
 dataset_id: "0070_vanhalem"
 first_author: "van Halem"
@@ -78,6 +78,7 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 
 ## Changelog
 
+- **2026-09-03** (2.0.0) *data change*: Remove some open text data.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
@@ -102,8 +103,6 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 | form_upload_time | Form upload time | PosixCt |  |  |  |  |  | ESM |  |  |
 | missing | Missing form | categorical |  | Reason for missing form | NA<br>Ignored<br>Dismissed<br>Incomplete<br>Canceled_by_new_alarm |  |  | ESM |  |  |
 | company | Company | numeric |  | I am... | 0 = alone<br>1 = friends<br>2 = partner<br>3 = family<br>3a = father<br>3b = mother<br>3c = brother(s)/sister(s)<br>3d = other family<br>4 = housemates-who are not family<br>5 = fellow students or colleagues<br>6 = strangers<br>7 = teammates<br>8 = other, namely |  |  | ESM | social interaction, context |  |
-| location | Location | freetext |  | Where are you? |  |  |  | ESM | context, location |  |
-| event | Event | freetext |  | What happened at the time of the beep? |  |  |  | ESM | context, activity |  |
 | [pleasant]({{< relref "/descriptives/" >}}?dataset=0070&item=pleasant) | Pleasant | rating_scale | 101 | This was unpleasant/pleasant |  |  |  | ESM | situational appraisal, context | referring to the event |
 | [important]({{< relref "/descriptives/" >}}?dataset=0070&item=important) | Important | rating_scale | 101 | This was unimportant/important |  |  |  | ESM | situational appraisal, context | referring to the event |
 | [expected]({{< relref "/descriptives/" >}}?dataset=0070&item=expected) | Expected | rating_scale | 101 | This was unexpected/expected |  |  |  | ESM | situational appraisal, context | referring to the event |

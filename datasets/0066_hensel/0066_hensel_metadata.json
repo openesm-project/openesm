@@ -6,8 +6,14 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1371/journal.pone.0292735",
   "zenodo_doi": "10.5281/zenodo.17348001",
-  "dataset_version": "1.0.0",
+  "dataset_version": "2.0.0",
   "changelog": [
+    {
+      "date": "2026-09-03",
+      "description": "Remove some open text and housekeeping column.",
+      "type": "data",
+      "dataset_version": "2.0.0"
+    },
     {
       "date": "2025-10-14",
       "description": "Initial release.",
@@ -120,20 +126,6 @@
       "comments": ""
     },
     {
-      "name": "dayage",
-      "description": "Age at day",
-      "variable_type": "numeric",
-      "coding": "",
-      "answer_categories": "",
-      "details": "",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "",
-      "comments": ""
-    },
-    {
       "name": "min_complete",
       "description": "Min complete",
       "variable_type": "numeric",
@@ -164,20 +156,6 @@
     {
       "name": "q_recaptcha_score",
       "description": "Recaptcha Score",
-      "variable_type": "other",
-      "coding": "Coding not clear",
-      "answer_categories": "",
-      "details": "",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "",
-      "comments": ""
-    },
-    {
-      "name": "q_recaptcha_assessment_name",
-      "description": "Recaptcha Assessment Name",
       "variable_type": "other",
       "coding": "Coding not clear",
       "answer_categories": "",
@@ -308,20 +286,6 @@
       "coding": "Other",
       "answer_categories": "2",
       "details": "Other",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "activity, context",
-      "comments": ""
-    },
-    {
-      "name": "other_activity_text",
-      "description": "Open-ended text",
-      "variable_type": "freetext",
-      "coding": "Open-ended text for \"Other\"",
-      "answer_categories": "",
-      "details": "Open-ended text for \"Other\"",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -806,20 +770,6 @@
       "comments": ""
     },
     {
-      "name": "help_stool_7_text",
-      "description": "Other freetext",
-      "variable_type": "freetext",
-      "coding": "With what aspects of cleaning up stool did you need help today (check all that apply)? \nFreetext for \"Other\"",
-      "answer_categories": "",
-      "details": "With what aspects of cleaning up stool did you need help today (check all that apply)? \nFreetext for \"Other\"",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "incontinence, activities of daily living, functional independence, health behavior, physical symptom, physical health",
-      "comments": ""
-    },
-    {
       "name": "help_stool_8",
       "description": "None",
       "variable_type": "binary",
@@ -938,20 +888,6 @@
       "coding": "With what aspects of cleaning up urine did you need help today (select all that apply)?\nOther",
       "answer_categories": "2",
       "details": "With what aspects of cleaning up urine did you need help today (select all that apply)?\nOther",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "incontinence, activities of daily living, functional independence, health behavior, physical symptom, physical health",
-      "comments": ""
-    },
-    {
-      "name": "help_urine_7_text",
-      "description": "Other freetext",
-      "variable_type": "freetext",
-      "coding": "With what aspects of cleaning up urine did you need help today (select all that apply)?\nFreetext for \"Other\"",
-      "answer_categories": "",
-      "details": "With what aspects of cleaning up urine did you need help today (select all that apply)?\nFreetext for \"Other\"",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -1176,20 +1112,6 @@
       "coding": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nOther",
       "answer_categories": "2",
       "details": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nOther",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "activity avoidance, incontinence, activities of daily living, functional independence, physical symptom, physical health",
-      "comments": ""
-    },
-    {
-      "name": "noact_stool_worry_18_text",
-      "description": "Other freetext",
-      "variable_type": "freetext",
-      "coding": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nFreetext for \"Other\"",
-      "answer_categories": "",
-      "details": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nFreetext for \"Other\"",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -1470,20 +1392,6 @@
       "coding": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nOther",
       "answer_categories": "2",
       "details": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nOther",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "activity avoidance, incontinence, activities of daily living, functional independence, physical symptom, physical health",
-      "comments": ""
-    },
-    {
-      "name": "noact_urine_worry_18_text",
-      "description": "Other freetext",
-      "variable_type": "freetext",
-      "coding": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nFreetext for \"Other\"",
-      "answer_categories": "",
-      "details": "What of these activities did you not do today because you were worried about leaking urine (check all that apply)?\nFreetext for \"Other\"",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -1856,20 +1764,6 @@
       "comments": ""
     },
     {
-      "name": "what_act_stool_18_text",
-      "description": "Other freetext",
-      "variable_type": "freetext",
-      "coding": "Which of these activities did you not do today because you leaked stool (check all that apply)?\nFreetext for \"Other\"",
-      "answer_categories": "",
-      "details": "Which of these activities did you not do today because you leaked stool (check all that apply)?\nFreetext for \"Other\"",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "activity avoidance, incontinence, activities of daily living, functional independence, physical symptom, physical health",
-      "comments": ""
-    },
-    {
       "name": "what_act_stool_2",
       "description": "Exercise",
       "variable_type": "binary",
@@ -2136,20 +2030,6 @@
       "comments": ""
     },
     {
-      "name": "what_act_urine_18_text",
-      "description": "Other freetext",
-      "variable_type": "freetext",
-      "coding": "Which of these activities did you not do today because you leaking urine (check all that apply)?\nFreetext for \"Other\"",
-      "answer_categories": "",
-      "details": "Which of these activities did you not do today because you leaking urine (check all that apply)?\nFreetext for \"Other\"",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "activity avoidance, incontinence, activities of daily living, functional independence, physical symptom, physical health",
-      "comments": ""
-    },
-    {
       "name": "what_act_urine_2",
       "description": "Exercise",
       "variable_type": "binary",
@@ -2360,20 +2240,6 @@
       "comments": ""
     },
     {
-      "name": "who_stool_6_text",
-      "description": "Help someone else freetext",
-      "variable_type": "freetext",
-      "coding": "Who helped you clean up stool today (check all that apply)?\nFreetext for \"Someone else\"",
-      "answer_categories": "",
-      "details": "Who helped you clean up stool today (check all that apply)?\nFreetext for \"Someone else\"",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "incontinence, physical symptom, physical health, caregiver support, social support",
-      "comments": ""
-    },
-    {
       "name": "who_stool_99",
       "description": "Prefer not to answer",
       "variable_type": "binary",
@@ -2472,20 +2338,6 @@
       "comments": ""
     },
     {
-      "name": "who_urine_6_text",
-      "description": "Help someone else freetext",
-      "variable_type": "freetext",
-      "coding": "Who helped you clean up urine today (select all that apply)?\nFreetext for \"Someone else\"",
-      "answer_categories": "",
-      "details": "Who helped you clean up urine today (select all that apply)?\nFreetext for \"Someone else\"",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "incontinence, physical symptom, physical health, caregiver support, social support",
-      "comments": ""
-    },
-    {
       "name": "who_urine_99",
       "description": "Prefer not to answer",
       "variable_type": "binary",
@@ -2529,4 +2381,3 @@
     }
   ]
 }
-
