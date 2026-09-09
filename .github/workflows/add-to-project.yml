@@ -1,0 +1,22 @@
+name: Add issues/PRs to org project
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: read
+      pull-requests: read
+
+    steps:
+      - name: Add item to organization project (Projects v2)
+        uses: actions/add-to-project@v1.0.2
+        with:
+          project-url: https://github.com/orgs/openesm-project/projects/1
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
