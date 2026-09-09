@@ -1,6 +1,6 @@
 ---
 title: "Johannes (2021)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0051_johannes"
 first_author: "Johannes"
@@ -8,7 +8,7 @@ year: 2021
 paper_doi: "https://doi.org/10.1080/15213269.2020.1768122"
 zenodo_doi: "10.5281/zenodo.17348348"
 license: "CC-BY 4.0"
-n_participants: 75
+n_participants: 77
 n_time_points: 40
 n_days: "5"
 topics: "online vigilance, affect, wellbeing, smartphone, social interactions"
@@ -38,7 +38,7 @@ participants: "Dutch undergraduate students using social media"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 75 (Dutch undergraduate students using social media)</li>
+<li><strong>Participants:</strong> 77 (Dutch undergraduate students using social media)</li>
 <li><strong>Time Points:</strong> 40</li>
 <li><strong>Days:</strong> 5</li>
 <li><strong>Beeps per Day:</strong> 8</li>
@@ -78,6 +78,7 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 
 ## Changelog
 
+- **2026-09-09** (1.1.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.1.0) *data change*: Fix coding of 'concentrated_activity_binary'.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

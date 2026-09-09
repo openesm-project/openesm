@@ -1,6 +1,6 @@
 ---
 title: "Marian (2022)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0052_marian"
 first_author: "Marian"
@@ -8,7 +8,7 @@ year: 2022
 paper_doi: "https://doi.org/10.1007/s10862-022-10014-8"
 zenodo_doi: "10.5281/zenodo.17348267"
 license: "CC-BY 4.0"
-n_participants: 140
+n_participants: 145
 n_time_points: 63
 n_days: "21"
 topics: "depression, anxiety, COVID"
@@ -38,7 +38,7 @@ participants: "undergraduate students"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 140 (undergraduate students)</li>
+<li><strong>Participants:</strong> 145 (undergraduate students)</li>
 <li><strong>Time Points:</strong> 63</li>
 <li><strong>Days:</strong> 21</li>
 <li><strong>Beeps per Day:</strong> 3</li>
@@ -78,6 +78,7 @@ Marian, S., Costantini, G., Macsinga, I., & Sava, F. A. (2023). The dynamic inte
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

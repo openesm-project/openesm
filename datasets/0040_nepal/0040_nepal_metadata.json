@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-09-09",
+      "description": "Fix information about number of participants.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -19,7 +25,7 @@
   "license": "CC BY-NC-SA 4.0",
   "link_to_codebook": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data",
   "link_to_code": null,
-  "n_participants": 218,
+  "n_participants": 220,
   "n_time_points": 441,
   "n_days": "441",
   "n_beeps_per_day": "1",

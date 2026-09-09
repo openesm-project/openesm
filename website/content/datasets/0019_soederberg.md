@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0019_soederberg"
 first_author: "Söderberg"
@@ -8,7 +8,7 @@ year: 2024
 paper_doi: "https://doi.org/10.12688/f1000research.157148.1"
 zenodo_doi: "10.5281/zenodo.17347732"
 license: "CC-BY 4.0"
-n_participants: 302
+n_participants: 300
 n_time_points: 40
 n_days: "10"
 topics: "schooling, relationships, self-efficacy, emotions, sleep"
@@ -38,7 +38,7 @@ participants: "middle and secondary school students"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 302 (middle and secondary school students)</li>
+<li><strong>Participants:</strong> 300 (middle and secondary school students)</li>
 <li><strong>Time Points:</strong> 40</li>
 <li><strong>Days:</strong> 10</li>
 <li><strong>Beeps per Day:</strong> 4</li>
@@ -78,6 +78,7 @@ Mölsä, M., Forsman, A. K., & Söderberg, P. (2024, December 16). A 10-day expe
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.0.0) *metadata change*: Fix 'extraversion' typo in variable coding.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

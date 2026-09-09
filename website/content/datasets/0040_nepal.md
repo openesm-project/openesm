@@ -1,6 +1,6 @@
 ---
 title: "Nepal (2024)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0040_nepal"
 first_author: "Nepal"
@@ -8,7 +8,7 @@ year: 2024
 paper_doi: "https://doi.org/10.1145/3643501"
 zenodo_doi: "10.5281/zenodo.17348144"
 license: "CC BY-NC-SA 4.0"
-n_participants: 218
+n_participants: 220
 n_time_points: 441
 n_days: "441"
 topics: "mental health, resilience, behavior, COVID, anxiety, depression, social media"
@@ -38,7 +38,7 @@ participants: "undergraduate students"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 218 (undergraduate students)</li>
+<li><strong>Participants:</strong> 220 (undergraduate students)</li>
 <li><strong>Time Points:</strong> 441</li>
 <li><strong>Days:</strong> 441</li>
 <li><strong>Beeps per Day:</strong> 1</li>
@@ -78,6 +78,7 @@ Nepal, S., Liu, W., Pillai, A., Wang, W., Vojdanovski, V., Huckins, J. F., Roger
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

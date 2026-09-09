@@ -1,6 +1,6 @@
 ---
 title: "Sicorello (2024)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0073_sicorello"
 first_author: "Sicorello"
@@ -8,7 +8,7 @@ year: 2024
 paper_doi: "https://doi.org/10.31234/osf.io/8mzvu"
 zenodo_doi: "10.5281/zenodo.19886179"
 license: "CC BY-NC 4.0"
-n_participants: 214
+n_participants: 227
 n_time_points: 60
 n_days: "10"
 topics: "emotion regulation, stress, affect"
@@ -38,7 +38,7 @@ participants: "adults between 18-65"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 214 (adults between 18-65)</li>
+<li><strong>Participants:</strong> 227 (adults between 18-65)</li>
 <li><strong>Time Points:</strong> 60</li>
 <li><strong>Days:</strong> 10</li>
 <li><strong>Beeps per Day:</strong> 6</li>
@@ -78,6 +78,7 @@ Sicorello, M., Heyse, W., Pruessner, L., Elsaesser, M., & Kolar, D. R. (2025, Se
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-29** (1.0.0) *data change*: Initial release.
 
 ## Variables

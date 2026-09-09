@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-09-09",
+      "description": "Fix information about number of participants.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -19,7 +25,7 @@
   "license": "GPL-3.0",
   "link_to_codebook": "https://osf.io/87a9p/files/osfstorage",
   "link_to_code": "https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis",
-  "n_participants": 139,
+  "n_participants": 211,
   "n_time_points": 21,
   "n_days": "3",
   "n_beeps_per_day": "7",

@@ -1,6 +1,6 @@
 ---
 title: "Hasselhorn (2021)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0024_hasselhorn"
 first_author: "Hasselhorn"
@@ -8,7 +8,7 @@ year: 2021
 paper_doi: "https://doi.org/10.3758/s13428-021-01683-6"
 zenodo_doi: "10.5281/zenodo.17347856"
 license: "CC BY-NC 4.0"
-n_participants: 313
+n_participants: 316
 n_time_points: 84
 n_days: "14"
 topics: "sampling frequency, affect, compliance, extraversion, perceived burden"
@@ -38,7 +38,7 @@ participants: "university students"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 313 (university students)</li>
+<li><strong>Participants:</strong> 316 (university students)</li>
 <li><strong>Time Points:</strong> 84</li>
 <li><strong>Days:</strong> 14</li>
 <li><strong>Beeps per Day:</strong> 3 or 9</li>
@@ -78,6 +78,7 @@ Hasselhorn, K., Ottenstein, C., & Lischetzke, T. (2022). The effects of assessme
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

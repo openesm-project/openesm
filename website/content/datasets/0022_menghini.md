@@ -1,6 +1,6 @@
 ---
 title: "Menghini (2023)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0022_menghini"
 first_author: "Menghini"
@@ -8,7 +8,7 @@ year: 2023
 paper_doi: "https://doi.org/10.1027/1015-5759/a000725"
 zenodo_doi: "10.5281/zenodo.17347537"
 license: "GPL-3.0"
-n_participants: 139
+n_participants: 211
 n_time_points: 21
 n_days: "3"
 topics: "workplace stress, mood"
@@ -38,7 +38,7 @@ participants: "full-time office workers"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 139 (full-time office workers)</li>
+<li><strong>Participants:</strong> 211 (full-time office workers)</li>
 <li><strong>Time Points:</strong> 21</li>
 <li><strong>Days:</strong> 3</li>
 <li><strong>Beeps per Day:</strong> 7</li>
@@ -75,6 +75,7 @@ Menghini, L., Pastore, M., & Balducci, C. (2023). Workplace stress in real time.
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

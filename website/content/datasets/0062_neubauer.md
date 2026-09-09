@@ -1,6 +1,6 @@
 ---
 title: "Neubauer (2024)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0062_neubauer"
 first_author: "Neubauer"
@@ -8,7 +8,7 @@ year: 2024
 paper_doi: "https://doi.org/10.1007/s11618-023-01182-8"
 zenodo_doi: "10.5281/zenodo.17347974"
 license: "CC-BY 4.0"
-n_participants: 321
+n_participants: 322
 n_time_points: 84
 n_days: "14"
 topics: "timescales, COVID, academic achievement, study demands"
@@ -38,7 +38,7 @@ participants: "undergraduate students"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 321 (undergraduate students)</li>
+<li><strong>Participants:</strong> 322 (undergraduate students)</li>
 <li><strong>Time Points:</strong> 84</li>
 <li><strong>Days:</strong> 14</li>
 <li><strong>Beeps per Day:</strong> 6</li>
@@ -78,6 +78,7 @@ Neubauer, A. B., & Schmiedek, F. (2024). Approaching academic adjustment on mult
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

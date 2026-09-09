@@ -1,6 +1,6 @@
 ---
 title: "Koval (2013)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0031_koval"
 first_author: "Koval"
@@ -8,7 +8,7 @@ year: 2013
 paper_doi: "http://doi.org/10.1037/a0033579"
 zenodo_doi: "10.5281/zenodo.17347968"
 license: "CC BY-NC 4.0"
-n_participants: 95
+n_participants: 100
 n_time_points: 70
 n_days: "7"
 topics: "well-being, affect, depression, affect dynamics"
@@ -38,7 +38,7 @@ participants: "undergraduate students"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 95 (undergraduate students)</li>
+<li><strong>Participants:</strong> 100 (undergraduate students)</li>
 <li><strong>Time Points:</strong> 70</li>
 <li><strong>Days:</strong> 7</li>
 <li><strong>Beeps per Day:</strong> 10</li>
@@ -83,6 +83,7 @@ Dejonckheere, E., Mestdagh, M., Houben, M., Rutten, I., Sels, L., Kuppens, P., &
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

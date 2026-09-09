@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-09-09",
+      "description": "Fix information about number of participants.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -19,7 +25,7 @@
   "license": "CC BY-NC 4.0",
   "link_to_codebook": null,
   "link_to_code": "https://osf.io/8jhuk",
-  "n_participants": 78,
+  "n_participants": 72,
   "n_time_points": 147,
   "n_days": "21",
   "n_beeps_per_day": "7",

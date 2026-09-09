@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-09-09",
+      "description": "Fix information about number of participants.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-04-29",
       "description": "Initial release.",
       "type": "data",
@@ -19,7 +25,7 @@
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://github.com/MaurizioSicorello/SDERSvalid_Analysis/blob/main/data/SDERSvalid_Codebook.xlsx",
   "link_to_code": "https://github.com/MaurizioSicorello/SDERSvalid_Analysis/tree/main/scripts",
-  "n_participants": 214,
+  "n_participants": 227,
   "n_time_points": 60,
   "n_days": "10",
   "n_beeps_per_day": "6",

@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2026-09-03
+date: 2026-09-09
 draft: false
 dataset_id: "0001_fried"
 first_author: "Fried"
@@ -8,7 +8,7 @@ year: 2021
 paper_doi: "https://doi.org/10.1177/21677026211017839"
 zenodo_doi: "10.5281/zenodo.17347269"
 license: "CC-BY 4.0"
-n_participants: 80
+n_participants: 79
 n_time_points: 56
 n_days: "14"
 topics: "mental health, social contact, COVID"
@@ -38,7 +38,7 @@ participants: "student sample"
 <div class="dataset-meta-card">
 <h2>Data Characteristics</h2>
 <ul>
-<li><strong>Participants:</strong> 80 (student sample)</li>
+<li><strong>Participants:</strong> 79 (student sample)</li>
 <li><strong>Time Points:</strong> 56</li>
 <li><strong>Days:</strong> 14</li>
 <li><strong>Beeps per Day:</strong> 4</li>
@@ -78,6 +78,7 @@ Fried, E. I., Papanikolaou, F., & Epskamp, S. (2022). Mental health and social c
 
 ## Changelog
 
+- **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
