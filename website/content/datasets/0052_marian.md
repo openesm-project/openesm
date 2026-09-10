@@ -78,6 +78,7 @@ Marian, S., Costantini, G., Macsinga, I., & Sava, F. A. (2023). The dynamic inte
 
 ## Changelog
 
+- **2026-09-10** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
