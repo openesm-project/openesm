@@ -1,6 +1,6 @@
 ---
 title: "Hensel (2023)"
-date: 2026-09-09
+date: 2026-09-10
 draft: false
 dataset_id: "0066_hensel"
 first_author: "Hensel"
@@ -78,6 +78,7 @@ Hensel, D. J., Young, A. I., & Szymanski, K. M. (2023). The feasibility of using
 
 ## Changelog
 
+- **2026-09-10** (3.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-03** (2.0.0) *data change*: Remove some open text and housekeeping column.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

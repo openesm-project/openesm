@@ -6,8 +6,14 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1371/journal.pone.0292735",
   "zenodo_doi": "10.5281/zenodo.17348001",
-  "dataset_version": "2.0.0",
+  "dataset_version": "3.0.0",
   "changelog": [
+    {
+      "date": "2026-09-10",
+      "description": "Removal of uncleaned static data pending privacy review.",
+      "type": "data",
+      "dataset_version": "3.0.0"
+    },
     {
       "date": "2026-09-03",
       "description": "Remove some open text and housekeeping column.",

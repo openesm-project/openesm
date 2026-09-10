@@ -6,8 +6,14 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1038/s41597-024-04147-6",
   "zenodo_doi": "10.5281/zenodo.17347469",
-  "dataset_version": "1.0.0",
+  "dataset_version": "2.0.0",
   "changelog": [
+    {
+      "date": "2026-09-10",
+      "description": "Removal of uncleaned static data pending privacy review.",
+      "type": "data",
+      "dataset_version": "2.0.0"
+    },
     {
       "date": "2025-10-14",
       "description": "Initial release.",
