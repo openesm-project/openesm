@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0019_soederberg"
 first_author: "Söderberg"
@@ -78,6 +78,7 @@ Mölsä, M., Forsman, A. K., & Söderberg, P. (2024, December 16). A 10-day expe
 
 ## Changelog
 
+- **2026-09-15** (1.0.0) *metadata change*: Add metadata for time variable; add missing asssessment types.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.0.0) *metadata change*: Fix 'extraversion' typo in variable coding.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
@@ -88,14 +89,15 @@ Mölsä, M., Forsman, A. K., & Söderberg, P. (2024, December 16). A 10-day expe
 
 | Name | Description | Type | Answer Categories | Details | Labels | Transformation | Source | Assessment Type | Construct | Comments |
 |------|-------------|------|------------------|---------|--------|----------------|--------|----------------|----------|----------|
-| id | Participant ID | categorical |  |  |  |  |  |  |  |  |
-| day | Day of study | other |  |  |  |  |  |  |  |  |
-| beep | Beep of the day | other |  |  |  |  |  |  |  |  |
-| notification_time | Time of notification | PosixCt |  |  |  |  |  |  |  |  |
-| notification_no | Notification number | numeric |  |  |  |  |  |  |  |  |
-| reminder | Reminder | binary | 2 |  | 0 = no<br>1 = yes |  |  |  |  |  |
-| session_instance_response_lapse | Response lapse | other |  | Response lapse in minutes:second |  |  |  |  |  |  |
-| session_length | Session length | other |  | Session length in minutes:seconds |  |  |  |  |  |  |
+| id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
+| day | Day of study | other |  |  |  |  |  | ESM |  |  |
+| beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
+| time | Time counter of session | numeric |  | Time = (Day-1)*8+(Session+2) |  |  |  | ESM |  |  |
+| notification_time | Time of notification | PosixCt |  |  |  |  |  | ESM |  |  |
+| notification_no | Notification number | numeric |  |  |  |  |  | ESM |  |  |
+| reminder | Reminder | binary | 2 |  | 0 = no<br>1 = yes |  |  | ESM |  |  |
+| session_instance_response_lapse | Response lapse | other |  | Response lapse in minutes:second |  |  |  | ESM |  |  |
+| session_length | Session length | other |  | Session length in minutes:seconds |  |  |  | ESM |  |  |
 | [sleep_quality]({{< relref "/descriptives/" >}}?dataset=0019&item=sleep_quality) | Sleep quality | rating_scale | 5 | Good morning. Did you sleep well last night? | 1 = Not at all<br>5 = Yes, absolutely |  |  | Daily | sleep quality, sleep |  |
 | morning_breakfast | Breakfast eaten | binary | 2 | Have you eaten (or will you eat) breakfast this morning? | 0 = no<br>1 = yes |  |  | Daily | food, activity |  |
 | [morning_ok]({{< relref "/descriptives/" >}}?dataset=0019&item=morning_ok) | Feeling okay about school | rating_scale | 5 | Do you feel okay about going to school today? | 1 = No, not at all<br>5 = Yes, absolutely |  |  | ESM | school, education |  |

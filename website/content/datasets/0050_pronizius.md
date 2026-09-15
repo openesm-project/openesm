@@ -1,6 +1,6 @@
 ---
 title: "Pronizius (2024)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0050_pronizius"
 first_author: "Pronizius"

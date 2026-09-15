@@ -1,6 +1,6 @@
 ---
 title: "Reeves (2020)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0034_reeves"
 first_author: "Reeves"
@@ -78,6 +78,7 @@ Reeves, J. W., & Fisher, A. J. (2020). An examination of idiographic networks of
 
 ## Changelog
 
+- **2026-09-15** (1.0.0) *metadata change*: Add metadata for two creation variables.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
@@ -89,6 +90,8 @@ Reeves, J. W., & Fisher, A. J. (2020). An examination of idiographic networks of
 | id | Participant ID | categorical |  |  |  |  |  | ESM |  |  |
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
+| creation_date | Time of creation | PosixCt |  |  |  |  |  | ESM |  |  |
+| completion_date | Time of completion | PosixCt |  |  |  |  |  | ESM |  |  |
 | [felt_enthusiastic]({{< relref "/descriptives/" >}}?dataset=0034&item=felt_enthusiastic) | Enthusiastic | rating_scale | 101 | Felt enthusiastic | 0 = not at all<br>100 = as much as possible |  |  | ESM | enthusiasm, positive affect, affect, extraversion, big five |  |
 | [hypervigilant]({{< relref "/descriptives/" >}}?dataset=0034&item=hypervigilant) | Hypervigilant | rating_scale | 101 | Felt extremely alert, watchful, or on guard | 0 = not at all<br>100 = as much as possible |  | PCL-5 (Blevins et al.,2015) | ESM | hypervigilance, PTSD, psychopathology |  |
 | [aggressive]({{< relref "/descriptives/" >}}?dataset=0034&item=aggressive) | Aggressive | rating_scale | 101 | Felt irritable, had angry outbursts, or acted aggressively | 0 = not at all<br>100 = as much as possible |  | PCL-5 (Blevins et al.,2015) | ESM | irritability, aggressivity, PTSD, psychopathology |  |

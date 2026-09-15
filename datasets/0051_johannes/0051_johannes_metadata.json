@@ -9,6 +9,12 @@
   "dataset_version": "1.1.0",
   "changelog": [
     {
+      "date": "2026-09-15",
+      "description": "Renamed extracted_scheduled_times to scheduled_times.",
+      "type": "metadata",
+      "dataset_version": "1.1.0"
+    },
+    {
       "date": "2026-09-09",
       "description": "Fix information about number of participants.",
       "type": "metadata",
@@ -594,7 +600,7 @@
       "comments": ""
     },
     {
-      "name": "extracted_scheduled_times",
+      "name": "scheduled_time",
       "description": "Time the prompt was scheduled",
       "variable_type": "PosixCt",
       "coding": "",

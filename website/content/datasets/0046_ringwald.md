@@ -1,6 +1,6 @@
 ---
 title: "Ringwald (2024)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0046_ringwald"
 first_author: "Ringwald"
@@ -78,6 +78,7 @@ Ringwald, W., Vize, C., & Wright, A. (2025, March 9). Do you feel what I feel? T
 
 ## Changelog
 
+- **2026-09-15** (1.0.0) *metadata change*: Add metadata for two affect variables.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
@@ -96,3 +97,5 @@ Ringwald, W., Vize, C., & Wright, A. (2025, March 9). Do you feel what I feel? T
 | [pa_other]({{< relref "/descriptives/" >}}?dataset=0046&item=pa_other) | Positive affect other | rating_scale | 11 | How positive were their emotions during the interaction? |  | Likely person-mean centered |  | ESM | positive affect, affect, interaction, external rating |  |
 | [na_self]({{< relref "/descriptives/" >}}?dataset=0046&item=na_self) | Negative affect self | rating_scale | 11 | How negative did you feel during the interaction? |  | Likely person-mean centered |  | ESM | negative affect, affect |  |
 | [na_other]({{< relref "/descriptives/" >}}?dataset=0046&item=na_other) | Negative affect other | rating_scale | 11 | How negative were their emotions during the interaction? |  | Likely person-mean centered |  | ESM | negative affect, affect, external rating |  |
+| pa_selfother | Positive affect product term | rating_scale |  | Likely the product term of pa_self and pa_other |  | Likely person-mean centered |  | ESM | positive affect, affect | Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns. |
+| na_selfother | Negative affect product term | rating_scale |  | Likely the product term of na_self and na_other |  | Likely person-mean centered |  | ESM | negative affect, affect | Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns. |

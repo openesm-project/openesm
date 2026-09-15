@@ -1,6 +1,6 @@
 ---
 title: "Johannes (2021)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0051_johannes"
 first_author: "Johannes"
@@ -78,6 +78,7 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 
 ## Changelog
 
+- **2026-09-15** (1.1.0) *metadata change*: Renamed extracted_scheduled_times to scheduled_times.
 - **2026-09-09** (1.1.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.1.0) *data change*: Fix coding of 'concentrated_activity_binary'.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
@@ -127,4 +128,4 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 | [vigilance_reactibility]({{< relref "/descriptives/" >}}?dataset=0051&item=vigilance_reactibility) | Vigilance reactibility | rating_scale | 7 | In the last half an hour, when I received an online message, I immediately gave it my full attention. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | attention, media, communication |  |
 | [vigilance_monitoring]({{< relref "/descriptives/" >}}?dataset=0051&item=vigilance_monitoring) | Vigilance monitoring | rating_scale | 7 | In the last half an hour, I was constantly monitoring what was happening online. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | attention, media, communication |  |
 | [social_pressure_phone]({{< relref "/descriptives/" >}}?dataset=0051&item=social_pressure_phone) | Social pressure to be available via phone | rating_scale | 7 | In the last half an hour, I felt a social obligation to be available for mediated interactions. | 1 = Strongly disagree<br>7 = Strongly agree |  |  | ESM | social pressure, attention, media, communication |  |
-| extracted_scheduled_times | Time the prompt was scheduled | PosixCt |  |  |  |  |  | ESM |  |  |
+| scheduled_time | Time the prompt was scheduled | PosixCt |  |  |  |  |  | ESM |  |  |

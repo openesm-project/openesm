@@ -1,6 +1,6 @@
 ---
 title: "van Woerkom (2022)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0063_vanwoerkom"
 first_author: "van Woerkom"
@@ -78,6 +78,7 @@ van Woerkom, M., Constantin, M., Janssens, M., Reijnders, J., Jacobs, N., & Lata
 
 ## Changelog
 
+- **2026-09-15** (2.0.0) *data change*: Removed redundant not_misunderstood column.
 - **2025-10-18** (1.0.1) *data change*: Removed underscore from file names.
 - **2025-10-15** (1.0.0) *data change*: Initial release.
 

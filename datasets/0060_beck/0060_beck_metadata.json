@@ -6,8 +6,14 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1177/09567976221093307",
   "zenodo_doi": "10.5281/zenodo.17361673",
-  "dataset_version": "1.0.0",
+  "dataset_version": "2.0.0",
   "changelog": [
+    {
+      "date": "2026-15-09",
+      "description": "Set beep column to NA and retained original hour_block column; removed uncleaned static data pending internal review.",
+      "type": "data",
+      "dataset_version": "2.0.0"
+    },
     {
       "date": "2025-10-15",
       "description": "Initial release.",
@@ -31,7 +37,7 @@
   "sampling_scheme": "4x/day every fixed schedule every for hours, starting time chosen by participants",
   "participants": "students",
   "coding_file": "0060_beck_variables",
-  "additional_comments": "part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
+  "additional_comments": "no beep information available; part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
   "features": [
@@ -67,9 +73,9 @@
       "name": "beep",
       "description": "Beep of the day",
       "variable_type": "other",
-      "coding": "",
+      "coding": "not available",
       "answer_categories": "",
-      "details": "",
+      "details": "not available",
       "labels": "",
       "transformation": "",
       "source": "",
@@ -146,6 +152,20 @@
       "assessment_type": "ESM",
       "construct": "",
       "comments": ""
+    },
+    {
+      "name": "hour_block",
+      "description": "Hour block of response",
+      "variable_type": "numeric",
+      "coding": "",
+      "answer_categories": "",
+      "details": "",
+      "labels": "",
+      "transformation": "",
+      "source": "",
+      "assessment_type": "ESM",
+      "construct": "",
+      "comments": "Similar to a beep column, but has many duplicates"
     },
     {
       "name": "optimistic_setback",

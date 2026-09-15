@@ -1,6 +1,6 @@
 ---
 title: "van Halem (2020)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0070_vanhalem"
 first_author: "van Halem"
@@ -78,6 +78,7 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 
 ## Changelog
 
+- **2026-09-15** (2.0.0) *metadata change*: Add metadata for participant_mov.
 - **2026-09-03** (2.0.0) *data change*: Remove some open text data.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
@@ -91,6 +92,7 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 | day | Day of study | other |  |  |  |  |  | ESM |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | ESM |  |  |
 | counter | Counter | numeric |  |  |  |  |  | ESM |  |  |
+| participant_mov | Participant MOV | numeric |  | Unclear integer indicator |  |  |  | ESM |  |  |
 | trigger | Survey trigger type | other |  | Contains information about random trigger type or on reason why the EDA algorithm triggered the survey |  |  |  | ESM |  |  |
 | trigger_date | Survey trigger date | PosixCt |  |  |  |  |  | ESM |  |  |
 | trigger_time | Survey trigger time | PosixCt |  |  |  |  |  | ESM |  |  |

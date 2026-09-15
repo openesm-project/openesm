@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-09-15",
+      "description": "Add metadata for two creation variables.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -68,6 +74,34 @@
       "description": "Beep of the day",
       "variable_type": "other",
       "coding": "NA",
+      "answer_categories": "",
+      "details": "",
+      "labels": "",
+      "transformation": "",
+      "source": "",
+      "assessment_type": "ESM",
+      "construct": "",
+      "comments": ""
+    },
+    {
+      "name": "creation_date",
+      "description": "Time of creation",
+      "variable_type": "PosixCt",
+      "coding": "",
+      "answer_categories": "",
+      "details": "",
+      "labels": "",
+      "transformation": "",
+      "source": "",
+      "assessment_type": "ESM",
+      "construct": "",
+      "comments": ""
+    },
+    {
+      "name": "completion_date",
+      "description": "Time of completion",
+      "variable_type": "PosixCt",
+      "coding": "",
       "answer_categories": "",
       "details": "",
       "labels": "",

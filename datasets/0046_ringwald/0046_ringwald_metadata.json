@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-09-15",
+      "description": "Add metadata for two affect variables.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -174,6 +180,34 @@
       "assessment_type": "ESM",
       "construct": "negative affect, affect, external rating",
       "comments": ""
+    },
+    {
+      "name": "pa_selfother",
+      "description": "Positive affect product term",
+      "variable_type": "rating_scale",
+      "coding": "",
+      "answer_categories": "",
+      "details": "Likely the product term of pa_self and pa_other",
+      "labels": "",
+      "transformation": "Likely person-mean centered",
+      "source": "",
+      "assessment_type": "ESM",
+      "construct": "positive affect, affect",
+      "comments": "Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns."
+    },
+    {
+      "name": "na_selfother",
+      "description": "Negative affect product term",
+      "variable_type": "rating_scale",
+      "coding": "",
+      "answer_categories": "",
+      "details": "Likely the product term of na_self and na_other",
+      "labels": "",
+      "transformation": "Likely person-mean centered",
+      "source": "",
+      "assessment_type": "ESM",
+      "construct": "negative affect, affect",
+      "comments": "Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns."
     }
   ]
 }

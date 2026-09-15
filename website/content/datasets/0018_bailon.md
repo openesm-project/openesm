@@ -1,6 +1,6 @@
 ---
 title: "Bailon (2020)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0018_bailon"
 first_author: "Bailon"
@@ -78,6 +78,7 @@ Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanab
 
 ## Changelog
 
+- **2026-09-15** (2.0.0) *data change*: Remove redundant date column; removed uncleaned static data pending internal review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

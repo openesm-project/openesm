@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-09-15",
+      "description": "Add metadata for dual_fits_bo_po.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -229,6 +235,20 @@
       "source": "Recoded by the authors to indicate double exposure",
       "assessment_type": "ESM",
       "construct": "thinspiration, body positivity, media exposure, body image",
+      "comments": ""
+    },
+    {
+      "name": "dual_fits_bo_po",
+      "description": "Dual exposure to fitspiration and body positivity",
+      "variable_type": "binary",
+      "coding": "Have you seen thinspiration/body positivity since the last questionnaire? Recoded by the authors to indicate double exposure\n0 = No exposure\n1 = Fitspiration and body positivity exposure",
+      "answer_categories": "2",
+      "details": "Have you seen fitspiration/body positivity since the last questionnaire?",
+      "labels": "0 = No exposure\n1 = Fitspiration and body positivity exposure",
+      "transformation": "",
+      "source": "Recoded by the authors to indicate double exposure",
+      "assessment_type": "ESM",
+      "construct": "body positivity, fitspiration, media exposure, body image",
       "comments": ""
     },
     {

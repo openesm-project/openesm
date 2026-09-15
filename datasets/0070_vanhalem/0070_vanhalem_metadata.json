@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-09-15",
+      "description": "Add metadata for participant_mov.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    }, 
+    {
       "date": "2026-09-03",
       "description": "Remove some open text data.",
       "type": "data",
@@ -90,6 +96,20 @@
       "coding": "",
       "answer_categories": "",
       "details": "",
+      "labels": "",
+      "transformation": "",
+      "source": "",
+      "assessment_type": "ESM",
+      "construct": "",
+      "comments": ""
+    },
+    {
+      "name": "participant_mov",
+      "description": "Participant MOV",
+      "variable_type": "numeric",
+      "coding": "",
+      "answer_categories": "",
+      "details": "Unclear integer indicator",
       "labels": "",
       "transformation": "",
       "source": "",

@@ -7594,7 +7594,7 @@
         "labels": "",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -7608,7 +7608,7 @@
         "labels": "",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -7622,7 +7622,21 @@
         "labels": "",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
+        "construct": "",
+        "comments": ""
+      },
+      {
+        "name": "time",
+        "description": "Time counter of session",
+        "type": "numeric",
+        "coding": "",
+        "answer_categories": "",
+        "details": "Time = (Day-1)*8+(Session+2)",
+        "labels": "",
+        "transformation": "",
+        "source": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -7636,7 +7650,7 @@
         "labels": "",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -7650,7 +7664,7 @@
         "labels": "",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -7664,7 +7678,7 @@
         "labels": "0 = no\n1 = yes",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -7678,7 +7692,7 @@
         "labels": "",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -7692,7 +7706,7 @@
         "labels": "",
         "transformation": "",
         "source": "",
-        "assessment_type": "",
+        "assessment_type": "ESM",
         "construct": "",
         "comments": ""
       },
@@ -11446,6 +11460,34 @@
         "description": "Beep of the day",
         "type": "other",
         "coding": "NA",
+        "answer_categories": "",
+        "details": "",
+        "labels": "",
+        "transformation": "",
+        "source": "",
+        "assessment_type": "ESM",
+        "construct": "",
+        "comments": ""
+      },
+      {
+        "name": "creation_date",
+        "description": "Time of creation",
+        "type": "PosixCt",
+        "coding": "",
+        "answer_categories": "",
+        "details": "",
+        "labels": "",
+        "transformation": "",
+        "source": "",
+        "assessment_type": "ESM",
+        "construct": "",
+        "comments": ""
+      },
+      {
+        "name": "completion_date",
+        "description": "Time of completion",
+        "type": "PosixCt",
+        "coding": "",
         "answer_categories": "",
         "details": "",
         "labels": "",
@@ -15689,6 +15731,34 @@
         "assessment_type": "ESM",
         "construct": "negative affect, affect, external rating",
         "comments": ""
+      },
+      {
+        "name": "pa_selfother",
+        "description": "Positive affect product term",
+        "type": "rating_scale",
+        "coding": "",
+        "answer_categories": "",
+        "details": "Likely the product term of pa_self and pa_other",
+        "labels": "",
+        "transformation": "Likely person-mean centered",
+        "source": "",
+        "assessment_type": "ESM",
+        "construct": "positive affect, affect",
+        "comments": "Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns."
+      },
+      {
+        "name": "na_selfother",
+        "description": "Negative affect product term",
+        "type": "rating_scale",
+        "coding": "",
+        "answer_categories": "",
+        "details": "Likely the product term of na_self and na_other",
+        "labels": "",
+        "transformation": "Likely person-mean centered",
+        "source": "",
+        "assessment_type": "ESM",
+        "construct": "negative affect, affect",
+        "comments": "Kept here because this product term was centered before sharing data and cannot simply be recomputed based on other columns."
       }
     ],
     "url": "/datasets/0046_ringwald/"
@@ -16692,7 +16762,7 @@
         "comments": ""
       },
       {
-        "name": "extracted_scheduled_times",
+        "name": "scheduled_time",
         "description": "Time the prompt was scheduled",
         "type": "PosixCt",
         "coding": "",
@@ -17473,6 +17543,20 @@
         "source": "Recoded by the authors to indicate double exposure",
         "assessment_type": "ESM",
         "construct": "thinspiration, body positivity, media exposure, body image",
+        "comments": ""
+      },
+      {
+        "name": "dual_fits_bo_po",
+        "description": "Dual exposure to fitspiration and body positivity",
+        "type": "binary",
+        "coding": "Have you seen thinspiration/body positivity since the last questionnaire? Recoded by the authors to indicate double exposure\n0 = No exposure\n1 = Fitspiration and body positivity exposure",
+        "answer_categories": "2",
+        "details": "Have you seen fitspiration/body positivity since the last questionnaire?",
+        "labels": "0 = No exposure\n1 = Fitspiration and body positivity exposure",
+        "transformation": "",
+        "source": "Recoded by the authors to indicate double exposure",
+        "assessment_type": "ESM",
+        "construct": "body positivity, fitspiration, media exposure, body image",
         "comments": ""
       },
       {
@@ -21395,7 +21479,7 @@
     "cross_sectional_available": "yes",
     "passive_data_available": "no",
     "raw_time_stamp": "yes",
-    "additional_comments": "part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
+    "additional_comments": "no beep information available; part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
     "reference_text": "Beck, Emorie D. Jackson, Joshua J. Personalized prediction of behaviors experiences: {{An Psychological Science Psychol Sci ",
     "n_participants": 199,
     "n_time_points": 109,
@@ -21434,9 +21518,9 @@
         "name": "beep",
         "description": "Beep of the day",
         "type": "other",
-        "coding": "",
+        "coding": "not available",
         "answer_categories": "",
-        "details": "",
+        "details": "not available",
         "labels": "",
         "transformation": "",
         "source": "",
@@ -21513,6 +21597,20 @@
         "assessment_type": "ESM",
         "construct": "",
         "comments": ""
+      },
+      {
+        "name": "hour_block",
+        "description": "Hour block of response",
+        "type": "numeric",
+        "coding": "",
+        "answer_categories": "",
+        "details": "",
+        "labels": "",
+        "transformation": "",
+        "source": "",
+        "assessment_type": "ESM",
+        "construct": "",
+        "comments": "Similar to a beep column, but has many duplicates"
       },
       {
         "name": "optimistic_setback",
@@ -28549,6 +28647,20 @@
         "coding": "",
         "answer_categories": "",
         "details": "",
+        "labels": "",
+        "transformation": "",
+        "source": "",
+        "assessment_type": "ESM",
+        "construct": "",
+        "comments": ""
+      },
+      {
+        "name": "participant_mov",
+        "description": "Participant MOV",
+        "type": "numeric",
+        "coding": "",
+        "answer_categories": "",
+        "details": "Unclear integer indicator",
         "labels": "",
         "transformation": "",
         "source": "",

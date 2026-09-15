@@ -1,6 +1,6 @@
 ---
 title: "Stevens (2020)"
-date: 2026-09-10
+date: 2026-09-15
 draft: false
 dataset_id: "0053_stevens"
 first_author: "Stevens"
@@ -78,6 +78,7 @@ Stevens, A., & Griffiths, S. (2020). Body Positivity (#BoPo) in everyday life: A
 
 ## Changelog
 
+- **2026-09-15** (1.0.0) *metadata change*: Add metadata for dual_fits_bo_po.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables
@@ -100,6 +101,7 @@ Stevens, A., & Griffiths, S. (2020). Body Positivity (#BoPo) in everyday life: A
 | bo_po_exposure | Unique exposure to body positivity | binary | 2 | Have you seen body positivity since the last questionnaire? | 0 = No exposure<br>1 = Body positivity exposure only |  | Recoded by the authors to indicate unique exposure | ESM | body positivity, media exposure, body image |  |
 | dual_thin_fits | Dual exposure to thinspiration and fitspiration | binary | 2 | Have you seen thinspiration/fitspiration since the last questionnaire? | 0 = No exposure<br>1 = Thinspiration and fitspiration exposure |  | Recoded by the authors to indicate double exposure | ESM | thinspiration, fitspiration, media exposure, body image |  |
 | dual_thin_bo_po | Dual exposure to thinspiration and body positivity | binary | 2 | Have you seen thinspiration/body positivity since the last questionnaire? | 0 = No exposure<br>1 = Thinspiration and body positivity exposure |  | Recoded by the authors to indicate double exposure | ESM | thinspiration, body positivity, media exposure, body image |  |
+| dual_fits_bo_po | Dual exposure to fitspiration and body positivity | binary | 2 | Have you seen fitspiration/body positivity since the last questionnaire? | 0 = No exposure<br>1 = Fitspiration and body positivity exposure |  | Recoded by the authors to indicate double exposure | ESM | body positivity, fitspiration, media exposure, body image |  |
 | triple_exposure | Triple exposure to thinspiration, fitspiration, and body positivity | binary | 2 | Have you seen thinspiration/fitspiration/body positivity since the last questionnaire? | 0 = No exposure<br>1 = Thinspiration, fitspiration, and body positivity exposure |  | Recoded by the authors to indicate triple exposure | ESM | thinspiration, fitspiration, body positivity, media exposure, body image |  |
 | [weight_satisfaction]({{< relref "/descriptives/" >}}?dataset=0053&item=weight_satisfaction) | Weight satisfaction | rating_scale | 101 | How satisfied with your weight are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | weight satisfaction, body satisfaction, body image, self-concept |  |
 | [appearance_satisfaction]({{< relref "/descriptives/" >}}?dataset=0053&item=appearance_satisfaction) | Appearance satisfaction | rating_scale | 101 | How satisfied with your appearance are you right now? | 0 = extremely dissatisfied<br>100 = extremely satisfied |  |  | ESM | appearance satisfaction, body satisfaction, body image, self-concept |  |
