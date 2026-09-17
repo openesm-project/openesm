@@ -1,6 +1,6 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-09-15
+date: 2026-09-17
 draft: false
 dataset_id: "0042_mostajabi"
 first_author: "Mostajabi"
@@ -83,6 +83,7 @@ Vize, C., Scott, L., Wright, A., & Kamarck, T. (2023, February 15). Socio-affect
 
 ## Changelog
 
+- **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

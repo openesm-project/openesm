@@ -6,8 +6,14 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1002/per.2252",
   "zenodo_doi": "10.5281/zenodo.17348032",
-  "dataset_version": "2.0.0",
+  "dataset_version": "3.0.0",
   "changelog": [
+    {
+      "date": "2026-09-17",
+      "description": "Removal of uncleaned static and daily data pending privacy review.",
+      "type": "data",
+      "dataset_version": "3.0.0"
+    },
     {
       "date": "2026-09-15",
       "description": "Add metadata for participant_mov.",

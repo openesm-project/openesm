@@ -1,6 +1,6 @@
 ---
 title: "Sicorello (2024)"
-date: 2026-09-15
+date: 2026-09-17
 draft: false
 dataset_id: "0073_sicorello"
 first_author: "Sicorello"
@@ -78,6 +78,7 @@ Sicorello, M., Heyse, W., Pruessner, L., Elsaesser, M., & Kolar, D. R. (2025, Se
 
 ## Changelog
 
+- **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-29** (1.0.0) *data change*: Initial release.
 

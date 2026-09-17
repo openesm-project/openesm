@@ -1,6 +1,6 @@
 ---
 title: "Kuczynski (2021)"
-date: 2026-09-15
+date: 2026-09-17
 draft: false
 dataset_id: "0039_kuczynski"
 first_author: "Kuczynski"
@@ -78,6 +78,7 @@ Kuczynski, A. M., Halvorson, M. A., Slater, L. R., & Kanter, J. W. (2022). The e
 
 ## Changelog
 
+- **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-14** (1.0.0) *metadata change*: Changed publication year from 2018 to 2021.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

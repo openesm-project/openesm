@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2026-09-15
+date: 2026-09-17
 draft: false
 dataset_id: "0001_fried"
 first_author: "Fried"
@@ -78,6 +78,7 @@ Fried, E. I., Papanikolaou, F., & Epskamp, S. (2022). Mental health and social c
 
 ## Changelog
 
+- **2026-09-17** (3.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-15** (2.0.0) *data change*: Remove redundant time column.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

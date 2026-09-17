@@ -1,6 +1,6 @@
 ---
 title: "van Halem (2020)"
-date: 2026-09-15
+date: 2026-09-17
 draft: false
 dataset_id: "0070_vanhalem"
 first_author: "van Halem"
@@ -78,6 +78,7 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 
 ## Changelog
 
+- **2026-09-17** (3.0.0) *data change*: Removal of uncleaned static and daily data pending privacy review.
 - **2026-09-15** (2.0.0) *metadata change*: Add metadata for participant_mov.
 - **2026-09-03** (2.0.0) *data change*: Remove some open text data.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

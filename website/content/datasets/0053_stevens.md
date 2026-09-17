@@ -1,6 +1,6 @@
 ---
 title: "Stevens (2020)"
-date: 2026-09-15
+date: 2026-09-17
 draft: false
 dataset_id: "0053_stevens"
 first_author: "Stevens"
@@ -78,6 +78,7 @@ Stevens, A., & Griffiths, S. (2020). Body Positivity (#BoPo) in everyday life: A
 
 ## Changelog
 
+- **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-15** (1.0.0) *metadata change*: Add metadata for dual_fits_bo_po.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
