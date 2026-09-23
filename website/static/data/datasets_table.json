@@ -928,5 +928,20 @@
     "passive_data_available": "yes",
     "raw_time_stamp": "yes",
     "url": "/datasets/0075_ballou/"
+  },
+  {
+    "dataset_id": "0076_bayer",
+    "first_author": "Bayer",
+    "year": 2026,
+    "topics": "daily mobility, space perception, social perception",
+    "n_participants": 519,
+    "n_time_points": 84,
+    "n_days": "14",
+    "n_beeps_per_day": "6",
+    "n_variables": 45,
+    "cross_sectional_available": "no",
+    "passive_data_available": "no",
+    "raw_time_stamp": "yes",
+    "url": "/datasets/0076_bayer/"
   }
 ]
