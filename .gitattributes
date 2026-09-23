@@ -1,0 +1,2 @@
+# generated dataset pages - keep LF to match script output
+website/content/datasets/*.md text eol=lf
