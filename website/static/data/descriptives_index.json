@@ -4974,5 +4974,113 @@
   {
     "dataset_id": "0075",
     "item": "sleep_quality"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "pa"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "energy"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "fidgety"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "want_other_people"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "location_stimulation"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "location_overstimulation"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "location_familiar"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "location_interesting"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "location_refreshing"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "location_compatible_personality"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "interaction_when"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "interaction_pleasant"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "interaction_playful"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "interaction_meaningful"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "interaction_frequency"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "time_perception_clock"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "focus_activity"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "problem_progress"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "time_available"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "sleep_duration"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "healthy"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "exercise"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "stressed"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "self_esteem"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "productive"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "mobile_data_speed"
+  },
+  {
+    "dataset_id": "0076",
+    "item": "public_wifi_speed"
   }
 ]

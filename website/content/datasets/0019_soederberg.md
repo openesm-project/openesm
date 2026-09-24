@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-09-23
+date: 2026-09-24
 draft: false
 dataset_id: "0019_soederberg"
 first_author: "Söderberg"
