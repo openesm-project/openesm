@@ -1,6 +1,6 @@
 ---
 title: "Bayer (2026)"
-date: 2026-09-24
+date: 2026-09-25
 draft: false
 dataset_id: "0076_bayer"
 first_author: "Bayer"

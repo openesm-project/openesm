@@ -1,6 +1,6 @@
 ---
 title: "Hasselhorn (2021)"
-date: 2026-09-24
+date: 2026-09-25
 draft: false
 dataset_id: "0025_hasselhorn"
 first_author: "Hasselhorn"
@@ -78,6 +78,7 @@ Hasselhorn, K., Ottenstein, C., & Lischetzke, T. (2022). The effects of assessme
 
 ## Changelog
 
+- **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-04-27** (1.0.0) *metadata change*: Fixed variable name 'relaxed_personality' in metadata.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
