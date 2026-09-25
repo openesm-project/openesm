@@ -50,9 +50,16 @@ When using datasets from openESM in your research, please cite:
 
 1. **The original authors** - citation information is provided on each dataset's page. Sometimes, there are multiple relevant publications; please make sure to cite all appropriate sources.
 2. **The openESM database** - using our introduction paper:
+3. **The dataset and metadata versions you used** - for full reproducibility, report the `version` and `metadata_version` shown when downloading, so others can retrieve the exact same data and metadata:
+
+```r
+get_dataset("0001", metadata_version = "1.11.0", version = "3.0.0")
+```
 
 
-> Siepe, B. S., Haslbeck, J. M. B., Kloft, M., Büchner, A., Zhang, Y., Fried, E. I., & Heck, D. W. (2025, October 22). Introducing openESM: A database of openly available experience sampling datasets. https://doi.org/10.31234/osf.io/qfdtb_v1
+> Siepe, B. S., Haslbeck, J. M. B., Kloft, M., Büchner, A., Zhang, Y., Fried, E. I., & Heck, D. W. (2026). Introducing openESM: A database of openly available experience sampling datasets. Behavior Research Methods, 58(8), 240. https://doi.org/10.3758/s13428-026-03112-y
+
+
 
 
 ## How did we create openESM?
