@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2026-09-24
+date: 2026-09-25
 draft: false
 dataset_id: "0001_fried"
 first_author: "Fried"

@@ -1,6 +1,6 @@
 ---
 title: "Nestler (2022)"
-date: 2026-09-24
+date: 2026-09-25
 draft: false
 dataset_id: "0002_nestler"
 first_author: "Nestler"
@@ -78,6 +78,7 @@ Nestler, S., & Humberg, S. (2022). A lasso and a regression tree mixed-effect mo
 
 ## Changelog
 
+- **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-04-27** (1.0.0) *metadata change*: Change Likert variables from 'numeric' to 'rating_scale'.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

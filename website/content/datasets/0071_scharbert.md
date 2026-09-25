@@ -1,6 +1,6 @@
 ---
 title: "Scharbert (2023)"
-date: 2026-09-24
+date: 2026-09-25
 draft: false
 dataset_id: "0071_scharbert"
 first_author: "Scharbert"
@@ -83,6 +83,7 @@ Scharbert, J., Humberg, S., Kroencke, L., Reiter, T., Sakel, S., ter Horst, J., 
 
 ## Changelog
 
+- **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

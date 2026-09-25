@@ -1,6 +1,6 @@
 ---
 title: "Johannes (2021)"
-date: 2026-09-24
+date: 2026-09-25
 draft: false
 dataset_id: "0051_johannes"
 first_author: "Johannes"
@@ -78,6 +78,7 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 
 ## Changelog
 
+- **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-15** (1.1.0) *metadata change*: Renamed extracted_scheduled_times to scheduled_times.
 - **2026-09-09** (1.1.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.1.0) *data change*: Fix coding of 'concentrated_activity_binary'.

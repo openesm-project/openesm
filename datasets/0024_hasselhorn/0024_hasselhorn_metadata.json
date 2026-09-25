@@ -6,8 +6,14 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.3758/s13428-021-01683-6",
   "zenodo_doi": "10.5281/zenodo.17347856",
-  "dataset_version": "1.0.0",
+  "dataset_version": "2.0.0",
   "changelog": [
+    {
+      "date": "2026-09-25",
+      "description": "Removal of uncleaned static data pending privacy review.",
+      "type": "data",
+      "dataset_version": "2.0.0"
+    },
     {
       "date": "2026-09-09",
       "description": "Fix information about number of participants.",
