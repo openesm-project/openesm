@@ -1,0 +1,11 @@
+{{- define "main" }}
+<div class="not-found-page">
+  <div class="not-found-code">404</div>
+  <p>This page doesn't exist. It may have moved, or the link may be mistyped.</p>
+  <ul class="not-found-links">
+    <li><a href="{{ "datasets/" | relURL }}">Browse datasets</a></li>
+    <li><a href="{{ "search/" | relURL }}">Search</a></li>
+    <li><a href="{{ "" | relURL }}">Home</a></li>
+  </ul>
+</div>
+{{- end }}{{/* end main */ -}}
