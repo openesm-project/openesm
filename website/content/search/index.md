@@ -77,11 +77,11 @@ Use the search box below to find datasets and variables in the openESM database.
 <button id="clear-selection-btn" class="clear-btn">Clear Selection</button>
 <div class="code-section">
 <div class="code-block">
-<div class="code-header">R Code</div>
+<div class="dataset-code-label">R</div>
 <div class="highlight"><pre><code class="code-content language-r" id="r-code"></code></pre></div>
 </div>
 <div class="code-block">
-<div class="code-header">Python Code</div>
+<div class="dataset-code-label">Python</div>
 <div class="highlight"><pre><code class="code-content language-python" id="python-code"></code></pre></div>
 </div>
 </div>
@@ -556,50 +556,12 @@ function getMatchIndicators(dataset, query) {
 .clear-btn { background: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 14px; margin-bottom: 15px; }
 .clear-btn:hover { background: #c82333; }
 .code-section { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-.code-block { 
-  border: none; 
-  border-radius: 8px; 
-  overflow: hidden; 
-  background: #1a202c;
-}
-.code-header { 
-  background: #2d3748; 
-  color: #e2e8f0; 
-  padding: 10px 12px; 
-  font-weight: 600; 
-  font-size: 13px; 
-}
-.code-content { 
-  display: block; 
-  padding: 12px; 
-  margin: 0; /* remove default margin */
-  font-family: var(--font-mono); 
-  font-size: 13px; 
-  white-space: pre-wrap; 
-  background: #1a202c; 
-  color: #e2e8f0; 
-}
-/* Also target the pre element specifically */
-.code-block pre {
-  margin: 0;
-  padding: 0;
-  background: transparent;
-}
-/* neutralize papermod's .highlight styles inside code blocks */
-.code-block .highlight {
-  background: transparent;
-  border-left: none;
-  padding: 0;
-  margin: 0;
-}
-/* some better monospace fonts */
-.code-content { 
-  font-family: 'Fira Code', 'Monaco', 'Cascadia Code', 'Roboto Mono', 'Courier New', monospace; 
-}
-/* Syntax highlighting colors */
-.code-content .keyword { color: #f687b3; font-weight: 500; }
-.code-content .string { color: #9ae6b4; }
-.code-content .function { color: #63b3ed; }
+/* code blocks use the site-wide code style from custom.css; only layout here */
+.code-block { min-width: 0; }
+.code-block .dataset-code-label { margin-bottom: 0.35rem; }
+.code-block .highlight { margin: 0; }
+/* wrap between dataset ids, not inside them (papermod sets break-all on pre code) */
+.post-content .code-block pre code { white-space: pre-wrap; word-break: normal; overflow-wrap: break-word; }
 /* Construct dropdown styles */
 .construct-dropdown { position: relative; }
 .construct-button { width: 100%; padding: 8px 12px; border: 1px solid var(--border); border-radius: 4px; background: var(--entry); color: var(--primary); font-size: 0.875rem; text-align: left; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }

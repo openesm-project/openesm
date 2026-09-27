@@ -78,6 +78,9 @@ theme = "PaperMod"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  # light syntax colors to match the site's light code blocks
+  [markup.highlight]
+    style = "github"
 
 
 # Parameters
