@@ -618,6 +618,22 @@ body .main {
   min-width: 3.5rem;
 }
 
+.dataset-copy-button {
+  flex-shrink: 0;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.75rem;
+  color: var(--primary-blue);
+  background: white;
+  border: 1px solid var(--border-gray);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dataset-copy-button:hover {
+  background: var(--hover-gray);
+  border-color: var(--primary-blue);
+}
+
 /* Two-column metadata grid (Study Info | Data Characteristics) */
 .dataset-meta-grid {
   display: grid;

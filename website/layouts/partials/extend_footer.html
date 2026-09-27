@@ -1,0 +1,21 @@
+{{- /* copy buttons for get_dataset() snippets on dataset pages.
+       no page condition here: PaperMod caches footer.html per layout/kind,
+       and the script is a no-op on pages without these snippets */ -}}
+<script>
+  document.querySelectorAll('.dataset-code-item code').forEach((code) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'dataset-copy-button';
+    button.textContent = 'Copy';
+    button.setAttribute('aria-label', 'Copy code to clipboard');
+
+    button.addEventListener('click', () => {
+      navigator.clipboard.writeText(code.textContent).then(() => {
+        button.textContent = 'Copied!';
+        setTimeout(() => { button.textContent = 'Copy'; }, 2000);
+      });
+    });
+
+    code.after(button);
+  });
+</script>
