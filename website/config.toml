@@ -81,7 +81,7 @@ theme = "PaperMod"
 
 # Parameters
 [params]
-  description = "Open Experience Sampling Method (ESM) Database"
+  description = "openESM is a database of harmonized, openly available experience sampling (ESM) datasets with consistent metadata, ready to load in R and Python."
   logo = "openesm_icon_embedded.svg"
 
   # Social preview image (og:image / twitter:image) for all pages

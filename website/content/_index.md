@@ -1,5 +1,6 @@
 ---
 title: "openESM: Open Experience Sampling Method Database"
+description: "openESM is a database of harmonized, openly available experience sampling (ESM) datasets with consistent metadata, ready to load in R and Python."
 # prevent showing posts
 hidemeta: true
 # Hide the default list of posts
