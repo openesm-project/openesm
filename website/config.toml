@@ -83,7 +83,10 @@ theme = "PaperMod"
 [params]
   description = "Open Experience Sampling Method (ESM) Database"
   logo = "openesm_icon_embedded.svg"
-  
+
+  # Social preview image (og:image / twitter:image) for all pages
+  images = ["og-card.png"]
+
   # Default theme (auto, light, dark)
   defaultTheme = "light"
   disableThemeToggle = true
