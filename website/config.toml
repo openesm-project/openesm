@@ -4,7 +4,8 @@ title = "openESM"
 description = "open Experience Sampling Method (openESM) Database"
 theme = "PaperMod"
 
-# outputs: json needed for search, rss removed (incompatible with hugo v0.124+)
+# outputs: json needed for search. rss is enabled only for the blog (content/blog/_index.md);
+# layouts/_default/rss.xml overrides the theme template, which breaks on newer hugo
 [outputs]
   home = ["HTML", "JSON"]
   section = ["HTML", "JSON"]
@@ -93,6 +94,9 @@ theme = "PaperMod"
   
   # Show code copy buttons
   ShowCodeCopyButtons = true
+
+  # RSS icon next to the title of sections that have a feed (only the blog)
+  ShowRssButtonInSectionTermList = true
   
   # Show post reading time
   ShowReadingTime = false
