@@ -1,13 +1,17 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Mostajabi (2024) on personality, affect, personality disorder, interpersonal: 396 participants (college students), 42 time points over 7 days, sampled unclear. Harmonized and openly available via openESM."
 dataset_id: "0044_mostajabi"
+dataset_version: "2.0.0"
+date_modified: "2026-09-17"
 first_author: "Mostajabi"
 year: 2024
 paper_doi: "https://doi.org/10.31219/osf.io/3szng"
 zenodo_doi: "10.5281/zenodo.17386028"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/dcfb5"
 n_participants: 396
 n_time_points: 42
 n_days: "7"

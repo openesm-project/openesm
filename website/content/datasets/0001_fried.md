@@ -1,13 +1,17 @@
 ---
 title: "Fried (2021)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Fried (2021) on mental health, social contact, COVID: 79 participants (student sample), 56 time points over 14 days, sampled 4x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0001_fried"
+dataset_version: "3.0.0"
+date_modified: "2026-09-17"
 first_author: "Fried"
 year: 2021
 paper_doi: "https://doi.org/10.1177/21677026211017839"
 zenodo_doi: "10.5281/zenodo.17347269"
 license: "CC-BY 4.0"
+link_to_data: "https://osf.io/mvdpe/"
 n_participants: 79
 n_time_points: 56
 n_days: "14"

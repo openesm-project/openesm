@@ -113,6 +113,24 @@ function isValidUrl(val) {
   return /^https?:\/\//i.test(val.trim());
 }
 
+// one-sentence summary used for meta description and schema.org json-ld
+function buildDescription(data) {
+  const topics = data.topics ? ` on ${data.topics}` : '';
+  const sample = data.participants && data.participants !== 'unclear' ? ` (${data.participants})` : '';
+  const days = data.n_days ? ` over ${data.n_days} days` : '';
+  const scheme = data.sampling_scheme ? `, sampled ${data.sampling_scheme}` : '';
+  return `Experience sampling (ESM) dataset by ${data.first_author} (${data.year})${topics}: ` +
+    `${data.n_participants} participants${sample}, ${data.n_time_points} time points${days}${scheme}. ` +
+    'Harmonized and openly available via openESM.';
+}
+
+// most recent changelog date, used as schema.org dateModified
+function latestChangelogDate(changelog) {
+  if (!Array.isArray(changelog)) return '';
+  const dates = changelog.map(entry => entry?.date).filter(date => !Number.isNaN(Date.parse(date || '')));
+  return dates.sort().pop() || '';
+}
+
 // Read and process all dataset folders
 const generateDatasetPages = () => {
   // Get all subdirectories in the datasets directory
@@ -139,12 +157,16 @@ const generateDatasetPages = () => {
 title: "${escapeFM(data.first_author)} (${data.year})"
 date: ${new Date().toISOString().split('T')[0]}
 draft: false
+description: "${escapeFM(buildDescription(data))}"
 dataset_id: "${escapeFM(folder)}"
+dataset_version: "${escapeFM(data.dataset_version || '')}"
+date_modified: "${escapeFM(latestChangelogDate(data.changelog))}"
 first_author: "${escapeFM(data.first_author)}"
 year: ${data.year}
 paper_doi: "${escapeFM(data.paper_doi || '')}"
 zenodo_doi: "${escapeFM(data.zenodo_doi || '')}"
 license: "${escapeFM(data.license || '')}"
+link_to_data: "${isValidUrl(data.link_to_data) ? escapeFM(data.link_to_data) : ''}"
 n_participants: ${data.n_participants || 0}
 n_time_points: ${data.n_time_points || 0}
 n_days: "${escapeFM(String(data.n_days || ''))}"

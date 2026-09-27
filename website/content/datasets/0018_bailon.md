@@ -1,13 +1,17 @@
 ---
 title: "Bailon (2020)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Bailon (2020) on COVID, affect, pandemic, valence, arousal, context: 999 participants (community sample), 444 time points over 86 days, sampled 6x/day pseudo-random one-hour intervals. Harmonized and openly available via openESM."
 dataset_id: "0018_bailon"
+dataset_version: "2.0.0"
+date_modified: "2026-09-15"
 first_author: "Bailon"
 year: 2020
 paper_doi: "https://doi.org/10.1038/s41597-020-00700-1"
 zenodo_doi: "10.5281/zenodo.17347690"
 license: "CC-BY 4.0"
+link_to_data: "http://doi.org/10.5281/zenodo.3774526"
 n_participants: 999
 n_time_points: 444
 n_days: "86"

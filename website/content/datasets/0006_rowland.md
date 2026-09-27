@@ -1,13 +1,17 @@
 ---
 title: "Rowland (2020)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Rowland (2020) on mindfulness, affect, network: 125 participants (undergraduate students), 240 time points over 40 days, sampled 6x/day random timing. Harmonized and openly available via openESM."
 dataset_id: "0006_rowland"
+dataset_version: "1.0.0"
+date_modified: "2025-10-14"
 first_author: "Rowland"
 year: 2020
 paper_doi: "https://doi.org/10.1007/s12671-020-01335-4"
 zenodo_doi: "10.5281/zenodo.17347351"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/jmz2n/"
 n_participants: 125
 n_time_points: 240
 n_days: "40"

@@ -1,13 +1,17 @@
 ---
 title: "van Woerkom (2022)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by van Woerkom (2022) on happiness, well-being, affect, need for autonomy: 173 participants (Dutch working adults), 50 time points over 5 days, sampled 10x/day in 90-minute blocks with 30 to 150 minutes in between. Harmonized and openly available via openESM."
 dataset_id: "0063_vanwoerkom"
+dataset_version: "3.0.0"
+date_modified: "2026-09-25"
 first_author: "van Woerkom"
 year: 2022
 paper_doi: "https://doi.org/10.1007/s10902-022-00546-x"
 zenodo_doi: "10.5281/zenodo.17361708"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/k98pt/"
 n_participants: 173
 n_time_points: 50
 n_days: "5"

@@ -1,13 +1,17 @@
 ---
 title: "Hasselhorn (2021)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Hasselhorn (2021) on questionnaire length, affect, extraversion, perceived burden: 282 participants (university students), 42 time points over 14 days, sampled 3x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0025_hasselhorn"
+dataset_version: "2.0.0"
+date_modified: "2026-09-25"
 first_author: "Hasselhorn"
 year: 2021
 paper_doi: "https://doi.org/10.3758/s13428-021-01683-6"
 zenodo_doi: "10.5281/zenodo.17347567"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/vw3gf/"
 n_participants: 282
 n_time_points: 42
 n_days: "14"

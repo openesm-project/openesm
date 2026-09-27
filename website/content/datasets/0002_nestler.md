@@ -1,13 +1,17 @@
 ---
 title: "Nestler (2022)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Nestler (2022) on personality, affect, motivation: 85 participants, 82 time points over 82 days, sampled 1x/day unclear schedule. Harmonized and openly available via openESM."
 dataset_id: "0002_nestler"
+dataset_version: "2.0.0"
+date_modified: "2026-09-25"
 first_author: "Nestler"
 year: 2022
 paper_doi: "https://doi.org/10.1007/s11336-021-09787-w"
 zenodo_doi: "10.5281/zenodo.17347328"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/gmz7e"
 n_participants: 85
 n_time_points: 82
 n_days: "82"

@@ -1,13 +1,17 @@
 ---
 title: "Soyster (2022)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Soyster (2022) on alcohol consumption, craving, affect, context: 33 participants (adult alcohol consumers), 129 time points over 15 days, sampled 8x/day semi-random schedule. Harmonized and openly available via openESM."
 dataset_id: "0035_soyster"
+dataset_version: "1.0.0"
+date_modified: "2025-10-14"
 first_author: "Soyster"
 year: 2022
 paper_doi: "https://doi.org/10.1037/adb0000666"
 zenodo_doi: "10.5281/zenodo.17347645"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/q7upd/"
 n_participants: 33
 n_time_points: 129
 n_days: "15"

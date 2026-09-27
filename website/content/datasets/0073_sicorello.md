@@ -1,13 +1,17 @@
 ---
 title: "Sicorello (2024)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Sicorello (2024) on emotion regulation, stress, affect: 227 participants (adults between 18-65), 60 time points over 10 days, sampled 6x/day semi-randomized prompts within 30-minute intervals with 75 minutes between intervals and a 45-minute expiration time for each prompt. Harmonized and openly available via openESM."
 dataset_id: "0073_sicorello"
+dataset_version: "2.0.0"
+date_modified: "2026-09-17"
 first_author: "Sicorello"
 year: 2024
 paper_doi: "https://doi.org/10.31234/osf.io/8mzvu"
 zenodo_doi: "10.5281/zenodo.19886179"
 license: "CC BY-NC 4.0"
+link_to_data: "https://github.com/MaurizioSicorello/SDERSvalid_Analysis/blob/main/data/SDERSvalid_DailyLife_data_preprocessed.csv"
 n_participants: 227
 n_time_points: 60
 n_days: "10"

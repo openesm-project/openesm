@@ -1,13 +1,17 @@
 ---
 title: "Merolla (2022)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Merolla (2022) on responsiveness, social connection, hope, life satisfaction: 120 participants (undergraduate students), 60 time points over 10 days, sampled 6x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0061_merolla"
+dataset_version: "2.0.0"
+date_modified: "2026-09-25"
 first_author: "Merolla"
 year: 2022
 paper_doi: "https://doi.org/10.1007/s10902-024-00710-5"
 zenodo_doi: "10.5281/zenodo.17348441"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/nts94/"
 n_participants: 120
 n_time_points: 60
 n_days: "10"

@@ -1,13 +1,17 @@
 ---
 title: "Hawks (2023)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Hawks (2023) on momentary cognition, context, stress: 122 participants (adults), 30 time points over 10 days, sampled 3x/day fixed time windows. Harmonized and openly available via openESM."
 dataset_id: "0003_hawks"
+dataset_version: "1.0.0"
+date_modified: "2026-04-27"
 first_author: "Hawks"
 year: 2023
 paper_doi: "https://doi.org/10.1016/j.bpsc.2022.12.002"
 zenodo_doi: "10.5281/zenodo.17347389"
 license: "CC BY-NC 4.0"
+link_to_data: "https://github.com/zwihawks/PredictingMomentaryCog"
 n_participants: 122
 n_time_points: 30
 n_days: "10"
@@ -68,7 +72,7 @@ participants: "adults"
 
 ## Citation
 
-Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., & Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, Reliability of Neurocognitive Measures for Mental Health, 8(8), 841–851. https://doi.org/10.1016/j.bpsc.2022.12.002
+Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., Singh, S., Frumkin, M. R., Sliwinski, M., & Germine, L. T. (2023). Accurate prediction of momentary cognition from intensive longitudinal data. Biological Psychiatry: Cognitive Neuroscience and Neuroimaging, 8(8), 841–851. https://doi.org/10.1016/j.bpsc.2022.12.002
 
 
 

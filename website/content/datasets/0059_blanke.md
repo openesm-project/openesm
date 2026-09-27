@@ -1,13 +1,17 @@
 ---
 title: "Blanke (2020)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Blanke (2020) on mindfulness, reflection, affect, well-being, emotion regulation: 70 participants (students), 54 time points over 9 days, sampled 6x/day within self-selected 12hr timeframe. Harmonized and openly available via openESM."
 dataset_id: "0059_blanke"
+dataset_version: "1.0.0"
+date_modified: "2025-10-14"
 first_author: "Blanke"
 year: 2020
 paper_doi: "https://doi.org/10.1037/emo0000659"
 zenodo_doi: "10.5281/zenodo.17347911"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/nvt6a/"
 n_participants: 70
 n_time_points: 54
 n_days: "9"

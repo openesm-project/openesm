@@ -1,13 +1,17 @@
 ---
 title: "Kuppens (2016)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Kuppens (2016) on neuroticism, affect, emotion: 95 participants (undergraduate students), 70 time points over 7 days, sampled 10x/day random 90-minute intervals. Harmonized and openly available via openESM."
 dataset_id: "0011_kuppens"
+dataset_version: "1.0.0"
+date_modified: "2025-10-14"
 first_author: "Kuppens"
 year: 2016
 paper_doi: "https://doi.org/10.1177/1073191116645909"
 zenodo_doi: "10.5281/zenodo.17347412"
 license: "CC BY-NC 4.0"
+link_to_data: "https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials"
 n_participants: 95
 n_time_points: 70
 n_days: "7"

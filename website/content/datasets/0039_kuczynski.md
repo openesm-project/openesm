@@ -1,13 +1,17 @@
 ---
 title: "Kuczynski (2021)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Kuczynski (2021) on loneliness, depression, affect, social interaction: 515 participants (adults), 75 time points over 75 days, sampled 1x/day in the evening. Harmonized and openly available via openESM."
 dataset_id: "0039_kuczynski"
+dataset_version: "2.0.0"
+date_modified: "2026-09-17"
 first_author: "Kuczynski"
 year: 2021
 paper_doi: "https://doi.org/10.1177/02654075211045717"
 zenodo_doi: "10.5281/zenodo.17347657"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/huz67"
 n_participants: 515
 n_time_points: 75
 n_days: "75"

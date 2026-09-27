@@ -1,13 +1,17 @@
 ---
 title: "Marian (2022)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Marian (2022) on depression, anxiety, COVID: 145 participants (undergraduate students), 63 time points over 21 days, sampled 4x/day 4 hour intervals based on individual wake-up time. Harmonized and openly available via openESM."
 dataset_id: "0052_marian"
+dataset_version: "2.0.0"
+date_modified: "2026-09-10"
 first_author: "Marian"
 year: 2022
 paper_doi: "https://doi.org/10.1007/s10862-022-10014-8"
 zenodo_doi: "10.5281/zenodo.17348267"
 license: "CC-BY 4.0"
+link_to_data: "https://osf.io/pt9dk"
 n_participants: 145
 n_time_points: 63
 n_days: "21"

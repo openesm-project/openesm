@@ -618,6 +618,11 @@ body .main {
   min-width: 3.5rem;
 }
 
+/* dataset descriptions are for search engines (meta tag, json-ld); the page already shows the same facts */
+.post-single:has(.dataset-access-box) .post-description {
+  display: none;
+}
+
 .dataset-copy-button {
   flex-shrink: 0;
   padding: 0.1rem 0.5rem;

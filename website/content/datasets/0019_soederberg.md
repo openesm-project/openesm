@@ -1,13 +1,17 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Söderberg (2024) on schooling, relationships, self-efficacy, emotions, sleep: 300 participants (middle and secondary school students), 40 time points over 10 days, sampled 4x/day fixed and random sampling. Harmonized and openly available via openESM."
 dataset_id: "0019_soederberg"
+dataset_version: "1.0.0"
+date_modified: "2026-09-15"
 first_author: "Söderberg"
 year: 2024
 paper_doi: "https://doi.org/10.12688/f1000research.157148.1"
 zenodo_doi: "10.5281/zenodo.17347732"
 license: "CC-BY 4.0"
+link_to_data: "https://doi.org/10.5281/zenodo.13332148"
 n_participants: 300
 n_time_points: 40
 n_days: "10"

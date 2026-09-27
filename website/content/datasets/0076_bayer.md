@@ -1,13 +1,17 @@
 ---
 title: "Bayer (2026)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Bayer (2026) on daily mobility, space perception, social perception: 519 participants (adults residing in the data collection city with an Android phone), 84 time points over 14 days, sampled 6x/day randomly in equal intervals, with some surveys triggered by passive sensing mobility. Harmonized and openly available via openESM."
 dataset_id: "0076_bayer"
+dataset_version: "1.0.0"
+date_modified: ""
 first_author: "Bayer"
 year: 2026
 paper_doi: "https://doi.org/10.1177/20501579221149823"
 zenodo_doi: "10.5281/zenodo.22911022"
 license: "CC-BY 4.0"
+link_to_data: "https://osf.io/d56cx/overview"
 n_participants: 519
 n_time_points: 84
 n_days: "14"

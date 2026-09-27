@@ -1,13 +1,17 @@
 ---
 title: "Habets (2020)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Habets (2020) on Parkinson, affect, motor symptoms, context: 20 participants (patients with Parkinson disease), 98 time points over 14 days, sampled 7x/day semi-random. Harmonized and openly available via openESM."
 dataset_id: "0014_habets"
+dataset_version: "1.0.0"
+date_modified: "2025-10-14"
 first_author: "Habets"
 year: 2020
 paper_doi: "https://doi.org/10.2196/15628"
 zenodo_doi: "10.5281/zenodo.17347440"
 license: "CC0 1.0"
+link_to_data: "https://doi.org/10.34894/5HHK8H"
 n_participants: 20
 n_time_points: 98
 n_days: "14"

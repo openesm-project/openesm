@@ -1,13 +1,17 @@
 ---
 title: "Wright (2017)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Wright (2017) on affect, interpersonal disorders, personality pathology, emotions, social interactions: 245 participants (outpatients screened for personality pathology and their romantic partners), 344 time points over 21 days, sampled event-contingent based on social interactions. Harmonized and openly available via openESM."
 dataset_id: "0064_wright"
+dataset_version: "1.0.0"
+date_modified: "2026-06-11"
 first_author: "Wright"
 year: 2017
 paper_doi: "https://doi.org/10.1037/abn0000286"
 zenodo_doi: "10.5281/zenodo.17348495"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/6ghcx/"
 n_participants: 245
 n_time_points: 344
 n_days: "21"

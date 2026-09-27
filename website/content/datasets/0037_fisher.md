@@ -1,13 +1,17 @@
 ---
 title: "Fisher (2019)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Fisher (2019) on Smoking, affect, substance abuse: 52 participants (regular smokers), 128 time points over 34 days, sampled 4x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0037_fisher"
+dataset_version: "1.0.0"
+date_modified: "2026-09-09"
 first_author: "Fisher"
 year: 2019
 paper_doi: "https://doi.org/10.31234/osf.io/e24v6"
 zenodo_doi: "10.5281/zenodo.17348069"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/nkemg/"
 n_participants: 52
 n_time_points: 128
 n_days: "34"

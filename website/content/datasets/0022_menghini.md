@@ -1,13 +1,17 @@
 ---
 title: "Menghini (2023)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Menghini (2023) on workplace stress, mood: 211 participants (full-time office workers), 21 time points over 3 days, sampled 7x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0022_menghini"
+dataset_version: "2.0.0"
+date_modified: "2026-09-25"
 first_author: "Menghini"
 year: 2023
 paper_doi: "https://doi.org/10.1027/1015-5759/a000725"
 zenodo_doi: "10.5281/zenodo.17347537"
 license: "GPL-3.0"
+link_to_data: "https://github.com/Luca-Menghini/ESMscales-workplaceStress"
 n_participants: 211
 n_time_points: 21
 n_days: "3"

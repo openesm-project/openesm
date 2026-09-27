@@ -1,13 +1,17 @@
 ---
 title: "Dejonckheere (2019)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Dejonckheere (2019) on rumination, depression, emotion regulation, affect: 100 participants (community sample), 98 time points over 14 days, sampled 7x/day stratified random interval scheme. Harmonized and openly available via openESM."
 dataset_id: "0012_dejonckheere"
+dataset_version: "1.0.0"
+date_modified: "2026-04-27"
 first_author: "Dejonckheere"
 year: 2019
 paper_doi: "https://doi.org/10.1080/02699931.2018.1524747"
 zenodo_doi: "10.5281/zenodo.17347569"
 license: "CC-BY 4.0"
+link_to_data: "https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664"
 n_participants: 100
 n_time_points: 98
 n_days: "14"

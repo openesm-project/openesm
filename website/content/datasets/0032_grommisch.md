@@ -1,13 +1,17 @@
 ---
 title: "Grommisch (2020)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Grommisch (2020) on emotion regulation, rumination, well-being: 179 participants (adults), 189 time points over 21 days, sampled 9x/day semi-fixed intervals. Harmonized and openly available via openESM."
 dataset_id: "0032_grommisch"
+dataset_version: "2.0.0"
+date_modified: "2026-09-25"
 first_author: "Grommisch"
 year: 2020
 paper_doi: "https://doi.org/10.1037/emo0000669"
 zenodo_doi: "10.5281/zenodo.17347621"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/r7jw6/"
 n_participants: 179
 n_time_points: 189
 n_days: "21"

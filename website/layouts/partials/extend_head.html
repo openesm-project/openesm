@@ -37,7 +37,7 @@
   {{- $licenseUrl = "https://spdx.org/licenses/Apache-2.0.html" -}}
 {{- end -}}
 
-{{- $description := printf "%s — ESM dataset by %s (%d). Part of the openESM database of open experience sampling datasets." (.Params.topics | default "Experience sampling dataset") .Params.first_author (.Params.year | int) -}}
+{{- $description := .Description | default (printf "%s — ESM dataset by %s (%d). Part of the openESM database of open experience sampling datasets." (.Params.topics | default "Experience sampling dataset") .Params.first_author (.Params.year | int)) -}}
 {{- $sizeStr := printf "%d participants, %d time points" (.Params.n_participants | int) (.Params.n_time_points | int) -}}
 {{- $zenodoDOI := .Params.zenodo_doi | default "" -}}
 {{- $zenodoUrl := "" -}}
@@ -45,41 +45,61 @@
   {{- $zenodoUrl = printf "https://doi.org/%s" $zenodoDOI -}}
 {{- end -}}
 
+{{- /* safeJS stops hugo from re-escaping jsonify output inside <script>, which would double-quote every value */ -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
-  "name": {{ .Title | jsonify }},
-  "description": {{ $description | jsonify }},
-  "url": {{ .Permalink | jsonify }},
+  "name": {{ .Title | jsonify | safeJS }},
+  "description": {{ $description | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }},
   {{- if $zenodoDOI }}
-  "identifier": {{ printf "https://doi.org/%s" $zenodoDOI | jsonify }},
+  "identifier": {{ $zenodoUrl | jsonify | safeJS }},
+  "sameAs": {{ $zenodoUrl | jsonify | safeJS }},
   {{- end }}
+  {{- with .Params.dataset_version }}
+  "version": {{ . | jsonify | safeJS }},
+  {{- end }}
+  {{- with .Params.paper_doi }}
+  "citation": {{ . | jsonify | safeJS }},
+  {{- end }}
+  {{- with .Params.link_to_data }}
+  "isBasedOn": {{ . | jsonify | safeJS }},
+  {{- end }}
+  "isAccessibleForFree": true,
+  "publisher": {
+    "@type": "Organization",
+    "name": "openESM",
+    "url": {{ site.Home.Permalink | jsonify | safeJS }}
+  },
   "creator": {
     "@type": "Person",
-    "name": {{ .Params.first_author | jsonify }}
+    "name": {{ .Params.first_author | jsonify | safeJS }}
   },
   {{- if .Params.year }}
-  "datePublished": {{ .Params.year | string | jsonify }},
+  "datePublished": {{ .Params.year | string | jsonify | safeJS }},
+  {{- end }}
+  {{- with .Params.date_modified }}
+  "dateModified": {{ . | jsonify | safeJS }},
   {{- end }}
   {{- if $licenseUrl }}
-  "license": {{ $licenseUrl | jsonify }},
+  "license": {{ $licenseUrl | jsonify | safeJS }},
   {{- end }}
   {{- if .Params.sampling_scheme }}
-  "measurementTechnique": {{ .Params.sampling_scheme | jsonify }},
+  "measurementTechnique": {{ .Params.sampling_scheme | jsonify | safeJS }},
   {{- end }}
-  "size": {{ $sizeStr | jsonify }},
-  "keywords": {{ .Params.topics | jsonify }},
+  "size": {{ $sizeStr | jsonify | safeJS }},
+  "keywords": {{ .Params.topics | jsonify | safeJS }},
   "inLanguage": "en",
   "includedInDataCatalog": {
     "@type": "DataCatalog",
     "name": "openESM",
-    "url": {{ site.Home.Permalink | jsonify }}
+    "url": {{ site.Home.Permalink | jsonify | safeJS }}
   }{{- if $zenodoUrl }},
   "distribution": [
     {
       "@type": "DataDownload",
-      "contentUrl": {{ $zenodoUrl | jsonify }},
+      "contentUrl": {{ $zenodoUrl | jsonify | safeJS }},
       "encodingFormat": "text/tab-separated-values",
       "description": "Harmonized dataset provided via openESM"
     }

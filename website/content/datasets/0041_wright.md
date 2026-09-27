@@ -1,13 +1,17 @@
 ---
 title: "Wright (2019)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Wright (2019) on personality disorder, interpersonal behavior, stress, affect, functioning: 94 participants (individuals with personality disorder diagnosis), 100 time points over 100 days, sampled 1x/day in the evening. Harmonized and openly available via openESM."
 dataset_id: "0041_wright"
+dataset_version: "1.0.0"
+date_modified: "2025-10-14"
 first_author: "Wright"
 year: 2019
 paper_doi: "https://doi.org/10.1037/pas0000617"
 zenodo_doi: "10.5281/zenodo.17348148"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/5x8rv"
 n_participants: 94
 n_time_points: 100
 n_days: "100"

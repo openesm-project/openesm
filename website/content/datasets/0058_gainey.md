@@ -1,13 +1,17 @@
 ---
 title: "Gainey (2023)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Gainey (2023) on awareness, mindfulness, emotion, cognitive fusion, well-being: 356 participants (adults, oversampled for people in treatment or seeking treatment), 42 time points over 7 days, sampled 6x/day pseudo-random intervals with minimum interval between prompts. Harmonized and openly available via openESM."
 dataset_id: "0058_gainey"
+dataset_version: "2.0.0"
+date_modified: "2026-09-17"
 first_author: "Gainey"
 year: 2023
 paper_doi: "https://doi.org/10.1177/21677026221147262"
 zenodo_doi: "10.5281/zenodo.17348369"
 license: "CC BY-NC 4.0"
+link_to_data: "https://osf.io/gct7x/"
 n_participants: 356
 n_time_points: 42
 n_days: "7"

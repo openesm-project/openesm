@@ -1,13 +1,17 @@
 ---
 title: "Ballou (2025)"
-date: 2026-09-25
+date: 2026-09-27
 draft: false
+description: "Experience sampling (ESM) dataset by Ballou (2025) on videogames, gaming, well-being, mental health: 1284 participants (18-40 year old people who play video games), 30 time points over 30 days, sampled 1x/day at 2 pm local time. Harmonized and openly available via openESM."
 dataset_id: "0075_ballou"
+dataset_version: "1.0.0"
+date_modified: ""
 first_author: "Ballou"
 year: 2025
 paper_doi: "https://doi.org/10.31234/osf.io/nz96c_v1"
 zenodo_doi: "10.5281/zenodo.21495793"
 license: "CC0 1.0 - modified"
+link_to_data: "https://github.com/digital-wellbeing/open-play/tree/main/data"
 n_participants: 1284
 n_time_points: 30
 n_days: "30"
