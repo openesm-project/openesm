@@ -1,6 +1,6 @@
 ---
 title: "Contreras (2020)"
-date: 2026-09-27
+date: 2025-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Contreras (2020) on paranoia, sadness, closeness to others, avoidance: 23 participants (participants with above-average paranoid ideation and/or interpersonal sensitivity), 70 time points over 7 days, sampled 10x/day stratified sampling. Harmonized and openly available via openESM."
 dataset_id: "0028_contreras"

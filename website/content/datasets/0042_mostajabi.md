@@ -1,6 +1,6 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-09-27
+date: 2026-09-17
 draft: false
 description: "Experience sampling (ESM) dataset by Mostajabi (2024) on personality, affect, personality disorder, interpersonal: 342 participants (community participants (excluding undergraduates)), 70 time points over 10 days, sampled random momentary prompts and scheduled daily diary. Harmonized and openly available via openESM."
 dataset_id: "0042_mostajabi"

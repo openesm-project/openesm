@@ -1,6 +1,6 @@
 ---
 title: "Menghini (2023)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Menghini (2023) on workplace stress, mood: 211 participants (full-time office workers), 21 time points over 3 days, sampled 7x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0022_menghini"

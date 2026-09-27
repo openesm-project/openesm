@@ -1,6 +1,6 @@
 ---
 title: "Neubauer (2020)"
-date: 2026-09-27
+date: 2025-10-15
 draft: false
 description: "Experience sampling (ESM) dataset by Neubauer (2020) on COVID, schooling, adolescents, family: 562 participants (adults living in a household with a schoolchild), 21 time points over 21 days, sampled 1x/day at 7pm completed until 5am. Harmonized and openly available via openESM."
 dataset_id: "0072_neubauer"

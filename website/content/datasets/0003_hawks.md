@@ -1,6 +1,6 @@
 ---
 title: "Hawks (2023)"
-date: 2026-09-27
+date: 2026-04-27
 draft: false
 description: "Experience sampling (ESM) dataset by Hawks (2023) on momentary cognition, context, stress: 122 participants (adults), 30 time points over 10 days, sampled 3x/day fixed time windows. Harmonized and openly available via openESM."
 dataset_id: "0003_hawks"

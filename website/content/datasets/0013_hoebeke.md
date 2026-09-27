@@ -1,6 +1,6 @@
 ---
 title: "Hoebeke (2022)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Hoebeke (2022) on rumination, depression, anxiety: 40 participants (community sample), 56 time points over 14 days, sampled 4x/day time-contingent equidistant intervals. Harmonized and openly available via openESM."
 dataset_id: "0013_hoebeke"

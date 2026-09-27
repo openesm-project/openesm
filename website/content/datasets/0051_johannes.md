@@ -1,6 +1,6 @@
 ---
 title: "Johannes (2021)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Johannes (2021) on online vigilance, affect, wellbeing, smartphone, social interactions: 77 participants (Dutch undergraduate students using social media), 40 time points over 5 days, sampled 8x semi-random with at least 45 minutes between surveys. Harmonized and openly available via openESM."
 dataset_id: "0051_johannes"

@@ -1,6 +1,6 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-09-27
+date: 2026-09-15
 draft: false
 description: "Experience sampling (ESM) dataset by Söderberg (2024) on schooling, relationships, self-efficacy, emotions, sleep: 300 participants (middle and secondary school students), 40 time points over 10 days, sampled 4x/day fixed and random sampling. Harmonized and openly available via openESM."
 dataset_id: "0019_soederberg"

@@ -1,6 +1,6 @@
 ---
 title: "Ringwald (2024)"
-date: 2026-09-27
+date: 2026-09-15
 draft: false
 description: "Experience sampling (ESM) dataset by Ringwald (2024) on empathy, affect, interpersonal, congruence, social perception: 526 participants (adults (18-50)), 145 time points over 15 days, sampled event-contingent based on social interactions. Harmonized and openly available via openESM."
 dataset_id: "0046_ringwald"

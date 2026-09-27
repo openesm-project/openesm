@@ -1,6 +1,6 @@
 ---
 title: "Fisher (2017)"
-date: 2026-09-27
+date: 2025-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Fisher (2017) on mood, anxiety, procrastination, depression: 40 participants (participants with a diagnosis of MDD and/or GAD), 212 time points over 55 days, sampled 4x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0033_fisher"

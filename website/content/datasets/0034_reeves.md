@@ -1,6 +1,6 @@
 ---
 title: "Reeves (2020)"
-date: 2026-09-27
+date: 2026-09-15
 draft: false
 description: "Experience sampling (ESM) dataset by Reeves (2020) on PTSD, emotions, sleep, physical symptoms: 20 participants (participants with PTSD), 168 time points over 43 days, sampled 4x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0034_reeves"

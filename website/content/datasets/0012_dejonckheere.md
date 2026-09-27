@@ -1,6 +1,6 @@
 ---
 title: "Dejonckheere (2019)"
-date: 2026-09-27
+date: 2026-04-27
 draft: false
 description: "Experience sampling (ESM) dataset by Dejonckheere (2019) on rumination, depression, emotion regulation, affect: 100 participants (community sample), 98 time points over 14 days, sampled 7x/day stratified random interval scheme. Harmonized and openly available via openESM."
 dataset_id: "0012_dejonckheere"

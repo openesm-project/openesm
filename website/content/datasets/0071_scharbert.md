@@ -1,6 +1,6 @@
 ---
 title: "Scharbert (2023)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Scharbert (2023) on affect, well-being, Covid, prejudice: 2855 participants (adults), 140 time points over 28 days, sampled 5x/day with 4 randomly-timed surveys between 9am and 6pm and one daily evening survey after 7pm. Harmonized and openly available via openESM."
 dataset_id: "0071_scharbert"

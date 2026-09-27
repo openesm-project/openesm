@@ -1,6 +1,6 @@
 ---
 title: "Flueckiger (2014)"
-date: 2026-09-27
+date: 2026-09-17
 draft: false
 description: "Experience sampling (ESM) dataset by Flueckiger (2014) on health behavior, depression, academic performance, affect: 72 participants (first-year psychology students), 32 time points over 32 days, sampled 1x/day at 5pm. Harmonized and openly available via openESM."
 dataset_id: "0015_flueckiger"

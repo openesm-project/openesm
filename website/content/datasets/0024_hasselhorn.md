@@ -1,6 +1,6 @@
 ---
 title: "Hasselhorn (2021)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Hasselhorn (2021) on sampling frequency, affect, compliance, extraversion, perceived burden: 316 participants (university students), 84 time points over 14 days, sampled 9x/day or 3x/day subject-specific schedule. Harmonized and openly available via openESM."
 dataset_id: "0024_hasselhorn"

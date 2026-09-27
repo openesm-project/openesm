@@ -1,6 +1,6 @@
 ---
 title: "Nepal (2024)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Nepal (2024) on mental health, resilience, behavior, COVID, anxiety, depression, social media: 220 participants (undergraduate students), 441 time points over 441 days, sampled irregular. Harmonized and openly available via openESM."
 dataset_id: "0040_nepal"

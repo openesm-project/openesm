@@ -1,6 +1,6 @@
 ---
 title: "Fisher (2019)"
-date: 2026-09-27
+date: 2026-09-09
 draft: false
 description: "Experience sampling (ESM) dataset by Fisher (2019) on Smoking, affect, substance abuse: 52 participants (regular smokers), 128 time points over 34 days, sampled 4x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0037_fisher"

@@ -1,6 +1,6 @@
 ---
 title: "Sicorello (2024)"
-date: 2026-09-27
+date: 2026-09-17
 draft: false
 description: "Experience sampling (ESM) dataset by Sicorello (2024) on emotion regulation, stress, affect: 227 participants (adults between 18-65), 60 time points over 10 days, sampled 6x/day semi-randomized prompts within 30-minute intervals with 75 minutes between intervals and a 45-minute expiration time for each prompt. Harmonized and openly available via openESM."
 dataset_id: "0073_sicorello"

@@ -1,6 +1,6 @@
 ---
 title: "Fernández (2025)"
-date: 2026-09-27
+date: 2025-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Fernández (2025) on well-being, smartphone usage, social media: 225 participants (young adults (18-25)), 50 time points over 10 days, sampled 5x/day semi-random signal contingent. Harmonized and openly available via openESM."
 dataset_id: "0026_fernandez"

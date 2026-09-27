@@ -1,6 +1,6 @@
 ---
 title: "Hensel (2023)"
-date: 2026-09-27
+date: 2026-09-10
 draft: false
 description: "Experience sampling (ESM) dataset by Hensel (2023) on spina bifida, incontinence, affect, activities: 91 participants (adults with spina bifida and current symptoms of incontinence), 30 time points over 30 days, sampled 1x/day for a window of four hours. Harmonized and openly available via openESM."
 dataset_id: "0066_hensel"

@@ -1,6 +1,6 @@
 ---
 title: "Nestler (2022)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Nestler (2022) on personality, affect, motivation: 85 participants, 82 time points over 82 days, sampled 1x/day unclear schedule. Harmonized and openly available via openESM."
 dataset_id: "0002_nestler"

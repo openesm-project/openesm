@@ -1,6 +1,6 @@
 ---
 title: "Bosley (2019)"
-date: 2026-09-27
+date: 2026-04-27
 draft: false
 description: "Experience sampling (ESM) dataset by Bosley (2019) on GAD, affect, dampening: 96 participants (undergraduate students with elevated GAD symptoms), 45 time points over 19 days, sampled 4x/day 30-minute interval. Harmonized and openly available via openESM."
 dataset_id: "0036_bosley"

@@ -1,6 +1,6 @@
 ---
 title: "Kuczynski (2021)"
-date: 2026-09-27
+date: 2026-09-17
 draft: false
 description: "Experience sampling (ESM) dataset by Kuczynski (2021) on loneliness, depression, affect, social interaction: 515 participants (adults), 75 time points over 75 days, sampled 1x/day in the evening. Harmonized and openly available via openESM."
 dataset_id: "0039_kuczynski"

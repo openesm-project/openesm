@@ -1,6 +1,6 @@
 ---
 title: "Gundogdu (2017)"
-date: 2026-09-27
+date: 2025-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Gundogdu (2017) on social interactions, personality states, personality: 54 participants (employees of research center), 90 time points over 30 days, sampled 3x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0021_gundogdu"

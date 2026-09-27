@@ -1,6 +1,6 @@
 ---
 title: "Fried (2021)"
-date: 2026-09-27
+date: 2026-09-17
 draft: false
 description: "Experience sampling (ESM) dataset by Fried (2021) on mental health, social contact, COVID: 79 participants (student sample), 56 time points over 14 days, sampled 4x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0001_fried"

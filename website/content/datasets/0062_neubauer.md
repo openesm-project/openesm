@@ -1,6 +1,6 @@
 ---
 title: "Neubauer (2024)"
-date: 2026-09-27
+date: 2026-09-09
 draft: false
 description: "Experience sampling (ESM) dataset by Neubauer (2024) on timescales, COVID, academic achievement, study demands: 322 participants (undergraduate students), 84 time points over 14 days, sampled 6x/day semi-random schedule. Harmonized and openly available via openESM."
 dataset_id: "0062_neubauer"

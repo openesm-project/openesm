@@ -1,6 +1,6 @@
 ---
 title: "Westhoff (2024)"
-date: 2026-09-27
+date: 2026-08-18
 draft: false
 description: "Experience sampling (ESM) dataset by Westhoff (2024) on psychological flexibility, cognition, affect: 114 participants (young adults), 105 time points over 21 days, sampled 5x/day semi-random schedule. Harmonized and openly available via openESM."
 dataset_id: "0008_westhoff"

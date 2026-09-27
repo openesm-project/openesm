@@ -131,6 +131,18 @@ function latestChangelogDate(changelog) {
   return dates.sort().pop() || '';
 }
 
+// page date: latest changelog entry, else the date already in the page, else today.
+// keeps dates stable across regenerations so the sitemap only reports real changes
+function pageDate(changelog, outputPath) {
+  const changelogDate = latestChangelogDate(changelog);
+  if (changelogDate) return changelogDate;
+  if (fs.existsSync(outputPath)) {
+    const match = fs.readFileSync(outputPath, 'utf8').match(/^date: (\S+)$/m);
+    if (match) return match[1];
+  }
+  return new Date().toISOString().split('T')[0];
+}
+
 // Read and process all dataset folders
 const generateDatasetPages = () => {
   // Get all subdirectories in the datasets directory
@@ -151,11 +163,12 @@ const generateDatasetPages = () => {
 
       const zenodoUrl = data.zenodo_doi ? formatZenodoDOI(data.zenodo_doi) : '';
       const changelogContent = formatChangelog(data.changelog);
+      const outputPath = path.join(outputDir, `${folder}.md`);
 
       // Create markdown content for the dataset page
       const content = `---
 title: "${escapeFM(data.first_author)} (${data.year})"
-date: ${new Date().toISOString().split('T')[0]}
+date: ${pageDate(data.changelog, outputPath)}
 draft: false
 description: "${escapeFM(buildDescription(data))}"
 dataset_id: "${escapeFM(folder)}"
@@ -249,7 +262,6 @@ ${data.features.map(feature => {
 `;
 
       // Write the markdown file
-      const outputPath = path.join(outputDir, `${folder}.md`);
       fs.writeFileSync(outputPath, content);
       console.log(`Generated dataset page for ${folder}`);
     } else {

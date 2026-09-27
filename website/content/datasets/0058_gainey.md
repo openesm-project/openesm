@@ -1,6 +1,6 @@
 ---
 title: "Gainey (2023)"
-date: 2026-09-27
+date: 2026-09-17
 draft: false
 description: "Experience sampling (ESM) dataset by Gainey (2023) on awareness, mindfulness, emotion, cognitive fusion, well-being: 356 participants (adults, oversampled for people in treatment or seeking treatment), 42 time points over 7 days, sampled 6x/day pseudo-random intervals with minimum interval between prompts. Harmonized and openly available via openESM."
 dataset_id: "0058_gainey"

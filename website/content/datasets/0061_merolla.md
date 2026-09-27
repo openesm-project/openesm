@@ -1,6 +1,6 @@
 ---
 title: "Merolla (2022)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Merolla (2022) on responsiveness, social connection, hope, life satisfaction: 120 participants (undergraduate students), 60 time points over 10 days, sampled 6x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0061_merolla"

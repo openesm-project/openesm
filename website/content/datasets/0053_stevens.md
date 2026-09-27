@@ -1,6 +1,6 @@
 ---
 title: "Stevens (2020)"
-date: 2026-09-27
+date: 2026-09-17
 draft: false
 description: "Experience sampling (ESM) dataset by Stevens (2020) on body positivity, social media, affect, body satisfaction, fitspiration: 133 participants (undergraduate students), 42 time points over 7 days, sampled 6x/day semi-random intervals with anchor times and 40 minute period around them. Harmonized and openly available via openESM."
 dataset_id: "0053_stevens"

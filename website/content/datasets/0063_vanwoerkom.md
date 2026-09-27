@@ -1,6 +1,6 @@
 ---
 title: "van Woerkom (2022)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by van Woerkom (2022) on happiness, well-being, affect, need for autonomy: 173 participants (Dutch working adults), 50 time points over 5 days, sampled 10x/day in 90-minute blocks with 30 to 150 minutes in between. Harmonized and openly available via openESM."
 dataset_id: "0063_vanwoerkom"

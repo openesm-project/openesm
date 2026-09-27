@@ -1,6 +1,6 @@
 ---
 title: "Koval (2013)"
-date: 2026-09-27
+date: 2026-09-09
 draft: false
 description: "Experience sampling (ESM) dataset by Koval (2013) on well-being, affect, depression, affect dynamics: 100 participants (undergraduate students), 70 time points over 7 days, sampled 10x/day stratified random interval. Harmonized and openly available via openESM."
 dataset_id: "0031_koval"

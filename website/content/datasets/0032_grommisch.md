@@ -1,6 +1,6 @@
 ---
 title: "Grommisch (2020)"
-date: 2026-09-27
+date: 2026-09-25
 draft: false
 description: "Experience sampling (ESM) dataset by Grommisch (2020) on emotion regulation, rumination, well-being: 179 participants (adults), 189 time points over 21 days, sampled 9x/day semi-fixed intervals. Harmonized and openly available via openESM."
 dataset_id: "0032_grommisch"
