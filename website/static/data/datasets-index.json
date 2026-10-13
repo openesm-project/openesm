@@ -29355,34 +29355,6 @@
         "comments": ""
       },
       {
-        "name": "event_day",
-        "description": "Daily event",
-        "type": "freetext",
-        "coding": "",
-        "answer_categories": "101",
-        "details": "Describe the main event that took place today",
-        "labels": "",
-        "transformation": "",
-        "source": "",
-        "assessment_type": "Daily",
-        "construct": "context, activity",
-        "comments": ""
-      },
-      {
-        "name": "event_time",
-        "description": "Daily event time",
-        "type": "PosixCt",
-        "coding": "",
-        "answer_categories": "101",
-        "details": "When did this event take place (time)?",
-        "labels": "",
-        "transformation": "",
-        "source": "",
-        "assessment_type": "Daily",
-        "construct": "context, activity",
-        "comments": ""
-      },
-      {
         "name": "wearing_annoying",
         "description": "Wearing of EDA device annoying",
         "type": "rating_scale",

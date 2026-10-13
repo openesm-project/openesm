@@ -6,8 +6,14 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1002/per.2252",
   "zenodo_doi": "10.5281/zenodo.17348032",
-  "dataset_version": "3.0.0",
+  "dataset_version": "4.0.0",
   "changelog": [
+    {
+      "date": "2026-10-13",
+      "description": "Removal of non-self report event data.",
+      "type": "data",
+      "dataset_version": "4.0.0"
+    },
     {
       "date": "2026-09-17",
       "description": "Removal of uncleaned static and daily data pending privacy review.",
@@ -19,13 +25,13 @@
       "description": "Add metadata for participant_mov.",
       "type": "metadata",
       "dataset_version": "2.0.0"
-    }, 
+    },
     {
       "date": "2026-09-03",
       "description": "Remove some open text data.",
       "type": "data",
       "dataset_version": "2.0.0"
-    },    
+    },
     {
       "date": "2025-10-14",
       "description": "Initial release.",
@@ -807,34 +813,6 @@
       "source": "CAPTION",
       "assessment_type": "ESM",
       "construct": "situational appraisal, context",
-      "comments": ""
-    },
-    {
-      "name": "event_day",
-      "description": "Daily event",
-      "variable_type": "freetext",
-      "coding": "",
-      "answer_categories": "101",
-      "details": "Describe the main event that took place today",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "context, activity",
-      "comments": ""
-    },
-    {
-      "name": "event_time",
-      "description": "Daily event time",
-      "variable_type": "PosixCt",
-      "coding": "",
-      "answer_categories": "101",
-      "details": "When did this event take place (time)?",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "Daily",
-      "construct": "context, activity",
       "comments": ""
     },
     {

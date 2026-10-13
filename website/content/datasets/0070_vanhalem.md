@@ -1,11 +1,11 @@
 ---
 title: "van Halem (2020)"
-date: 2026-09-17
+date: 2026-10-13
 draft: false
 description: "Experience sampling (ESM) dataset by van Halem (2020) on skin conductance, affect, arousal, situation: 82 participants (first-year psychology students in Tilburg), 69 time points over 5 days, sampled random triggers and triggers based on skin conductance. Harmonized and openly available via openESM."
 dataset_id: "0070_vanhalem"
-dataset_version: "3.0.0"
-date_modified: "2026-09-17"
+dataset_version: "4.0.0"
+date_modified: "2026-10-13"
 first_author: "van Halem"
 year: 2020
 paper_doi: "https://doi.org/10.1002/per.2252"
@@ -82,6 +82,7 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 
 ## Changelog
 
+- **2026-10-13** (4.0.0) *data change*: Removal of non-self report event data.
 - **2026-09-17** (3.0.0) *data change*: Removal of uncleaned static and daily data pending privacy review.
 - **2026-09-15** (2.0.0) *metadata change*: Add metadata for participant_mov.
 - **2026-09-03** (2.0.0) *data change*: Remove some open text data.
@@ -147,8 +148,6 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 | [useful]({{< relref "/descriptives/" >}}?dataset=0070&item=useful) | Useful | rating_scale | 101 | The current situation can be described as... useful |  |  | CAPTION | ESM | situational appraisal, context |  |
 | [silly]({{< relref "/descriptives/" >}}?dataset=0070&item=silly) | Silly | rating_scale | 101 | The current situation can be described as... silly |  |  | CAPTION | ESM | situational appraisal, context |  |
 | [repulsive]({{< relref "/descriptives/" >}}?dataset=0070&item=repulsive) | Repulsive | rating_scale | 101 | The current situation can be described as... repulsive |  |  | CAPTION | ESM | situational appraisal, context |  |
-| event_day | Daily event | freetext | 101 | Describe the main event that took place today |  |  |  | Daily | context, activity |  |
-| event_time | Daily event time | PosixCt | 101 | When did this event take place (time)? |  |  |  | Daily | context, activity |  |
 | [wearing_annoying]({{< relref "/descriptives/" >}}?dataset=0070&item=wearing_annoying) | Wearing of EDA device annoying | rating_scale | 101 | Wearing the skin conduction band today was annoying |  |  |  | Daily | sensor, usability, skin conductance |  |
 | [wearing_obstructing]({{< relref "/descriptives/" >}}?dataset=0070&item=wearing_obstructing) | Wearing of EDA device obstructing | rating_scale | 101 | Wearing the skin conductance band today has hampered me in daily tasks |  |  |  | Daily | sensor, usability, skin conductance |  |
 | [wearing_influence]({{< relref "/descriptives/" >}}?dataset=0070&item=wearing_influence) | Wearing of EDA device influence | rating_scale | 101 | Wearing the band made me behave differently today |  |  |  | Daily | sensor, usability, skin conductance |  |
