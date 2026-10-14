@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-15",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "1x/day at 7pm completed until 5am",
   "participants": "adults living in a household with a schoolchild",
-  "coding_file": "0072_neubauer_variables",
   "additional_comments": "data from the PACO project; for some Likert questions, -1 indicates that the question could not be answered",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -1731,4 +1736,3 @@
     }
   ]
 }
-

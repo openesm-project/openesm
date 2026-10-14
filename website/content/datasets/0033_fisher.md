@@ -1,11 +1,11 @@
 ---
 title: "Fisher (2017)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Fisher (2017) on mood, anxiety, procrastination, depression: 40 participants (participants with a diagnosis of MDD and/or GAD), 212 time points over 55 days, sampled 4x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0033_fisher"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Fisher"
 year: 2017
 paper_doi: "https://doi.org/10.1037/abn0000311"
@@ -82,6 +82,7 @@ Fisher, A. J., Reeves, J. W., Lawyer, G., Medaglia, J. D., & Rubel, J. A. (2017)
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

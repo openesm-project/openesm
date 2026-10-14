@@ -1,11 +1,11 @@
 ---
 title: "Bosley (2019)"
-date: 2026-04-27
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Bosley (2019) on GAD, affect, dampening: 96 participants (undergraduate students with elevated GAD symptoms), 45 time points over 19 days, sampled 4x/day 30-minute interval. Harmonized and openly available via openESM."
 dataset_id: "0036_bosley"
 dataset_version: "1.0.0"
-date_modified: "2026-04-27"
+date_modified: "2026-10-14"
 first_author: "Bosley"
 year: 2019
 paper_doi: "https://doi.org/10.31234/osf.io/bhn7y"
@@ -82,6 +82,7 @@ Bosley, H. G., Sandel, D. B., & Fisher, A. J. (2020). Idiographic dynamics of po
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-04-27** (1.0.0) *metadata change*: Fix 'extraversion' typo in variable coding.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

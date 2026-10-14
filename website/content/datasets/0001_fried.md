@@ -1,11 +1,11 @@
 ---
 title: "Fried (2021)"
-date: 2026-09-17
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Fried (2021) on mental health, social contact, COVID: 79 participants (student sample), 56 time points over 14 days, sampled 4x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0001_fried"
 dataset_version: "3.0.0"
-date_modified: "2026-09-17"
+date_modified: "2026-10-14"
 first_author: "Fried"
 year: 2021
 paper_doi: "https://doi.org/10.1177/21677026211017839"
@@ -82,6 +82,7 @@ Fried, E. I., Papanikolaou, F., & Epskamp, S. (2022). Mental health and social c
 
 ## Changelog
 
+- **2026-10-14** (3.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-17** (3.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-15** (2.0.0) *data change*: Remove redundant time column.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.

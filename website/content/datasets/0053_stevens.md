@@ -1,11 +1,11 @@
 ---
 title: "Stevens (2020)"
-date: 2026-09-17
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Stevens (2020) on body positivity, social media, affect, body satisfaction, fitspiration: 133 participants (undergraduate students), 42 time points over 7 days, sampled 6x/day semi-random intervals with anchor times and 40 minute period around them. Harmonized and openly available via openESM."
 dataset_id: "0053_stevens"
 dataset_version: "2.0.0"
-date_modified: "2026-09-17"
+date_modified: "2026-10-14"
 first_author: "Stevens"
 year: 2020
 paper_doi: "https://doi.org/10.1016/j.bodyim.2020.09.003"
@@ -82,6 +82,7 @@ Stevens, A., & Griffiths, S. (2020). Body Positivity (#BoPo) in everyday life: A
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-15** (1.0.0) *metadata change*: Add metadata for dual_fits_bo_po.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

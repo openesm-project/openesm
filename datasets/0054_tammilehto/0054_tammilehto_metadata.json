@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-25",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "7x/day semi-random intervals, scheduled in blocks",
   "participants": "undergraduate students",
-  "coding_file": "0054_tammilehto_variables",
   "additional_comments": "no day and beep information available",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -239,4 +244,3 @@
     }
   ]
 }
-

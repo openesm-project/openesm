@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-15-09",
       "description": "Set beep column to NA and retained original hour_block column; removed uncleaned static data pending internal review.",
       "type": "data",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "4x/day every fixed schedule every for hours, starting time chosen by participants",
   "participants": "students",
-  "coding_file": "0060_beck_variables",
   "additional_comments": "no beep information available; part of larger personality intervention study; one individual (143) had identical duplicate responses, which we removed; number of max. observations and days taken from maximum observations in data",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -1541,4 +1546,3 @@
     }
   ]
 }
-

@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "5x/day semi-random signal contingent",
   "participants": "young adults (18-25)",
-  "coding_file": "0026_fernández_variables",
   "additional_comments": "no beep and day information available; sample 1 of the cited paper; only a subset of days was shared",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

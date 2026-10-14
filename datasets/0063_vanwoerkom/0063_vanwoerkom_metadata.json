@@ -9,29 +9,35 @@
   "dataset_version": "3.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "3.0.0"
+    },
+    {
       "date": "2026-09-25",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
       "dataset_version": "3.0.0"
     },
-  {
-    "date": "2026-09-15",
-    "description": "Removed redundant not_misunderstood column.",
-    "type": "data",
-    "dataset_version": "2.0.0"
-  },
-  {
-    "date": "2025-10-18",
-    "description": "Removed underscore from file names.",
-    "type": "data",
-    "dataset_version": "1.0.1"
-  },
-  {
-    "date": "2025-10-15",
-    "description": "Initial release.",
-    "type": "data",
-    "dataset_version": "1.0.0"
-  }
+    {
+      "date": "2026-09-15",
+      "description": "Removed redundant not_misunderstood column.",
+      "type": "data",
+      "dataset_version": "2.0.0"
+    },
+    {
+      "date": "2025-10-18",
+      "description": "Removed underscore from file names.",
+      "type": "data",
+      "dataset_version": "1.0.1"
+    },
+    {
+      "date": "2025-10-15",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
   ],
   "link_to_data": "https://osf.io/k98pt/",
   "license": "CC BY-NC 4.0",
@@ -48,7 +54,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "10x/day in 90-minute blocks with 30 to 150 minutes in between",
   "participants": "Dutch working adults",
-  "coding_file": "0063_vanwoerkom_variables",
   "additional_comments": "no implicit missingness but timepoints seem to be missing for dropouts",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -419,4 +424,3 @@
     }
   ]
 }
-

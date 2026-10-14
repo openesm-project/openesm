@@ -1,11 +1,11 @@
 ---
 title: "Rowland (2020)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Rowland (2020) on mindfulness, affect, network: 125 participants (undergraduate students), 240 time points over 40 days, sampled 6x/day random timing. Harmonized and openly available via openESM."
 dataset_id: "0006_rowland"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Rowland"
 year: 2020
 paper_doi: "https://doi.org/10.1007/s12671-020-01335-4"
@@ -79,6 +79,7 @@ Rowland, Z., & Wenzel, M. (2020). Mindfulness and affect-network density: does m
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

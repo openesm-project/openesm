@@ -1,11 +1,11 @@
 ---
 title: "Menghini (2023)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Menghini (2023) on workplace stress, mood: 211 participants (full-time office workers), 21 time points over 3 days, sampled 7x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0022_menghini"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Menghini"
 year: 2023
 paper_doi: "https://doi.org/10.1027/1015-5759/a000725"
@@ -79,6 +79,7 @@ Menghini, L., Pastore, M., & Balducci, C. (2023). Workplace stress in real time.
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

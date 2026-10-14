@@ -1,11 +1,11 @@
 ---
 title: "Pavani (2017)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Pavani (2017) on affect regulation, affect, personality: 78 participants (non-clinical individuals), 70 time points over 14 days, sampled 5x/day fixed-schedule with personalization. Harmonized and openly available via openESM."
 dataset_id: "0027_pavani"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Pavani"
 year: 2017
 paper_doi: "https://doi.org/10.1002/per.2109"
@@ -82,6 +82,7 @@ Pavani, J., Le Vigouroux, S., Kop, J., Congard, A., & Dauvier, B. (2017). A netw
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

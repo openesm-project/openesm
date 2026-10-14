@@ -1,11 +1,11 @@
 ---
 title: "Geschwind (2013)"
-date: 2026-06-11
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Geschwind (2013) on depression, neuroticism, mood: 130 participants (individuals with residual depressive symptoms), 200 time points over 20 days, sampled 10x/day 90-minute interval. Harmonized and openly available via openESM."
 dataset_id: "0010_geschwind"
 dataset_version: "1.0.0"
-date_modified: "2026-06-11"
+date_modified: "2026-10-14"
 first_author: "Geschwind"
 year: 2013
 paper_doi: "https://doi.org/10.1371/journal.pone.0060188"
@@ -87,6 +87,7 @@ Bringmann, L. F., Vissers, N., Wichers, M., Geschwind, N., Kuppens, P., Peeters,
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-06-11** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.0.0) *metadata change*: Fix information about sampling scheme.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-09",
       "description": "Fix information about number of participants.",
       "type": "metadata",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "6x/day semi-random schedule",
   "participants": "undergraduate students",
-  "coding_file": "0062_neubauer_variables",
   "additional_comments": "part of the STECCO project; number of participants higher than that included in the paper; more panel datasets available on OSF; some variables use \"-1\" for \"not applicable\"",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -2073,4 +2078,3 @@
     }
   ]
 }
-

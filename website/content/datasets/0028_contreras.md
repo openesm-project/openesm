@@ -1,11 +1,11 @@
 ---
 title: "Contreras (2020)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Contreras (2020) on paranoia, sadness, closeness to others, avoidance: 23 participants (participants with above-average paranoid ideation and/or interpersonal sensitivity), 70 time points over 7 days, sampled 10x/day stratified sampling. Harmonized and openly available via openESM."
 dataset_id: "0028_contreras"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Contreras"
 year: 2020
 paper_doi: "https://doi.org/10.3389/fpsyg.2020.544565"
@@ -68,9 +68,6 @@ participants: "participants with above-average paranoid ideation and/or interper
 </div>
 </div>
 
-## Additional Comments
-
-[object Object]
 
 
 ## Citation
@@ -82,6 +79,8 @@ Contreras, A., Valiente, C., Heeren, A., & Bentall, R. (2020). A temporal networ
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
+- **2026-10-14** (1.0.0) *metadata change*: Change coding of empty additional comments field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

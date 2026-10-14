@@ -1,11 +1,11 @@
 ---
 title: "Merolla (2022)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Merolla (2022) on responsiveness, social connection, hope, life satisfaction: 120 participants (undergraduate students), 60 time points over 10 days, sampled 6x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0061_merolla"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Merolla"
 year: 2022
 paper_doi: "https://doi.org/10.1007/s10902-024-00710-5"
@@ -82,6 +82,7 @@ Merolla, A. J., Neubauer, A. B., & Otmar, C. D. (2024). Responsiveness, social c
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

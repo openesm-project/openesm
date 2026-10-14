@@ -1,11 +1,11 @@
 ---
 title: "Kuppens (2016)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Kuppens (2016) on neuroticism, affect, emotion: 95 participants (undergraduate students), 70 time points over 7 days, sampled 10x/day random 90-minute intervals. Harmonized and openly available via openESM."
 dataset_id: "0011_kuppens"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Kuppens"
 year: 2016
 paper_doi: "https://doi.org/10.1177/1073191116645909"
@@ -87,6 +87,7 @@ Bringmann, L. F., Pe, M. L., Vissers, N., Ceulemans, E., Borsboom, D., Vanpaemel
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

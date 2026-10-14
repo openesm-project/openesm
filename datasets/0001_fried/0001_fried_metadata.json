@@ -9,6 +9,12 @@
   "dataset_version": "3.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "3.0.0"
+    },
+    {
       "date": "2026-09-17",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -48,7 +54,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "4x/day fixed schedule",
   "participants": "student sample",
-  "coding_file": "0001_fried_variables",
   "additional_comments": "some individuals have more than the maximum number of observations due to some prompts being expired",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

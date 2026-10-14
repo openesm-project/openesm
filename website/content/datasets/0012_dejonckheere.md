@@ -1,11 +1,11 @@
 ---
 title: "Dejonckheere (2019)"
-date: 2026-04-27
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Dejonckheere (2019) on rumination, depression, emotion regulation, affect: 100 participants (community sample), 98 time points over 14 days, sampled 7x/day stratified random interval scheme. Harmonized and openly available via openESM."
 dataset_id: "0012_dejonckheere"
 dataset_version: "1.0.0"
-date_modified: "2026-04-27"
+date_modified: "2026-10-14"
 first_author: "Dejonckheere"
 year: 2019
 paper_doi: "https://doi.org/10.1080/02699931.2018.1524747"
@@ -82,6 +82,7 @@ Dejonckheere, E., Kalokerinos, E. K., Bastian, B., & Kuppens, P. (2019). Poor em
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-04-27** (1.0.0) *metadata change*: Fix typo for 'affect' in topics.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

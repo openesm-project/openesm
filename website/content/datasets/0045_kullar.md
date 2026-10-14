@@ -1,11 +1,11 @@
 ---
 title: "Kullar (2023)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Kullar (2023) on affect, affective chronometry, mood disorders, mind wandering: 105 participants (participants with and without mood disorders), 70 time points over 14 days, sampled 5x/day fixed 30-minute interval. Harmonized and openly available via openESM."
 dataset_id: "0045_kullar"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Kullar"
 year: 2023
 paper_doi: "https://doi.org/10.1037/emo0001245"
@@ -82,6 +82,7 @@ Kullar, M., Carter, S., Hitchcock, C., Whittaker, S., Wright, A. G. C., & Dalgle
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

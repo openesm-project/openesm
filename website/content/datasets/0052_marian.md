@@ -1,11 +1,11 @@
 ---
 title: "Marian (2022)"
-date: 2026-09-10
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Marian (2022) on depression, anxiety, COVID: 145 participants (undergraduate students), 63 time points over 21 days, sampled 4x/day 4 hour intervals based on individual wake-up time. Harmonized and openly available via openESM."
 dataset_id: "0052_marian"
 dataset_version: "2.0.0"
-date_modified: "2026-09-10"
+date_modified: "2026-10-14"
 first_author: "Marian"
 year: 2022
 paper_doi: "https://doi.org/10.1007/s10862-022-10014-8"
@@ -82,6 +82,7 @@ Marian, S., Costantini, G., Macsinga, I., & Sava, F. A. (2023). The dynamic inte
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-10** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

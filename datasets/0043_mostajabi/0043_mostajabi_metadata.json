@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-17",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "random momentary prompts and scheduled daily diary",
   "participants": "college students",
-  "coding_file": "0043_mostajabi_variables",
   "additional_comments": "S2 in the paper; no beep information available; some timestamp coding unclear; affect items could relate to feeling at the moment or during the past interaction; https://osf.io/7a5de provides a good overview of previous usage of data",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

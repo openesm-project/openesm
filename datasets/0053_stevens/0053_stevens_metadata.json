@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-17",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "6x/day semi-random intervals with anchor times and 40 minute period around them",
   "participants": "undergraduate students",
-  "coding_file": "0053_stevens_variables",
   "additional_comments": "no day and beep information available; some variable coding unclear",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -399,4 +404,3 @@
     }
   ]
 }
-

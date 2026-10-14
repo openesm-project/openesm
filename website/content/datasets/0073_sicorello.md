@@ -1,11 +1,11 @@
 ---
 title: "Sicorello (2024)"
-date: 2026-09-17
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Sicorello (2024) on emotion regulation, stress, affect: 227 participants (adults between 18-65), 60 time points over 10 days, sampled 6x/day semi-randomized prompts within 30-minute intervals with 75 minutes between intervals and a 45-minute expiration time for each prompt. Harmonized and openly available via openESM."
 dataset_id: "0073_sicorello"
 dataset_version: "2.0.0"
-date_modified: "2026-09-17"
+date_modified: "2026-10-14"
 first_author: "Sicorello"
 year: 2024
 paper_doi: "https://doi.org/10.31234/osf.io/8mzvu"
@@ -82,6 +82,7 @@ Sicorello, M., Heyse, W., Pruessner, L., Elsaesser, M., & Kolar, D. R. (2025, Se
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-29** (1.0.0) *data change*: Initial release.

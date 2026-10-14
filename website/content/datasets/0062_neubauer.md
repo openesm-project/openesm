@@ -1,11 +1,11 @@
 ---
 title: "Neubauer (2024)"
-date: 2026-09-09
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Neubauer (2024) on timescales, COVID, academic achievement, study demands: 322 participants (undergraduate students), 84 time points over 14 days, sampled 6x/day semi-random schedule. Harmonized and openly available via openESM."
 dataset_id: "0062_neubauer"
 dataset_version: "1.0.0"
-date_modified: "2026-09-09"
+date_modified: "2026-10-14"
 first_author: "Neubauer"
 year: 2024
 paper_doi: "https://doi.org/10.1007/s11618-023-01182-8"
@@ -82,6 +82,7 @@ Neubauer, A. B., & Schmiedek, F. (2024). Approaching academic adjustment on mult
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

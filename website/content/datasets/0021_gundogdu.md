@@ -1,11 +1,11 @@
 ---
 title: "Gundogdu (2017)"
-date: 2026-10-13
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Gundogdu (2017) on social interactions, personality states, personality: 54 participants (employees of research center), 90 time points over 30 days, sampled 3x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0021_gundogdu"
 dataset_version: "2.0.0"
-date_modified: "2026-10-13"
+date_modified: "2026-10-14"
 first_author: "Gundogdu"
 year: 2017
 paper_doi: "https://doi.org/10.1098/rsos.170194"
@@ -82,6 +82,7 @@ Gundogdu, D., Finnerty, A. N., Staiano, J., Teso, S., Passerini, A., Pianesi, F.
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-10-13** (2.0.0) *data change*: Removal of unclear and uncleaned passive sensing data.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

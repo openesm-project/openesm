@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-15",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "6x/day at random times within the bounds of every participant's individually preferred time window, with at least 40 min. time lags between surveys",
   "participants": "general population",
-  "coding_file": "0057_ryvkina_variables",
   "additional_comments": "sample 2 in the paper; EMOTIONS project; subset of data used in a publication is available at https://osf.io/nxyh3/files/osfstorage; no beep information available; original dataset contains additional careless responding indices that could be recomputed from the data;  the original authors would be thankful if researchers planning to re-use their data could fill in this form: https://forms.gle/MDj6WceMcioq5eUt9",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -1311,4 +1316,3 @@
     }
   ]
 }
-

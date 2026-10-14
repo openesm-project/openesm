@@ -1,11 +1,11 @@
 ---
 title: "Tammilehto (2022)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Tammilehto (2022) on emotion regulation, attachment, neuroticism: 122 participants (undergraduate students), 49 time points over 7 days, sampled 7x/day semi-random intervals, scheduled in blocks. Harmonized and openly available via openESM."
 dataset_id: "0054_tammilehto"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Tammilehto"
 year: 2022
 paper_doi: "https://doi.org/10.1080/02699931.2022.2081534"
@@ -82,6 +82,7 @@ Tammilehto, J., Bosmans ,Guy, Kuppens ,Peter, Flykt ,Marjo, Peltonen ,Kirsi, Ker
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-15** (1.0.0) *data change*: Initial release.
 

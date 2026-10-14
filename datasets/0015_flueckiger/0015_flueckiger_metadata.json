@@ -9,6 +9,18 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
+      "date": "2026-10-14",
+      "description": "Fix variable type typo in one variable.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-17",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -36,7 +48,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "1x/day at 5pm",
   "participants": "first-year psychology students",
-  "coding_file": "0015_flueckiger_variables",
   "additional_comments": null,
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -100,7 +111,7 @@
     {
       "name": "physical_activity",
       "description": "Physical activity",
-      "variable_type": "numerical",
+      "variable_type": "numeric",
       "coding": "Number of minutes engaged in mild, moderate and strenuous exercise weighted by metabolic equivalents and then summed to produce a total daily leisure activity score",
       "answer_categories": "",
       "details": "Number of minutes engaged in mild, moderate and strenuous exercise weighted by metabolic equivalents and then summed to produce a total daily leisure activity score",

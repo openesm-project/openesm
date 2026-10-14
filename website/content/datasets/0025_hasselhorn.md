@@ -1,11 +1,11 @@
 ---
 title: "Hasselhorn (2021)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Hasselhorn (2021) on questionnaire length, affect, extraversion, perceived burden: 282 participants (university students), 42 time points over 14 days, sampled 3x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0025_hasselhorn"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Hasselhorn"
 year: 2021
 paper_doi: "https://doi.org/10.3758/s13428-021-01683-6"
@@ -82,6 +82,7 @@ Hasselhorn, K., Ottenstein, C., & Lischetzke, T. (2022). The effects of assessme
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-04-27** (1.0.0) *metadata change*: Fixed variable name 'relaxed_personality' in metadata.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

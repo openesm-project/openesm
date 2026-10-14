@@ -1,11 +1,11 @@
 ---
 title: "Bayer (2026)"
-date: 2026-09-27
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Bayer (2026) on daily mobility, space perception, social perception: 519 participants (adults residing in the data collection city with an Android phone), 84 time points over 14 days, sampled 6x/day randomly in equal intervals, with some surveys triggered by passive sensing mobility. Harmonized and openly available via openESM."
 dataset_id: "0076_bayer"
 dataset_version: "1.0.0"
-date_modified: ""
+date_modified: "2026-10-14"
 first_author: "Bayer"
 year: 2026
 paper_doi: "https://doi.org/10.1177/20501579221149823"
@@ -82,7 +82,7 @@ Mao, C. (Molly), Bayer, J. B., Ross, M. Q., Rhee, L., Le, H. T. K., Mount, J., C
 
 ## Changelog
 
-No changes yet.
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 
 ## Variables
 

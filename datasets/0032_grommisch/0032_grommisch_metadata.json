@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-25",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "9x/day semi-fixed intervals",
   "participants": "adults",
-  "coding_file": "0032_grommisch_variables",
   "additional_comments": "no beep information available; variable distraction is missing; data from FEEL project; sliders initialized at 50; subset of larger dataset available upon request in the EMOTE database (https://emotedatabase.com/datasets/21)",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

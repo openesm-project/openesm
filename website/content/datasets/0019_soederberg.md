@@ -1,11 +1,11 @@
 ---
 title: "Söderberg (2024)"
-date: 2026-09-15
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Söderberg (2024) on schooling, relationships, self-efficacy, emotions, sleep: 300 participants (middle and secondary school students), 40 time points over 10 days, sampled 4x/day fixed and random sampling. Harmonized and openly available via openESM."
 dataset_id: "0019_soederberg"
 dataset_version: "1.0.0"
-date_modified: "2026-09-15"
+date_modified: "2026-10-14"
 first_author: "Söderberg"
 year: 2024
 paper_doi: "https://doi.org/10.12688/f1000research.157148.1"
@@ -82,6 +82,7 @@ Mölsä, M., Forsman, A. K., & Söderberg, P. (2024, December 16). A 10-day expe
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-15** (1.0.0) *metadata change*: Add metadata for time variable; add missing asssessment types.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2026-04-27** (1.0.0) *metadata change*: Fix 'extraversion' typo in variable coding.

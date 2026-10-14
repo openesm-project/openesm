@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-06-11",
       "description": "Fix information about number of participants.",
       "type": "metadata",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "10x/day 90-minute interval",
   "participants": "individuals with residual depressive symptoms",
-  "coding_file": "0010_geschwind_variables",
   "additional_comments": "part of an experimental study; contains two study periods, each of the same length; pleasantness is on a different scale and its scale labels are unclear",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

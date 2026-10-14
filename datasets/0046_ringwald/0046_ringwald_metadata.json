@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-15",
       "description": "Add metadata for two affect variables.",
       "type": "metadata",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "event-contingent based on social interactions",
   "participants": "adults (18-50)",
-  "coding_file": "0046_ringwald_variables",
   "additional_comments": "ILIADD study; randomly initiated ESM surveys not available in this dataset; number of max. time points taken as maximum of observations in data; day and beep information missing",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

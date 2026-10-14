@@ -1,11 +1,11 @@
 ---
 title: "Nepal (2024)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Nepal (2024) on mental health, resilience, behavior, COVID, anxiety, depression, social media: 220 participants (undergraduate students), 441 time points over 441 days, sampled irregular. Harmonized and openly available via openESM."
 dataset_id: "0040_nepal"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Nepal"
 year: 2024
 paper_doi: "https://doi.org/10.1145/3643501"
@@ -82,6 +82,7 @@ Nepal, S., Liu, W., Pillai, A., Wang, W., Vojdanovski, V., Huckins, J. F., Roger
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

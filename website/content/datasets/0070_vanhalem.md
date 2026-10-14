@@ -1,11 +1,11 @@
 ---
 title: "van Halem (2020)"
-date: 2026-10-13
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by van Halem (2020) on skin conductance, affect, arousal, situation: 82 participants (first-year psychology students in Tilburg), 69 time points over 5 days, sampled random triggers and triggers based on skin conductance. Harmonized and openly available via openESM."
 dataset_id: "0070_vanhalem"
 dataset_version: "4.0.0"
-date_modified: "2026-10-13"
+date_modified: "2026-10-14"
 first_author: "van Halem"
 year: 2020
 paper_doi: "https://doi.org/10.1002/per.2252"
@@ -82,6 +82,7 @@ van Halem, S., van Roekel, E., Kroencke, L., Kuper, N., & Denissen, J. (2020). M
 
 ## Changelog
 
+- **2026-10-14** (4.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-10-13** (4.0.0) *data change*: Removal of non-self report event data.
 - **2026-09-17** (3.0.0) *data change*: Removal of uncleaned static and daily data pending privacy review.
 - **2026-09-15** (2.0.0) *metadata change*: Add metadata for participant_mov.

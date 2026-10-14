@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-17",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "6x/day EMA, 1x/day daily diary, morning survey at self-chosen time, other surveys randomly with certain interval, daily diary at 6:30pm",
   "participants": "young adults (18-25)",
-  "coding_file": "0055_wang_variables",
   "additional_comments": "Networks of Daily Experiences (NODE) study; combined the daily diary and ESM data into one dataset; some information on the family conflict and cohesion items taken from here: https://doi.org/10.1111/famp.12515, although their wording in this study was not fully clear",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -315,4 +320,3 @@
     }
   ]
 }
-

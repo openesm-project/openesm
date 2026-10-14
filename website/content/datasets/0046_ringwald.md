@@ -1,11 +1,11 @@
 ---
 title: "Ringwald (2024)"
-date: 2026-09-15
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Ringwald (2024) on empathy, affect, interpersonal, congruence, social perception: 526 participants (adults (18-50)), 145 time points over 15 days, sampled event-contingent based on social interactions. Harmonized and openly available via openESM."
 dataset_id: "0046_ringwald"
 dataset_version: "1.0.0"
-date_modified: "2026-09-15"
+date_modified: "2026-10-14"
 first_author: "Ringwald"
 year: 2024
 paper_doi: "https://doi.org/10.31234/osf.io/g7n4a_v3"
@@ -82,6 +82,7 @@ Ringwald, W., Vize, C., & Wright, A. (2025, March 9). Do you feel what I feel? T
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-15** (1.0.0) *metadata change*: Add metadata for two affect variables.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

@@ -1,11 +1,11 @@
 ---
 title: "Hoebeke (2022)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Hoebeke (2022) on rumination, depression, anxiety: 40 participants (community sample), 56 time points over 14 days, sampled 4x/day time-contingent equidistant intervals. Harmonized and openly available via openESM."
 dataset_id: "0013_hoebeke"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Hoebeke"
 year: 2022
 paper_doi: "https://doi.org/10.36131/cnfioritieditore20220504"
@@ -82,6 +82,7 @@ Hoebeke, Y., Blanchard, M. A., Contreras, A., & Heeren, A. (2022). An experience
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

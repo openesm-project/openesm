@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "unclear",
   "sampling_scheme": "5x/day fixed 30-minute interval",
   "participants": "participants with and without mood disorders",
-  "coding_file": "0045_kullar_variables",
   "additional_comments": "exact question wording unclear",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

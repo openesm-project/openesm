@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "4x semi-random, 1 prompt user-initiated before sleep",
   "participants": "adults experiencing COVID lockdown",
-  "coding_file": "0050_pronizius_variables",
   "additional_comments": "burst 2 in the paper; more description on EMA variables: https://osf.io/kaf9e and https://osf.io/4tpvd; contains a subset of data from a larger project on Covid (see for example here: https://osf.io/fdnm7/)",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

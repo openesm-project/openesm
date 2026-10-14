@@ -9,6 +9,12 @@
   "dataset_version": "4.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "4.0.0"
+    },
+    {
       "date": "2026-10-13",
       "description": "Removal of non-self report event data.",
       "type": "data",
@@ -54,7 +60,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "random triggers and triggers based on skin conductance",
   "participants": "first-year psychology students in Tilburg",
-  "coding_file": "0070_vanhalem_variables",
   "additional_comments": "more raw sensor data available on OSF; questions originally in Dutch",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

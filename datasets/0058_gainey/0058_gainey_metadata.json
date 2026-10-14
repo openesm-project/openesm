@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-17",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "6x/day pseudo-random intervals with minimum interval between prompts",
   "participants": "adults, oversampled for people in treatment or seeking treatment",
-  "coding_file": "0058_gainey_variables",
   "additional_comments": "11 participants participated in baseline but not ESM",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -539,4 +544,3 @@
     }
   ]
 }
-

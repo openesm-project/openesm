@@ -1,11 +1,11 @@
 ---
 title: "Flueckiger (2014)"
-date: 2026-09-17
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Flueckiger (2014) on health behavior, depression, academic performance, affect: 72 participants (first-year psychology students), 32 time points over 32 days, sampled 1x/day at 5pm. Harmonized and openly available via openESM."
 dataset_id: "0015_flueckiger"
 dataset_version: "2.0.0"
-date_modified: "2026-09-17"
+date_modified: "2026-10-14"
 first_author: "Flueckiger"
 year: 2014
 paper_doi: "https://doi.org/10.1371/journal.pone.0111080"
@@ -79,6 +79,8 @@ Flueckiger, L., Lieb, R., Meyer, A. H., & Mata, J. (2014). How health behaviors 
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
+- **2026-10-14** (1.0.0) *metadata change*: Fix variable type typo in one variable.
 - **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
@@ -92,7 +94,7 @@ Flueckiger, L., Lieb, R., Meyer, A. H., & Mata, J. (2014). How health behaviors 
 | day | Day of study | other |  |  |  |  |  | Daily |  |  |
 | beep | Beep of the day | other |  |  |  |  |  | Daily |  |  |
 | [sleep_quality]({{< relref "/descriptives/" >}}?dataset=0015&item=sleep_quality) | Sleep quality | rating_scale | 4 |  | 1 = very bad<br>4 = very good |  | Pittsburgh Sleep Quality Index (German version) | Daily | sleep quality, sleep |  |
-| physical_activity | Physical activity | numerical |  | Number of minutes engaged in mild, moderate and strenuous exercise weighted by metabolic equivalents and then summed to produce a total daily leisure activity score |  |  | Godin Leisure-Time Exercise Questionnaire | Daily | exercise, physical activity, activity |  |
+| physical_activity | Physical activity | numeric |  | Number of minutes engaged in mild, moderate and strenuous exercise weighted by metabolic equivalents and then summed to produce a total daily leisure activity score |  |  | Godin Leisure-Time Exercise Questionnaire | Daily | exercise, physical activity, activity |  |
 | [pa]({{< relref "/descriptives/" >}}?dataset=0015&item=pa) | Positive affect | rating_scale | 7 | Happy, content, cheerful | 1 = not at all<br>7 = extremely | mean-scored | Pleasentness scale (German version) | Daily | positive affect, affect |  |
 | [na]({{< relref "/descriptives/" >}}?dataset=0015&item=na) | Negative affect | rating_scale | 7 | Sad, downhearted, frustrated | 1 = not at all<br>7 = extremely | mean-scored | Pleasentness scale (German version) | Daily | negative affect, affect |  |
 | [learning_goal_achievement]({{< relref "/descriptives/" >}}?dataset=0015&item=learning_goal_achievement) | Learning goal achievement | rating_scale | 5 | Did you achieve the learning goals you set for yourself in the last 24 hours? (paraphrasd after item description in the paper) | 0 = not at all<br>4 = completely |  |  | Daily | learning, academic |  |

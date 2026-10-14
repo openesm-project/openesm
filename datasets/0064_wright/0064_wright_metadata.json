@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-06-11",
       "description": "Fix number of participants.",
       "type": "metadata",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "event-contingent based on social interactions",
   "participants": "outpatients screened for personality\npathology and their romantic\npartners",
-  "coding_file": "0064_wright_variables",
   "additional_comments": "data from original study shared in more detail in Wendt et al. (2020); number of time points based on max. rows in data; variable coding partially unclear",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -595,4 +600,3 @@
     }
   ]
 }
-

@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "5x/day fixed-schedule with personalization",
   "participants": "non-clinical individuals",
-  "coding_file": "0027_pavani_variables",
   "additional_comments": "due to lagged variables in the dataset; it's not fully clear to which counter each value corresponds",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-25",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "1x/day unclear schedule",
   "participants": "unclear",
-  "coding_file": "0002_nestler_variables",
   "additional_comments": "part of the FLIP study",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

@@ -7,7 +7,14 @@
   "paper_doi": "https://doi.org/10.31234/osf.io/nz96c_v1",
   "zenodo_doi": "10.5281/zenodo.21495793",
   "dataset_version": "1.0.0",
-  "changelog": {},
+  "changelog": [
+    {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://github.com/digital-wellbeing/open-play/tree/main/data",
   "license": "CC0 1.0 - modified",
   "link_to_codebook": "https://github.com/digital-wellbeing/open-play/blob/main/codebook.xlsx",
@@ -23,7 +30,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "1x/day at 2 pm local time",
   "participants": "18-40 year old people who play video games",
-  "coding_file": "0075_ballou_variables",
   "additional_comments": "Part of the \"open play\" project; more video game and time use data and additional surveys available on Zenodo and GitHub (https://github.com/digital-wellbeing/open-play). Find the modified license on GitHub and Zenodo.",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

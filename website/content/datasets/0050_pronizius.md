@@ -1,11 +1,11 @@
 ---
 title: "Pronizius (2024)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Pronizius (2024) on helping, mood, prosocial behavior, stress, COVID: 303 participants (adults experiencing COVID lockdown), 35 time points over 7 days, sampled 4x semi-random, 1 prompt user-initiated before sleep. Harmonized and openly available via openESM."
 dataset_id: "0050_pronizius"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Pronizius"
 year: 2024
 paper_doi: "https://doi.org/10.1038/s41598-024-75261-z"
@@ -82,6 +82,7 @@ Pronizius, E., Forbes, P. A. G., Feneberg, A. C., Miculescu, B., Nater, U. M., P
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

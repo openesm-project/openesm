@@ -1,11 +1,11 @@
 ---
 title: "Hensel (2023)"
-date: 2026-09-10
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Hensel (2023) on spina bifida, incontinence, affect, activities: 91 participants (adults with spina bifida and current symptoms of incontinence), 30 time points over 30 days, sampled 1x/day for a window of four hours. Harmonized and openly available via openESM."
 dataset_id: "0066_hensel"
 dataset_version: "3.0.0"
-date_modified: "2026-09-10"
+date_modified: "2026-10-14"
 first_author: "Hensel"
 year: 2023
 paper_doi: "https://doi.org/10.1371/journal.pone.0292735"
@@ -82,6 +82,7 @@ Hensel, D. J., Young, A. I., & Szymanski, K. M. (2023). The feasibility of using
 
 ## Changelog
 
+- **2026-10-14** (3.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-10** (3.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-03** (2.0.0) *data change*: Remove some open text and housekeeping column.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

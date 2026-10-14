@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-09",
       "description": "Fix information about number of participants.",
       "type": "metadata",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "10x/day stratified random interval",
   "participants": "undergraduate students",
-  "coding_file": "0031_koval_variables",
   "additional_comments": "subset of larger dataset available upon request in the EMOTE database (https://emotedatabase.com/datasets/23)",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

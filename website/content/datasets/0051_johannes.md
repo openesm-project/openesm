@@ -1,11 +1,11 @@
 ---
 title: "Johannes (2021)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Johannes (2021) on online vigilance, affect, wellbeing, smartphone, social interactions: 77 participants (Dutch undergraduate students using social media), 40 time points over 5 days, sampled 8x semi-random with at least 45 minutes between surveys. Harmonized and openly available via openESM."
 dataset_id: "0051_johannes"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Johannes"
 year: 2021
 paper_doi: "https://doi.org/10.1080/15213269.2020.1768122"
@@ -82,6 +82,7 @@ Johannes, N., Meier, A., Reinecke, L., Ehlert, S., Setiawan, D. N., Walasek, N.,
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-09-15** (1.1.0) *metadata change*: Renamed extracted_scheduled_times to scheduled_times.
 - **2026-09-09** (1.1.0) *metadata change*: Fix information about number of participants.

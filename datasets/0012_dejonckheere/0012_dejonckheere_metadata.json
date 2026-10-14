@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-04-27",
       "description": "Fix typo for 'affect' in topics.",
       "type": "metadata",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "7x/day stratified random interval scheme",
   "participants": "community sample",
-  "coding_file": "0012_dejonckheere_variables",
   "additional_comments": "some participants pre-excluded by the authors due to their compliance; subset of larger data available upon request in the EMOTE database (https://emotedatabase.com/datasets/27)",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

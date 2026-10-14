@@ -1,11 +1,11 @@
 ---
 title: "Reeves (2020)"
-date: 2026-09-15
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Reeves (2020) on PTSD, emotions, sleep, physical symptoms: 20 participants (participants with PTSD), 168 time points over 43 days, sampled 4x/day fixed schedule. Harmonized and openly available via openESM."
 dataset_id: "0034_reeves"
 dataset_version: "1.0.0"
-date_modified: "2026-09-15"
+date_modified: "2026-10-14"
 first_author: "Reeves"
 year: 2020
 paper_doi: "https://doi.org/10.1002/jts.22491"
@@ -82,6 +82,7 @@ Reeves, J. W., & Fisher, A. J. (2020). An examination of idiographic networks of
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-15** (1.0.0) *metadata change*: Add metadata for two creation variables.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

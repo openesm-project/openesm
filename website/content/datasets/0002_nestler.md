@@ -1,11 +1,11 @@
 ---
 title: "Nestler (2022)"
-date: 2026-09-25
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Nestler (2022) on personality, affect, motivation: 85 participants, 82 time points over 82 days, sampled 1x/day unclear schedule. Harmonized and openly available via openESM."
 dataset_id: "0002_nestler"
 dataset_version: "2.0.0"
-date_modified: "2026-09-25"
+date_modified: "2026-10-14"
 first_author: "Nestler"
 year: 2022
 paper_doi: "https://doi.org/10.1007/s11336-021-09787-w"
@@ -82,6 +82,7 @@ Nestler, S., & Humberg, S. (2022). A lasso and a regression tree mixed-effect mo
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-25** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2026-04-27** (1.0.0) *metadata change*: Change Likert variables from 'numeric' to 'rating_scale'.
 - **2025-10-14** (1.0.0) *data change*: Initial release.

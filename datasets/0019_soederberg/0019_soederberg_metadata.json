@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-15",
       "description": "Add metadata for time variable; add missing asssessment types.",
       "type": "metadata",
@@ -48,7 +54,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "4x/day fixed and random sampling",
   "participants": "middle and secondary school students",
-  "coding_file": "0019_söderberg_variablen",
   "additional_comments": "inconsistency between notification times and the beep ordering by the authors; contains multiple sampling frequencies; the \"stupid\" item could also be interpreted as \"hostile\" in Swedish",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

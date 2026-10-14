@@ -9,6 +9,18 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
+      "date": "2026-10-14",
+      "description": "Fix assessment type of one passive variable.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-09",
       "description": "Fix information about number of participants.",
       "type": "metadata",
@@ -36,7 +48,6 @@
   "raw_time_stamp": "unclear",
   "sampling_scheme": "1x/day on Monday, Wednesday, Friday",
   "participants": "adults with diagnosis of schizophrenia, schizoaffective disorder, or psychosis",
-  "coding_file": "0005_wang_variables",
   "additional_comments": "CrossCheck study; More raw unaggregated data available; data preaggregated by Adler et al.; number of max. time points taken as maximum in aggregated data; raw time stamp for passive sensing but not for ESM",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -1703,7 +1714,7 @@
       "labels": "",
       "transformation": "",
       "source": "",
-      "assessment_type": "sleep",
+      "assessment_type": "Passive",
       "construct": "distance travelled, movement pattern",
       "comments": ""
     },

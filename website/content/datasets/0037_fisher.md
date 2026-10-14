@@ -1,11 +1,11 @@
 ---
 title: "Fisher (2019)"
-date: 2026-09-09
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Fisher (2019) on Smoking, affect, substance abuse: 52 participants (regular smokers), 128 time points over 34 days, sampled 4x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0037_fisher"
 dataset_version: "1.0.0"
-date_modified: "2026-09-09"
+date_modified: "2026-10-14"
 first_author: "Fisher"
 year: 2019
 paper_doi: "https://doi.org/10.31234/osf.io/e24v6"
@@ -82,6 +82,7 @@ Fisher, A. J., & Soyster, P. (2019, March 28). Generating accurate personalized 
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-09** (1.0.0) *metadata change*: Fix information about number of participants.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

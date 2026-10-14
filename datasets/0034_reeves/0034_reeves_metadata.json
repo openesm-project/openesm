@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-15",
       "description": "Add metadata for two creation variables.",
       "type": "metadata",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "4x/day fixed schedule",
   "participants": "participants with PTSD",
-  "coding_file": "0034_reeves_variables",
   "additional_comments": "no beep information available; number of max. observations and days taken from maximum observations in data",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-10",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "1x/day in the evening",
   "participants": "patients diagnosed with mood disorders, anxiety disorders, trauma and stressor-related disorders, and obsessive-compulsive and related disorder",
-  "coding_file": "0017_ jang_variables",
   "additional_comments": "some item coding unclear; large amount of additional data available on Zenodo; number of max. time points calculated as the maximum span between first and last date in the data set; raw time stamp only for some variables",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

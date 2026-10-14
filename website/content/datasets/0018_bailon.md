@@ -1,11 +1,11 @@
 ---
 title: "Bailon (2020)"
-date: 2026-09-15
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Bailon (2020) on COVID, affect, pandemic, valence, arousal, context: 999 participants (community sample), 444 time points over 86 days, sampled 6x/day pseudo-random one-hour intervals. Harmonized and openly available via openESM."
 dataset_id: "0018_bailon"
 dataset_version: "2.0.0"
-date_modified: "2026-09-15"
+date_modified: "2026-10-14"
 first_author: "Bailon"
 year: 2020
 paper_doi: "https://doi.org/10.1038/s41597-020-00700-1"
@@ -82,6 +82,7 @@ Bailon, C., Goicoechea, C., Banos, O., Damas, M., Pomares, H., Correa, A., Sanab
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-15** (2.0.0) *data change*: Remove redundant date column; removed uncleaned static data pending internal review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

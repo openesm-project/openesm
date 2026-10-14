@@ -1,11 +1,11 @@
 ---
 title: "Ryvkina (2023)"
-date: 2025-10-15
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Ryvkina (2023) on COVID, personality, emotions, affect, interaction, activities: 2272 participants (general population), 84 time points over 14 days, sampled 6x/day at random times within the bounds of every participant's individually preferred time window, with at least 40 min. time lags between surveys. Harmonized and openly available via openESM."
 dataset_id: "0057_ryvkina"
 dataset_version: "1.0.0"
-date_modified: "2025-10-15"
+date_modified: "2026-10-14"
 first_author: "Ryvkina"
 year: 2023
 paper_doi: "https://doi.org/10.5334/jopd.83"
@@ -87,6 +87,7 @@ Kroencke, L., Kuper, N., Mota, S., Geukes, K., Zeigler-Hill, V., & Back, M. D. (
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-15** (1.0.0) *data change*: Initial release.
 
 ## Variables

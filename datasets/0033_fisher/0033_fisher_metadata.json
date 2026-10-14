@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "4x/day fixed schedule",
   "participants": "participants with a diagnosis of MDD and/or GAD",
-  "coding_file": "0033_fisher_variables",
   "additional_comments": "item order was randomized; partially implicit missingness; no beep information; number of max. time points and max. days taken as maximum of observations in data",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

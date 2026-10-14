@@ -1,11 +1,11 @@
 ---
 title: "Soyster (2022)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Soyster (2022) on alcohol consumption, craving, affect, context: 33 participants (adult alcohol consumers), 129 time points over 15 days, sampled 8x/day semi-random schedule. Harmonized and openly available via openESM."
 dataset_id: "0035_soyster"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Soyster"
 year: 2022
 paper_doi: "https://doi.org/10.1037/adb0000666"
@@ -82,6 +82,7 @@ Soyster, P. D., Ashlock, L., & Fisher, A. J. (2022). Pooled and person-specific 
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

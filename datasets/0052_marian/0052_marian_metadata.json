@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-10",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "4x/day 4 hour intervals based on individual wake-up time",
   "participants": "undergraduate students",
-  "coding_file": "0052_marian_variables",
   "additional_comments": "some participants pre-excluded due to compliance by authors; some collected symptoms strongly overlap and were combined in the original article; exact translation of some GAD/PHQ questions to EMA wording unclear - for example; about frequency of sleep issues",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

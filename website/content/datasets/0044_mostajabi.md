@@ -1,11 +1,11 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-09-17
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Mostajabi (2024) on personality, affect, personality disorder, interpersonal: 396 participants (college students), 42 time points over 7 days, sampled unclear. Harmonized and openly available via openESM."
 dataset_id: "0044_mostajabi"
 dataset_version: "2.0.0"
-date_modified: "2026-09-17"
+date_modified: "2026-10-14"
 first_author: "Mostajabi"
 year: 2024
 paper_doi: "https://doi.org/10.31219/osf.io/3szng"
@@ -82,6 +82,7 @@ Mostajabi, J., & Wright, A. (2024, July 9). An exploratory study on disinhibitio
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-18** (1.0.0) *data change*: Initial release.
 

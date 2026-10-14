@@ -9,6 +9,12 @@
   "dataset_version": "2.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "2.0.0"
+    },
+    {
       "date": "2026-09-25",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "9x/day or 3x/day subject-specific schedule",
   "participants": "university students",
-  "coding_file": "0024_hasselhorn_variables",
   "additional_comments": "no beep information available; study 1 of the cited paper; two ESM phases with different number of questionnaires per day; maximum number of observations for both study phases",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

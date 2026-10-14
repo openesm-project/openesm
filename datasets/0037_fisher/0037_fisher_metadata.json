@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-09-09",
       "description": "Fix information about number of participants.",
       "type": "metadata",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "4x/day random schedule",
   "participants": "regular smokers",
-  "coding_file": "0037_fisher_variables",
   "additional_comments": "some variables with unclear coding; some variables morning-only; number of max. time points and days taken as maximum of observations in data",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

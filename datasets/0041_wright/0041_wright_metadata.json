@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "no",
   "sampling_scheme": "1x/day in the evening",
   "participants": "individuals with personality disorder diagnosis",
-  "coding_file": "0041_wright_variables",
   "additional_comments": "no information on day of data collection available - unclear if there are intermediate missings",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

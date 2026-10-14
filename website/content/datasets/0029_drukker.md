@@ -1,11 +1,11 @@
 ---
 title: "Drukker (2020)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Drukker (2020) on irritable bowel syndrome, panic disorder, gastrointestinal symptoms, childhood trauma: 24 participants (individuals with IBS and panic disorder), 70 time points over 7 days, sampled 10x/day random schedule. Harmonized and openly available via openESM."
 dataset_id: "0029_drukker"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Drukker"
 year: 2020
 paper_doi: "https://doi.org/10.1016/j.jpsychores.2020.110261"
@@ -68,9 +68,6 @@ participants: "individuals with IBS and panic disorder"
 </div>
 </div>
 
-## Additional Comments
-
-[object Object]
 
 
 ## Citation
@@ -82,6 +79,8 @@ Drukker, M., Peters, J. C. H., Vork, L., Mujagic, Z., Rutten, B. P. F., van Os, 
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
+- **2026-10-14** (1.0.0) *metadata change*: Change coding of empty additional comments field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2026-04-27",
       "description": "Fix 'extraversion' typo in variable coding.",
       "type": "metadata",
@@ -36,7 +42,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "3x/day fixed time windows",
   "participants": "adults",
-  "coding_file": "0003_hawks_variables",
   "additional_comments": null,
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

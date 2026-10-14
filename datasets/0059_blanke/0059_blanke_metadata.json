@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -30,7 +36,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "6x/day within self-selected 12hr timeframe",
   "participants": "students",
-  "coding_file": "0059_blanke_variables",
   "additional_comments": "study 1 in the paper",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
@@ -345,4 +350,3 @@
     }
   ]
 }
-

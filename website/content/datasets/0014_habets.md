@@ -1,11 +1,11 @@
 ---
 title: "Habets (2020)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Habets (2020) on Parkinson, affect, motor symptoms, context: 20 participants (patients with Parkinson disease), 98 time points over 14 days, sampled 7x/day semi-random. Harmonized and openly available via openESM."
 dataset_id: "0014_habets"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Habets"
 year: 2020
 paper_doi: "https://doi.org/10.2196/15628"
@@ -82,6 +82,7 @@ Habets, J., Heijmans, M., Herff, C., Simons, C., Leentjens, A. F., Temel, Y., Ku
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

@@ -1,11 +1,11 @@
 ---
 title: "Wright (2019)"
-date: 2025-10-14
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Wright (2019) on personality disorder, interpersonal behavior, stress, affect, functioning: 94 participants (individuals with personality disorder diagnosis), 100 time points over 100 days, sampled 1x/day in the evening. Harmonized and openly available via openESM."
 dataset_id: "0041_wright"
 dataset_version: "1.0.0"
-date_modified: "2025-10-14"
+date_modified: "2026-10-14"
 first_author: "Wright"
 year: 2019
 paper_doi: "https://doi.org/10.1037/pas0000617"
@@ -87,6 +87,7 @@ Wright, A. G. C., Hopwood, C. J., & Simms, L. J. (2015). Daily interpersonal and
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
 ## Variables

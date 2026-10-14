@@ -9,6 +9,12 @@
   "dataset_version": "3.0.0",
   "changelog": [
     {
+      "date": "2026-10-14",
+      "description": "Removed the internal coding_file field.",
+      "type": "metadata",
+      "dataset_version": "3.0.0"
+    },
+    {
       "date": "2026-09-10",
       "description": "Removal of uncleaned static data pending privacy review.",
       "type": "data",
@@ -42,7 +48,6 @@
   "raw_time_stamp": "yes",
   "sampling_scheme": "1x/day for a window of four hours",
   "participants": "adults with spina bifida and current symptoms of incontinence",
-  "coding_file": "0066_hensel_variables",
   "additional_comments": "more individuals in the dataset than in the published paper; partially implicit missingness; some variable coding unclear, some likert scales have \"prefer not to answer\" option coded as 99 to distinguish it from missingness as NA",
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",

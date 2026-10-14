@@ -1,11 +1,11 @@
 ---
 title: "Mostajabi (2024)"
-date: 2026-09-17
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Mostajabi (2024) on personality, affect, personality disorder, interpersonal: 342 participants (community participants (excluding undergraduates)), 70 time points over 10 days, sampled random momentary prompts and scheduled daily diary. Harmonized and openly available via openESM."
 dataset_id: "0042_mostajabi"
 dataset_version: "2.0.0"
-date_modified: "2026-09-17"
+date_modified: "2026-10-14"
 first_author: "Mostajabi"
 year: 2024
 paper_doi: "https://doi.org/10.31219/osf.io/3szng"
@@ -87,6 +87,7 @@ Vize, C., Scott, L., Wright, A., & Kamarck, T. (2023, February 15). Socio-affect
 
 ## Changelog
 
+- **2026-10-14** (2.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-09-17** (2.0.0) *data change*: Removal of uncleaned static data pending privacy review.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 

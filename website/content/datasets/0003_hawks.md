@@ -1,11 +1,11 @@
 ---
 title: "Hawks (2023)"
-date: 2026-04-27
+date: 2026-10-14
 draft: false
 description: "Experience sampling (ESM) dataset by Hawks (2023) on momentary cognition, context, stress: 122 participants (adults), 30 time points over 10 days, sampled 3x/day fixed time windows. Harmonized and openly available via openESM."
 dataset_id: "0003_hawks"
 dataset_version: "1.0.0"
-date_modified: "2026-04-27"
+date_modified: "2026-10-14"
 first_author: "Hawks"
 year: 2023
 paper_doi: "https://doi.org/10.1016/j.bpsc.2022.12.002"
@@ -79,6 +79,7 @@ Hawks, Z. W., Strong, R., Jung, L., Beck, E. D., Passell, E. J., Grinspoon, E., 
 
 ## Changelog
 
+- **2026-10-14** (1.0.0) *metadata change*: Removed the internal coding_file field.
 - **2026-04-27** (1.0.0) *metadata change*: Fix 'extraversion' typo in variable coding.
 - **2025-10-14** (1.0.0) *data change*: Initial release.
 
