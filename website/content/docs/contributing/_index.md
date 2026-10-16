@@ -1,269 +1,154 @@
 ---
 title: "Contribute"
+mermaid: true
 ---
 
 <div class="docs-page">
 
-We welcome contributions to the openESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure. 
+We welcome contributions to the openESM database, both in the form of new datasets and improvements to existing metadata and the software infrastructure.
 
 <div class="docs-topics" role="navigation" aria-label="Topics on this page">
   <span class="docs-topics-label">On this page</span>
   <a class="docs-topic-chip" href="#adding-a-new-dataset">Add a dataset</a>
-  <a class="docs-topic-chip" href="#dataset-formatting-guidelines">Formatting</a>
-  <a class="docs-topic-chip" href="#variable-metadata">Variable metadata</a>
-  <a class="docs-topic-chip" href="#metadata-formatting-guidelines">Metadata format</a>
+  <a class="docs-topic-chip" href="#what-to-send">What to send</a>
+  <a class="docs-topic-chip" href="#sharing-your-data">Sharing your data</a>
+  <a class="docs-topic-chip" href="#variable-metadata-optional">Variable metadata</a>
+  <a class="docs-topic-chip" href="#faq">FAQ</a>
   <a class="docs-topic-chip" href="#contact">Contact</a>
 </div>
 
 # Adding a New Dataset
 
-If you have a dataset that you would like to add to the openESM database, you can simply contact us. In the early stages of the project, we are happy to add datasets that meet our inclusion criteria ourselves. We then aim to continuously improve the process of adding datasets to the openESM database, so that you can add datasets yourself in the future.
+You do not need to prepare your data in a specific format to submit them. Send us the data and the documentation you have, and we will clean the data, harmonize variable names and formats, annotate the metadata, and publish the dataset on Zenodo. See the [Dataset Journey]({{< relref "docs/journey/" >}}) for details on these steps.
 
-Alternatively, you can follow these steps to add a new dataset:
+## Before you start
 
-Before contributing, please ensure:
-- You have permission to share the data publicly
-- Participants provided appropriate consent for data sharing
-- The data has been de-identified and anonymized
-- You can provide basic metadata about the study design and variables
+Please check that:
 
-1. Open an issue on the [metadata GitHub repository](https://github.com/bsiepe/openesm-metadata) to discuss the dataset you want to add. Provide a brief description of the dataset, its relevance, and any preliminary metadata you have.
-2. If the dataset meets our inclusion criteria (see our [Data Documentation]({{< relref "docs/data/" >}}) for more information), we will guide you through the process of adding it to the openESM database.
-3. Prepare your dataset in TSV format, following our formatting guidelines (see below).
-4. Create a dataset metadata file following our standard format. An example metadata file is provided below.
-   - Include all relevant information about the dataset, such as authors, year, number of participants, time points, and topics covered.
-5. Create a variable metadata file for each variable in the dataset, detailing the variable name, description, type, and coding information.
-6. Upload the dataset files to our [Zenodo community](https://zenodo.org/communities/openesm/) and obtain a DOI for citation purposes.
-7. Add this information to the dataset metadata file.
-8. Submit a pull request to the [metadata GitHub repository](https://github.com/bsiepe/openesm-metadata).
+- The dataset meets our inclusion criteria: at least 20 participants, at least 20 possible time points, and at least 2 self-report variables measured repeatedly (see [Data Documentation]({{< relref "docs/data/" >}})).
+- You have permission to share the data publicly, and participants consented to data sharing.
+- The data are anonymized. Because the data will be publicly available, it must not be possible to re-identify participants, even in combination with other information. Please follow the data protection rules that apply to you and your institution's guidelines, and contact us if you are unsure.
 
+## Submission process
 
-## Dataset Formatting Guidelines
+```mermaid
+flowchart TD
+    A(["You have ESM or daily diary data"]) --> B{"Meets inclusion criteria?"}
+    B -- "No / unsure" --> Q["Contact us"]
+    B -- "Yes" --> C{"Consent allows public sharing<br/>and data are anonymized?"}
+    C -- "No / unsure" --> Q
+    C -- "Yes" --> D{"Data already publicly available?"}
+    D -- "Yes" --> E["Send us the link"]
+    D -- "No" --> F["Share data via a private link"]
+    E --> G{"Time to describe your variables<br/>in our format?"}
+    F --> G
+    G -- "No" --> H["Standard submission:<br/>send your codebook as it is"]
+    G -- "Yes" --> I["Annotated submission:<br/>fill in our variable table<br/>(faster processing)"]
+    H --> J(["We clean, harmonize, and publish the dataset"])
+    I --> J
 
-Create a folder structure for your dataset using the following naming convention:
-- **Main time series data**: `id_lastname_ts.tsv`
-- **Static/baseline data**: `id_lastname_static.tsv` (if applicable)
-- **Weekly data**: `id_lastname_weekly.tsv` (if applicable)
-- **Passive sensor data**: `id_lastname_passive.tsv` (if applicable)
-- **Metadata file**: `id_lastname_metadata.json`
+    style A fill:#085AB3,color:#fff,stroke:none
+    style J fill:#085AB3,color:#fff,stroke:none
+    style I fill:#E78A00,color:#fff,stroke:none
+```
 
-Where:
-- `id` is a placeholder for the dataset ID (we'll assign this)
-- `lastname` is the surname of the first author
-- All files, except for the metadata, should be in TSV (tab-separated values) format
+There are two ways to submit:
 
-### Data Cleaning Requirements
+- **Standard submission**: send the data and your codebook in whatever form you have it. We do all the annotation.
+- **Annotated submission**: additionally describe your variables in our format (see [Variable metadata](#variable-metadata-optional)). Annotating variables takes up most of our time when adding a dataset, so annotated datasets are processed faster.
 
-#### Column Names
-- Apply consistent naming: Use `snake_case` format (lowercase with underscores). In R, you can use `janitor::clean_names()` to standardize column names.
-- Replace ambiguous names like "Q1" with descriptive names like "stressed". Orient yourself at other variable names in the openESM database.
-- Ensure variable names are informative and self-explanatory.
+To start, open a [new dataset submission issue](https://github.com/openesm-project/openesm-metadata/issues) or [contact us](#contact). Please do not attach data files to GitHub issues, as these are public.
 
-#### Required Standard Columns
-Every time series dataset must include these four columns:
+## What to send
 
-**`id`**
-- Participant identifier (anonymized)
-- Should be consistent across all data files for the same participant
+1. **Data**
+   - CSV or Excel files are ideal. Other formats (e.g., SPSS) are also fine, but please list value labels in the codebook rather than only in the data file.
+   - Include all parts you can share: the repeated measures (ESM or diary) and, if available, baseline questionnaires and passive/sensor data. Baseline data (especially demographics) and passive data are often harder to anonymize than ESM responses. Please check them carefully, and contact us if you are unsure.
+   - Keep rows for prompts that were sent but not answered, if your data contain them.
+   - Tell us which values indicate missing data if you use anything other than empty cells, `NA`, or `NaN` (e.g., `-99`).
+   - If the data contain timestamps, tell us the time zone.
+2. **Codebook or item documentation**. A table with one row per variable (e.g., Excel or CSV) is ideal, but any format is fine (e.g., a questionnaire PDF or the materials section of a paper). Please include as much detail as possible, such as exact item wording, response options and their labels, and any recoding (e.g., reverse-coded items).
+3. **License**: by default, we publish datasets on Zenodo under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+   - If the data are already published under a license, we keep that license. It must allow redistribution and modification, as we publish a cleaned version of the data.
+   - If the data are online without a license, we cannot redistribute them without your permission. By submitting, you agree to publication under CC BY 4.0, unless you choose a different open license.
+   - Let us know if your consent forms restrict how the data may be reused.
+4. **Citation**: the DOI of the paper(s) describing the data collection, or another preferred way for others to cite your data.
+5. **Optional: variable metadata** in our format (see [below](#variable-metadata-optional)).
 
-**`day`**
-- Day of data collection (numeric, starting from 1 for every participant)
-- If not available in your original data, code as `NA`
+## Sharing your data
 
-**`beep`**
-- Beep number per day (numeric, starting from 1)
-- For daily diary studies, set all values to `1`
-- If not available, code as `NA`
+- **Data already in a public repository** (e.g., OSF, Zenodo): send us the link and tell us the license (see [What to send](#what-to-send)).
+- **Data not yet public**: share them through a private link, for example a private OSF project or a password-protected link from your institution's cloud storage. If neither is available to you, contact us and we will send you an upload link.
 
-#### Data Splitting
-Organize your data into separate files based on data type:
+## Variable metadata (optional)
 
-**Time Series Data (`_ts.tsv`)**
-- Contains repeated measurements (ESM responses, daily diary entries)
-- Remove any time-invariant variables (move to static file)
+If you have the time, you can describe your variables in our format. Fill in one row per variable in your data. The main fields are the most useful to us. If you leave the additional fields empty, we fill them in. Full field definitions are in the [Data Documentation]({{< relref "docs/data/#variable-level-metadata" >}}).
 
-**Static Data (`_static.tsv`)**
-- Contains time-invariant variables (age, gender, baseline questionnaires)
-- Include the `id` variable to link with time series data
-- If unsure whether a variable is time-invariant, check the number of distinct values per participant
+**Main fields**
 
-**Weekly Data (`_weekly.tsv`)**
-- Contains weekly assessments if applicable
-- Include `id` and `week` variables
+| Field | What to enter |
+|---|---|
+| `name` | Column name as it appears in your data |
+| `description` | Short description, e.g., "Anxious" |
+| `details` | Exact item wording shown to participants; for computed variables, how they were computed |
+| `labels` | Response labels, e.g., "1 = Not at all, 5 = Extremely" |
+| `transformation` | Any changes made to the raw responses, e.g., reverse coding |
 
-**Passive Data (`_passive.tsv`)**
-- Contains sensor data, app usage, or other passively collected data
+**Additional fields**
 
-#### Data Quality Checks
-- **Missing values**: Ensure all missing values are coded as `NA`
-- **Convert non-standard missing codes**: Change values like `-999`, `NaN`, or empty strings to `NA`
-- **Remove redundant columns**: Delete variables that can be easily computed from others (e.g., sum scores when individual items are present)
-- **Check for duplicates**: Remove or flag duplicate responses if present
+| Field | What to enter |
+|---|---|
+| `variable_type` | One of `rating_scale`, `categorical`, `binary`, `numeric`, `PosixCt`, `Date`, `open-text` |
+| `answer_categories` | Number of response options, e.g., `5` |
+| `source` | Questionnaire the item comes from, or `custom` |
+| `assessment_type` | `ESM`, `Daily`, `Passive`, or `Other` |
+| `construct` | Construct(s) the item measures, e.g., "anxiety, negative affect" |
+| `comments` | Anything else, e.g., "Translated from German" |
 
-## Variable Metadata
+**Example**
 
-For each variable in your dataset, please provide the following information in a structured format:
+<div class="docs-table-scroll">
 
-### Core Variable Information
+| name | description | variable_type | answer_categories | details | labels | transformation | source | assessment_type | construct | comments |
+|---|---|---|---|---|---|---|---|---|---|---|
+| anxious | Anxious | rating_scale | 5 | In the past 15 minutes, I felt anxious. | 1 = Not at all<br>5 = Extremely | | custom | ESM | anxiety, negative affect, affect | |
+| relaxed | Relaxation | rating_scale | 5 | How accurately does each adjective describe your behaviour in the last half hour? Relaxed. | 1 = Extremely inaccurate<br>5 = Extremely accurate | reverse-coded by the original authors | Mini-Markers for Big Five | ESM | relaxation, positive affect, affect, neuroticism, big five | Translated from German |
 
-#### name
-The exact column name as it appears in your cleaned dataset
+</div>
 
-#### description
-Brief, clear description of what the variable measures
+## After submission
 
-#### variable_type
-Select the most appropriate type:
-- **rating_scale**: Typical ESM items on an ordinal, Likert, VAS scale
-- **categorical**: Nominal variables with more than two categories
-- **binary**: Yes/no, true/false, or other two-category variables
-- **numeric**: Continuous variables (reaction times, counts, etc.)
-- **PosixCt**: Date-time variables
-- **Date**: Date-only variables
-- **open-text**: Free-text responses
+We write a cleaning script for your dataset, harmonize variable names and formats, and annotate the metadata. We may contact you with questions about specific variables. The cleaned data are then published in the [openESM Zenodo community](https://zenodo.org/communities/openesm/) with a DOI and become available on this website and through the R and Python packages.
 
-#### details
-- Exact question text as presented to participants
-- For computed variables, describe how they were created
-- Example: "How stressed do you feel right now?" or "Sum of items 1-5 from stress scale"
+## FAQ
 
-#### labels
-Response scale labels and anchors
-- Format: "1 = Not at all, 7 = Extremely"
-- Use line breaks to separate multiple labels
-- Include all relevant scale points
+**Should I include sum scores or other derived variables?**
+Item-level data are most important. You can include derived variables as well; please note how they were computed.
 
-### Additional Metadata
+**What about open-text responses?**
+Include them only if you have checked that they contain no identifying information. Otherwise, remove them before sharing.
 
-#### transformations
-Document any data transformations applied:
-- Log transformation
-- Standardization (z-scores)
-- Sum scoring
-- Reverse coding
-- Mean centering
-
-#### source
-Source of the question or scale:
-- Standardized questionnaire name (e.g., "PANAS")
-- Custom question developed for the study
-- Adapted from another source
-
-#### assessment_type
-Method of data collection:
-- **ESM**: Experience Sampling Method (momentary assessments)
-- **Daily**: Daily diary assessments
-- **Passive**: Automatically collected data
-- **Other**: Other assessment methods
-
-#### answer_categories
-Number of response options (for categorical variables)
-
-#### comments
-Any additional relevant information about the variable
-
-
-
-## Metadata Formatting Guidelines
-
-Each dataset should have a .json metadata file in the following format:
-
-```json
-{
-  "first_author": "LastName",
-  "dataset": "000x",
-  "year": 2024,
-  "reference_a": "@article{lastname2024,\n  title = {Title of your paper},\n  author = {Last, First and Second, Author},\n  date = {2024-01-01},\n  journaltitle = {Journal Name},\n  volume = {X},\n  number = {X},\n  pages = {X--X},\n  doi = {10.xxxx/xxxxxxx}\n}",
-  "reference_b": null,
-  "paper_doi": "https://doi.org/10.xxxx/xxxxxxx",
-  "link_to_zenodo": "https://doi.org/10.5281/zenodo.xxxxxxx",
-  "link_to_data": "https://osf.io/xxxxx/ or https://zenodo.org/record/xxxxx",
-  "link_to_codebook": "https://osf.io/xxxxx or URL to codebook",
-  "link_to_code": "https://osf.io/xxxxx or https://github.com/username/repo",
-  "license": "CC BY 4.0",
-  "n_participants": 100,
-  "n_time_points": 70,
-  "n_days": 14,
-  "n_beeps_per_day": "5",
-  "passive_data_available": "yes",
-  "which_passive_data": "GPS, accelerometer, app usage",
-  "cross_sectional_available": "yes",
-  "topics": "mood, stress, social interaction",
-  "implicit_missingness": "no",
-  "raw_time_stamp": "yes",
-  "sampling_scheme": "5x/day random within windows",
-  "participants": "community sample, ages 18-65",
-  "additional_comments": "Any additional notes about the dataset",
-  "coder_data": "Your Name",
-  "coder_metadata": "Your Name",
-  "features": [
-    {
-      "name": "id",
-      "description": "Participant ID",
-      "variable_type": "categorical",
-      "details": "",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "ESM",
-      "construct": "",
-      "answer_categories": "",
-      "comments": "Standard participant identifier"
-    },
-    {
-      "name": "day",
-      "description": "Day of data collection",
-      "variable_type": "numeric",
-      "details": "",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "ESM",
-      "construct": "",
-      "answer_categories": "",
-      "comments": "Numeric day counter starting from 1"
-    },
-    {
-      "name": "beep",
-      "description": "Beep number per day",
-      "variable_type": "numeric",
-      "details": "",
-      "labels": "",
-      "transformation": "",
-      "source": "",
-      "assessment_type": "ESM",
-      "construct": "",
-      "answer_categories": "",
-      "comments": "Beep counter within each day, starting from 1"
-    },
-    {
-      "name": "example_variable",
-      "description": "Brief description of the variable",
-      "variable_type": "Likert",
-      "details": "Wording of the question or statement",
-      "labels": "1 = Not at all, 7 = Extremely",
-      "transformation": "",
-      "source": "Custom question developed for the study",
-      "assessment_type": "ESM",
-      "construct": "",
-      "answer_categories": 7,
-      "comments": ""
-    }
-``` 
+**Do I need a GitHub account?**
+No. You can also [contact us](#contact) directly.
 
 # Contributing to Existing Datasets
+
 If you find errors or have suggestions for existing datasets, please follow these steps:
-1. Open an issue on the metadata [GitHub repository](https://github.com/bsiepe/openesm-metadata) describing the problem or suggestion.
+
+1. Open an issue on the metadata [GitHub repository](https://github.com/openesm-project/openesm-metadata) describing the problem or suggestion.
 2. If you can, fork the repository and make the changes directly.
 3. Submit a pull request with your changes.
 
 # Improving the Software Infrastructure
+
 If you have ideas for improving the openESM software infrastructure, such as the website or data processing scripts, we welcome your contributions. Please follow these steps:
+
 1. Open an issue on the openESM GitHub repository for the website or metadata. Open an issue in the respective software package repositories to improve the software infrastructure.
 2. Fork the repository and make your changes.
 3. Submit a pull request with a clear description of your changes and their benefits.
 
 # Contact
-If you have any questions or need help with contributions, feel free to reach out. 
+
+If you have any questions or need help with contributions, feel free to reach out at {{< email "bjoernsiepe+openesm@gmail.com" >}}.
 
 </div>

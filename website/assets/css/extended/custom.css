@@ -375,6 +375,16 @@ body .main {
   color: var(--primary-blue);
 }
 
+/* wide tables in docs scroll horizontally instead of squeezing columns */
+.docs-table-scroll {
+  overflow-x: auto;
+  margin-bottom: 0.85rem;
+}
+
+.docs-table-scroll table {
+  min-width: 1100px;
+}
+
 @media (max-width: 768px) {
   .docs-page {
     max-width: 100%;

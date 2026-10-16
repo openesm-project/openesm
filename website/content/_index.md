@@ -328,12 +328,12 @@ hideposts: true
                     <p>Who can contribute, what kinds of datasets qualify, and how the process works.</p>
                 </li>
                 <li>
-                    <a href="{{< relref "/docs/contributing/#dataset-formatting-guidelines" >}}">Formatting guidelines</a>
-                    <p>How to structure your data files and prepare the required metadata.</p>
+                    <a href="{{< relref "/docs/contributing/#adding-a-new-dataset" >}}">Submission process</a>
+                    <p>How to submit a dataset, with or without annotating your variables.</p>
                 </li>
                 <li>
-                    <a href="{{< relref "/docs/contributing/#adding-a-new-dataset" >}}">Submission process</a>
-                    <p>Open an issue, format your data, and submit a pull request to the metadata repository.</p>
+                    <a href="{{< relref "/docs/contributing/#what-to-send" >}}">What to send</a>
+                    <p>Data, codebook, license, and citation. No specific format needed.</p>
                 </li>
                 <li>
                     <a href="{{< relref "/docs/contributing/#contact" >}}">Contact us</a>

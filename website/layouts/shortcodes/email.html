@@ -1,0 +1,10 @@
+{{- /* email link assembled in the browser so the plain address is not in the html, to deter simple scrapers */ -}}
+<a class="email-link" href="#" data-e="{{ .Get 0 | base64Encode }}">[email address, requires JavaScript]</a>
+<script>
+  document.querySelectorAll('a.email-link[data-e]').forEach(function (a) {
+    var e = atob(a.dataset.e);
+    a.href = 'mailto:' + e;
+    a.textContent = e;
+    a.removeAttribute('data-e');
+  });
+</script>
