@@ -91,13 +91,13 @@ notes(df_example)
 
 ```python
 # Access the polars DataFrame
-print(dataset.data)  
+print(df_example.data)
 
 # Obtain citation information
-print(dataset.cite())
+print(df_example.cite())
 
 # Get notes about dataset
-print(dataset.notes())
+print(df_example.notes())
 
 ```
 

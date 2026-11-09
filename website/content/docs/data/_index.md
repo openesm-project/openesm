@@ -17,9 +17,9 @@ This section covers everything you need to know about the openESM datasets and m
 
 # Datasets
 
-## Initial Data Search Strategy
+## Inclusion Criteria
 
-Our inclusion criteria for datasets were the following:
+Our inclusion criteria for datasets are the following:
 
 - At least 20 individuals (to allow for group-based modeling later on)
 - At least 20 time points possible (to estimate person-specific models)
@@ -41,10 +41,10 @@ The dataset metadata are stored in the metadata `.json` file of the dataset. It 
 Primary author(s) of the dataset. This typically corresponds to the first or corresponding author of the associated publication. Typically, there are multiple individuals involved in the data collection, but we only list the first author of either the publication or the dataset. All individuals who contributed to the reference are listed in the relevant publication. If you think that we missed someone who should be listed here, please let us know.
 
 #### Dataset ID
-Unique dataset identifier used throughout the openESM database (e.g., "0001", "0002"). This ID is used in folder names and file references. This ID is not fully consecutive, as we have did not include some datasets that we found in our initial search.
+Unique dataset identifier used throughout the openESM database (e.g., "0001", "0002"). This ID is used in folder names and file references. This ID is not fully consecutive, as we did not include some datasets that we found in our initial search.
 
 #### Year
-Year when the data collection took place. This may differ from the publication year.
+Year associated with the dataset. Depending on the dataset, this is either the publication year of the primary paper or the year of data collection.
 
 #### Reference A
 Primary publication reference associated with the dataset. This is typically the main paper that describes the study and findings.
@@ -67,7 +67,7 @@ Digital Object Identifier (DOI) of the dataset deposited on Zenodo. Use the vers
 Digital Object Identifier (DOI) of the associated publication, enabling direct access to the published research.
 
 #### Link to Data
-Direct URL to dataset files. This typically points to the TSV files containing the actual data.
+URL to the original data repository, where the data were first shared. The cleaned openESM version is available via the Zenodo DOI.
 
 #### Link to Code
 URL to analysis code, when available. This may include preprocessing scripts, analysis code, or supplementary materials.
@@ -129,7 +129,16 @@ The exact variable name as it appears in the dataset files.
 Brief, clear description of what the variable measures or represents.
 
 #### Variable Type
-Data type specification (e.g., rating_scale, Date, binary) indicating the type of the variable
+Type of the variable in the cleaned data:
+- **rating_scale**: ordinal, Likert-type, or visual analogue scale items
+- **numeric**: continuous variables, such as counts or reaction times
+- **binary**: variables with two options (e.g., yes/no)
+- **categorical**: nominal variables with more than two categories
+- **PosixCt**: date-time variables
+- **Date**: date-only variables
+- **time**: time-only variables
+- **freetext**: open-text responses
+- **other**: structural variables, such as `day` or `beep`
 
 #### Details
 Comprehensive information including exact question wording or exact meaning of passive sensor variable.
@@ -150,7 +159,8 @@ Method of data collection, categorized as:
 - **ESM**: Experience Sampling Method (momentary assessments)
 - **Daily**: Daily assessments
 - **Passive**: Automatically collected sensor or behavioral data
-- **Other**: Any other type of assessment not fitting the above categories
+- **baseline**: Measures collected before the ESM period
+- **follow-up**: Measures collected after the ESM period
 
 #### Construct
 The psychological or behavioral construct(s) that the variable is intended to measure (e.g., "positive affect," "relationship," "context"). Obviously, assigning a variable to a construct is subjective, so we try to be as consistent as possible, but this is not always possible. We mainly added this field to allow for easier filtering of variables, and thus sometimes used relatively broad constructs. 
