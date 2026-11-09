@@ -19,7 +19,7 @@ We welcome contributions to the openESM database, both in the form of new datase
 
 # Adding a New Dataset
 
-You do not need to prepare your data in a specific format to submit them. Send us the data and the documentation you have, and we will clean the data, harmonize variable names and formats, annotate the metadata, and publish the dataset on Zenodo. See the [Dataset Journey]({{< relref "docs/journey/" >}}) for details on these steps.
+You do not need to restructure or rename your data before submitting them. Once you have checked the points below, send us the data and the documentation you have. We then annotate the variables, clean and harmonize the data, and publish the dataset on Zenodo and openESM. See the [Dataset Journey]({{< relref "docs/journey/" >}}) for details on these steps.
 
 ## Before you start
 
@@ -57,8 +57,6 @@ There are two ways to submit:
 - **Standard submission**: send the data and your codebook in whatever form you have it. We do all the annotation.
 - **Annotated submission**: additionally describe your variables in our format (see [Variable metadata](#variable-metadata-optional)). Annotating variables takes up most of our time when adding a dataset, so annotated datasets are processed faster.
 
-To start, open a [new dataset submission issue](https://github.com/openesm-project/openesm-metadata/issues) or [contact us](#contact). Please do not attach data files to GitHub issues, as these are public.
-
 ## What to send
 
 1. **Data**
@@ -79,6 +77,8 @@ To start, open a [new dataset submission issue](https://github.com/openesm-proje
 
 - **Data already in a public repository** (e.g., OSF, Zenodo): send us the link and tell us the license (see [What to send](#what-to-send)).
 - **Data not yet public**: share them through a private link, for example a private OSF project or a password-protected link from your institution's cloud storage. If neither is available to you, contact us and we will send you an upload link.
+
+To start, open a [new dataset submission issue](https://github.com/openesm-project/openesm-metadata/issues) or [contact us](#contact). Please do not attach data files to GitHub issues, as these are public.
 
 ## Variable metadata (optional)
 
@@ -110,7 +110,7 @@ We add three further fields ourselves: `variable_type` (e.g., rating scale or bi
 
 ## After submission
 
-We write a cleaning script for your dataset, harmonize variable names and formats, and annotate the metadata. We may contact you with questions about specific variables. The cleaned data are then published in the [openESM Zenodo community](https://zenodo.org/communities/openesm/) with a DOI and become available on this website and through the R and Python packages.
+We first annotate the variables in your dataset and may contact you with questions about them. We then write a cleaning script that harmonizes variable names and formats. The cleaned data are published in the [openESM Zenodo community](https://zenodo.org/communities/openesm/) with a DOI and become available on this website and through the R and Python packages.
 
 ## FAQ
 
